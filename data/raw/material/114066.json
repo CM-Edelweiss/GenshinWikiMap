@@ -1,0 +1,68 @@
+{
+  "name": "谵妄圣主的余哀",
+  "description": "赋予武器突破之力的材料。\\n在与巨龙进行战争之时，众部族的谋主，那位以面具掩藏起面目者，为部族的战士们解读非人遗迹上金色纹路的信息，那是在现今早已失落的技巧。\\n这语言与思想由自己的敌人所授予，或许对谋主来说，站在相对的立场驱使它们是相当快意的复仇之事吧。\\n只是他那份毫不掩饰的恨意，偶尔也会换来同行英杰们的深深担忧。",
+  "type": "武器突破素材",
+  "recipe": {
+    "12049": {
+      "114065": {
+        "name": "谵妄圣主的朽败",
+        "icon": "UI_ItemIcon_114065",
+        "rank": 2,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "炼武秘境：究观",
+      "type": "domain",
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 11432,
+          "name": "厄水之祸",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_SacrificialNgombe"
+        },
+        {
+          "id": 13431,
+          "name": "虹的行迹",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Pole_Isikhulu"
+        },
+        {
+          "id": 13430,
+          "name": "镇山之钉",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Pole_Umpakati"
+        },
+        {
+          "id": 14431,
+          "name": "木棉之环",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_Isikhulu"
+        },
+        {
+          "id": 12513,
+          "name": "山王长牙",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Claymore_EmeraldSword"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_114066",
+  "rank": 3,
+  "route": "Delirious Desolation of the Sacred Lord"
+}

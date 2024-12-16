@@ -26,7 +26,7 @@ class MaterialItem(BaseModel):
     id: int
     name: str
     type: str
-    recipe: bool
+    recipe: Optional[bool] = None
     mapMark: bool
     icon: str
     rank: int
@@ -122,7 +122,7 @@ class Talent(BaseModel):
     cost: Optional[int] = None
 
     def get_promote_list(self) -> Optional[dict[str, list[str]]]:
-        if self.promote is None:
+        if self.promote is None or "1" not in self.promote:
             return None
         new_dict = {item.split("|")[0]: [] for item in self.promote["1"].description}
         for promote in self.promote.values():

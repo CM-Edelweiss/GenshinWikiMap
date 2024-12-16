@@ -1,0 +1,63 @@
+{
+  "name": "谵妄圣主的朽败",
+  "description": "赋予武器突破之力的材料。\\n据说后来被称为禁城圣主的备受争议的谋主曾一度受到拘禁，而最初的人神，但当时并未具备神体的那位，向他展露了宽阔的胸怀。\\n于是原本属于他的族群接纳了他，自他从一度伟大的种族巨大翅膀的阴影中走出之后。\\n那以后，他将文有金纹的真容藏在面具之下，决定为那个掌握了他誓言的主人献出一切。",
+  "type": "武器突破素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "礼包商城兑换",
+      "type": "single"
+    },
+    {
+      "name": "炼武秘境：究观",
+      "type": "domain",
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 11432,
+          "name": "厄水之祸",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_SacrificialNgombe"
+        },
+        {
+          "id": 13431,
+          "name": "虹的行迹",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Pole_Isikhulu"
+        },
+        {
+          "id": 13430,
+          "name": "镇山之钉",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Pole_Umpakati"
+        },
+        {
+          "id": 14431,
+          "name": "木棉之环",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_Isikhulu"
+        },
+        {
+          "id": 12513,
+          "name": "山王长牙",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Claymore_EmeraldSword"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_114065",
+  "rank": 2,
+  "route": "Delirious Decadence of the Sacred Lord"
+}

@@ -20,7 +20,7 @@ week_cn = {
     "saturday": "周六",
 }
 
-DMPATH = RESOURCES / 'daily_material'
+DMPATH = RESOURCES / "daily_material"
 
 
 def get_daily_material():
@@ -77,69 +77,138 @@ def get_daily_material():
     # save_json(daily_info, DATA  / "daily_materials.json")
 
 
-async def draw_material(daily_info: dict, week: str = '周一'):
-    if week in {'周一', '周四'}:
-        week_str = '周一/周四'
-    elif week in {'周二', '周五'}:
-        week_str = '周二/周五'
+async def draw_material(daily_info: dict, week: str = "周一"):
+    if week in {"周一", "周四"}:
+        week_str = "周一/周四"
+    elif week in {"周二", "周五"}:
+        week_str = "周二/周五"
     else:
-        week_str = '周三/周六'
-    avatar = daily_info['天赋'][week]
-    weapon = daily_info['武器'][week]
-    total_height = 70 * len(weapon) + sum(math.ceil(len(items) / 5) * 160 for items in weapon.values()) + 165
-    img = PMImage(DMPATH / 'bg.png')
-    await img.stretch((50, img.width - 50), 1520, 'width')
-    await img.stretch((50, img.height - 50), total_height - 100, 'height')
-    frame = await load_image(RESOURCE_BASE_PATH / 'general' / 'frame.png')
+        week_str = "周三/周六"
+    avatar = daily_info["天赋"][week]
+    weapon = daily_info["武器"][week]
+    total_height = (
+        70 * len(weapon)
+        + sum(math.ceil(len(items) / 5) * 160 for items in weapon.values())
+        + 165
+    )
+    img = PMImage(DMPATH / "bg.png")
+    await img.stretch((50, img.width - 50), 1520, "width")
+    await img.stretch((50, img.height - 50), total_height - 100, "height")
+    frame = await load_image(RESOURCE_BASE_PATH / "general" / "frame.png")
     await img.paste(frame, (190, 62))
     await img.paste(frame, (1000, 62))
-    await img.text(f'{week_str}角色天赋材料', 223, 69, fm.get('SourceHanSerifCN-Bold.otf', 35), 'black')
-    await img.text(f'{week_str}武器突破材料', 1033, 69, fm.get('SourceHanSerifCN-Bold.otf', 35), 'black')
+    await img.text(
+        f"{week_str}角色天赋材料",
+        223,
+        69,
+        fm.get("SourceHanSerifCN-Bold.otf", 35),
+        "black",
+    )
+    await img.text(
+        f"{week_str}武器突破材料",
+        1033,
+        69,
+        fm.get("SourceHanSerifCN-Bold.otf", 35),
+        "black",
+    )
     star_bg = {
-        '3': await load_image(RESOURCE_BASE_PATH / 'icon' / 'star3.png', size=(110, 110)),
-        '4': await load_image(RESOURCE_BASE_PATH / 'icon' / 'star4.png', size=(110, 110)),
-        '5': await load_image(RESOURCE_BASE_PATH / 'icon' / 'star5.png', size=(110, 110))
+        "3": await load_image(
+            RESOURCE_BASE_PATH / "icon" / "star3.png", size=(110, 110)
+        ),
+        "4": await load_image(
+            RESOURCE_BASE_PATH / "icon" / "star4.png", size=(110, 110)
+        ),
+        "5": await load_image(
+            RESOURCE_BASE_PATH / "icon" / "star5.png", size=(110, 110)
+        ),
     }
     now_height = 165
     for name, items in avatar.items():
-        name, icon = name.split('-')
-        await img.paste(await load_image(RESOURCE_BASE_PATH / 'icon' / 'star5.png', size=(60, 60)), (90, now_height))
-        await img.paste(await load_image(RESOURCE_BASE_PATH / 'material' / f'{icon}.png', size=(60, 60)),
-                        (90, now_height))
-        await img.text(name, 165, now_height + 5, fm.get('SourceHanSerifCN-Bold.otf', 30), 'black')
+        name, icon = name.split("-")
+        await img.paste(
+            await load_image(RESOURCE_BASE_PATH / "icon" / "star5.png", size=(60, 60)),
+            (90, now_height),
+        )
+        await img.paste(
+            await load_image(
+                RESOURCE_BASE_PATH / "material" / f"{icon}.png", size=(60, 60)
+            ),
+            (90, now_height),
+        )
+        await img.text(
+            name, 165, now_height + 5, fm.get("SourceHanSerifCN-Bold.otf", 30), "black"
+        )
         now_height += 70
         items.sort(key=lambda x: int(x[0]), reverse=True)
         for i in range(len(items)):
             star = items[i][0]
-            icon = items[i][1:].split('-')[0]
-            name_ = items[i][1:].split('-')[1]
-            await img.paste(star_bg[star], (90 + 128 * (i % 5), now_height + 145 * int(i / 5)))
-            await img.paste(await load_image(RESOURCE_BASE_PATH / 'avatar' / f'{icon}.png', size=(110, 110)),
-                            (90 + 128 * (i % 5), now_height + 145 * int(i / 5)))
-            await img.text(name_, (90 + 128 * (i % 5), 90 + 128 * (i % 5) + 110), now_height + 145 * int(i / 5) + 110,
-                           fm.get('SourceHanSerifCN-Bold.otf', 20), 'green' if name_ in characters else 'black',
-                           'center')
+            icon = items[i][1:].split("-")[0]
+            name_ = items[i][1:].split("-")[1]
+            await img.paste(
+                star_bg[star], (90 + 128 * (i % 5), now_height + 145 * int(i / 5))
+            )
+            await img.paste(
+                await load_image(
+                    RESOURCE_BASE_PATH / "avatar" / f"{icon}.png", size=(110, 110)
+                ),
+                (90 + 128 * (i % 5), now_height + 145 * int(i / 5)),
+            )
+            await img.text(
+                name_,
+                (90 + 128 * (i % 5), 90 + 128 * (i % 5) + 110),
+                now_height + 145 * int(i / 5) + 110,
+                fm.get("SourceHanSerifCN-Bold.otf", 20),
+                "green" if name_ in characters else "black",
+                "center",
+            )
         now_height += math.ceil(len(items) / 5) * 145 + 70
     now_height = 165
     for name, items in weapon.items():
-        name, icon = name.split('-')
-        await img.paste(await load_image(RESOURCE_BASE_PATH / 'icon' / 'star5.png', size=(60, 60)), (908, now_height))
-        await img.paste(await load_image(RESOURCE_BASE_PATH / 'material' / f'{icon}.png', size=(60, 60)),
-                        (908, now_height))
-        await img.text(name, 983, now_height + 5, fm.get('SourceHanSerifCN-Bold.otf', 30), 'black')
+        name, icon = name.split("-")
+        await img.paste(
+            await load_image(RESOURCE_BASE_PATH / "icon" / "star5.png", size=(60, 60)),
+            (908, now_height),
+        )
+        await img.paste(
+            await load_image(
+                RESOURCE_BASE_PATH / "material" / f"{icon}.png", size=(60, 60)
+            ),
+            (908, now_height),
+        )
+        await img.text(
+            name, 983, now_height + 5, fm.get("SourceHanSerifCN-Bold.otf", 30), "black"
+        )
         now_height += 70
         items.sort(key=lambda x: int(x[0]), reverse=True)
         for i in range(len(items)):
             star = items[i][0]
-            icon = items[i][1:].split('-')[0]
-            name_ = items[i][1:].split('-')[1]
-            await img.paste(star_bg[star], (908 + 128 * (i % 5), now_height + 145 * int(i / 5)))
-            await img.paste(await load_image(RESOURCE_BASE_PATH / 'weapon' / f'{icon}.png', size=(110, 110)),
-                            (908 + 128 * (i % 5), now_height + 145 * int(i / 5)))
-            await img.text(name_, (908 + 128 * (i % 5), 908 + 128 * (i % 5) + 110), now_height + 145 * int(i / 5) + 110,
-                           fm.get('SourceHanSerifCN-Bold.otf', 20), 'green' if name_ in weapons else 'black', 'center')
+            icon = items[i][1:].split("-")[0]
+            name_ = items[i][1:].split("-")[1]
+            await img.paste(
+                star_bg[star], (908 + 128 * (i % 5), now_height + 145 * int(i / 5))
+            )
+            await img.paste(
+                await load_image(
+                    RESOURCE_BASE_PATH / "weapon" / f"{icon}.png", size=(110, 110)
+                ),
+                (908 + 128 * (i % 5), now_height + 145 * int(i / 5)),
+            )
+            await img.text(
+                name_,
+                (908 + 128 * (i % 5), 908 + 128 * (i % 5) + 110),
+                now_height + 145 * int(i / 5) + 110,
+                fm.get("SourceHanSerifCN-Bold.otf", 20),
+                "green" if name_ in weapons else "black",
+                "center",
+            )
         now_height += math.ceil(len(items) / 5) * 145 + 15
-    await img.text('CREATED BY LITTLEPAIMON', (0, img.width), img.height - 83,
-                   fm.get('bahnschrift_bold', 44, 'Bold'), '#3c3c3c', align='center')
+    await img.text(
+        "CREATED BY LITTLEPAIMON",
+        (0, img.width),
+        img.height - 83,
+        fm.get("bahnschrift_bold", 44, "Bold"),
+        "#3c3c3c",
+        align="center",
+    )
 
-    return MessageBuild.Image(img, mode='RGB', quality=80)
+    return MessageBuild.Image(img, mode="RGB", quality=80)

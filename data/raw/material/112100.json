@@ -1,0 +1,63 @@
+{
+  "name": "未熄的剑柄",
+  "description": "自古老雕像上取得的的石质剑柄。\\n或许是因为刚刚离开其主人的缘故，剑柄中的火光还尚未熄灭。",
+  "type": "角色与武器培养素材",
+  "recipe": {
+    "11064": {
+      "112099": {
+        "name": "裂断的剑柄",
+        "icon": "UI_ItemIcon_112099",
+        "rank": 3,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "60级以上魔像禁卫掉落",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 11431,
+          "name": "息燧之笛",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_Isikhulu"
+        },
+        {
+          "id": 15426,
+          "name": "筑云",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Bow_Ultimatum"
+        },
+        {
+          "id": 13512,
+          "name": "赤月之形",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Pole_BloodMoon"
+        },
+        {
+          "id": 13513,
+          "name": "柔灯挽歌",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Pole_Muguet"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 26140201,
+        "name": "魔像禁卫",
+        "icon": "UI_MonsterIcon_Golem_Legion"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_112100",
+  "rank": 4,
+  "route": "Still-Smoldering Hilt"
+}

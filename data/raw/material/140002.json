@@ -1,0 +1,23 @@
+{
+  "name": "守候之翼",
+  "description": "风之翼款式。希望能与你一起飞翔。",
+  "type": "风之翼",
+  "recipe": null,
+  "storyId": [
+    "140002"
+  ],
+  "mapMark": null,
+  "source": [
+    {
+      "name": "公测玩家答谢活动奖励",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": null,
+    "droppedBy": null
+  },
+  "icon": "UI_FlycloakIcon_Starlit",
+  "rank": 4,
+  "route": "Wings of Companionship"
+}

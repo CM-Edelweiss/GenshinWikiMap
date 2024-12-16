@@ -1,0 +1,42 @@
+{
+  "name": "过熟的火榴果",
+  "description": "击败贪食匿叶龙山王后，获得的奇特火榴果。\\n一般来说，成熟的火榴果如果再继续生长，就会跌入泥中腐烂。但是从山王的鬃毛之中落下的果子，或由于其奇特体温保护着的缘故，呈现出非常难得的「过熟」状态。这种状态下的火榴果稳定，富含燃素，果色厚重，别具一番风味。",
+  "type": "角色培养素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "30级以上贪食匿叶龙山王掉落",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000100,
+          "name": "卡齐娜",
+          "rank": 4,
+          "icon": "UI_AvatarIcon_Kachina"
+        },
+        {
+          "id": 10000101,
+          "name": "基尼奇",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Kinich"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 26220301,
+        "name": "贪食匿叶龙山王",
+        "icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Primo"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_113065",
+  "rank": 4,
+  "route": "Overripe Flamegranate"
+}

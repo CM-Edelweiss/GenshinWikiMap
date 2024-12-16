@@ -1,0 +1,73 @@
+{
+  "id": 22020201,
+  "name": "深渊使徒·霜落",
+  "type": "深渊",
+  "icon": "UI_MonsterIcon_Invoker_Herald_Ice",
+  "route": "Abyss Herald: Frost Fall",
+  "title": "锋刃凝冰的守密敕使",
+  "specialName": "深渊使徒·弗兰柯拜忒",
+  "description": "以冰霜的锋刃进行战斗的魔物，隶属于「深渊教团」。\\n既然有散播与礼赞深邃福音的圣徒，那就有将歪曲的颂词导正，将不协音去除的使者。\\n常有人说穿透身体的钢刀如同冰一般寒冷，但这种漆黑的冰霜据说连灵魂都能冻结。",
+  "entries": {
+    "22020201": {
+      "id": 22020201,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "剧情任务-脱战逻辑标签",
+          "description": "剧情任务-脱战逻辑标签",
+          "abilityName": [
+            "MonsterAffix_Quest_ReturnToBorn"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010036,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010036,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 108.672,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 56.52,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": {
+    "303501": {
+      "images": [
+        "UI_Tutorial_173"
+      ],
+      "description": "「深渊教团」的魔物，以漆黑的力量，操使冰霜进行战斗。它的部分攻击对角色造成伤害时，会<color=#FFE14BFF>削减角色的体力<\/color>。"
+    }
+  }
+}

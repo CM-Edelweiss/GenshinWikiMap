@@ -1,0 +1,68 @@
+{
+  "name": "贡祭炽心的决绝",
+  "description": "赋予武器突破之力的材料。\\n据说盗取火种的贤者，在他将掌握各种形态火焰的秘术交给部族的民众之后，曾希望他们得以踏上文明的阶梯，摆脱古老的陋习。\\n但传承的迂腐总是难以撼动，而掌握力量的稚童仅仅为了更多的献祭之物就能开启同族之间的战端，这或许也是贤者最后心灰意冷，而从历史中隐去身形的原因。\\n值得一说的事是，将生命献祭的仪式遭到全面禁止，却恰恰是禁城的圣主掌权之时。后者为了执掌权威而废弃了种种民俗，却也可视为一类文明的开端。",
+  "type": "武器突破素材",
+  "recipe": {
+    "12047": {
+      "114062": {
+        "name": "贡祭炽心的踌躇",
+        "icon": "UI_ItemIcon_114062",
+        "rank": 3,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "炼武秘境：冥见",
+      "type": "domain",
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 11431,
+          "name": "息燧之笛",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_Isikhulu"
+        },
+        {
+          "id": 11430,
+          "name": "弥坚骨",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_Umpakati"
+        },
+        {
+          "id": 12431,
+          "name": "撼地者",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Claymore_Isikhulu"
+        },
+        {
+          "id": 14430,
+          "name": "乘浪的回旋",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_Umpakati"
+        },
+        {
+          "id": 14516,
+          "name": "冲浪时光",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Catalyst_MechaPufferfish"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_114063",
+  "rank": 4,
+  "route": "Blazing Sacrificial Heart's Resolve"
+}

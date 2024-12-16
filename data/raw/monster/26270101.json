@@ -1,0 +1,116 @@
+{
+  "id": 26270101,
+  "name": "熔岩游像·流燃体",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Lava_Liquid",
+  "route": "Fluid Avatar of Lava",
+  "title": "熔岩游像·流燃体",
+  "specialName": "熊熊燃烧的石之心",
+  "description": "需要持续不断吸收热量以维持活动状态的奇特魔物。\\n曾经，更加古老而深邃的火以各种形态遍布纳塔的大地，那时一度伟大的原始住民们利用这些火来传递光热与智慧，他们认为生命与灵魂亦是从燧石相撞的火花中拥有最初的形廓。\\n如果拥有常燃之芯，即使是顽石也能成就生命吧，被名为熔岩游像包裹在体内的余烬，似乎也是那伟大时代冷灰般的残余。",
+  "entries": {
+    "26270101": {
+      "id": 26270101,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010011,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010011,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 103.2384,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 87.92,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.7,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112110": {
+          "name": "聚燃的石块",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112110",
+          "count": "5.2526"
+        },
+        "112111": {
+          "name": "聚燃的命种",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112111",
+          "count": "1.4006"
+        },
+        "112112": {
+          "name": "聚燃的游像眼",
+          "rank": 4,
+          "icon": "UI_ItemIcon_112112",
+          "count": "0.3502"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    }
+  },
+  "tips": null
+}

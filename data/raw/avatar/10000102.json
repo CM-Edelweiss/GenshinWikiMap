@@ -1,0 +1,2743 @@
+{
+  "id": 10000102,
+  "rank": 5,
+  "name": "玛拉妮",
+  "element": "Water",
+  "weaponType": "WEAPON_CATALYST",
+  "region": "NATLAN",
+  "specialProp": "FIGHT_PROP_CRITICAL",
+  "bodyType": "GIRL",
+  "icon": "UI_AvatarIcon_Mualani",
+  "birthday": [
+    8,
+    3
+  ],
+  "release": 1724706000,
+  "route": "Mualani",
+  "fetter": {
+    "title": "哗啦啦逐浪客",
+    "detail": "纳塔远近闻名的向导，水上用品商店的经营者，精通各类水上运动的逐浪客。",
+    "constellation": "浪海豹座",
+    "native": "梅兹特利",
+    "cv": {
+      "EN": "卡桑德拉·李·莫里斯",
+      "CHS": "王晓彤",
+      "JP": "东山奈央",
+      "KR": "金度希"
+    }
+  },
+  "upgrade": {
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1182.11682,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 14.1512,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 44.39386,
+        "type": "GROW_CURVE_HP_S5"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "101247": 3,
+          "104121": 1,
+          "112104": 3
+        },
+        "unlockMaxLevel": 40,
+        "addProps": {
+          "FIGHT_PROP_BASE_HP": 1013.55829,
+          "FIGHT_PROP_BASE_DEFENSE": 38.0646,
+          "FIGHT_PROP_BASE_ATTACK": 12.13249,
+          "FIGHT_PROP_CRITICAL": 0
+        },
+        "requiredPlayerLevel": 15,
+        "coinCost": 20000
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "101247": 10,
+          "104122": 3,
+          "112104": 15,
+          "113064": 2
+        },
+        "unlockMaxLevel": 50,
+        "addProps": {
+          "FIGHT_PROP_BASE_HP": 1733.71814,
+          "FIGHT_PROP_BASE_DEFENSE": 65.1105,
+          "FIGHT_PROP_BASE_ATTACK": 20.75294,
+          "FIGHT_PROP_CRITICAL": 0.048
+        },
+        "requiredPlayerLevel": 25,
+        "coinCost": 40000
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "101247": 20,
+          "104122": 6,
+          "112105": 12,
+          "113064": 4
+        },
+        "unlockMaxLevel": 60,
+        "addProps": {
+          "FIGHT_PROP_BASE_HP": 2693.93115,
+          "FIGHT_PROP_BASE_DEFENSE": 101.1717,
+          "FIGHT_PROP_BASE_ATTACK": 32.24688,
+          "FIGHT_PROP_CRITICAL": 0.096
+        },
+        "requiredPlayerLevel": 30,
+        "coinCost": 60000
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "101247": 30,
+          "104123": 3,
+          "112105": 18,
+          "113064": 8
+        },
+        "unlockMaxLevel": 70,
+        "addProps": {
+          "FIGHT_PROP_BASE_HP": 3414.09106,
+          "FIGHT_PROP_BASE_DEFENSE": 128.21761,
+          "FIGHT_PROP_BASE_ATTACK": 40.86733,
+          "FIGHT_PROP_CRITICAL": 0.096
+        },
+        "requiredPlayerLevel": 35,
+        "coinCost": 80000
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "101247": 45,
+          "104123": 6,
+          "112106": 12,
+          "113064": 12
+        },
+        "unlockMaxLevel": 80,
+        "addProps": {
+          "FIGHT_PROP_BASE_HP": 4134.25098,
+          "FIGHT_PROP_BASE_DEFENSE": 155.2635,
+          "FIGHT_PROP_BASE_ATTACK": 49.48778,
+          "FIGHT_PROP_CRITICAL": 0.144
+        },
+        "requiredPlayerLevel": 40,
+        "coinCost": 100000
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "101247": 60,
+          "104124": 6,
+          "112106": 24,
+          "113064": 20
+        },
+        "unlockMaxLevel": 90,
+        "addProps": {
+          "FIGHT_PROP_BASE_HP": 4854.41064,
+          "FIGHT_PROP_BASE_DEFENSE": 182.3094,
+          "FIGHT_PROP_BASE_ATTACK": 58.10823,
+          "FIGHT_PROP_CRITICAL": 0.192
+        },
+        "requiredPlayerLevel": 50,
+        "coinCost": 120000
+      }
+    ]
+  },
+  "other": {
+    "costume": [
+      {
+        "name": "飞鱼、热浪和月亮贝",
+        "description": "玛拉妮的装扮款式。玛拉妮本想将所有鱼儿的样子做成饰品挂在身上，但这一方案过于新锐，被服装店委婉拒绝。现在的设计已经大大简化，不过它依然足够个性，便于委托人在人群中辨识出这位热情的向导。",
+        "isDefault": true
+      }
+    ],
+    "furnitureId": 368188,
+    "nameCard": {
+      "id": 210209,
+      "name": "玛拉妮·鲨鲨",
+      "description": "名片纹饰。\\n海里的鲨鲨其实不喜欢吃人，只喜欢吃海洋生物。玛拉妮的鲨鲨冲浪板原型是淡水温泉鲨，所以只吃温泉生物。骗你的，不吃豚兽的啦。一是因为肉很柴，二是因为冲浪板不吃东西。",
+      "icon": "UI_NameCardIcon_Mualani"
+    },
+    "specialFood": {
+      "id": 108746,
+      "name": "好运传递",
+      "rank": 3,
+      "effectIcon": "UI_Buff_Item_Def_Add",
+      "icon": "UI_ItemIcon_108746"
+    }
+  },
+  "ascension": {
+    "101247": 1,
+    "104121": 2,
+    "104122": 3,
+    "104123": 4,
+    "104124": 5,
+    "104319": 5,
+    "104347": 2,
+    "104348": 3,
+    "104349": 4,
+    "112104": 1,
+    "112105": 2,
+    "112106": 3,
+    "113056": 5,
+    "113064": 4
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "101247": {
+      "name": "浪沫羽鳃",
+      "rank": 1,
+      "icon": "UI_ItemIcon_101247"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104121": {
+      "name": "涤净青金碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104121"
+    },
+    "104122": {
+      "name": "涤净青金断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104122"
+    },
+    "104123": {
+      "name": "涤净青金块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104123"
+    },
+    "104124": {
+      "name": "涤净青金",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104124"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "104347": {
+      "name": "「角逐」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104347"
+    },
+    "104348": {
+      "name": "「角逐」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104348"
+    },
+    "104349": {
+      "name": "「角逐」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104349"
+    },
+    "112104": {
+      "name": "卫从的木哨",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112104"
+    },
+    "112105": {
+      "name": "战士的铁哨",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112105"
+    },
+    "112106": {
+      "name": "龙冠武士的金哨",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112106"
+    },
+    "113056": {
+      "name": "无光质块",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113056"
+    },
+    "113064": {
+      "name": "受祝所缚之印",
+      "rank": 4,
+      "icon": "UI_ItemIcon_113064"
+    }
+  },
+  "talent": {
+    "0": {
+      "type": 0,
+      "name": "普通攻击·降温处理",
+      "description": "<color=#FFD780FF>普通攻击<\/color>\\n进行至多三段攻击，造成<color=#80C0FFFF>水元素伤害<\/color>。\\n\\n<color=#FFD780FF>重击<\/color>\\n消耗一定体力，向空中击出坠落时会造成<color=#80C0FFFF>水元素范围伤害<\/color>的水豚球。\\n\\n<color=#FFD780FF>下落攻击<\/color>\\n凝聚水元素的力量，从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成<color=#80C0FFFF>水元素范围伤害<\/color>。",
+      "icon": "Skill_A_Catalyst_MD",
+      "promote": {
+        "1": {
+          "level": 1,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "重击伤害|{param4:P}",
+            "重击体力消耗|{param5:F1}点",
+            "下坠期间伤害|{param6:F1P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.51396,
+            0.44626,
+            0.70034,
+            1.4288,
+            50,
+            0.56829,
+            1.13634,
+            1.41934,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 2,
+          "costItems": {
+            "104347": 3,
+            "112104": 6
+          },
+          "coinCost": 12500,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "重击伤害|{param4:P}",
+            "重击体力消耗|{param5:F1}点",
+            "下坠期间伤害|{param6:F1P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.55251,
+            0.47973,
+            0.75287,
+            1.53596,
+            50,
+            0.61454,
+            1.22883,
+            1.53487,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 3,
+          "costItems": {
+            "104348": 2,
+            "112105": 3
+          },
+          "coinCost": 17500,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "重击伤害|{param4:P}",
+            "重击体力消耗|{param5:F1}点",
+            "下坠期间伤害|{param6:F1P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.59105,
+            0.51319,
+            0.8054,
+            1.64312,
+            50,
+            0.6608,
+            1.32132,
+            1.6504,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 4,
+          "costItems": {
+            "104348": 4,
+            "112105": 4
+          },
+          "coinCost": 25000,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "重击伤害|{param4:P}",
+            "重击体力消耗|{param5:F1}点",
+            "下坠期间伤害|{param6:F1P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.64245,
+            0.55782,
+            0.87543,
+            1.786,
+            50,
+            0.72688,
+            1.45345,
+            1.81544,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 5,
+          "costItems": {
+            "104348": 6,
+            "112105": 6
+          },
+          "coinCost": 30000,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "重击伤害|{param4:P}",
+            "重击体力消耗|{param5:F1}点",
+            "下坠期间伤害|{param6:F1P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.681,
+            0.59129,
+            0.92796,
+            1.89316,
+            50,
+            0.77314,
+            1.54594,
+            1.93097,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 6,
+          "costItems": {
+            "104348": 9,
+            "112105": 9
+          },
+          "coinCost": 37500,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "重击伤害|{param4:P}",
+            "重击体力消耗|{param5:F1}点",
+            "下坠期间伤害|{param6:F1P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.71954,
+            0.62476,
+            0.98048,
+            2.00032,
+            50,
+            0.826,
+            1.65165,
+            2.063,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 7,
+          "costItems": {
+            "104349": 4,
+            "112106": 4,
+            "113056": 1
+          },
+          "coinCost": 120000,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "重击伤害|{param4:P}",
+            "重击体力消耗|{param5:F1}点",
+            "下坠期间伤害|{param6:F1P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.77094,
+            0.66938,
+            1.05052,
+            2.1432,
+            50,
+            0.89869,
+            1.797,
+            2.24454,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 8,
+          "costItems": {
+            "104349": 6,
+            "112106": 6,
+            "113056": 1
+          },
+          "coinCost": 260000,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "重击伤害|{param4:P}",
+            "重击体力消耗|{param5:F1}点",
+            "下坠期间伤害|{param6:F1P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.82234,
+            0.71401,
+            1.12055,
+            2.28608,
+            50,
+            0.97138,
+            1.94234,
+            2.42609,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 9,
+          "costItems": {
+            "104349": 12,
+            "112106": 9,
+            "113056": 2
+          },
+          "coinCost": 450000,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "重击伤害|{param4:P}",
+            "重击体力消耗|{param5:F1}点",
+            "下坠期间伤害|{param6:F1P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.87373,
+            0.75863,
+            1.19059,
+            2.42896,
+            50,
+            1.04406,
+            2.08769,
+            2.60763,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 10,
+          "costItems": {
+            "104319": 1,
+            "104349": 16,
+            "112106": 12,
+            "113056": 2
+          },
+          "coinCost": 700000,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "重击伤害|{param4:P}",
+            "重击体力消耗|{param5:F1}点",
+            "下坠期间伤害|{param6:F1P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.92513,
+            0.80326,
+            1.26062,
+            2.57184,
+            50,
+            1.12336,
+            2.24624,
+            2.80568,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 11,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "重击伤害|{param4:P}",
+            "重击体力消耗|{param5:F1}点",
+            "下坠期间伤害|{param6:F1P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.97652,
+            0.84789,
+            1.33065,
+            2.71472,
+            50,
+            1.20266,
+            2.4048,
+            3.00373,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 12,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "重击伤害|{param4:P}",
+            "重击体力消耗|{param5:F1}点",
+            "下坠期间伤害|{param6:F1P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.02792,
+            0.89251,
+            1.40069,
+            2.8576,
+            50,
+            1.28195,
+            2.56336,
+            3.20178,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 13,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "重击伤害|{param4:P}",
+            "重击体力消耗|{param5:F1}点",
+            "下坠期间伤害|{param6:F1P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.09216,
+            0.94829,
+            1.48823,
+            3.0362,
+            50,
+            1.36125,
+            2.72192,
+            3.39982,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 14,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "重击伤害|{param4:P}",
+            "重击体力消耗|{param5:F1}点",
+            "下坠期间伤害|{param6:F1P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.15641,
+            1.00408,
+            1.57577,
+            3.2148,
+            50,
+            1.44054,
+            2.88048,
+            3.59787,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "15": {
+          "level": 15,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "重击伤害|{param4:P}",
+            "重击体力消耗|{param5:F1}点",
+            "下坠期间伤害|{param6:F1P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.22065,
+            1.05986,
+            1.66332,
+            3.3934,
+            50,
+            1.51984,
+            3.03904,
+            3.79592,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "cooldown": 0,
+      "cost": 0,
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "3",
+              "text": "Normal Attack"
+            },
+            "type": {
+              "span": "3",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "9.6",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "8.39",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "13.1",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charged Attack",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "50",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "5",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "50",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
+    },
+    "1": {
+      "type": 0,
+      "name": "踏鲨破浪",
+      "description": "以驾驭速度与水潮的心得，随时随地进入冲浪的架势。\\n施放后，玛拉妮将获得60点夜魂值并进入夜魂加持状态。\\n\\n<color=#FFD780FF>夜魂加持·玛拉妮<\/color>\\n持续消耗夜魂值。夜魂值耗尽时，或是再次施放时，玛拉妮的夜魂加持将会结束。夜魂加持状态具有如下特性：\\n·搭乘鲨鲨冲浪板，提升玛拉妮的移动速度与抗打断能力。玛拉妮在这种状态下能在水面与液态燃素上移动，并免疫液态燃素的伤害；\\n·进行普通攻击时，将转为进行鲨鲨撕咬，基于玛拉妮的生命值上限造成具有夜魂性质的<color=#80C0FFFF>水元素伤害<\/color>。鲨鲨撕咬能够在空中进行，造成的伤害被视为普通攻击伤害；\\n·在这种状态下接触敌人时，玛拉妮对敌人施加猎物标记，并获得1层浪势充能，浪势充能至多叠加3层，每0.7秒至多通过同一个敌人获得1层。\\n\\n<color=#FFD780FF>浪势充能与猎物标记<\/color>\\n进行鲨鲨撕咬时，玛拉妮将依据浪势充能的层数，提高造成的伤害，拥有3层浪势充能时，玛拉妮的鲨鲨撕咬将转为巨浪鲨鲨撕咬，造成的伤害进一步提升，并在命中敌人时清除浪势充能。\\n鲨鲨撕咬命中敌人时，将移除其猎物标记，并向附近至多5名处于猎物标记标记状态下的敌人发射鲨鲨飞弹，造成相当于此次鲨鲨撕咬的伤害，并清除这些敌人的猎物标记；此次鲨鲨撕咬与鲨鲨飞弹的目标敌人超过1名时，造成的伤害将会降低，至多在达到3名敌人时造成原本72%的伤害。\\n\\n<i>首先鲨鲨不只是一个冲浪板，它还是淡水鲨。其次，它也不是真的要吃，只是真的会咬。<\/i>",
+      "icon": "Skill_S_Mualani_01",
+      "promote": {
+        "1": {
+          "level": 1,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "鲨鲨撕咬基础伤害|{param1:F2P}生命值上限",
+            "浪势充能伤害提升|{param2:F2P}生命值上限\/层",
+            "巨浪鲨鲨撕咬伤害额外提升|{param3:F2P}生命值上限",
+            "鲨鲨撕咬冷却时间|{param4:F1}秒",
+            "夜魂值上限|{param5:F1}点",
+            "冷却时间|{param6:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.0868,
+            0.0434,
+            0.217,
+            1.8,
+            60,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 2,
+          "costItems": {
+            "104347": 3,
+            "112104": 6
+          },
+          "coinCost": 12500,
+          "description": [
+            "鲨鲨撕咬基础伤害|{param1:F2P}生命值上限",
+            "浪势充能伤害提升|{param2:F2P}生命值上限\/层",
+            "巨浪鲨鲨撕咬伤害额外提升|{param3:F2P}生命值上限",
+            "鲨鲨撕咬冷却时间|{param4:F1}秒",
+            "夜魂值上限|{param5:F1}点",
+            "冷却时间|{param6:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.09331,
+            0.04665,
+            0.23327,
+            1.8,
+            60,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 3,
+          "costItems": {
+            "104348": 2,
+            "112105": 3
+          },
+          "coinCost": 17500,
+          "description": [
+            "鲨鲨撕咬基础伤害|{param1:F2P}生命值上限",
+            "浪势充能伤害提升|{param2:F2P}生命值上限\/层",
+            "巨浪鲨鲨撕咬伤害额外提升|{param3:F2P}生命值上限",
+            "鲨鲨撕咬冷却时间|{param4:F1}秒",
+            "夜魂值上限|{param5:F1}点",
+            "冷却时间|{param6:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.09982,
+            0.04991,
+            0.24955,
+            1.8,
+            60,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 4,
+          "costItems": {
+            "104348": 4,
+            "112105": 4
+          },
+          "coinCost": 25000,
+          "description": [
+            "鲨鲨撕咬基础伤害|{param1:F2P}生命值上限",
+            "浪势充能伤害提升|{param2:F2P}生命值上限\/层",
+            "巨浪鲨鲨撕咬伤害额外提升|{param3:F2P}生命值上限",
+            "鲨鲨撕咬冷却时间|{param4:F1}秒",
+            "夜魂值上限|{param5:F1}点",
+            "冷却时间|{param6:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.1085,
+            0.05425,
+            0.27125,
+            1.8,
+            60,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 5,
+          "costItems": {
+            "104348": 6,
+            "112105": 6
+          },
+          "coinCost": 30000,
+          "description": [
+            "鲨鲨撕咬基础伤害|{param1:F2P}生命值上限",
+            "浪势充能伤害提升|{param2:F2P}生命值上限\/层",
+            "巨浪鲨鲨撕咬伤害额外提升|{param3:F2P}生命值上限",
+            "鲨鲨撕咬冷却时间|{param4:F1}秒",
+            "夜魂值上限|{param5:F1}点",
+            "冷却时间|{param6:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.11501,
+            0.05751,
+            0.28752,
+            1.8,
+            60,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 6,
+          "costItems": {
+            "104348": 9,
+            "112105": 9
+          },
+          "coinCost": 37500,
+          "description": [
+            "鲨鲨撕咬基础伤害|{param1:F2P}生命值上限",
+            "浪势充能伤害提升|{param2:F2P}生命值上限\/层",
+            "巨浪鲨鲨撕咬伤害额外提升|{param3:F2P}生命值上限",
+            "鲨鲨撕咬冷却时间|{param4:F1}秒",
+            "夜魂值上限|{param5:F1}点",
+            "冷却时间|{param6:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.12152,
+            0.06076,
+            0.3038,
+            1.8,
+            60,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 7,
+          "costItems": {
+            "104349": 4,
+            "112106": 4,
+            "113056": 1
+          },
+          "coinCost": 120000,
+          "description": [
+            "鲨鲨撕咬基础伤害|{param1:F2P}生命值上限",
+            "浪势充能伤害提升|{param2:F2P}生命值上限\/层",
+            "巨浪鲨鲨撕咬伤害额外提升|{param3:F2P}生命值上限",
+            "鲨鲨撕咬冷却时间|{param4:F1}秒",
+            "夜魂值上限|{param5:F1}点",
+            "冷却时间|{param6:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.1302,
+            0.0651,
+            0.3255,
+            1.8,
+            60,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 8,
+          "costItems": {
+            "104349": 6,
+            "112106": 6,
+            "113056": 1
+          },
+          "coinCost": 260000,
+          "description": [
+            "鲨鲨撕咬基础伤害|{param1:F2P}生命值上限",
+            "浪势充能伤害提升|{param2:F2P}生命值上限\/层",
+            "巨浪鲨鲨撕咬伤害额外提升|{param3:F2P}生命值上限",
+            "鲨鲨撕咬冷却时间|{param4:F1}秒",
+            "夜魂值上限|{param5:F1}点",
+            "冷却时间|{param6:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.13888,
+            0.06944,
+            0.3472,
+            1.8,
+            60,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 9,
+          "costItems": {
+            "104349": 12,
+            "112106": 9,
+            "113056": 2
+          },
+          "coinCost": 450000,
+          "description": [
+            "鲨鲨撕咬基础伤害|{param1:F2P}生命值上限",
+            "浪势充能伤害提升|{param2:F2P}生命值上限\/层",
+            "巨浪鲨鲨撕咬伤害额外提升|{param3:F2P}生命值上限",
+            "鲨鲨撕咬冷却时间|{param4:F1}秒",
+            "夜魂值上限|{param5:F1}点",
+            "冷却时间|{param6:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.14756,
+            0.07378,
+            0.3689,
+            1.8,
+            60,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 10,
+          "costItems": {
+            "104319": 1,
+            "104349": 16,
+            "112106": 12,
+            "113056": 2
+          },
+          "coinCost": 700000,
+          "description": [
+            "鲨鲨撕咬基础伤害|{param1:F2P}生命值上限",
+            "浪势充能伤害提升|{param2:F2P}生命值上限\/层",
+            "巨浪鲨鲨撕咬伤害额外提升|{param3:F2P}生命值上限",
+            "鲨鲨撕咬冷却时间|{param4:F1}秒",
+            "夜魂值上限|{param5:F1}点",
+            "冷却时间|{param6:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.15624,
+            0.07812,
+            0.3906,
+            1.8,
+            60,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 11,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "鲨鲨撕咬基础伤害|{param1:F2P}生命值上限",
+            "浪势充能伤害提升|{param2:F2P}生命值上限\/层",
+            "巨浪鲨鲨撕咬伤害额外提升|{param3:F2P}生命值上限",
+            "鲨鲨撕咬冷却时间|{param4:F1}秒",
+            "夜魂值上限|{param5:F1}点",
+            "冷却时间|{param6:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.16492,
+            0.08246,
+            0.4123,
+            1.8,
+            60,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 12,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "鲨鲨撕咬基础伤害|{param1:F2P}生命值上限",
+            "浪势充能伤害提升|{param2:F2P}生命值上限\/层",
+            "巨浪鲨鲨撕咬伤害额外提升|{param3:F2P}生命值上限",
+            "鲨鲨撕咬冷却时间|{param4:F1}秒",
+            "夜魂值上限|{param5:F1}点",
+            "冷却时间|{param6:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.1736,
+            0.0868,
+            0.434,
+            1.8,
+            60,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 13,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "鲨鲨撕咬基础伤害|{param1:F2P}生命值上限",
+            "浪势充能伤害提升|{param2:F2P}生命值上限\/层",
+            "巨浪鲨鲨撕咬伤害额外提升|{param3:F2P}生命值上限",
+            "鲨鲨撕咬冷却时间|{param4:F1}秒",
+            "夜魂值上限|{param5:F1}点",
+            "冷却时间|{param6:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.18445,
+            0.09223,
+            0.46112,
+            1.8,
+            60,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 14,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "鲨鲨撕咬基础伤害|{param1:F2P}生命值上限",
+            "浪势充能伤害提升|{param2:F2P}生命值上限\/层",
+            "巨浪鲨鲨撕咬伤害额外提升|{param3:F2P}生命值上限",
+            "鲨鲨撕咬冷却时间|{param4:F1}秒",
+            "夜魂值上限|{param5:F1}点",
+            "冷却时间|{param6:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.1953,
+            0.09765,
+            0.48825,
+            1.8,
+            60,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "15": {
+          "level": 15,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "鲨鲨撕咬基础伤害|{param1:F2P}生命值上限",
+            "浪势充能伤害提升|{param2:F2P}生命值上限\/层",
+            "巨浪鲨鲨撕咬伤害额外提升|{param3:F2P}生命值上限",
+            "鲨鲨撕咬冷却时间|{param4:F1}秒",
+            "夜魂值上限|{param5:F1}点",
+            "冷却时间|{param6:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.20615,
+            0.10307,
+            0.51538,
+            1.8,
+            60,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "cooldown": 6,
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          },
+          {
+            "id": 1,
+            "type": "normal"
+          },
+          {
+            "id": 2,
+            "type": "level"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Sharky's Bite",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "80",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Sharky's Surging Bite",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Shark Missile",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "80",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Surging Shark Missile",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Surfing Collision (Damageless)",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
+    },
+    "3": {
+      "type": 1,
+      "name": "爆瀑飞弹",
+      "description": "发射能追踪敌人的特大号鲨鲨导弹，基于玛拉妮的生命值上限造成具有夜魂性质的<color=#80C0FFFF>水元素范围伤害<\/color>。\\n\\n<i>玛拉妮之所以把鲨鲨导弹叫这个名字，是因为里面有水有火，听起来很温泉。<\/i>",
+      "icon": "Skill_E_Mualani_01",
+      "promote": {
+        "1": {
+          "level": 1,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "技能伤害|{param1:F1P}生命值上限",
+            "冷却时间|{param2:F1}秒",
+            "元素能量|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.58439,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 2,
+          "costItems": {
+            "104347": 3,
+            "112104": 6
+          },
+          "coinCost": 12500,
+          "description": [
+            "技能伤害|{param1:F1P}生命值上限",
+            "冷却时间|{param2:F1}秒",
+            "元素能量|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.62822,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 3,
+          "costItems": {
+            "104348": 2,
+            "112105": 3
+          },
+          "coinCost": 17500,
+          "description": [
+            "技能伤害|{param1:F1P}生命值上限",
+            "冷却时间|{param2:F1}秒",
+            "元素能量|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.67205,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 4,
+          "costItems": {
+            "104348": 4,
+            "112105": 4
+          },
+          "coinCost": 25000,
+          "description": [
+            "技能伤害|{param1:F1P}生命值上限",
+            "冷却时间|{param2:F1}秒",
+            "元素能量|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.73049,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 5,
+          "costItems": {
+            "104348": 6,
+            "112105": 6
+          },
+          "coinCost": 30000,
+          "description": [
+            "技能伤害|{param1:F1P}生命值上限",
+            "冷却时间|{param2:F1}秒",
+            "元素能量|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.77432,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 6,
+          "costItems": {
+            "104348": 9,
+            "112105": 9
+          },
+          "coinCost": 37500,
+          "description": [
+            "技能伤害|{param1:F1P}生命值上限",
+            "冷却时间|{param2:F1}秒",
+            "元素能量|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.81815,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 7,
+          "costItems": {
+            "104349": 4,
+            "112106": 4,
+            "113056": 1
+          },
+          "coinCost": 120000,
+          "description": [
+            "技能伤害|{param1:F1P}生命值上限",
+            "冷却时间|{param2:F1}秒",
+            "元素能量|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.87659,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 8,
+          "costItems": {
+            "104349": 6,
+            "112106": 6,
+            "113056": 1
+          },
+          "coinCost": 260000,
+          "description": [
+            "技能伤害|{param1:F1P}生命值上限",
+            "冷却时间|{param2:F1}秒",
+            "元素能量|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.93503,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 9,
+          "costItems": {
+            "104349": 12,
+            "112106": 9,
+            "113056": 2
+          },
+          "coinCost": 450000,
+          "description": [
+            "技能伤害|{param1:F1P}生命值上限",
+            "冷却时间|{param2:F1}秒",
+            "元素能量|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.99347,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 10,
+          "costItems": {
+            "104319": 1,
+            "104349": 16,
+            "112106": 12,
+            "113056": 2
+          },
+          "coinCost": 700000,
+          "description": [
+            "技能伤害|{param1:F1P}生命值上限",
+            "冷却时间|{param2:F1}秒",
+            "元素能量|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.05191,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 11,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "技能伤害|{param1:F1P}生命值上限",
+            "冷却时间|{param2:F1}秒",
+            "元素能量|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.11035,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 12,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "技能伤害|{param1:F1P}生命值上限",
+            "冷却时间|{param2:F1}秒",
+            "元素能量|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.16878,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 13,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "技能伤害|{param1:F1P}生命值上限",
+            "冷却时间|{param2:F1}秒",
+            "元素能量|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.24183,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 14,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "技能伤害|{param1:F1P}生命值上限",
+            "冷却时间|{param2:F1}秒",
+            "元素能量|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.31488,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "15": {
+          "level": 15,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "技能伤害|{param1:F1P}生命值上限",
+            "冷却时间|{param2:F1}秒",
+            "元素能量|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.38793,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "cooldown": 15,
+      "cost": 60,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 3,
+            "type": "normal"
+          },
+          {
+            "id": 4,
+            "type": "level"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Skill DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "200",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "800"
+          },
+          "bluntAttack": false
+        }
+      ]
+    },
+    "4": {
+      "type": 2,
+      "name": "耐热型淡水豚豚",
+      "description": "巨浪鲨鲨撕咬命中敌人时，将在附近产生一个豚豚球。获得豚豚球时，玛拉妮自己将恢复20点夜魂值。一次夜魂加持期间，至多通过这种方式产生2个豚豚球。",
+      "icon": "UI_Talent_S_Mualani_05",
+      "linkedConstellations": {
+        "isLevelIncluded": false,
+        "prop": [
+          {
+            "id": 1,
+            "type": "normal"
+          },
+          {
+            "id": 3,
+            "type": "normal"
+          }
+        ]
+      }
+    },
+    "5": {
+      "type": 2,
+      "name": "纳塔最好的向导",
+      "description": "队伍中的附近的角色触发「夜魂迸发」后，玛拉妮将获得一层持续20秒、至多叠加3层的逐浪心得。施放<color=#FFD780FF>爆瀑飞弹<\/color>时，玛拉妮将清除所有逐浪心得，并基于清除的层数，基于生命值上限的15%\/30%\/45%提高本次爆瀑飞弹造成的伤害。",
+      "icon": "UI_Talent_S_Mualani_06",
+      "linkedConstellations": null
+    },
+    "6": {
+      "type": 2,
+      "name": "夜域赐礼·波涛顶底",
+      "description": "在夜魂值耗竭后，玛拉妮将会转而消耗燃素来维持夜魂加持。\\n在纳塔存在燃素机制的区域时，能够进行夜魂传递·玛拉妮。当前场上角色处于冲刺、游泳或是特定天赋赋予的移动状态下，或是位于一定高度的空中时，切换玛拉妮登场时触发：玛拉妮将进入夜魂加持状态，并获得40点夜魂值。自己的队伍每10秒能触发一次夜魂传递。\\n\\n此外，玛拉妮在夜魂加持状态下在水面与液态燃素上移动时：在纳塔地区时消耗的夜魂值或燃素降低75%，在纳塔地区外消耗的夜魂值降低35%。",
+      "icon": "UI_Talent_S_Mualani_07",
+      "linkedConstellations": null
+    },
+    "8": {
+      "type": 2,
+      "name": "要诀是保持笑容！",
+      "description": "在纳塔存在燃素机制的区域时，与部分采集物交互能够恢复15点燃素。此外，在小地图上显示周围的<color=#FFD780FF>纳塔区域特产<\/color>的位置。",
+      "icon": "UI_Talent_S_Kachina_08",
+      "linkedConstellations": null
+    }
+  },
+  "constellation": {
+    "0": {
+      "id": 0,
+      "name": "悠闲的「梅兹特利」…",
+      "description": "进入夜魂加持状态后的第一次巨浪鲨鲨撕咬及它所触发的鲨鲨飞弹造成的伤害提升，提升值相当于玛拉妮生命值上限的66%。此次伤害提升遵循<color=#FFD780FF>踏鲨破浪<\/color>的伤害衰减规则。\\n此外，不处于战斗状态下时，玛拉妮的夜魂加持状态消耗的夜魂值与燃素降低30%。",
+      "extraData": null,
+      "icon": "UI_Talent_S_Mualani_01"
+    },
+    "1": {
+      "id": 1,
+      "name": "全力以赴玛拉妮！",
+      "description": "进入夜魂加持状态时，玛拉妮获得2层<color=#FFD780FF>踏鲨破浪<\/color>的浪势充能；玛拉妮获得豚豚球时，获得1层浪势充能。\\n此外，玛拉妮在一次夜魂加持期间获得2个豚豚球的2秒内，额外恢复12点夜魂值。该效果需要解锁固有天赋「耐热型淡水豚豚」。",
+      "extraData": null,
+      "icon": "UI_Talent_S_Mualani_02"
+    },
+    "2": {
+      "id": 2,
+      "name": "在欢乐海上冲浪",
+      "description": "<color=#FFD780FF>踏鲨破浪<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 2,
+          "extraLevel": 3
+        }
+      },
+      "icon": "UI_Talent_U_Mualani_01"
+    },
+    "3": {
+      "id": 3,
+      "name": "鲨鲨主食是豚豚。",
+      "description": "获得豚豚球时，玛拉妮恢复8点元素能量；该效果需要解锁固有天赋「耐热型淡水豚豚」。\\n此外，<color=#FFD780FF>爆瀑飞弹<\/color>造成的伤害提升75%。",
+      "extraData": null,
+      "icon": "UI_Talent_S_Mualani_03"
+    },
+    "4": {
+      "id": 4,
+      "name": "同款冲浪板有售！",
+      "description": "<color=#FFD780FF>爆瀑飞弹<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 9,
+          "extraLevel": 3
+        }
+      },
+      "icon": "UI_Talent_U_Mualani_02"
+    },
+    "5": {
+      "id": 5,
+      "name": "「流泉之众」的精神",
+      "description": "对命之座「悠闲的「梅兹特利」…」的伤害提升效果，移除原本每次夜魂加持只能触发一次的限制。",
+      "extraData": null,
+      "icon": "UI_Talent_S_Mualani_04"
+    }
+  }
+}

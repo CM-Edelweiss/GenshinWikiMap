@@ -1,0 +1,2933 @@
+{
+  "id": 10000104,
+  "rank": 5,
+  "name": "恰斯卡",
+  "element": "Wind",
+  "weaponType": "WEAPON_BOW",
+  "region": "NATLAN",
+  "specialProp": "FIGHT_PROP_CRITICAL",
+  "bodyType": "LADY",
+  "icon": "UI_AvatarIcon_Chasca",
+  "birthday": [
+    12,
+    10
+  ],
+  "release": 1731967200,
+  "route": "Chasca",
+  "fetter": {
+    "title": "巡宇翦定",
+    "detail": "特拉洛坎的「调停人」，万千争端的终结者。",
+    "constellation": "神鹫座",
+    "native": "特拉洛坎",
+    "cv": {
+      "EN": "劳伦·阿曼特",
+      "CHS": "张若瑜",
+      "JP": "甲斐田裕子",
+      "KR": "秀晛"
+    }
+  },
+  "upgrade": {
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 762.65601,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 26.999,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 47.864,
+        "type": "GROW_CURVE_HP_S5"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "101253": 3,
+          "104151": 1,
+          "112101": 3
+        },
+        "unlockMaxLevel": 40,
+        "addProps": {
+          "FIGHT_PROP_BASE_HP": 653.90857,
+          "FIGHT_PROP_BASE_DEFENSE": 41.04,
+          "FIGHT_PROP_BASE_ATTACK": 23.14751,
+          "FIGHT_PROP_CRITICAL": 0
+        },
+        "requiredPlayerLevel": 15,
+        "coinCost": 20000
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "101253": 10,
+          "104152": 3,
+          "112101": 15,
+          "113067": 2
+        },
+        "unlockMaxLevel": 50,
+        "addProps": {
+          "FIGHT_PROP_BASE_HP": 1118.52783,
+          "FIGHT_PROP_BASE_DEFENSE": 70.2,
+          "FIGHT_PROP_BASE_ATTACK": 39.59443,
+          "FIGHT_PROP_CRITICAL": 0.048
+        },
+        "requiredPlayerLevel": 25,
+        "coinCost": 40000
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "101253": 20,
+          "104152": 6,
+          "112102": 12,
+          "113067": 4
+        },
+        "unlockMaxLevel": 60,
+        "addProps": {
+          "FIGHT_PROP_BASE_HP": 1738.02014,
+          "FIGHT_PROP_BASE_DEFENSE": 109.08,
+          "FIGHT_PROP_BASE_ATTACK": 61.52364,
+          "FIGHT_PROP_CRITICAL": 0.096
+        },
+        "requiredPlayerLevel": 30,
+        "coinCost": 60000
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "101253": 30,
+          "104153": 3,
+          "112102": 18,
+          "113067": 8
+        },
+        "unlockMaxLevel": 70,
+        "addProps": {
+          "FIGHT_PROP_BASE_HP": 2202.6394,
+          "FIGHT_PROP_BASE_DEFENSE": 138.24001,
+          "FIGHT_PROP_BASE_ATTACK": 77.97056,
+          "FIGHT_PROP_CRITICAL": 0.096
+        },
+        "requiredPlayerLevel": 35,
+        "coinCost": 80000
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "101253": 45,
+          "104153": 6,
+          "112103": 12,
+          "113067": 12
+        },
+        "unlockMaxLevel": 80,
+        "addProps": {
+          "FIGHT_PROP_BASE_HP": 2667.25854,
+          "FIGHT_PROP_BASE_DEFENSE": 167.39999,
+          "FIGHT_PROP_BASE_ATTACK": 94.41747,
+          "FIGHT_PROP_CRITICAL": 0.144
+        },
+        "requiredPlayerLevel": 40,
+        "coinCost": 100000
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "101253": 60,
+          "104154": 6,
+          "112103": 24,
+          "113067": 20
+        },
+        "unlockMaxLevel": 90,
+        "addProps": {
+          "FIGHT_PROP_BASE_HP": 3131.87793,
+          "FIGHT_PROP_BASE_DEFENSE": 196.56,
+          "FIGHT_PROP_BASE_ATTACK": 110.86439,
+          "FIGHT_PROP_CRITICAL": 0.192
+        },
+        "requiredPlayerLevel": 50,
+        "coinCost": 120000
+      }
+    ]
+  },
+  "other": {
+    "costume": [
+      {
+        "name": "特拉洛坎夜幽灵",
+        "description": "恰斯卡的衣装款式。血液中流淌着争斗之意，瞳孔里倒映出不屈之志，超越死亡带来的痛苦，这是特拉洛坎英雄的傲骨。",
+        "isDefault": true
+      }
+    ],
+    "furnitureId": 368190,
+    "nameCard": {
+      "id": 210221,
+      "name": "恰斯卡·全弹",
+      "description": "名片纹饰。\\n放心吧，人家是来调停的，又不是来打架的。问题也就是要不要省几发子弹罢了…对着天空警告射击的那种。",
+      "icon": "UI_NameCardIcon_Chasca"
+    },
+    "specialFood": {
+      "id": 108777,
+      "name": "歇止一刻",
+      "rank": 3,
+      "effectIcon": "UI_Buff_Item_Other_SPReduceConsume",
+      "icon": "UI_ItemIcon_108777"
+    }
+  },
+  "ascension": {
+    "101253": 1,
+    "104151": 2,
+    "104152": 3,
+    "104153": 4,
+    "104154": 5,
+    "104319": 5,
+    "104353": 2,
+    "104354": 3,
+    "104355": 4,
+    "112101": 1,
+    "112102": 2,
+    "112103": 3,
+    "113061": 5,
+    "113067": 4
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "101253": {
+      "name": "枯叶紫英",
+      "rank": 1,
+      "icon": "UI_ItemIcon_101253"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104151": {
+      "name": "自在松石碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104151"
+    },
+    "104152": {
+      "name": "自在松石断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104152"
+    },
+    "104153": {
+      "name": "自在松石块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104153"
+    },
+    "104154": {
+      "name": "自在松石",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104154"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "104353": {
+      "name": "「纷争」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104353"
+    },
+    "104354": {
+      "name": "「纷争」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104354"
+    },
+    "104355": {
+      "name": "「纷争」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104355"
+    },
+    "112101": {
+      "name": "稚嫩的尖齿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112101"
+    },
+    "112102": {
+      "name": "老练的坚齿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112102"
+    },
+    "112103": {
+      "name": "横行霸者的利齿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112103"
+    },
+    "113061": {
+      "name": "丝织之羽",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113061"
+    },
+    "113067": {
+      "name": "深邃纠缠的凝视",
+      "rank": 4,
+      "icon": "UI_ItemIcon_113067"
+    }
+  },
+  "talent": {
+    "0": {
+      "type": 0,
+      "name": "普通攻击·迷羽流击",
+      "description": "<color=#FFD780FF>普通攻击<\/color>\\n进行至多四段的连续弓箭射击。\\n\\n<color=#FFD780FF>重击<\/color>\\n进行伤害更高、更为精准的<color=#FFD780FF>瞄准射击<\/color>。\\n瞄准时，强风会在箭矢上持续积聚。聚满了强风之力的箭矢会造成<color=#80FFD7FF>风元素伤害<\/color>。\\n\\n<color=#FFD780FF>下落攻击<\/color>\\n从空中射出箭雨，并迅速下坠冲击地面，攻击下落路径上的敌人，在落地时造成范围伤害。",
+      "icon": "Skill_A_02",
+      "promote": {
+        "1": {
+          "level": 1,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}*2",
+            "四段伤害|{param4:F1P}*3",
+            "瞄准射击|{param5:F1P}",
+            "满蓄力瞄准射击|{param6:P}",
+            "下坠期间伤害|{param7:F1P}",
+            "低空\/高空坠地冲击伤害|{param8:P}\/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.48008,
+            0.44588,
+            0.29697,
+            0.25467,
+            0.4386,
+            1.24,
+            0.56829,
+            1.13634,
+            1.41934,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 2,
+          "costItems": {
+            "104353": 3,
+            "112101": 6
+          },
+          "coinCost": 12500,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}*2",
+            "四段伤害|{param4:F1P}*3",
+            "瞄准射击|{param5:F1P}",
+            "满蓄力瞄准射击|{param6:P}",
+            "下坠期间伤害|{param7:F1P}",
+            "低空\/高空坠地冲击伤害|{param8:P}\/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.51915,
+            0.48218,
+            0.32115,
+            0.2754,
+            0.4743,
+            1.333,
+            0.61454,
+            1.22883,
+            1.53487,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 3,
+          "costItems": {
+            "104354": 2,
+            "112102": 3
+          },
+          "coinCost": 17500,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}*2",
+            "四段伤害|{param4:F1P}*3",
+            "瞄准射击|{param5:F1P}",
+            "满蓄力瞄准射击|{param6:P}",
+            "下坠期间伤害|{param7:F1P}",
+            "低空\/高空坠地冲击伤害|{param8:P}\/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.55823,
+            0.51847,
+            0.34532,
+            0.29613,
+            0.51,
+            1.426,
+            0.6608,
+            1.32132,
+            1.6504,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 4,
+          "costItems": {
+            "104354": 4,
+            "112102": 4
+          },
+          "coinCost": 25000,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}*2",
+            "四段伤害|{param4:F1P}*3",
+            "瞄准射击|{param5:F1P}",
+            "满蓄力瞄准射击|{param6:P}",
+            "下坠期间伤害|{param7:F1P}",
+            "低空\/高空坠地冲击伤害|{param8:P}\/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.61405,
+            0.57032,
+            0.37985,
+            0.32574,
+            0.561,
+            1.55,
+            0.72688,
+            1.45345,
+            1.81544,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 5,
+          "costItems": {
+            "104354": 6,
+            "112102": 6
+          },
+          "coinCost": 30000,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}*2",
+            "四段伤害|{param4:F1P}*3",
+            "瞄准射击|{param5:F1P}",
+            "满蓄力瞄准射击|{param6:P}",
+            "下坠期间伤害|{param7:F1P}",
+            "低空\/高空坠地冲击伤害|{param8:P}\/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.65313,
+            0.60661,
+            0.40402,
+            0.34647,
+            0.5967,
+            1.643,
+            0.77314,
+            1.54594,
+            1.93097,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 6,
+          "costItems": {
+            "104354": 9,
+            "112102": 9
+          },
+          "coinCost": 37500,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}*2",
+            "四段伤害|{param4:F1P}*3",
+            "瞄准射击|{param5:F1P}",
+            "满蓄力瞄准射击|{param6:P}",
+            "下坠期间伤害|{param7:F1P}",
+            "低空\/高空坠地冲击伤害|{param8:P}\/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.69779,
+            0.64809,
+            0.43165,
+            0.37016,
+            0.6375,
+            1.736,
+            0.826,
+            1.65165,
+            2.063,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 7,
+          "costItems": {
+            "104355": 4,
+            "112103": 4,
+            "113061": 1
+          },
+          "coinCost": 120000,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}*2",
+            "四段伤害|{param4:F1P}*3",
+            "瞄准射击|{param5:F1P}",
+            "满蓄力瞄准射击|{param6:P}",
+            "下坠期间伤害|{param7:F1P}",
+            "低空\/高空坠地冲击伤害|{param8:P}\/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.75919,
+            0.70512,
+            0.46964,
+            0.40274,
+            0.6936,
+            1.86,
+            0.89869,
+            1.797,
+            2.24454,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 8,
+          "costItems": {
+            "104355": 6,
+            "112103": 6,
+            "113061": 1
+          },
+          "coinCost": 260000,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}*2",
+            "四段伤害|{param4:F1P}*3",
+            "瞄准射击|{param5:F1P}",
+            "满蓄力瞄准射击|{param6:P}",
+            "下坠期间伤害|{param7:F1P}",
+            "低空\/高空坠地冲击伤害|{param8:P}\/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.8206,
+            0.76215,
+            0.50762,
+            0.43531,
+            0.7497,
+            1.984,
+            0.97138,
+            1.94234,
+            2.42609,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 9,
+          "costItems": {
+            "104355": 12,
+            "112103": 9,
+            "113061": 2
+          },
+          "coinCost": 450000,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}*2",
+            "四段伤害|{param4:F1P}*3",
+            "瞄准射击|{param5:F1P}",
+            "满蓄力瞄准射击|{param6:P}",
+            "下坠期间伤害|{param7:F1P}",
+            "低空\/高空坠地冲击伤害|{param8:P}\/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.882,
+            0.81918,
+            0.54561,
+            0.46788,
+            0.8058,
+            2.108,
+            1.04406,
+            2.08769,
+            2.60763,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 10,
+          "costItems": {
+            "104319": 1,
+            "104355": 16,
+            "112103": 12,
+            "113061": 2
+          },
+          "coinCost": 700000,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}*2",
+            "四段伤害|{param4:F1P}*3",
+            "瞄准射击|{param5:F1P}",
+            "满蓄力瞄准射击|{param6:P}",
+            "下坠期间伤害|{param7:F1P}",
+            "低空\/高空坠地冲击伤害|{param8:P}\/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.94899,
+            0.8814,
+            0.58704,
+            0.50342,
+            0.867,
+            2.232,
+            1.12336,
+            2.24624,
+            2.80568,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 11,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}*2",
+            "四段伤害|{param4:F1P}*3",
+            "瞄准射击|{param5:F1P}",
+            "满蓄力瞄准射击|{param6:P}",
+            "下坠期间伤害|{param7:F1P}",
+            "低空\/高空坠地冲击伤害|{param8:P}\/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.01598,
+            0.94362,
+            0.62848,
+            0.53896,
+            0.9282,
+            2.356,
+            1.20266,
+            2.4048,
+            3.00373,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 12,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}*2",
+            "四段伤害|{param4:F1P}*3",
+            "瞄准射击|{param5:F1P}",
+            "满蓄力瞄准射击|{param6:P}",
+            "下坠期间伤害|{param7:F1P}",
+            "低空\/高空坠地冲击伤害|{param8:P}\/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.08297,
+            1.00583,
+            0.66992,
+            0.57449,
+            0.9894,
+            2.48,
+            1.28195,
+            2.56336,
+            3.20178,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 13,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}*2",
+            "四段伤害|{param4:F1P}*3",
+            "瞄准射击|{param5:F1P}",
+            "满蓄力瞄准射击|{param6:P}",
+            "下坠期间伤害|{param7:F1P}",
+            "低空\/高空坠地冲击伤害|{param8:P}\/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.14995,
+            1.06805,
+            0.71136,
+            0.61003,
+            1.0506,
+            2.635,
+            1.36125,
+            2.72192,
+            3.39982,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 14,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}*2",
+            "四段伤害|{param4:F1P}*3",
+            "瞄准射击|{param5:F1P}",
+            "满蓄力瞄准射击|{param6:P}",
+            "下坠期间伤害|{param7:F1P}",
+            "低空\/高空坠地冲击伤害|{param8:P}\/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.21694,
+            1.13026,
+            0.7528,
+            0.64556,
+            1.1118,
+            2.79,
+            1.44054,
+            2.88048,
+            3.59787,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "15": {
+          "level": 15,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}*2",
+            "四段伤害|{param4:F1P}*3",
+            "瞄准射击|{param5:F1P}",
+            "满蓄力瞄准射击|{param6:P}",
+            "下坠期间伤害|{param7:F1P}",
+            "低空\/高空坠地冲击伤害|{param8:P}\/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.28393,
+            1.19248,
+            0.79424,
+            0.6811,
+            1.173,
+            2.945,
+            1.51984,
+            3.03904,
+            3.79592,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "cooldown": 0,
+      "cost": 0,
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "16.7",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "15.6",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit A",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "10.35",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit B",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "10.35",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit A",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "8.9",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit B",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "8.9",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit C",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "8.9",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Aimed Shot",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "10",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Aimed Shot (Hit Weak Spot)",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "30",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Fully-Charged Aimed Shot",
+          "elementalGaugeTheory": "1U(w\/ Dropoff)",
+          "internalCooldown": null,
+          "interruptionResistance": "20",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Fully-Charged Aimed Shot (Hit Weak Spot)",
+          "elementalGaugeTheory": "1U(w\/ Dropoff)",
+          "internalCooldown": null,
+          "interruptionResistance": "60",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "10",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "50",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
+    },
+    "1": {
+      "type": 0,
+      "name": "灵缰追影",
+      "description": "恰斯卡与武器中寄宿的意志共鸣，造成具有夜魂性质的<color=#80FFD7FF>风元素范围伤害<\/color>。\\n施放后，恰斯卡将获得80点夜魂值，并进入夜魂加持状态。\\n\\n<color=#FFD780FF>夜魂加持·恰斯卡<\/color>\\n持续消耗夜魂值。夜魂值耗尽时，或是再次施放时，恰斯卡的夜魂加持将会结束。夜魂加持状态具有如下特性：\\n·搭乘「灵枪·仪式杖」，提升恰斯卡的移动速度与抗打断能力，在这种状态下，恰斯卡将持续消耗夜魂值，维持悬浮状态，进行冲刺或抬升高度时，将额外消耗夜魂值；\\n·进行普通攻击与重击时，依据点按、长按，将转为以不同的方式进行「多重瞄准」。\\n\\n<color=#FFD780FF>多重瞄准<\/color>\\n<color=#FFD780FF>点按<\/color>\\n对前方的敌人造成具有夜魂性质的<color=#80FFD7FF>风元素伤害<\/color>，该伤害视为普通攻击造成的伤害。\\n<color=#FFD780FF>长按<\/color>\\n进入瞄准状态，并选定一定范围内一定数量的敌人，根据蓄力时间长短，依次装填至多6枚「追影弹」；填充6枚或停止蓄力时，将依序向选定的敌人发射。\\n\\n<color=#FFD780FF>追影弹<\/color>\\n·造成具有夜魂性质的<color=#80FFD7FF>风元素伤害<\/color>，该伤害视为重击造成的伤害；\\n·根据队伍中其他角色的元素类型，第四枚、第五枚与第六枚装填入弹匣的「追影弹」将会发生元素转化；队伍中每存在一名<color=#FF9999FF>火元素<\/color>、<color=#80C0FFFF>水元素<\/color>、<color=#99FFFFFF>冰元素<\/color>或<color=#FFACFFFF>雷元素<\/color>角色，一枚「追影弹」便会随机转化为对应元素类型之一的「焕光追影弹」，造成具有夜魂性质的对应元素伤害，该伤害视为重击造成的伤害；\\n·后装填入弹匣的「追影弹」会优先发射。\\n\\n此外，在夜魂加持状态下，长按施放元素战技<color=#FFD780FF>灵缰追影<\/color>时，恰斯卡将转为进行具有夜魂性质的下落攻击，松开技能时可以中断下落攻击，并维持悬浮状态；在下落攻击过程中落地时，恰斯卡的夜魂加持将会结束。\\n\\n<i>理论上，只要她愿意，那缰绳可以牵起任何一样东西…但是，能有什么比一把巨大的手炮更帅呢？<\/i>",
+      "icon": "Skill_S_Chasca_01",
+      "promote": {
+        "1": {
+          "level": 1,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "共鸣伤害|{param1:F1P}",
+            "多重瞄准点按伤害|{param2:F1P}",
+            "追影弹伤害|{param3:F1P}",
+            "焕光追影弹伤害|{param4:F1P}",
+            "夜魂值上限|{param5:F1}点",
+            "冷却时间|{param6:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.6,
+            0.36,
+            0.488,
+            1.66572,
+            80,
+            6.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 2,
+          "costItems": {
+            "104353": 3,
+            "112101": 6
+          },
+          "coinCost": 12500,
+          "description": [
+            "共鸣伤害|{param1:F1P}",
+            "多重瞄准点按伤害|{param2:F1P}",
+            "追影弹伤害|{param3:F1P}",
+            "焕光追影弹伤害|{param4:F1P}",
+            "夜魂值上限|{param5:F1}点",
+            "冷却时间|{param6:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.645,
+            0.387,
+            0.5246,
+            1.79065,
+            80,
+            6.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 3,
+          "costItems": {
+            "104354": 2,
+            "112102": 3
+          },
+          "coinCost": 17500,
+          "description": [
+            "共鸣伤害|{param1:F1P}",
+            "多重瞄准点按伤害|{param2:F1P}",
+            "追影弹伤害|{param3:F1P}",
+            "焕光追影弹伤害|{param4:F1P}",
+            "夜魂值上限|{param5:F1}点",
+            "冷却时间|{param6:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.69,
+            0.414,
+            0.5612,
+            1.91558,
+            80,
+            6.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 4,
+          "costItems": {
+            "104354": 4,
+            "112102": 4
+          },
+          "coinCost": 25000,
+          "description": [
+            "共鸣伤害|{param1:F1P}",
+            "多重瞄准点按伤害|{param2:F1P}",
+            "追影弹伤害|{param3:F1P}",
+            "焕光追影弹伤害|{param4:F1P}",
+            "夜魂值上限|{param5:F1}点",
+            "冷却时间|{param6:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.75,
+            0.45,
+            0.61,
+            2.08215,
+            80,
+            6.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 5,
+          "costItems": {
+            "104354": 6,
+            "112102": 6
+          },
+          "coinCost": 30000,
+          "description": [
+            "共鸣伤害|{param1:F1P}",
+            "多重瞄准点按伤害|{param2:F1P}",
+            "追影弹伤害|{param3:F1P}",
+            "焕光追影弹伤害|{param4:F1P}",
+            "夜魂值上限|{param5:F1}点",
+            "冷却时间|{param6:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.795,
+            0.477,
+            0.6466,
+            2.20708,
+            80,
+            6.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 6,
+          "costItems": {
+            "104354": 9,
+            "112102": 9
+          },
+          "coinCost": 37500,
+          "description": [
+            "共鸣伤害|{param1:F1P}",
+            "多重瞄准点按伤害|{param2:F1P}",
+            "追影弹伤害|{param3:F1P}",
+            "焕光追影弹伤害|{param4:F1P}",
+            "夜魂值上限|{param5:F1}点",
+            "冷却时间|{param6:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.84,
+            0.504,
+            0.6832,
+            2.33201,
+            80,
+            6.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 7,
+          "costItems": {
+            "104355": 4,
+            "112103": 4,
+            "113061": 1
+          },
+          "coinCost": 120000,
+          "description": [
+            "共鸣伤害|{param1:F1P}",
+            "多重瞄准点按伤害|{param2:F1P}",
+            "追影弹伤害|{param3:F1P}",
+            "焕光追影弹伤害|{param4:F1P}",
+            "夜魂值上限|{param5:F1}点",
+            "冷却时间|{param6:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.9,
+            0.54,
+            0.732,
+            2.49858,
+            80,
+            6.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 8,
+          "costItems": {
+            "104355": 6,
+            "112103": 6,
+            "113061": 1
+          },
+          "coinCost": 260000,
+          "description": [
+            "共鸣伤害|{param1:F1P}",
+            "多重瞄准点按伤害|{param2:F1P}",
+            "追影弹伤害|{param3:F1P}",
+            "焕光追影弹伤害|{param4:F1P}",
+            "夜魂值上限|{param5:F1}点",
+            "冷却时间|{param6:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.96,
+            0.576,
+            0.7808,
+            2.66515,
+            80,
+            6.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 9,
+          "costItems": {
+            "104355": 12,
+            "112103": 9,
+            "113061": 2
+          },
+          "coinCost": 450000,
+          "description": [
+            "共鸣伤害|{param1:F1P}",
+            "多重瞄准点按伤害|{param2:F1P}",
+            "追影弹伤害|{param3:F1P}",
+            "焕光追影弹伤害|{param4:F1P}",
+            "夜魂值上限|{param5:F1}点",
+            "冷却时间|{param6:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.02,
+            0.612,
+            0.8296,
+            2.83172,
+            80,
+            6.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 10,
+          "costItems": {
+            "104319": 1,
+            "104355": 16,
+            "112103": 12,
+            "113061": 2
+          },
+          "coinCost": 700000,
+          "description": [
+            "共鸣伤害|{param1:F1P}",
+            "多重瞄准点按伤害|{param2:F1P}",
+            "追影弹伤害|{param3:F1P}",
+            "焕光追影弹伤害|{param4:F1P}",
+            "夜魂值上限|{param5:F1}点",
+            "冷却时间|{param6:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.08,
+            0.648,
+            0.8784,
+            2.9983,
+            80,
+            6.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 11,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "共鸣伤害|{param1:F1P}",
+            "多重瞄准点按伤害|{param2:F1P}",
+            "追影弹伤害|{param3:F1P}",
+            "焕光追影弹伤害|{param4:F1P}",
+            "夜魂值上限|{param5:F1}点",
+            "冷却时间|{param6:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.14,
+            0.684,
+            0.9272,
+            3.16487,
+            80,
+            6.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 12,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "共鸣伤害|{param1:F1P}",
+            "多重瞄准点按伤害|{param2:F1P}",
+            "追影弹伤害|{param3:F1P}",
+            "焕光追影弹伤害|{param4:F1P}",
+            "夜魂值上限|{param5:F1}点",
+            "冷却时间|{param6:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.2,
+            0.72,
+            0.976,
+            3.33144,
+            80,
+            6.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 13,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "共鸣伤害|{param1:F1P}",
+            "多重瞄准点按伤害|{param2:F1P}",
+            "追影弹伤害|{param3:F1P}",
+            "焕光追影弹伤害|{param4:F1P}",
+            "夜魂值上限|{param5:F1}点",
+            "冷却时间|{param6:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.275,
+            0.765,
+            1.037,
+            3.53965,
+            80,
+            6.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 14,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "共鸣伤害|{param1:F1P}",
+            "多重瞄准点按伤害|{param2:F1P}",
+            "追影弹伤害|{param3:F1P}",
+            "焕光追影弹伤害|{param4:F1P}",
+            "夜魂值上限|{param5:F1}点",
+            "冷却时间|{param6:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.35,
+            0.81,
+            1.098,
+            3.74787,
+            80,
+            6.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "15": {
+          "level": 15,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "共鸣伤害|{param1:F1P}",
+            "多重瞄准点按伤害|{param2:F1P}",
+            "追影弹伤害|{param3:F1P}",
+            "焕光追影弹伤害|{param4:F1P}",
+            "夜魂值上限|{param5:F1}点",
+            "冷却时间|{param6:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.425,
+            0.855,
+            1.159,
+            3.95608,
+            80,
+            6.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "cooldown": 6.5,
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 1,
+            "type": "normal"
+          },
+          {
+            "id": 2,
+            "type": "level"
+          },
+          {
+            "id": 5,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Resonance DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "50",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Multitarget Fire Tap DMG DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "20",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Shadowhunt Shell DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Shadowhunt Shell"
+            },
+            "type": {
+              "span": null,
+              "text": ""
+            }
+          },
+          "interruptionResistance": "20",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Shining Shadowhunt Shell DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Shining Shadowhunt Shell"
+            },
+            "type": {
+              "span": null,
+              "text": ""
+            }
+          },
+          "interruptionResistance": "20",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
+    },
+    "3": {
+      "type": 1,
+      "name": "索魂命袭",
+      "description": "恰斯卡集注意志，射出一枚「裂风索魂弹」，造成具有夜魂性质的<color=#80FFD7FF>风元素范围伤害<\/color>。此后，裂风索魂弹将分裂成六枚「索魂弹」，攻击附近的敌人。\\n\\n<color=#FFD780FF>索魂弹<\/color>\\n·造成具有夜魂性质的<color=#80FFD7FF>风元素伤害<\/color>；\\n·队伍中每存在一名<color=#FF9999FF>火元素<\/color>、<color=#80C0FFFF>水元素<\/color>、<color=#99FFFFFF>冰元素<\/color>或<color=#FFACFFFF>雷元素<\/color>角色，两枚索魂弹便将随机转化为对应元素类型之一的「溢光索魂弹」，造成具有夜魂性质的对应元素伤害。\\n\\n<i>没人可以从夜晚的絮语与月光之中逃脱，正如没有被盯上的敌人可以逃离她专注的眼睛。<\/i>",
+      "icon": "Skill_E_Chasca_01",
+      "promote": {
+        "1": {
+          "level": 1,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "裂风索魂弹伤害|{param1:F1P}",
+            "索魂弹伤害|{param2:F1P}",
+            "溢光索魂弹伤害|{param3:F1P}",
+            "冷却时间|{param4:F1}秒",
+            "元素能量|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.88,
+            1.034,
+            2.068,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 2,
+          "costItems": {
+            "104353": 3,
+            "112101": 6
+          },
+          "coinCost": 12500,
+          "description": [
+            "裂风索魂弹伤害|{param1:F1P}",
+            "索魂弹伤害|{param2:F1P}",
+            "溢光索魂弹伤害|{param3:F1P}",
+            "冷却时间|{param4:F1}秒",
+            "元素能量|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.946,
+            1.11155,
+            2.2231,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 3,
+          "costItems": {
+            "104354": 2,
+            "112102": 3
+          },
+          "coinCost": 17500,
+          "description": [
+            "裂风索魂弹伤害|{param1:F1P}",
+            "索魂弹伤害|{param2:F1P}",
+            "溢光索魂弹伤害|{param3:F1P}",
+            "冷却时间|{param4:F1}秒",
+            "元素能量|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.012,
+            1.1891,
+            2.3782,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 4,
+          "costItems": {
+            "104354": 4,
+            "112102": 4
+          },
+          "coinCost": 25000,
+          "description": [
+            "裂风索魂弹伤害|{param1:F1P}",
+            "索魂弹伤害|{param2:F1P}",
+            "溢光索魂弹伤害|{param3:F1P}",
+            "冷却时间|{param4:F1}秒",
+            "元素能量|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.1,
+            1.2925,
+            2.585,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 5,
+          "costItems": {
+            "104354": 6,
+            "112102": 6
+          },
+          "coinCost": 30000,
+          "description": [
+            "裂风索魂弹伤害|{param1:F1P}",
+            "索魂弹伤害|{param2:F1P}",
+            "溢光索魂弹伤害|{param3:F1P}",
+            "冷却时间|{param4:F1}秒",
+            "元素能量|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.166,
+            1.37005,
+            2.7401,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 6,
+          "costItems": {
+            "104354": 9,
+            "112102": 9
+          },
+          "coinCost": 37500,
+          "description": [
+            "裂风索魂弹伤害|{param1:F1P}",
+            "索魂弹伤害|{param2:F1P}",
+            "溢光索魂弹伤害|{param3:F1P}",
+            "冷却时间|{param4:F1}秒",
+            "元素能量|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.232,
+            1.4476,
+            2.8952,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 7,
+          "costItems": {
+            "104355": 4,
+            "112103": 4,
+            "113061": 1
+          },
+          "coinCost": 120000,
+          "description": [
+            "裂风索魂弹伤害|{param1:F1P}",
+            "索魂弹伤害|{param2:F1P}",
+            "溢光索魂弹伤害|{param3:F1P}",
+            "冷却时间|{param4:F1}秒",
+            "元素能量|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.32,
+            1.551,
+            3.102,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 8,
+          "costItems": {
+            "104355": 6,
+            "112103": 6,
+            "113061": 1
+          },
+          "coinCost": 260000,
+          "description": [
+            "裂风索魂弹伤害|{param1:F1P}",
+            "索魂弹伤害|{param2:F1P}",
+            "溢光索魂弹伤害|{param3:F1P}",
+            "冷却时间|{param4:F1}秒",
+            "元素能量|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.408,
+            1.6544,
+            3.3088,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 9,
+          "costItems": {
+            "104355": 12,
+            "112103": 9,
+            "113061": 2
+          },
+          "coinCost": 450000,
+          "description": [
+            "裂风索魂弹伤害|{param1:F1P}",
+            "索魂弹伤害|{param2:F1P}",
+            "溢光索魂弹伤害|{param3:F1P}",
+            "冷却时间|{param4:F1}秒",
+            "元素能量|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.496,
+            1.7578,
+            3.5156,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 10,
+          "costItems": {
+            "104319": 1,
+            "104355": 16,
+            "112103": 12,
+            "113061": 2
+          },
+          "coinCost": 700000,
+          "description": [
+            "裂风索魂弹伤害|{param1:F1P}",
+            "索魂弹伤害|{param2:F1P}",
+            "溢光索魂弹伤害|{param3:F1P}",
+            "冷却时间|{param4:F1}秒",
+            "元素能量|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.584,
+            1.8612,
+            3.7224,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 11,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "裂风索魂弹伤害|{param1:F1P}",
+            "索魂弹伤害|{param2:F1P}",
+            "溢光索魂弹伤害|{param3:F1P}",
+            "冷却时间|{param4:F1}秒",
+            "元素能量|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.672,
+            1.9646,
+            3.9292,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 12,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "裂风索魂弹伤害|{param1:F1P}",
+            "索魂弹伤害|{param2:F1P}",
+            "溢光索魂弹伤害|{param3:F1P}",
+            "冷却时间|{param4:F1}秒",
+            "元素能量|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.76,
+            2.068,
+            4.136,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 13,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "裂风索魂弹伤害|{param1:F1P}",
+            "索魂弹伤害|{param2:F1P}",
+            "溢光索魂弹伤害|{param3:F1P}",
+            "冷却时间|{param4:F1}秒",
+            "元素能量|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.87,
+            2.19725,
+            4.3945,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 14,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "裂风索魂弹伤害|{param1:F1P}",
+            "索魂弹伤害|{param2:F1P}",
+            "溢光索魂弹伤害|{param3:F1P}",
+            "冷却时间|{param4:F1}秒",
+            "元素能量|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.98,
+            2.3265,
+            4.653,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "15": {
+          "level": 15,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "裂风索魂弹伤害|{param1:F1P}",
+            "索魂弹伤害|{param2:F1P}",
+            "溢光索魂弹伤害|{param3:F1P}",
+            "冷却时间|{param4:F1}秒",
+            "元素能量|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            2.09,
+            2.45575,
+            4.9115,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "cooldown": 15,
+      "cost": 60,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 3,
+            "type": "normal"
+          },
+          {
+            "id": 4,
+            "type": "level"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Galesplitting Soulseeker Shell DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "500"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Soulseeker Shell DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "2",
+              "text": "Elemental Burst"
+            },
+            "type": {
+              "span": "2",
+              "text": ""
+            }
+          },
+          "interruptionResistance": "30",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Radiant Soulseeker Shell DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "30",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
+    },
+    "4": {
+      "type": 2,
+      "name": "子弹的戏法",
+      "description": "进行元素战技<color=#FFD780FF>灵缰追影<\/color>中的<color=#FFD780FF>多重瞄准<\/color>的蓄力时，若队伍中存在符合元素转化条件的元素类型的角色，则依据符合条件的不同元素的数量，获得以下效果：\\n·每种元素有33.3%\/66.7%\/100%的几率触发「附灵转化」，使第三枚装入弹匣的<color=#FFD780FF>追影弹<\/color>随机转化为对应元素类型之一的<color=#FFD780FF>焕光追影弹<\/color>；\\n·每种元素将为恰斯卡产生一层「焕影之灵」效果，使焕光追影弹造成的伤害提升15%\/35%\/65%，该效果持续至本次多重瞄准结束，至多叠加3层。",
+      "icon": "UI_Talent_S_Chasca_05",
+      "linkedConstellations": {
+        "isLevelIncluded": false,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          },
+          {
+            "id": 1,
+            "type": "normal"
+          },
+          {
+            "id": 5,
+            "type": "normal"
+          }
+        ]
+      }
+    },
+    "5": {
+      "type": 2,
+      "name": "掩护的心意",
+      "description": "队伍中的附近的角色触发「夜魂迸发」时，恰斯卡会对附近的敌人发射「流焰追影弹」，造成具有夜魂性质的<color=#80FFD7FF>风元素伤害<\/color>，该伤害相当于元素战技<color=#FFD780FF>灵缰追影<\/color>中的<color=#FFD780FF>追影弹<\/color>的150%；若队伍中存在<color=#FF9999FF>火元素<\/color>、<color=#80C0FFFF>水元素<\/color>、<color=#99FFFFFF>冰元素<\/color>或<color=#FFACFFFF>雷元素<\/color>角色，则流焰追影弹会发生元素转化，造成具有夜魂性质的对应元素伤害，该伤害相当于元素战技<color=#FFD780FF>灵缰追影<\/color>中的<color=#FFD780FF>焕光追影弹<\/color>的150%。\\n通过上述方式造成的伤害视为重击伤害。",
+      "icon": "UI_Talent_S_Chasca_06",
+      "linkedConstellations": null
+    },
+    "6": {
+      "type": 2,
+      "name": "夜域赐礼·不熄炽心",
+      "description": "在夜魂值耗竭后，恰斯卡将会转而消耗燃素来维持夜魂加持。\\n在纳塔存在燃素机制的区域时，能够进行夜魂传递·恰斯卡。当前场上角色位于空中时，切换恰斯卡登场时触发：恰斯卡将进入夜魂加持状态，并获得32点夜魂值。自己的队伍每10秒可以触发一次夜魂传递。",
+      "icon": "UI_Talent_S_Chasca_07",
+      "linkedConstellations": null
+    },
+    "8": {
+      "type": 2,
+      "name": "调停的真意",
+      "description": "队伍中自己的角色击败敌人时，将恢复25点燃素，该效果每12秒至多触发一次。\\n该效果在秘境、征讨领域、深境螺旋中无效。",
+      "icon": "UI_Talent_S_Chasca_08",
+      "linkedConstellations": null
+    }
+  },
+  "constellation": {
+    "0": {
+      "id": 0,
+      "name": "弹匣，躁动的轮盘",
+      "description": "触发固有天赋「子弹的戏法」中的「附灵转化」时，会额外使第二枚装入弹匣的<color=#FFD780FF>追影弹<\/color>转化为<color=#FFD780FF>焕光追影弹<\/color>。\\n触发「附灵转化」的几率增加：若队伍中存在符合元素转化条件的元素类型的角色，则触发「附灵转化」的几率提升33.3%，至多提升至100%。\\n\\n需要解锁固有天赋「子弹的戏法」。\\n此外，不处于战斗状态下时，恰斯卡的夜魂加持状态消耗的夜魂值与燃素降低30%。",
+      "extraData": null,
+      "icon": "UI_Talent_S_Chasca_01"
+    },
+    "1": {
+      "id": 1,
+      "name": "枪口，灼烧的轻烟",
+      "description": "恰斯卡登场时，获得一层固有天赋「子弹的戏法」的「焕影之灵」。该效果需要解锁固有天赋「子弹的戏法」。\\n此外，施放元素战技<color=#FFD780FF>灵缰追影<\/color>中的<color=#FFD780FF>多重瞄准<\/color>时，恰斯卡的<color=#FFD780FF>焕光追影弹<\/color>命中敌人时，会根据<color=#FFD780FF>焕光追影弹<\/color>的元素类型，造成相当于恰斯卡攻击力400%的对应元素范围伤害，该伤害视为重击伤害。每次施放<color=#FFD780FF>多重瞄准<\/color>至多触发一次该效果。",
+      "extraData": null,
+      "icon": "UI_Talent_S_Chasca_02",
+      "advancedProps": [
+        {
+          "name": "AoE DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "20",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
+    },
+    "2": {
+      "id": 2,
+      "name": "笼绳，缜密的掌控",
+      "description": "元素战技<color=#FFD780FF>灵缰追影<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 2,
+          "extraLevel": 3
+        }
+      },
+      "icon": "UI_Talent_U_Chasca_01"
+    },
+    "3": {
+      "id": 3,
+      "name": "星火，瞬息的击发",
+      "description": "元素爆发<color=#FFD780FF>索魂命袭<\/color>中的<color=#FFD780FF>溢光索魂弹<\/color>命中敌人时，将为恰斯卡恢复1.5点元素能量，并会根据<color=#FFD780FF>溢光索魂弹<\/color>的元素类型，造成相当于恰斯卡攻击力400%的对应元素范围伤害，该伤害视为重击伤害。\\n上述造成对应元素范围伤害的效果，每次施放<color=#FFD780FF>索魂命袭<\/color>至多触发1次该效果。",
+      "extraData": null,
+      "icon": "UI_Talent_S_Chasca_03",
+      "advancedProps": [
+        {
+          "name": "AoE DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "20",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
+    },
+    "4": {
+      "id": 4,
+      "name": "帽檐，沙影的轮廓",
+      "description": "元素爆发<color=#FFD780FF>索魂命袭<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 9,
+          "extraLevel": 3
+        }
+      },
+      "icon": "UI_Talent_U_Chasca_02"
+    },
+    "5": {
+      "id": 5,
+      "name": "相决，斗争的荣光",
+      "description": "恰斯卡进行<color=#FFD780FF>多重瞄准<\/color>所需的蓄力时间减少，且触发固有天赋「子弹的戏法」中的「附灵转化」后，恰斯卡将获得「命袭」状态，在接下来的3秒内，恰斯卡下一次施放元素战技<color=#FFD780FF>灵缰追影<\/color>中的<color=#FFD780FF>多重瞄准<\/color>时，会立即完成蓄力，并且本次<color=#FFD780FF>多重瞄准<\/color>中的<color=#FFD780FF>追影弹<\/color>和<color=#FFD780FF>焕光追影弹<\/color>的暴击伤害提升120%。每3秒至多获得一次「命袭」效果。\\n\\n上述效果需要解锁固有天赋「子弹的戏法」。",
+      "extraData": null,
+      "icon": "UI_Talent_S_Chasca_04",
+      "advancedProps": [
+        {
+          "name": "C6 Shadowhunt Shell DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "C6 Shadowhunt Shell"
+            },
+            "type": {
+              "span": null,
+              "text": ""
+            }
+          },
+          "interruptionResistance": "20",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "C6 Shining Shadowhunt Shell DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "C6 Shining Shadowhunt Shell"
+            },
+            "type": {
+              "span": null,
+              "text": ""
+            }
+          },
+          "interruptionResistance": "20",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
+    }
+  }
+}

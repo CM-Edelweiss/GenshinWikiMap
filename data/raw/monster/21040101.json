@@ -1,0 +1,123 @@
+{
+  "id": 21040101,
+  "name": "丘丘风行游侠",
+  "type": "丘丘部族",
+  "icon": "UI_MonsterIcon_Hilistray_Wind",
+  "route": "Anemo Hilichurl Rogue",
+  "title": "丘丘风行游侠",
+  "specialName": "永恒异乡人",
+  "description": "不属于任何部族，似乎是在追寻一族命运之肇始，寻找如今已经失落的光辉的丘丘人流浪者。\\n假使这些只有简单语言，也不具备文书传承的魔物当中，有史诗、有传奇，它们应当就是其中的主角吧。",
+  "entries": {
+    "21040101": {
+      "id": 21040101,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010015,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010015,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 67.92,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 62.8,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.5,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112077": {
+          "name": "来自何处的待放之花",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112077",
+          "count": "5.2526"
+        },
+        "112078": {
+          "name": "何人所珍藏之花",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112078",
+          "count": "1.4006"
+        },
+        "112079": {
+          "name": "漫游者的盛放之花",
+          "rank": 4,
+          "icon": "UI_ItemIcon_112079",
+          "count": "0.3502"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    }
+  },
+  "tips": {
+    "303801": {
+      "images": [
+        "UI_Tutorial_177"
+      ],
+      "description": "神秘的丘丘人战士，一定程度上能够驱使风的力量。在战斗中，会借由风史莱姆进入滞空状态。通过攻击膨胀的风史莱姆，或许能使它坠落吧。"
+    }
+  }
+}

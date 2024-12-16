@@ -1,0 +1,121 @@
+{
+  "name": "稚嫩的尖齿",
+  "description": "纳塔龙众脱落的牙。\\n尚显稚嫩的牙齿，如果有从牙齿判断主人年龄的方式的话，或许就能看出这枚牙齿的主人并未在世上经历太久的岁月。",
+  "type": "角色与武器培养素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "纳塔龙众掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000101,
+          "name": "基尼奇",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Kinich"
+        },
+        {
+          "id": 10000104,
+          "name": "恰斯卡",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Chasca"
+        },
+        {
+          "id": 10000105,
+          "name": "欧洛伦",
+          "rank": 4,
+          "icon": "UI_AvatarIcon_Olorun"
+        }
+      ],
+      "weapon": [
+        {
+          "id": 11431,
+          "name": "息燧之笛",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_Isikhulu"
+        },
+        {
+          "id": 12430,
+          "name": "硕果钩",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Claymore_Umpakati"
+        },
+        {
+          "id": 14427,
+          "name": "苍纹角杯",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_ConchSprayer"
+        },
+        {
+          "id": 14430,
+          "name": "乘浪的回旋",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_Umpakati"
+        },
+        {
+          "id": 15431,
+          "name": "碎链",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Bow_Isikhulu"
+        },
+        {
+          "id": 11516,
+          "name": "岩峰巡歌",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Sword_XochitlsTube"
+        },
+        {
+          "id": 14516,
+          "name": "冲浪时光",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Catalyst_MechaPufferfish"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 26200101,
+        "name": "幼嵴锋龙",
+        "icon": "UI_MonsterIcon_Natsaurus_Drillhead_Small"
+      },
+      {
+        "id": 26200201,
+        "name": "嵴锋龙",
+        "icon": "UI_MonsterIcon_Natsaurus_Drillhead_Normal"
+      },
+      {
+        "id": 26210101,
+        "name": "幼鳍游龙",
+        "icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Small"
+      },
+      {
+        "id": 26210201,
+        "name": "鳍游龙",
+        "icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Normal"
+      },
+      {
+        "id": 26220101,
+        "name": "幼匿叶龙",
+        "icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Small"
+      },
+      {
+        "id": 26220201,
+        "name": "匿叶龙",
+        "icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Normal"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_112101",
+  "rank": 1,
+  "route": "Juvenile Fang"
+}

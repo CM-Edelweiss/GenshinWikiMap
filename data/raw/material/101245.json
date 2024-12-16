@@ -1,0 +1,23 @@
+{
+  "name": "澄晶实",
+  "description": "广泛生长于液态燃素环境之中的澄晶果树，在汲取燃素后结出的形如宝石的果实。",
+  "type": "食材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": [
+    "o621"
+  ],
+  "source": [
+    {
+      "name": "液态燃素区域采集",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": null,
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_101245",
+  "rank": 1,
+  "route": "Spinel Fruit"
+}

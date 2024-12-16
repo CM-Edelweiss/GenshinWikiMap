@@ -1,0 +1,167 @@
+{
+  "id": 24090101,
+  "name": "秘源机兵·寻捕械",
+  "type": "自律机关",
+  "icon": "UI_MonsterIcon_ToothTrap",
+  "route": "Secret Source Automaton: Hunter-Seeker",
+  "title": "秘源机兵·寻捕械",
+  "specialName": "深古遗迹采集机关",
+  "description": "深古遗迹的采集用机械体。\\n传说是远古遗迹特殊的工作用机械，本身主要是为了捕捉或采集样本这一实验目的而被设计使用，仅赋予了基础的战斗机能。\\n传言并非是人类制造出来机械，而是更远古的文明的造物。如今，古老的文明已经失落，只留有这些古怪的机械四处巡游。",
+  "entries": {
+    "24090101": {
+      "id": 24090101,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010011,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010011,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 95.088,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112113": {
+          "name": "秘源轴",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112113",
+          "count": "4.596"
+        },
+        "112114": {
+          "name": "秘源机鞘",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112114",
+          "count": "1.2255"
+        },
+        "112115": {
+          "name": "秘源真芯",
+          "rank": 4,
+          "icon": "UI_ItemIcon_112115",
+          "count": "0.3064"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "24090102": {
+      "id": 24090102,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010011,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010011,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 95.088,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": {
+    "307901": {
+      "images": [
+        "UI_Tutorial_214"
+      ],
+      "description": "至今仍在纳塔各处徘徊，却不知目的为何的古老机械造物。在角色进入和维持「夜魂加持」状态时，秘源机兵·寻捕械会积累「应战对策」的进度。在「应战对策」的进度积累满后，秘源机兵·寻捕械将会释放特殊的集束激光。不过，所谓风险和机遇并存，说不定也可以抓住机会对它造成大量伤害…"
+    }
+  }
+}

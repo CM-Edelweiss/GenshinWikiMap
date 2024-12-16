@@ -1,0 +1,131 @@
+{
+  "id": 10000093,
+  "name": "闲云",
+  "element": "风",
+  "weapon": "法器",
+  "rank": 5,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Liuyun",
+    "side": "UI_AvatarIcon_Side_Liuyun",
+    "card": "UI_AvatarIcon_Liuyun_Card",
+    "splash": "UI_Gacha_AvatarImg_Liuyun",
+    "slice": "UI_Gacha_AvatarIcon_Liuyun"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 810.32202,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        694.77783,
+        1188.43579,
+        1846.64636,
+        2340.3042,
+        2833.96216,
+        3327.62012
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 26.068,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        22.34932,
+        38.2291,
+        59.40214,
+        75.28192,
+        91.1617,
+        107.04148
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 44.57335,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        38.2185,
+        65.37375,
+        101.58075,
+        128.73599,
+        155.89125,
+        183.04649
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ATTACK_PERCENT",
+      "promote": [
+        0,
+        0.072,
+        0.144,
+        0.144,
+        0.216,
+        0.288
+      ]
+    }
+  ],
+  "talent": {
+    "10931": {
+      "name": "普通攻击·清风散花词",
+      "icon": "Skill_A_Catalyst_MD"
+    },
+    "10932": {
+      "name": "朝起鹤云",
+      "icon": "Skill_S_Liuyun_01"
+    },
+    "10935": {
+      "name": "暮集竹星",
+      "icon": "Skill_E_Liuyun_01"
+    },
+    "932101": {
+      "name": "霜翎高逐祥风势",
+      "icon": "UI_Talent_S_Liuyun_05"
+    },
+    "932201": {
+      "name": "细想应是洞中仙",
+      "icon": "UI_Talent_S_Liuyun_06"
+    },
+    "932301": {
+      "name": "身形如鹤",
+      "icon": "UI_Talent_S_Liuyun_07"
+    }
+  },
+  "constellation": {
+    "931": {
+      "name": "借风洗尘缘",
+      "icon": "UI_Talent_S_Liuyun_01"
+    },
+    "932": {
+      "name": "鹤唳远人间",
+      "icon": "UI_Talent_S_Liuyun_02"
+    },
+    "933": {
+      "name": "造化有星月",
+      "icon": "UI_Talent_U_Liuyun_02"
+    },
+    "934": {
+      "name": "奥妙烹黍珠",
+      "icon": "UI_Talent_S_Liuyun_03"
+    },
+    "935": {
+      "name": "旋步霞蔚上",
+      "icon": "UI_Talent_U_Liuyun_01"
+    },
+    "936": {
+      "name": "知是留云僊",
+      "icon": "UI_Talent_S_Liuyun_04"
+    }
+  },
+  "talent_fix": {
+    "10935": "暮集竹星",
+    "10932": "朝起鹤云"
+  },
+  "damage": [],
+  "buff": []
+}

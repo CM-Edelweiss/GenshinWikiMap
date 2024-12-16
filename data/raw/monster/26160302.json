@@ -1,0 +1,166 @@
+{
+  "id": 26160302,
+  "name": "铁甲熔火帝皇",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_HermitCrab_Primo",
+  "route": "Emperor of Fire and Iron",
+  "title": "铁甲熔火帝皇",
+  "specialName": "山峦之下鼓动的热潮",
+  "description": "矗立在原海异种顶端的两位霸主之一，曾经是海员之间的逸闻。\\n不遇天敌，能够一直狩猎、进食的重甲蟹会随着成长，不断寻找适合的螺与贝壳，作为新的甲胄。但在最后它长得实在太大了。在第一次涨水期前，曾有巨大的重甲蟹袭击船只，并最终被尚未复职的海军司令贝瑟·埃尔顿击退的记录。\\n设想这样的世界：将提瓦特所有的人都消除，无限成长下去的铁甲熔火帝皇终究会将沫芒宫穿在身上，作为最为华美的白石铠甲吧。当然在那样的世界自然不会有人半是敬畏，半是戏谑地将它称为「铁甲熔火帝皇」了。",
+  "entries": {
+    "26170101": {
+      "id": 26170101,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010031,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010031,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010031,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 163.008,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 113.04,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.6,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "102": {
+          "name": "冒险阅历",
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "200"
+        },
+        "105": {
+          "name": "好感经验",
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "104111": {
+          "name": "燃愿玛瑙碎屑",
+          "rank": 2,
+          "icon": "UI_ItemIcon_104111"
+        },
+        "104112": {
+          "name": "燃愿玛瑙断片",
+          "rank": 3,
+          "icon": "UI_ItemIcon_104112"
+        },
+        "104113": {
+          "name": "燃愿玛瑙块",
+          "rank": 4,
+          "icon": "UI_ItemIcon_104113"
+        },
+        "104114": {
+          "name": "燃愿玛瑙",
+          "rank": 5,
+          "icon": "UI_ItemIcon_104114"
+        },
+        "113051": {
+          "name": "帝皇的决断",
+          "rank": 4,
+          "icon": "UI_ItemIcon_113051",
+          "count": "2.5556"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400047": {
+          "name": "冒险家",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10010_4"
+        },
+        "400088": {
+          "name": "角斗士的终幕礼",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "name": "角斗士的终幕礼",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "name": "流浪大地的乐团",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "name": "流浪大地的乐团",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400127": {
+          "name": "祭火之人",
+          "rank": 3,
+          "icon": "UI_RelicIcon_15009_3"
+        },
+        "400128": {
+          "name": "祭火之人",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15009_3"
+        }
+      }
+    }
+  },
+  "tips": {
+    "306201": {
+      "images": [
+        "UI_Tutorial_197"
+      ],
+      "description": "经历过无数年月的成长，超越了几乎一切原海异种的重甲蟹之王。身躯上方高处的<color=#FFE14BFF>熔火双角<\/color>是<color=#FFE14BFF>火元素<\/color>的身体器官，使其能够进行更猛烈的元素攻击，并且拥有更强的防御能力。在进行部分攻击时，它的熔火双角会<color=#FFE14BFF>更贴近地面<\/color>，是利用<color=#FFE14BFF>元素反应<\/color>消除其中火元素的好时机。"
+    }
+  }
+}

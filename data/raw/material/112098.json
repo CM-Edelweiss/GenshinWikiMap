@@ -1,0 +1,58 @@
+{
+  "name": "残毁的剑柄",
+  "description": "自古老雕像上取得的的石质剑柄。\\n在海水的冲刷下已彻底残毁，失去了曾经的光泽。",
+  "type": "角色与武器培养素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "魔像禁卫掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 11431,
+          "name": "息燧之笛",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_Isikhulu"
+        },
+        {
+          "id": 15426,
+          "name": "筑云",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Bow_Ultimatum"
+        },
+        {
+          "id": 13512,
+          "name": "赤月之形",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Pole_BloodMoon"
+        },
+        {
+          "id": 13513,
+          "name": "柔灯挽歌",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Pole_Muguet"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 26140201,
+        "name": "魔像禁卫",
+        "icon": "UI_MonsterIcon_Golem_Legion"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_112098",
+  "rank": 2,
+  "route": "Ruined Hilt"
+}

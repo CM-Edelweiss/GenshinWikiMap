@@ -1,0 +1,216 @@
+{
+  "id": 25502301,
+  "name": "灵觉勇士·控念师",
+  "type": "其他人类势力",
+  "icon": "UI_MonsterIcon_Human_Male_Sword_Shamansaurus",
+  "route": "Spiritspeaker Warrior: Psychokinetic",
+  "title": "灵觉勇士·控念师",
+  "specialName": "部族忠诚的护卫",
+  "description": "来自谜烟之内的勇士，在漫霾峡谷巡游的部族守卫者。\\n据说身上的油彩涂鸦是燃素刻录演化到了如今的形式，需要经过漫长的修行才能真正掌握其中的力量。",
+  "entries": {
+    "25502301": {
+      "id": 25502301,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "部落战士-单手利器",
+          "description": "用于对攻击Type和特效配置进行区分",
+          "abilityName": [
+            "Monster_Human_Sword_EventAlter_Sharp"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "部落战士-战前喷漆罐-冷色",
+          "description": "战前喷漆手中的Item颜色",
+          "abilityName": [
+            "Monster_Human_FreePoseManager_SprayCan_Cool"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "部落战士-灵视龙部落标记",
+          "description": "影响部落特殊技的施放",
+          "abilityName": [
+            "Monster_Human_TribeUltMark_Shamansaurus"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 21.7344,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 22.608,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "25502302": {
+      "id": 25502302,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "部落战士-单手利器",
+          "description": "用于对攻击Type和特效配置进行区分",
+          "abilityName": [
+            "Monster_Human_Sword_EventAlter_Sharp"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "部落战士-战前喷漆罐-冷色",
+          "description": "战前喷漆手中的Item颜色",
+          "abilityName": [
+            "Monster_Human_FreePoseManager_SprayCan_Cool"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "部落战士-灵视龙部落标记",
+          "description": "影响部落特殊技的施放",
+          "abilityName": [
+            "Monster_Human_TribeUltMark_Shamansaurus"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 21.7344,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 22.608,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "25502303": {
+      "id": 25502303,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "部落战士-单手利器",
+          "description": "用于对攻击Type和特效配置进行区分",
+          "abilityName": [
+            "Monster_Human_Sword_EventAlter_Sharp"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "部落战士-战前喷漆罐-冷色",
+          "description": "战前喷漆手中的Item颜色",
+          "abilityName": [
+            "Monster_Human_FreePoseManager_SprayCan_Cool"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "部落战士-灵视龙部落标记",
+          "description": "影响部落特殊技的施放",
+          "abilityName": [
+            "Monster_Human_TribeUltMark_Shamansaurus"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "5.2灵视龙创生的头套人（wq）",
+          "description": "5.2灵视龙头套人创生死亡（wq）",
+          "abilityName": [
+            "MonsterEliteAffix_Shamansaurus_CreateMonsterDieV52"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 21.7344,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 22.608,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": null
+}

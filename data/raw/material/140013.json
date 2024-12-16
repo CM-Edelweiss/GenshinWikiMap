@@ -1,0 +1,18 @@
+{
+  "name": "梦生须臾之翼",
+  "description": "风之翼款式。因为在乐曲奏响时得以进入往昔之梦，于一瞬恍惚之中所得。",
+  "type": "风之翼",
+  "recipe": null,
+  "storyId": [
+    "140013"
+  ],
+  "mapMark": null,
+  "source": null,
+  "additions": {
+    "requiredBy": null,
+    "droppedBy": null
+  },
+  "icon": "UI_FlycloakIcon_Sternlied",
+  "rank": 4,
+  "route": "Wings of Transient Dreams"
+}

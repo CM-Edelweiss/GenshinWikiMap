@@ -1,0 +1,244 @@
+{
+  "id": 11431,
+  "rank": 4,
+  "type": "单手剑",
+  "name": "息燧之笛",
+  "description": "造型奇特的玉石长刀，在烟谜主的传承中被称作「祭司之笛」的礼器。",
+  "specialProp": "FIGHT_PROP_DEFENSE_PERCENT",
+  "icon": "UI_EquipIcon_Sword_Isikhulu",
+  "storyId": [
+    "11431_1",
+    "11431_2"
+  ],
+  "affix": {
+    "111431": {
+      "name": "镜与烟色的隐谜",
+      "upgrade": {
+        "0": "施放元素战技时，防御力提升<color=#99FFFFFF>16%<\/color>，持续15秒。",
+        "1": "施放元素战技时，防御力提升<color=#99FFFFFF>20%<\/color>，持续15秒。",
+        "2": "施放元素战技时，防御力提升<color=#99FFFFFF>24%<\/color>，持续15秒。",
+        "3": "施放元素战技时，防御力提升<color=#99FFFFFF>28%<\/color>，持续15秒。",
+        "4": "施放元素战技时，防御力提升<color=#99FFFFFF>32%<\/color>，持续15秒。"
+      }
+    }
+  },
+  "route": "Flute of Ezpitzal",
+  "upgrade": {
+    "awakenCost": [
+      1000,
+      2000,
+      4000,
+      8000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 41.0671,
+        "type": "GROW_CURVE_ATTACK_204"
+      },
+      {
+        "propType": "FIGHT_PROP_DEFENSE_PERCENT",
+        "initValue": 0.15013,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112098": 3,
+          "112101": 2,
+          "114061": 3
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 25.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112098": 12,
+          "112101": 8,
+          "114062": 3
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 51.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112099": 6,
+          "112102": 6,
+          "114062": 6
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112099": 12,
+          "112102": 9,
+          "114063": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 103.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112100": 9,
+          "112103": 6,
+          "114063": 6
+        },
+        "coinCost": 35000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 129.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112100": 18,
+          "112103": 12,
+          "114064": 4
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112098": 2,
+    "112099": 3,
+    "112100": 4,
+    "112101": 1,
+    "112102": 2,
+    "112103": 3,
+    "114061": 2,
+    "114062": 3,
+    "114063": 4,
+    "114064": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112098": {
+      "name": "残毁的剑柄",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112098"
+    },
+    "112099": {
+      "name": "裂断的剑柄",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112099"
+    },
+    "112100": {
+      "name": "未熄的剑柄",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112100"
+    },
+    "112101": {
+      "name": "稚嫩的尖齿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112101"
+    },
+    "112102": {
+      "name": "老练的坚齿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112102"
+    },
+    "112103": {
+      "name": "横行霸者的利齿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112103"
+    },
+    "114061": {
+      "name": "贡祭炽心的惶恐",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114061"
+    },
+    "114062": {
+      "name": "贡祭炽心的踌躇",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114062"
+    },
+    "114063": {
+      "name": "贡祭炽心的决绝",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114063"
+    },
+    "114064": {
+      "name": "贡祭炽心的荣膺",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114064"
+    }
+  }
+}

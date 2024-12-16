@@ -1,0 +1,126 @@
+{
+  "name": "横行霸者的利齿",
+  "description": "纳塔的强龙脱落的尖锐利齿。\\n旁生的锯状结构与其狰狞的形态，可窥见其主人在战斗中的蛮勇。拥有这等牙齿的龙，想必在纳塔诸多龙众中，可称得上是横行无忌的霸者了吧。",
+  "type": "角色与武器培养素材",
+  "recipe": {
+    "11206": {
+      "112102": {
+        "name": "老练的坚齿",
+        "icon": "UI_ItemIcon_112102",
+        "rank": 2,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "60级以上纳塔龙众掉落",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000101,
+          "name": "基尼奇",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Kinich"
+        },
+        {
+          "id": 10000104,
+          "name": "恰斯卡",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Chasca"
+        },
+        {
+          "id": 10000105,
+          "name": "欧洛伦",
+          "rank": 4,
+          "icon": "UI_AvatarIcon_Olorun"
+        }
+      ],
+      "weapon": [
+        {
+          "id": 11431,
+          "name": "息燧之笛",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_Isikhulu"
+        },
+        {
+          "id": 12430,
+          "name": "硕果钩",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Claymore_Umpakati"
+        },
+        {
+          "id": 14427,
+          "name": "苍纹角杯",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_ConchSprayer"
+        },
+        {
+          "id": 14430,
+          "name": "乘浪的回旋",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_Umpakati"
+        },
+        {
+          "id": 15431,
+          "name": "碎链",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Bow_Isikhulu"
+        },
+        {
+          "id": 11516,
+          "name": "岩峰巡歌",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Sword_XochitlsTube"
+        },
+        {
+          "id": 14516,
+          "name": "冲浪时光",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Catalyst_MechaPufferfish"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 26200101,
+        "name": "幼嵴锋龙",
+        "icon": "UI_MonsterIcon_Natsaurus_Drillhead_Small"
+      },
+      {
+        "id": 26200201,
+        "name": "嵴锋龙",
+        "icon": "UI_MonsterIcon_Natsaurus_Drillhead_Normal"
+      },
+      {
+        "id": 26210101,
+        "name": "幼鳍游龙",
+        "icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Small"
+      },
+      {
+        "id": 26210201,
+        "name": "鳍游龙",
+        "icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Normal"
+      },
+      {
+        "id": 26220101,
+        "name": "幼匿叶龙",
+        "icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Small"
+      },
+      {
+        "id": 26220201,
+        "name": "匿叶龙",
+        "icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Normal"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_112103",
+  "rank": 3,
+  "route": "Tyrant's Fang"
+}

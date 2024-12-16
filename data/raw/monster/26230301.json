@@ -1,0 +1,223 @@
+{
+  "id": 26230301,
+  "name": "金焰绒翼龙暴君",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Natsaurus_Flamingo_Primo",
+  "route": "Goldflame Qucusaur Tyrant",
+  "title": "金焰绒翼龙暴君",
+  "specialName": "告谕之翎",
+  "description": "因承受了如今龙众的身躯无法驭使的伟力，而拥有超然形体的异种绒翼龙。\\n在古老的传说里，如今常于山间迷雾盘桓的巨大翼龙，也曾在幼年时跟随故事里拯救纳塔的英杰们一同历险。据说众英雄的其中一位曾相约与它一同踏上前往火山的圣路，以挽回它因血脉中逐渐狂暴的力量而濒临失常的心智。只是以这位「暴君」现在获得的称呼来看，这段故事并未拥有完满的结局。",
+  "entries": {
+    "26230301": {
+      "id": 26230301,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010031,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010031,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010031,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 168.4416,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 125.6,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.7,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "102": {
+          "name": "冒险阅历",
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "200"
+        },
+        "105": {
+          "name": "好感经验",
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "104111": {
+          "name": "燃愿玛瑙碎屑",
+          "rank": 2,
+          "icon": "UI_ItemIcon_104111"
+        },
+        "104112": {
+          "name": "燃愿玛瑙断片",
+          "rank": 3,
+          "icon": "UI_ItemIcon_104112"
+        },
+        "104113": {
+          "name": "燃愿玛瑙块",
+          "rank": 4,
+          "icon": "UI_ItemIcon_104113"
+        },
+        "104114": {
+          "name": "燃愿玛瑙",
+          "rank": 5,
+          "icon": "UI_ItemIcon_104114"
+        },
+        "113064": {
+          "name": "受祝所缚之印",
+          "rank": 4,
+          "icon": "UI_ItemIcon_113064",
+          "count": "2.5556"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400047": {
+          "name": "冒险家",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10010_4"
+        },
+        "400088": {
+          "name": "角斗士的终幕礼",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "name": "角斗士的终幕礼",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "name": "流浪大地的乐团",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "name": "流浪大地的乐团",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400127": {
+          "name": "祭火之人",
+          "rank": 3,
+          "icon": "UI_RelicIcon_15009_3"
+        },
+        "400128": {
+          "name": "祭火之人",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15009_3"
+        }
+      }
+    },
+    "26230302": {
+      "id": 26230302,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "翼手龙-挑战-深渊词缀",
+          "description": "翼手龙-挑战-深渊词缀",
+          "abilityName": [
+            "Monster_Natsaurus_Flamingo_Primo_ForAbyss"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010031,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010031,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010031,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 168.4416,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 125.6,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.7,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": {
+    "308001": {
+      "images": [
+        "UI_Tutorial_215"
+      ],
+      "description": "因自身无法承担的伟力折磨，而具有超然形体的异种绒翼龙。会在战斗中飞入高空，转化为力量汇聚的「金焰」形态，为自身创造护罩，并向地面发射唤来热风的「炽风翎羽」。如果无法在它俯冲至「炽风之翎」前将后者破坏，它就会借由燃素风场重新返回空中，直到力竭转化回原有的形态为止。看来，在它向下俯冲前用<color=#FFE14BFF>能与火元素反应的元素破坏「炽风之翎」<\/color>，或许是击败它的关键…"
+    }
+  }
+}

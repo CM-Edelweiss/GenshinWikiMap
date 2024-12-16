@@ -1,0 +1,72 @@
+{
+  "name": "聚燃的命种",
+  "description": "击败熔岩游像之后，从其体内取得的聚燃堆。\\n散发着些微的热量。\\n到了这种规模的石堆，已经很难阻止其不断燃烧下去了。据说，这就是某种生命初始的形态。",
+  "type": "角色与武器培养素材",
+  "recipe": {
+    "11067": {
+      "112110": {
+        "name": "聚燃的石块",
+        "icon": "UI_ItemIcon_112110",
+        "rank": 2,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "40级以上熔岩游像掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 12431,
+          "name": "撼地者",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Claymore_Isikhulu"
+        },
+        {
+          "id": 13430,
+          "name": "镇山之钉",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Pole_Umpakati"
+        },
+        {
+          "id": 15430,
+          "name": "缀花之翎",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Bow_Umpakati"
+        },
+        {
+          "id": 12513,
+          "name": "山王长牙",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Claymore_EmeraldSword"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 26270201,
+        "name": "熔岩游像·蚀土者",
+        "icon": "UI_MonsterIcon_Lava_Solid"
+      },
+      {
+        "id": 26270101,
+        "name": "熔岩游像·流燃体",
+        "icon": "UI_MonsterIcon_Lava_Liquid"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_112111",
+  "rank": 3,
+  "route": "Ignited Seed of Life"
+}

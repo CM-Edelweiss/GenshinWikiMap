@@ -1,0 +1,2773 @@
+{
+  "id": 10000101,
+  "rank": 5,
+  "name": "基尼奇",
+  "element": "Grass",
+  "weaponType": "WEAPON_CLAYMORE",
+  "region": "NATLAN",
+  "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+  "bodyType": "BOY",
+  "icon": "UI_AvatarIcon_Kinich",
+  "birthday": [
+    11,
+    11
+  ],
+  "release": 1726585200,
+  "route": "Kinich",
+  "fetter": {
+    "title": "回火之狩",
+    "detail": "维茨特兰的猎龙人，精于度量代价。",
+    "constellation": "幻瑞兽座",
+    "native": "维茨特兰",
+    "cv": {
+      "EN": "约翰·帕特诺德&阿比·埃斯皮里图",
+      "CHS": "斑马&弭洋",
+      "JP": "杉山纪彰&竹内顺子",
+      "KR": "姜声宇&朴利娜"
+    }
+  },
+  "upgrade": {
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1000.98602,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 25.8818,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 62.40269,
+        "type": "GROW_CURVE_HP_S5"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "101250": 3,
+          "104131": 1,
+          "112101": 3
+        },
+        "unlockMaxLevel": 40,
+        "addProps": {
+          "FIGHT_PROP_BASE_HP": 858.255,
+          "FIGHT_PROP_BASE_DEFENSE": 53.5059,
+          "FIGHT_PROP_BASE_ATTACK": 22.18968,
+          "FIGHT_PROP_CRITICAL_HURT": 0
+        },
+        "requiredPlayerLevel": 15,
+        "coinCost": 20000
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "101250": 10,
+          "104132": 3,
+          "112101": 15,
+          "113065": 2
+        },
+        "unlockMaxLevel": 50,
+        "addProps": {
+          "FIGHT_PROP_BASE_HP": 1468.06775,
+          "FIGHT_PROP_BASE_DEFENSE": 91.52325,
+          "FIGHT_PROP_BASE_ATTACK": 37.95604,
+          "FIGHT_PROP_CRITICAL_HURT": 0.096
+        },
+        "requiredPlayerLevel": 25,
+        "coinCost": 40000
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "101250": 20,
+          "104132": 6,
+          "112102": 12,
+          "113065": 4
+        },
+        "unlockMaxLevel": 60,
+        "addProps": {
+          "FIGHT_PROP_BASE_HP": 2281.15137,
+          "FIGHT_PROP_BASE_DEFENSE": 142.21304,
+          "FIGHT_PROP_BASE_ATTACK": 58.97784,
+          "FIGHT_PROP_CRITICAL_HURT": 0.192
+        },
+        "requiredPlayerLevel": 30,
+        "coinCost": 60000
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "101250": 30,
+          "104133": 3,
+          "112102": 18,
+          "113065": 8
+        },
+        "unlockMaxLevel": 70,
+        "addProps": {
+          "FIGHT_PROP_BASE_HP": 2890.96411,
+          "FIGHT_PROP_BASE_DEFENSE": 180.23039,
+          "FIGHT_PROP_BASE_ATTACK": 74.74419,
+          "FIGHT_PROP_CRITICAL_HURT": 0.192
+        },
+        "requiredPlayerLevel": 35,
+        "coinCost": 80000
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "101250": 45,
+          "104133": 6,
+          "112103": 12,
+          "113065": 12
+        },
+        "unlockMaxLevel": 80,
+        "addProps": {
+          "FIGHT_PROP_BASE_HP": 3500.77686,
+          "FIGHT_PROP_BASE_DEFENSE": 218.24776,
+          "FIGHT_PROP_BASE_ATTACK": 90.51054,
+          "FIGHT_PROP_CRITICAL_HURT": 0.288
+        },
+        "requiredPlayerLevel": 40,
+        "coinCost": 100000
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "101250": 60,
+          "104134": 6,
+          "112103": 24,
+          "113065": 20
+        },
+        "unlockMaxLevel": 90,
+        "addProps": {
+          "FIGHT_PROP_BASE_HP": 4110.58984,
+          "FIGHT_PROP_BASE_DEFENSE": 256.26511,
+          "FIGHT_PROP_BASE_ATTACK": 106.2769,
+          "FIGHT_PROP_CRITICAL_HURT": 0.384
+        },
+        "requiredPlayerLevel": 50,
+        "coinCost": 120000
+      }
+    ]
+  },
+  "other": {
+    "costume": [
+      {
+        "name": "八位艺术",
+        "description": "基尼奇的装扮款式。衣饰上的色块排列遵循高精度的组合规律，猎龙人的行动也有自己的准则。",
+        "isDefault": true
+      }
+    ],
+    "furnitureId": 368187,
+    "nameCard": {
+      "id": 210208,
+      "name": "基尼奇·阿乔",
+      "description": "名片纹饰。\\n听起来很像是伟大的圣龙库胡勒·阿乔终于让基尼奇小子成为了自己的意志容器。很可惜，这只是因为名片的命名规则如此罢了。",
+      "icon": "UI_NameCardIcon_Kinich"
+    },
+    "specialFood": {
+      "id": 108745,
+      "name": "猎龙者的犒赏",
+      "rank": 3,
+      "effectIcon": "UI_Buff_Item_Atk_CritRate",
+      "icon": "UI_ItemIcon_108745"
+    }
+  },
+  "ascension": {
+    "101250": 1,
+    "104131": 2,
+    "104132": 3,
+    "104133": 4,
+    "104134": 5,
+    "104319": 5,
+    "104350": 2,
+    "104351": 3,
+    "104352": 4,
+    "112101": 1,
+    "112102": 2,
+    "112103": 3,
+    "113062": 5,
+    "113065": 4
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "101250": {
+      "name": "肉龙掌",
+      "rank": 1,
+      "icon": "UI_ItemIcon_101250"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104131": {
+      "name": "生长碧翡碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104131"
+    },
+    "104132": {
+      "name": "生长碧翡断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104132"
+    },
+    "104133": {
+      "name": "生长碧翡块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104133"
+    },
+    "104134": {
+      "name": "生长碧翡",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104134"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "104350": {
+      "name": "「焚燔」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104350"
+    },
+    "104351": {
+      "name": "「焚燔」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104351"
+    },
+    "104352": {
+      "name": "「焚燔」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104352"
+    },
+    "112101": {
+      "name": "稚嫩的尖齿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112101"
+    },
+    "112102": {
+      "name": "老练的坚齿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112102"
+    },
+    "112103": {
+      "name": "横行霸者的利齿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112103"
+    },
+    "113062": {
+      "name": "否定裁断",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113062"
+    },
+    "113065": {
+      "name": "过熟的火榴果",
+      "rank": 4,
+      "icon": "UI_ItemIcon_113065"
+    }
+  },
+  "talent": {
+    "0": {
+      "type": 0,
+      "name": "普通攻击·夜阳斗技",
+      "description": "<color=#FFD780FF>普通攻击<\/color>\\n进行至多三段的连续攻击。\\n通过元素战技「悬猎·游骋高狩」进行空中摆荡后，在落地之前能在空中进行一次普通攻击。\\n\\n<color=#FFD780FF>重击<\/color>\\n消耗一定体力，向前方旋转地投出大剑攻击敌人。\\n\\n<color=#FFD780FF>下落攻击<\/color>\\n从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
+      "icon": "Skill_A_04",
+      "promote": {
+        "1": {
+          "level": 1,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "空中普通攻击伤害|{param9:F1P}",
+            "重击伤害|{param4:F1P}*3",
+            "重击体力消耗|{param5:F1}点",
+            "下坠期间伤害|{param6:F1P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.98986,
+            0.82904,
+            1.23496,
+            0.48418,
+            50,
+            0.74588,
+            1.49144,
+            1.86289,
+            1.677,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 2,
+          "costItems": {
+            "104350": 3,
+            "112101": 6
+          },
+          "coinCost": 12500,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "空中普通攻击伤害|{param9:F1P}",
+            "重击伤害|{param4:F1P}*3",
+            "重击体力消耗|{param5:F1}点",
+            "下坠期间伤害|{param6:F1P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.07043,
+            0.89652,
+            1.33548,
+            0.52359,
+            50,
+            0.80659,
+            1.61284,
+            2.01452,
+            1.8135,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 3,
+          "costItems": {
+            "104351": 2,
+            "112102": 3
+          },
+          "coinCost": 17500,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "空中普通攻击伤害|{param9:F1P}",
+            "重击伤害|{param4:F1P}*3",
+            "重击体力消耗|{param5:F1}点",
+            "下坠期间伤害|{param6:F1P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.151,
+            0.964,
+            1.436,
+            0.563,
+            50,
+            0.8673,
+            1.73423,
+            2.16615,
+            1.95,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 4,
+          "costItems": {
+            "104351": 4,
+            "112102": 4
+          },
+          "coinCost": 25000,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "空中普通攻击伤害|{param9:F1P}",
+            "重击伤害|{param4:F1P}*3",
+            "重击体力消耗|{param5:F1}点",
+            "下坠期间伤害|{param6:F1P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.2661,
+            1.0604,
+            1.5796,
+            0.6193,
+            50,
+            0.95403,
+            1.90766,
+            2.38277,
+            2.145,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 5,
+          "costItems": {
+            "104351": 6,
+            "112102": 6
+          },
+          "coinCost": 30000,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "空中普通攻击伤害|{param9:F1P}",
+            "重击伤害|{param4:F1P}*3",
+            "重击体力消耗|{param5:F1}点",
+            "下坠期间伤害|{param6:F1P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.34667,
+            1.12788,
+            1.68012,
+            0.65871,
+            50,
+            1.01474,
+            2.02905,
+            2.5344,
+            2.2815,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 6,
+          "costItems": {
+            "104351": 9,
+            "112102": 9
+          },
+          "coinCost": 37500,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "空中普通攻击伤害|{param9:F1P}",
+            "重击伤害|{param4:F1P}*3",
+            "重击体力消耗|{param5:F1}点",
+            "下坠期间伤害|{param6:F1P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.43875,
+            1.205,
+            1.795,
+            0.70375,
+            50,
+            1.08413,
+            2.16779,
+            2.70769,
+            2.4375,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 7,
+          "costItems": {
+            "104352": 4,
+            "112103": 4,
+            "113062": 1
+          },
+          "coinCost": 120000,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "空中普通攻击伤害|{param9:F1P}",
+            "重击伤害|{param4:F1P}*3",
+            "重击体力消耗|{param5:F1}点",
+            "下坠期间伤害|{param6:F1P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.56536,
+            1.31104,
+            1.95296,
+            0.76568,
+            50,
+            1.17953,
+            2.35856,
+            2.94596,
+            2.652,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 8,
+          "costItems": {
+            "104352": 6,
+            "112103": 6,
+            "113062": 1
+          },
+          "coinCost": 260000,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "空中普通攻击伤害|{param9:F1P}",
+            "重击伤害|{param4:F1P}*3",
+            "重击体力消耗|{param5:F1}点",
+            "下坠期间伤害|{param6:F1P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.69197,
+            1.41708,
+            2.11092,
+            0.82761,
+            50,
+            1.27493,
+            2.54932,
+            3.18424,
+            2.8665,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 9,
+          "costItems": {
+            "104352": 12,
+            "112103": 9,
+            "113062": 2
+          },
+          "coinCost": 450000,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "空中普通攻击伤害|{param9:F1P}",
+            "重击伤害|{param4:F1P}*3",
+            "重击体力消耗|{param5:F1}点",
+            "下坠期间伤害|{param6:F1P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.81858,
+            1.52312,
+            2.26888,
+            0.88954,
+            50,
+            1.37033,
+            2.74009,
+            3.42252,
+            3.081,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 10,
+          "costItems": {
+            "104319": 1,
+            "104352": 16,
+            "112103": 12,
+            "113062": 2
+          },
+          "coinCost": 700000,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "空中普通攻击伤害|{param9:F1P}",
+            "重击伤害|{param4:F1P}*3",
+            "重击体力消耗|{param5:F1}点",
+            "下坠期间伤害|{param6:F1P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.9567,
+            1.6388,
+            2.4412,
+            0.9571,
+            50,
+            1.47441,
+            2.94819,
+            3.68246,
+            3.315,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 11,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "空中普通攻击伤害|{param9:F1P}",
+            "重击伤害|{param4:F1P}*3",
+            "重击体力消耗|{param5:F1}点",
+            "下坠期间伤害|{param6:F1P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            2.09482,
+            1.75448,
+            2.61352,
+            1.02466,
+            50,
+            1.57849,
+            3.1563,
+            3.94239,
+            3.549,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 12,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "空中普通攻击伤害|{param9:F1P}",
+            "重击伤害|{param4:F1P}*3",
+            "重击体力消耗|{param5:F1}点",
+            "下坠期间伤害|{param6:F1P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            2.23294,
+            1.87016,
+            2.78584,
+            1.09222,
+            50,
+            1.68256,
+            3.36441,
+            4.20233,
+            3.783,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 13,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "空中普通攻击伤害|{param9:F1P}",
+            "重击伤害|{param4:F1P}*3",
+            "重击体力消耗|{param5:F1}点",
+            "下坠期间伤害|{param6:F1P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            2.37106,
+            1.98584,
+            2.95816,
+            1.15978,
+            50,
+            1.78664,
+            3.57252,
+            4.46227,
+            4.017,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 14,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "空中普通攻击伤害|{param9:F1P}",
+            "重击伤害|{param4:F1P}*3",
+            "重击体力消耗|{param5:F1}点",
+            "下坠期间伤害|{param6:F1P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            2.50918,
+            2.10152,
+            3.13048,
+            1.22734,
+            50,
+            1.89071,
+            3.78063,
+            4.72221,
+            4.251,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "15": {
+          "level": 15,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "空中普通攻击伤害|{param9:F1P}",
+            "重击伤害|{param4:F1P}*3",
+            "重击体力消耗|{param5:F1}点",
+            "下坠期间伤害|{param6:F1P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            2.6473,
+            2.2172,
+            3.3028,
+            1.2949,
+            50,
+            1.99479,
+            3.98873,
+            4.98214,
+            4.485,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "cooldown": 0,
+      "cost": 0,
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "5",
+              "text": "Normal Attack"
+            },
+            "type": {
+              "span": "5",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "131",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "117",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "400",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Normal Attack 3-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "160",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "400",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Mid-Air Normal Attack",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charged Attack",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "40",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "35",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "200",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "800"
+          },
+          "bluntAttack": true
+        }
+      ]
+    },
+    "1": {
+      "type": 0,
+      "name": "悬猎·游骋高狩",
+      "description": "以狩猎巨兽的心得，快速移动或对敌人发起攻击。\\n若身边存在敌人或能被攻击的物件，会将钩索链接在目标上，以0点夜魂值进入夜魂加持状态；否则，会向前方发射钩索进行空中摆荡，并使冷却时间缩短60%；\\n能够长按施放。长按时，能够瞄准以决定发射钩索的方向。\\n\\n<color=#FFD780FF>夜魂加持·基尼奇<\/color>\\n基尼奇的夜魂加持状态持续10秒，每秒将产生2点夜魂值。\\n在夜魂加持状态下，基尼奇会以钩索链接身边的敌人，并据此改变攻击方式：\\n·进行普通攻击时依据当前移动的方向，以链接的目标为中心，进行环绕射击，造成具有夜魂性质的<color=#99FF88FF>草元素伤害<\/color>，并产生3点夜魂值。环绕射击造成的伤害视为元素战技伤害；\\n·夜魂值达到上限时，能够施放元素战技「迴猎贯鳞炮」：消耗所有夜魂值，造成具有夜魂性质的<color=#99FF88FF>草元素伤害<\/color>。长按施放迴猎贯鳞炮时，能够瞄准以决定攻击的目标。施放迴猎贯鳞炮后，基尼奇将会尝试链接迴猎贯鳞炮的目标。\\n在夜魂加持状态下，链接敌人或施放迴猎贯鳞炮后，将会在敌人身边产生死角区，基尼奇进入死角区会产生4点夜魂值，并移除死角区。\\n链接因超出距离等原因断开时，进行普通攻击会与身边的敌人重新建立链接并进行环绕射击。\\n\\n<i>「凡事皆有代价，希望你能给出合适的价码…什么？我可不接受分期付款。」<\/i>",
+      "icon": "Skill_S_Kinich_01",
+      "promote": {
+        "1": {
+          "level": 1,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "环绕射击伤害|{param1:F1P}*2",
+            "迴猎贯鳞炮伤害|{param2:F1P}",
+            "夜魂值上限|{param4:F1}点",
+            "冷却时间|{param3:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.5728,
+            6.8744,
+            18,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 2,
+          "costItems": {
+            "104350": 3,
+            "112101": 6
+          },
+          "coinCost": 12500,
+          "description": [
+            "环绕射击伤害|{param1:F1P}*2",
+            "迴猎贯鳞炮伤害|{param2:F1P}",
+            "夜魂值上限|{param4:F1}点",
+            "冷却时间|{param3:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.61576,
+            7.38998,
+            18,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 3,
+          "costItems": {
+            "104351": 2,
+            "112102": 3
+          },
+          "coinCost": 17500,
+          "description": [
+            "环绕射击伤害|{param1:F1P}*2",
+            "迴猎贯鳞炮伤害|{param2:F1P}",
+            "夜魂值上限|{param4:F1}点",
+            "冷却时间|{param3:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.65872,
+            7.90556,
+            18,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 4,
+          "costItems": {
+            "104351": 4,
+            "112102": 4
+          },
+          "coinCost": 25000,
+          "description": [
+            "环绕射击伤害|{param1:F1P}*2",
+            "迴猎贯鳞炮伤害|{param2:F1P}",
+            "夜魂值上限|{param4:F1}点",
+            "冷却时间|{param3:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.716,
+            8.593,
+            18,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 5,
+          "costItems": {
+            "104351": 6,
+            "112102": 6
+          },
+          "coinCost": 30000,
+          "description": [
+            "环绕射击伤害|{param1:F1P}*2",
+            "迴猎贯鳞炮伤害|{param2:F1P}",
+            "夜魂值上限|{param4:F1}点",
+            "冷却时间|{param3:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.75896,
+            9.10858,
+            18,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 6,
+          "costItems": {
+            "104351": 9,
+            "112102": 9
+          },
+          "coinCost": 37500,
+          "description": [
+            "环绕射击伤害|{param1:F1P}*2",
+            "迴猎贯鳞炮伤害|{param2:F1P}",
+            "夜魂值上限|{param4:F1}点",
+            "冷却时间|{param3:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.80192,
+            9.62416,
+            18,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 7,
+          "costItems": {
+            "104352": 4,
+            "112103": 4,
+            "113062": 1
+          },
+          "coinCost": 120000,
+          "description": [
+            "环绕射击伤害|{param1:F1P}*2",
+            "迴猎贯鳞炮伤害|{param2:F1P}",
+            "夜魂值上限|{param4:F1}点",
+            "冷却时间|{param3:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.8592,
+            10.3116,
+            18,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 8,
+          "costItems": {
+            "104352": 6,
+            "112103": 6,
+            "113062": 1
+          },
+          "coinCost": 260000,
+          "description": [
+            "环绕射击伤害|{param1:F1P}*2",
+            "迴猎贯鳞炮伤害|{param2:F1P}",
+            "夜魂值上限|{param4:F1}点",
+            "冷却时间|{param3:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.91648,
+            10.99904,
+            18,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 9,
+          "costItems": {
+            "104352": 12,
+            "112103": 9,
+            "113062": 2
+          },
+          "coinCost": 450000,
+          "description": [
+            "环绕射击伤害|{param1:F1P}*2",
+            "迴猎贯鳞炮伤害|{param2:F1P}",
+            "夜魂值上限|{param4:F1}点",
+            "冷却时间|{param3:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.97376,
+            11.68648,
+            18,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 10,
+          "costItems": {
+            "104319": 1,
+            "104352": 16,
+            "112103": 12,
+            "113062": 2
+          },
+          "coinCost": 700000,
+          "description": [
+            "环绕射击伤害|{param1:F1P}*2",
+            "迴猎贯鳞炮伤害|{param2:F1P}",
+            "夜魂值上限|{param4:F1}点",
+            "冷却时间|{param3:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.03104,
+            12.37392,
+            18,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 11,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "环绕射击伤害|{param1:F1P}*2",
+            "迴猎贯鳞炮伤害|{param2:F1P}",
+            "夜魂值上限|{param4:F1}点",
+            "冷却时间|{param3:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.08832,
+            13.06136,
+            18,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 12,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "环绕射击伤害|{param1:F1P}*2",
+            "迴猎贯鳞炮伤害|{param2:F1P}",
+            "夜魂值上限|{param4:F1}点",
+            "冷却时间|{param3:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.1456,
+            13.7488,
+            18,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 13,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "环绕射击伤害|{param1:F1P}*2",
+            "迴猎贯鳞炮伤害|{param2:F1P}",
+            "夜魂值上限|{param4:F1}点",
+            "冷却时间|{param3:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.2172,
+            14.6081,
+            18,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 14,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "环绕射击伤害|{param1:F1P}*2",
+            "迴猎贯鳞炮伤害|{param2:F1P}",
+            "夜魂值上限|{param4:F1}点",
+            "冷却时间|{param3:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.2888,
+            15.4674,
+            18,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "15": {
+          "level": 15,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "环绕射击伤害|{param1:F1P}*2",
+            "迴猎贯鳞炮伤害|{param2:F1P}",
+            "夜魂值上限|{param4:F1}点",
+            "冷却时间|{param3:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.3604,
+            16.3267,
+            18,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "cooldown": 18,
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          },
+          {
+            "id": 2,
+            "type": "level"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Loop Shot DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Loop Shot"
+            },
+            "type": {
+              "span": null,
+              "text": "2s"
+            }
+          },
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Scalespiker Cannon DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Scalespiker Cannon"
+            },
+            "type": {
+              "span": null,
+              "text": "1.2s"
+            }
+          },
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
+    },
+    "3": {
+      "type": 1,
+      "name": "向伟大圣龙致意",
+      "description": "（有限度、有条件、有节制地，依照契约，部分、暂时）解放「圣龙阿乔」的力量，造成具有夜魂性质的<color=#99FF88FF>草元素范围伤害<\/color>。圣龙阿乔将在持续期间周期性释放龙息，造成具有夜魂性质的<color=#99FF88FF>草元素范围伤害<\/color>。\\n施放时，若基尼奇处于夜魂加持状态下，此次夜魂加持的持续时间延长1.7秒。\\n\\n<i>「没错！站在汝等面前的便是伟大圣龙库胡勒阿乔，还不快快上前亲吻吾的脚背！」<\/i>",
+      "icon": "Skill_E_Kinich_01",
+      "promote": {
+        "1": {
+          "level": 1,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "技能伤害|{param1:F1P}",
+            "龙息伤害|{param2:F1P}",
+            "持续时间|{param3:F1}秒",
+            "冷却时间|{param4:F1}秒",
+            "元素能量|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.34,
+            1.20736,
+            15,
+            18,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 2,
+          "costItems": {
+            "104350": 3,
+            "112101": 6
+          },
+          "coinCost": 12500,
+          "description": [
+            "技能伤害|{param1:F1P}",
+            "龙息伤害|{param2:F1P}",
+            "持续时间|{param3:F1}秒",
+            "冷却时间|{param4:F1}秒",
+            "元素能量|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.4405,
+            1.29791,
+            15,
+            18,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 3,
+          "costItems": {
+            "104351": 2,
+            "112102": 3
+          },
+          "coinCost": 17500,
+          "description": [
+            "技能伤害|{param1:F1P}",
+            "龙息伤害|{param2:F1P}",
+            "持续时间|{param3:F1}秒",
+            "冷却时间|{param4:F1}秒",
+            "元素能量|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.541,
+            1.38846,
+            15,
+            18,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 4,
+          "costItems": {
+            "104351": 4,
+            "112102": 4
+          },
+          "coinCost": 25000,
+          "description": [
+            "技能伤害|{param1:F1P}",
+            "龙息伤害|{param2:F1P}",
+            "持续时间|{param3:F1}秒",
+            "冷却时间|{param4:F1}秒",
+            "元素能量|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.675,
+            1.5092,
+            15,
+            18,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 5,
+          "costItems": {
+            "104351": 6,
+            "112102": 6
+          },
+          "coinCost": 30000,
+          "description": [
+            "技能伤害|{param1:F1P}",
+            "龙息伤害|{param2:F1P}",
+            "持续时间|{param3:F1}秒",
+            "冷却时间|{param4:F1}秒",
+            "元素能量|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.7755,
+            1.59975,
+            15,
+            18,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 6,
+          "costItems": {
+            "104351": 9,
+            "112102": 9
+          },
+          "coinCost": 37500,
+          "description": [
+            "技能伤害|{param1:F1P}",
+            "龙息伤害|{param2:F1P}",
+            "持续时间|{param3:F1}秒",
+            "冷却时间|{param4:F1}秒",
+            "元素能量|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.876,
+            1.6903,
+            15,
+            18,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 7,
+          "costItems": {
+            "104352": 4,
+            "112103": 4,
+            "113062": 1
+          },
+          "coinCost": 120000,
+          "description": [
+            "技能伤害|{param1:F1P}",
+            "龙息伤害|{param2:F1P}",
+            "持续时间|{param3:F1}秒",
+            "冷却时间|{param4:F1}秒",
+            "元素能量|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            2.01,
+            1.81104,
+            15,
+            18,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 8,
+          "costItems": {
+            "104352": 6,
+            "112103": 6,
+            "113062": 1
+          },
+          "coinCost": 260000,
+          "description": [
+            "技能伤害|{param1:F1P}",
+            "龙息伤害|{param2:F1P}",
+            "持续时间|{param3:F1}秒",
+            "冷却时间|{param4:F1}秒",
+            "元素能量|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            2.144,
+            1.93178,
+            15,
+            18,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 9,
+          "costItems": {
+            "104352": 12,
+            "112103": 9,
+            "113062": 2
+          },
+          "coinCost": 450000,
+          "description": [
+            "技能伤害|{param1:F1P}",
+            "龙息伤害|{param2:F1P}",
+            "持续时间|{param3:F1}秒",
+            "冷却时间|{param4:F1}秒",
+            "元素能量|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            2.278,
+            2.05251,
+            15,
+            18,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 10,
+          "costItems": {
+            "104319": 1,
+            "104352": 16,
+            "112103": 12,
+            "113062": 2
+          },
+          "coinCost": 700000,
+          "description": [
+            "技能伤害|{param1:F1P}",
+            "龙息伤害|{param2:F1P}",
+            "持续时间|{param3:F1}秒",
+            "冷却时间|{param4:F1}秒",
+            "元素能量|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            2.412,
+            2.17325,
+            15,
+            18,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 11,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "技能伤害|{param1:F1P}",
+            "龙息伤害|{param2:F1P}",
+            "持续时间|{param3:F1}秒",
+            "冷却时间|{param4:F1}秒",
+            "元素能量|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            2.546,
+            2.29398,
+            15,
+            18,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 12,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "技能伤害|{param1:F1P}",
+            "龙息伤害|{param2:F1P}",
+            "持续时间|{param3:F1}秒",
+            "冷却时间|{param4:F1}秒",
+            "元素能量|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            2.68,
+            2.41472,
+            15,
+            18,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 13,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "技能伤害|{param1:F1P}",
+            "龙息伤害|{param2:F1P}",
+            "持续时间|{param3:F1}秒",
+            "冷却时间|{param4:F1}秒",
+            "元素能量|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            2.8475,
+            2.56564,
+            15,
+            18,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 14,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "技能伤害|{param1:F1P}",
+            "龙息伤害|{param2:F1P}",
+            "持续时间|{param3:F1}秒",
+            "冷却时间|{param4:F1}秒",
+            "元素能量|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            3.015,
+            2.71656,
+            15,
+            18,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "15": {
+          "level": 15,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "技能伤害|{param1:F1P}",
+            "龙息伤害|{param2:F1P}",
+            "持续时间|{param3:F1}秒",
+            "冷却时间|{param4:F1}秒",
+            "元素能量|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            3.1825,
+            2.86748,
+            15,
+            18,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "cooldown": 18,
+      "cost": 70,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 3,
+            "type": "normal"
+          },
+          {
+            "id": 4,
+            "type": "level"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Skill DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "2",
+              "text": "Elemental Burst"
+            },
+            "type": {
+              "span": "2",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "35",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Dragon Breath DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "35",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
+    },
+    "4": {
+      "type": 2,
+      "name": "噩地的代价",
+      "description": "处于夜魂加持状态下时，基尼奇的元素战技命中的敌人，将陷入「噩地」状态，在受到燃烧反应或烈绽放反应伤害时，为基尼奇产生7点夜魂值，每0.8秒至多通过这种方式产生一次夜魂值。噩地状态持续直至基尼奇此次夜魂加持状态结束。",
+      "icon": "UI_Talent_S_Kinich_05",
+      "linkedConstellations": null
+    },
+    "5": {
+      "type": 2,
+      "name": "焰灵的契约",
+      "description": "队伍中的附近的角色触发「夜魂迸发」后，将为基尼奇赋予一层「猎人心得」，持续15秒，至多叠加2层。基尼奇在施放<color=#FFD780FF>悬猎·游骋高狩<\/color>的迴猎贯鳞炮时，将消耗所有的「猎人心得」，并依据消耗的层数，每层使本次迴猎贯鳞炮造成的伤害基于基尼奇攻击力的320%提高。",
+      "icon": "UI_Talent_S_Kinich_06",
+      "linkedConstellations": {
+        "isLevelIncluded": false,
+        "prop": [
+          {
+            "id": 5,
+            "type": "normal"
+          }
+        ]
+      }
+    },
+    "6": {
+      "type": 2,
+      "name": "夜域赐礼·索报皆偿",
+      "description": "通过<color=#FFD780FF>悬猎·游骋高狩<\/color>，基尼奇进行空中摆荡后处于空中时，能够消耗10点燃素以再次进行空中摆荡。\\n在纳塔存在燃素机制的区域时，能够进行夜魂传递·基尼奇。当前场上角色处于冲刺状态、特定天赋赋予的移动状态下，或是位于空中时，切换基尼奇登场时，基尼奇将依照条件，进行以下行动之一：\\n·朝向可以交互的卷叶符印时：向它发射钩索以进行移动；\\n·身边有敌人并处于战斗状态时：向该敌人施放悬猎·游骋高狩；\\n否则，发射钩索，进行空中摆荡。基尼奇将优先以符合条件的卷叶符印为发射钩索的目标。\\n自己的队伍每10秒能触发一次夜魂传递。\\n\\n在与卷叶符印等能够与匿叶龙交互的物件互动时，悬猎·游骋高狩将被替换为「匿叶仿生」，通过匿叶仿生与这些物件交互时，这些物件的交互规则沿袭匿叶龙的交互规则，并且不会使悬猎·游骋高狩进入冷却。",
+      "icon": "UI_Talent_S_Kinich_08",
+      "linkedConstellations": null
+    },
+    "8": {
+      "type": 2,
+      "name": "疾行的使令",
+      "description": "在纳塔存在燃素机制的区域时，与部分采集物交互能够使队伍中自己的角色移动速度提高15%，持续10秒。此外，在小地图上显示周围的<color=#FFD780FF>纳塔区域特产<\/color>的位置。",
+      "icon": "UI_Talent_S_Kachina_08",
+      "linkedConstellations": null
+    }
+  },
+  "constellation": {
+    "0": {
+      "id": 0,
+      "name": "七鹦之喙",
+      "description": "通过<color=#FFD780FF>悬猎·游骋高狩<\/color>，基尼奇进行空中摆荡落地后，移动速度提升30%，持续6秒。\\n此外，迴猎贯鳞炮的暴击伤害提升100%。",
+      "extraData": null,
+      "icon": "UI_Talent_S_Kinich_01"
+    },
+    "1": {
+      "id": 1,
+      "name": "星虎之掌",
+      "description": "基尼奇的元素战技命中敌人时，将使其<color=#99FF88FF>草元素抗性<\/color>降低30%，持续6秒。\\n此外，基尼奇在进入夜魂加持状态下的首次迴猎贯鳞炮的影响范围提升，造成的伤害提升100%。",
+      "extraData": null,
+      "icon": "UI_Talent_S_Kinich_02"
+    },
+    "2": {
+      "id": 2,
+      "name": "原鳄之爪",
+      "description": "<color=#FFD780FF>悬猎·游骋高狩<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 2,
+          "extraLevel": 3
+        }
+      },
+      "icon": "UI_Talent_U_Kinich_01"
+    },
+    "3": {
+      "id": 3,
+      "name": "蜂鸟之羽",
+      "description": "处于夜魂加持状态下时，基尼奇进行环绕射击或施放迴猎贯鳞炮后，将为他恢复5点元素能量。每2.8秒至多通过这种方式恢复一次元素能量。\\n此外，<color=#FFD780FF>向伟大圣龙致意<\/color>造成的伤害提升70%。",
+      "extraData": null,
+      "icon": "UI_Talent_S_Kinich_03"
+    },
+    "4": {
+      "id": 4,
+      "name": "吼猴之尾",
+      "description": "<color=#FFD780FF>向伟大圣龙致意<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 9,
+          "extraLevel": 3
+        }
+      },
+      "icon": "UI_Talent_U_Kinich_02"
+    },
+    "5": {
+      "id": 5,
+      "name": "瑞兽之形",
+      "description": "迴猎贯鳞炮在命中敌人后，将在敌人间弹跳一次，造成基尼奇的攻击力700%的<color=#99FF88FF>草元素伤害<\/color>。\\n如果本次迴猎贯鳞炮触发了固有天赋「焰灵的契约」或命之座「星虎之掌」对迴猎贯鳞炮的增强效果，它所引发的弹跳攻击也会获得上述效果的增强。",
+      "extraData": null,
+      "icon": "UI_Talent_S_Kinich_04",
+      "advancedProps": [
+        {
+          "name": "Scalespiker Cannon Bounce",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Scalespiker Cannon"
+            },
+            "type": {
+              "span": null,
+              "text": "1.2s"
+            }
+          },
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
+    }
+  }
+}

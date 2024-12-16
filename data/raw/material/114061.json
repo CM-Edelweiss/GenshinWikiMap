@@ -1,0 +1,63 @@
+{
+  "name": "贡祭炽心的惶恐",
+  "description": "赋予武器突破之力的材料。\\n在部族古老的传统之中，有这样的观点：你所取的都是来自于这个世界，于是你所得的也将献于这个世界。",
+  "type": "武器突破素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "礼包商城兑换",
+      "type": "single"
+    },
+    {
+      "name": "炼武秘境：冥见",
+      "type": "domain",
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 11431,
+          "name": "息燧之笛",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_Isikhulu"
+        },
+        {
+          "id": 11430,
+          "name": "弥坚骨",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_Umpakati"
+        },
+        {
+          "id": 12431,
+          "name": "撼地者",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Claymore_Isikhulu"
+        },
+        {
+          "id": 14430,
+          "name": "乘浪的回旋",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_Umpakati"
+        },
+        {
+          "id": 14516,
+          "name": "冲浪时光",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Catalyst_MechaPufferfish"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_114061",
+  "rank": 2,
+  "route": "Blazing Sacrificial Heart's Terror"
+}

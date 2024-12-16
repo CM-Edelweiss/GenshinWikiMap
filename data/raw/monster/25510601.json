@@ -1,0 +1,134 @@
+{
+  "id": 25510601,
+  "name": "鳍游龙武士·裂礁之涛",
+  "type": "其他人类势力",
+  "icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Mosasaurus",
+  "route": "Koholasaurus Warrior: Reefsplitter",
+  "title": "鳍游龙武士·裂礁之涛",
+  "specialName": "授获龙冠的勇武",
+  "description": "来自流泉之源，勇武受到认可，得以获授龙冠的强大武士。\\n能短暂借助海浪之力来回穿梭的武者。据说要熟练掌握这样的技巧需要三个阶段的修炼：首先适应，其次依从，最后驱使。掌握这样的运力之法只是成为「流泉之众」龙冠武士的入门要求，而龙冠武士中的高手甚至可以短暂借此施行陆上行舟的法门。",
+  "entries": {
+    "25510601": {
+      "id": 25510601,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010012,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010012,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 54.336,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 45.216,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112104": {
+          "name": "卫从的木哨",
+          "rank": 1,
+          "icon": "UI_ItemIcon_112104",
+          "count": "1.2606"
+        },
+        "112105": {
+          "name": "战士的铁哨",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112105",
+          "count": "0.3362"
+        },
+        "112106": {
+          "name": "龙冠武士的金哨",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112106",
+          "count": "0.084"
+        }
+      }
+    },
+    "25510602": {
+      "id": 25510602,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "5.0WQ-部落战士灵体死亡效果",
+          "description": "替换原有的死亡效果，改为灵体死亡效果",
+          "abilityName": [
+            "Monster_TribalWarrior_Ghost_DieEffect"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010012,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010012,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 70.6368,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 45.216,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": null
+}

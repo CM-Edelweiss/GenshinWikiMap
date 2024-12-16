@@ -4,6 +4,7 @@
     "rank": 1,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "无锋剑",
+    "specialProp": "NONE",
     "icon": "UI_EquipIcon_Sword_Blunt",
     "route": "Dull Blade"
   },
@@ -12,6 +13,7 @@
     "rank": 2,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "银剑",
+    "specialProp": "NONE",
     "icon": "UI_EquipIcon_Sword_Silver",
     "route": "Silver Sword"
   },
@@ -20,6 +22,7 @@
     "rank": 3,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "冷刃",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Sword_Steel",
     "route": "Cool Steel"
   },
@@ -28,6 +31,7 @@
     "rank": 3,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "黎明神剑",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
     "icon": "UI_EquipIcon_Sword_Dawn",
     "route": "Harbinger of Dawn"
   },
@@ -36,6 +40,7 @@
     "rank": 3,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "旅行剑",
+    "specialProp": "FIGHT_PROP_DEFENSE_PERCENT",
     "icon": "UI_EquipIcon_Sword_Traveler",
     "route": "Traveler's Handy Sword"
   },
@@ -44,6 +49,7 @@
     "rank": 3,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "暗铁剑",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
     "icon": "UI_EquipIcon_Sword_Darker",
     "route": "Dark Iron Sword"
   },
@@ -52,6 +58,7 @@
     "rank": 3,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "吃虎鱼刀",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Sword_Sashimi",
     "route": "Fillet Blade"
   },
@@ -60,6 +67,7 @@
     "rank": 3,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "飞天御剑",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "icon": "UI_EquipIcon_Sword_Mitsurugi",
     "route": "Skyrider Sword"
   },
@@ -68,6 +76,7 @@
     "rank": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "西风剑",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "icon": "UI_EquipIcon_Sword_Zephyrus",
     "route": "Favonius Sword"
   },
@@ -76,6 +85,7 @@
     "rank": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "笛剑",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Sword_Troupe",
     "route": "The Flute"
   },
@@ -84,6 +94,7 @@
     "rank": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "祭礼剑",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "icon": "UI_EquipIcon_Sword_Fossil",
     "route": "Sacrificial Sword"
   },
@@ -92,6 +103,7 @@
     "rank": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "宗室长剑",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Sword_Theocrat",
     "route": "Royal Longsword"
   },
@@ -100,6 +112,7 @@
     "rank": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "匣里龙吟",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Sword_Rockkiller",
     "route": "Lion's Roar"
   },
@@ -108,6 +121,7 @@
     "rank": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "试作斩岩",
+    "specialProp": "FIGHT_PROP_PHYSICAL_ADD_HURT",
     "icon": "UI_EquipIcon_Sword_Proto",
     "route": "Prototype Rancour"
   },
@@ -116,6 +130,7 @@
     "rank": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "铁蜂刺",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
     "icon": "UI_EquipIcon_Sword_Exotic",
     "route": "Iron Sting"
   },
@@ -124,6 +139,7 @@
     "rank": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "黑岩长剑",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
     "icon": "UI_EquipIcon_Sword_Blackrock",
     "route": "Blackcliff Longsword"
   },
@@ -132,6 +148,7 @@
     "rank": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "黑剑",
+    "specialProp": "FIGHT_PROP_CRITICAL",
     "icon": "UI_EquipIcon_Sword_Bloodstained",
     "route": "The Black Sword"
   },
@@ -140,6 +157,7 @@
     "rank": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "暗巷闪光",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
     "icon": "UI_EquipIcon_Sword_Outlaw",
     "route": "The Alley Flash"
   },
@@ -148,6 +166,7 @@
     "rank": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "降临之剑",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Sword_Psalmus",
     "route": "Sword of Descension"
   },
@@ -156,6 +175,7 @@
     "rank": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "腐殖之剑",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "icon": "UI_EquipIcon_Sword_Magnum",
     "route": "Festering Desire"
   },
@@ -164,6 +184,7 @@
     "rank": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "天目影打刀",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Sword_Bakufu",
     "route": "Amenoma Kageuchi"
   },
@@ -172,6 +193,7 @@
     "rank": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "辰砂之纺锤",
+    "specialProp": "FIGHT_PROP_DEFENSE_PERCENT",
     "icon": "UI_EquipIcon_Sword_Opus",
     "route": "Cinnabar Spindle"
   },
@@ -180,6 +202,7 @@
     "rank": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "笼钓瓶一心",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Sword_Youtou",
     "route": "Kagotsurube Isshin"
   },
@@ -188,6 +211,7 @@
     "rank": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "原木刀",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "icon": "UI_EquipIcon_Sword_Arakalari",
     "route": "Sapwood Blade"
   },
@@ -196,6 +220,7 @@
     "rank": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "西福斯的月光",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
     "icon": "UI_EquipIcon_Sword_Pleroma",
     "route": "Xiphos' Moonlight"
   },
@@ -204,6 +229,7 @@
     "rank": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "东花坊时雨",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
     "icon": "UI_EquipIcon_Sword_Kasabouzu",
     "route": "Toukabou Shigure"
   },
@@ -212,6 +238,7 @@
     "rank": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "狼牙",
+    "specialProp": "FIGHT_PROP_CRITICAL",
     "icon": "UI_EquipIcon_Sword_Boreas",
     "route": "Wolf-Fang"
   },
@@ -220,6 +247,7 @@
     "rank": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "海渊终曲",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Sword_Vorpal",
     "route": "Finale of the Deep"
   },
@@ -228,6 +256,7 @@
     "rank": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "灰河渡手",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "icon": "UI_EquipIcon_Sword_Machination",
     "route": "Fleuve Cendre Ferryman"
   },
@@ -236,6 +265,7 @@
     "rank": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "船坞长剑",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
     "icon": "UI_EquipIcon_Sword_Mechanic",
     "route": "The Dockhand's Assistant"
   },
@@ -244,14 +274,43 @@
     "rank": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "水仙十字之剑",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Sword_Purewill",
     "route": "Sword of Narzissenkreuz"
+  },
+  "11430": {
+    "id": 11430,
+    "rank": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "name": "弥坚骨",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "icon": "UI_EquipIcon_Sword_Umpakati",
+    "route": "Sturdy Bone"
+  },
+  "11431": {
+    "id": 11431,
+    "rank": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "name": "息燧之笛",
+    "specialProp": "FIGHT_PROP_DEFENSE_PERCENT",
+    "icon": "UI_EquipIcon_Sword_Isikhulu",
+    "route": "Flute of Ezpitzal"
+  },
+  "11432": {
+    "id": 11432,
+    "rank": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "name": "厄水之祸",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "icon": "UI_EquipIcon_Sword_SacrificialNgombe",
+    "route": "Calamity of Eshu"
   },
   "11501": {
     "id": 11501,
     "rank": 5,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "风鹰剑",
+    "specialProp": "FIGHT_PROP_PHYSICAL_ADD_HURT",
     "icon": "UI_EquipIcon_Sword_Falcon",
     "route": "Aquila Favonia"
   },
@@ -260,6 +319,7 @@
     "rank": 5,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "天空之刃",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "icon": "UI_EquipIcon_Sword_Dvalin",
     "route": "Skyward Blade"
   },
@@ -268,6 +328,7 @@
     "rank": 5,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "苍古自由之誓",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
     "icon": "UI_EquipIcon_Sword_Widsith",
     "route": "Freedom-Sworn"
   },
@@ -276,6 +337,7 @@
     "rank": 5,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "斫峰之刃",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Sword_Kunwu",
     "route": "Summit Shaper"
   },
@@ -284,6 +346,7 @@
     "rank": 5,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "磐岩结绿",
+    "specialProp": "FIGHT_PROP_CRITICAL",
     "icon": "UI_EquipIcon_Sword_Morax",
     "route": "Primordial Jade Cutter"
   },
@@ -292,6 +355,7 @@
     "rank": 5,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "雾切之回光",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
     "icon": "UI_EquipIcon_Sword_Narukami",
     "route": "Mistsplitter Reforged"
   },
@@ -300,6 +364,7 @@
     "rank": 5,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "波乱月白经津",
+    "specialProp": "FIGHT_PROP_CRITICAL",
     "icon": "UI_EquipIcon_Sword_Amenoma",
     "route": "Haran Geppaku Futsu"
   },
@@ -308,6 +373,7 @@
     "rank": 5,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "圣显之钥",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
     "icon": "UI_EquipIcon_Sword_Deshret",
     "route": "Key of Khaj-Nisut"
   },
@@ -316,6 +382,7 @@
     "rank": 5,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "裁叶萃光",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
     "icon": "UI_EquipIcon_Sword_Ayus",
     "route": "Light of Foliar Incision"
   },
@@ -324,14 +391,43 @@
     "rank": 5,
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "静水流涌之辉",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
     "icon": "UI_EquipIcon_Sword_Regalis",
     "route": "Splendor of Tranquil Waters"
+  },
+  "11514": {
+    "id": 11514,
+    "rank": 5,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "name": "有乐御簾切",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "icon": "UI_EquipIcon_Sword_Needle",
+    "route": "Uraku Misugiri"
+  },
+  "11515": {
+    "id": 11515,
+    "rank": 5,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "name": "赦罪",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "icon": "UI_EquipIcon_Sword_Estoc",
+    "route": "Absolution"
+  },
+  "11516": {
+    "id": 11516,
+    "rank": 5,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "name": "岩峰巡歌",
+    "specialProp": "FIGHT_PROP_DEFENSE_PERCENT",
+    "icon": "UI_EquipIcon_Sword_XochitlsTube",
+    "route": "Peak Patrol Song"
   },
   "12101": {
     "id": 12101,
     "rank": 1,
     "type": "WEAPON_CLAYMORE",
     "name": "训练大剑",
+    "specialProp": "NONE",
     "icon": "UI_EquipIcon_Claymore_Aniki",
     "route": "Waster Greatsword"
   },
@@ -340,6 +436,7 @@
     "rank": 2,
     "type": "WEAPON_CLAYMORE",
     "name": "佣兵重剑",
+    "specialProp": "NONE",
     "icon": "UI_EquipIcon_Claymore_Oyaji",
     "route": "Old Merc's Pal"
   },
@@ -348,6 +445,7 @@
     "rank": 3,
     "type": "WEAPON_CLAYMORE",
     "name": "铁影阔剑",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
     "icon": "UI_EquipIcon_Claymore_Glaive",
     "route": "Ferrous Shadow"
   },
@@ -356,6 +454,7 @@
     "rank": 3,
     "type": "WEAPON_CLAYMORE",
     "name": "沐浴龙血的剑",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
     "icon": "UI_EquipIcon_Claymore_Siegfry",
     "route": "Bloodtainted Greatsword"
   },
@@ -364,6 +463,7 @@
     "rank": 3,
     "type": "WEAPON_CLAYMORE",
     "name": "白铁大剑",
+    "specialProp": "FIGHT_PROP_DEFENSE_PERCENT",
     "icon": "UI_EquipIcon_Claymore_Tin",
     "route": "White Iron Greatsword"
   },
@@ -372,6 +472,7 @@
     "rank": 3,
     "type": "WEAPON_CLAYMORE",
     "name": "以理服人",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Claymore_Reasoning",
     "route": "Debate Club"
   },
@@ -380,6 +481,7 @@
     "rank": 3,
     "type": "WEAPON_CLAYMORE",
     "name": "飞天大御剑",
+    "specialProp": "FIGHT_PROP_PHYSICAL_ADD_HURT",
     "icon": "UI_EquipIcon_Claymore_Mitsurugi",
     "route": "Skyrider Greatsword"
   },
@@ -388,6 +490,7 @@
     "rank": 4,
     "type": "WEAPON_CLAYMORE",
     "name": "西风大剑",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "icon": "UI_EquipIcon_Claymore_Zephyrus",
     "route": "Favonius Greatsword"
   },
@@ -396,6 +499,7 @@
     "rank": 4,
     "type": "WEAPON_CLAYMORE",
     "name": "钟剑",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
     "icon": "UI_EquipIcon_Claymore_Troupe",
     "route": "The Bell"
   },
@@ -404,6 +508,7 @@
     "rank": 4,
     "type": "WEAPON_CLAYMORE",
     "name": "祭礼大剑",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "icon": "UI_EquipIcon_Claymore_Fossil",
     "route": "Sacrificial Greatsword"
   },
@@ -412,6 +517,7 @@
     "rank": 4,
     "type": "WEAPON_CLAYMORE",
     "name": "宗室大剑",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Claymore_Theocrat",
     "route": "Royal Greatsword"
   },
@@ -420,6 +526,7 @@
     "rank": 4,
     "type": "WEAPON_CLAYMORE",
     "name": "雨裁",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
     "icon": "UI_EquipIcon_Claymore_Perdue",
     "route": "Rainslasher"
   },
@@ -428,6 +535,7 @@
     "rank": 4,
     "type": "WEAPON_CLAYMORE",
     "name": "试作古华",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Claymore_Proto",
     "route": "Prototype Archaic"
   },
@@ -436,6 +544,7 @@
     "rank": 4,
     "type": "WEAPON_CLAYMORE",
     "name": "白影剑",
+    "specialProp": "FIGHT_PROP_DEFENSE_PERCENT",
     "icon": "UI_EquipIcon_Claymore_Exotic",
     "route": "Whiteblind"
   },
@@ -444,6 +553,7 @@
     "rank": 4,
     "type": "WEAPON_CLAYMORE",
     "name": "黑岩斩刀",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
     "icon": "UI_EquipIcon_Claymore_Blackrock",
     "route": "Blackcliff Slasher"
   },
@@ -452,6 +562,7 @@
     "rank": 4,
     "type": "WEAPON_CLAYMORE",
     "name": "螭骨剑",
+    "specialProp": "FIGHT_PROP_CRITICAL",
     "icon": "UI_EquipIcon_Claymore_Kione",
     "route": "Serpent Spine"
   },
@@ -460,6 +571,7 @@
     "rank": 4,
     "type": "WEAPON_CLAYMORE",
     "name": "千岩古剑",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Claymore_Lapis",
     "route": "Lithic Blade"
   },
@@ -468,6 +580,7 @@
     "rank": 4,
     "type": "WEAPON_CLAYMORE",
     "name": "雪葬的星银",
+    "specialProp": "FIGHT_PROP_PHYSICAL_ADD_HURT",
     "icon": "UI_EquipIcon_Claymore_Dragonfell",
     "route": "Snow-Tombed Starsilver"
   },
@@ -476,6 +589,7 @@
     "rank": 4,
     "type": "WEAPON_CLAYMORE",
     "name": "衔珠海皇",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Claymore_MillenniaTuna",
     "route": "Luxurious Sea-Lord"
   },
@@ -484,6 +598,7 @@
     "rank": 4,
     "type": "WEAPON_CLAYMORE",
     "name": "桂木斩长正",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "icon": "UI_EquipIcon_Claymore_Bakufu",
     "route": "Katsuragikiri Nagamasa"
   },
@@ -492,6 +607,7 @@
     "rank": 4,
     "type": "WEAPON_CLAYMORE",
     "name": "玛海菈的水色",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
     "icon": "UI_EquipIcon_Claymore_Pleroma",
     "route": "Makhaira Aquamarine"
   },
@@ -500,6 +616,7 @@
     "rank": 4,
     "type": "WEAPON_CLAYMORE",
     "name": "恶王丸",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Claymore_Maria",
     "route": "Akuoumaru"
   },
@@ -508,6 +625,7 @@
     "rank": 4,
     "type": "WEAPON_CLAYMORE",
     "name": "森林王器",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "icon": "UI_EquipIcon_Claymore_Arakalari",
     "route": "Forest Regalia"
   },
@@ -516,6 +634,7 @@
     "rank": 4,
     "type": "WEAPON_CLAYMORE",
     "name": "饰铁之花",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
     "icon": "UI_EquipIcon_Claymore_Fleurfair",
     "route": "Mailed Flower"
   },
@@ -524,6 +643,7 @@
     "rank": 4,
     "type": "WEAPON_CLAYMORE",
     "name": "聊聊棒",
+    "specialProp": "FIGHT_PROP_CRITICAL",
     "icon": "UI_EquipIcon_Claymore_BeastTamer",
     "route": "Talking Stick"
   },
@@ -532,6 +652,7 @@
     "rank": 4,
     "type": "WEAPON_CLAYMORE",
     "name": "浪影阔剑",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Claymore_Vorpal",
     "route": "Tidal Shadow"
   },
@@ -540,6 +661,7 @@
     "rank": 4,
     "type": "WEAPON_CLAYMORE",
     "name": "「究极霸王超级魔剑」",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "icon": "UI_EquipIcon_Claymore_Champion",
     "route": "\"Ultimate Overlord's Mega Magic Sword\""
   },
@@ -548,14 +670,34 @@
     "rank": 4,
     "type": "WEAPON_CLAYMORE",
     "name": "便携动力锯",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
     "icon": "UI_EquipIcon_Claymore_Mechanic",
     "route": "Portable Power Saw"
+  },
+  "12430": {
+    "id": 12430,
+    "rank": 4,
+    "type": "WEAPON_CLAYMORE",
+    "name": "硕果钩",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "icon": "UI_EquipIcon_Claymore_Umpakati",
+    "route": "Fruitful Hook"
+  },
+  "12431": {
+    "id": 12431,
+    "rank": 4,
+    "type": "WEAPON_CLAYMORE",
+    "name": "撼地者",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "icon": "UI_EquipIcon_Claymore_Isikhulu",
+    "route": "Earth Shaker"
   },
   "12501": {
     "id": 12501,
     "rank": 5,
     "type": "WEAPON_CLAYMORE",
     "name": "天空之傲",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "icon": "UI_EquipIcon_Claymore_Dvalin",
     "route": "Skyward Pride"
   },
@@ -564,6 +706,7 @@
     "rank": 5,
     "type": "WEAPON_CLAYMORE",
     "name": "狼的末路",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Claymore_Wolfmound",
     "route": "Wolf's Gravestone"
   },
@@ -572,6 +715,7 @@
     "rank": 5,
     "type": "WEAPON_CLAYMORE",
     "name": "松籁响起之时",
+    "specialProp": "FIGHT_PROP_PHYSICAL_ADD_HURT",
     "icon": "UI_EquipIcon_Claymore_Widsith",
     "route": "Song of Broken Pines"
   },
@@ -580,22 +724,16 @@
     "rank": 5,
     "type": "WEAPON_CLAYMORE",
     "name": "无工之剑",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Claymore_Kunwu",
     "route": "The Unforged"
-  },
-  "12505": {
-    "id": 12505,
-    "rank": 5,
-    "type": "WEAPON_CLAYMORE",
-    "name": "",
-    "icon": "UI_EquipIcon_Claymore_Aniki",
-    "route": "Primordial Jade Greatsword"
   },
   "12510": {
     "id": 12510,
     "rank": 5,
     "type": "WEAPON_CLAYMORE",
     "name": "赤角石溃杵",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
     "icon": "UI_EquipIcon_Claymore_Itadorimaru",
     "route": "Redhorn Stonethresher"
   },
@@ -604,6 +742,7 @@
     "rank": 5,
     "type": "WEAPON_CLAYMORE",
     "name": "苇海信标",
+    "specialProp": "FIGHT_PROP_CRITICAL",
     "icon": "UI_EquipIcon_Claymore_Deshret",
     "route": "Beacon of the Reed Sea"
   },
@@ -612,14 +751,25 @@
     "rank": 5,
     "type": "WEAPON_CLAYMORE",
     "name": "裁断",
+    "specialProp": "FIGHT_PROP_CRITICAL",
     "icon": "UI_EquipIcon_Claymore_GoldenVerdict",
     "route": "Verdict"
+  },
+  "12513": {
+    "id": 12513,
+    "rank": 5,
+    "type": "WEAPON_CLAYMORE",
+    "name": "山王长牙",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "icon": "UI_EquipIcon_Claymore_EmeraldSword",
+    "route": "Fang of the Mountain King"
   },
   "13101": {
     "id": 13101,
     "rank": 1,
     "type": "WEAPON_POLE",
     "name": "新手长枪",
+    "specialProp": "NONE",
     "icon": "UI_EquipIcon_Pole_Gewalt",
     "route": "Beginner's Protector"
   },
@@ -628,6 +778,7 @@
     "rank": 2,
     "type": "WEAPON_POLE",
     "name": "铁尖枪",
+    "specialProp": "NONE",
     "icon": "UI_EquipIcon_Pole_Rod",
     "route": "Iron Point"
   },
@@ -636,6 +787,7 @@
     "rank": 3,
     "type": "WEAPON_POLE",
     "name": "白缨枪",
+    "specialProp": "FIGHT_PROP_CRITICAL",
     "icon": "UI_EquipIcon_Pole_Ruby",
     "route": "White Tassel"
   },
@@ -644,6 +796,7 @@
     "rank": 3,
     "type": "WEAPON_POLE",
     "name": "钺矛",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Pole_Halberd",
     "route": "Halberd"
   },
@@ -652,6 +805,7 @@
     "rank": 3,
     "type": "WEAPON_POLE",
     "name": "黑缨枪",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
     "icon": "UI_EquipIcon_Pole_Noire",
     "route": "Black Tassel"
   },
@@ -660,6 +814,7 @@
     "rank": 4,
     "type": "WEAPON_POLE",
     "name": "匣里灭辰",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
     "icon": "UI_EquipIcon_Pole_Stardust",
     "route": "Dragon's Bane"
   },
@@ -668,6 +823,7 @@
     "rank": 4,
     "type": "WEAPON_POLE",
     "name": "试作星镰",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "icon": "UI_EquipIcon_Pole_Proto",
     "route": "Prototype Starglitter"
   },
@@ -676,6 +832,7 @@
     "rank": 4,
     "type": "WEAPON_POLE",
     "name": "流月针",
+    "specialProp": "FIGHT_PROP_PHYSICAL_ADD_HURT",
     "icon": "UI_EquipIcon_Pole_Exotic",
     "route": "Crescent Pike"
   },
@@ -684,6 +841,7 @@
     "rank": 4,
     "type": "WEAPON_POLE",
     "name": "黑岩刺枪",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
     "icon": "UI_EquipIcon_Pole_Blackrock",
     "route": "Blackcliff Pole"
   },
@@ -692,6 +850,7 @@
     "rank": 4,
     "type": "WEAPON_POLE",
     "name": "决斗之枪",
+    "specialProp": "FIGHT_PROP_CRITICAL",
     "icon": "UI_EquipIcon_Pole_Gladiator",
     "route": "Deathmatch"
   },
@@ -700,6 +859,7 @@
     "rank": 4,
     "type": "WEAPON_POLE",
     "name": "千岩长枪",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Pole_Lapis",
     "route": "Lithic Spear"
   },
@@ -708,6 +868,7 @@
     "rank": 4,
     "type": "WEAPON_POLE",
     "name": "西风长枪",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "icon": "UI_EquipIcon_Pole_Zephyrus",
     "route": "Favonius Lance"
   },
@@ -716,6 +877,7 @@
     "rank": 4,
     "type": "WEAPON_POLE",
     "name": "宗室猎枪",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Pole_Theocrat",
     "route": "Royal Spear"
   },
@@ -724,6 +886,7 @@
     "rank": 4,
     "type": "WEAPON_POLE",
     "name": "龙脊长枪",
+    "specialProp": "FIGHT_PROP_PHYSICAL_ADD_HURT",
     "icon": "UI_EquipIcon_Pole_Everfrost",
     "route": "Dragonspine Spear"
   },
@@ -732,6 +895,7 @@
     "rank": 4,
     "type": "WEAPON_POLE",
     "name": "喜多院十文字",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
     "icon": "UI_EquipIcon_Pole_Bakufu",
     "route": "Kitain Cross Spear"
   },
@@ -740,6 +904,7 @@
     "rank": 4,
     "type": "WEAPON_POLE",
     "name": "「渔获」",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "icon": "UI_EquipIcon_Pole_Mori",
     "route": "\"The Catch\""
   },
@@ -748,6 +913,7 @@
     "rank": 4,
     "type": "WEAPON_POLE",
     "name": "断浪长鳍",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Pole_Maria",
     "route": "Wavebreaker's Fin"
   },
@@ -756,6 +922,7 @@
     "rank": 4,
     "type": "WEAPON_POLE",
     "name": "贯月矢",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
     "icon": "UI_EquipIcon_Pole_Arakalari",
     "route": "Moonpiercer"
   },
@@ -764,6 +931,7 @@
     "rank": 4,
     "type": "WEAPON_POLE",
     "name": "风信之锋",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Pole_Windvane",
     "route": "Missive Windspear"
   },
@@ -772,6 +940,7 @@
     "rank": 4,
     "type": "WEAPON_POLE",
     "name": "峡湾长歌",
+    "specialProp": "FIGHT_PROP_CRITICAL",
     "icon": "UI_EquipIcon_Pole_Shanty",
     "route": "Ballad of the Fjords"
   },
@@ -780,22 +949,52 @@
     "rank": 4,
     "type": "WEAPON_POLE",
     "name": "公义的酬报",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
     "icon": "UI_EquipIcon_Pole_Vorpal",
     "route": "Rightful Reward"
+  },
+  "13426": {
+    "id": 13426,
+    "rank": 4,
+    "type": "WEAPON_POLE",
+    "name": "沙中伟贤的对答",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "icon": "UI_EquipIcon_Pole_Caduceus",
+    "route": "Dialogues of the Desert Sages"
   },
   "13427": {
     "id": 13427,
     "rank": 4,
     "type": "WEAPON_POLE",
     "name": "勘探钻机",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Pole_Mechanic",
     "route": "Prospector's Drill"
+  },
+  "13430": {
+    "id": 13430,
+    "rank": 4,
+    "type": "WEAPON_POLE",
+    "name": "镇山之钉",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
+    "icon": "UI_EquipIcon_Pole_Umpakati",
+    "route": "Mountain-Bracing Bolt"
+  },
+  "13431": {
+    "id": 13431,
+    "rank": 4,
+    "type": "WEAPON_POLE",
+    "name": "虹的行迹",
+    "specialProp": "FIGHT_PROP_DEFENSE_PERCENT",
+    "icon": "UI_EquipIcon_Pole_Isikhulu",
+    "route": "Footprint of the Rainbow"
   },
   "13501": {
     "id": 13501,
     "rank": 5,
     "type": "WEAPON_POLE",
     "name": "护摩之杖",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
     "icon": "UI_EquipIcon_Pole_Homa",
     "route": "Staff of Homa"
   },
@@ -804,6 +1003,7 @@
     "rank": 5,
     "type": "WEAPON_POLE",
     "name": "天空之脊",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "icon": "UI_EquipIcon_Pole_Dvalin",
     "route": "Skyward Spine"
   },
@@ -812,6 +1012,7 @@
     "rank": 5,
     "type": "WEAPON_POLE",
     "name": "贯虹之槊",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Pole_Kunwu",
     "route": "Vortex Vanquisher"
   },
@@ -820,6 +1021,7 @@
     "rank": 5,
     "type": "WEAPON_POLE",
     "name": "和璞鸢",
+    "specialProp": "FIGHT_PROP_CRITICAL",
     "icon": "UI_EquipIcon_Pole_Morax",
     "route": "Primordial Jade Winged-Spear"
   },
@@ -828,6 +1030,7 @@
     "rank": 5,
     "type": "WEAPON_POLE",
     "name": "息灾",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Pole_Santika",
     "route": "Calamity Queller"
   },
@@ -836,6 +1039,7 @@
     "rank": 5,
     "type": "WEAPON_POLE",
     "name": "薙草之稻光",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "icon": "UI_EquipIcon_Pole_Narukami",
     "route": "Engulfing Lightning"
   },
@@ -844,14 +1048,34 @@
     "rank": 5,
     "type": "WEAPON_POLE",
     "name": "赤沙之杖",
+    "specialProp": "FIGHT_PROP_CRITICAL",
     "icon": "UI_EquipIcon_Pole_Deshret",
     "route": "Staff of the Scarlet Sands"
+  },
+  "13512": {
+    "id": 13512,
+    "rank": 5,
+    "type": "WEAPON_POLE",
+    "name": "赤月之形",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "icon": "UI_EquipIcon_Pole_BloodMoon",
+    "route": "Crimson Moon's Semblance"
+  },
+  "13513": {
+    "id": 13513,
+    "rank": 5,
+    "type": "WEAPON_POLE",
+    "name": "柔灯挽歌",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "icon": "UI_EquipIcon_Pole_Muguet",
+    "route": "Lumidouce Elegy"
   },
   "14101": {
     "id": 14101,
     "rank": 1,
     "type": "WEAPON_CATALYST",
     "name": "学徒笔记",
+    "specialProp": "NONE",
     "icon": "UI_EquipIcon_Catalyst_Apprentice",
     "route": "Apprentice's Notes"
   },
@@ -860,6 +1084,7 @@
     "rank": 2,
     "type": "WEAPON_CATALYST",
     "name": "口袋魔导书",
+    "specialProp": "NONE",
     "icon": "UI_EquipIcon_Catalyst_Pocket",
     "route": "Pocket Grimoire"
   },
@@ -868,6 +1093,7 @@
     "rank": 3,
     "type": "WEAPON_CATALYST",
     "name": "魔导绪论",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
     "icon": "UI_EquipIcon_Catalyst_Intro",
     "route": "Magic Guide"
   },
@@ -876,6 +1102,7 @@
     "rank": 3,
     "type": "WEAPON_CATALYST",
     "name": "讨龙英杰谭",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
     "icon": "UI_EquipIcon_Catalyst_Pulpfic",
     "route": "Thrilling Tales of Dragon Slayers"
   },
@@ -884,6 +1111,7 @@
     "rank": 3,
     "type": "WEAPON_CATALYST",
     "name": "异世界行记",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "icon": "UI_EquipIcon_Catalyst_Lightnov",
     "route": "Otherworldly Story"
   },
@@ -892,6 +1120,7 @@
     "rank": 3,
     "type": "WEAPON_CATALYST",
     "name": "翡玉法球",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
     "icon": "UI_EquipIcon_Catalyst_Jade",
     "route": "Emerald Orb"
   },
@@ -900,6 +1129,7 @@
     "rank": 3,
     "type": "WEAPON_CATALYST",
     "name": "甲级宝珏",
+    "specialProp": "FIGHT_PROP_CRITICAL",
     "icon": "UI_EquipIcon_Catalyst_Phoney",
     "route": "Twin Nephrite"
   },
@@ -908,6 +1138,7 @@
     "rank": 4,
     "type": "WEAPON_CATALYST",
     "name": "西风秘典",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "icon": "UI_EquipIcon_Catalyst_Zephyrus",
     "route": "Favonius Codex"
   },
@@ -916,6 +1147,7 @@
     "rank": 4,
     "type": "WEAPON_CATALYST",
     "name": "流浪乐章",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
     "icon": "UI_EquipIcon_Catalyst_Troupe",
     "route": "The Widsith"
   },
@@ -924,6 +1156,7 @@
     "rank": 4,
     "type": "WEAPON_CATALYST",
     "name": "祭礼残章",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
     "icon": "UI_EquipIcon_Catalyst_Fossil",
     "route": "Sacrificial Fragments"
   },
@@ -932,6 +1165,7 @@
     "rank": 4,
     "type": "WEAPON_CATALYST",
     "name": "宗室秘法录",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Catalyst_Theocrat",
     "route": "Royal Grimoire"
   },
@@ -940,6 +1174,7 @@
     "rank": 4,
     "type": "WEAPON_CATALYST",
     "name": "匣里日月",
+    "specialProp": "FIGHT_PROP_CRITICAL",
     "icon": "UI_EquipIcon_Catalyst_Resurrection",
     "route": "Solar Pearl"
   },
@@ -948,6 +1183,7 @@
     "rank": 4,
     "type": "WEAPON_CATALYST",
     "name": "试作金珀",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
     "icon": "UI_EquipIcon_Catalyst_Proto",
     "route": "Prototype Amber"
   },
@@ -956,6 +1192,7 @@
     "rank": 4,
     "type": "WEAPON_CATALYST",
     "name": "万国诸海图谱",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
     "icon": "UI_EquipIcon_Catalyst_Exotic",
     "route": "Mappa Mare"
   },
@@ -964,6 +1201,7 @@
     "rank": 4,
     "type": "WEAPON_CATALYST",
     "name": "黑岩绯玉",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
     "icon": "UI_EquipIcon_Catalyst_Blackrock",
     "route": "Blackcliff Agate"
   },
@@ -972,6 +1210,7 @@
     "rank": 4,
     "type": "WEAPON_CATALYST",
     "name": "昭心",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Catalyst_Truelens",
     "route": "Eye of Perception"
   },
@@ -980,6 +1219,7 @@
     "rank": 4,
     "type": "WEAPON_CATALYST",
     "name": "暗巷的酒与诗",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "icon": "UI_EquipIcon_Catalyst_Outlaw",
     "route": "Wine and Song"
   },
@@ -988,6 +1228,7 @@
     "rank": 4,
     "type": "WEAPON_CATALYST",
     "name": "忍冬之果",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Catalyst_Everfrost",
     "route": "Frostbearer"
   },
@@ -996,6 +1237,7 @@
     "rank": 4,
     "type": "WEAPON_CATALYST",
     "name": "嘟嘟可故事集",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Catalyst_Ludiharpastum",
     "route": "Dodoco Tales"
   },
@@ -1004,6 +1246,7 @@
     "rank": 4,
     "type": "WEAPON_CATALYST",
     "name": "白辰之环",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "icon": "UI_EquipIcon_Catalyst_Bakufu",
     "route": "Hakushin Ring"
   },
@@ -1012,6 +1255,7 @@
     "rank": 4,
     "type": "WEAPON_CATALYST",
     "name": "证誓之明瞳",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Catalyst_Jyanome",
     "route": "Oathsworn Eye"
   },
@@ -1020,6 +1264,7 @@
     "rank": 4,
     "type": "WEAPON_CATALYST",
     "name": "流浪的晚星",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
     "icon": "UI_EquipIcon_Catalyst_Pleroma",
     "route": "Wandering Evenstar"
   },
@@ -1028,6 +1273,7 @@
     "rank": 4,
     "type": "WEAPON_CATALYST",
     "name": "盈满之实",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "icon": "UI_EquipIcon_Catalyst_Arakalari",
     "route": "Fruit of Fulfillment"
   },
@@ -1036,6 +1282,7 @@
     "rank": 4,
     "type": "WEAPON_CATALYST",
     "name": "遗祀玉珑",
+    "specialProp": "FIGHT_PROP_CRITICAL",
     "icon": "UI_EquipIcon_Catalyst_Yue",
     "route": "Sacrificial Jade"
   },
@@ -1044,6 +1291,7 @@
     "rank": 4,
     "type": "WEAPON_CATALYST",
     "name": "纯水流华",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Catalyst_Vorpal",
     "route": "Flowing Purity"
   },
@@ -1052,14 +1300,43 @@
     "rank": 4,
     "type": "WEAPON_CATALYST",
     "name": "无垠蔚蓝之歌",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "icon": "UI_EquipIcon_Catalyst_DandelionPoem",
     "route": "Ballad of the Boundless Blue"
+  },
+  "14427": {
+    "id": 14427,
+    "rank": 4,
+    "type": "WEAPON_CATALYST",
+    "name": "苍纹角杯",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "icon": "UI_EquipIcon_Catalyst_ConchSprayer",
+    "route": "Ash-Graven Drinking Horn"
+  },
+  "14430": {
+    "id": 14430,
+    "rank": 4,
+    "type": "WEAPON_CATALYST",
+    "name": "乘浪的回旋",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
+    "icon": "UI_EquipIcon_Catalyst_Umpakati",
+    "route": "Waveriding Whirl"
+  },
+  "14431": {
+    "id": 14431,
+    "rank": 4,
+    "type": "WEAPON_CATALYST",
+    "name": "木棉之环",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "icon": "UI_EquipIcon_Catalyst_Isikhulu",
+    "route": "Ring of Yaxche"
   },
   "14501": {
     "id": 14501,
     "rank": 5,
     "type": "WEAPON_CATALYST",
     "name": "天空之卷",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Catalyst_Dvalin",
     "route": "Skyward Atlas"
   },
@@ -1068,6 +1345,7 @@
     "rank": 5,
     "type": "WEAPON_CATALYST",
     "name": "四风原典",
+    "specialProp": "FIGHT_PROP_CRITICAL",
     "icon": "UI_EquipIcon_Catalyst_Fourwinds",
     "route": "Lost Prayer to the Sacred Winds"
   },
@@ -1076,6 +1354,7 @@
     "rank": 5,
     "type": "WEAPON_CATALYST",
     "name": "尘世之锁",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Catalyst_Kunwu",
     "route": "Memory of Dust"
   },
@@ -1084,6 +1363,7 @@
     "rank": 5,
     "type": "WEAPON_CATALYST",
     "name": "碧落之珑",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
     "icon": "UI_EquipIcon_Catalyst_Morax",
     "route": "Jadefall's Splendor"
   },
@@ -1092,6 +1372,7 @@
     "rank": 5,
     "type": "WEAPON_CATALYST",
     "name": "不灭月华",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
     "icon": "UI_EquipIcon_Catalyst_Kaleido",
     "route": "Everlasting Moonglow"
   },
@@ -1100,6 +1381,7 @@
     "rank": 5,
     "type": "WEAPON_CATALYST",
     "name": "神乐之真意",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
     "icon": "UI_EquipIcon_Catalyst_Narukami",
     "route": "Kagura's Verity"
   },
@@ -1108,6 +1390,7 @@
     "rank": 5,
     "type": "WEAPON_CATALYST",
     "name": "千夜浮梦",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
     "icon": "UI_EquipIcon_Catalyst_Ayus",
     "route": "A Thousand Floating Dreams"
   },
@@ -1116,6 +1399,7 @@
     "rank": 5,
     "type": "WEAPON_CATALYST",
     "name": "图莱杜拉的回忆",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
     "icon": "UI_EquipIcon_Catalyst_Alaya",
     "route": "Tulaytullah's Remembrance"
   },
@@ -1124,6 +1408,7 @@
     "rank": 5,
     "type": "WEAPON_CATALYST",
     "name": "金流监督",
+    "specialProp": "FIGHT_PROP_CRITICAL",
     "icon": "UI_EquipIcon_Catalyst_Wheatley",
     "route": "Cashflow Supervision"
   },
@@ -1132,6 +1417,7 @@
     "rank": 5,
     "type": "WEAPON_CATALYST",
     "name": "万世流涌大典",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
     "icon": "UI_EquipIcon_Catalyst_Iudex",
     "route": "Tome of the Eternal Flow"
   },
@@ -1140,15 +1426,25 @@
     "rank": 5,
     "type": "WEAPON_CATALYST",
     "name": "鹤鸣余音",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Catalyst_MountainGale",
-    "route": "Crane's Echoing Call",
-    "beta": true
+    "route": "Crane's Echoing Call"
+  },
+  "14516": {
+    "id": 14516,
+    "rank": 5,
+    "type": "WEAPON_CATALYST",
+    "name": "冲浪时光",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "icon": "UI_EquipIcon_Catalyst_MechaPufferfish",
+    "route": "Surf's Up"
   },
   "15101": {
     "id": 15101,
     "rank": 1,
     "type": "WEAPON_BOW",
     "name": "猎弓",
+    "specialProp": "NONE",
     "icon": "UI_EquipIcon_Bow_Hunters",
     "route": "Hunter's Bow"
   },
@@ -1157,6 +1453,7 @@
     "rank": 2,
     "type": "WEAPON_BOW",
     "name": "历练的猎弓",
+    "specialProp": "NONE",
     "icon": "UI_EquipIcon_Bow_Old",
     "route": "Seasoned Hunter's Bow"
   },
@@ -1165,6 +1462,7 @@
     "rank": 3,
     "type": "WEAPON_BOW",
     "name": "鸦羽弓",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
     "icon": "UI_EquipIcon_Bow_Crowfeather",
     "route": "Raven Bow"
   },
@@ -1173,6 +1471,7 @@
     "rank": 3,
     "type": "WEAPON_BOW",
     "name": "神射手之誓",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
     "icon": "UI_EquipIcon_Bow_Arjuna",
     "route": "Sharpshooter's Oath"
   },
@@ -1181,6 +1480,7 @@
     "rank": 3,
     "type": "WEAPON_BOW",
     "name": "反曲弓",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
     "icon": "UI_EquipIcon_Bow_Curve",
     "route": "Recurve Bow"
   },
@@ -1189,6 +1489,7 @@
     "rank": 3,
     "type": "WEAPON_BOW",
     "name": "弹弓",
+    "specialProp": "FIGHT_PROP_CRITICAL",
     "icon": "UI_EquipIcon_Bow_Sling",
     "route": "Slingshot"
   },
@@ -1197,6 +1498,7 @@
     "rank": 3,
     "type": "WEAPON_BOW",
     "name": "信使",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
     "icon": "UI_EquipIcon_Bow_Msg",
     "route": "Messenger"
   },
@@ -1205,6 +1507,7 @@
     "rank": 4,
     "type": "WEAPON_BOW",
     "name": "西风猎弓",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "icon": "UI_EquipIcon_Bow_Zephyrus",
     "route": "Favonius Warbow"
   },
@@ -1213,6 +1516,7 @@
     "rank": 4,
     "type": "WEAPON_BOW",
     "name": "绝弦",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
     "icon": "UI_EquipIcon_Bow_Troupe",
     "route": "The Stringless"
   },
@@ -1221,6 +1525,7 @@
     "rank": 4,
     "type": "WEAPON_BOW",
     "name": "祭礼弓",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "icon": "UI_EquipIcon_Bow_Fossil",
     "route": "Sacrificial Bow"
   },
@@ -1229,6 +1534,7 @@
     "rank": 4,
     "type": "WEAPON_BOW",
     "name": "宗室长弓",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Bow_Theocrat",
     "route": "Royal Bow"
   },
@@ -1237,6 +1543,7 @@
     "rank": 4,
     "type": "WEAPON_BOW",
     "name": "弓藏",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Bow_Recluse",
     "route": "Rust"
   },
@@ -1245,6 +1552,7 @@
     "rank": 4,
     "type": "WEAPON_BOW",
     "name": "试作澹月",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Bow_Proto",
     "route": "Prototype Crescent"
   },
@@ -1253,6 +1561,7 @@
     "rank": 4,
     "type": "WEAPON_BOW",
     "name": "钢轮弓",
+    "specialProp": "FIGHT_PROP_PHYSICAL_ADD_HURT",
     "icon": "UI_EquipIcon_Bow_Exotic",
     "route": "Compound Bow"
   },
@@ -1261,6 +1570,7 @@
     "rank": 4,
     "type": "WEAPON_BOW",
     "name": "黑岩战弓",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
     "icon": "UI_EquipIcon_Bow_Blackrock",
     "route": "Blackcliff Warbow"
   },
@@ -1269,6 +1579,7 @@
     "rank": 4,
     "type": "WEAPON_BOW",
     "name": "苍翠猎弓",
+    "specialProp": "FIGHT_PROP_CRITICAL",
     "icon": "UI_EquipIcon_Bow_Viridescent",
     "route": "The Viridescent Hunt"
   },
@@ -1277,6 +1588,7 @@
     "rank": 4,
     "type": "WEAPON_BOW",
     "name": "暗巷猎手",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Bow_Outlaw",
     "route": "Alley Hunter"
   },
@@ -1285,6 +1597,7 @@
     "rank": 4,
     "type": "WEAPON_BOW",
     "name": "落霞",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "icon": "UI_EquipIcon_Bow_Fallensun",
     "route": "Fading Twilight"
   },
@@ -1293,6 +1606,7 @@
     "rank": 4,
     "type": "WEAPON_BOW",
     "name": "幽夜华尔兹",
+    "specialProp": "FIGHT_PROP_PHYSICAL_ADD_HURT",
     "icon": "UI_EquipIcon_Bow_Nachtblind",
     "route": "Mitternachts Waltz"
   },
@@ -1301,6 +1615,7 @@
     "rank": 4,
     "type": "WEAPON_BOW",
     "name": "风花之颂",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
     "icon": "UI_EquipIcon_Bow_Fleurfair",
     "route": "Windblume Ode"
   },
@@ -1309,6 +1624,7 @@
     "rank": 4,
     "type": "WEAPON_BOW",
     "name": "破魔之弓",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Bow_Bakufu",
     "route": "Hamayumi"
   },
@@ -1317,6 +1633,7 @@
     "rank": 4,
     "type": "WEAPON_BOW",
     "name": "掠食者",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Bow_Predator",
     "route": "Predator"
   },
@@ -1325,6 +1642,7 @@
     "rank": 4,
     "type": "WEAPON_BOW",
     "name": "曚云之月",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Bow_Maria",
     "route": "Mouun's Moon"
   },
@@ -1333,6 +1651,7 @@
     "rank": 4,
     "type": "WEAPON_BOW",
     "name": "王下近侍",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Bow_Arakalari",
     "route": "King's Squire"
   },
@@ -1341,6 +1660,7 @@
     "rank": 4,
     "type": "WEAPON_BOW",
     "name": "竭泽",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "icon": "UI_EquipIcon_Bow_Fin",
     "route": "End of the Line"
   },
@@ -1349,6 +1669,7 @@
     "rank": 4,
     "type": "WEAPON_BOW",
     "name": "鹮穿之喙",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Bow_Ibis",
     "route": "Ibis Piercer"
   },
@@ -1357,6 +1678,7 @@
     "rank": 4,
     "type": "WEAPON_BOW",
     "name": "烈阳之嗣",
+    "specialProp": "FIGHT_PROP_CRITICAL",
     "icon": "UI_EquipIcon_Bow_Gurabad",
     "route": "Scion of the Blazing Sun"
   },
@@ -1365,22 +1687,52 @@
     "rank": 4,
     "type": "WEAPON_BOW",
     "name": "静谧之曲",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Bow_Vorpal",
     "route": "Song of Stillness"
+  },
+  "15426": {
+    "id": 15426,
+    "rank": 4,
+    "type": "WEAPON_BOW",
+    "name": "筑云",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
+    "icon": "UI_EquipIcon_Bow_Ultimatum",
+    "route": "Cloudforged"
   },
   "15427": {
     "id": 15427,
     "rank": 4,
     "type": "WEAPON_BOW",
     "name": "测距规",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Bow_Mechanic",
     "route": "Range Gauge"
+  },
+  "15430": {
+    "id": 15430,
+    "rank": 4,
+    "type": "WEAPON_BOW",
+    "name": "缀花之翎",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "icon": "UI_EquipIcon_Bow_Umpakati",
+    "route": "Flower-Wreathed Feathers"
+  },
+  "15431": {
+    "id": 15431,
+    "rank": 4,
+    "type": "WEAPON_BOW",
+    "name": "碎链",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "icon": "UI_EquipIcon_Bow_Isikhulu",
+    "route": "Chain Breaker"
   },
   "15501": {
     "id": 15501,
     "rank": 5,
     "type": "WEAPON_BOW",
     "name": "天空之翼",
+    "specialProp": "FIGHT_PROP_CRITICAL",
     "icon": "UI_EquipIcon_Bow_Dvalin",
     "route": "Skyward Harp"
   },
@@ -1389,6 +1741,7 @@
     "rank": 5,
     "type": "WEAPON_BOW",
     "name": "阿莫斯之弓",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Bow_Amos",
     "route": "Amos' Bow"
   },
@@ -1397,30 +1750,16 @@
     "rank": 5,
     "type": "WEAPON_BOW",
     "name": "终末嗟叹之诗",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
     "icon": "UI_EquipIcon_Bow_Widsith",
     "route": "Elegy for the End"
-  },
-  "15504": {
-    "id": 15504,
-    "rank": 5,
-    "type": "WEAPON_BOW",
-    "name": "",
-    "icon": "UI_EquipIcon_Bow_Hunters",
-    "route": "Kunwu's Wyrmbane"
-  },
-  "15505": {
-    "id": 15505,
-    "rank": 5,
-    "type": "WEAPON_BOW",
-    "name": "",
-    "icon": "UI_EquipIcon_Bow_Hunters",
-    "route": "Primordial Jade Vista"
   },
   "15507": {
     "id": 15507,
     "rank": 5,
     "type": "WEAPON_BOW",
     "name": "冬极白星",
+    "specialProp": "FIGHT_PROP_CRITICAL",
     "icon": "UI_EquipIcon_Bow_Worldbane",
     "route": "Polar Star"
   },
@@ -1429,6 +1768,7 @@
     "rank": 5,
     "type": "WEAPON_BOW",
     "name": "若水",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
     "icon": "UI_EquipIcon_Bow_Kirin",
     "route": "Aqua Simulacra"
   },
@@ -1437,6 +1777,7 @@
     "rank": 5,
     "type": "WEAPON_BOW",
     "name": "飞雷之弦振",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
     "icon": "UI_EquipIcon_Bow_Narukami",
     "route": "Thundering Pulse"
   },
@@ -1445,6 +1786,7 @@
     "rank": 5,
     "type": "WEAPON_BOW",
     "name": "猎人之径",
+    "specialProp": "FIGHT_PROP_CRITICAL",
     "icon": "UI_EquipIcon_Bow_Ayus",
     "route": "Hunter's Path"
   },
@@ -1453,7 +1795,26 @@
     "rank": 5,
     "type": "WEAPON_BOW",
     "name": "最初的大魔术",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
     "icon": "UI_EquipIcon_Bow_Pledge",
     "route": "The First Great Magic"
+  },
+  "15513": {
+    "id": 15513,
+    "rank": 5,
+    "type": "WEAPON_BOW",
+    "name": "白雨心弦",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "icon": "UI_EquipIcon_Bow_Arcdange",
+    "route": "Silvershower Heartstrings"
+  },
+  "15514": {
+    "id": 15514,
+    "rank": 5,
+    "type": "WEAPON_BOW",
+    "name": "星鹫赤羽",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "icon": "UI_EquipIcon_Bow_Qoyllorsnova",
+    "route": "Astral Vulture's Crimson Plumage"
   }
 }

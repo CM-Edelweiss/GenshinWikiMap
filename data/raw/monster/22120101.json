@@ -1,0 +1,605 @@
+{
+  "id": 22120101,
+  "name": "深邃摹结株·I型",
+  "type": "深渊",
+  "icon": "UI_MonsterIcon_TheAbyss_Dendrite",
+  "route": "Tenebrous Papilla: Type I",
+  "title": "深邃摹结株",
+  "specialName": "虚界空想植株",
+  "description": "于深邃晦暗的扭曲异界降临此世的深渊魔物，拥有类似植物的形态。\\n此种扭曲的魔物已然能够侵蚀入大地的深处，从中提取记忆以供其模仿与驱使。过往的回忆被扭曲成更加污秽与深邃的样貌，它们借由此种行为，逐渐接近世界之树的核心，以此动摇其存在的根本。\\n据说该种魔物无时无刻不在扭曲光芒中蕴含的种种色彩，并将之转化为漆黑的信息，在张开时仿佛要扎入虚空中的枝节似乎也在佐证这一点…",
+  "entries": {
+    "22120101": {
+      "id": 22120101,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "怪物专用-次数盾标记-深渊次数盾",
+          "description": "所有怪物使用深渊次数盾必须挂载",
+          "abilityName": [
+            "Monster_Common_FrequencyShieldLabel_AbyssShield"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010040,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010040,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010040,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 217.34399,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "102": {
+          "name": "冒险阅历",
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "200"
+        },
+        "105": {
+          "name": "好感经验",
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "104111": {
+          "name": "燃愿玛瑙碎屑",
+          "rank": 2,
+          "icon": "UI_ItemIcon_104111"
+        },
+        "104112": {
+          "name": "燃愿玛瑙断片",
+          "rank": 3,
+          "icon": "UI_ItemIcon_104112"
+        },
+        "104113": {
+          "name": "燃愿玛瑙块",
+          "rank": 4,
+          "icon": "UI_ItemIcon_104113"
+        },
+        "104114": {
+          "name": "燃愿玛瑙",
+          "rank": 5,
+          "icon": "UI_ItemIcon_104114"
+        },
+        "104141": {
+          "name": "最胜紫晶碎屑",
+          "rank": 2,
+          "icon": "UI_ItemIcon_104141"
+        },
+        "104142": {
+          "name": "最胜紫晶断片",
+          "rank": 3,
+          "icon": "UI_ItemIcon_104142"
+        },
+        "104143": {
+          "name": "最胜紫晶块",
+          "rank": 4,
+          "icon": "UI_ItemIcon_104143"
+        },
+        "104144": {
+          "name": "最胜紫晶",
+          "rank": 5,
+          "icon": "UI_ItemIcon_104144"
+        },
+        "104151": {
+          "name": "自在松石碎屑",
+          "rank": 2,
+          "icon": "UI_ItemIcon_104151"
+        },
+        "104152": {
+          "name": "自在松石断片",
+          "rank": 3,
+          "icon": "UI_ItemIcon_104152"
+        },
+        "104153": {
+          "name": "自在松石块",
+          "rank": 4,
+          "icon": "UI_ItemIcon_104153"
+        },
+        "104154": {
+          "name": "自在松石",
+          "rank": 5,
+          "icon": "UI_ItemIcon_104154"
+        },
+        "113067": {
+          "name": "深邃纠缠的凝视",
+          "rank": 4,
+          "icon": "UI_ItemIcon_113067",
+          "count": "2.5556"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400047": {
+          "name": "冒险家",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10010_4"
+        },
+        "400088": {
+          "name": "角斗士的终幕礼",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "name": "角斗士的终幕礼",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "name": "流浪大地的乐团",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "name": "流浪大地的乐团",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400127": {
+          "name": "祭火之人",
+          "rank": 3,
+          "icon": "UI_RelicIcon_15009_3"
+        },
+        "400128": {
+          "name": "祭火之人",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15009_3"
+        }
+      }
+    },
+    "22121601": {
+      "id": 22121601,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "怪物专用-次数盾标记-深渊次数盾",
+          "description": "所有怪物使用深渊次数盾必须挂载",
+          "abilityName": [
+            "Monster_Common_FrequencyShieldLabel_AbyssShield"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010040,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010040,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010040,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 217.34399,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "102": {
+          "name": "冒险阅历",
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "200"
+        },
+        "105": {
+          "name": "好感经验",
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "104111": {
+          "name": "燃愿玛瑙碎屑",
+          "rank": 2,
+          "icon": "UI_ItemIcon_104111"
+        },
+        "104112": {
+          "name": "燃愿玛瑙断片",
+          "rank": 3,
+          "icon": "UI_ItemIcon_104112"
+        },
+        "104113": {
+          "name": "燃愿玛瑙块",
+          "rank": 4,
+          "icon": "UI_ItemIcon_104113"
+        },
+        "104114": {
+          "name": "燃愿玛瑙",
+          "rank": 5,
+          "icon": "UI_ItemIcon_104114"
+        },
+        "104141": {
+          "name": "最胜紫晶碎屑",
+          "rank": 2,
+          "icon": "UI_ItemIcon_104141"
+        },
+        "104142": {
+          "name": "最胜紫晶断片",
+          "rank": 3,
+          "icon": "UI_ItemIcon_104142"
+        },
+        "104143": {
+          "name": "最胜紫晶块",
+          "rank": 4,
+          "icon": "UI_ItemIcon_104143"
+        },
+        "104144": {
+          "name": "最胜紫晶",
+          "rank": 5,
+          "icon": "UI_ItemIcon_104144"
+        },
+        "104151": {
+          "name": "自在松石碎屑",
+          "rank": 2,
+          "icon": "UI_ItemIcon_104151"
+        },
+        "104152": {
+          "name": "自在松石断片",
+          "rank": 3,
+          "icon": "UI_ItemIcon_104152"
+        },
+        "104153": {
+          "name": "自在松石块",
+          "rank": 4,
+          "icon": "UI_ItemIcon_104153"
+        },
+        "104154": {
+          "name": "自在松石",
+          "rank": 5,
+          "icon": "UI_ItemIcon_104154"
+        },
+        "113067": {
+          "name": "深邃纠缠的凝视",
+          "rank": 4,
+          "icon": "UI_ItemIcon_113067",
+          "count": "2.5556"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400047": {
+          "name": "冒险家",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10010_4"
+        },
+        "400088": {
+          "name": "角斗士的终幕礼",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "name": "角斗士的终幕礼",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "name": "流浪大地的乐团",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "name": "流浪大地的乐团",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400127": {
+          "name": "祭火之人",
+          "rank": 3,
+          "icon": "UI_RelicIcon_15009_3"
+        },
+        "400128": {
+          "name": "祭火之人",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15009_3"
+        }
+      }
+    },
+    "22121701": {
+      "id": 22121701,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "怪物专用-次数盾标记-深渊次数盾",
+          "description": "所有怪物使用深渊次数盾必须挂载",
+          "abilityName": [
+            "Monster_Common_FrequencyShieldLabel_AbyssShield"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010040,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010040,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010040,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 217.34399,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "102": {
+          "name": "冒险阅历",
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "200"
+        },
+        "105": {
+          "name": "好感经验",
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "104111": {
+          "name": "燃愿玛瑙碎屑",
+          "rank": 2,
+          "icon": "UI_ItemIcon_104111"
+        },
+        "104112": {
+          "name": "燃愿玛瑙断片",
+          "rank": 3,
+          "icon": "UI_ItemIcon_104112"
+        },
+        "104113": {
+          "name": "燃愿玛瑙块",
+          "rank": 4,
+          "icon": "UI_ItemIcon_104113"
+        },
+        "104114": {
+          "name": "燃愿玛瑙",
+          "rank": 5,
+          "icon": "UI_ItemIcon_104114"
+        },
+        "104141": {
+          "name": "最胜紫晶碎屑",
+          "rank": 2,
+          "icon": "UI_ItemIcon_104141"
+        },
+        "104142": {
+          "name": "最胜紫晶断片",
+          "rank": 3,
+          "icon": "UI_ItemIcon_104142"
+        },
+        "104143": {
+          "name": "最胜紫晶块",
+          "rank": 4,
+          "icon": "UI_ItemIcon_104143"
+        },
+        "104144": {
+          "name": "最胜紫晶",
+          "rank": 5,
+          "icon": "UI_ItemIcon_104144"
+        },
+        "104151": {
+          "name": "自在松石碎屑",
+          "rank": 2,
+          "icon": "UI_ItemIcon_104151"
+        },
+        "104152": {
+          "name": "自在松石断片",
+          "rank": 3,
+          "icon": "UI_ItemIcon_104152"
+        },
+        "104153": {
+          "name": "自在松石块",
+          "rank": 4,
+          "icon": "UI_ItemIcon_104153"
+        },
+        "104154": {
+          "name": "自在松石",
+          "rank": 5,
+          "icon": "UI_ItemIcon_104154"
+        },
+        "113067": {
+          "name": "深邃纠缠的凝视",
+          "rank": 4,
+          "icon": "UI_ItemIcon_113067",
+          "count": "2.5556"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400047": {
+          "name": "冒险家",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10010_4"
+        },
+        "400088": {
+          "name": "角斗士的终幕礼",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "name": "角斗士的终幕礼",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "name": "流浪大地的乐团",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "name": "流浪大地的乐团",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400127": {
+          "name": "祭火之人",
+          "rank": 3,
+          "icon": "UI_RelicIcon_15009_3"
+        },
+        "400128": {
+          "name": "祭火之人",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15009_3"
+        }
+      }
+    }
+  },
+  "tips": {
+    "308601": {
+      "images": [
+        "UI_Tutorial_222"
+      ],
+      "description": "来自深邃晦暗的异界，侵蚀大地中记忆的漆黑魔兽。能够扭曲自己的姿态，变化成强大的敌人。其部分攻击会施加可叠加的「蚀破」状态，会在一定时间后，使队伍中自己的当前场上角色损失生命值。战斗中，深邃摹结株会进行「晦暗祝祷」，为自己赋予虚界力护罩。如在此时利用<color=#FFE14BFF>元素攻击到一定次数<\/color>破坏护罩，即可使其陷入混乱，<color=#FFE14BFF>具有夜魂性质的元素攻击<\/color>会更有效率地突破其防御。"
+    }
+  }
+}

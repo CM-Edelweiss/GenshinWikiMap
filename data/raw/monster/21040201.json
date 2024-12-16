@@ -1,0 +1,167 @@
+{
+  "id": 21040201,
+  "name": "丘丘水行游侠",
+  "type": "丘丘部族",
+  "icon": "UI_MonsterIcon_Hilistray_Water",
+  "route": "Hydro Hilichurl Rogue",
+  "title": "丘丘水行游侠",
+  "specialName": 3141623099,
+  "description": "不属于任何部族的丘丘人流浪者，如同自我流放一般在荒野中四处漫游。\\n会在因缘的指引下帮助需要帮助的丘丘人、丘丘聚落，并在完成使命、因缘结束后启程离开。相比寻常的丘丘人似乎有更高的智能水平。",
+  "entries": {
+    "21040201": {
+      "id": 21040201,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010012,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010012,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 67.92,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 62.8,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.5,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112077": {
+          "name": "来自何处的待放之花",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112077",
+          "count": "5.2526"
+        },
+        "112078": {
+          "name": "何人所珍藏之花",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112078",
+          "count": "1.4006"
+        },
+        "112079": {
+          "name": "漫游者的盛放之花",
+          "rank": 4,
+          "icon": "UI_ItemIcon_112079",
+          "count": "0.3502"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "21040291": {
+      "id": 21040291,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "5.2怪物自走棋敌方单位标记",
+          "description": "脚底光环、出生特效",
+          "abilityName": [
+            "MonsterChess_Monster_Common_EnemyBottom"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 85.935,
+          "type": "GrowCurveType_Unknown_5202"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 109.65,
+          "type": "GrowCurveType_Unknown_5201"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": {
+    "303901": {
+      "images": [
+        "UI_Tutorial_178"
+      ],
+      "description": "神秘的丘丘人战士，一定程度上能够驱使水的力量。在战斗中，会利用水史莱姆发射水泡攻击。如果在此时打破水史莱姆，或许能使它受到反噬吧。"
+    }
+  }
+}

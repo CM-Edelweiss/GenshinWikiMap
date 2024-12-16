@@ -1,0 +1,40 @@
+{
+  "name": "灼灼彩菊",
+  "description": "形如飘然羽翼的花，花瓣的姿态在风中无比悠然。",
+  "type": "纳塔区域特产",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": [
+    "o615"
+  ],
+  "source": [
+    {
+      "name": "推荐：柴薪之丘采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：圣火竞技场周边采集",
+      "type": "single"
+    },
+    {
+      "name": "前往采集",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000103,
+          "name": "希诺宁",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Xilonen"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_101248",
+  "rank": 1,
+  "route": "Brilliant Chrysanthemum"
+}

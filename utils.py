@@ -9,17 +9,17 @@ import re
 from PIL import Image
 
 
-def load_json(path: Path, encoding: str = 'utf-8'):
+def load_json(path: Path, encoding: str = "utf-8"):
     """
     读取本地json文件，返回文件数据。
         :param path: 文件路径
         :param encoding: 编码，默认为utf-8
         :return: 数据
     """
-    return ujson.load(path.open('r', encoding=encoding)) if path.exists() else {}
+    return ujson.load(path.open("r", encoding=encoding)) if path.exists() else {}
 
 
-def save_json(data: Any, path: Path, encoding: str = 'utf-8'):
+def save_json(data: Any, path: Path, encoding: str = "utf-8"):
     """
     保存数据到json文件中
         :param data: 要保存的数据
@@ -27,7 +27,7 @@ def save_json(data: Any, path: Path, encoding: str = 'utf-8'):
         :param encoding: 编码，默认为utf-8
     """
     path.parent.mkdir(parents=True, exist_ok=True)
-    ujson.dump(data, path.open('w', encoding=encoding), ensure_ascii=False, indent=2)
+    ujson.dump(data, path.open("w", encoding=encoding), ensure_ascii=False, indent=2)
 
 
 def get_describe_name(text: str) -> Optional[str]:
@@ -36,7 +36,7 @@ def get_describe_name(text: str) -> Optional[str]:
         :param text: 描述文本
         :return: 名称
     """
-    if text := re.search(r'<color=#FFD780FF>(.+?)</color>', text):
+    if text := re.search(r"<color=#FFD780FF>(.+?)</color>", text): # type: ignore
         return text[1]
     return None
 
@@ -50,11 +50,11 @@ def download_img(url: str, path: Path):
     """
     if path.exists():
         return Image.open(path)
-    print(f'下载{url}')
-    resp = httpx.get(url,timeout=10)
+    print(f"下载{url}")
+    resp = httpx.get(url, timeout=10)
     content = resp.content
     img = Image.open(BytesIO(content))
-    with path.open('wb') as f:
+    with path.open("wb") as f:
         f.write(content)
     time.sleep(1)  # 安柏网有访问频率限制
     return img

@@ -1,0 +1,123 @@
+{
+  "id": 26270201,
+  "name": "熔岩游像·蚀土者",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Lava_Solid",
+  "route": "Eroding Avatar of Lava",
+  "title": "熔岩游像·蚀土者",
+  "specialName": "熊熊燃烧的石之心",
+  "description": "需要持续不断吸收热量以维持活动状态的奇特魔物。\\n古老的文明利用镌光的金纹驱使燃素流动的诸多法式，令巨大的造物与恢弘的城市得以在金纹创生的智慧中运转。据说除了固定结构的机械以外，名为熔岩游像的魔物其实也是以此方法创造的残缺生命，只不过在圣山的火焰熄灭之后，它们大多失去了目的与方向。",
+  "entries": {
+    "26270201": {
+      "id": 26270201,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010010,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 116.8224,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 62.8,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112110": {
+          "name": "聚燃的石块",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112110",
+          "count": "5.2526"
+        },
+        "112111": {
+          "name": "聚燃的命种",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112111",
+          "count": "1.4006"
+        },
+        "112112": {
+          "name": "聚燃的游像眼",
+          "rank": 4,
+          "icon": "UI_ItemIcon_112112",
+          "count": "0.3502"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    }
+  },
+  "tips": {
+    "307801": {
+      "images": [
+        "UI_Tutorial_213"
+      ],
+      "description": "需要持续不断吸收热量以维持活动状态的奇特魔物，不过似乎吸收过多热量反而会对自身造成伤害。<color=#FFE14BFF>用火元素攻击<\/color>使其完全进入过度燃烧状态后，很快就会熔化崩解。"
+    }
+  }
+}

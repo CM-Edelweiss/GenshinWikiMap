@@ -1,0 +1,33 @@
+{
+  "name": "桃椰子木",
+  "description": "产自「桃椰子树」的木材，正如其名，树皮有着椰子壳般的质感，打磨后光滑而美观，硬度和防潮性能都极为出色…\\n可用于制作摆设。",
+  "type": "素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：纳塔野外砍伐",
+      "type": "single"
+    },
+    {
+      "name": "洞天百宝·木材购买获取",
+      "type": "single"
+    },
+    {
+      "name": "木材转化",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": null,
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_101326",
+  "rank": 1,
+  "route": "Peach Palm Wood"
+}

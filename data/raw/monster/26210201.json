@@ -1,0 +1,142 @@
+{
+  "id": 26210201,
+  "name": "鳍游龙",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Normal",
+  "route": "Koholasaurus",
+  "title": "鳍游龙",
+  "specialName": "肆游纳塔的诸龙众",
+  "description": "具有粗壮的鳍肢与长尾，能够在水域与液态燃素中游动的龙。\\n传说中，更为远古的龙拥有更加强的环境适应度，那时海中最为巨大的龙漂浮在水面上时，甚至会让人误以为是一座浮起的岛屿。据说现在的鳍游龙就是那种巨大海龙的后裔，从其宽阔的背部，似乎也能窥得远古海兽的庞然形态。",
+  "entries": {
+    "26210201": {
+      "id": 26210201,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010012,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010012,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 36.6768,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 33.912,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.5,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112101": {
+          "name": "稚嫩的尖齿",
+          "rank": 1,
+          "icon": "UI_ItemIcon_112101",
+          "count": "0.9244"
+        },
+        "112102": {
+          "name": "老练的坚齿",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112102",
+          "count": "0.2465"
+        },
+        "112103": {
+          "name": "横行霸者的利齿",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112103",
+          "count": "0.0616"
+        }
+      }
+    },
+    "26210202": {
+      "id": 26210202,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "5.0深渊shader怪 通用特效",
+          "description": "5.0深渊shader怪 通用特效",
+          "abilityName": [
+            "MonsterAffix_Monster_TheAbyss_Effect"
+          ],
+          "isCommon": true
+        },
+        {
+          "name": "5.0WQ-灵体材质冻结石化瞬切配置",
+          "description": "使怪物在被冻结、石化时材质过渡为瞬间完成",
+          "abilityName": [
+            "MonsterAffix_ShaderLerpDurationToZero"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010012,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010012,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 36.6768,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 33.912,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.5,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": null
+}

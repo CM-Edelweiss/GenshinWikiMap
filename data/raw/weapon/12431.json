@@ -1,0 +1,244 @@
+{
+  "id": 12431,
+  "rank": 4,
+  "type": "双手剑",
+  "name": "撼地者",
+  "description": "人称「窃火者」的英杰爱用的重剑，据说就连烬城之王的烈火也未能将其焚断。",
+  "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+  "icon": "UI_EquipIcon_Claymore_Isikhulu",
+  "storyId": [
+    "12431_1",
+    "12431_2"
+  ],
+  "affix": {
+    "112431": {
+      "name": "苍翠之路的誓言",
+      "upgrade": {
+        "0": "队伍中的角色触发火元素相关反应后，装备者元素战技造成的伤害提升<color=#99FFFFFF>16%<\/color>，持续8秒。该效果队伍中的角色处于队伍后台时也能触发。",
+        "1": "队伍中的角色触发火元素相关反应后，装备者元素战技造成的伤害提升<color=#99FFFFFF>20%<\/color>，持续8秒。该效果队伍中的角色处于队伍后台时也能触发。",
+        "2": "队伍中的角色触发火元素相关反应后，装备者元素战技造成的伤害提升<color=#99FFFFFF>24%<\/color>，持续8秒。该效果队伍中的角色处于队伍后台时也能触发。",
+        "3": "队伍中的角色触发火元素相关反应后，装备者元素战技造成的伤害提升<color=#99FFFFFF>28%<\/color>，持续8秒。该效果队伍中的角色处于队伍后台时也能触发。",
+        "4": "队伍中的角色触发火元素相关反应后，装备者元素战技造成的伤害提升<color=#99FFFFFF>32%<\/color>，持续8秒。该效果队伍中的角色处于队伍后台时也能触发。"
+      }
+    }
+  },
+  "route": "Earth Shaker",
+  "upgrade": {
+    "awakenCost": [
+      1000,
+      2000,
+      4000,
+      8000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 43.7349,
+        "type": "GROW_CURVE_ATTACK_202"
+      },
+      {
+        "propType": "FIGHT_PROP_ATTACK_PERCENT",
+        "initValue": 0.06,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112104": 2,
+          "112110": 3,
+          "114061": 3
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 25.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112104": 8,
+          "112110": 12,
+          "114062": 3
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 51.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112105": 6,
+          "112111": 6,
+          "114062": 6
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112105": 9,
+          "112111": 12,
+          "114063": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 103.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112106": 6,
+          "112112": 9,
+          "114063": 6
+        },
+        "coinCost": 35000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 129.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112106": 12,
+          "112112": 18,
+          "114064": 4
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112104": 1,
+    "112105": 2,
+    "112106": 3,
+    "112110": 2,
+    "112111": 3,
+    "112112": 4,
+    "114061": 2,
+    "114062": 3,
+    "114063": 4,
+    "114064": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112104": {
+      "name": "卫从的木哨",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112104"
+    },
+    "112105": {
+      "name": "战士的铁哨",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112105"
+    },
+    "112106": {
+      "name": "龙冠武士的金哨",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112106"
+    },
+    "112110": {
+      "name": "聚燃的石块",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112110"
+    },
+    "112111": {
+      "name": "聚燃的命种",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112111"
+    },
+    "112112": {
+      "name": "聚燃的游像眼",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112112"
+    },
+    "114061": {
+      "name": "贡祭炽心的惶恐",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114061"
+    },
+    "114062": {
+      "name": "贡祭炽心的踌躇",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114062"
+    },
+    "114063": {
+      "name": "贡祭炽心的决绝",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114063"
+    },
+    "114064": {
+      "name": "贡祭炽心的荣膺",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114064"
+    }
+  }
+}

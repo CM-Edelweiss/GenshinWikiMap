@@ -1,0 +1,243 @@
+{
+  "id": 15513,
+  "rank": 5,
+  "type": "弓",
+  "name": "白雨心弦",
+  "description": "传说中的精灵之弓。无论是在舞台上还是战场上，都能轻而易举地拨动听者的心弦。",
+  "specialProp": "FIGHT_PROP_HP_PERCENT",
+  "icon": "UI_EquipIcon_Bow_Arcdange",
+  "storyId": [
+    "15513"
+  ],
+  "affix": {
+    "115513": {
+      "name": "德吕阿的夜曲",
+      "upgrade": {
+        "0": "装备者能获得「疗护」效果，持有1\/2\/3层疗护时，生命值上限提升<color=#99FFFFFF>12%\/24%\/40%<\/color>。在下列情况下，装备者将各获得1层疗护：施放元素战技时，持续25秒；生命之契的数值增加时，持续25秒；进行治疗时，持续20秒，装备者处于队伍后台时依然能触发。每层疗护的持续时间独立计算。此外，处于3层疗护状态下时，元素爆发的暴击率提升<color=#99FFFFFF>28%<\/color>，该效果将在疗护不足3层4秒后移除。",
+        "1": "装备者能获得「疗护」效果，持有1\/2\/3层疗护时，生命值上限提升<color=#99FFFFFF>15%\/30%\/50%<\/color>。在下列情况下，装备者将各获得1层疗护：施放元素战技时，持续25秒；生命之契的数值增加时，持续25秒；进行治疗时，持续20秒，装备者处于队伍后台时依然能触发。每层疗护的持续时间独立计算。此外，处于3层疗护状态下时，元素爆发的暴击率提升<color=#99FFFFFF>35%<\/color>，该效果将在疗护不足3层4秒后移除。",
+        "2": "装备者能获得「疗护」效果，持有1\/2\/3层疗护时，生命值上限提升<color=#99FFFFFF>18%\/36%\/60%<\/color>。在下列情况下，装备者将各获得1层疗护：施放元素战技时，持续25秒；生命之契的数值增加时，持续25秒；进行治疗时，持续20秒，装备者处于队伍后台时依然能触发。每层疗护的持续时间独立计算。此外，处于3层疗护状态下时，元素爆发的暴击率提升<color=#99FFFFFF>42%<\/color>，该效果将在疗护不足3层4秒后移除。",
+        "3": "装备者能获得「疗护」效果，持有1\/2\/3层疗护时，生命值上限提升<color=#99FFFFFF>21%\/42%\/70%<\/color>。在下列情况下，装备者将各获得1层疗护：施放元素战技时，持续25秒；生命之契的数值增加时，持续25秒；进行治疗时，持续20秒，装备者处于队伍后台时依然能触发。每层疗护的持续时间独立计算。此外，处于3层疗护状态下时，元素爆发的暴击率提升<color=#99FFFFFF>49%<\/color>，该效果将在疗护不足3层4秒后移除。",
+        "4": "装备者能获得「疗护」效果，持有1\/2\/3层疗护时，生命值上限提升<color=#99FFFFFF>24%\/48%\/80%<\/color>。在下列情况下，装备者将各获得1层疗护：施放元素战技时，持续25秒；生命之契的数值增加时，持续25秒；进行治疗时，持续20秒，装备者处于队伍后台时依然能触发。每层疗护的持续时间独立计算。此外，处于3层疗护状态下时，元素爆发的暴击率提升<color=#99FFFFFF>56%<\/color>，该效果将在疗护不足3层4秒后移除。"
+      }
+    }
+  },
+  "route": "Silvershower Heartstrings",
+  "upgrade": {
+    "awakenCost": [
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 44.3358,
+        "type": "GROW_CURVE_ATTACK_304"
+      },
+      {
+        "propType": "FIGHT_PROP_HP_PERCENT",
+        "initValue": 0.144,
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112080": 3,
+          "112095": 5,
+          "114053": 5
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 31.1,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112080": 12,
+          "112095": 18,
+          "114054": 5
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 62.2,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112081": 9,
+          "112096": 9,
+          "114054": 9
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 93.4,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112081": 14,
+          "112096": 18,
+          "114055": 5
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 124.5,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112082": 9,
+          "112097": 14,
+          "114055": 9
+        },
+        "coinCost": 55000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112082": 18,
+          "112097": 27,
+          "114056": 6
+        },
+        "coinCost": 65000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 186.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112080": 1,
+    "112081": 2,
+    "112082": 3,
+    "112095": 2,
+    "112096": 3,
+    "112097": 4,
+    "114053": 2,
+    "114054": 3,
+    "114055": 4,
+    "114056": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112080": {
+      "name": "异海凝珠",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112080"
+    },
+    "112081": {
+      "name": "异海之块",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112081"
+    },
+    "112082": {
+      "name": "异色结晶石",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112082"
+    },
+    "112095": {
+      "name": "羽状鳍翅",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112095"
+    },
+    "112096": {
+      "name": "月色鳍翅",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112096"
+    },
+    "112097": {
+      "name": "渊光鳍翅",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112097"
+    },
+    "114053": {
+      "name": "纯圣露滴的滤渣",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114053"
+    },
+    "114054": {
+      "name": "纯圣露滴的凝华",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114054"
+    },
+    "114055": {
+      "name": "纯圣露滴的醴泉",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114055"
+    },
+    "114056": {
+      "name": "纯圣露滴的真粹",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114056"
+    }
+  }
+}

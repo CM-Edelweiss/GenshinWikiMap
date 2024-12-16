@@ -1,0 +1,149 @@
+{
+  "id": 26154201,
+  "name": "帽子水母",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_JellyFish_Larva_02",
+  "route": "Hat Jellyfish",
+  "title": "帽子水母",
+  "specialName": "因原海而进化的生命",
+  "description": "通过发射水弹进行狩猎的水生动物。\\n虽然看起来像帽子，但进食的口器在「帽子」的底部，所以将其戴在头上实在是很不明智的行为。过去曾经有人证实过这一点：「事后回想起来，那确实是很不明智的行为。」",
+  "entries": {
+    "26154201": {
+      "id": 26154201,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "杂兵海兔 - 颜色种类标记2",
+          "description": "杂兵海兔 - 颜色种类标记2",
+          "abilityName": [
+            "FauneAbyssale_Aplysia_Larva_Material_02"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 19.48134,
+          "type": "GROW_CURVE_HP_ENVIRONMENT"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 45,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112080": {
+          "name": "异海凝珠",
+          "rank": 1,
+          "icon": "UI_ItemIcon_112080",
+          "count": "0.8404"
+        },
+        "112081": {
+          "name": "异海之块",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112081",
+          "count": "0.2241"
+        },
+        "112082": {
+          "name": "异色结晶石",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112082",
+          "count": "0.056"
+        }
+      }
+    },
+    "26154202": {
+      "id": 26154202,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "杂兵海兔 - 颜色种类标记2",
+          "description": "杂兵海兔 - 颜色种类标记2",
+          "abilityName": [
+            "FauneAbyssale_Aplysia_Larva_Material_02"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 32.4689,
+          "type": "GROW_CURVE_HP_ENVIRONMENT"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 50,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112080": {
+          "name": "异海凝珠",
+          "rank": 1,
+          "icon": "UI_ItemIcon_112080",
+          "count": "0.8404"
+        },
+        "112081": {
+          "name": "异海之块",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112081",
+          "count": "0.2241"
+        },
+        "112082": {
+          "name": "异色结晶石",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112082",
+          "count": "0.056"
+        }
+      }
+    }
+  },
+  "tips": null
+}

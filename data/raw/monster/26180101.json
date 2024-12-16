@@ -1,0 +1,172 @@
+{
+  "id": 26180101,
+  "name": "千年珍珠骏麟",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_SeaHorse_Primo_Electric",
+  "route": "Millennial Pearl Seahorse",
+  "title": "千年珍珠骏麟",
+  "specialName": "陆上大湖的无名之主",
+  "description": "矗立在原海异种顶端的两位霸主之一。\\n诗人与作者常因其独行而称之孤傲而高洁，但能成为这类描绘的对象归根到底是因为它身姿修长优美。也因此它为「骏麟」，而重甲蟹的王是「帝皇」。\\n在枫丹的传奇逸话中，原海异种当中曾经爆发过无比酷烈的战争，只留下「千年珍珠骏麟」与「铁甲熔火帝皇」在大湖南北分庭抗礼。在《多尔库之歌》中，作者曾经描绘了战争的结局：被称为风暴王的巨大猎刀鳐在死前掀起了巨浪，导致了人们口中所谓的「第一次涨水期」…\\n所有的这一切当然只不过是人不愿习惯于毫无幻想可言的现实生活而进行的浪漫想象。原海异种归根到底不过是水生动物罢了，既没有华丽或破败的王庭，也没有昂扬或恶毒的话语。",
+  "entries": {
+    "26180101": {
+      "id": 26180101,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010034,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010034,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010034,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 149.424,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 100.48,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.6,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "102": {
+          "name": "冒险阅历",
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "200"
+        },
+        "105": {
+          "name": "好感经验",
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "104141": {
+          "name": "最胜紫晶碎屑",
+          "rank": 2,
+          "icon": "UI_ItemIcon_104141"
+        },
+        "104142": {
+          "name": "最胜紫晶断片",
+          "rank": 3,
+          "icon": "UI_ItemIcon_104142"
+        },
+        "104143": {
+          "name": "最胜紫晶块",
+          "rank": 4,
+          "icon": "UI_ItemIcon_104143"
+        },
+        "104144": {
+          "name": "最胜紫晶",
+          "rank": 5,
+          "icon": "UI_ItemIcon_104144"
+        },
+        "113053": {
+          "name": "原海麟角",
+          "rank": 4,
+          "icon": "UI_ItemIcon_113053",
+          "count": "2.5556"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        },
+        "400088": {
+          "name": "角斗士的终幕礼",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "name": "角斗士的终幕礼",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "name": "流浪大地的乐团",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "name": "流浪大地的乐团",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400137": {
+          "name": "祭雷之人",
+          "rank": 3,
+          "icon": "UI_RelicIcon_15011_3"
+        },
+        "400138": {
+          "name": "祭雷之人",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15011_3"
+        }
+      }
+    }
+  },
+  "tips": {
+    "306601": {
+      "images": [
+        "UI_Tutorial_201a"
+      ],
+      "description": "进化成了幻兽形姿，超越了几乎一切原海异种的海马孤王。头部下方的<color=#FFE14BFF>异海珍珠<\/color>是<color=#FFE14BFF>雷元素<\/color>的结晶，使其能够进行更猛烈的元素攻击，并且拥有更强的防御能力。除了利用<color=#FFE14BFF>元素反应<\/color>破坏异海珍珠，破坏它在空中引导「原海古雷」时召唤的共鸣珊瑚珠也能对异海珍珠有效造成损害。"
+    },
+    "306602": {
+      "images": [
+        "UI_Tutorial_201b"
+      ],
+      "description": "进化成了幻兽形姿，超越了几乎一切原海异种的海马孤王。头部下方的<color=#FFE14BFF>异海珍珠<\/color>是<color=#FFE14BFF>雷元素<\/color>的结晶，使其能够进行更猛烈的元素攻击，并且拥有更强的防御能力。除了利用<color=#FFE14BFF>元素反应<\/color>破坏异海珍珠，破坏它在空中引导「原海古雷」时召唤的共鸣珊瑚珠也能对异海珍珠有效造成损害。"
+    }
+  }
+}

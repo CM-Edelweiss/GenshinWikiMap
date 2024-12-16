@@ -1,0 +1,23 @@
+{
+  "name": "烬芯花",
+  "description": "散布在平原与高土的奇特花朵。成熟的花苞会在受到冲击后绽放开来。",
+  "type": "素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": [
+    "o620"
+  ],
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": null,
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_101251",
+  "rank": 1,
+  "route": "Embercore Flower"
+}

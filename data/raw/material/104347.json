@@ -1,0 +1,39 @@
+{
+  "name": "「角逐」的教导",
+  "description": "天赋培养素材。\\n火之国土的原则是角逐。\\n何为强大者，何为弱小者？唯有胜败彰示着一切，角逐的结果，比任何话语更有说服力。",
+  "type": "角色天赋素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "礼包商城兑换",
+      "type": "single"
+    },
+    {
+      "name": "精通秘境：转竟",
+      "type": "domain",
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000102,
+          "name": "玛拉妮",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Mualani"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_104347",
+  "rank": 2,
+  "route": "Teachings of Contention"
+}

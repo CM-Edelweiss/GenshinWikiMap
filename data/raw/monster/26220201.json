@@ -1,0 +1,142 @@
+{
+  "id": 26220201,
+  "name": "匿叶龙",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Normal",
+  "route": "Yumkasaurus",
+  "title": "匿叶龙",
+  "specialName": "肆游纳塔的诸龙众",
+  "description": "拥有强壮的后肢与蓬松的尾部，能够吐出藏在颊袋中的火榴果胶卷住远处物体的龙。\\n传说中，原本的匿叶龙并非现在的模样，而是更小，小到不易被观察到的程度。它们甚至可以随意游荡在风中，依附在其他巨龙的身体表面，或是如云一般群聚与游移。只是后来为了能够维持住能力退化后的形态，不得不选择现在的身姿。",
+  "entries": {
+    "26220201": {
+      "id": 26220201,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010013,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010013,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 36.6768,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 33.912,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.5,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112101": {
+          "name": "稚嫩的尖齿",
+          "rank": 1,
+          "icon": "UI_ItemIcon_112101",
+          "count": "0.9244"
+        },
+        "112102": {
+          "name": "老练的坚齿",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112102",
+          "count": "0.2465"
+        },
+        "112103": {
+          "name": "横行霸者的利齿",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112103",
+          "count": "0.0616"
+        }
+      }
+    },
+    "26220202": {
+      "id": 26220202,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "5.0深渊shader怪 通用特效",
+          "description": "5.0深渊shader怪 通用特效",
+          "abilityName": [
+            "MonsterAffix_Monster_TheAbyss_Effect"
+          ],
+          "isCommon": true
+        },
+        {
+          "name": "5.0WQ-灵体材质冻结石化瞬切配置",
+          "description": "使怪物在被冻结、石化时材质过渡为瞬间完成",
+          "abilityName": [
+            "MonsterAffix_ShaderLerpDurationToZero"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010013,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010013,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 36.6768,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 33.912,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.5,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": null
+}

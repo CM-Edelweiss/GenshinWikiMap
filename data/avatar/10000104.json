@@ -1,0 +1,135 @@
+{
+  "id": 10000104,
+  "name": "恰斯卡",
+  "element": "风",
+  "weapon": "弓",
+  "rank": 5,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Chasca",
+    "side": "UI_AvatarIcon_Side_Chasca",
+    "card": "UI_AvatarIcon_Chasca_Card",
+    "splash": "UI_Gacha_AvatarImg_Chasca",
+    "slice": "UI_Gacha_AvatarIcon_Chasca"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 762.65601,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        653.90857,
+        1118.52783,
+        1738.02014,
+        2202.6394,
+        2667.25854,
+        3131.87793
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 26.999,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        23.14751,
+        39.59443,
+        61.52364,
+        77.97056,
+        94.41747,
+        110.86439
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 47.864,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        41.04,
+        70.2,
+        109.08,
+        138.24001,
+        167.39999,
+        196.56
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL",
+      "promote": [
+        0,
+        0.048,
+        0.096,
+        0.096,
+        0.144,
+        0.192
+      ]
+    }
+  ],
+  "talent": {
+    "11041": {
+      "name": "普通攻击·迷羽流击",
+      "icon": "Skill_A_02"
+    },
+    "11042": {
+      "name": "灵缰追影",
+      "icon": "Skill_S_Chasca_01"
+    },
+    "11045": {
+      "name": "索魂命袭",
+      "icon": "Skill_E_Chasca_01"
+    },
+    "1042101": {
+      "name": "子弹的戏法",
+      "icon": "UI_Talent_S_Chasca_05"
+    },
+    "1042201": {
+      "name": "掩护的心意",
+      "icon": "UI_Talent_S_Chasca_06"
+    },
+    "1042301": {
+      "name": "夜域赐礼·不熄炽心",
+      "icon": "UI_Talent_S_Chasca_07"
+    },
+    "1042501": {
+      "name": "调停的真意",
+      "icon": "UI_Talent_S_Chasca_08"
+    }
+  },
+  "constellation": {
+    "1041": {
+      "name": "弹匣，躁动的轮盘",
+      "icon": "UI_Talent_S_Chasca_01"
+    },
+    "1042": {
+      "name": "枪口，灼烧的轻烟",
+      "icon": "UI_Talent_S_Chasca_02"
+    },
+    "1043": {
+      "name": "笼绳，缜密的掌控",
+      "icon": "UI_Talent_U_Chasca_01"
+    },
+    "1044": {
+      "name": "星火，瞬息的击发",
+      "icon": "UI_Talent_S_Chasca_03"
+    },
+    "1045": {
+      "name": "帽檐，沙影的轮廓",
+      "icon": "UI_Talent_U_Chasca_02"
+    },
+    "1046": {
+      "name": "相决，斗争的荣光",
+      "icon": "UI_Talent_S_Chasca_04"
+    }
+  },
+  "talent_fix": {
+    "11042": "灵缰追影",
+    "11045": "索魂命袭"
+  },
+  "damage": [],
+  "buff": []
+}

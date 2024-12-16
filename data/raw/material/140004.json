@@ -1,0 +1,23 @@
+{
+  "name": "苍天清风之翼",
+  "description": "风之翼款式。因为得到蒙德的认可与嘉许，而获赠的礼物。",
+  "type": "风之翼",
+  "recipe": null,
+  "storyId": [
+    "140004"
+  ],
+  "mapMark": null,
+  "source": [
+    {
+      "name": "蒙德声望达到一定等级后获得",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": null,
+    "droppedBy": null
+  },
+  "icon": "UI_FlycloakIcon_Gale",
+  "rank": 4,
+  "route": "Wings of Azure Wind"
+}

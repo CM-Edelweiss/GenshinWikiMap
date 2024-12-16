@@ -1,0 +1,45 @@
+{
+  "name": "「纷争」的教导",
+  "description": "天赋培养素材。\\n火之国土的事理是纷争。\\n不去避让矛盾，而是直面冲突，在纷争的结果彰显后，根据此结果决定将行的道路。",
+  "type": "角色天赋素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "礼包商城兑换",
+      "type": "single"
+    },
+    {
+      "name": "精通秘境：旋复",
+      "type": "domain",
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000100,
+          "name": "卡齐娜",
+          "rank": 4,
+          "icon": "UI_AvatarIcon_Kachina"
+        },
+        {
+          "id": 10000104,
+          "name": "恰斯卡",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Chasca"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_104353",
+  "rank": 2,
+  "route": "Teachings of Conflict"
+}

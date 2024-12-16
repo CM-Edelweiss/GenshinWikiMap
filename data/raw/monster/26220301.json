@@ -1,0 +1,258 @@
+{
+  "id": 26220301,
+  "name": "贪食匿叶龙山王",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Primo",
+  "route": "Gluttonous Yumkasaur Mountain King",
+  "title": "贪食匿叶龙山王",
+  "specialName": "巨硕山中之王",
+  "description": "自古老的年代存活至今，经历了无数战场的强大匿叶龙。\\n曾经与众英杰们携手面对漆黑潮水的「山王」，在「悬木人」部族的成员心中具备极重的分量。有部族人认为，它有着现在这样的体态，是与绒翼龙的「暴君」一般，拥有着特殊的体质…但也许只是因为它活得太长，而吃得也实在太多了的缘故。",
+  "entries": {
+    "26220301": {
+      "id": 26220301,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010033,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010033,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 366.76801,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 105.504,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.7,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "102": {
+          "name": "冒险阅历",
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "200"
+        },
+        "105": {
+          "name": "好感经验",
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "104131": {
+          "name": "生长碧翡碎屑",
+          "rank": 2,
+          "icon": "UI_ItemIcon_104131"
+        },
+        "104132": {
+          "name": "生长碧翡断片",
+          "rank": 3,
+          "icon": "UI_ItemIcon_104132"
+        },
+        "104133": {
+          "name": "生长碧翡块",
+          "rank": 4,
+          "icon": "UI_ItemIcon_104133"
+        },
+        "104134": {
+          "name": "生长碧翡",
+          "rank": 5,
+          "icon": "UI_ItemIcon_104134"
+        },
+        "113065": {
+          "name": "过熟的火榴果",
+          "rank": 4,
+          "icon": "UI_ItemIcon_113065",
+          "count": "2.5556"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400047": {
+          "name": "冒险家",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10010_4"
+        },
+        "400088": {
+          "name": "角斗士的终幕礼",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "name": "角斗士的终幕礼",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "name": "流浪大地的乐团",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "name": "流浪大地的乐团",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        }
+      }
+    },
+    "26220302": {
+      "id": 26220302,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "钩爪龙-挑战-任务线词缀",
+          "description": "钩爪龙-挑战-任务线词缀",
+          "abilityName": [
+            "Monster_Natsaurus_Hookwalker_Primo_Rotted"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010033,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010033,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 326.01599,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 67.824,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.7,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "26220303": {
+      "id": 26220303,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "钩爪龙-挑战-深渊词缀",
+          "description": "钩爪龙-挑战-深渊词缀",
+          "abilityName": [
+            "Monster_Natsaurus_Hookwalker_Primo_Hard"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010033,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010033,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 366.76801,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 105.504,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.7,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": {
+    "308101": {
+      "images": [
+        "UI_Tutorial_216"
+      ],
+      "description": "历经无数了不起战斗的匿叶龙，并非异种，只是因为贪食而长成现在的样貌。会在战斗过程中收取火榴果并吐出作为炸弹进行攻击。不过，如果在被贪食匿叶龙山王吞进去之前，就用<color=#FFE14BFF>火元素引爆火榴果<\/color>，会发生什么样的事呢…"
+    }
+  }
+}

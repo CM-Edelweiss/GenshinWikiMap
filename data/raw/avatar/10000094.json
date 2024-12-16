@@ -1,0 +1,2800 @@
+{
+  "id": 10000094,
+  "rank": 5,
+  "name": "千织",
+  "element": "Rock",
+  "weaponType": "WEAPON_SWORD_ONE_HAND",
+  "region": "INAZUMA",
+  "specialProp": "FIGHT_PROP_CRITICAL",
+  "bodyType": "GIRL",
+  "icon": "UI_AvatarIcon_Chiori",
+  "birthday": [
+    8,
+    17
+  ],
+  "release": 1710194400,
+  "route": "Chiori",
+  "fetter": {
+    "title": "鸣雷的裁锦师",
+    "detail": "「千织屋」的老板。枫丹著名服装设计师。",
+    "constellation": "丝切铗座",
+    "native": "枫丹廷",
+    "cv": {
+      "EN": "布兰妮·劳达",
+      "CHS": "陈阳",
+      "JP": "竹达彩奈",
+      "KR": "李多恩"
+    }
+  },
+  "upgrade": {
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 890.40088,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 25.137,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 74.1892,
+        "type": "GROW_CURVE_HP_S5"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "101204": 3,
+          "104171": 1,
+          "112053": 3
+        },
+        "unlockMaxLevel": 40,
+        "addProps": {
+          "FIGHT_PROP_BASE_HP": 763.43823,
+          "FIGHT_PROP_BASE_DEFENSE": 63.612,
+          "FIGHT_PROP_BASE_ATTACK": 21.55113,
+          "FIGHT_PROP_CRITICAL": 0
+        },
+        "requiredPlayerLevel": 15,
+        "coinCost": 20000
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "101204": 10,
+          "104172": 3,
+          "112053": 15,
+          "113049": 2
+        },
+        "unlockMaxLevel": 50,
+        "addProps": {
+          "FIGHT_PROP_BASE_HP": 1305.88123,
+          "FIGHT_PROP_BASE_DEFENSE": 108.81,
+          "FIGHT_PROP_BASE_ATTACK": 36.86377,
+          "FIGHT_PROP_CRITICAL": 0.048
+        },
+        "requiredPlayerLevel": 25,
+        "coinCost": 40000
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "101204": 20,
+          "104172": 6,
+          "112054": 12,
+          "113049": 4
+        },
+        "unlockMaxLevel": 60,
+        "addProps": {
+          "FIGHT_PROP_BASE_HP": 2029.13855,
+          "FIGHT_PROP_BASE_DEFENSE": 169.07401,
+          "FIGHT_PROP_BASE_ATTACK": 57.28064,
+          "FIGHT_PROP_CRITICAL": 0.096
+        },
+        "requiredPlayerLevel": 30,
+        "coinCost": 60000
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "101204": 30,
+          "104173": 3,
+          "112054": 18,
+          "113049": 8
+        },
+        "unlockMaxLevel": 70,
+        "addProps": {
+          "FIGHT_PROP_BASE_HP": 2571.58154,
+          "FIGHT_PROP_BASE_DEFENSE": 214.272,
+          "FIGHT_PROP_BASE_ATTACK": 72.59328,
+          "FIGHT_PROP_CRITICAL": 0.096
+        },
+        "requiredPlayerLevel": 35,
+        "coinCost": 80000
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "101204": 45,
+          "104173": 6,
+          "112055": 12,
+          "113049": 12
+        },
+        "unlockMaxLevel": 80,
+        "addProps": {
+          "FIGHT_PROP_BASE_HP": 3114.02441,
+          "FIGHT_PROP_BASE_DEFENSE": 259.47,
+          "FIGHT_PROP_BASE_ATTACK": 87.90592,
+          "FIGHT_PROP_CRITICAL": 0.144
+        },
+        "requiredPlayerLevel": 40,
+        "coinCost": 100000
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "101204": 60,
+          "104174": 6,
+          "112055": 24,
+          "113049": 20
+        },
+        "unlockMaxLevel": 90,
+        "addProps": {
+          "FIGHT_PROP_BASE_HP": 3656.46729,
+          "FIGHT_PROP_BASE_DEFENSE": 304.668,
+          "FIGHT_PROP_BASE_ATTACK": 103.21857,
+          "FIGHT_PROP_CRITICAL": 0.192
+        },
+        "requiredPlayerLevel": 50,
+        "coinCost": 120000
+      }
+    ]
+  },
+  "other": {
+    "costume": [
+      {
+        "name": "拈来山吹虹",
+        "description": "千织的装扮款式。由千织本人亲自设计裁制的优雅裙装，制作精良，具备鲜明的稻妻特色。千织曾身着此套衣装登上时装评论杂志扉页，以其独特美学成为席卷枫丹时尚领域的领军人物。",
+        "isDefault": true
+      }
+    ],
+    "furnitureId": 368180,
+    "nameCard": {
+      "id": 210193,
+      "name": "千织·展袖",
+      "description": "名片纹饰。\\n被叫做「阿袖」的娃娃是千织最早的作品，也是最省裁剪与布料的模特。",
+      "icon": "UI_NameCardIcon_Chiori"
+    },
+    "specialFood": {
+      "id": 108668,
+      "name": "「时装秀」",
+      "rank": 3,
+      "effectIcon": "UI_Buff_Item_Recovery_HpAddAll",
+      "icon": "UI_ItemIcon_108668"
+    }
+  },
+  "ascension": {
+    "101204": 1,
+    "104171": 2,
+    "104172": 3,
+    "104173": 4,
+    "104174": 5,
+    "104319": 5,
+    "104326": 2,
+    "104327": 3,
+    "104328": 4,
+    "112053": 1,
+    "112054": 2,
+    "112055": 3,
+    "113049": 4,
+    "113054": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "101204": {
+      "name": "血斛",
+      "rank": 1,
+      "icon": "UI_ItemIcon_101204"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104171": {
+      "name": "坚牢黄玉碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104171"
+    },
+    "104172": {
+      "name": "坚牢黄玉断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104172"
+    },
+    "104173": {
+      "name": "坚牢黄玉块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104173"
+    },
+    "104174": {
+      "name": "坚牢黄玉",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104174"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "104326": {
+      "name": "「天光」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104326"
+    },
+    "104327": {
+      "name": "「天光」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104327"
+    },
+    "104328": {
+      "name": "「天光」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104328"
+    },
+    "112053": {
+      "name": "浮游干核",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112053"
+    },
+    "112054": {
+      "name": "浮游幽核",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112054"
+    },
+    "112055": {
+      "name": "浮游晶化核",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112055"
+    },
+    "113049": {
+      "name": "奇械发条备件·歌裴莉娅",
+      "rank": 4,
+      "icon": "UI_ItemIcon_113049"
+    },
+    "113054": {
+      "name": "无光丝线",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113054"
+    }
+  },
+  "talent": {
+    "0": {
+      "type": 0,
+      "name": "普通攻击·心织刀流",
+      "description": "<color=#FFD780FF>普通攻击<\/color>\\n进行至多四段的连续剑击。\\n\\n<color=#FFD780FF>重击<\/color>\\n消耗一定体力，瞬间向前方挥出两剑。\\n\\n<color=#FFD780FF>下落攻击<\/color>\\n从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
+      "icon": "Skill_A_01",
+      "promote": {
+        "1": {
+          "level": 1,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}+{param4:F1P}",
+            "四段伤害|{param5:F1P}",
+            "重击伤害|{param6:F1P}+{param7:F1P}",
+            "重击体力消耗|{param8:F1}点",
+            "下坠期间伤害|{param9:F1P}",
+            "低空\/高空坠地冲击伤害|{param10:P}\/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.4941,
+            0.46834,
+            0.30417,
+            0.30417,
+            0.75123,
+            0.54309,
+            0.54309,
+            20,
+            0.63932,
+            1.27838,
+            1.59676,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 2,
+          "costItems": {
+            "104326": 3,
+            "112053": 6
+          },
+          "coinCost": 12500,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}+{param4:F1P}",
+            "四段伤害|{param5:F1P}",
+            "重击伤害|{param6:F1P}+{param7:F1P}",
+            "重击体力消耗|{param8:F1}点",
+            "下坠期间伤害|{param9:F1P}",
+            "低空\/高空坠地冲击伤害|{param10:P}\/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.53432,
+            0.50646,
+            0.32892,
+            0.32892,
+            0.81237,
+            0.58729,
+            0.58729,
+            20,
+            0.69136,
+            1.38243,
+            1.72673,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 3,
+          "costItems": {
+            "104327": 2,
+            "112054": 3
+          },
+          "coinCost": 17500,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}+{param4:F1P}",
+            "四段伤害|{param5:F1P}",
+            "重击伤害|{param6:F1P}+{param7:F1P}",
+            "重击体力消耗|{param8:F1}点",
+            "下坠期间伤害|{param9:F1P}",
+            "低空\/高空坠地冲击伤害|{param10:P}\/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.57454,
+            0.54458,
+            0.35368,
+            0.35368,
+            0.87352,
+            0.6315,
+            0.6315,
+            20,
+            0.7434,
+            1.48649,
+            1.8567,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 4,
+          "costItems": {
+            "104327": 4,
+            "112054": 4
+          },
+          "coinCost": 25000,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}+{param4:F1P}",
+            "四段伤害|{param5:F1P}",
+            "重击伤害|{param6:F1P}+{param7:F1P}",
+            "重击体力消耗|{param8:F1}点",
+            "下坠期间伤害|{param9:F1P}",
+            "低空\/高空坠地冲击伤害|{param10:P}\/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.63199,
+            0.59904,
+            0.38905,
+            0.38905,
+            0.96087,
+            0.69465,
+            0.69465,
+            20,
+            0.81774,
+            1.63513,
+            2.04237,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 5,
+          "costItems": {
+            "104327": 6,
+            "112054": 6
+          },
+          "coinCost": 30000,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}+{param4:F1P}",
+            "四段伤害|{param5:F1P}",
+            "重击伤害|{param6:F1P}+{param7:F1P}",
+            "重击体力消耗|{param8:F1}点",
+            "下坠期间伤害|{param9:F1P}",
+            "低空\/高空坠地冲击伤害|{param10:P}\/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.67221,
+            0.63716,
+            0.41381,
+            0.41381,
+            1.02202,
+            0.73886,
+            0.73886,
+            20,
+            0.86978,
+            1.73919,
+            2.17234,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 6,
+          "costItems": {
+            "104327": 9,
+            "112054": 9
+          },
+          "coinCost": 37500,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}+{param4:F1P}",
+            "四段伤害|{param5:F1P}",
+            "重击伤害|{param6:F1P}+{param7:F1P}",
+            "重击体力消耗|{param8:F1}点",
+            "下坠期间伤害|{param9:F1P}",
+            "低空\/高空坠地冲击伤害|{param10:P}\/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.71817,
+            0.68072,
+            0.4421,
+            0.4421,
+            1.0919,
+            0.78938,
+            0.78938,
+            20,
+            0.92925,
+            1.85811,
+            2.32087,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 7,
+          "costItems": {
+            "104328": 4,
+            "112055": 4,
+            "113054": 1
+          },
+          "coinCost": 120000,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}+{param4:F1P}",
+            "四段伤害|{param5:F1P}",
+            "重击伤害|{param6:F1P}+{param7:F1P}",
+            "重击体力消耗|{param8:F1}点",
+            "下坠期间伤害|{param9:F1P}",
+            "低空\/高空坠地冲击伤害|{param10:P}\/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.78137,
+            0.74063,
+            0.48101,
+            0.48101,
+            1.18799,
+            0.85884,
+            0.85884,
+            20,
+            1.01102,
+            2.02162,
+            2.52511,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 8,
+          "costItems": {
+            "104328": 6,
+            "112055": 6,
+            "113054": 1
+          },
+          "coinCost": 260000,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}+{param4:F1P}",
+            "四段伤害|{param5:F1P}",
+            "重击伤害|{param6:F1P}+{param7:F1P}",
+            "重击体力消耗|{param8:F1}点",
+            "下坠期间伤害|{param9:F1P}",
+            "低空\/高空坠地冲击伤害|{param10:P}\/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.84457,
+            0.80053,
+            0.51991,
+            0.51991,
+            1.28407,
+            0.9283,
+            0.9283,
+            20,
+            1.0928,
+            2.18513,
+            2.72935,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 9,
+          "costItems": {
+            "104328": 12,
+            "112055": 9,
+            "113054": 2
+          },
+          "coinCost": 450000,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}+{param4:F1P}",
+            "四段伤害|{param5:F1P}",
+            "重击伤害|{param6:F1P}+{param7:F1P}",
+            "重击体力消耗|{param8:F1}点",
+            "下坠期间伤害|{param9:F1P}",
+            "低空\/高空坠地冲击伤害|{param10:P}\/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.90777,
+            0.86044,
+            0.55881,
+            0.55881,
+            1.38016,
+            0.99777,
+            0.99777,
+            20,
+            1.17457,
+            2.34865,
+            2.93359,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 10,
+          "costItems": {
+            "104319": 1,
+            "104328": 16,
+            "112055": 12,
+            "113054": 2
+          },
+          "coinCost": 700000,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}+{param4:F1P}",
+            "四段伤害|{param5:F1P}",
+            "重击伤害|{param6:F1P}+{param7:F1P}",
+            "重击体力消耗|{param8:F1}点",
+            "下坠期间伤害|{param9:F1P}",
+            "低空\/高空坠地冲击伤害|{param10:P}\/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.97672,
+            0.92579,
+            0.60126,
+            0.60126,
+            1.48498,
+            1.07355,
+            1.07355,
+            20,
+            1.26378,
+            2.52702,
+            3.15639,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 11,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}+{param4:F1P}",
+            "四段伤害|{param5:F1P}",
+            "重击伤害|{param6:F1P}+{param7:F1P}",
+            "重击体力消耗|{param8:F1}点",
+            "下坠期间伤害|{param9:F1P}",
+            "低空\/高空坠地冲击伤害|{param10:P}\/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.04566,
+            0.99114,
+            0.6437,
+            0.6437,
+            1.58981,
+            1.14933,
+            1.14933,
+            20,
+            1.35299,
+            2.7054,
+            3.37919,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 12,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}+{param4:F1P}",
+            "四段伤害|{param5:F1P}",
+            "重击伤害|{param6:F1P}+{param7:F1P}",
+            "重击体力消耗|{param8:F1}点",
+            "下坠期间伤害|{param9:F1P}",
+            "低空\/高空坠地冲击伤害|{param10:P}\/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.11461,
+            1.05649,
+            0.68614,
+            0.68614,
+            1.69463,
+            1.22511,
+            1.22511,
+            20,
+            1.4422,
+            2.88378,
+            3.602,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 13,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}+{param4:F1P}",
+            "四段伤害|{param5:F1P}",
+            "重击伤害|{param6:F1P}+{param7:F1P}",
+            "重击体力消耗|{param8:F1}点",
+            "下坠期间伤害|{param9:F1P}",
+            "低空\/高空坠地冲击伤害|{param10:P}\/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.18355,
+            1.12183,
+            0.72858,
+            0.72858,
+            1.79945,
+            1.30089,
+            1.30089,
+            20,
+            1.5314,
+            3.06216,
+            3.8248,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 14,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}+{param4:F1P}",
+            "四段伤害|{param5:F1P}",
+            "重击伤害|{param6:F1P}+{param7:F1P}",
+            "重击体力消耗|{param8:F1}点",
+            "下坠期间伤害|{param9:F1P}",
+            "低空\/高空坠地冲击伤害|{param10:P}\/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.2525,
+            1.18718,
+            0.77102,
+            0.77102,
+            1.90427,
+            1.37667,
+            1.37667,
+            20,
+            1.62061,
+            3.24054,
+            4.04761,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "15": {
+          "level": 15,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}+{param4:F1P}",
+            "四段伤害|{param5:F1P}",
+            "重击伤害|{param6:F1P}+{param7:F1P}",
+            "重击体力消耗|{param8:F1}点",
+            "下坠期间伤害|{param9:F1P}",
+            "低空\/高空坠地冲击伤害|{param10:P}\/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.32144,
+            1.25253,
+            0.81346,
+            0.81346,
+            2.0091,
+            1.45245,
+            1.45245,
+            20,
+            1.70982,
+            3.41892,
+            4.27041,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "cooldown": 0,
+      "cost": 0,
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "7",
+              "text": "Normal Attack"
+            },
+            "type": {
+              "span": "7",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "51.7",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "49",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit A",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "31.3",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit B",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "31.3",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "78.6",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charged Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "60",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charged Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "60",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "800"
+          },
+          "bluntAttack": true
+        }
+      ]
+    },
+    "1": {
+      "type": 0,
+      "name": "羽袖一触",
+      "description": "以绸缎飘舞之姿迅捷突进，突进结束时，在身边唤出自动制御人形「袖」，并挥出上挑攻击，基于千织的攻击力和防御力，对附近的敌人造成<color=#FFE699FF>岩元素范围伤害<\/color>。\\n长按时将以不同的方式施放。\\n\\n<color=#FFD780FF>长按<\/color>\\n进入瞄准状态，以调整突进的方向。\\n\\n<color=#FFD780FF>袖<\/color>\\n·间歇性对附近的敌人发动斩切，基于千织的攻击力和防御力，造成<color=#FFE699FF>岩元素范围伤害<\/color>；\\n·存在期间，如果附近存在<color=#FFE699FF>岩元素创造物<\/color>，或有<color=#FFE699FF>岩元素创造物<\/color>被创造，将在当前场上自己的角色身边额外唤出一名袖。通过这种方式至多唤出一名袖，存在时间独立计算。\\n\\n<i>「锦绘染绯樱，花色余香缀袖中，几度醉流莺。」<\/i>",
+      "icon": "Skill_S_Chiori_01",
+      "promote": {
+        "1": {
+          "level": 1,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "袖伤害|{param1:P}攻击力+{param2:P}防御力",
+            "袖存在时间|{param3:F1}秒",
+            "袖攻击间隔|{param4:F1}秒",
+            "上挑攻击伤害|{param5:P}攻击力+{param6:P}防御力",
+            "冷却时间|{param7:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.8208,
+            1.026,
+            17,
+            3.6,
+            1.4928,
+            1.866,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 2,
+          "costItems": {
+            "104326": 3,
+            "112053": 6
+          },
+          "coinCost": 12500,
+          "description": [
+            "袖伤害|{param1:P}攻击力+{param2:P}防御力",
+            "袖存在时间|{param3:F1}秒",
+            "袖攻击间隔|{param4:F1}秒",
+            "上挑攻击伤害|{param5:P}攻击力+{param6:P}防御力",
+            "冷却时间|{param7:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.88236,
+            1.10295,
+            17,
+            3.6,
+            1.60476,
+            2.00595,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 3,
+          "costItems": {
+            "104327": 2,
+            "112054": 3
+          },
+          "coinCost": 17500,
+          "description": [
+            "袖伤害|{param1:P}攻击力+{param2:P}防御力",
+            "袖存在时间|{param3:F1}秒",
+            "袖攻击间隔|{param4:F1}秒",
+            "上挑攻击伤害|{param5:P}攻击力+{param6:P}防御力",
+            "冷却时间|{param7:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.94392,
+            1.1799,
+            17,
+            3.6,
+            1.71672,
+            2.1459,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 4,
+          "costItems": {
+            "104327": 4,
+            "112054": 4
+          },
+          "coinCost": 25000,
+          "description": [
+            "袖伤害|{param1:P}攻击力+{param2:P}防御力",
+            "袖存在时间|{param3:F1}秒",
+            "袖攻击间隔|{param4:F1}秒",
+            "上挑攻击伤害|{param5:P}攻击力+{param6:P}防御力",
+            "冷却时间|{param7:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.026,
+            1.2825,
+            17,
+            3.6,
+            1.866,
+            2.3325,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 5,
+          "costItems": {
+            "104327": 6,
+            "112054": 6
+          },
+          "coinCost": 30000,
+          "description": [
+            "袖伤害|{param1:P}攻击力+{param2:P}防御力",
+            "袖存在时间|{param3:F1}秒",
+            "袖攻击间隔|{param4:F1}秒",
+            "上挑攻击伤害|{param5:P}攻击力+{param6:P}防御力",
+            "冷却时间|{param7:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.08756,
+            1.35945,
+            17,
+            3.6,
+            1.97796,
+            2.47245,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 6,
+          "costItems": {
+            "104327": 9,
+            "112054": 9
+          },
+          "coinCost": 37500,
+          "description": [
+            "袖伤害|{param1:P}攻击力+{param2:P}防御力",
+            "袖存在时间|{param3:F1}秒",
+            "袖攻击间隔|{param4:F1}秒",
+            "上挑攻击伤害|{param5:P}攻击力+{param6:P}防御力",
+            "冷却时间|{param7:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.14912,
+            1.4364,
+            17,
+            3.6,
+            2.08992,
+            2.6124,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 7,
+          "costItems": {
+            "104328": 4,
+            "112055": 4,
+            "113054": 1
+          },
+          "coinCost": 120000,
+          "description": [
+            "袖伤害|{param1:P}攻击力+{param2:P}防御力",
+            "袖存在时间|{param3:F1}秒",
+            "袖攻击间隔|{param4:F1}秒",
+            "上挑攻击伤害|{param5:P}攻击力+{param6:P}防御力",
+            "冷却时间|{param7:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.2312,
+            1.539,
+            17,
+            3.6,
+            2.2392,
+            2.799,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 8,
+          "costItems": {
+            "104328": 6,
+            "112055": 6,
+            "113054": 1
+          },
+          "coinCost": 260000,
+          "description": [
+            "袖伤害|{param1:P}攻击力+{param2:P}防御力",
+            "袖存在时间|{param3:F1}秒",
+            "袖攻击间隔|{param4:F1}秒",
+            "上挑攻击伤害|{param5:P}攻击力+{param6:P}防御力",
+            "冷却时间|{param7:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.31328,
+            1.6416,
+            17,
+            3.6,
+            2.38848,
+            2.9856,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 9,
+          "costItems": {
+            "104328": 12,
+            "112055": 9,
+            "113054": 2
+          },
+          "coinCost": 450000,
+          "description": [
+            "袖伤害|{param1:P}攻击力+{param2:P}防御力",
+            "袖存在时间|{param3:F1}秒",
+            "袖攻击间隔|{param4:F1}秒",
+            "上挑攻击伤害|{param5:P}攻击力+{param6:P}防御力",
+            "冷却时间|{param7:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.39536,
+            1.7442,
+            17,
+            3.6,
+            2.53776,
+            3.1722,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 10,
+          "costItems": {
+            "104319": 1,
+            "104328": 16,
+            "112055": 12,
+            "113054": 2
+          },
+          "coinCost": 700000,
+          "description": [
+            "袖伤害|{param1:P}攻击力+{param2:P}防御力",
+            "袖存在时间|{param3:F1}秒",
+            "袖攻击间隔|{param4:F1}秒",
+            "上挑攻击伤害|{param5:P}攻击力+{param6:P}防御力",
+            "冷却时间|{param7:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.47744,
+            1.8468,
+            17,
+            3.6,
+            2.68704,
+            3.3588,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 11,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "袖伤害|{param1:P}攻击力+{param2:P}防御力",
+            "袖存在时间|{param3:F1}秒",
+            "袖攻击间隔|{param4:F1}秒",
+            "上挑攻击伤害|{param5:P}攻击力+{param6:P}防御力",
+            "冷却时间|{param7:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.55952,
+            1.9494,
+            17,
+            3.6,
+            2.83632,
+            3.5454,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 12,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "袖伤害|{param1:P}攻击力+{param2:P}防御力",
+            "袖存在时间|{param3:F1}秒",
+            "袖攻击间隔|{param4:F1}秒",
+            "上挑攻击伤害|{param5:P}攻击力+{param6:P}防御力",
+            "冷却时间|{param7:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.6416,
+            2.052,
+            17,
+            3.6,
+            2.9856,
+            3.732,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 13,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "袖伤害|{param1:P}攻击力+{param2:P}防御力",
+            "袖存在时间|{param3:F1}秒",
+            "袖攻击间隔|{param4:F1}秒",
+            "上挑攻击伤害|{param5:P}攻击力+{param6:P}防御力",
+            "冷却时间|{param7:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.7442,
+            2.18025,
+            17,
+            3.6,
+            3.1722,
+            3.96525,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 14,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "袖伤害|{param1:P}攻击力+{param2:P}防御力",
+            "袖存在时间|{param3:F1}秒",
+            "袖攻击间隔|{param4:F1}秒",
+            "上挑攻击伤害|{param5:P}攻击力+{param6:P}防御力",
+            "冷却时间|{param7:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.8468,
+            2.3085,
+            17,
+            3.6,
+            3.3588,
+            4.1985,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "15": {
+          "level": 15,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "袖伤害|{param1:P}攻击力+{param2:P}防御力",
+            "袖存在时间|{param3:F1}秒",
+            "袖攻击间隔|{param4:F1}秒",
+            "上挑攻击伤害|{param5:P}攻击力+{param6:P}防御力",
+            "冷却时间|{param7:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.9494,
+            2.43675,
+            17,
+            3.6,
+            3.5454,
+            4.43175,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "cooldown": 16,
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          },
+          {
+            "id": 2,
+            "type": "level"
+          },
+          {
+            "id": 5,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Upward Sweep Attack DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "3",
+              "text": "Elemental Skill"
+            },
+            "type": {
+              "span": "3",
+              "text": "1.9s"
+            }
+          },
+          "interruptionResistance": "50",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "100",
+            "verticalForce": "400"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Tamoto DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "30",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Coordinated Attack (A1)",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "50",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
+    },
+    "3": {
+      "type": 1,
+      "name": "二刀之形·比翼",
+      "description": "双刀出鞘，以利落裁衣之势挥出凌厉的一斩，基于千织的攻击力和防御力，造成<color=#FFE699FF>岩元素范围伤害<\/color>。\\n\\n<i>「一理既达，万法皆通。」<\/i>",
+      "icon": "Skill_E_Chiori_01",
+      "promote": {
+        "1": {
+          "level": 1,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "技能伤害|{param1:P}攻击力+{param2:P}防御力",
+            "冷却时间|{param3:F1}秒",
+            "元素能量|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            2.5632,
+            3.204,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 2,
+          "costItems": {
+            "104326": 3,
+            "112053": 6
+          },
+          "coinCost": 12500,
+          "description": [
+            "技能伤害|{param1:P}攻击力+{param2:P}防御力",
+            "冷却时间|{param3:F1}秒",
+            "元素能量|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            2.75544,
+            3.4443,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 3,
+          "costItems": {
+            "104327": 2,
+            "112054": 3
+          },
+          "coinCost": 17500,
+          "description": [
+            "技能伤害|{param1:P}攻击力+{param2:P}防御力",
+            "冷却时间|{param3:F1}秒",
+            "元素能量|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            2.94768,
+            3.6846,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 4,
+          "costItems": {
+            "104327": 4,
+            "112054": 4
+          },
+          "coinCost": 25000,
+          "description": [
+            "技能伤害|{param1:P}攻击力+{param2:P}防御力",
+            "冷却时间|{param3:F1}秒",
+            "元素能量|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            3.204,
+            4.005,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 5,
+          "costItems": {
+            "104327": 6,
+            "112054": 6
+          },
+          "coinCost": 30000,
+          "description": [
+            "技能伤害|{param1:P}攻击力+{param2:P}防御力",
+            "冷却时间|{param3:F1}秒",
+            "元素能量|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            3.39624,
+            4.2453,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 6,
+          "costItems": {
+            "104327": 9,
+            "112054": 9
+          },
+          "coinCost": 37500,
+          "description": [
+            "技能伤害|{param1:P}攻击力+{param2:P}防御力",
+            "冷却时间|{param3:F1}秒",
+            "元素能量|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            3.58848,
+            4.4856,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 7,
+          "costItems": {
+            "104328": 4,
+            "112055": 4,
+            "113054": 1
+          },
+          "coinCost": 120000,
+          "description": [
+            "技能伤害|{param1:P}攻击力+{param2:P}防御力",
+            "冷却时间|{param3:F1}秒",
+            "元素能量|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            3.8448,
+            4.806,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 8,
+          "costItems": {
+            "104328": 6,
+            "112055": 6,
+            "113054": 1
+          },
+          "coinCost": 260000,
+          "description": [
+            "技能伤害|{param1:P}攻击力+{param2:P}防御力",
+            "冷却时间|{param3:F1}秒",
+            "元素能量|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            4.10112,
+            5.1264,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 9,
+          "costItems": {
+            "104328": 12,
+            "112055": 9,
+            "113054": 2
+          },
+          "coinCost": 450000,
+          "description": [
+            "技能伤害|{param1:P}攻击力+{param2:P}防御力",
+            "冷却时间|{param3:F1}秒",
+            "元素能量|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            4.35744,
+            5.4468,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 10,
+          "costItems": {
+            "104319": 1,
+            "104328": 16,
+            "112055": 12,
+            "113054": 2
+          },
+          "coinCost": 700000,
+          "description": [
+            "技能伤害|{param1:P}攻击力+{param2:P}防御力",
+            "冷却时间|{param3:F1}秒",
+            "元素能量|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            4.61376,
+            5.7672,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 11,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "技能伤害|{param1:P}攻击力+{param2:P}防御力",
+            "冷却时间|{param3:F1}秒",
+            "元素能量|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            4.87008,
+            6.0876,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 12,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "技能伤害|{param1:P}攻击力+{param2:P}防御力",
+            "冷却时间|{param3:F1}秒",
+            "元素能量|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            5.1264,
+            6.408,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 13,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "技能伤害|{param1:P}攻击力+{param2:P}防御力",
+            "冷却时间|{param3:F1}秒",
+            "元素能量|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            5.4468,
+            6.8085,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 14,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "技能伤害|{param1:P}攻击力+{param2:P}防御力",
+            "冷却时间|{param3:F1}秒",
+            "元素能量|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            5.7672,
+            7.209,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "15": {
+          "level": 15,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "技能伤害|{param1:P}攻击力+{param2:P}防御力",
+            "冷却时间|{param3:F1}秒",
+            "元素能量|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            6.0876,
+            7.6095,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "cooldown": 13.5,
+      "cost": 50,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 1,
+            "type": "normal"
+          },
+          {
+            "id": 4,
+            "type": "level"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Skill DMG",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": null,
+          "interruptionResistance": "200",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Activation Damageless Knockback",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "400",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
+    },
+    "4": {
+      "type": 2,
+      "name": "量体裁衣",
+      "description": "施放<color=#FFD780FF>羽袖一触<\/color>的上挑攻击后的短暂时间内，依据不同的后续操作，产生不同的效果：点按元素战技将触发「织锦」；点按普通攻击则触发「裁锦」。\\n\\n<color=#FFD780FF>织锦<\/color>\\n·切换角色，使队伍中下一名自己的角色登场；\\n·为队伍中所有自己的角色施加「当意即妙」：队伍中自己的当前场上角色的普通攻击、重击和下落攻击命中附近的敌人时，袖将进行协同攻击，在敌人的位置造成相当于羽袖一触的上挑攻击伤害100%的<color=#FFE699FF>岩元素范围伤害<\/color>，通过这种方式造成的伤害视为元素战技伤害；\\n·「当意即妙」持续8秒，每2秒至多触发一次袖的协同攻击，一次「当意即妙」持续期间，至多触发2次协同攻击。\\n\\n<color=#FFD780FF>裁锦<\/color>\\n·千织获得<color=#FFE699FF>岩元素附魔<\/color>，持续5秒。\\n\\n千织在场上时，如果施放羽袖一触的上挑攻击后的短暂时间内没有再次点按元素战技或点按普通攻击，将触发后续效果「裁锦」。",
+      "icon": "UI_Talent_S_Chiori_05",
+      "linkedConstellations": {
+        "isLevelIncluded": false,
+        "prop": [
+          {
+            "id": 3,
+            "type": "normal"
+          },
+          {
+            "id": 5,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Coordinated Attack",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Elemental Skill"
+            },
+            "type": {
+              "span": null,
+              "text": "1.9s"
+            }
+          },
+          "interruptionResistance": "50",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
+    },
+    "5": {
+      "type": 2,
+      "name": "锦上添花",
+      "description": "队伍中附近的角色创造<color=#FFE699FF>岩元素创造物<\/color>时，千织获得20%<color=#FFE699FF>岩元素伤害加成<\/color>，持续20秒。",
+      "icon": "UI_Talent_S_Chiori_06",
+      "linkedConstellations": {
+        "isLevelIncluded": false,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          }
+        ]
+      }
+    },
+    "6": {
+      "type": 2,
+      "name": "衣香襟影",
+      "description": "队伍中任意自己的角色装备了默认衣装以外的衣装，或初始之翼以外的风之翼时，队伍中自己的角色获得迅行效果：移动速度提升10%。\\n该效果在秘境、征讨领域、深境螺旋中无效，迅行效果无法叠加。",
+      "icon": "UI_Talent_S_Chiori_07",
+      "linkedConstellations": null
+    }
+  },
+  "constellation": {
+    "0": {
+      "id": 0,
+      "name": "正绢六通",
+      "description": "<color=#FFD780FF>羽袖一触<\/color>的自动制御人形「袖」的攻击范围提升50%。\\n此外，如果队伍中存在千织以外的<color=#FFE699FF>岩元素<\/color>角色，羽袖一触的突进结束时，还将触发以下效果：\\n·额外唤出一名袖。通过这种方式唤出的千织自己的袖，与通过岩元素创造物额外唤出的千织自己的袖至多同时存在一名；\\n·触发固有天赋「锦上添花」，此效果需要解锁固有天赋「锦上添花」。",
+      "extraData": null,
+      "icon": "UI_Talent_S_Chiori_01"
+    },
+    "1": {
+      "id": 1,
+      "name": "落染五色",
+      "description": "施放<color=#FFD780FF>二刀之形·比翼<\/color>后的10秒内，每3秒都将在当前场上自己的角色身边唤出一名简易自动制御人形「绢」。绢将对附近的敌人发起攻击，造成相当于袖170%的<color=#FFE699FF>岩元素范围伤害<\/color>，通过这种方式造成的伤害视为元素战技伤害。\\n绢将在进行一次攻击或存在3秒后退场。",
+      "extraData": null,
+      "icon": "UI_Talent_S_Chiori_03"
+    },
+    "2": {
+      "id": 2,
+      "name": "缀锦四分",
+      "description": "<color=#FFD780FF>羽袖一触<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 2,
+          "extraLevel": 3
+        }
+      },
+      "icon": "UI_Talent_U_Chiori_01"
+    },
+    "3": {
+      "id": 3,
+      "name": "衣裁三礼",
+      "description": "触发固有天赋「量体裁衣」的后续效果后的8秒内，队伍中自己的当前场上角色的普通攻击、重击或下落攻击命中附近的敌人时，将在敌人附近唤出一名简易自动制御人形「绢」。每1秒至多通过上述方式唤出一名绢，一次固有天赋「量体裁衣」的当意即妙或裁锦持续期间，至多通过上述方式唤出3名绢。上述效果每15秒最多触发一次。 \\n需要解锁固有天赋「量体裁衣」。",
+      "extraData": null,
+      "icon": "UI_Talent_S_Chiori_02"
+    },
+    "4": {
+      "id": 4,
+      "name": "绫羽二重",
+      "description": "<color=#FFD780FF>二刀之形·比翼<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 9,
+          "extraLevel": 3
+        }
+      },
+      "icon": "UI_Talent_U_Chiori_02"
+    },
+    "5": {
+      "id": 5,
+      "name": "万理一空",
+      "description": "触发固有天赋「量体裁衣」的后续效果后，千织自己的<color=#FFD780FF>羽袖一触<\/color>的冷却时间减少12秒。需要解锁固有天赋「量体裁衣」。\\n此外，千织自己的普通攻击造成的伤害提升，提升值相当于千织自己的防御力的235%。",
+      "extraData": null,
+      "icon": "UI_Talent_S_Chiori_04"
+    }
+  }
+}

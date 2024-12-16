@@ -1,0 +1,233 @@
+{
+  "id": 29091001,
+  "name": "「仆人」",
+  "type": "值得铭记的强敌",
+  "icon": "UI_MonsterIcon_Nihil",
+  "route": "The Knave",
+  "title": "「仆人」",
+  "specialName": "愚人众执行官第四席",
+  "description": "愚人众执行官第四席，「仆人」。",
+  "entries": {
+    "29100103": {
+      "id": 29100103,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "4.6仆人个人线剧情关卡词缀",
+          "description": "4.6仆人个人线剧情关卡词缀",
+          "abilityName": [
+            "Monster_Nihil_StoryLevel_QuestPass"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "仆人周本难度调整词缀",
+          "description": "仆人周本难度调整词缀",
+          "abilityName": [
+            "Monster_Nihil_QuestDungeonDifficultyAdjust"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 366.76801,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 123.088,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.7,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "29100104": {
+      "id": 29100104,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 366.76801,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 175.84,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.7,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "102": {
+          "name": "冒险阅历",
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "300"
+        },
+        "105": {
+          "name": "好感经验",
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "101111": {
+          "name": "央陆单手剑原胚",
+          "rank": 4,
+          "icon": "UI_ItemIcon_101111"
+        },
+        "101112": {
+          "name": "央陆弓原胚",
+          "rank": 4,
+          "icon": "UI_ItemIcon_101112"
+        },
+        "101113": {
+          "name": "央陆双手剑原胚",
+          "rank": 4,
+          "icon": "UI_ItemIcon_101113"
+        },
+        "101114": {
+          "name": "央陆法器原胚",
+          "rank": 4,
+          "icon": "UI_ItemIcon_101114"
+        },
+        "101115": {
+          "name": "央陆长柄武器原胚",
+          "rank": 4,
+          "icon": "UI_ItemIcon_101115"
+        },
+        "104111": {
+          "name": "燃愿玛瑙碎屑",
+          "rank": 2,
+          "icon": "UI_ItemIcon_104111"
+        },
+        "104112": {
+          "name": "燃愿玛瑙断片",
+          "rank": 3,
+          "icon": "UI_ItemIcon_104112"
+        },
+        "104113": {
+          "name": "燃愿玛瑙块",
+          "rank": 4,
+          "icon": "UI_ItemIcon_104113"
+        },
+        "104114": {
+          "name": "燃愿玛瑙",
+          "rank": 5,
+          "icon": "UI_ItemIcon_104114"
+        },
+        "113021": {
+          "name": "异梦溶媒",
+          "rank": 4,
+          "icon": "UI_ItemIcon_113021",
+          "count": "0.33"
+        },
+        "113060": {
+          "name": "残火灯烛",
+          "rank": 5,
+          "icon": "UI_ItemIcon_113060"
+        },
+        "113061": {
+          "name": "丝织之羽",
+          "rank": 5,
+          "icon": "UI_ItemIcon_113061"
+        },
+        "113062": {
+          "name": "否定裁断",
+          "rank": 5,
+          "icon": "UI_ItemIcon_113062"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400088": {
+          "name": "角斗士的终幕礼",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "name": "角斗士的终幕礼",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "name": "流浪大地的乐团",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "name": "流浪大地的乐团",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        }
+      }
+    }
+  },
+  "tips": null
+}

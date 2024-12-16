@@ -1,0 +1,48 @@
+{
+  "id": 26230101,
+  "name": "幼绒翼龙",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Natsaurus_Flamingo_Small",
+  "route": "Qucusaurus Chick",
+  "title": "幼绒翼龙",
+  "specialName": "肆游纳塔的诸龙众",
+  "description": "年幼的绒翼龙，拥有轻巧的身姿。\\n脖颈与羽翼尚未完全生长开，对气态燃素的运用也十分生疏。也有年长的绒翼龙为促进幼龙的飞行而将它们推下山崖的逸话。虽然不知传言的真假，不过只要经历夜以继日的锻炼，稚嫩的翎羽总会有逐渐变得坚硬的一天。",
+  "entries": {
+    "26230101": {
+      "id": 26230101,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 14.9424,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 22.608,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.3,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": null
+}

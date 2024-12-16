@@ -1,0 +1,109 @@
+{
+  "id": 26260801,
+  "name": "凛冽·大灵显化身",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Wayob_Shamansaurus",
+  "route": "Biting-Cold Wayob Manifestation",
+  "title": "旋转冰蕈兽",
+  "specialName": "夜晚与游灵的代行",
+  "description": "「烟谜主」部族所信仰与崇拜的「大灵」，借由图腾与夜魂之力，于大地之上显化的形体。\\n「烟谜主」部族的成员曾尝试过许多与夜魂的国度沟通的媒介，最后众人发现，能与「大灵」建立最为稳定联系的中介物质是黑曜石。这或许是大灵显化身在长久的岁月中形成类似石像般造型的原因。「烟谜主」的人相信他们的「大灵」拥有控制冰晶与冻结的力量，能够执掌固型和流变的话语。",
+  "entries": {
+    "26260801": {
+      "id": 26260801,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010016,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 95.088,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 57.776,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.5,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "26260803": {
+      "id": 26260803,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "5.0大灵开场力场词缀",
+          "description": "5.0大灵开场力场词缀",
+          "abilityName": [
+            "MonsterAffix_Wayob_GoFirstField"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010016,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 95.088,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 57.776,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.5,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": {
+    "308401": {
+      "images": [
+        "UI_Tutorial_220"
+      ],
+      "description": "纳塔各个部族所信仰的「大灵」借由黑曜石图腾的形象如斯显化。战斗中，大灵显化身会在一段时间内张开「领域·试炼之刻」，为自己创造护盾，并持续吸收领域内队伍中所有角色的元素能量。领域内的角色造成的伤害将大幅提高。<color=#FFE14BFF>在领域结束前破除护盾<\/color>，则将获得返还的大量元素能量，若无法破除，大灵显化身会根据剩余护盾的量生成元素护罩。"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "name": "秘源轴",
+  "description": "来自不再活动的秘源机兵。\\n看上去只是两个机关之间的承接结构。",
+  "type": "角色与武器培养素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "秘源机兵·寻捕械掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 12430,
+          "name": "硕果钩",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Claymore_Umpakati"
+        },
+        {
+          "id": 13431,
+          "name": "虹的行迹",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Pole_Isikhulu"
+        },
+        {
+          "id": 14427,
+          "name": "苍纹角杯",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_ConchSprayer"
+        },
+        {
+          "id": 11516,
+          "name": "岩峰巡歌",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Sword_XochitlsTube"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 24090101,
+        "name": "秘源机兵·寻捕械",
+        "icon": "UI_MonsterIcon_ToothTrap"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_112113",
+  "rank": 2,
+  "route": "Axis of the Secret Source"
+}

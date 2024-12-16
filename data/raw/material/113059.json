@@ -1,0 +1,42 @@
+{
+  "name": "金色旋律的断章",
+  "description": "半人马魔像胸前掉落的金色别章。与之连缀的碎石上所镌刻着的曲调，似乎是某部宏大乐剧的断章。\\n曾有人认为，永恒幸福的谐和音律将会响彻寰宇，直至一切命运的尽头，但谐律亦会变奏。最终，当叛逆的神王跌落王座，不朽的王都化为丘墟，失去了军团的统帅手中的琴又要为谁人奏响呢。",
+  "type": "角色培养素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "30级以上魔像督军掉落",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000096,
+          "name": "阿蕾奇诺",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Arlecchino"
+        },
+        {
+          "id": 10000099,
+          "name": "艾梅莉埃",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Emilie"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 26140101,
+        "name": "魔像督军",
+        "icon": "UI_MonsterIcon_Golem_Centaur"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_113059",
+  "rank": 4,
+  "route": "Fragment of a Golden Melody"
+}

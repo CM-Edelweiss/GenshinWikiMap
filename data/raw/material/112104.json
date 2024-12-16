@@ -1,0 +1,166 @@
+{
+  "name": "卫从的木哨",
+  "description": "纳塔部族卫从的象征。\\n战士并非一开始就是战士，得先跟从真正的战士们学习战斗的技巧，这就是部族中「卫从」这一见习职位的由来。",
+  "type": "角色与武器培养素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "部族龙形武士掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000100,
+          "name": "卡齐娜",
+          "rank": 4,
+          "icon": "UI_AvatarIcon_Kachina"
+        },
+        {
+          "id": 10000102,
+          "name": "玛拉妮",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Mualani"
+        },
+        {
+          "id": 10000103,
+          "name": "希诺宁",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Xilonen"
+        }
+      ],
+      "weapon": [
+        {
+          "id": 11430,
+          "name": "弥坚骨",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_Umpakati"
+        },
+        {
+          "id": 11432,
+          "name": "厄水之祸",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_SacrificialNgombe"
+        },
+        {
+          "id": 12431,
+          "name": "撼地者",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Claymore_Isikhulu"
+        },
+        {
+          "id": 13431,
+          "name": "虹的行迹",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Pole_Isikhulu"
+        },
+        {
+          "id": 15430,
+          "name": "缀花之翎",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Bow_Umpakati"
+        },
+        {
+          "id": 12513,
+          "name": "山王长牙",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Claymore_EmeraldSword"
+        },
+        {
+          "id": 15514,
+          "name": "星鹫赤羽",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Bow_Qoyllorsnova"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 25501101,
+        "name": "铸砂勇士·叩问人",
+        "icon": "UI_MonsterIcon_Human_Female_NoWeapon_Drillhead"
+      },
+      {
+        "id": 25504101,
+        "name": "铸砂勇士·碎盾者",
+        "icon": "UI_MonsterIcon_Human_MuscleMan_Claymore_Drillhead"
+      },
+      {
+        "id": 25505101,
+        "name": "铸砂勇士·投矛手",
+        "icon": "UI_MonsterIcon_Human_Fat_NoWeapon_Drillhead"
+      },
+      {
+        "id": 25501201,
+        "name": "疾迅勇士·引索客",
+        "icon": "UI_MonsterIcon_Human_Female_Sword_Hookwalker"
+      },
+      {
+        "id": 25502101,
+        "name": "疾迅勇士·荡风斥候",
+        "icon": "UI_MonsterIcon_Human_Male_Sword_Hookwalker"
+      },
+      {
+        "id": 25503101,
+        "name": "疾迅勇士·重刃讯使",
+        "icon": "UI_MonsterIcon_Human_Male_Claymore_Hookwalker"
+      },
+      {
+        "id": 25500101,
+        "name": "流刃勇士·游击人",
+        "icon": "UI_MonsterIcon_Human_Female_NoWeapon_Mosasaurus"
+      },
+      {
+        "id": 25502201,
+        "name": "流刃勇士·锯脂者",
+        "icon": "UI_MonsterIcon_Human_Male_Sword_Mosasaurus"
+      },
+      {
+        "id": 25505201,
+        "name": "流刃勇士·掷叉猎手",
+        "icon": "UI_MonsterIcon_Human_Fat_NoWeapon_Mosasaurus"
+      },
+      {
+        "id": 25510101,
+        "name": "嵴锋龙武士·碎晶打者",
+        "icon": "UI_MonsterIcon_Tribalwarrior_Powermaul_Drillhead"
+      },
+      {
+        "id": 25510201,
+        "name": "嵴锋龙武士·破岩锐刃",
+        "icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Drillhead"
+      },
+      {
+        "id": 25510301,
+        "name": "匿叶龙武士·旋锯飞叶",
+        "icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Hookwalker"
+      },
+      {
+        "id": 25510401,
+        "name": "匿叶龙武士·流火鸣空",
+        "icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Hookwalker"
+      },
+      {
+        "id": 25510501,
+        "name": "鳍游龙武士·穿浪之梭",
+        "icon": "UI_MonsterIcon_Tribalwarrior_Slingshot_Mosasaurus"
+      },
+      {
+        "id": 25510601,
+        "name": "鳍游龙武士·裂礁之涛",
+        "icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Mosasaurus"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_112104",
+  "rank": 1,
+  "route": "Sentry's Wooden Whistle"
+}

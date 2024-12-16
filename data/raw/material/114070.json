@@ -1,0 +1,74 @@
+{
+  "name": "神合秘烟的预感",
+  "description": "赋予武器突破之力的材料。\\n尚古的通灵者认为，没有形象而只有意识的「大灵」是去除了外在，更接近精神本质的存在。\\n将粗糙的石料打磨，直至去除所有纹理，成为反射光亮的镜子的过程，也是一种除去世界原有表征的仪式。或许光滑的镜面亦是通灵者自身精神的投射也说不定。",
+  "type": "武器突破素材",
+  "recipe": {
+    "12052": {
+      "114069": {
+        "name": "神合秘烟的思绪",
+        "icon": "UI_ItemIcon_114069",
+        "rank": 2,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "炼武秘境：测度",
+      "type": "domain",
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 12430,
+          "name": "硕果钩",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Claymore_Umpakati"
+        },
+        {
+          "id": 14427,
+          "name": "苍纹角杯",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_ConchSprayer"
+        },
+        {
+          "id": 15431,
+          "name": "碎链",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Bow_Isikhulu"
+        },
+        {
+          "id": 15430,
+          "name": "缀花之翎",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Bow_Umpakati"
+        },
+        {
+          "id": 11516,
+          "name": "岩峰巡歌",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Sword_XochitlsTube"
+        },
+        {
+          "id": 15514,
+          "name": "星鹫赤羽",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Bow_Qoyllorsnova"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_114070",
+  "rank": 3,
+  "route": "Night-Wind's Mystic Premonition"
+}

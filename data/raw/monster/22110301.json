@@ -1,0 +1,184 @@
+{
+  "id": 22110301,
+  "name": "大型狂蔓隙境原体",
+  "type": "深渊",
+  "icon": "UI_MonsterIcon_Ovacua_Chaos_01",
+  "route": "Large Overgrown Breacher Primus",
+  "title": "大型狂蔓隙境原体",
+  "specialName": "异界的生命组织",
+  "description": "主要出现在厄里那斯的奇异生命体。\\n隙境原体在基本的生物特征上超出了已知的范畴：不属于动物、植物、蕈类与元素类。须弥的学者因此关于它到底是什么的争论从未正式结束，直到它一同被禁止作为学术研究课题立项，因为就目前人类的知识体系而言，这个问题与「语言的定义与本质」一样，无法得出有意义的确切结论。",
+  "entries": {
+    "22110301": {
+      "id": 22110301,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010013,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010013,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010013,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 114.1056,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 62.8,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.5,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112089": {
+          "name": "隙间之核",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112089",
+          "count": "6.5658"
+        },
+        "112090": {
+          "name": "外世突触",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112090",
+          "count": "1.7508"
+        },
+        "112091": {
+          "name": "异界生命核",
+          "rank": 4,
+          "icon": "UI_ItemIcon_112091",
+          "count": "0.4378"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "22110302": {
+      "id": 22110302,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "隙境原体深渊变体",
+          "description": "改变技能组",
+          "abilityName": [
+            "MonsterAffix_Monster_Ovacua_InDungeonAffix"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010013,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010013,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010013,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 114.1056,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 62.8,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.5,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": {
+    "304601": {
+      "images": [
+        "UI_Tutorial_181a"
+      ],
+      "description": "与地上一切生物都没有共性的异形生命体。在战斗中会进入应激状态，在<color=#FFE14BFF>草元素<\/color>护罩的保护下连续进行猛烈的狂蔓飞弹攻击。若在此期间将其护罩破除，能使其暂时陷入瘫痪状态。除了通常的<color=#FFE14BFF>元素反应<\/color>手段外，具有<color=#FFE14BFF>荒性或芒性<\/color>的攻击也能高效击溃隙境原体的防御。"
+    }
+  }
+}

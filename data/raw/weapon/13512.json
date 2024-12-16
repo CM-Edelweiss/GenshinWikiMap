@@ -1,0 +1,243 @@
+{
+  "id": 13512,
+  "rank": 5,
+  "type": "长柄武器",
+  "name": "赤月之形",
+  "description": "色泽如赤月般刺眼的锋锐利器。据说在某个古老的王朝中曾被视为贯连两界的礼器，但如今早已不再有人记得彼时的信仰与典仪。",
+  "specialProp": "FIGHT_PROP_CRITICAL",
+  "icon": "UI_EquipIcon_Pole_BloodMoon",
+  "storyId": [
+    "13512"
+  ],
+  "affix": {
+    "113512": {
+      "name": "烬日之影",
+      "upgrade": {
+        "0": "重击命中敌人时，赋予生命值上限25%的生命之契，该效果每14秒至多触发一次。此外，装备者具有生命之契时，造成的伤害提升<color=#99FFFFFF>12%<\/color>；若生命之契的数值大于等于生命值上限的30%，造成的伤害将进一步提升<color=#99FFFFFF>24%<\/color>。",
+        "1": "重击命中敌人时，赋予生命值上限25%的生命之契，该效果每14秒至多触发一次。此外，装备者具有生命之契时，造成的伤害提升<color=#99FFFFFF>16%<\/color>；若生命之契的数值大于等于生命值上限的30%，造成的伤害将进一步提升<color=#99FFFFFF>32%<\/color>。",
+        "2": "重击命中敌人时，赋予生命值上限25%的生命之契，该效果每14秒至多触发一次。此外，装备者具有生命之契时，造成的伤害提升<color=#99FFFFFF>20%<\/color>；若生命之契的数值大于等于生命值上限的30%，造成的伤害将进一步提升<color=#99FFFFFF>40%<\/color>。",
+        "3": "重击命中敌人时，赋予生命值上限25%的生命之契，该效果每14秒至多触发一次。此外，装备者具有生命之契时，造成的伤害提升<color=#99FFFFFF>24%<\/color>；若生命之契的数值大于等于生命值上限的30%，造成的伤害将进一步提升<color=#99FFFFFF>48%<\/color>。",
+        "4": "重击命中敌人时，赋予生命值上限25%的生命之契，该效果每14秒至多触发一次。此外，装备者具有生命之契时，造成的伤害提升<color=#99FFFFFF>28%<\/color>；若生命之契的数值大于等于生命值上限的30%，造成的伤害将进一步提升<color=#99FFFFFF>56%<\/color>。"
+      }
+    }
+  },
+  "route": "Crimson Moon's Semblance",
+  "upgrade": {
+    "awakenCost": [
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 47.537,
+        "type": "GROW_CURVE_ATTACK_302"
+      },
+      {
+        "propType": "FIGHT_PROP_CRITICAL",
+        "initValue": 0.048,
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112083": 3,
+          "112098": 5,
+          "114057": 5
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 31.1,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112083": 12,
+          "112098": 18,
+          "114058": 5
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 62.2,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112084": 9,
+          "112099": 9,
+          "114058": 9
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 93.4,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112084": 14,
+          "112099": 18,
+          "114059": 5
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 124.5,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112085": 9,
+          "112100": 14,
+          "114059": 9
+        },
+        "coinCost": 55000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112085": 18,
+          "112100": 27,
+          "114060": 6
+        },
+        "coinCost": 65000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 186.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112083": 1,
+    "112084": 2,
+    "112085": 3,
+    "112098": 2,
+    "112099": 3,
+    "112100": 4,
+    "114057": 2,
+    "114058": 3,
+    "114059": 4,
+    "114060": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112083": {
+      "name": "啮合齿轮",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112083"
+    },
+    "112084": {
+      "name": "机关正齿轮",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112084"
+    },
+    "112085": {
+      "name": "奇械机芯齿轮",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112085"
+    },
+    "112098": {
+      "name": "残毁的剑柄",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112098"
+    },
+    "112099": {
+      "name": "裂断的剑柄",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112099"
+    },
+    "112100": {
+      "name": "未熄的剑柄",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112100"
+    },
+    "114057": {
+      "name": "无垢之海的苦盏",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114057"
+    },
+    "114058": {
+      "name": "无垢之海的酒盏",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114058"
+    },
+    "114059": {
+      "name": "无垢之海的银杯",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114059"
+    },
+    "114060": {
+      "name": "无垢之海的金杯",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114060"
+    }
+  }
+}

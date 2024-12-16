@@ -1,0 +1,131 @@
+{
+  "id": 10000094,
+  "name": "千织",
+  "element": "岩",
+  "weapon": "单手剑",
+  "rank": 5,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Chiori",
+    "side": "UI_AvatarIcon_Side_Chiori",
+    "card": "UI_AvatarIcon_Chiori_Card",
+    "splash": "UI_Gacha_AvatarImg_Chiori",
+    "slice": "UI_Gacha_AvatarIcon_Chiori"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 890.40088,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        763.43823,
+        1305.88123,
+        2029.13855,
+        2571.58154,
+        3114.02441,
+        3656.46729
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 25.137,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        21.55113,
+        36.86377,
+        57.28064,
+        72.59328,
+        87.90592,
+        103.21857
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 74.1892,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        63.612,
+        108.81,
+        169.07401,
+        214.272,
+        259.47,
+        304.668
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL",
+      "promote": [
+        0,
+        0.048,
+        0.096,
+        0.096,
+        0.144,
+        0.192
+      ]
+    }
+  ],
+  "talent": {
+    "10941": {
+      "name": "普通攻击·心织刀流",
+      "icon": "Skill_A_01"
+    },
+    "10942": {
+      "name": "羽袖一触",
+      "icon": "Skill_S_Chiori_01"
+    },
+    "10945": {
+      "name": "二刀之形·比翼",
+      "icon": "Skill_E_Chiori_01"
+    },
+    "942101": {
+      "name": "量体裁衣",
+      "icon": "UI_Talent_S_Chiori_05"
+    },
+    "942201": {
+      "name": "锦上添花",
+      "icon": "UI_Talent_S_Chiori_06"
+    },
+    "942301": {
+      "name": "衣香襟影",
+      "icon": "UI_Talent_S_Chiori_07"
+    }
+  },
+  "constellation": {
+    "941": {
+      "name": "正绢六通",
+      "icon": "UI_Talent_S_Chiori_01"
+    },
+    "942": {
+      "name": "落染五色",
+      "icon": "UI_Talent_S_Chiori_03"
+    },
+    "943": {
+      "name": "缀锦四分",
+      "icon": "UI_Talent_U_Chiori_01"
+    },
+    "944": {
+      "name": "衣裁三礼",
+      "icon": "UI_Talent_S_Chiori_02"
+    },
+    "945": {
+      "name": "绫羽二重",
+      "icon": "UI_Talent_U_Chiori_02"
+    },
+    "946": {
+      "name": "万理一空",
+      "icon": "UI_Talent_S_Chiori_04"
+    }
+  },
+  "talent_fix": {
+    "10942": "羽袖一触",
+    "10945": "二刀之形·比翼"
+  },
+  "damage": [],
+  "buff": []
+}

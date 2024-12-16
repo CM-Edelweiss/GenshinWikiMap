@@ -1,0 +1,50 @@
+{
+  "name": "「纷争」的指引",
+  "description": "天赋培养素材。\\n火之国土的事理是纷争。\\n纷争永远能够被更高层面的力量介入并解决，而非不可收拾，这让一切都得以进入可控的境地。纷争亦是一种局限，禁止不计成本地推诿下去，而是要求参与方更干净利落地得出结果。",
+  "type": "角色天赋素材",
+  "recipe": {
+    "13035": {
+      "104353": {
+        "name": "「纷争」的教导",
+        "icon": "UI_ItemIcon_104353",
+        "rank": 2,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "精通秘境：旋复",
+      "type": "domain",
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000100,
+          "name": "卡齐娜",
+          "rank": 4,
+          "icon": "UI_AvatarIcon_Kachina"
+        },
+        {
+          "id": 10000104,
+          "name": "恰斯卡",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Chasca"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_104354",
+  "rank": 3,
+  "route": "Guide to Conflict"
+}

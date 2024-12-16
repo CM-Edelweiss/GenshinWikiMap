@@ -1,0 +1,244 @@
+{
+  "id": 14431,
+  "rank": 4,
+  "type": "法器",
+  "name": "木棉之环",
+  "description": "昔日的双生英杰锻造的玉器，传说曾将盘踞火山的巨龙从天穹击坠。",
+  "specialProp": "FIGHT_PROP_HP_PERCENT",
+  "icon": "UI_EquipIcon_Catalyst_Isikhulu",
+  "storyId": [
+    "14431_1",
+    "14431_2"
+  ],
+  "affix": {
+    "114431": {
+      "name": "丰沃之陆的回声",
+      "upgrade": {
+        "0": "施放元素战技时，获得「玉锻之冕」效果：每1000点生命值上限都会使普通攻击造成的伤害提升<color=#99FFFFFF>0.6%<\/color>，持续10秒。通过这种方式至多使普通攻击造成的伤害提升<color=#99FFFFFF>16%<\/color>。",
+        "1": "施放元素战技时，获得「玉锻之冕」效果：每1000点生命值上限都会使普通攻击造成的伤害提升<color=#99FFFFFF>0.7%<\/color>，持续10秒。通过这种方式至多使普通攻击造成的伤害提升<color=#99FFFFFF>20%<\/color>。",
+        "2": "施放元素战技时，获得「玉锻之冕」效果：每1000点生命值上限都会使普通攻击造成的伤害提升<color=#99FFFFFF>0.8%<\/color>，持续10秒。通过这种方式至多使普通攻击造成的伤害提升<color=#99FFFFFF>24%<\/color>。",
+        "3": "施放元素战技时，获得「玉锻之冕」效果：每1000点生命值上限都会使普通攻击造成的伤害提升<color=#99FFFFFF>0.9%<\/color>，持续10秒。通过这种方式至多使普通攻击造成的伤害提升<color=#99FFFFFF>28%<\/color>。",
+        "4": "施放元素战技时，获得「玉锻之冕」效果：每1000点生命值上限都会使普通攻击造成的伤害提升<color=#99FFFFFF>1%<\/color>，持续10秒。通过这种方式至多使普通攻击造成的伤害提升<color=#99FFFFFF>32%<\/color>。"
+      }
+    }
+  },
+  "route": "Ring of Yaxche",
+  "upgrade": {
+    "awakenCost": [
+      1000,
+      2000,
+      4000,
+      8000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 42.401,
+        "type": "GROW_CURVE_ATTACK_201"
+      },
+      {
+        "propType": "FIGHT_PROP_HP_PERCENT",
+        "initValue": 0.09,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112005": 2,
+          "112107": 3,
+          "114065": 3
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 25.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112005": 8,
+          "112107": 12,
+          "114066": 3
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 51.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112006": 6,
+          "112108": 6,
+          "114066": 6
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112006": 9,
+          "112108": 12,
+          "114067": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 103.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112007": 6,
+          "112109": 9,
+          "114067": 6
+        },
+        "coinCost": 35000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 129.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112007": 12,
+          "112109": 18,
+          "114068": 4
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112005": 1,
+    "112006": 2,
+    "112007": 3,
+    "112107": 2,
+    "112108": 3,
+    "112109": 4,
+    "114065": 2,
+    "114066": 3,
+    "114067": 4,
+    "114068": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112005": {
+      "name": "破损的面具",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112005"
+    },
+    "112006": {
+      "name": "污秽的面具",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112006"
+    },
+    "112007": {
+      "name": "不祥的面具",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112007"
+    },
+    "112107": {
+      "name": "意志破碎的残片",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112107"
+    },
+    "112108": {
+      "name": "意志明晰的寄偶",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112108"
+    },
+    "112109": {
+      "name": "意志巡游的符像",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112109"
+    },
+    "114065": {
+      "name": "谵妄圣主的朽败",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114065"
+    },
+    "114066": {
+      "name": "谵妄圣主的余哀",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114066"
+    },
+    "114067": {
+      "name": "谵妄圣主的容光",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114067"
+    },
+    "114068": {
+      "name": "谵妄圣主的神面",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114068"
+    }
+  }
+}

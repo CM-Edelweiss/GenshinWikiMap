@@ -5,6 +5,9 @@
     "name": "神里绫华",
     "element": "Ice",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "INAZUMA",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Ayaka",
     "birthday": [
       9,
@@ -19,12 +22,15 @@
     "name": "琴",
     "element": "Wind",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_HEAL_ADD",
+    "bodyType": "LADY",
     "icon": "UI_AvatarIcon_Qin",
     "birthday": [
       3,
       14
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Jean"
   },
   "10000006": {
@@ -33,12 +39,15 @@
     "name": "丽莎",
     "element": "Electric",
     "weaponType": "WEAPON_CATALYST",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
+    "bodyType": "LADY",
     "icon": "UI_AvatarIcon_Lisa",
     "birthday": [
       6,
       9
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Lisa"
   },
   "10000014": {
@@ -47,12 +56,15 @@
     "name": "芭芭拉",
     "element": "Water",
     "weaponType": "WEAPON_CATALYST",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Barbara",
     "birthday": [
       7,
       5
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Barbara"
   },
   "10000015": {
@@ -61,12 +73,15 @@
     "name": "凯亚",
     "element": "Ice",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
+    "bodyType": "MALE",
     "icon": "UI_AvatarIcon_Kaeya",
     "birthday": [
       11,
       30
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Kaeya"
   },
   "10000016": {
@@ -75,12 +90,15 @@
     "name": "迪卢克",
     "element": "Fire",
     "weaponType": "WEAPON_CLAYMORE",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "bodyType": "MALE",
     "icon": "UI_AvatarIcon_Diluc",
     "birthday": [
       4,
       30
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Diluc"
   },
   "10000020": {
@@ -89,12 +107,15 @@
     "name": "雷泽",
     "element": "Electric",
     "weaponType": "WEAPON_CLAYMORE",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_PHYSICAL_ADD_HURT",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_Razor",
     "birthday": [
       9,
       9
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Razor"
   },
   "10000021": {
@@ -103,12 +124,15 @@
     "name": "安柏",
     "element": "Fire",
     "weaponType": "WEAPON_BOW",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Ambor",
     "birthday": [
       8,
       10
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Amber"
   },
   "10000022": {
@@ -117,12 +141,15 @@
     "name": "温迪",
     "element": "Wind",
     "weaponType": "WEAPON_BOW",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_Venti",
     "birthday": [
       6,
       16
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Venti"
   },
   "10000023": {
@@ -131,12 +158,15 @@
     "name": "香菱",
     "element": "Fire",
     "weaponType": "WEAPON_POLE",
+    "region": "LIYUE",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Xiangling",
     "birthday": [
       11,
       2
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Xiangling"
   },
   "10000024": {
@@ -145,12 +175,15 @@
     "name": "北斗",
     "element": "Electric",
     "weaponType": "WEAPON_CLAYMORE",
+    "region": "LIYUE",
+    "specialProp": "FIGHT_PROP_ELEC_ADD_HURT",
+    "bodyType": "LADY",
     "icon": "UI_AvatarIcon_Beidou",
     "birthday": [
       2,
       14
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Beidou"
   },
   "10000025": {
@@ -159,12 +192,15 @@
     "name": "行秋",
     "element": "Water",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "LIYUE",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_Xingqiu",
     "birthday": [
       10,
       9
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Xingqiu"
   },
   "10000026": {
@@ -173,6 +209,9 @@
     "name": "魈",
     "element": "Wind",
     "weaponType": "WEAPON_POLE",
+    "region": "LIYUE",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_Xiao",
     "birthday": [
       4,
@@ -187,12 +226,15 @@
     "name": "凝光",
     "element": "Rock",
     "weaponType": "WEAPON_CATALYST",
+    "region": "LIYUE",
+    "specialProp": "FIGHT_PROP_ROCK_ADD_HURT",
+    "bodyType": "LADY",
     "icon": "UI_AvatarIcon_Ningguang",
     "birthday": [
       8,
       26
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Ningguang"
   },
   "10000029": {
@@ -201,12 +243,15 @@
     "name": "可莉",
     "element": "Fire",
     "weaponType": "WEAPON_CATALYST",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_FIRE_ADD_HURT",
+    "bodyType": "LOLI",
     "icon": "UI_AvatarIcon_Klee",
     "birthday": [
       7,
       27
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Klee"
   },
   "10000030": {
@@ -215,6 +260,9 @@
     "name": "钟离",
     "element": "Rock",
     "weaponType": "WEAPON_POLE",
+    "region": "LIYUE",
+    "specialProp": "FIGHT_PROP_ROCK_ADD_HURT",
+    "bodyType": "MALE",
     "icon": "UI_AvatarIcon_Zhongli",
     "birthday": [
       12,
@@ -229,12 +277,15 @@
     "name": "菲谢尔",
     "element": "Electric",
     "weaponType": "WEAPON_BOW",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Fischl",
     "birthday": [
       5,
       27
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Fischl"
   },
   "10000032": {
@@ -243,12 +294,15 @@
     "name": "班尼特",
     "element": "Fire",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_Bennett",
     "birthday": [
       2,
       29
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Bennett"
   },
   "10000033": {
@@ -257,6 +311,9 @@
     "name": "达达利亚",
     "element": "Water",
     "weaponType": "WEAPON_BOW",
+    "region": "FATUI",
+    "specialProp": "FIGHT_PROP_WATER_ADD_HURT",
+    "bodyType": "MALE",
     "icon": "UI_AvatarIcon_Tartaglia",
     "birthday": [
       7,
@@ -271,12 +328,15 @@
     "name": "诺艾尔",
     "element": "Rock",
     "weaponType": "WEAPON_CLAYMORE",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_DEFENSE_PERCENT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Noel",
     "birthday": [
       3,
       21
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Noelle"
   },
   "10000035": {
@@ -285,12 +345,15 @@
     "name": "七七",
     "element": "Ice",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "LIYUE",
+    "specialProp": "FIGHT_PROP_HEAL_ADD",
+    "bodyType": "LOLI",
     "icon": "UI_AvatarIcon_Qiqi",
     "birthday": [
       3,
       3
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Qiqi"
   },
   "10000036": {
@@ -299,12 +362,15 @@
     "name": "重云",
     "element": "Ice",
     "weaponType": "WEAPON_CLAYMORE",
+    "region": "LIYUE",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_Chongyun",
     "birthday": [
       9,
       7
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Chongyun"
   },
   "10000037": {
@@ -313,6 +379,9 @@
     "name": "甘雨",
     "element": "Ice",
     "weaponType": "WEAPON_BOW",
+    "region": "LIYUE",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Ganyu",
     "birthday": [
       12,
@@ -327,6 +396,9 @@
     "name": "阿贝多",
     "element": "Rock",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_ROCK_ADD_HURT",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_Albedo",
     "birthday": [
       9,
@@ -341,6 +413,9 @@
     "name": "迪奥娜",
     "element": "Ice",
     "weaponType": "WEAPON_BOW",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_ICE_ADD_HURT",
+    "bodyType": "LOLI",
     "icon": "UI_AvatarIcon_Diona",
     "birthday": [
       1,
@@ -355,12 +430,15 @@
     "name": "莫娜",
     "element": "Water",
     "weaponType": "WEAPON_CATALYST",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Mona",
     "birthday": [
       8,
       31
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Mona"
   },
   "10000042": {
@@ -369,12 +447,15 @@
     "name": "刻晴",
     "element": "Electric",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "LIYUE",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Keqing",
     "birthday": [
       11,
       20
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Keqing"
   },
   "10000043": {
@@ -383,12 +464,15 @@
     "name": "砂糖",
     "element": "Wind",
     "weaponType": "WEAPON_CATALYST",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_WIND_ADD_HURT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Sucrose",
     "birthday": [
       11,
       26
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Sucrose"
   },
   "10000044": {
@@ -397,6 +481,9 @@
     "name": "辛焱",
     "element": "Fire",
     "weaponType": "WEAPON_CLAYMORE",
+    "region": "LIYUE",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Xinyan",
     "birthday": [
       10,
@@ -411,6 +498,9 @@
     "name": "罗莎莉亚",
     "element": "Ice",
     "weaponType": "WEAPON_POLE",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "LADY",
     "icon": "UI_AvatarIcon_Rosaria",
     "birthday": [
       1,
@@ -425,6 +515,9 @@
     "name": "胡桃",
     "element": "Fire",
     "weaponType": "WEAPON_POLE",
+    "region": "LIYUE",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Hutao",
     "birthday": [
       7,
@@ -439,6 +532,9 @@
     "name": "枫原万叶",
     "element": "Wind",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "INAZUMA",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_Kazuha",
     "birthday": [
       10,
@@ -453,6 +549,9 @@
     "name": "烟绯",
     "element": "Fire",
     "weaponType": "WEAPON_CATALYST",
+    "region": "LIYUE",
+    "specialProp": "FIGHT_PROP_FIRE_ADD_HURT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Feiyan",
     "birthday": [
       7,
@@ -467,6 +566,9 @@
     "name": "宵宫",
     "element": "Fire",
     "weaponType": "WEAPON_BOW",
+    "region": "INAZUMA",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Yoimiya",
     "birthday": [
       6,
@@ -481,6 +583,9 @@
     "name": "托马",
     "element": "Fire",
     "weaponType": "WEAPON_POLE",
+    "region": "INAZUMA",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "MALE",
     "icon": "UI_AvatarIcon_Tohma",
     "birthday": [
       1,
@@ -495,6 +600,9 @@
     "name": "优菈",
     "element": "Ice",
     "weaponType": "WEAPON_CLAYMORE",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "bodyType": "LADY",
     "icon": "UI_AvatarIcon_Eula",
     "birthday": [
       10,
@@ -509,6 +617,9 @@
     "name": "雷电将军",
     "element": "Electric",
     "weaponType": "WEAPON_POLE",
+    "region": "INAZUMA",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
+    "bodyType": "LADY",
     "icon": "UI_AvatarIcon_Shougun",
     "birthday": [
       6,
@@ -523,6 +634,9 @@
     "name": "早柚",
     "element": "Wind",
     "weaponType": "WEAPON_CLAYMORE",
+    "region": "INAZUMA",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
+    "bodyType": "LOLI",
     "icon": "UI_AvatarIcon_Sayu",
     "birthday": [
       10,
@@ -537,6 +651,9 @@
     "name": "珊瑚宫心海",
     "element": "Water",
     "weaponType": "WEAPON_CATALYST",
+    "region": "INAZUMA",
+    "specialProp": "FIGHT_PROP_WATER_ADD_HURT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Kokomi",
     "birthday": [
       2,
@@ -551,6 +668,9 @@
     "name": "五郎",
     "element": "Rock",
     "weaponType": "WEAPON_BOW",
+    "region": "INAZUMA",
+    "specialProp": "FIGHT_PROP_ROCK_ADD_HURT",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_Gorou",
     "birthday": [
       5,
@@ -565,6 +685,9 @@
     "name": "九条裟罗",
     "element": "Electric",
     "weaponType": "WEAPON_BOW",
+    "region": "INAZUMA",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "LADY",
     "icon": "UI_AvatarIcon_Sara",
     "birthday": [
       7,
@@ -579,6 +702,9 @@
     "name": "荒泷一斗",
     "element": "Rock",
     "weaponType": "WEAPON_CLAYMORE",
+    "region": "INAZUMA",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "bodyType": "MALE",
     "icon": "UI_AvatarIcon_Itto",
     "birthday": [
       6,
@@ -593,6 +719,9 @@
     "name": "八重神子",
     "element": "Electric",
     "weaponType": "WEAPON_CATALYST",
+    "region": "INAZUMA",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "bodyType": "LADY",
     "icon": "UI_AvatarIcon_Yae",
     "birthday": [
       6,
@@ -607,6 +736,9 @@
     "name": "鹿野院平藏",
     "element": "Wind",
     "weaponType": "WEAPON_CATALYST",
+    "region": "INAZUMA",
+    "specialProp": "FIGHT_PROP_WIND_ADD_HURT",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_Heizo",
     "birthday": [
       7,
@@ -621,6 +753,9 @@
     "name": "夜兰",
     "element": "Water",
     "weaponType": "WEAPON_BOW",
+    "region": "LIYUE",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "bodyType": "LADY",
     "icon": "UI_AvatarIcon_Yelan",
     "birthday": [
       4,
@@ -635,6 +770,9 @@
     "name": "绮良良",
     "element": "Grass",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "INAZUMA",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Momoka",
     "birthday": [
       1,
@@ -649,6 +787,9 @@
     "name": "埃洛伊",
     "element": "Ice",
     "weaponType": "WEAPON_BOW",
+    "region": "RANGER",
+    "specialProp": "FIGHT_PROP_ICE_ADD_HURT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Aloy",
     "birthday": [
       4,
@@ -663,6 +804,9 @@
     "name": "申鹤",
     "element": "Ice",
     "weaponType": "WEAPON_POLE",
+    "region": "LIYUE",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "LADY",
     "icon": "UI_AvatarIcon_Shenhe",
     "birthday": [
       3,
@@ -677,6 +821,9 @@
     "name": "云堇",
     "element": "Rock",
     "weaponType": "WEAPON_POLE",
+    "region": "LIYUE",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Yunjin",
     "birthday": [
       5,
@@ -691,6 +838,9 @@
     "name": "久岐忍",
     "element": "Electric",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "INAZUMA",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Shinobu",
     "birthday": [
       7,
@@ -705,6 +855,9 @@
     "name": "神里绫人",
     "element": "Water",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "INAZUMA",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "bodyType": "MALE",
     "icon": "UI_AvatarIcon_Ayato",
     "birthday": [
       3,
@@ -719,6 +872,9 @@
     "name": "柯莱",
     "element": "Grass",
     "weaponType": "WEAPON_BOW",
+    "region": "SUMERU",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Collei",
     "birthday": [
       5,
@@ -733,6 +889,9 @@
     "name": "多莉",
     "element": "Electric",
     "weaponType": "WEAPON_CLAYMORE",
+    "region": "SUMERU",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "bodyType": "LOLI",
     "icon": "UI_AvatarIcon_Dori",
     "birthday": [
       12,
@@ -747,6 +906,9 @@
     "name": "提纳里",
     "element": "Grass",
     "weaponType": "WEAPON_BOW",
+    "region": "SUMERU",
+    "specialProp": "FIGHT_PROP_GRASS_ADD_HURT",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_Tighnari",
     "birthday": [
       12,
@@ -761,6 +923,9 @@
     "name": "妮露",
     "element": "Water",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "SUMERU",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Nilou",
     "birthday": [
       12,
@@ -775,6 +940,9 @@
     "name": "赛诺",
     "element": "Electric",
     "weaponType": "WEAPON_POLE",
+    "region": "SUMERU",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_Cyno",
     "birthday": [
       6,
@@ -789,6 +957,9 @@
     "name": "坎蒂丝",
     "element": "Water",
     "weaponType": "WEAPON_POLE",
+    "region": "SUMERU",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "bodyType": "LADY",
     "icon": "UI_AvatarIcon_Candace",
     "birthday": [
       5,
@@ -803,6 +974,9 @@
     "name": "纳西妲",
     "element": "Grass",
     "weaponType": "WEAPON_CATALYST",
+    "region": "SUMERU",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
+    "bodyType": "LOLI",
     "icon": "UI_AvatarIcon_Nahida",
     "birthday": [
       10,
@@ -817,6 +991,9 @@
     "name": "莱依拉",
     "element": "Ice",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "SUMERU",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Layla",
     "birthday": [
       12,
@@ -831,6 +1008,9 @@
     "name": "流浪者",
     "element": "Wind",
     "weaponType": "WEAPON_CATALYST",
+    "region": "SUMERU",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_Wanderer",
     "birthday": [
       1,
@@ -845,6 +1025,9 @@
     "name": "珐露珊",
     "element": "Wind",
     "weaponType": "WEAPON_BOW",
+    "region": "SUMERU",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Faruzan",
     "birthday": [
       8,
@@ -859,6 +1042,9 @@
     "name": "瑶瑶",
     "element": "Grass",
     "weaponType": "WEAPON_POLE",
+    "region": "LIYUE",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "bodyType": "LOLI",
     "icon": "UI_AvatarIcon_Yaoyao",
     "birthday": [
       3,
@@ -873,6 +1059,9 @@
     "name": "艾尔海森",
     "element": "Grass",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "SUMERU",
+    "specialProp": "FIGHT_PROP_GRASS_ADD_HURT",
+    "bodyType": "MALE",
     "icon": "UI_AvatarIcon_Alhatham",
     "birthday": [
       2,
@@ -887,6 +1076,9 @@
     "name": "迪希雅",
     "element": "Fire",
     "weaponType": "WEAPON_CLAYMORE",
+    "region": "SUMERU",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "bodyType": "LADY",
     "icon": "UI_AvatarIcon_Dehya",
     "birthday": [
       4,
@@ -901,6 +1093,9 @@
     "name": "米卡",
     "element": "Ice",
     "weaponType": "WEAPON_POLE",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_Mika",
     "birthday": [
       8,
@@ -915,6 +1110,9 @@
     "name": "卡维",
     "element": "Grass",
     "weaponType": "WEAPON_CLAYMORE",
+    "region": "SUMERU",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
+    "bodyType": "MALE",
     "icon": "UI_AvatarIcon_Kaveh",
     "birthday": [
       7,
@@ -929,6 +1127,9 @@
     "name": "白术",
     "element": "Grass",
     "weaponType": "WEAPON_CATALYST",
+    "region": "LIYUE",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "bodyType": "MALE",
     "icon": "UI_AvatarIcon_Baizhuer",
     "birthday": [
       4,
@@ -943,6 +1144,9 @@
     "name": "琳妮特",
     "element": "Wind",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "FONTAINE",
+    "specialProp": "FIGHT_PROP_WIND_ADD_HURT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Linette",
     "birthday": [
       2,
@@ -957,6 +1161,9 @@
     "name": "林尼",
     "element": "Fire",
     "weaponType": "WEAPON_BOW",
+    "region": "FONTAINE",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_Liney",
     "birthday": [
       2,
@@ -971,6 +1178,9 @@
     "name": "菲米尼",
     "element": "Ice",
     "weaponType": "WEAPON_CLAYMORE",
+    "region": "FONTAINE",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_Freminet",
     "birthday": [
       9,
@@ -985,6 +1195,9 @@
     "name": "莱欧斯利",
     "element": "Ice",
     "weaponType": "WEAPON_CATALYST",
+    "region": "FONTAINE",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "bodyType": "MALE",
     "icon": "UI_AvatarIcon_Wriothesley",
     "birthday": [
       11,
@@ -999,6 +1212,9 @@
     "name": "那维莱特",
     "element": "Water",
     "weaponType": "WEAPON_CATALYST",
+    "region": "FONTAINE",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "bodyType": "MALE",
     "icon": "UI_AvatarIcon_Neuvillette",
     "birthday": [
       12,
@@ -1013,6 +1229,9 @@
     "name": "夏洛蒂",
     "element": "Ice",
     "weaponType": "WEAPON_CATALYST",
+    "region": "FONTAINE",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Charlotte",
     "birthday": [
       4,
@@ -1027,6 +1246,9 @@
     "name": "芙宁娜",
     "element": "Water",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "FONTAINE",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Furina",
     "birthday": [
       10,
@@ -1041,6 +1263,9 @@
     "name": "夏沃蕾",
     "element": "Fire",
     "weaponType": "WEAPON_POLE",
+    "region": "FONTAINE",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Chevreuse",
     "birthday": [
       1,
@@ -1055,6 +1280,9 @@
     "name": "娜维娅",
     "element": "Rock",
     "weaponType": "WEAPON_CLAYMORE",
+    "region": "FONTAINE",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "bodyType": "LADY",
     "icon": "UI_AvatarIcon_Navia",
     "birthday": [
       8,
@@ -1069,14 +1297,16 @@
     "name": "嘉明",
     "element": "Fire",
     "weaponType": "WEAPON_CLAYMORE",
+    "region": "LIYUE",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_Gaming",
     "birthday": [
-      1,
-      1
+      12,
+      22
     ],
-    "release": 1705269600,
-    "route": "Gaming",
-    "beta": true
+    "release": 1706565600,
+    "route": "Gaming"
   },
   "10000093": {
     "id": 10000093,
@@ -1084,14 +1314,220 @@
     "name": "闲云",
     "element": "Wind",
     "weaponType": "WEAPON_CATALYST",
+    "region": "LIYUE",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "LADY",
     "icon": "UI_AvatarIcon_Liuyun",
     "birthday": [
-      1,
-      1
+      4,
+      11
     ],
-    "release": 1705334400,
-    "route": "Xianyun",
-    "beta": true
+    "release": 1706565600,
+    "route": "Xianyun"
+  },
+  "10000094": {
+    "id": 10000094,
+    "rank": 5,
+    "name": "千织",
+    "element": "Rock",
+    "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "INAZUMA",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "bodyType": "GIRL",
+    "icon": "UI_AvatarIcon_Chiori",
+    "birthday": [
+      8,
+      17
+    ],
+    "release": 1710194400,
+    "route": "Chiori"
+  },
+  "10000095": {
+    "id": 10000095,
+    "rank": 5,
+    "name": "希格雯",
+    "element": "Water",
+    "weaponType": "WEAPON_BOW",
+    "region": "FONTAINE",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "bodyType": "LOLI",
+    "icon": "UI_AvatarIcon_Sigewinne",
+    "birthday": [
+      3,
+      30
+    ],
+    "release": 1719414000,
+    "route": "Sigewinne"
+  },
+  "10000096": {
+    "id": 10000096,
+    "rank": 5,
+    "name": "阿蕾奇诺",
+    "element": "Fire",
+    "weaponType": "WEAPON_POLE",
+    "region": "FATUI",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "bodyType": "LADY",
+    "icon": "UI_AvatarIcon_Arlecchino",
+    "birthday": [
+      8,
+      22
+    ],
+    "release": 1713819600,
+    "route": "Arlecchino"
+  },
+  "10000097": {
+    "id": 10000097,
+    "rank": 4,
+    "name": "赛索斯",
+    "element": "Electric",
+    "weaponType": "WEAPON_BOW",
+    "region": "SUMERU",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
+    "bodyType": "BOY",
+    "icon": "UI_AvatarIcon_Sethos",
+    "birthday": [
+      5,
+      31
+    ],
+    "release": 1717448400,
+    "route": "Sethos"
+  },
+  "10000098": {
+    "id": 10000098,
+    "rank": 5,
+    "name": "克洛琳德",
+    "element": "Electric",
+    "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "FONTAINE",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "bodyType": "LADY",
+    "icon": "UI_AvatarIcon_Clorinde",
+    "birthday": [
+      9,
+      20
+    ],
+    "release": 1717448400,
+    "route": "Clorinde"
+  },
+  "10000099": {
+    "id": 10000099,
+    "rank": 5,
+    "name": "艾梅莉埃",
+    "element": "Grass",
+    "weaponType": "WEAPON_POLE",
+    "region": "FONTAINE",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "bodyType": "GIRL",
+    "icon": "UI_AvatarIcon_Emilie",
+    "birthday": [
+      9,
+      22
+    ],
+    "release": 1722956400,
+    "route": "Emilie"
+  },
+  "10000100": {
+    "id": 10000100,
+    "rank": 4,
+    "name": "卡齐娜",
+    "element": "Rock",
+    "weaponType": "WEAPON_POLE",
+    "region": "NATLAN",
+    "specialProp": "FIGHT_PROP_ROCK_ADD_HURT",
+    "bodyType": "LOLI",
+    "icon": "UI_AvatarIcon_Kachina",
+    "birthday": [
+      4,
+      22
+    ],
+    "release": 1724706000,
+    "route": "Kachina"
+  },
+  "10000101": {
+    "id": 10000101,
+    "rank": 5,
+    "name": "基尼奇",
+    "element": "Grass",
+    "weaponType": "WEAPON_CLAYMORE",
+    "region": "NATLAN",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "bodyType": "BOY",
+    "icon": "UI_AvatarIcon_Kinich",
+    "birthday": [
+      11,
+      11
+    ],
+    "release": 1726585200,
+    "route": "Kinich"
+  },
+  "10000102": {
+    "id": 10000102,
+    "rank": 5,
+    "name": "玛拉妮",
+    "element": "Water",
+    "weaponType": "WEAPON_CATALYST",
+    "region": "NATLAN",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "bodyType": "GIRL",
+    "icon": "UI_AvatarIcon_Mualani",
+    "birthday": [
+      8,
+      3
+    ],
+    "release": 1724706000,
+    "route": "Mualani"
+  },
+  "10000103": {
+    "id": 10000103,
+    "rank": 5,
+    "name": "希诺宁",
+    "element": "Rock",
+    "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "NATLAN",
+    "specialProp": "FIGHT_PROP_DEFENSE_PERCENT",
+    "bodyType": "LADY",
+    "icon": "UI_AvatarIcon_Xilonen",
+    "birthday": [
+      3,
+      13
+    ],
+    "release": 1728334800,
+    "route": "Xilonen"
+  },
+  "10000104": {
+    "id": 10000104,
+    "rank": 5,
+    "name": "恰斯卡",
+    "element": "Wind",
+    "weaponType": "WEAPON_BOW",
+    "region": "NATLAN",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "bodyType": "LADY",
+    "icon": "UI_AvatarIcon_Chasca",
+    "birthday": [
+      12,
+      10
+    ],
+    "release": 1731967200,
+    "route": "Chasca"
+  },
+  "10000105": {
+    "id": 10000105,
+    "rank": 4,
+    "name": "欧洛伦",
+    "element": "Electric",
+    "weaponType": "WEAPON_BOW",
+    "region": "NATLAN",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "MALE",
+    "icon": "UI_AvatarIcon_Olorun",
+    "birthday": [
+      10,
+      14
+    ],
+    "release": 1731967200,
+    "route": "Ororon"
   },
   "10000005-hydro": {
     "id": "10000005-hydro",
@@ -1099,6 +1535,9 @@
     "name": "旅行者",
     "element": "Water",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "MAINACTOR",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_PlayerBoy",
     "birthday": [
       0,
@@ -1113,12 +1552,16 @@
     "name": "旅行者",
     "element": "Wind",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "MAINACTOR",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_PlayerBoy",
     "birthday": [
       0,
       0
     ],
-    "route": "Anemo Traveler Boy"
+    "route": "Anemo Traveler Boy",
+    "release": 1601244000
   },
   "10000005-geo": {
     "id": "10000005-geo",
@@ -1126,12 +1569,16 @@
     "name": "旅行者",
     "element": "Rock",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "MAINACTOR",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_PlayerBoy",
     "birthday": [
       0,
       0
     ],
-    "route": "Geo Traveler Boy"
+    "route": "Geo Traveler Boy",
+    "release": 1601244000
   },
   "10000005-electro": {
     "id": "10000005-electro",
@@ -1139,6 +1586,9 @@
     "name": "旅行者",
     "element": "Electric",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "MAINACTOR",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_PlayerBoy",
     "birthday": [
       0,
@@ -1153,6 +1603,9 @@
     "name": "旅行者",
     "element": "Grass",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "MAINACTOR",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_PlayerBoy",
     "birthday": [
       0,
@@ -1167,6 +1620,9 @@
     "name": "旅行者",
     "element": "Water",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "MAINACTOR",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_PlayerGirl",
     "birthday": [
       0,
@@ -1181,12 +1637,16 @@
     "name": "旅行者",
     "element": "Wind",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "MAINACTOR",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_PlayerGirl",
     "birthday": [
       0,
       0
     ],
-    "route": "Anemo Traveler Girl"
+    "route": "Anemo Traveler Girl",
+    "release": 1601244000
   },
   "10000007-geo": {
     "id": "10000007-geo",
@@ -1194,12 +1654,16 @@
     "name": "旅行者",
     "element": "Rock",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "MAINACTOR",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_PlayerGirl",
     "birthday": [
       0,
       0
     ],
-    "route": "Geo Traveler Girl"
+    "route": "Geo Traveler Girl",
+    "release": 1601244000
   },
   "10000007-electro": {
     "id": "10000007-electro",
@@ -1207,6 +1671,9 @@
     "name": "旅行者",
     "element": "Electric",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "MAINACTOR",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_PlayerGirl",
     "birthday": [
       0,
@@ -1221,6 +1688,9 @@
     "name": "旅行者",
     "element": "Grass",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "MAINACTOR",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_PlayerGirl",
     "birthday": [
       0,

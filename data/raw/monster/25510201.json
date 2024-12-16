@@ -1,0 +1,178 @@
+{
+  "id": 25510201,
+  "name": "嵴锋龙武士·破岩锐刃",
+  "type": "其他人类势力",
+  "icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Drillhead",
+  "route": "Tepetlisaurus Warrior: Rockbreaker Blade",
+  "title": "嵴锋龙武士·破岩锐刃",
+  "specialName": "授获龙冠的勇武",
+  "description": "来自峡谷之中，勇武受到认可，得以获授龙冠的强大武士。\\n能够借助岩崩之力进行击打的武者。在传说中，硫晶支脉原本是更完整和更漂亮的山脉。只是在黑潮来袭之时，「回声之子」的龙冠武士们为了引导黑潮的方向，将大地敲凿而开，才有了现在的样貌。",
+  "entries": {
+    "25510201": {
+      "id": 25510201,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010017,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010017,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 59.7696,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 50.24,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112104": {
+          "name": "卫从的木哨",
+          "rank": 1,
+          "icon": "UI_ItemIcon_112104",
+          "count": "1.2606"
+        },
+        "112105": {
+          "name": "战士的铁哨",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112105",
+          "count": "0.3362"
+        },
+        "112106": {
+          "name": "龙冠武士的金哨",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112106",
+          "count": "0.084"
+        }
+      }
+    },
+    "25510202": {
+      "id": 25510202,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010017,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010017,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 107.58528,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 50.24,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "25510203": {
+      "id": 25510203,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "5.0WQ-部落战士灵体死亡效果",
+          "description": "替换原有的死亡效果，改为灵体死亡效果",
+          "abilityName": [
+            "Monster_TribalWarrior_Ghost_DieEffect"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010017,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010017,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 77.70048,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 50.24,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": null
+}

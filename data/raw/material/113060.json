@@ -1,0 +1,71 @@
+{
+  "name": "残火灯烛",
+  "description": "完成与「仆人」的决斗后，在废墟中拾起的灯烛。\\n相传当烛火摇曳于罪人的手中，光亮即可化作阴影，掩盖脚步声与杀意。\\n不知用何种材料制成，燃烧后没有蜡泪，只有黑色的灰烬散入风中，飘向未知的远方。",
+  "type": "角色培养素材",
+  "recipe": {
+    "60901": {
+      "113021": {
+        "name": "异梦溶媒",
+        "icon": "UI_ItemIcon_113021",
+        "rank": 4,
+        "count": 1
+      },
+      "113061": {
+        "name": "丝织之羽",
+        "icon": "UI_ItemIcon_113061",
+        "rank": 5,
+        "count": 1
+      }
+    },
+    "60902": {
+      "113021": {
+        "name": "异梦溶媒",
+        "icon": "UI_ItemIcon_113021",
+        "rank": 4,
+        "count": 1
+      },
+      "113062": {
+        "name": "否定裁断",
+        "icon": "UI_ItemIcon_113062",
+        "rank": 5,
+        "count": 1
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "70级以上「仆人」挑战奖励",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000096,
+          "name": "阿蕾奇诺",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Arlecchino"
+        },
+        {
+          "id": 10000100,
+          "name": "卡齐娜",
+          "rank": 4,
+          "icon": "UI_AvatarIcon_Kachina"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 29091001,
+        "name": "「仆人」",
+        "icon": "UI_MonsterIcon_Nihil"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_113060",
+  "rank": 5,
+  "route": "Fading Candle"
+}

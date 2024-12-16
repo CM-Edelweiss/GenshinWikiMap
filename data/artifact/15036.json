@@ -1,0 +1,33 @@
+{
+  "id": "15036",
+  "name": "未竟的遐思",
+  "short_name": "未竟",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15036_4",
+  "part_list": {
+    "UI_RelicIcon_15036_4": {
+      "name": "暗结的明花",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15036_2": {
+      "name": "褪光的翠尾",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15036_5": {
+      "name": "举业的识刻",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15036_1": {
+      "name": "筹谋的共樽",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15036_3": {
+      "name": "失冕的宝冠",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

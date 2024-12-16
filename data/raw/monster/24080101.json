@@ -1,0 +1,318 @@
+{
+  "id": 24080101,
+  "name": "实验性场力发生装置",
+  "type": "自律机关",
+  "icon": "UI_MonsterIcon_MachinaIustitia_Gravitas",
+  "route": "Experimental Field Generator",
+  "title": "实验性场力发生装置",
+  "specialName": "布雷阁原型机器",
+  "description": "艾德温·伊斯丁豪斯生前设计的大型装置。依照原本的设计意图，拥有「抵消」重力的效果；依照原本的设计意图，这将是将枫丹建设成天空之都的第一步，从此以后再也没有人需要为曾经荡涤大地的浪潮而忧心，即使七国尽没深海，瑰丽的枫丹廷也将如天空岛那样在空中漂游。就连宇宙的秘密也将变得不那么遥不可及。\\n装置核心的始基矿拥有「分离」或是「沉淀」的特性，能够将物质，或是某些物质以外的事物分离；传说这样的性质也能被反转，但枫丹科学院只醉心于它所能产生的物理效用。",
+  "entries": {
+    "24080101": {
+      "id": 24080101,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "正义机器-荒",
+          "description": "正义机器-荒性词缀",
+          "abilityName": [
+            "Monster_MachinaIustitia_Pneuma"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "正义机器-天线",
+          "description": "正义机器-天线词缀",
+          "abilityName": [
+            "Monster_MachinaIustitia_Coil_01"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010030,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010030,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 213.2688,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 113.04,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.7,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": "Pneuma",
+      "reward": {
+        "102": {
+          "name": "冒险阅历",
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "200"
+        },
+        "105": {
+          "name": "好感经验",
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "104171": {
+          "name": "坚牢黄玉碎屑",
+          "rank": 2,
+          "icon": "UI_ItemIcon_104171"
+        },
+        "104172": {
+          "name": "坚牢黄玉断片",
+          "rank": 3,
+          "icon": "UI_ItemIcon_104172"
+        },
+        "104173": {
+          "name": "坚牢黄玉块",
+          "rank": 4,
+          "icon": "UI_ItemIcon_104173"
+        },
+        "104174": {
+          "name": "坚牢黄玉",
+          "rank": 5,
+          "icon": "UI_ItemIcon_104174"
+        },
+        "113052": {
+          "name": "「图比昂装置」",
+          "rank": 4,
+          "icon": "UI_ItemIcon_113052",
+          "count": "2.5556"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        },
+        "400088": {
+          "name": "角斗士的终幕礼",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "name": "角斗士的终幕礼",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "name": "流浪大地的乐团",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "name": "流浪大地的乐团",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        }
+      }
+    },
+    "24080102": {
+      "id": 24080102,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "正义机器-荒",
+          "description": "正义机器-荒性词缀",
+          "abilityName": [
+            "Monster_MachinaIustitia_Pneuma"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "正义机器-电池",
+          "description": "正义机器-电池词缀",
+          "abilityName": [
+            "Monster_MachinaIustitia_Coil_02"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010030,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010030,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 213.2688,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 113.04,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.7,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": "Pneuma",
+      "reward": {
+        "102": {
+          "name": "冒险阅历",
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "200"
+        },
+        "105": {
+          "name": "好感经验",
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "104171": {
+          "name": "坚牢黄玉碎屑",
+          "rank": 2,
+          "icon": "UI_ItemIcon_104171"
+        },
+        "104172": {
+          "name": "坚牢黄玉断片",
+          "rank": 3,
+          "icon": "UI_ItemIcon_104172"
+        },
+        "104173": {
+          "name": "坚牢黄玉块",
+          "rank": 4,
+          "icon": "UI_ItemIcon_104173"
+        },
+        "104174": {
+          "name": "坚牢黄玉",
+          "rank": 5,
+          "icon": "UI_ItemIcon_104174"
+        },
+        "113052": {
+          "name": "「图比昂装置」",
+          "rank": 4,
+          "icon": "UI_ItemIcon_113052",
+          "count": "2.5556"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        },
+        "400088": {
+          "name": "角斗士的终幕礼",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "name": "角斗士的终幕礼",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "name": "流浪大地的乐团",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "name": "流浪大地的乐团",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        }
+      }
+    }
+  },
+  "tips": {
+    "306701": {
+      "images": [
+        "UI_Tutorial_202"
+      ],
+      "description": "失控的大型枫丹动能工程科学研究院装置。在战斗中，会显露出荒性的能源特征以展开重力削减力场战斗。在力场中，角色的跳跃高度也能获得显著的提升。在这种状态下，核心被<color=#FFE14BFF>芒性攻击<\/color>湮灭后，重力削减力场将会关闭。"
+    }
+  }
+}

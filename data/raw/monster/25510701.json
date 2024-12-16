@@ -1,0 +1,57 @@
+{
+  "id": 25510701,
+  "name": "绒翼龙武士·膛星之锤",
+  "type": "其他人类势力",
+  "icon": "UI_MonsterIcon_Tribalwarrior_Powermaul_Flamingo",
+  "route": "Qucusaurus Warrior: Heartstar Hammer",
+  "title": "绒翼龙武士·膛星之锤",
+  "specialName": "授获龙冠的勇武",
+  "description": "来自山崖之上，勇武受到认可，得以获授龙冠的强大武士。\\n即便是在火之国纳塔，来自「花羽会」部族的成员对于火焰与燃烧的利用仍然别具一格。对于使用重锤的部族武士来说，火焰是冲撞与迸发，是激昂与热烈。对于他们来说，战斗往往在瞬息之间就将迎来结果，而他们总是获得胜利的一方。",
+  "entries": {
+    "25510701": {
+      "id": 25510701,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010011,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010011,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 54.336,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 50.24,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": null
+}

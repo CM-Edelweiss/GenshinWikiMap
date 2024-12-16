@@ -1,0 +1,23 @@
+{
+  "name": "初始之翼",
+  "description": "风之翼款式。饱含侦察骑士的热烈期待。",
+  "type": "风之翼",
+  "recipe": null,
+  "storyId": [
+    "140001"
+  ],
+  "mapMark": null,
+  "source": [
+    {
+      "name": "完成蒙德魔神任务「自由之都」后获得",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": null,
+    "droppedBy": null
+  },
+  "icon": "UI_FlycloakIcon_Glider",
+  "rank": 4,
+  "route": "Wings of First Flight"
+}

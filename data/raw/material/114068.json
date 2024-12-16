@@ -1,0 +1,68 @@
+{
+  "name": "谵妄圣主的神面",
+  "description": "赋予武器突破之力的材料。\\n禁城的圣主经常在梦中呓语中叙说非人的语言，并在镜中，面具唯一能露出的眼睛中看到逐渐竖立的瞳孔，而这也是他愈加厌恶龙众的原因。\\n传说在赤瞳的少年用火焚烧那被幽影淹没的城上之城时，曾看到王厅前，陷入疯狂的半人如揭下脸皮一般撕下无法脱去的神面，露出犹如巨龙一般的狰狞窍孔。\\n癫狂之人口中喷吐的金焰熔化了自己，失形的魂魄自高处沉入了漆黑的泥沼之中，而据说，这就是这位众叛亲离的谵妄者可悲的结局。",
+  "type": "武器突破素材",
+  "recipe": {
+    "12051": {
+      "114067": {
+        "name": "谵妄圣主的容光",
+        "icon": "UI_ItemIcon_114067",
+        "rank": 4,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "炼武秘境：究观",
+      "type": "domain",
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 11432,
+          "name": "厄水之祸",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_SacrificialNgombe"
+        },
+        {
+          "id": 13431,
+          "name": "虹的行迹",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Pole_Isikhulu"
+        },
+        {
+          "id": 13430,
+          "name": "镇山之钉",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Pole_Umpakati"
+        },
+        {
+          "id": 14431,
+          "name": "木棉之环",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_Isikhulu"
+        },
+        {
+          "id": 12513,
+          "name": "山王长牙",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Claymore_EmeraldSword"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_114068",
+  "rank": 5,
+  "route": "Delirious Divinity of the Sacred Lord"
+}

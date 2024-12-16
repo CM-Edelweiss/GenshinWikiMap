@@ -1,0 +1,244 @@
+{
+  "id": 13431,
+  "rank": 4,
+  "type": "长柄武器",
+  "name": "虹的行迹",
+  "description": "以玉石锻成的锋锐长枪，在日耀中能隐隐映出虹色的光芒。",
+  "specialProp": "FIGHT_PROP_DEFENSE_PERCENT",
+  "icon": "UI_EquipIcon_Pole_Isikhulu",
+  "storyId": [
+    "13431_1",
+    "13431_2"
+  ],
+  "affix": {
+    "113431": {
+      "name": "流水与泉的约定",
+      "upgrade": {
+        "0": "施放元素战技时，防御力提升<color=#99FFFFFF>16%<\/color>，持续15秒。",
+        "1": "施放元素战技时，防御力提升<color=#99FFFFFF>20%<\/color>，持续15秒。",
+        "2": "施放元素战技时，防御力提升<color=#99FFFFFF>24%<\/color>，持续15秒。",
+        "3": "施放元素战技时，防御力提升<color=#99FFFFFF>28%<\/color>，持续15秒。",
+        "4": "施放元素战技时，防御力提升<color=#99FFFFFF>32%<\/color>，持续15秒。"
+      }
+    }
+  },
+  "route": "Footprint of the Rainbow",
+  "upgrade": {
+    "awakenCost": [
+      1000,
+      2000,
+      4000,
+      8000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 42.401,
+        "type": "GROW_CURVE_ATTACK_201"
+      },
+      {
+        "propType": "FIGHT_PROP_DEFENSE_PERCENT",
+        "initValue": 0.1126,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112104": 2,
+          "112113": 3,
+          "114065": 3
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 25.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112104": 8,
+          "112113": 12,
+          "114066": 3
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 51.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112105": 6,
+          "112114": 6,
+          "114066": 6
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112105": 9,
+          "112114": 12,
+          "114067": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 103.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112106": 6,
+          "112115": 9,
+          "114067": 6
+        },
+        "coinCost": 35000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 129.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112106": 12,
+          "112115": 18,
+          "114068": 4
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112104": 1,
+    "112105": 2,
+    "112106": 3,
+    "112113": 2,
+    "112114": 3,
+    "112115": 4,
+    "114065": 2,
+    "114066": 3,
+    "114067": 4,
+    "114068": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112104": {
+      "name": "卫从的木哨",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112104"
+    },
+    "112105": {
+      "name": "战士的铁哨",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112105"
+    },
+    "112106": {
+      "name": "龙冠武士的金哨",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112106"
+    },
+    "112113": {
+      "name": "秘源轴",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112113"
+    },
+    "112114": {
+      "name": "秘源机鞘",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112114"
+    },
+    "112115": {
+      "name": "秘源真芯",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112115"
+    },
+    "114065": {
+      "name": "谵妄圣主的朽败",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114065"
+    },
+    "114066": {
+      "name": "谵妄圣主的余哀",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114066"
+    },
+    "114067": {
+      "name": "谵妄圣主的容光",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114067"
+    },
+    "114068": {
+      "name": "谵妄圣主的神面",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114068"
+    }
+  }
+}

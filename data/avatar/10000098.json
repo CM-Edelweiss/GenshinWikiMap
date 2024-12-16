@@ -1,0 +1,131 @@
+{
+  "id": 10000098,
+  "name": "克洛琳德",
+  "element": "雷",
+  "weapon": "单手剑",
+  "rank": 5,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Clorinde",
+    "side": "UI_AvatarIcon_Side_Clorinde",
+    "card": "UI_AvatarIcon_Clorinde_Card",
+    "splash": "UI_Gacha_AvatarImg_Clorinde",
+    "slice": "UI_Gacha_AvatarIcon_Clorinde"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1008.61255,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        864.79407,
+        1479.25305,
+        2298.53149,
+        2912.99048,
+        3527.44946,
+        4141.9082
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 26.2542,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        22.50896,
+        38.50217,
+        59.82644,
+        75.81965,
+        91.81286,
+        107.80606
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 61.0266,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        52.326,
+        89.505,
+        139.077,
+        176.256,
+        213.435,
+        250.614
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL",
+      "promote": [
+        0,
+        0.048,
+        0.096,
+        0.096,
+        0.144,
+        0.192
+      ]
+    }
+  ],
+  "talent": {
+    "10981": {
+      "name": "普通攻击·逐影之誓",
+      "icon": "Skill_A_01"
+    },
+    "10982": {
+      "name": "狩夜之巡",
+      "icon": "Skill_S_Clorinde_01"
+    },
+    "10985": {
+      "name": "残光将终",
+      "icon": "Skill_E_Clorinde_01"
+    },
+    "982101": {
+      "name": "破夜的明焰",
+      "icon": "UI_Talent_S_Clorinde_05"
+    },
+    "982201": {
+      "name": "契令的酬偿",
+      "icon": "UI_Talent_S_Clorinde_06"
+    },
+    "982301": {
+      "name": "夜巡之获",
+      "icon": "UI_Talent_S_Liney_07"
+    }
+  },
+  "constellation": {
+    "981": {
+      "name": "「自此，行过烛影之帷」",
+      "icon": "UI_Talent_S_Clorinde_01"
+    },
+    "982": {
+      "name": "「自此，直面长夜之危」",
+      "icon": "UI_Talent_S_Clorinde_02"
+    },
+    "983": {
+      "name": "「我将铭记白昼的誓言」",
+      "icon": "UI_Talent_U_Clorinde_02"
+    },
+    "984": {
+      "name": "「铭记泪，生命与仁爱」",
+      "icon": "UI_Talent_S_Clorinde_03"
+    },
+    "985": {
+      "name": "「也铭记黎明终将到来」",
+      "icon": "UI_Talent_U_Clorinde_01"
+    },
+    "986": {
+      "name": "「为此，勿将希望弃扬」",
+      "icon": "UI_Talent_S_Clorinde_04"
+    }
+  },
+  "talent_fix": {
+    "10982": "狩夜之巡",
+    "10985": "残光将终"
+  },
+  "damage": [],
+  "buff": []
+}

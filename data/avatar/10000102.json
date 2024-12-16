@@ -1,0 +1,135 @@
+{
+  "id": 10000102,
+  "name": "玛拉妮",
+  "element": "水",
+  "weapon": "法器",
+  "rank": 5,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Mualani",
+    "side": "UI_AvatarIcon_Side_Mualani",
+    "card": "UI_AvatarIcon_Mualani_Card",
+    "splash": "UI_Gacha_AvatarImg_Mualani",
+    "slice": "UI_Gacha_AvatarIcon_Mualani"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1182.11682,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        1013.55829,
+        1733.71814,
+        2693.93115,
+        3414.09106,
+        4134.25098,
+        4854.41064
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 14.1512,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        12.13249,
+        20.75294,
+        32.24688,
+        40.86733,
+        49.48778,
+        58.10823
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 44.39386,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        38.0646,
+        65.1105,
+        101.1717,
+        128.21761,
+        155.2635,
+        182.3094
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL",
+      "promote": [
+        0,
+        0.048,
+        0.096,
+        0.096,
+        0.144,
+        0.192
+      ]
+    }
+  ],
+  "talent": {
+    "30000": {
+      "name": "普通攻击·降温处理",
+      "icon": "Skill_A_Catalyst_MD"
+    },
+    "30002": {
+      "name": "踏鲨破浪",
+      "icon": "Skill_S_Mualani_01"
+    },
+    "30007": {
+      "name": "爆瀑飞弹",
+      "icon": "Skill_E_Mualani_01"
+    },
+    "1022101": {
+      "name": "耐热型淡水豚豚",
+      "icon": "UI_Talent_S_Mualani_05"
+    },
+    "1022201": {
+      "name": "纳塔最好的向导",
+      "icon": "UI_Talent_S_Mualani_06"
+    },
+    "1022301": {
+      "name": "夜域赐礼·波涛顶底",
+      "icon": "UI_Talent_S_Mualani_07"
+    },
+    "1022501": {
+      "name": "要诀是保持笑容！",
+      "icon": "UI_Talent_S_Kachina_08"
+    }
+  },
+  "constellation": {
+    "1021": {
+      "name": "悠闲的「梅兹特利」…",
+      "icon": "UI_Talent_S_Mualani_01"
+    },
+    "1022": {
+      "name": "全力以赴玛拉妮！",
+      "icon": "UI_Talent_S_Mualani_02"
+    },
+    "1023": {
+      "name": "在欢乐海上冲浪",
+      "icon": "UI_Talent_U_Mualani_01"
+    },
+    "1024": {
+      "name": "鲨鲨主食是豚豚。",
+      "icon": "UI_Talent_S_Mualani_03"
+    },
+    "1025": {
+      "name": "同款冲浪板有售！",
+      "icon": "UI_Talent_U_Mualani_02"
+    },
+    "1026": {
+      "name": "「流泉之众」的精神",
+      "icon": "UI_Talent_S_Mualani_04"
+    }
+  },
+  "talent_fix": {
+    "30002": "踏鲨破浪",
+    "30007": "爆瀑飞弹"
+  },
+  "damage": [],
+  "buff": []
+}

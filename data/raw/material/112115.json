@@ -1,0 +1,63 @@
+{
+  "name": "秘源真芯",
+  "description": "来自不再活动的秘源机兵。\\n看上去是完整的驱动秘源机械体运作的核心，似乎是作为通用的组件而被制造出来的奇特装置。传说古老文明的伟大住民会用金纹创生的智慧勾勒奇异机械体运作的蓝图，或许这核心也是其中之一吧。",
+  "type": "角色与武器培养素材",
+  "recipe": {
+    "11070": {
+      "112114": {
+        "name": "秘源机鞘",
+        "icon": "UI_ItemIcon_112114",
+        "rank": 3,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "60级以上秘源机兵·寻捕械掉落",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 12430,
+          "name": "硕果钩",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Claymore_Umpakati"
+        },
+        {
+          "id": 13431,
+          "name": "虹的行迹",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Pole_Isikhulu"
+        },
+        {
+          "id": 14427,
+          "name": "苍纹角杯",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_ConchSprayer"
+        },
+        {
+          "id": 11516,
+          "name": "岩峰巡歌",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Sword_XochitlsTube"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 24090101,
+        "name": "秘源机兵·寻捕械",
+        "icon": "UI_MonsterIcon_ToothTrap"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_112115",
+  "rank": 4,
+  "route": "Heart of the Secret Source"
+}

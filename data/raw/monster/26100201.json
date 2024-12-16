@@ -1,0 +1,64 @@
+{
+  "id": 26100201,
+  "name": "圣骸牙兽",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Panther_Sacred_Grass",
+  "route": "Consecrated Fanged Beast",
+  "title": "狂蔓·圣骸牙兽",
+  "specialName": "啃噬伟大生命的草之兽",
+  "description": "因为啃噬伟大的生命体，而扭曲异变的掠食者。\\n自然的规律是弱肉强食，宠物和圣骸兽则是例外。人类的饵食与不朽的遗骸，本质都是有意或无意的圈套。贪图至强者的馈赠，代价比被关进笼子要惨痛得多。",
+  "entries": {
+    "26100201": {
+      "id": 26100201,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010023,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010023,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 95.088,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": {
+    "303701": {
+      "images": [
+        "UI_Tutorial_176"
+      ],
+      "description": "因为啃噬伟大的生命体，而扭曲异变的掠食者。在战斗中，会进入强大的噬骸状态。它的一些攻击将排出噬骸能量块；<color=#FFE14BFF>利用对应的元素攻击破坏能量块<\/color>，能够汲取其中的强大力量，并在攻击圣骸牙兽时释放这些能量，造成可观的伤害，并使其暂时瘫痪。"
+    }
+  }
+}

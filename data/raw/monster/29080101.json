@@ -1,0 +1,225 @@
+{
+  "id": 29080101,
+  "name": "阿佩普的绿洲守望者",
+  "type": "值得铭记的强敌",
+  "icon": "UI_MonsterIcon_Apep",
+  "route": "Guardian of Apep's Oasis",
+  "title": "终末绿洲的守望者",
+  "specialName": "历经千年之「末日」的进化生命",
+  "description": "阿佩普曾与诸多子嗣一同在芳草之海、百尺巨木与千里之藤蔓中，如游鱼穿行于水。直到最终草木枯萎化为尘埃，如同砂砾般渺小的诸多生灵在它原本的土地上建立起脆弱的城国。\\n阿佩普曾与诸多子嗣一同令沙海如沸水般翻腾，将城楼如落叶般吹散。直到新的沙海之王与失去故土的王相互和解，从此日光之下的沙丘都属于人与神，而龙的绿洲留在龙的心中。\\n阿佩普曾与诸多子嗣一同分享进化的知识，因为流水不腐，而朽木必定倾倒。直到最终它践行了与沙之王的约定得到了终极的智慧，从此它只能看见终末的风景，漫无边际的末日。\\n阿佩普曾独自沉溺于末日的风景当中。所有的人、神、龙、走兽、飞鸟与游鱼，所有记忆、智慧、话语与仇恨将都磨为无色尘粉，最后一轮明月之光则化作白焰之雨落在荒土之上。\\n……\\n阿佩普曾视沙海之底为自己的墓场，而非失乡之王的行宫。「智慧」的毒很快就会让它从无数个月亮的仇恨与愤怒中解脱。它已经对终末缺乏颜色的景象感到厌倦了。直到最终年轻的神明与金色的旅人让它再度回想起，即便自己曾经主宰的青绿土地已经化作饰金的荒原，即便自己与子嗣为了在其中生存而变得扭曲丑陋，但它的心中始终珍藏着那一角绿洲的景象。",
+  "entries": {
+    "29080102": {
+      "id": 29080102,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "草龙剧情-本体难度调节",
+          "description": "草龙剧情-本体难度调节",
+          "abilityName": [
+            "Monster_Apep_StoryAdjust"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 108.672,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 62.8,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.7,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "29080104": {
+      "id": 29080104,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 217.34399,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 125.6,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.7,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "102": {
+          "name": "冒险阅历",
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "300"
+        },
+        "105": {
+          "name": "好感经验",
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "101111": {
+          "name": "央陆单手剑原胚",
+          "rank": 4,
+          "icon": "UI_ItemIcon_101111"
+        },
+        "101112": {
+          "name": "央陆弓原胚",
+          "rank": 4,
+          "icon": "UI_ItemIcon_101112"
+        },
+        "101113": {
+          "name": "央陆双手剑原胚",
+          "rank": 4,
+          "icon": "UI_ItemIcon_101113"
+        },
+        "101114": {
+          "name": "央陆法器原胚",
+          "rank": 4,
+          "icon": "UI_ItemIcon_101114"
+        },
+        "101115": {
+          "name": "央陆长柄武器原胚",
+          "rank": 4,
+          "icon": "UI_ItemIcon_101115"
+        },
+        "104131": {
+          "name": "生长碧翡碎屑",
+          "rank": 2,
+          "icon": "UI_ItemIcon_104131"
+        },
+        "104132": {
+          "name": "生长碧翡断片",
+          "rank": 3,
+          "icon": "UI_ItemIcon_104132"
+        },
+        "104133": {
+          "name": "生长碧翡块",
+          "rank": 4,
+          "icon": "UI_ItemIcon_104133"
+        },
+        "104134": {
+          "name": "生长碧翡",
+          "rank": 5,
+          "icon": "UI_ItemIcon_104134"
+        },
+        "113021": {
+          "name": "异梦溶媒",
+          "rank": 4,
+          "icon": "UI_ItemIcon_113021",
+          "count": "0.33"
+        },
+        "113046": {
+          "name": "生长天地之蕨草",
+          "rank": 5,
+          "icon": "UI_ItemIcon_113046"
+        },
+        "113047": {
+          "name": "原初绿洲之初绽",
+          "rank": 5,
+          "icon": "UI_ItemIcon_113047"
+        },
+        "113048": {
+          "name": "亘古树海之一瞬",
+          "rank": 5,
+          "icon": "UI_ItemIcon_113048"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400088": {
+          "name": "角斗士的终幕礼",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "name": "角斗士的终幕礼",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "name": "流浪大地的乐团",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "name": "流浪大地的乐团",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        }
+      }
+    }
+  },
+  "tips": null
+}

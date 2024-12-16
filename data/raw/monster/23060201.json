@@ -1,0 +1,127 @@
+{
+  "id": 23060201,
+  "name": "愚人众·风役人",
+  "type": "愚人众",
+  "icon": "UI_MonsterIcon_Fatuus_Escadron_Wind",
+  "route": "Wind Operative",
+  "title": "役人·幽风铃兰",
+  "specialName": "愚人众·安妮雅",
+  "description": "愚人众当中精锐的特务。\\n役人在愚人众中并没有常规的军种编制。依据命令与任务的内容，她们既可以与士兵同进退，也能独自或者与埋在各地的「钉子」一同，进行谍报、反侦察、护卫、抹杀等工作。为了那些更为特殊的任务，役人往往也需要掌握多种多样的技能乃至才艺。",
+  "entries": {
+    "23060201": {
+      "id": 23060201,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010015,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010015,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010015,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 95.088,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.5,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112092": {
+          "name": "老旧的役人怀表",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112092",
+          "count": "5.2526"
+        },
+        "112093": {
+          "name": "役人的制式怀表",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112093",
+          "count": "1.4006"
+        },
+        "112094": {
+          "name": "役人的时时刻刻",
+          "rank": 4,
+          "icon": "UI_ItemIcon_112094",
+          "count": "0.3502"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    }
+  },
+  "tips": {
+    "306501": {
+      "images": [
+        "UI_Tutorial_199"
+      ],
+      "description": "愚人众当中精锐的特务，能够驱使「风元素」进行战斗。在战斗中，会进行「猎杀」，向命中的角色施加生命之契，在生命之契存在时使其持续受到伤害，并提高猎杀对其造成的伤害。"
+    }
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "id": 13426,
+  "rank": 4,
+  "type": "长柄武器",
+  "name": "沙中伟贤的对答",
+  "description": "象征炼金术荣耀的双蛇杖，因其地位特殊使用了特殊合金。刚度很高，重量很重，拿来打人也一定很疼。",
+  "specialProp": "FIGHT_PROP_HP_PERCENT",
+  "icon": "UI_EquipIcon_Pole_Caduceus",
+  "storyId": [
+    "13426"
+  ],
+  "affix": {
+    "113426": {
+      "name": "均衡的原理",
+      "upgrade": {
+        "0": "进行治疗时，恢复<color=#99FFFFFF>8<\/color>点能量，该效果每10秒至多触发一次，角色处于队伍后台时也能触发。",
+        "1": "进行治疗时，恢复<color=#99FFFFFF>10<\/color>点能量，该效果每10秒至多触发一次，角色处于队伍后台时也能触发。",
+        "2": "进行治疗时，恢复<color=#99FFFFFF>12<\/color>点能量，该效果每10秒至多触发一次，角色处于队伍后台时也能触发。",
+        "3": "进行治疗时，恢复<color=#99FFFFFF>14<\/color>点能量，该效果每10秒至多触发一次，角色处于队伍后台时也能触发。",
+        "4": "进行治疗时，恢复<color=#99FFFFFF>16<\/color>点能量，该效果每10秒至多触发一次，角色处于队伍后台时也能触发。"
+      }
+    }
+  },
+  "route": "Dialogues of the Desert Sages",
+  "upgrade": {
+    "awakenCost": [
+      1000,
+      2000,
+      4000,
+      8000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 42.401,
+        "type": "GROW_CURVE_ATTACK_201"
+      },
+      {
+        "propType": "FIGHT_PROP_HP_PERCENT",
+        "initValue": 0.09,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112053": 2,
+          "112095": 3,
+          "114037": 3
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 25.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112053": 8,
+          "112095": 12,
+          "114038": 3
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 51.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112054": 6,
+          "112096": 6,
+          "114038": 6
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112054": 9,
+          "112096": 12,
+          "114039": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 103.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112055": 6,
+          "112097": 9,
+          "114039": 6
+        },
+        "coinCost": 35000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 129.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112055": 12,
+          "112097": 18,
+          "114040": 4
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112053": 1,
+    "112054": 2,
+    "112055": 3,
+    "112095": 2,
+    "112096": 3,
+    "112097": 4,
+    "114037": 2,
+    "114038": 3,
+    "114039": 4,
+    "114040": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112053": {
+      "name": "浮游干核",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112053"
+    },
+    "112054": {
+      "name": "浮游幽核",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112054"
+    },
+    "112055": {
+      "name": "浮游晶化核",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112055"
+    },
+    "112095": {
+      "name": "羽状鳍翅",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112095"
+    },
+    "112096": {
+      "name": "月色鳍翅",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112096"
+    },
+    "112097": {
+      "name": "渊光鳍翅",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112097"
+    },
+    "114037": {
+      "name": "谧林涓露的铜符",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114037"
+    },
+    "114038": {
+      "name": "谧林涓露的铁符",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114038"
+    },
+    "114039": {
+      "name": "谧林涓露的银符",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114039"
+    },
+    "114040": {
+      "name": "谧林涓露的金符",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114040"
+    }
+  }
+}

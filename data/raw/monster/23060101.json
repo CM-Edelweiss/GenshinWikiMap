@@ -1,0 +1,127 @@
+{
+  "id": 23060101,
+  "name": "愚人众·霜役人",
+  "type": "愚人众",
+  "icon": "UI_MonsterIcon_Fatuus_Escadron_Ice",
+  "route": "Frost Operative",
+  "title": "役人·霜剑律从",
+  "specialName": "愚人众·安妮雅",
+  "description": "愚人众当中精锐的特务。\\n自幼就被选中的人，经长久年月的教化与训练，在无数次的汰换后才能成为所谓的「役人」。是愚人众的阵列中最优秀的士兵，有着出色的身手与不渝的忠诚心。",
+  "entries": {
+    "23060101": {
+      "id": 23060101,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010016,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010016,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010016,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 108.672,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 60.288,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.5,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112092": {
+          "name": "老旧的役人怀表",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112092",
+          "count": "5.2526"
+        },
+        "112093": {
+          "name": "役人的制式怀表",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112093",
+          "count": "1.4006"
+        },
+        "112094": {
+          "name": "役人的时时刻刻",
+          "rank": 4,
+          "icon": "UI_ItemIcon_112094",
+          "count": "0.3502"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    }
+  },
+  "tips": {
+    "306401": {
+      "images": [
+        "UI_Tutorial_200"
+      ],
+      "description": "愚人众当中精锐的特务，能够驱使「冰元素」进行战斗。在战斗中，会进行「猎杀」，向命中的角色施加生命之契，在生命之契存在时使其持续受到伤害，并提高猎杀对其造成的伤害。"
+    }
+  }
+}

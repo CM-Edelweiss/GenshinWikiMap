@@ -1,0 +1,33 @@
+{
+  "id": "15038",
+  "name": "黑曜秘典",
+  "short_name": "黑曜",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15038_4",
+  "part_list": {
+    "UI_RelicIcon_15038_4": {
+      "name": "异种的期许",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15038_2": {
+      "name": "灵髓的根脉",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15038_5": {
+      "name": "夜域的迷思",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15038_1": {
+      "name": "纷争的前宴",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15038_3": {
+      "name": "诸圣的礼冠",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

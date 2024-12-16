@@ -1,0 +1,38 @@
+{
+  "name": "微光角菌",
+  "description": "在黑暗中微微发出光芒的菌类，因为形似暝视龙的角冠而被称为角菌。",
+  "type": "纳塔区域特产",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "推荐：镜璧山采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：「烟谜主」周边采集",
+      "type": "single"
+    },
+    {
+      "name": "前往采集",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000105,
+          "name": "欧洛伦",
+          "rank": 4,
+          "icon": "UI_AvatarIcon_Olorun"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_101252",
+  "rank": 1,
+  "route": "Glowing Hornshroom"
+}

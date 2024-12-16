@@ -1,0 +1,2794 @@
+{
+  "id": 10000095,
+  "rank": 5,
+  "name": "希格雯",
+  "element": "Water",
+  "weaponType": "WEAPON_BOW",
+  "region": "FONTAINE",
+  "specialProp": "FIGHT_PROP_HP_PERCENT",
+  "bodyType": "LOLI",
+  "icon": "UI_AvatarIcon_Sigewinne",
+  "birthday": [
+    3,
+    30
+  ],
+  "release": 1719414000,
+  "route": "Sigewinne",
+  "fetter": {
+    "title": "龙女妙变",
+    "detail": "梅洛彼得堡的美露莘护士长，平等地关爱着海底监牢中的每一名罪人。",
+    "constellation": "海精座",
+    "native": "梅洛彼得堡",
+    "cv": {
+      "EN": "莎拉·威廉斯",
+      "CHS": "赵爽",
+      "JP": "木野日菜",
+      "KR": "金採璘"
+    }
+  },
+  "upgrade": {
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1039.11877,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 14.9891,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 38.8895,
+        "type": "GROW_CURVE_HP_S5"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "101233": 3,
+          "104121": 1,
+          "112080": 3
+        },
+        "unlockMaxLevel": 40,
+        "addProps": {
+          "FIGHT_PROP_BASE_HP": 890.95044,
+          "FIGHT_PROP_BASE_DEFENSE": 33.345,
+          "FIGHT_PROP_BASE_ATTACK": 12.85086,
+          "FIGHT_PROP_HP_PERCENT": 0
+        },
+        "requiredPlayerLevel": 15,
+        "coinCost": 20000
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "101233": 10,
+          "104122": 3,
+          "112080": 15,
+          "113057": 2
+        },
+        "unlockMaxLevel": 50,
+        "addProps": {
+          "FIGHT_PROP_BASE_HP": 1523.99414,
+          "FIGHT_PROP_BASE_DEFENSE": 57.0375,
+          "FIGHT_PROP_BASE_ATTACK": 21.98173,
+          "FIGHT_PROP_HP_PERCENT": 0.072
+        },
+        "requiredPlayerLevel": 25,
+        "coinCost": 40000
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "101233": 20,
+          "104122": 6,
+          "112081": 12,
+          "113057": 4
+        },
+        "unlockMaxLevel": 60,
+        "addProps": {
+          "FIGHT_PROP_BASE_HP": 2368.05249,
+          "FIGHT_PROP_BASE_DEFENSE": 88.6275,
+          "FIGHT_PROP_BASE_ATTACK": 34.15623,
+          "FIGHT_PROP_HP_PERCENT": 0.144
+        },
+        "requiredPlayerLevel": 30,
+        "coinCost": 60000
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "101233": 30,
+          "104123": 3,
+          "112081": 18,
+          "113057": 8
+        },
+        "unlockMaxLevel": 70,
+        "addProps": {
+          "FIGHT_PROP_BASE_HP": 3001.09619,
+          "FIGHT_PROP_BASE_DEFENSE": 112.32,
+          "FIGHT_PROP_BASE_ATTACK": 43.28711,
+          "FIGHT_PROP_HP_PERCENT": 0.144
+        },
+        "requiredPlayerLevel": 35,
+        "coinCost": 80000
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "101233": 45,
+          "104123": 6,
+          "112082": 12,
+          "113057": 12
+        },
+        "unlockMaxLevel": 80,
+        "addProps": {
+          "FIGHT_PROP_BASE_HP": 3634.13989,
+          "FIGHT_PROP_BASE_DEFENSE": 136.0125,
+          "FIGHT_PROP_BASE_ATTACK": 52.41798,
+          "FIGHT_PROP_HP_PERCENT": 0.216
+        },
+        "requiredPlayerLevel": 40,
+        "coinCost": 100000
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "101233": 60,
+          "104124": 6,
+          "112082": 24,
+          "113057": 20
+        },
+        "unlockMaxLevel": 90,
+        "addProps": {
+          "FIGHT_PROP_BASE_HP": 4267.18359,
+          "FIGHT_PROP_BASE_DEFENSE": 159.705,
+          "FIGHT_PROP_BASE_ATTACK": 61.54885,
+          "FIGHT_PROP_HP_PERCENT": 0.288
+        },
+        "requiredPlayerLevel": 50,
+        "coinCost": 120000
+      }
+    ]
+  },
+  "other": {
+    "costume": [
+      {
+        "name": "大海的甜色",
+        "description": "希格雯的装扮款式。明亮的色彩代表了护士长希格雯本人，明亮的她给黯淡的海底生活带来了一线阳光。",
+        "isDefault": true
+      }
+    ],
+    "furnitureId": 368182,
+    "nameCard": {
+      "id": 210201,
+      "name": "希格雯·疗法",
+      "description": "名片纹饰。\\n希格雯会好好照顾病患的。注射治疗没有那么痛，药物治疗的话，虽然也不好吃，但味道至少不像是特制奶昔那么荒芜。",
+      "icon": "UI_NameCardIcon_Sigewinne"
+    },
+    "specialFood": {
+      "id": 108673,
+      "name": "膳食均衡餐",
+      "rank": 3,
+      "effectIcon": "UI_Buff_Item_Recovery_HpAddAll",
+      "icon": "UI_ItemIcon_108673"
+    }
+  },
+  "ascension": {
+    "101233": 1,
+    "104121": 2,
+    "104122": 3,
+    "104123": 4,
+    "104124": 5,
+    "104319": 5,
+    "104338": 2,
+    "104339": 3,
+    "104340": 4,
+    "112080": 1,
+    "112081": 2,
+    "112082": 3,
+    "113055": 5,
+    "113057": 4
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "101233": {
+      "name": "海露花",
+      "rank": 1,
+      "icon": "UI_ItemIcon_101233"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104121": {
+      "name": "涤净青金碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104121"
+    },
+    "104122": {
+      "name": "涤净青金断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104122"
+    },
+    "104123": {
+      "name": "涤净青金块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104123"
+    },
+    "104124": {
+      "name": "涤净青金",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104124"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "104338": {
+      "name": "「公平」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104338"
+    },
+    "104339": {
+      "name": "「公平」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104339"
+    },
+    "104340": {
+      "name": "「公平」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104340"
+    },
+    "112080": {
+      "name": "异海凝珠",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112080"
+    },
+    "112081": {
+      "name": "异海之块",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112081"
+    },
+    "112082": {
+      "name": "异色结晶石",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112082"
+    },
+    "113055": {
+      "name": "无光涡眼",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113055"
+    },
+    "113057": {
+      "name": "未能达成超越之水",
+      "rank": 4,
+      "icon": "UI_ItemIcon_113057"
+    }
+  },
+  "talent": {
+    "0": {
+      "type": 0,
+      "name": "普通攻击·靶向治疗",
+      "description": "<color=#FFD780FF>普通攻击<\/color>\\n进行至多三段的连续攻击。\\n\\n<color=#FFD780FF>重击<\/color>\\n进行伤害更高、更为精准的<color=#FFD780FF>瞄准射击<\/color>。\\n瞄准时，水元素之力会在箭矢上持续积聚。蓄力完成后，每隔一段时间，希格雯会向目标方向发射缓慢移动的「小小关心气泡」，造成<color=#80C0FFFF>水元素伤害<\/color>。释放时，聚满了激流的箭矢会在命中敌人时造成<color=#80C0FFFF>水元素伤害<\/color>。\\n\\n<color=#FFD780FF>下落攻击<\/color>\\n从空中射出箭雨，并迅速下坠冲击地面，在落地时造成范围伤害。",
+      "icon": "Skill_A_02",
+      "promote": {
+        "1": {
+          "level": 1,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "瞄准射击|{param7:F1P}",
+            "满蓄力瞄准射击|{param8:F1P}",
+            "小小关心气泡伤害|{param9:F1P}",
+            "下坠期间伤害|{param4:F1P}",
+            "低空\/高空坠地冲击伤害|{param5:F1P}\/{param6:F1P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.52614,
+            0.51071,
+            0.78291,
+            0.56829,
+            1.13634,
+            1.41934,
+            0.4386,
+            1.24,
+            0.248,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 2,
+          "costItems": {
+            "104338": 3,
+            "112080": 6
+          },
+          "coinCost": 12500,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "瞄准射击|{param7:F1P}",
+            "满蓄力瞄准射击|{param8:F1P}",
+            "小小关心气泡伤害|{param9:F1P}",
+            "下坠期间伤害|{param4:F1P}",
+            "低空\/高空坠地冲击伤害|{param5:F1P}\/{param6:F1P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.56897,
+            0.55228,
+            0.84663,
+            0.61454,
+            1.22883,
+            1.53487,
+            0.4743,
+            1.333,
+            0.2666,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 3,
+          "costItems": {
+            "104339": 2,
+            "112081": 3
+          },
+          "coinCost": 17500,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "瞄准射击|{param7:F1P}",
+            "满蓄力瞄准射击|{param8:F1P}",
+            "小小关心气泡伤害|{param9:F1P}",
+            "下坠期间伤害|{param4:F1P}",
+            "低空\/高空坠地冲击伤害|{param5:F1P}\/{param6:F1P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.61179,
+            0.59385,
+            0.91036,
+            0.6608,
+            1.32132,
+            1.6504,
+            0.51,
+            1.426,
+            0.2852,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 4,
+          "costItems": {
+            "104339": 4,
+            "112081": 4
+          },
+          "coinCost": 25000,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "瞄准射击|{param7:F1P}",
+            "满蓄力瞄准射击|{param8:F1P}",
+            "小小关心气泡伤害|{param9:F1P}",
+            "下坠期间伤害|{param4:F1P}",
+            "低空\/高空坠地冲击伤害|{param5:F1P}\/{param6:F1P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.67297,
+            0.65324,
+            1.0014,
+            0.72688,
+            1.45345,
+            1.81544,
+            0.561,
+            1.55,
+            0.31,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 5,
+          "costItems": {
+            "104339": 6,
+            "112081": 6
+          },
+          "coinCost": 30000,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "瞄准射击|{param7:F1P}",
+            "满蓄力瞄准射击|{param8:F1P}",
+            "小小关心气泡伤害|{param9:F1P}",
+            "下坠期间伤害|{param4:F1P}",
+            "低空\/高空坠地冲击伤害|{param5:F1P}\/{param6:F1P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.71579,
+            0.6948,
+            1.06512,
+            0.77314,
+            1.54594,
+            1.93097,
+            0.5967,
+            1.643,
+            0.3286,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 6,
+          "costItems": {
+            "104339": 9,
+            "112081": 9
+          },
+          "coinCost": 37500,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "瞄准射击|{param7:F1P}",
+            "满蓄力瞄准射击|{param8:F1P}",
+            "小小关心气泡伤害|{param9:F1P}",
+            "下坠期间伤害|{param4:F1P}",
+            "低空\/高空坠地冲击伤害|{param5:F1P}\/{param6:F1P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.76474,
+            0.74231,
+            1.13795,
+            0.826,
+            1.65165,
+            2.063,
+            0.6375,
+            1.736,
+            0.3472,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 7,
+          "costItems": {
+            "104340": 4,
+            "112082": 4,
+            "113055": 1
+          },
+          "coinCost": 120000,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "瞄准射击|{param7:F1P}",
+            "满蓄力瞄准射击|{param8:F1P}",
+            "小小关心气泡伤害|{param9:F1P}",
+            "下坠期间伤害|{param4:F1P}",
+            "低空\/高空坠地冲击伤害|{param5:F1P}\/{param6:F1P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.83203,
+            0.80764,
+            1.23809,
+            0.89869,
+            1.797,
+            2.24454,
+            0.6936,
+            1.86,
+            0.372,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 8,
+          "costItems": {
+            "104340": 6,
+            "112082": 6,
+            "113055": 1
+          },
+          "coinCost": 260000,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "瞄准射击|{param7:F1P}",
+            "满蓄力瞄准射击|{param8:F1P}",
+            "小小关心气泡伤害|{param9:F1P}",
+            "下坠期间伤害|{param4:F1P}",
+            "低空\/高空坠地冲击伤害|{param5:F1P}\/{param6:F1P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.89933,
+            0.87296,
+            1.33823,
+            0.97138,
+            1.94234,
+            2.42609,
+            0.7497,
+            1.984,
+            0.3968,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 9,
+          "costItems": {
+            "104340": 12,
+            "112082": 9,
+            "113055": 2
+          },
+          "coinCost": 450000,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "瞄准射击|{param7:F1P}",
+            "满蓄力瞄准射击|{param8:F1P}",
+            "小小关心气泡伤害|{param9:F1P}",
+            "下坠期间伤害|{param4:F1P}",
+            "低空\/高空坠地冲击伤害|{param5:F1P}\/{param6:F1P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.96663,
+            0.93828,
+            1.43837,
+            1.04406,
+            2.08769,
+            2.60763,
+            0.8058,
+            2.108,
+            0.4216,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 10,
+          "costItems": {
+            "104319": 1,
+            "104340": 16,
+            "112082": 12,
+            "113055": 2
+          },
+          "coinCost": 700000,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "瞄准射击|{param7:F1P}",
+            "满蓄力瞄准射击|{param8:F1P}",
+            "小小关心气泡伤害|{param9:F1P}",
+            "下坠期间伤害|{param4:F1P}",
+            "低空\/高空坠地冲击伤害|{param5:F1P}\/{param6:F1P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.04004,
+            1.00954,
+            1.54761,
+            1.12336,
+            2.24624,
+            2.80568,
+            0.867,
+            2.232,
+            0.4464,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 11,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "瞄准射击|{param7:F1P}",
+            "满蓄力瞄准射击|{param8:F1P}",
+            "小小关心气泡伤害|{param9:F1P}",
+            "下坠期间伤害|{param4:F1P}",
+            "低空\/高空坠地冲击伤害|{param5:F1P}\/{param6:F1P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.11346,
+            1.08081,
+            1.65685,
+            1.20266,
+            2.4048,
+            3.00373,
+            0.9282,
+            2.356,
+            0.4712,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 12,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "瞄准射击|{param7:F1P}",
+            "满蓄力瞄准射击|{param8:F1P}",
+            "小小关心气泡伤害|{param9:F1P}",
+            "下坠期间伤害|{param4:F1P}",
+            "低空\/高空坠地冲击伤害|{param5:F1P}\/{param6:F1P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.18687,
+            1.15207,
+            1.7661,
+            1.28195,
+            2.56336,
+            3.20178,
+            0.9894,
+            2.48,
+            0.496,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 13,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "瞄准射击|{param7:F1P}",
+            "满蓄力瞄准射击|{param8:F1P}",
+            "小小关心气泡伤害|{param9:F1P}",
+            "下坠期间伤害|{param4:F1P}",
+            "低空\/高空坠地冲击伤害|{param5:F1P}\/{param6:F1P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.26029,
+            1.22333,
+            1.87534,
+            1.36125,
+            2.72192,
+            3.39982,
+            1.0506,
+            2.635,
+            0.527,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 14,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "瞄准射击|{param7:F1P}",
+            "满蓄力瞄准射击|{param8:F1P}",
+            "小小关心气泡伤害|{param9:F1P}",
+            "下坠期间伤害|{param4:F1P}",
+            "低空\/高空坠地冲击伤害|{param5:F1P}\/{param6:F1P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.3337,
+            1.29459,
+            1.98459,
+            1.44054,
+            2.88048,
+            3.59787,
+            1.1118,
+            2.79,
+            0.558,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "15": {
+          "level": 15,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "一段伤害|{param1:F1P}",
+            "二段伤害|{param2:F1P}",
+            "三段伤害|{param3:F1P}",
+            "瞄准射击|{param7:F1P}",
+            "满蓄力瞄准射击|{param8:F1P}",
+            "小小关心气泡伤害|{param9:F1P}",
+            "下坠期间伤害|{param4:F1P}",
+            "低空\/高空坠地冲击伤害|{param5:F1P}\/{param6:F1P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            1.40712,
+            1.36585,
+            2.09383,
+            1.51984,
+            3.03904,
+            3.79592,
+            1.173,
+            2.945,
+            0.589,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "cooldown": 0,
+      "cost": 0,
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "18.354",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "17.816",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "27.311",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Aimed Shot",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": {
+            "tag": {
+              "span": "5",
+              "text": "Charged Attack"
+            },
+            "type": {
+              "span": "5",
+              "text": "2s"
+            }
+          },
+          "interruptionResistance": "10",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Aimed Shot (Hit Weak Spot)",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "30",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Fully-Charged Aimed Shot",
+          "elementalGaugeTheory": "1U(w\/ Dropoff)",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "20",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Fully-Charged Aimed Shot (Hit Weak Spot)",
+          "elementalGaugeTheory": "1U(w\/ Dropoff)",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "60",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Mini-Stration Bubble DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "20",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "10",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "50",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
+    },
+    "1": {
+      "type": 0,
+      "name": "弹跳水疗法",
+      "description": "使用梅洛彼得堡特制的泡泡枪，吹出既可以刺激血液循环、也可以让病人安心入睡的<color=#FFD780FF>激愈水球<\/color>。\\n激愈水球将在附近的敌人间弹跳，命中敌人时基于希格雯的生命值上限，造成<color=#80C0FFFF>水元素伤害<\/color>；弹跳时，为队伍中附近除希格雯自己外的所有角色恢复生命值，回复量受益于希格雯自己的生命值上限。\\n进行5次弹跳后，激愈水球将消失，并基于希格雯的生命值上限为她恢复生命值。\\n没有敌人时，激愈水球将在附近进行弹跳。至多同时存在一个希格雯自己创造的激愈水球。\\n长按时，能蓄力施放激愈水球。\\n\\n<color=#FFD780FF>长按<\/color>\\n进行瞄准蓄力，吹出更大更厉害的激愈水球！\\n激愈水球将随长按时间变大，至多变大二级，每级将使造成的伤害提升5%，回复量提升5%；弹跳后将变小一个等级，直到恢复为正常的激愈水球。\\n较弱的敌人被较大的激愈水球命中后会被禁锢，无法行动。\\n\\n此外，施放时将在希格雯附近产生2枚源水之滴。每拾取一枚源水之滴，都会为希格雯自己赋予生命值上限10%的生命之契。\\n希格雯的生命之契被清除时，每清除2000点生命之契将为她恢复1点元素能量，至多通过这种方式为希格雯自己恢复5点元素能量。\\n\\n<color=#FFD780FF>始基力：荒性<\/color>\\n每隔一段时间，激愈水球将在命中的位置降下流涌之刃，基于希格雯的生命值上限，造成具有荒性的<color=#80C0FFFF>水元素伤害<\/color>。\\n\\n<i>「怎么样，用这样的水疗法，既能刺激循环，又能让复健的病人感受到乐趣，而且，也会让应该睡着的病人好好睡一会儿呢…」<\/i>",
+      "icon": "Skill_S_Sigewinne_01",
+      "promote": {
+        "1": {
+          "level": 1,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "激愈水球伤害|{param1:F2P}生命值上限",
+            "激愈水球治疗量|{param2:F2P}生命值上限+{param3:I}",
+            "弹跳结束治疗量|{param4:F1P}生命值上限",
+            "流涌之刃伤害|{param7:F2P}生命值上限",
+            "流涌之刃间隔|{param8:F1}秒",
+            "冷却时间|{param9:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.0228,
+            0.028,
+            269.63141,
+            0.5,
+            0,
+            0.1,
+            0.00684,
+            10,
+            18,
+            0.0005,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 2,
+          "costItems": {
+            "104338": 3,
+            "112080": 6
+          },
+          "coinCost": 12500,
+          "description": [
+            "激愈水球伤害|{param1:F2P}生命值上限",
+            "激愈水球治疗量|{param2:F2P}生命值上限+{param3:I}",
+            "弹跳结束治疗量|{param4:F1P}生命值上限",
+            "流涌之刃伤害|{param7:F2P}生命值上限",
+            "流涌之刃间隔|{param8:F1}秒",
+            "冷却时间|{param9:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.02451,
+            0.0301,
+            296.5983,
+            0.5,
+            0,
+            0.1,
+            0.00735,
+            10,
+            18,
+            0.0005,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 3,
+          "costItems": {
+            "104339": 2,
+            "112081": 3
+          },
+          "coinCost": 17500,
+          "description": [
+            "激愈水球伤害|{param1:F2P}生命值上限",
+            "激愈水球治疗量|{param2:F2P}生命值上限+{param3:I}",
+            "弹跳结束治疗量|{param4:F1P}生命值上限",
+            "流涌之刃伤害|{param7:F2P}生命值上限",
+            "流涌之刃间隔|{param8:F1}秒",
+            "冷却时间|{param9:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.02622,
+            0.0322,
+            325.81244,
+            0.5,
+            0,
+            0.1,
+            0.00787,
+            10,
+            18,
+            0.0005,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 4,
+          "costItems": {
+            "104339": 4,
+            "112081": 4
+          },
+          "coinCost": 25000,
+          "description": [
+            "激愈水球伤害|{param1:F2P}生命值上限",
+            "激愈水球治疗量|{param2:F2P}生命值上限+{param3:I}",
+            "弹跳结束治疗量|{param4:F1P}生命值上限",
+            "流涌之刃伤害|{param7:F2P}生命值上限",
+            "流涌之刃间隔|{param8:F1}秒",
+            "冷却时间|{param9:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.0285,
+            0.035,
+            357.2738,
+            0.5,
+            0,
+            0.1,
+            0.00855,
+            10,
+            18,
+            0.0005,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 5,
+          "costItems": {
+            "104339": 6,
+            "112081": 6
+          },
+          "coinCost": 30000,
+          "description": [
+            "激愈水球伤害|{param1:F2P}生命值上限",
+            "激愈水球治疗量|{param2:F2P}生命值上限+{param3:I}",
+            "弹跳结束治疗量|{param4:F1P}生命值上限",
+            "流涌之刃伤害|{param7:F2P}生命值上限",
+            "流涌之刃间隔|{param8:F1}秒",
+            "冷却时间|{param9:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.03021,
+            0.0371,
+            390.98242,
+            0.5,
+            0,
+            0.1,
+            0.00906,
+            10,
+            18,
+            0.0005,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 6,
+          "costItems": {
+            "104339": 9,
+            "112081": 9
+          },
+          "coinCost": 37500,
+          "description": [
+            "激愈水球伤害|{param1:F2P}生命值上限",
+            "激愈水球治疗量|{param2:F2P}生命值上限+{param3:I}",
+            "弹跳结束治疗量|{param4:F1P}生命值上限",
+            "流涌之刃伤害|{param7:F2P}生命值上限",
+            "流涌之刃间隔|{param8:F1}秒",
+            "冷却时间|{param9:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.03192,
+            0.0392,
+            426.93826,
+            0.5,
+            0,
+            0.1,
+            0.00958,
+            10,
+            18,
+            0.0005,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 7,
+          "costItems": {
+            "104340": 4,
+            "112082": 4,
+            "113055": 1
+          },
+          "coinCost": 120000,
+          "description": [
+            "激愈水球伤害|{param1:F2P}生命值上限",
+            "激愈水球治疗量|{param2:F2P}生命值上限+{param3:I}",
+            "弹跳结束治疗量|{param4:F1P}生命值上限",
+            "流涌之刃伤害|{param7:F2P}生命值上限",
+            "流涌之刃间隔|{param8:F1}秒",
+            "冷却时间|{param9:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.0342,
+            0.042,
+            465.14136,
+            0.5,
+            0,
+            0.1,
+            0.01026,
+            10,
+            18,
+            0.0005,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 8,
+          "costItems": {
+            "104340": 6,
+            "112082": 6,
+            "113055": 1
+          },
+          "coinCost": 260000,
+          "description": [
+            "激愈水球伤害|{param1:F2P}生命值上限",
+            "激愈水球治疗量|{param2:F2P}生命值上限+{param3:I}",
+            "弹跳结束治疗量|{param4:F1P}生命值上限",
+            "流涌之刃伤害|{param7:F2P}生命值上限",
+            "流涌之刃间隔|{param8:F1}秒",
+            "冷却时间|{param9:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.03648,
+            0.0448,
+            505.59167,
+            0.5,
+            0,
+            0.1,
+            0.01094,
+            10,
+            18,
+            0.0005,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 9,
+          "costItems": {
+            "104340": 12,
+            "112082": 9,
+            "113055": 2
+          },
+          "coinCost": 450000,
+          "description": [
+            "激愈水球伤害|{param1:F2P}生命值上限",
+            "激愈水球治疗量|{param2:F2P}生命值上限+{param3:I}",
+            "弹跳结束治疗量|{param4:F1P}生命值上限",
+            "流涌之刃伤害|{param7:F2P}生命值上限",
+            "流涌之刃间隔|{param8:F1}秒",
+            "冷却时间|{param9:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.03876,
+            0.0476,
+            548.28925,
+            0.5,
+            0,
+            0.1,
+            0.01163,
+            10,
+            18,
+            0.0005,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 10,
+          "costItems": {
+            "104319": 1,
+            "104340": 16,
+            "112082": 12,
+            "113055": 2
+          },
+          "coinCost": 700000,
+          "description": [
+            "激愈水球伤害|{param1:F2P}生命值上限",
+            "激愈水球治疗量|{param2:F2P}生命值上限+{param3:I}",
+            "弹跳结束治疗量|{param4:F1P}生命值上限",
+            "流涌之刃伤害|{param7:F2P}生命值上限",
+            "流涌之刃间隔|{param8:F1}秒",
+            "冷却时间|{param9:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.04104,
+            0.0504,
+            593.23407,
+            0.5,
+            0,
+            0.1,
+            0.01231,
+            10,
+            18,
+            0.0005,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 11,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "激愈水球伤害|{param1:F2P}生命值上限",
+            "激愈水球治疗量|{param2:F2P}生命值上限+{param3:I}",
+            "弹跳结束治疗量|{param4:F1P}生命值上限",
+            "流涌之刃伤害|{param7:F2P}生命值上限",
+            "流涌之刃间隔|{param8:F1}秒",
+            "冷却时间|{param9:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.04332,
+            0.0532,
+            640.42615,
+            0.5,
+            0,
+            0.1,
+            0.013,
+            10,
+            18,
+            0.0005,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 12,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "激愈水球伤害|{param1:F2P}生命值上限",
+            "激愈水球治疗量|{param2:F2P}生命值上限+{param3:I}",
+            "弹跳结束治疗量|{param4:F1P}生命值上限",
+            "流涌之刃伤害|{param7:F2P}生命值上限",
+            "流涌之刃间隔|{param8:F1}秒",
+            "冷却时间|{param9:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.0456,
+            0.056,
+            689.86542,
+            0.5,
+            0,
+            0.1,
+            0.01368,
+            10,
+            18,
+            0.0005,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 13,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "激愈水球伤害|{param1:F2P}生命值上限",
+            "激愈水球治疗量|{param2:F2P}生命值上限+{param3:I}",
+            "弹跳结束治疗量|{param4:F1P}生命值上限",
+            "流涌之刃伤害|{param7:F2P}生命值上限",
+            "流涌之刃间隔|{param8:F1}秒",
+            "冷却时间|{param9:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.04845,
+            0.0595,
+            741.55194,
+            0.5,
+            0,
+            0.1,
+            0.01453,
+            10,
+            18,
+            0.0005,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 14,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "激愈水球伤害|{param1:F2P}生命值上限",
+            "激愈水球治疗量|{param2:F2P}生命值上限+{param3:I}",
+            "弹跳结束治疗量|{param4:F1P}生命值上限",
+            "流涌之刃伤害|{param7:F2P}生命值上限",
+            "流涌之刃间隔|{param8:F1}秒",
+            "冷却时间|{param9:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.0513,
+            0.063,
+            795.48572,
+            0.5,
+            0,
+            0.1,
+            0.01539,
+            10,
+            18,
+            0.0005,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "15": {
+          "level": 15,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "激愈水球伤害|{param1:F2P}生命值上限",
+            "激愈水球治疗量|{param2:F2P}生命值上限+{param3:I}",
+            "弹跳结束治疗量|{param4:F1P}生命值上限",
+            "流涌之刃伤害|{param7:F2P}生命值上限",
+            "流涌之刃间隔|{param8:F1}秒",
+            "冷却时间|{param9:F1}秒",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.05415,
+            0.0665,
+            851.66675,
+            0.5,
+            0,
+            0.1,
+            0.01625,
+            10,
+            18,
+            0.0005,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "cooldown": 18,
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          },
+          {
+            "id": 1,
+            "type": "normal"
+          },
+          {
+            "id": 2,
+            "type": "level"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Bolstering Bubblebalm DMG (Large)",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "3",
+              "text": "Elemental Skill"
+            },
+            "type": {
+              "span": "3",
+              "text": "2s"
+            }
+          },
+          "interruptionResistance": "200",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Bolstering Bubblebalm DMG (Medium)",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Bolstering Bubblebalm DMG (Small)",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Surging Blade DMG",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "50",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
+    },
+    "3": {
+      "type": 1,
+      "name": "过饱和心意注射",
+      "description": "取出梅洛彼得堡特制的注射器，以满满的心意与药剂冲击前方区域，基于希格雯的生命值上限，持续造成<color=#80C0FFFF>水元素范围伤害<\/color>。\\n此外，施放时，希格雯将吸收附近一定范围内至多2枚源水之滴。\\n\\n<i>「啊呀，超过剂量的药与毒无异，可是很危险的，但是病人需要的关心与爱护，不管超过多少也不为过哦。」<\/i>",
+      "icon": "Skill_E_Sigewinne_01",
+      "promote": {
+        "1": {
+          "level": 1,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "技能伤害|{param1:F1P}生命值上限",
+            "持续时间|{param4:F1}秒",
+            "冷却时间|{param2:F1}秒",
+            "元素能量|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.11771,
+            18,
+            70,
+            2.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 2,
+          "costItems": {
+            "104338": 3,
+            "112080": 6
+          },
+          "coinCost": 12500,
+          "description": [
+            "技能伤害|{param1:F1P}生命值上限",
+            "持续时间|{param4:F1}秒",
+            "冷却时间|{param2:F1}秒",
+            "元素能量|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.12654,
+            18,
+            70,
+            2.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 3,
+          "costItems": {
+            "104339": 2,
+            "112081": 3
+          },
+          "coinCost": 17500,
+          "description": [
+            "技能伤害|{param1:F1P}生命值上限",
+            "持续时间|{param4:F1}秒",
+            "冷却时间|{param2:F1}秒",
+            "元素能量|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.13536,
+            18,
+            70,
+            2.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 4,
+          "costItems": {
+            "104339": 4,
+            "112081": 4
+          },
+          "coinCost": 25000,
+          "description": [
+            "技能伤害|{param1:F1P}生命值上限",
+            "持续时间|{param4:F1}秒",
+            "冷却时间|{param2:F1}秒",
+            "元素能量|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.14714,
+            18,
+            70,
+            2.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 5,
+          "costItems": {
+            "104339": 6,
+            "112081": 6
+          },
+          "coinCost": 30000,
+          "description": [
+            "技能伤害|{param1:F1P}生命值上限",
+            "持续时间|{param4:F1}秒",
+            "冷却时间|{param2:F1}秒",
+            "元素能量|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.15596,
+            18,
+            70,
+            2.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 6,
+          "costItems": {
+            "104339": 9,
+            "112081": 9
+          },
+          "coinCost": 37500,
+          "description": [
+            "技能伤害|{param1:F1P}生命值上限",
+            "持续时间|{param4:F1}秒",
+            "冷却时间|{param2:F1}秒",
+            "元素能量|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.16479,
+            18,
+            70,
+            2.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 7,
+          "costItems": {
+            "104340": 4,
+            "112082": 4,
+            "113055": 1
+          },
+          "coinCost": 120000,
+          "description": [
+            "技能伤害|{param1:F1P}生命值上限",
+            "持续时间|{param4:F1}秒",
+            "冷却时间|{param2:F1}秒",
+            "元素能量|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.17656,
+            18,
+            70,
+            2.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 8,
+          "costItems": {
+            "104340": 6,
+            "112082": 6,
+            "113055": 1
+          },
+          "coinCost": 260000,
+          "description": [
+            "技能伤害|{param1:F1P}生命值上限",
+            "持续时间|{param4:F1}秒",
+            "冷却时间|{param2:F1}秒",
+            "元素能量|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.18833,
+            18,
+            70,
+            2.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 9,
+          "costItems": {
+            "104340": 12,
+            "112082": 9,
+            "113055": 2
+          },
+          "coinCost": 450000,
+          "description": [
+            "技能伤害|{param1:F1P}生命值上限",
+            "持续时间|{param4:F1}秒",
+            "冷却时间|{param2:F1}秒",
+            "元素能量|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.2001,
+            18,
+            70,
+            2.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 10,
+          "costItems": {
+            "104319": 1,
+            "104340": 16,
+            "112082": 12,
+            "113055": 2
+          },
+          "coinCost": 700000,
+          "description": [
+            "技能伤害|{param1:F1P}生命值上限",
+            "持续时间|{param4:F1}秒",
+            "冷却时间|{param2:F1}秒",
+            "元素能量|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.21187,
+            18,
+            70,
+            2.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 11,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "技能伤害|{param1:F1P}生命值上限",
+            "持续时间|{param4:F1}秒",
+            "冷却时间|{param2:F1}秒",
+            "元素能量|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.22365,
+            18,
+            70,
+            2.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 12,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "技能伤害|{param1:F1P}生命值上限",
+            "持续时间|{param4:F1}秒",
+            "冷却时间|{param2:F1}秒",
+            "元素能量|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.23542,
+            18,
+            70,
+            2.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 13,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "技能伤害|{param1:F1P}生命值上限",
+            "持续时间|{param4:F1}秒",
+            "冷却时间|{param2:F1}秒",
+            "元素能量|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.25013,
+            18,
+            70,
+            2.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 14,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "技能伤害|{param1:F1P}生命值上限",
+            "持续时间|{param4:F1}秒",
+            "冷却时间|{param2:F1}秒",
+            "元素能量|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.26484,
+            18,
+            70,
+            2.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "15": {
+          "level": 15,
+          "costItems": null,
+          "coinCost": null,
+          "description": [
+            "技能伤害|{param1:F1P}生命值上限",
+            "持续时间|{param4:F1}秒",
+            "冷却时间|{param2:F1}秒",
+            "元素能量|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "params": [
+            0.27956,
+            18,
+            70,
+            2.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "cooldown": 18,
+      "cost": 70,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 1,
+            "type": "normal"
+          },
+          {
+            "id": 3,
+            "type": "normal"
+          },
+          {
+            "id": 4,
+            "type": "level"
+          },
+          {
+            "id": 5,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Skill DMG (First Hit)",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Elemental Burst"
+            },
+            "type": {
+              "span": null,
+              "text": "1.9s"
+            }
+          },
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
+    },
+    "4": {
+      "type": 2,
+      "name": "应有适当的休憩",
+      "description": "施放<color=#FFD780FF>弹跳水疗法<\/color>时，希格雯将为自己施加持续18秒的「半强制静养」效果：持续期间，希格雯获得8%<color=#80C0FFFF>水元素伤害加成<\/color>与10层静养计数，除希格雯外附近队伍中处于后台的角色的元素战技造成伤害时，将消耗1层静养计数，提升此次元素战技造成的伤害值：希格雯的生命值上限超过30000的部分，每1000点生命值上限将提升80点伤害，通过这种方式，至多使本次元素战技造成的伤害提升2800点。",
+      "icon": "UI_Talent_S_Sigewinne_05",
+      "linkedConstellations": {
+        "isLevelIncluded": false,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          }
+        ]
+      }
+    },
+    "5": {
+      "type": 2,
+      "name": "细致入微的诊疗",
+      "description": "希格雯进行治疗时，将基于队伍中所有角色当前生命之契的总和，提升本次治疗量：每1000点生命之契都将提升3%治疗量，至多通过这种方式提升30%治疗量。",
+      "icon": "UI_Talent_S_Sigewinne_06",
+      "linkedConstellations": null
+    },
+    "6": {
+      "type": 2,
+      "name": "急性剂量",
+      "description": "在水下时，当前场上自己的角色的生命值降低至50%以下时，将在2.5秒内为其持续恢复生命值，总回复量相当于其生命值上限的50%，并在10秒内使该角色的所有元素抗性和物理抗性下降10%。该效果每20秒最多触发一次。",
+      "icon": "UI_Talent_S_Sigewinne_07",
+      "linkedConstellations": null
+    }
+  },
+  "constellation": {
+    "0": {
+      "id": 0,
+      "name": "「最快乐的精灵，可否懂得焦虑」",
+      "description": "<color=#FFD780FF>弹跳水疗法<\/color>的激愈水球能额外弹跳3次；前3次弹跳不会使较大激愈水球变小。\\n此外，固有天赋「应有适当的休憩」的效果获得提升：激愈水球弹跳时，将为希格雯赋予1层静养计数，并使静养计数产生的伤害值提升改为：希格雯的生命值上限超过30000的部分，每1000点生命值上限将提升100点，通过这种方式，至多提升3500点伤害。此效果需要解锁固有天赋「应有适当的休憩」。",
+      "extraData": null,
+      "icon": "UI_Talent_S_Sigewinne_01"
+    },
+    "1": {
+      "id": 1,
+      "name": "「最仁慈的精灵，可否化解仇敌」",
+      "description": "施放<color=#FFD780FF>弹跳水疗法<\/color>与<color=#FFD780FF>过饱和心意注射<\/color>时，将生成一个伤害吸收量等同于生命值上限30%的水球护盾，对<color=#80C0FFFF>水元素伤害<\/color>有250%的吸收效果，持续直到施放完成。\\n此外，弹跳水疗法抛出的激愈水球或过饱和心意注射命中敌人后，该敌人的<color=#80C0FFFF>水元素抗性<\/color>降低35%，持续8秒。",
+      "extraData": null,
+      "icon": "UI_Talent_S_Sigewinne_02"
+    },
+    "2": {
+      "id": 2,
+      "name": "「最健康的精灵，可否疗愈热症」",
+      "description": "<color=#FFD780FF>弹跳水疗法<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 2,
+          "extraLevel": 3
+        }
+      },
+      "icon": "UI_Talent_U_Sigewinne_01"
+    },
+    "3": {
+      "id": 3,
+      "name": "「最美丽的精灵，可否拒绝衰朽」",
+      "description": "<color=#FFD780FF>过饱和心意注射<\/color>的持续时间延长3秒。",
+      "extraData": null,
+      "icon": "UI_Talent_S_Sigewinne_03"
+    },
+    "4": {
+      "id": 4,
+      "name": "「最幸福的精灵，可否消却折磨」",
+      "description": "<color=#FFD780FF>过饱和心意注射<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 9,
+          "extraLevel": 3
+        }
+      },
+      "icon": "UI_Talent_U_Sigewinne_02"
+    },
+    "5": {
+      "id": 5,
+      "name": "「最光辉的精灵，可否为我祷告」",
+      "description": "希格雯进行治疗时，将基于生命值上限，提升自己的<color=#FFD780FF>过饱和心意注射<\/color>的暴击率和暴击伤害：每1000点生命值上限都将提升0.4%暴击率与2.2%暴击伤害，持续15秒。至多通过这种方式提升20%暴击率与110%暴击伤害。",
+      "extraData": null,
+      "icon": "UI_Talent_S_Sigewinne_04"
+    }
+  }
+}

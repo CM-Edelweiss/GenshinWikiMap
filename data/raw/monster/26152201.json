@@ -1,0 +1,149 @@
+{
+  "id": 26152201,
+  "name": "重甲蟹",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_HermitCrab_Larva_02",
+  "route": "Armored Crab",
+  "title": "重甲蟹",
+  "specialName": "因原海而进化的生命",
+  "description": "寄居在螺与壳之中的螃蟹。\\n几乎不具备野生动物常有的攻击性，因为食欲之外的攻击性常常源自领域意识，而重甲蟹的领土就是其背在身后的小小家园。",
+  "entries": {
+    "26152201": {
+      "id": 26152201,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "杂兵海兔 - 颜色种类标记2",
+          "description": "杂兵海兔 - 颜色种类标记2",
+          "abilityName": [
+            "FauneAbyssale_Aplysia_Larva_Material_02"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 19.48134,
+          "type": "GROW_CURVE_HP_ENVIRONMENT"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 45,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112080": {
+          "name": "异海凝珠",
+          "rank": 1,
+          "icon": "UI_ItemIcon_112080",
+          "count": "0.8404"
+        },
+        "112081": {
+          "name": "异海之块",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112081",
+          "count": "0.2241"
+        },
+        "112082": {
+          "name": "异色结晶石",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112082",
+          "count": "0.056"
+        }
+      }
+    },
+    "26152202": {
+      "id": 26152202,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "杂兵海兔 - 颜色种类标记2",
+          "description": "杂兵海兔 - 颜色种类标记2",
+          "abilityName": [
+            "FauneAbyssale_Aplysia_Larva_Material_02"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 10.59552,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 45,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112080": {
+          "name": "异海凝珠",
+          "rank": 1,
+          "icon": "UI_ItemIcon_112080",
+          "count": "0.8404"
+        },
+        "112081": {
+          "name": "异海之块",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112081",
+          "count": "0.2241"
+        },
+        "112082": {
+          "name": "异色结晶石",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112082",
+          "count": "0.056"
+        }
+      }
+    }
+  },
+  "tips": null
+}

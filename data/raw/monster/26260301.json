@@ -1,0 +1,168 @@
+{
+  "id": 26260301,
+  "name": "疾叶·大灵显化身",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Wayob_Hookwalker",
+  "route": "Foliar-Swift Wayob Manifestation",
+  "title": "疾叶·大灵显化身",
+  "specialName": "夜晚与游灵的代行",
+  "description": "「悬木人」部族所信仰与崇拜的「大灵」，借由图腾与夜魂之力，于大地之上显化的形体。\\n在叙事人的故事中，大灵显化身经常作为试炼的使者，或者夜神之国的引路人的形象出场。也有龙冠武士曾言，自己在武术修行的恍惚中与大灵显化身交手，从而获得了更深层次的领悟。\\n「悬木人」的人相信他们的「大灵」拥有控制果实与林叶生长的力量，能够执掌作物的根茎，画下叶脉的走势。",
+  "entries": {
+    "26260301": {
+      "id": 26260301,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010013,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 95.088,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 57.776,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.5,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112107": {
+          "name": "意志破碎的残片",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112107",
+          "count": "6.5658"
+        },
+        "112108": {
+          "name": "意志明晰的寄偶",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112108",
+          "count": "1.7508"
+        },
+        "112109": {
+          "name": "意志巡游的符像",
+          "rank": 4,
+          "icon": "UI_ItemIcon_112109",
+          "count": "0.4378"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "26260303": {
+      "id": 26260303,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "5.0大灵开场力场词缀",
+          "description": "5.0大灵开场力场词缀",
+          "abilityName": [
+            "MonsterAffix_Wayob_GoFirstField"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010013,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 95.088,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 57.776,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.5,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": {
+    "307701": {
+      "images": [
+        "UI_Tutorial_210"
+      ],
+      "description": "纳塔各个部族所信仰的「大灵」借由黑曜石图腾的形象如斯显化。战斗中，大灵显化身会在一段时间内张开「领域·试炼之刻」，为自己创造护盾，并持续吸收领域内队伍中所有角色的元素能量。领域内的角色造成的伤害将大幅提高。<color=#FFE14BFF>在领域结束前破除护盾<\/color>，则将获得返还的大量元素能量，若无法破除，大灵显化身会根据剩余护盾的量生成元素护罩。"
+    }
+  }
+}

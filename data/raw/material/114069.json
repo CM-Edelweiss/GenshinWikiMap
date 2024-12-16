@@ -1,0 +1,69 @@
+{
+  "name": "神合秘烟的思绪",
+  "description": "赋予武器突破之力的材料。\\n古时的萨满、祭司或称秘术师的那些，在「大灵」自孤冷英雄与夜魂的呼应之中逐渐形成以来，持续不断地寻找与寂静地下国度沟通的方法。\\n入迷，出魂与降神曾是三种主要的途径，而每种途径都将借助打磨的祭具完成。",
+  "type": "武器突破素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "礼包商城兑换",
+      "type": "single"
+    },
+    {
+      "name": "炼武秘境：测度",
+      "type": "domain",
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 12430,
+          "name": "硕果钩",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Claymore_Umpakati"
+        },
+        {
+          "id": 14427,
+          "name": "苍纹角杯",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_ConchSprayer"
+        },
+        {
+          "id": 15431,
+          "name": "碎链",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Bow_Isikhulu"
+        },
+        {
+          "id": 15430,
+          "name": "缀花之翎",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Bow_Umpakati"
+        },
+        {
+          "id": 11516,
+          "name": "岩峰巡歌",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Sword_XochitlsTube"
+        },
+        {
+          "id": 15514,
+          "name": "星鹫赤羽",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Bow_Qoyllorsnova"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_114069",
+  "rank": 2,
+  "route": "Night-Wind's Mystic Consideration"
+}

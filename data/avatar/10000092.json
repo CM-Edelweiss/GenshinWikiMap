@@ -1,0 +1,131 @@
+{
+  "id": 10000092,
+  "name": "嘉明",
+  "element": "火",
+  "weapon": "双手剑",
+  "rank": 4,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Gaming",
+    "side": "UI_AvatarIcon_Side_Gaming",
+    "card": "UI_AvatarIcon_Gaming_Card",
+    "splash": "UI_Gacha_AvatarImg_Gaming",
+    "slice": "UI_Gacha_AvatarIcon_Gaming"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 957.38055,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        715.21228,
+        1223.3894,
+        1900.95898,
+        2409.13623,
+        2917.31323,
+        3425.49048
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 25.28736,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        18.8914,
+        32.31423,
+        50.21134,
+        63.63417,
+        77.05701,
+        90.47984
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 58.94175,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        44.0325,
+        75.31875,
+        117.03375,
+        148.32001,
+        179.60625,
+        210.8925
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ATTACK_PERCENT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "10921": {
+      "name": "普通攻击·刃爪悬星",
+      "icon": "Skill_A_04"
+    },
+    "10922": {
+      "name": "瑞兽登高楼",
+      "icon": "Skill_S_Gaming_01"
+    },
+    "10925": {
+      "name": "璨焰金猊舞",
+      "icon": "Skill_E_Gaming_01"
+    },
+    "922101": {
+      "name": "舞起升平",
+      "icon": "UI_Talent_S_Gaming_05"
+    },
+    "922201": {
+      "name": "祥烟瑞气",
+      "icon": "UI_Talent_S_Gaming_06"
+    },
+    "922301": {
+      "name": "醒兽锐行",
+      "icon": "UI_Talent_S_Dehya_07"
+    }
+  },
+  "constellation": {
+    "921": {
+      "name": "通明庇佑",
+      "icon": "UI_Talent_S_Gaming_01"
+    },
+    "922": {
+      "name": "步踏梅花",
+      "icon": "UI_Talent_S_Gaming_02"
+    },
+    "923": {
+      "name": "醒灵擂震",
+      "icon": "UI_Talent_U_Gaming_01"
+    },
+    "924": {
+      "name": "云里翻山",
+      "icon": "UI_Talent_S_Gaming_03"
+    },
+    "925": {
+      "name": "吼法怖魔",
+      "icon": "UI_Talent_U_Gaming_02"
+    },
+    "926": {
+      "name": "百兽俱驯",
+      "icon": "UI_Talent_S_Gaming_04"
+    }
+  },
+  "talent_fix": {
+    "10922": "瑞兽登高楼",
+    "10925": "璨焰金猊舞"
+  },
+  "damage": [],
+  "buff": []
+}

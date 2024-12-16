@@ -1372,5 +1372,125 @@
     "suit_id": 15034,
     "suit_name": "回声之林夜话",
     "part": "理之冠"
+  },
+  "UI_RelicIcon_15035_4": {
+    "name": "谐律交响的前奏",
+    "suit_id": 15035,
+    "suit_name": "谐律异想断章",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15035_2": {
+    "name": "古海玄幽的夜想",
+    "suit_id": 15035,
+    "suit_name": "谐律异想断章",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15035_5": {
+    "name": "命途轮转的谐谑",
+    "suit_id": 15035,
+    "suit_name": "谐律异想断章",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15035_1": {
+    "name": "灵露倾洒的狂诗",
+    "suit_id": 15035,
+    "suit_name": "谐律异想断章",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15035_3": {
+    "name": "异想零落的圆舞",
+    "suit_id": 15035,
+    "suit_name": "谐律异想断章",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15036_4": {
+    "name": "暗结的明花",
+    "suit_id": 15036,
+    "suit_name": "未竟的遐思",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15036_2": {
+    "name": "褪光的翠尾",
+    "suit_id": 15036,
+    "suit_name": "未竟的遐思",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15036_5": {
+    "name": "举业的识刻",
+    "suit_id": 15036,
+    "suit_name": "未竟的遐思",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15036_1": {
+    "name": "筹谋的共樽",
+    "suit_id": 15036,
+    "suit_name": "未竟的遐思",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15036_3": {
+    "name": "失冕的宝冠",
+    "suit_id": 15036,
+    "suit_name": "未竟的遐思",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15037_4": {
+    "name": "驯兽师的护符",
+    "suit_id": 15037,
+    "suit_name": "烬城勇者绘卷",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15037_2": {
+    "name": "巡山客的信标",
+    "suit_id": 15037,
+    "suit_name": "烬城勇者绘卷",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15037_5": {
+    "name": "秘术家的金盘",
+    "suit_id": 15037,
+    "suit_name": "烬城勇者绘卷",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15037_1": {
+    "name": "游学者的爪杯",
+    "suit_id": 15037,
+    "suit_name": "烬城勇者绘卷",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15037_3": {
+    "name": "魔战士的羽面",
+    "suit_id": 15037,
+    "suit_name": "烬城勇者绘卷",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15038_4": {
+    "name": "异种的期许",
+    "suit_id": 15038,
+    "suit_name": "黑曜秘典",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15038_2": {
+    "name": "灵髓的根脉",
+    "suit_id": 15038,
+    "suit_name": "黑曜秘典",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15038_5": {
+    "name": "夜域的迷思",
+    "suit_id": 15038,
+    "suit_name": "黑曜秘典",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15038_1": {
+    "name": "纷争的前宴",
+    "suit_id": 15038,
+    "suit_name": "黑曜秘典",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15038_3": {
+    "name": "诸圣的礼冠",
+    "suit_id": 15038,
+    "suit_name": "黑曜秘典",
+    "part": "理之冠"
   }
 }

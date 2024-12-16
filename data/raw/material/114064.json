@@ -1,0 +1,68 @@
+{
+  "name": "贡祭炽心的荣膺",
+  "description": "赋予武器突破之力的材料。\\n「如果你想要拥有世上的一切，那就先将自己的一切献给世界吧。」\\n在禁城的圣主不再允许众人向夜晚的国度祈求之后，一度建立的精神的纽带业已荒毁。\\n受指引的赤瞳的少年经历种种考验，其最后一项就是要效仿最初的人神那样，用黄金的匕首献上自己的心脏。\\n自我的献祭是一种胜者的荣膺，他没有丝毫的犹豫，用烁光的利刃劈开自己的胸膛。而他再次出现的时候，已是从水如流光的国度归来，即将重造伟业的时刻了。",
+  "type": "武器突破素材",
+  "recipe": {
+    "12048": {
+      "114063": {
+        "name": "贡祭炽心的决绝",
+        "icon": "UI_ItemIcon_114063",
+        "rank": 4,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "炼武秘境：冥见",
+      "type": "domain",
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 11431,
+          "name": "息燧之笛",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_Isikhulu"
+        },
+        {
+          "id": 11430,
+          "name": "弥坚骨",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_Umpakati"
+        },
+        {
+          "id": 12431,
+          "name": "撼地者",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Claymore_Isikhulu"
+        },
+        {
+          "id": 14430,
+          "name": "乘浪的回旋",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_Umpakati"
+        },
+        {
+          "id": 14516,
+          "name": "冲浪时光",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Catalyst_MechaPufferfish"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_114064",
+  "rank": 5,
+  "route": "Blazing Sacrificial Heart's Splendor"
+}

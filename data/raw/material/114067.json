@@ -1,0 +1,68 @@
+{
+  "name": "谵妄圣主的容光",
+  "description": "赋予武器突破之力的材料。\\n那是端居在王座的，最初的人神走入了圣火，而凡俗的世界等待着王厅继任者的时代。\\n也是谋主代执一切权柄的时代。\\n可惜自称圣主的，这位认为他所爱的、他愿意为之垂下金泪的神应该永远只有那一位的僭越者，将私心凌驾于敬爱之神留下的诫言，建立了地天隔绝的城邑。",
+  "type": "武器突破素材",
+  "recipe": {
+    "12050": {
+      "114066": {
+        "name": "谵妄圣主的余哀",
+        "icon": "UI_ItemIcon_114066",
+        "rank": 3,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "炼武秘境：究观",
+      "type": "domain",
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 11432,
+          "name": "厄水之祸",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_SacrificialNgombe"
+        },
+        {
+          "id": 13431,
+          "name": "虹的行迹",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Pole_Isikhulu"
+        },
+        {
+          "id": 13430,
+          "name": "镇山之钉",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Pole_Umpakati"
+        },
+        {
+          "id": 14431,
+          "name": "木棉之环",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_Isikhulu"
+        },
+        {
+          "id": 12513,
+          "name": "山王长牙",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Claymore_EmeraldSword"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_114067",
+  "rank": 4,
+  "route": "Delirious Demeanor of the Sacred Lord"
+}

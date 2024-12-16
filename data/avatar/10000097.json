@@ -1,0 +1,131 @@
+{
+  "id": 10000097,
+  "name": "赛索斯",
+  "element": "雷",
+  "weapon": "弓",
+  "rank": 4,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Sethos",
+    "side": "UI_AvatarIcon_Side_Sethos",
+    "card": "UI_AvatarIcon_Sethos_Card",
+    "splash": "UI_Gacha_AvatarImg_Sethos",
+    "slice": "UI_Gacha_AvatarIcon_Sethos"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 820.61188,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        613.03912,
+        1048.61951,
+        1629.39343,
+        2064.97388,
+        2500.5542,
+        2936.13477
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 19.05456,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        14.23507,
+        24.34945,
+        37.83531,
+        47.9497,
+        58.06408,
+        68.17847
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 46.9245,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        35.055,
+        59.9625,
+        93.1725,
+        118.08,
+        142.9875,
+        167.895
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ELEMENT_MASTERY",
+      "promote": [
+        0,
+        24,
+        48,
+        48,
+        72,
+        96
+      ]
+    }
+  ],
+  "talent": {
+    "10971": {
+      "name": "普通攻击·王家苇箭术",
+      "icon": "Skill_A_02"
+    },
+    "10972": {
+      "name": "古仪·鸣砂掣雷",
+      "icon": "Skill_S_Sethos_01"
+    },
+    "10975": {
+      "name": "秘仪·瞑光贯影",
+      "icon": "Skill_E_Sethos_01"
+    },
+    "972101": {
+      "name": "黑鸢的密喻",
+      "icon": "UI_Talent_S_Sethos_05"
+    },
+    "972201": {
+      "name": "砂王的赐礼",
+      "icon": "UI_Talent_S_Sethos_06"
+    },
+    "972301": {
+      "name": "猿月的显迹",
+      "icon": "UI_Talent_S_Tighnari_07"
+    }
+  },
+  "constellation": {
+    "971": {
+      "name": "封龛谒灵歌",
+      "icon": "UI_Talent_S_Sethos_01"
+    },
+    "972": {
+      "name": "寂秘纸草经",
+      "icon": "UI_Talent_S_Sethos_02"
+    },
+    "973": {
+      "name": "月升哲贤颂",
+      "icon": "UI_Talent_U_Sethos_01"
+    },
+    "974": {
+      "name": "真念鸵羽集",
+      "icon": "UI_Talent_S_Sethos_03"
+    },
+    "975": {
+      "name": "荒神烈沙录",
+      "icon": "UI_Talent_U_Sethos_02"
+    },
+    "976": {
+      "name": "巡日塔门书",
+      "icon": "UI_Talent_S_Sethos_04"
+    }
+  },
+  "talent_fix": {
+    "10971": "普通攻击·王家苇箭术",
+    "10975": "秘仪·瞑光贯影"
+  },
+  "damage": [],
+  "buff": []
+}

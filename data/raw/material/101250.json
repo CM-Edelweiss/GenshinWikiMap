@@ -1,0 +1,36 @@
+{
+  "name": "肉龙掌",
+  "description": "形如巨大动物爪掌的多肉植物。",
+  "type": "纳塔区域特产",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": [
+    "o613"
+  ],
+  "source": [
+    {
+      "name": "推荐：硫晶支脉采集",
+      "type": "single"
+    },
+    {
+      "name": "前往采集",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000101,
+          "name": "基尼奇",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Kinich"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_101250",
+  "rank": 1,
+  "route": "Saurian Claw Succulent"
+}

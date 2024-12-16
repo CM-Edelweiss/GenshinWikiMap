@@ -1,0 +1,33 @@
+{
+  "id": "15035",
+  "name": "谐律异想断章",
+  "short_name": "谐律",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15035_4",
+  "part_list": {
+    "UI_RelicIcon_15035_4": {
+      "name": "谐律交响的前奏",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15035_2": {
+      "name": "古海玄幽的夜想",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15035_5": {
+      "name": "命途轮转的谐谑",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15035_1": {
+      "name": "灵露倾洒的狂诗",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15035_3": {
+      "name": "异想零落的圆舞",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

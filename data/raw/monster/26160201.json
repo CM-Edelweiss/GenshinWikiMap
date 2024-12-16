@@ -1,0 +1,138 @@
+{
+  "id": 26160201,
+  "name": "大天使海兔",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Aplysia_Mature",
+  "route": "Cherubic Sea Hare",
+  "title": "大天使海兔",
+  "specialName": "因原海而进化的生命",
+  "description": "天使海兔成年后的形态，背上的「双翼」实际上是储存元素能量的脂肪块。\\n这种水生动物究其一生都在进食、储存实际活动中并不需要的大量能量。或许在大海干涸后的末日，它能够继续存活很长的时间，或是成为其他生物的重要养分。",
+  "entries": {
+    "26160201": {
+      "id": 26160201,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 64.9378,
+          "type": "GROW_CURVE_HP_ENVIRONMENT"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 60,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112080": {
+          "name": "异海凝珠",
+          "rank": 1,
+          "icon": "UI_ItemIcon_112080",
+          "count": "0.8404"
+        },
+        "112081": {
+          "name": "异海之块",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112081",
+          "count": "0.2241"
+        },
+        "112082": {
+          "name": "异色结晶石",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112082",
+          "count": "0.056"
+        }
+      }
+    },
+    "26160202": {
+      "id": 26160202,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 35.3184,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 60,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112080": {
+          "name": "异海凝珠",
+          "rank": 1,
+          "icon": "UI_ItemIcon_112080",
+          "count": "0.8404"
+        },
+        "112081": {
+          "name": "异海之块",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112081",
+          "count": "0.2241"
+        },
+        "112082": {
+          "name": "异色结晶石",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112082",
+          "count": "0.056"
+        }
+      }
+    }
+  },
+  "tips": {
+    "306101": {
+      "images": [
+        "UI_Tutorial_196"
+      ],
+      "description": "因为枫丹的环境因素，而走上了独特进化道路的水生动物。在<color=#FFE14BFF>冰元素<\/color>加持下，能够进行更猛烈的元素攻击，并且拥有更强的防御能力。如果能利用<color=#FFE14BFF>元素反应<\/color>将它的元素护罩消除的话，或许就能轻松应对了吧。"
+    }
+  }
+}

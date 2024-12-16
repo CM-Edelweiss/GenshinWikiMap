@@ -1,0 +1,290 @@
+{
+  "id": 26190101,
+  "name": "隐山猊兽",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Hermit",
+  "route": "Solitary Suanni",
+  "title": "隐山猊兽",
+  "specialName": "悠古的群山之主",
+  "description": "优雅而高傲的灵兽，只栖息于仙力萦绕的深山中。\\n自古以来，这种仙兽便被认为是福运的象征，其隐居山林、远离世俗纷扰的特质也为历代文人墨客所赞赏。在沉玉谷当地的古老传说中，猊兽的首领名为「山主」，其地位往往被认为与仙人等同。\\n另有说法认为，如今伏行山林的玄文兽亦是这些仙兽的后嗣，只是因仙缘浅薄，难以继承如此高贵的血脉，从而退化为凶暴的野兽。这种说法与另一种关于玄文兽起源的说法相违背，但尽管如此，关于猊兽为数不多的记载中，其出现往往伴随着大量的玄文兽作为随从。\\n如今，沉玉谷家喻户晓的「舞兽戏」，便是模仿传说中猊兽的动作与神态进行的表演。然而，真正见到过猊兽的人少之又少，绝大多数人只能通过想象来描述这种生灵的模样。数千年的流变与艺术加工后，「兽首」最终也固定成了现今的样式。",
+  "entries": {
+    "26190101": {
+      "id": 26190101,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010030,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010030,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010030,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 225.4944,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 100.48,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.7,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.7,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "102": {
+          "name": "冒险阅历",
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "200"
+        },
+        "105": {
+          "name": "好感经验",
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "104121": {
+          "name": "涤净青金碎屑",
+          "rank": 2,
+          "icon": "UI_ItemIcon_104121"
+        },
+        "104122": {
+          "name": "涤净青金断片",
+          "rank": 3,
+          "icon": "UI_ItemIcon_104122"
+        },
+        "104123": {
+          "name": "涤净青金块",
+          "rank": 4,
+          "icon": "UI_ItemIcon_104123"
+        },
+        "104124": {
+          "name": "涤净青金",
+          "rank": 5,
+          "icon": "UI_ItemIcon_104124"
+        },
+        "104151": {
+          "name": "自在松石碎屑",
+          "rank": 2,
+          "icon": "UI_ItemIcon_104151"
+        },
+        "104152": {
+          "name": "自在松石断片",
+          "rank": 3,
+          "icon": "UI_ItemIcon_104152"
+        },
+        "104153": {
+          "name": "自在松石块",
+          "rank": 4,
+          "icon": "UI_ItemIcon_104153"
+        },
+        "104154": {
+          "name": "自在松石",
+          "rank": 5,
+          "icon": "UI_ItemIcon_104154"
+        },
+        "113058": {
+          "name": "凝云鳞甲",
+          "rank": 4,
+          "icon": "UI_ItemIcon_113058",
+          "count": "2.5556"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400052": {
+          "name": "幸运儿",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10011_4"
+        },
+        "400088": {
+          "name": "角斗士的终幕礼",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "name": "角斗士的终幕礼",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "name": "流浪大地的乐团",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "name": "流浪大地的乐团",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        }
+      }
+    },
+    "26190102": {
+      "id": 26190102,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "4.4-WQ-南山隐兽标记",
+          "description": "4.4-WQ-南山隐兽标记",
+          "abilityName": [
+            "MonsterAffix_Hermit_WQTag"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010030,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010030,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010030,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 225.4944,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 100.48,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.7,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.7,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "26190103": {
+      "id": 26190103,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "4.4-南山隐兽爬塔标记",
+          "description": "4.4-南山隐兽爬塔标记",
+          "abilityName": [
+            "MonsterAffix_Hermit_AbyssTag"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010030,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010030,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010030,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 225.4944,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 100.48,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.7,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.7,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": {
+    "307001": {
+      "images": [
+        "UI_Tutorial_206"
+      ],
+      "description": "栖息于深山中的仙兽，能够同时驱使<color=#FFE14BFF>水元素<\/color>与<color=#FFE14BFF>风元素<\/color>进行战斗。在其汇集<color=#FFE14BFF>水元素<\/color>的仙力时将其冻结，再通过<color=#FFE14BFF>碎冰或融化等元素反应<\/color>将坚冰击碎，能使其暂时陷入无法行动的状态；在其汇集<color=#FFE14BFF>风元素<\/color>的仙力时，通过<color=#FFE14BFF>能与风元素反应的元素类型的攻击<\/color>，击破其唤出的灵风珠，也能取得同样的优势。"
+    }
+  }
+}

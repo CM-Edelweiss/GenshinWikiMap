@@ -1,0 +1,34 @@
+{
+  "name": "枯叶紫英",
+  "description": "叶片与花瓣呈现枯焦之态的花朵，常常能在流灰弥漫之处看到它。",
+  "type": "纳塔区域特产",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "推荐：奥奇卡纳塔采集",
+      "type": "single"
+    },
+    {
+      "name": "前往采集",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000104,
+          "name": "恰斯卡",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Chasca"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_101253",
+  "rank": 1,
+  "route": "Withering Purpurbloom"
+}

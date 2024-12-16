@@ -1,0 +1,65 @@
+{
+  "name": "否定裁断",
+  "description": "完成与「仆人」的决斗后，在废墟中拾起的耳钉。\\n红色的符号如同她眼中的图案，既是申敕也是否决。\\n失怙失恃的孩子们自幼就蒙受诸般苦难，这些她都记在心底。\\n命运审视人间，亦将有人审视命运。",
+  "type": "角色培养素材",
+  "recipe": {
+    "60905": {
+      "113021": {
+        "name": "异梦溶媒",
+        "icon": "UI_ItemIcon_113021",
+        "rank": 4,
+        "count": 1
+      },
+      "113060": {
+        "name": "残火灯烛",
+        "icon": "UI_ItemIcon_113060",
+        "rank": 5,
+        "count": 1
+      }
+    },
+    "60906": {
+      "113021": {
+        "name": "异梦溶媒",
+        "icon": "UI_ItemIcon_113021",
+        "rank": 4,
+        "count": 1
+      },
+      "113061": {
+        "name": "丝织之羽",
+        "icon": "UI_ItemIcon_113061",
+        "rank": 5,
+        "count": 1
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "70级以上「仆人」挑战奖励",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000101,
+          "name": "基尼奇",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Kinich"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 29091001,
+        "name": "「仆人」",
+        "icon": "UI_MonsterIcon_Nihil"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_113062",
+  "rank": 5,
+  "route": "Denial and Judgment"
+}

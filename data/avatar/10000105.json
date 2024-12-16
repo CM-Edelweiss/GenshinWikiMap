@@ -1,0 +1,135 @@
+{
+  "id": 10000105,
+  "name": "欧洛伦",
+  "element": "雷",
+  "weapon": "弓",
+  "rank": 4,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Olorun",
+    "side": "UI_AvatarIcon_Side_Olorun",
+    "card": "UI_AvatarIcon_Olorun_Card",
+    "splash": "UI_Gacha_AvatarImg_Olorun",
+    "slice": "UI_Gacha_AvatarIcon_Olorun"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 775.02234,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        578.98138,
+        990.36285,
+        1538.87158,
+        1950.25305,
+        2361.63452,
+        2773.01611
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 20.4792,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        15.29937,
+        26.16998,
+        40.66412,
+        51.53472,
+        62.40533,
+        73.27593
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 49.2135,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        36.765,
+        62.8875,
+        97.7175,
+        123.84,
+        149.96249,
+        176.08501
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ATTACK_PERCENT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "30501": {
+      "name": "普通攻击·宿灵闪箭",
+      "icon": "Skill_A_02"
+    },
+    "30502": {
+      "name": "暝色缒索",
+      "icon": "Skill_S_Olorun_01"
+    },
+    "30505": {
+      "name": "黯声回响",
+      "icon": "Skill_E_Olorun_01"
+    },
+    "1052101": {
+      "name": "夜翳的通感",
+      "icon": "UI_Talent_S_Olorun_05"
+    },
+    "1052201": {
+      "name": "灵相的触媒",
+      "icon": "UI_Talent_S_Olorun_06"
+    },
+    "1052301": {
+      "name": "夜域赐礼·流雾跃影",
+      "icon": "UI_Talent_S_Olorun_07"
+    },
+    "1052501": {
+      "name": "皮行的巧技",
+      "icon": "UI_Talent_S_Olorun_08"
+    }
+  },
+  "constellation": {
+    "1051": {
+      "name": "林雾间的行迹",
+      "icon": "UI_Talent_S_Olorun_01"
+    },
+    "1052": {
+      "name": "藏蜜酒的王蜂",
+      "icon": "UI_Talent_S_Olorun_02"
+    },
+    "1053": {
+      "name": "栖地蝠的灵笼",
+      "icon": "UI_Talent_U_Olorun_01"
+    },
+    "1054": {
+      "name": "如夜风的谜烟",
+      "icon": "UI_Talent_S_Olorun_03"
+    },
+    "1055": {
+      "name": "为心魂的献礼",
+      "icon": "UI_Talent_U_Olorun_02"
+    },
+    "1056": {
+      "name": "致深泉的颂赞",
+      "icon": "UI_Talent_S_Olorun_04"
+    }
+  },
+  "talent_fix": {
+    "30505": "黯声回响",
+    "30502": "暝色缒索"
+  },
+  "damage": [],
+  "buff": []
+}

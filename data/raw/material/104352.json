@@ -1,0 +1,56 @@
+{
+  "name": "「焚燔」的哲学",
+  "description": "天赋培养素材。\\n火之国土的成规是焚燔。\\n所谓的焚燔，是在得到之前，先献出代价，但往往并非一定会有回应与回报。不求回报地付出代价，才是焚燔的真意，因为取得成果的日子终究会到来。",
+  "type": "角色天赋素材",
+  "recipe": {
+    "13034": {
+      "104351": {
+        "name": "「焚燔」的指引",
+        "icon": "UI_ItemIcon_104351",
+        "rank": 3,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "精通秘境：空华",
+      "type": "domain",
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000101,
+          "name": "基尼奇",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Kinich"
+        },
+        {
+          "id": 10000103,
+          "name": "希诺宁",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Xilonen"
+        },
+        {
+          "id": 10000105,
+          "name": "欧洛伦",
+          "rank": 4,
+          "icon": "UI_AvatarIcon_Olorun"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_104352",
+  "rank": 4,
+  "route": "Philosophies of Kindling"
+}

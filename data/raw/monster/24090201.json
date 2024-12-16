@@ -1,0 +1,166 @@
+{
+  "id": 24090201,
+  "name": "秘源机兵·构型械",
+  "type": "自律机关",
+  "icon": "UI_MonsterIcon_DragonClaw",
+  "route": "Secret Source Automaton: Configuration Device",
+  "title": "秘源机兵·构型械",
+  "specialName": "深古遗迹建造机关",
+  "description": "深古遗迹的制造用机械体。远古遗迹的主人们用这种会改变形态的机器进行各种制造的工作，只要学会如何利用这样的机械，即使是在类似火山内部的极端环境里，也能够构造超乎想象的庞然城市。\\n除此之外，似乎也被作为兵器使用。古老的文明早已失落，但在金纹铭刻命令的驱动之下，形如巨爪的机械体仍能按预先设定的进程进行战斗。",
+  "entries": {
+    "24090201": {
+      "id": 24090201,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010030,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010030,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010030,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 353.18399,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 100.48,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "102": {
+          "name": "冒险阅历",
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "200"
+        },
+        "105": {
+          "name": "好感经验",
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "104141": {
+          "name": "最胜紫晶碎屑",
+          "rank": 2,
+          "icon": "UI_ItemIcon_104141"
+        },
+        "104142": {
+          "name": "最胜紫晶断片",
+          "rank": 3,
+          "icon": "UI_ItemIcon_104142"
+        },
+        "104143": {
+          "name": "最胜紫晶块",
+          "rank": 4,
+          "icon": "UI_ItemIcon_104143"
+        },
+        "104144": {
+          "name": "最胜紫晶",
+          "rank": 5,
+          "icon": "UI_ItemIcon_104144"
+        },
+        "113066": {
+          "name": "秘刻金纹的源核",
+          "rank": 4,
+          "icon": "UI_ItemIcon_113066",
+          "count": "2.5556"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        },
+        "400088": {
+          "name": "角斗士的终幕礼",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "name": "角斗士的终幕礼",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "name": "流浪大地的乐团",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "name": "流浪大地的乐团",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400137": {
+          "name": "祭雷之人",
+          "rank": 3,
+          "icon": "UI_RelicIcon_15011_3"
+        },
+        "400138": {
+          "name": "祭雷之人",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15011_3"
+        }
+      }
+    }
+  },
+  "tips": {
+    "308201": {
+      "images": [
+        "UI_Tutorial_218"
+      ],
+      "description": "具备强大的摧毁与破坏的机能的机械体。在角色进入和维持「夜魂加持」状态时，秘源机兵·构型械会积累「应战对策」的进度，进度积累满后，将开始准备「球状雷炮」，过程中，秘源机兵·构型械会启动「汲聚械」开掘固态燃素并汲取燃素。「汲聚械」自身会产生力场，如果想要破坏「汲聚械」以打断「球状雷炮」的蓄能，<color=#FFE14BFF>就得先攀上固态燃素进入力场内才行。<\/color>"
+    }
+  }
+}

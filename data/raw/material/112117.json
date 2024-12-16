@@ -1,0 +1,55 @@
+{
+  "name": "惑光的阔叶",
+  "description": "名为深邃拟覆叶的魔物在被击败后所掉落的箭形叶片。\\n在侵蚀地脉并抽取其中的记忆后，魔物所生长出的承载自身解析出信息的载体。魔物能够拟态复现何种形态，或许与这些具有复杂纹路的枝叶息息相关。",
+  "type": "角色与武器培养素材",
+  "recipe": {
+    "11071": {
+      "112116": {
+        "name": "折光的胚芽",
+        "icon": "UI_ItemIcon_112116",
+        "rank": 2,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "40级以上深邃拟覆叶掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 11432,
+          "name": "厄水之祸",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_SacrificialNgombe"
+        },
+        {
+          "id": 15514,
+          "name": "星鹫赤羽",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Bow_Qoyllorsnova"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 22120201,
+        "name": "深邃拟覆叶",
+        "icon": "UI_MonsterIcon_TheAbyss_Rhizome"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_112117",
+  "rank": 3,
+  "route": "Bewildering Broadleaf"
+}

@@ -1,0 +1,68 @@
+{
+  "name": "意志破碎的残片",
+  "description": "大灵显化身寄宿的残片。\\n破碎的石偶断片，其承载的「大灵」意志与力量也十分有限。",
+  "type": "角色与武器培养素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "大灵显化身掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 11430,
+          "name": "弥坚骨",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_Umpakati"
+        },
+        {
+          "id": 14431,
+          "name": "木棉之环",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_Isikhulu"
+        },
+        {
+          "id": 14430,
+          "name": "乘浪的回旋",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_Umpakati"
+        },
+        {
+          "id": 14516,
+          "name": "冲浪时光",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Catalyst_MechaPufferfish"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 26260101,
+        "name": "窟岩·大灵显化身",
+        "icon": "UI_MonsterIcon_Wayob_Drillhead"
+      },
+      {
+        "id": 26260201,
+        "name": "溯流·大灵显化身",
+        "icon": "UI_MonsterIcon_Wayob_Mosasaurus"
+      },
+      {
+        "id": 26260301,
+        "name": "疾叶·大灵显化身",
+        "icon": "UI_MonsterIcon_Wayob_Hookwalker"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_112107",
+  "rank": 2,
+  "route": "Shard of a Shattered Will"
+}

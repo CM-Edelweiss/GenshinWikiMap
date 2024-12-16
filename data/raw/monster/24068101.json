@@ -1,0 +1,458 @@
+{
+  "id": 24068101,
+  "name": "机关·侦察记录型",
+  "type": "自律机关",
+  "icon": "UI_MonsterIcon_MachinaIustitia_Sentry",
+  "route": "Recon Log Mek",
+  "title": "机关·侦察记录型",
+  "specialName": "Ser.438412",
+  "description": "最早设计制造的新式发条机关机械之一。\\n据说「奇械公」吉约丹在自然哲学学院的时期，曾经做出了能够真正模拟智慧思考的机械。\\n尽管他从未正式承认过这种说法，这一传奇仍在日后激起了许多工程师的斗志。数十年前曾有人宣布创造了具有基础思考能力，并能够解读人类情感的发条机关，但最后相关的成果并未得到认同。",
+  "entries": {
+    "24060101": {
+      "id": 24060101,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "正义机器-荒",
+          "description": "正义机器-荒性词缀",
+          "abilityName": [
+            "Monster_MachinaIustitia_Pneuma"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "正义机器-天线",
+          "description": "正义机器-天线词缀",
+          "abilityName": [
+            "Monster_MachinaIustitia_Coil_01"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 21.7344,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 22.608,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": "Pneuma",
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112083": {
+          "name": "啮合齿轮",
+          "rank": 1,
+          "icon": "UI_ItemIcon_112083",
+          "count": "1.2606"
+        },
+        "112084": {
+          "name": "机关正齿轮",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112084",
+          "count": "0.3362"
+        },
+        "112085": {
+          "name": "奇械机芯齿轮",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112085",
+          "count": "0.084"
+        }
+      }
+    },
+    "24060102": {
+      "id": 24060102,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "正义机器-荒",
+          "description": "正义机器-荒性词缀",
+          "abilityName": [
+            "Monster_MachinaIustitia_Pneuma"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "正义机器-电池",
+          "description": "正义机器-电池词缀",
+          "abilityName": [
+            "Monster_MachinaIustitia_Coil_02"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 21.7344,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 22.608,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": "Pneuma",
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112083": {
+          "name": "啮合齿轮",
+          "rank": 1,
+          "icon": "UI_ItemIcon_112083",
+          "count": "1.2606"
+        },
+        "112084": {
+          "name": "机关正齿轮",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112084",
+          "count": "0.3362"
+        },
+        "112085": {
+          "name": "奇械机芯齿轮",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112085",
+          "count": "0.084"
+        }
+      }
+    },
+    "24065101": {
+      "id": 24065101,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "正义机器-光",
+          "description": "正义机器-光性词缀",
+          "abilityName": [
+            "Monster_MachinaIustitia_Ousia"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "正义机器-天线",
+          "description": "正义机器-天线词缀",
+          "abilityName": [
+            "Monster_MachinaIustitia_Coil_01"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 21.7344,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 22.608,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": "Ousia",
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112083": {
+          "name": "啮合齿轮",
+          "rank": 1,
+          "icon": "UI_ItemIcon_112083",
+          "count": "1.2606"
+        },
+        "112084": {
+          "name": "机关正齿轮",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112084",
+          "count": "0.3362"
+        },
+        "112085": {
+          "name": "奇械机芯齿轮",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112085",
+          "count": "0.084"
+        }
+      }
+    },
+    "24065102": {
+      "id": 24065102,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "正义机器-光",
+          "description": "正义机器-光性词缀",
+          "abilityName": [
+            "Monster_MachinaIustitia_Ousia"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "正义机器-电池",
+          "description": "正义机器-电池词缀",
+          "abilityName": [
+            "Monster_MachinaIustitia_Coil_02"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 21.7344,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 22.608,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": "Ousia",
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112083": {
+          "name": "啮合齿轮",
+          "rank": 1,
+          "icon": "UI_ItemIcon_112083",
+          "count": "1.2606"
+        },
+        "112084": {
+          "name": "机关正齿轮",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112084",
+          "count": "0.3362"
+        },
+        "112085": {
+          "name": "奇械机芯齿轮",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112085",
+          "count": "0.084"
+        }
+      }
+    },
+    "24065103": {
+      "id": 24065103,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "正义机器-光",
+          "description": "正义机器-光性词缀",
+          "abilityName": [
+            "Monster_MachinaIustitia_Ousia"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "正义机器-天线",
+          "description": "正义机器-天线词缀",
+          "abilityName": [
+            "Monster_MachinaIustitia_Coil_01"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 21.7344,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 22.608,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": "Ousia",
+      "reward": null
+    },
+    "24068101": {
+      "id": 24068101,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "正义机器-荒",
+          "description": "正义机器-荒性词缀",
+          "abilityName": [
+            "Monster_MachinaIustitia_Pneuma"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "正义机器-天线",
+          "description": "正义机器-天线词缀",
+          "abilityName": [
+            "Monster_MachinaIustitia_Coil_01"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 21.7344,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 22.608,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": "Pneuma",
+      "reward": null
+    }
+  },
+  "tips": {
+    "304801": {
+      "images": [
+        "UI_Tutorial_182"
+      ],
+      "description": "基于枫丹的精密装置技术与特殊的能源技术，制造出的机械。基于其外显的<color=#FFE14BFF>荒性或芒性<\/color>能源特征，在战斗中能采取不同的行动；而这种能量特征在被<color=#FFE14BFF>对立性质的攻击<\/color>湮灭后，将会因为供能过载而失能，并在之后以应急能源进行低限度的战斗行动。"
+    }
+  }
+}

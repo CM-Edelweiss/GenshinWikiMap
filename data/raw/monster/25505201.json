@@ -1,0 +1,197 @@
+{
+  "id": 25505201,
+  "name": "流刃勇士·掷叉猎手",
+  "type": "其他人类势力",
+  "icon": "UI_MonsterIcon_Human_Fat_NoWeapon_Mosasaurus",
+  "route": "Flowing Blade Harpoon-Thrower",
+  "title": "流刃勇士·掷叉猎手",
+  "specialName": "部族忠诚的护卫",
+  "description": "来自流泉之源的勇士，在临水流域巡游的部族守卫者。\\n手中常握着长叉的勇士，他们在渔猎中习得的本领不容小觑。据说，从前的部族人就是凭借这手技巧，在海面上追逐鳍鳞坚韧的巨兽。",
+  "entries": {
+    "25505201": {
+      "id": 25505201,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "部落战士-游猎龙部落标记",
+          "description": "影响部落特殊技的施放",
+          "abilityName": [
+            "Monster_Human_TribeUltMark_Mosasaurus",
+            "Monster_Human_Mosasaurus_TribeUlt",
+            "Monster_Human_Mosasaurus_TribeUlt_UltAttackState_On",
+            "Monster_Human_Mosasaurus_TribeUlt_UltAttackState_Off"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "部落战士-胖子游猎龙投枪",
+          "description": "控制投枪手中特效与Bullet",
+          "abilityName": [
+            "Monster_Tribalwarrior_Male_Fat_NoWeapon_SpearThrow_Mosasaurus"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "部落战士-战前喷漆罐-暖色",
+          "description": "战前喷漆手中的Item颜色",
+          "abilityName": [
+            "Monster_Human_FreePoseManager_SprayCan_Warm"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 21.7344,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 25.12,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112104": {
+          "name": "卫从的木哨",
+          "rank": 1,
+          "icon": "UI_ItemIcon_112104",
+          "count": "1.2606"
+        },
+        "112105": {
+          "name": "战士的铁哨",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112105",
+          "count": "0.3362"
+        },
+        "112106": {
+          "name": "龙冠武士的金哨",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112106",
+          "count": "0.084"
+        }
+      }
+    },
+    "25505202": {
+      "id": 25505202,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "部落战士-游猎龙部落标记",
+          "description": "影响部落特殊技的施放",
+          "abilityName": [
+            "Monster_Human_TribeUltMark_Mosasaurus",
+            "Monster_Human_Mosasaurus_TribeUlt",
+            "Monster_Human_Mosasaurus_TribeUlt_UltAttackState_On",
+            "Monster_Human_Mosasaurus_TribeUlt_UltAttackState_Off"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "部落战士-胖子游猎龙投枪",
+          "description": "控制投枪手中特效与Bullet",
+          "abilityName": [
+            "Monster_Tribalwarrior_Male_Fat_NoWeapon_SpearThrow_Mosasaurus"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "部落战士-战前喷漆罐-暖色",
+          "description": "战前喷漆手中的Item颜色",
+          "abilityName": [
+            "Monster_Human_FreePoseManager_SprayCan_Warm"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 21.7344,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 25.12,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112104": {
+          "name": "卫从的木哨",
+          "rank": 1,
+          "icon": "UI_ItemIcon_112104",
+          "count": "1.2606"
+        },
+        "112105": {
+          "name": "战士的铁哨",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112105",
+          "count": "0.3362"
+        },
+        "112106": {
+          "name": "龙冠武士的金哨",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112106",
+          "count": "0.084"
+        }
+      }
+    }
+  },
+  "tips": null
+}

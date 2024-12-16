@@ -1,0 +1,23 @@
+{
+  "name": "雷腾云奔之翼",
+  "description": "风之翼款式。因为得到稻妻的认可与嘉许，而获赠的礼物。",
+  "type": "风之翼",
+  "recipe": null,
+  "storyId": [
+    "140008"
+  ],
+  "mapMark": null,
+  "source": [
+    {
+      "name": "稻妻声望达到一定等级后获得",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": null,
+    "droppedBy": null
+  },
+  "icon": "UI_FlycloakIcon_Thunderclap",
+  "rank": 4,
+  "route": "Wings of the Stormstrider"
+}

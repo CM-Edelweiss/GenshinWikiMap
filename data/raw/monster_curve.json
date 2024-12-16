@@ -12,7 +12,10 @@
       "GROW_CURVE_MHP": 1,
       "GROW_CURVE_MATK": 1,
       "GROW_CURVE_HP_2": 5.40489,
-      "GROW_CURVE_ATTACK_2": 2.02052
+      "GROW_CURVE_ATTACK_2": 2.02052,
+      "GROW_CURVE_HP_ENVIRONMENT": 17.16561,
+      "growCurveType_Unknown_5201": 7.89513,
+      "growCurveType_Unknown_5202": 14.18197
     }
   },
   "2": {
@@ -28,7 +31,10 @@
       "GROW_CURVE_MHP": 4.3771,
       "GROW_CURVE_MATK": 1.64822,
       "GROW_CURVE_HP_2": 6.86757,
-      "GROW_CURVE_ATTACK_2": 2.32577
+      "GROW_CURVE_ATTACK_2": 2.32577,
+      "GROW_CURVE_HP_ENVIRONMENT": 18.53505,
+      "growCurveType_Unknown_5201": 8.17355,
+      "growCurveType_Unknown_5202": 14.6821
     }
   },
   "3": {
@@ -44,7 +50,10 @@
       "GROW_CURVE_MHP": 7.7542,
       "GROW_CURVE_MATK": 2.29643,
       "GROW_CURVE_HP_2": 8.48329,
-      "GROW_CURVE_ATTACK_2": 2.65371
+      "GROW_CURVE_ATTACK_2": 2.65371,
+      "GROW_CURVE_HP_ENVIRONMENT": 19.90485,
+      "growCurveType_Unknown_5201": 8.46179,
+      "growCurveType_Unknown_5202": 15.19986
     }
   },
   "4": {
@@ -60,7 +69,10 @@
       "GROW_CURVE_MHP": 11.1313,
       "GROW_CURVE_MATK": 2.94464,
       "GROW_CURVE_HP_2": 10.25221,
-      "GROW_CURVE_ATTACK_2": 3.00456
+      "GROW_CURVE_ATTACK_2": 3.00456,
+      "GROW_CURVE_HP_ENVIRONMENT": 21.2749,
+      "growCurveType_Unknown_5201": 8.7602,
+      "growCurveType_Unknown_5202": 15.73588
     }
   },
   "5": {
@@ -76,7 +88,10 @@
       "GROW_CURVE_MHP": 14.5084,
       "GROW_CURVE_MATK": 3.59286,
       "GROW_CURVE_HP_2": 12.17454,
-      "GROW_CURVE_ATTACK_2": 3.37863
+      "GROW_CURVE_ATTACK_2": 3.37863,
+      "GROW_CURVE_HP_ENVIRONMENT": 22.6454,
+      "growCurveType_Unknown_5201": 9.06913,
+      "growCurveType_Unknown_5202": 16.29081
     }
   },
   "6": {
@@ -92,7 +107,10 @@
       "GROW_CURVE_MHP": 17.8855,
       "GROW_CURVE_MATK": 4.24107,
       "GROW_CURVE_HP_2": 14.25199,
-      "GROW_CURVE_ATTACK_2": 3.77619
+      "GROW_CURVE_ATTACK_2": 3.77619,
+      "GROW_CURVE_HP_ENVIRONMENT": 24.64961,
+      "growCurveType_Unknown_5201": 9.38895,
+      "growCurveType_Unknown_5202": 16.8653
     }
   },
   "7": {
@@ -108,7 +126,10 @@
       "GROW_CURVE_MHP": 21.2626,
       "GROW_CURVE_MATK": 4.88929,
       "GROW_CURVE_HP_2": 16.4838,
-      "GROW_CURVE_ATTACK_2": 4.19745
+      "GROW_CURVE_ATTACK_2": 4.19745,
+      "GROW_CURVE_HP_ENVIRONMENT": 26.64064,
+      "growCurveType_Unknown_5201": 9.72005,
+      "growCurveType_Unknown_5202": 17.46005
     }
   },
   "8": {
@@ -124,7 +145,10 @@
       "GROW_CURVE_MHP": 24.6397,
       "GROW_CURVE_MATK": 5.5375,
       "GROW_CURVE_HP_2": 17.65636,
-      "GROW_CURVE_ATTACK_2": 4.58077
+      "GROW_CURVE_ATTACK_2": 4.58077,
+      "GROW_CURVE_HP_ENVIRONMENT": 28.86859,
+      "growCurveType_Unknown_5201": 10.06282,
+      "growCurveType_Unknown_5202": 18.07578
     }
   },
   "9": {
@@ -140,7 +164,10 @@
       "GROW_CURVE_MHP": 28.0168,
       "GROW_CURVE_MATK": 6.18572,
       "GROW_CURVE_HP_2": 19.4361,
-      "GROW_CURVE_ATTACK_2": 4.98102
+      "GROW_CURVE_ATTACK_2": 4.98102,
+      "GROW_CURVE_HP_ENVIRONMENT": 31.36768,
+      "growCurveType_Unknown_5201": 10.41769,
+      "growCurveType_Unknown_5202": 18.71322
     }
   },
   "10": {
@@ -156,7 +183,10 @@
       "GROW_CURVE_MHP": 31.3939,
       "GROW_CURVE_MATK": 6.83393,
       "GROW_CURVE_HP_2": 21.28747,
-      "GROW_CURVE_ATTACK_2": 5.39831
+      "GROW_CURVE_ATTACK_2": 5.39831,
+      "GROW_CURVE_HP_ENVIRONMENT": 34.14334,
+      "growCurveType_Unknown_5201": 10.78507,
+      "growCurveType_Unknown_5202": 19.37314
     }
   },
   "11": {
@@ -172,7 +202,10 @@
       "GROW_CURVE_MHP": 34.771,
       "GROW_CURVE_MATK": 7.48215,
       "GROW_CURVE_HP_2": 24.35019,
-      "GROW_CURVE_ATTACK_2": 5.95895
+      "GROW_CURVE_ATTACK_2": 5.95895,
+      "GROW_CURVE_HP_ENVIRONMENT": 37.201,
+      "growCurveType_Unknown_5201": 11.1654,
+      "growCurveType_Unknown_5202": 20.05634
     }
   },
   "12": {
@@ -188,7 +221,10 @@
       "GROW_CURVE_MHP": 38.1481,
       "GROW_CURVE_MATK": 8.13036,
       "GROW_CURVE_HP_2": 27.5385,
-      "GROW_CURVE_ATTACK_2": 6.54609
+      "GROW_CURVE_ATTACK_2": 6.54609,
+      "GROW_CURVE_HP_ENVIRONMENT": 40.66,
+      "growCurveType_Unknown_5201": 11.55915,
+      "growCurveType_Unknown_5202": 20.76362
     }
   },
   "13": {
@@ -204,7 +240,10 @@
       "GROW_CURVE_MHP": 41.5252,
       "GROW_CURVE_MATK": 8.77858,
       "GROW_CURVE_HP_2": 30.85461,
-      "GROW_CURVE_ATTACK_2": 7.16003
+      "GROW_CURVE_ATTACK_2": 7.16003,
+      "GROW_CURVE_HP_ENVIRONMENT": 44.44667,
+      "growCurveType_Unknown_5201": 11.96678,
+      "growCurveType_Unknown_5202": 21.49585
     }
   },
   "14": {
@@ -220,7 +259,10 @@
       "GROW_CURVE_MHP": 44.9023,
       "GROW_CURVE_MATK": 9.42679,
       "GROW_CURVE_HP_2": 34.54248,
-      "GROW_CURVE_ATTACK_2": 7.829
+      "GROW_CURVE_ATTACK_2": 7.829,
+      "GROW_CURVE_HP_ENVIRONMENT": 48.56352,
+      "growCurveType_Unknown_5201": 12.38879,
+      "growCurveType_Unknown_5202": 22.2539
     }
   },
   "15": {
@@ -236,7 +278,10 @@
       "GROW_CURVE_MHP": 48.2794,
       "GROW_CURVE_MATK": 10.07501,
       "GROW_CURVE_HP_2": 38.37272,
-      "GROW_CURVE_ATTACK_2": 8.5272
+      "GROW_CURVE_ATTACK_2": 8.5272,
+      "GROW_CURVE_HP_ENVIRONMENT": 53.74848,
+      "growCurveType_Unknown_5201": 12.82568,
+      "growCurveType_Unknown_5202": 23.03868
     }
   },
   "16": {
@@ -252,7 +297,10 @@
       "GROW_CURVE_MHP": 51.6565,
       "GROW_CURVE_MATK": 10.72322,
       "GROW_CURVE_HP_2": 42.34791,
-      "GROW_CURVE_ATTACK_2": 9.255
+      "GROW_CURVE_ATTACK_2": 9.255,
+      "GROW_CURVE_HP_ENVIRONMENT": 59.0819,
+      "growCurveType_Unknown_5201": 13.27798,
+      "growCurveType_Unknown_5202": 23.85114
     }
   },
   "17": {
@@ -268,7 +316,10 @@
       "GROW_CURVE_MHP": 55.0336,
       "GROW_CURVE_MATK": 11.37144,
       "GROW_CURVE_HP_2": 47.13023,
-      "GROW_CURVE_ATTACK_2": 10.24456
+      "GROW_CURVE_ATTACK_2": 10.24456,
+      "GROW_CURVE_HP_ENVIRONMENT": 64.42004,
+      "growCurveType_Unknown_5201": 13.74622,
+      "growCurveType_Unknown_5202": 24.69225
     }
   },
   "18": {
@@ -284,7 +335,10 @@
       "GROW_CURVE_MHP": 58.4107,
       "GROW_CURVE_MATK": 12.01965,
       "GROW_CURVE_HP_2": 51.37316,
-      "GROW_CURVE_ATTACK_2": 11.26446
+      "GROW_CURVE_ATTACK_2": 11.26446,
+      "GROW_CURVE_HP_ENVIRONMENT": 69.72446,
+      "growCurveType_Unknown_5201": 14.23098,
+      "growCurveType_Unknown_5202": 25.56301
     }
   },
   "19": {
@@ -300,7 +354,10 @@
       "GROW_CURVE_MHP": 61.7878,
       "GROW_CURVE_MATK": 12.66786,
       "GROW_CURVE_HP_2": 57.93308,
-      "GROW_CURVE_ATTACK_2": 12.31476
+      "GROW_CURVE_ATTACK_2": 12.31476,
+      "GROW_CURVE_HP_ENVIRONMENT": 75.12314,
+      "growCurveType_Unknown_5201": 14.73284,
+      "growCurveType_Unknown_5202": 26.46449
     }
   },
   "20": {
@@ -316,7 +373,10 @@
       "GROW_CURVE_MHP": 65.1649,
       "GROW_CURVE_MATK": 13.31608,
       "GROW_CURVE_HP_2": 62.65643,
-      "GROW_CURVE_ATTACK_2": 13.31608
+      "GROW_CURVE_ATTACK_2": 13.31608,
+      "GROW_CURVE_HP_ENVIRONMENT": 80.58478,
+      "growCurveType_Unknown_5201": 15.25239,
+      "growCurveType_Unknown_5202": 27.39776
     }
   },
   "21": {
@@ -332,7 +392,10 @@
       "GROW_CURVE_MHP": 74.80162,
       "GROW_CURVE_MATK": 14.27613,
       "GROW_CURVE_HP_2": 67.4997,
-      "GROW_CURVE_ATTACK_2": 14.26676
+      "GROW_CURVE_ATTACK_2": 14.26676,
+      "GROW_CURVE_HP_ENVIRONMENT": 86.11203,
+      "growCurveType_Unknown_5201": 15.79026,
+      "growCurveType_Unknown_5202": 28.36394
     }
   },
   "22": {
@@ -348,7 +411,10 @@
       "GROW_CURVE_MHP": 84.43834,
       "GROW_CURVE_MATK": 15.23617,
       "GROW_CURVE_HP_2": 72.46275,
-      "GROW_CURVE_ATTACK_2": 15.24058
+      "GROW_CURVE_ATTACK_2": 15.24058,
+      "GROW_CURVE_HP_ENVIRONMENT": 91.70374,
+      "growCurveType_Unknown_5201": 16.34711,
+      "growCurveType_Unknown_5202": 29.36419
     }
   },
   "23": {
@@ -364,7 +430,10 @@
       "GROW_CURVE_MHP": 94.07507,
       "GROW_CURVE_MATK": 16.19622,
       "GROW_CURVE_HP_2": 77.45362,
-      "GROW_CURVE_ATTACK_2": 16.20382
+      "GROW_CURVE_ATTACK_2": 16.20382,
+      "GROW_CURVE_HP_ENVIRONMENT": 97.24463,
+      "growCurveType_Unknown_5201": 16.92359,
+      "growCurveType_Unknown_5202": 30.39972
     }
   },
   "24": {
@@ -380,7 +449,10 @@
       "GROW_CURVE_MHP": 103.71178,
       "GROW_CURVE_MATK": 17.15627,
       "GROW_CURVE_HP_2": 82.53305,
-      "GROW_CURVE_ATTACK_2": 17.18874
+      "GROW_CURVE_ATTACK_2": 17.18874,
+      "GROW_CURVE_HP_ENVIRONMENT": 102.81264,
+      "growCurveType_Unknown_5201": 17.52039,
+      "growCurveType_Unknown_5202": 31.47176
     }
   },
   "25": {
@@ -396,7 +468,10 @@
       "GROW_CURVE_MHP": 113.34851,
       "GROW_CURVE_MATK": 18.11632,
       "GROW_CURVE_HP_2": 87.70267,
-      "GROW_CURVE_ATTACK_2": 18.19529
+      "GROW_CURVE_ATTACK_2": 18.19529,
+      "GROW_CURVE_HP_ENVIRONMENT": 108.40956,
+      "growCurveType_Unknown_5201": 18.13825,
+      "growCurveType_Unknown_5202": 32.58161
     }
   },
   "26": {
@@ -412,7 +487,10 @@
       "GROW_CURVE_MHP": 122.98523,
       "GROW_CURVE_MATK": 19.07636,
       "GROW_CURVE_HP_2": 92.40437,
-      "GROW_CURVE_ATTACK_2": 18.885
+      "GROW_CURVE_ATTACK_2": 18.885,
+      "GROW_CURVE_HP_ENVIRONMENT": 113.20169,
+      "growCurveType_Unknown_5201": 18.77789,
+      "growCurveType_Unknown_5202": 33.7306
     }
   },
   "27": {
@@ -428,7 +506,10 @@
       "GROW_CURVE_MHP": 132.62195,
       "GROW_CURVE_MATK": 20.03641,
       "GROW_CURVE_HP_2": 97.38869,
-      "GROW_CURVE_ATTACK_2": 19.58528
+      "GROW_CURVE_ATTACK_2": 19.58528,
+      "GROW_CURVE_HP_ENVIRONMENT": 118.10291,
+      "growCurveType_Unknown_5201": 19.44009,
+      "growCurveType_Unknown_5202": 34.92011
     }
   },
   "28": {
@@ -444,7 +525,10 @@
       "GROW_CURVE_MHP": 142.25867,
       "GROW_CURVE_MATK": 20.99646,
       "GROW_CURVE_HP_2": 102.55676,
-      "GROW_CURVE_ATTACK_2": 20.29613
+      "GROW_CURVE_ATTACK_2": 20.29613,
+      "GROW_CURVE_HP_ENVIRONMENT": 122.97932,
+      "growCurveType_Unknown_5201": 20.12565,
+      "growCurveType_Unknown_5202": 36.15156
     }
   },
   "29": {
@@ -460,7 +544,10 @@
       "GROW_CURVE_MHP": 151.8954,
       "GROW_CURVE_MATK": 21.95651,
       "GROW_CURVE_HP_2": 109.56383,
-      "GROW_CURVE_ATTACK_2": 21.0176
+      "GROW_CURVE_ATTACK_2": 21.0176,
+      "GROW_CURVE_HP_ENVIRONMENT": 129.72733,
+      "growCurveType_Unknown_5201": 20.83538,
+      "growCurveType_Unknown_5202": 37.42645
     }
   },
   "30": {
@@ -476,7 +563,10 @@
       "GROW_CURVE_MHP": 161.53212,
       "GROW_CURVE_MATK": 22.91656,
       "GROW_CURVE_HP_2": 116.67918,
-      "GROW_CURVE_ATTACK_2": 21.74973
+      "GROW_CURVE_ATTACK_2": 21.74973,
+      "GROW_CURVE_HP_ENVIRONMENT": 136.29291,
+      "growCurveType_Unknown_5201": 21.57014,
+      "growCurveType_Unknown_5202": 38.74628
     }
   },
   "31": {
@@ -492,7 +582,10 @@
       "GROW_CURVE_MHP": 171.16884,
       "GROW_CURVE_MATK": 23.8766,
       "GROW_CURVE_HP_2": 123.90555,
-      "GROW_CURVE_ATTACK_2": 22.61761
+      "GROW_CURVE_ATTACK_2": 22.61761,
+      "GROW_CURVE_HP_ENVIRONMENT": 142.67085,
+      "growCurveType_Unknown_5201": 22.3308,
+      "growCurveType_Unknown_5202": 40.11267
     }
   },
   "32": {
@@ -508,7 +601,10 @@
       "GROW_CURVE_MHP": 180.80556,
       "GROW_CURVE_MATK": 24.83665,
       "GROW_CURVE_HP_2": 131.39304,
-      "GROW_CURVE_ATTACK_2": 23.50049
+      "GROW_CURVE_ATTACK_2": 23.50049,
+      "GROW_CURVE_HP_ENVIRONMENT": 149.02902,
+      "growCurveType_Unknown_5201": 23.1183,
+      "growCurveType_Unknown_5202": 41.52724
     }
   },
   "33": {
@@ -524,7 +620,10 @@
       "GROW_CURVE_MHP": 190.44228,
       "GROW_CURVE_MATK": 25.7967,
       "GROW_CURVE_HP_2": 139.20303,
-      "GROW_CURVE_ATTACK_2": 24.3984
+      "GROW_CURVE_ATTACK_2": 24.3984,
+      "GROW_CURVE_HP_ENVIRONMENT": 155.41699,
+      "growCurveType_Unknown_5201": 23.93356,
+      "growCurveType_Unknown_5202": 42.9917
     }
   },
   "34": {
@@ -540,7 +639,10 @@
       "GROW_CURVE_MHP": 200.07899,
       "GROW_CURVE_MATK": 26.75674,
       "GROW_CURVE_HP_2": 147.34232,
-      "GROW_CURVE_ATTACK_2": 25.37062
+      "GROW_CURVE_ATTACK_2": 25.37062,
+      "GROW_CURVE_HP_ENVIRONMENT": 161.8255,
+      "growCurveType_Unknown_5201": 24.77758,
+      "growCurveType_Unknown_5202": 44.50779
     }
   },
   "35": {
@@ -556,7 +658,10 @@
       "GROW_CURVE_MHP": 209.71573,
       "GROW_CURVE_MATK": 27.71679,
       "GROW_CURVE_HP_2": 156.63199,
-      "GROW_CURVE_ATTACK_2": 26.19798
+      "GROW_CURVE_ATTACK_2": 26.19798,
+      "GROW_CURVE_HP_ENVIRONMENT": 169.10631,
+      "growCurveType_Unknown_5201": 25.65136,
+      "growCurveType_Unknown_5202": 46.07736
     }
   },
   "36": {
@@ -572,7 +677,10 @@
       "GROW_CURVE_MHP": 219.35245,
       "GROW_CURVE_MATK": 28.67684,
       "GROW_CURVE_HP_2": 166.41991,
-      "GROW_CURVE_ATTACK_2": 27.03764
+      "GROW_CURVE_ATTACK_2": 27.03764,
+      "GROW_CURVE_HP_ENVIRONMENT": 176.51808,
+      "growCurveType_Unknown_5201": 26.55595,
+      "growCurveType_Unknown_5202": 47.70227
     }
   },
   "37": {
@@ -588,7 +696,10 @@
       "GROW_CURVE_MHP": 228.98917,
       "GROW_CURVE_MATK": 29.63689,
       "GROW_CURVE_HP_2": 176.60277,
-      "GROW_CURVE_ATTACK_2": 28.30728
+      "GROW_CURVE_ATTACK_2": 28.30728,
+      "GROW_CURVE_HP_ENVIRONMENT": 184.07274,
+      "growCurveType_Unknown_5201": 27.49244,
+      "growCurveType_Unknown_5202": 49.38449
     }
   },
   "38": {
@@ -604,7 +715,10 @@
       "GROW_CURVE_MHP": 238.62589,
       "GROW_CURVE_MATK": 30.59694,
       "GROW_CURVE_HP_2": 187.12581,
-      "GROW_CURVE_ATTACK_2": 29.66658
+      "GROW_CURVE_ATTACK_2": 29.66658,
+      "GROW_CURVE_HP_ENVIRONMENT": 191.70952,
+      "growCurveType_Unknown_5201": 28.46196,
+      "growCurveType_Unknown_5202": 51.12603
     }
   },
   "39": {
@@ -620,7 +734,10 @@
       "GROW_CURVE_MHP": 248.2626,
       "GROW_CURVE_MATK": 31.55698,
       "GROW_CURVE_HP_2": 198.11426,
-      "GROW_CURVE_ATTACK_2": 31.05228
+      "GROW_CURVE_ATTACK_2": 31.05228,
+      "GROW_CURVE_HP_ENVIRONMENT": 199.55692,
+      "growCurveType_Unknown_5201": 29.46567,
+      "growCurveType_Unknown_5202": 52.92899
     }
   },
   "40": {
@@ -636,7 +753,10 @@
       "GROW_CURVE_MHP": 257.89932,
       "GROW_CURVE_MATK": 32.51703,
       "GROW_CURVE_HP_2": 209.49992,
-      "GROW_CURVE_ATTACK_2": 32.51703
+      "GROW_CURVE_ATTACK_2": 32.51703,
+      "GROW_CURVE_HP_ENVIRONMENT": 207.38205,
+      "growCurveType_Unknown_5201": 30.50478,
+      "growCurveType_Unknown_5202": 54.79552
     }
   },
   "41": {
@@ -652,7 +772,10 @@
       "GROW_CURVE_MHP": 294.36392,
       "GROW_CURVE_MATK": 34.775,
       "GROW_CURVE_HP_2": 221.35829,
-      "GROW_CURVE_ATTACK_2": 33.69338
+      "GROW_CURVE_ATTACK_2": 33.69338,
+      "GROW_CURVE_HP_ENVIRONMENT": 215.3989,
+      "growCurveType_Unknown_5201": 31.58053,
+      "growCurveType_Unknown_5202": 56.72788
     }
   },
   "42": {
@@ -668,7 +791,10 @@
       "GROW_CURVE_MHP": 330.82852,
       "GROW_CURVE_MATK": 37.03298,
       "GROW_CURVE_HP_2": 234.31367,
-      "GROW_CURVE_ATTACK_2": 34.89269
+      "GROW_CURVE_ATTACK_2": 34.89269,
+      "GROW_CURVE_HP_ENVIRONMENT": 224.16566,
+      "growCurveType_Unknown_5201": 32.69421,
+      "growCurveType_Unknown_5202": 58.72839
     }
   },
   "43": {
@@ -684,7 +810,10 @@
       "GROW_CURVE_MHP": 367.29312,
       "GROW_CURVE_MATK": 39.29095,
       "GROW_CURVE_HP_2": 248.21857,
-      "GROW_CURVE_ATTACK_2": 36.06496
+      "GROW_CURVE_ATTACK_2": 36.06496,
+      "GROW_CURVE_HP_ENVIRONMENT": 233.50217,
+      "growCurveType_Unknown_5201": 33.84717,
+      "growCurveType_Unknown_5202": 60.79944
     }
   },
   "44": {
@@ -700,7 +829,10 @@
       "GROW_CURVE_MHP": 403.75772,
       "GROW_CURVE_MATK": 41.54892,
       "GROW_CURVE_HP_2": 263.0379,
-      "GROW_CURVE_ATTACK_2": 37.25874
+      "GROW_CURVE_ATTACK_2": 37.25874,
+      "GROW_CURVE_HP_ENVIRONMENT": 243.35057,
+      "growCurveType_Unknown_5201": 35.04079,
+      "growCurveType_Unknown_5202": 62.94353
     }
   },
   "45": {
@@ -716,7 +848,10 @@
       "GROW_CURVE_MHP": 440.22235,
       "GROW_CURVE_MATK": 43.8069,
       "GROW_CURVE_HP_2": 281.44781,
-      "GROW_CURVE_ATTACK_2": 38.474
+      "GROW_CURVE_ATTACK_2": 38.474,
+      "GROW_CURVE_HP_ENVIRONMENT": 256.06308,
+      "growCurveType_Unknown_5201": 36.2765,
+      "growCurveType_Unknown_5202": 65.16322
     }
   },
   "46": {
@@ -732,7 +867,10 @@
       "GROW_CURVE_MHP": 476.68695,
       "GROW_CURVE_MATK": 46.06487,
       "GROW_CURVE_HP_2": 300.16461,
-      "GROW_CURVE_ATTACK_2": 39.41548
+      "GROW_CURVE_ATTACK_2": 39.41548,
+      "GROW_CURVE_HP_ENVIRONMENT": 268.54349,
+      "growCurveType_Unknown_5201": 37.55579,
+      "growCurveType_Unknown_5202": 67.4612
     }
   },
   "47": {
@@ -748,7 +886,10 @@
       "GROW_CURVE_MHP": 513.15155,
       "GROW_CURVE_MATK": 48.32285,
       "GROW_CURVE_HP_2": 319.93707,
-      "GROW_CURVE_ATTACK_2": 40.83052
+      "GROW_CURVE_ATTACK_2": 40.83052,
+      "GROW_CURVE_HP_ENVIRONMENT": 281.52606,
+      "growCurveType_Unknown_5201": 38.88019,
+      "growCurveType_Unknown_5202": 69.84022
     }
   },
   "48": {
@@ -764,7 +905,10 @@
       "GROW_CURVE_MHP": 549.61615,
       "GROW_CURVE_MATK": 50.58082,
       "GROW_CURVE_HP_2": 340.79654,
-      "GROW_CURVE_ATTACK_2": 42.27234
+      "GROW_CURVE_ATTACK_2": 42.27234,
+      "GROW_CURVE_HP_ENVIRONMENT": 295.01364,
+      "growCurveType_Unknown_5201": 40.2513,
+      "growCurveType_Unknown_5202": 72.30312
     }
   },
   "49": {
@@ -780,7 +924,10 @@
       "GROW_CURVE_MHP": 586.08075,
       "GROW_CURVE_MATK": 52.83879,
       "GROW_CURVE_HP_2": 362.84512,
-      "GROW_CURVE_ATTACK_2": 43.74102
+      "GROW_CURVE_ATTACK_2": 43.74102,
+      "GROW_CURVE_HP_ENVIRONMENT": 309.0672,
+      "growCurveType_Unknown_5201": 41.67075,
+      "growCurveType_Unknown_5202": 74.85289
     }
   },
   "50": {
@@ -796,7 +943,10 @@
       "GROW_CURVE_MHP": 622.54535,
       "GROW_CURVE_MATK": 55.09676,
       "GROW_CURVE_HP_2": 386.00797,
-      "GROW_CURVE_ATTACK_2": 45.73837
+      "GROW_CURVE_ATTACK_2": 45.73837,
+      "GROW_CURVE_HP_ENVIRONMENT": 323.60159,
+      "growCurveType_Unknown_5201": 43.14027,
+      "growCurveType_Unknown_5202": 77.49257
     }
   },
   "51": {
@@ -812,7 +962,10 @@
       "GROW_CURVE_MHP": 659.00995,
       "GROW_CURVE_MATK": 57.35474,
       "GROW_CURVE_HP_2": 405.81985,
-      "GROW_CURVE_ATTACK_2": 47.11423
+      "GROW_CURVE_ATTACK_2": 47.11423,
+      "GROW_CURVE_HP_ENVIRONMENT": 336.75754,
+      "growCurveType_Unknown_5201": 44.66161,
+      "growCurveType_Unknown_5202": 80.22534
     }
   },
   "52": {
@@ -828,7 +981,10 @@
       "GROW_CURVE_MHP": 695.47455,
       "GROW_CURVE_MATK": 59.61271,
       "GROW_CURVE_HP_2": 426.75089,
-      "GROW_CURVE_ATTACK_2": 48.50505
+      "GROW_CURVE_ATTACK_2": 48.50505,
+      "GROW_CURVE_HP_ENVIRONMENT": 350.5303,
+      "growCurveType_Unknown_5201": 46.2366,
+      "growCurveType_Unknown_5202": 83.05448
     }
   },
   "53": {
@@ -844,7 +1000,10 @@
       "GROW_CURVE_MHP": 731.93915,
       "GROW_CURVE_MATK": 61.87069,
       "GROW_CURVE_HP_2": 448.33606,
-      "GROW_CURVE_ATTACK_2": 49.91071
+      "GROW_CURVE_ATTACK_2": 49.91071,
+      "GROW_CURVE_HP_ENVIRONMENT": 364.4827,
+      "growCurveType_Unknown_5201": 47.86713,
+      "growCurveType_Unknown_5202": 85.98339
     }
   },
   "54": {
@@ -860,7 +1019,10 @@
       "GROW_CURVE_MHP": 768.40375,
       "GROW_CURVE_MATK": 64.12866,
       "GROW_CURVE_HP_2": 470.60852,
-      "GROW_CURVE_ATTACK_2": 51.33099
+      "GROW_CURVE_ATTACK_2": 51.33099,
+      "GROW_CURVE_HP_ENVIRONMENT": 378.61917,
+      "growCurveType_Unknown_5201": 49.55516,
+      "growCurveType_Unknown_5202": 89.01559
     }
   },
   "55": {
@@ -876,7 +1038,10 @@
       "GROW_CURVE_MHP": 804.86835,
       "GROW_CURVE_MATK": 66.38663,
       "GROW_CURVE_HP_2": 500.87494,
-      "GROW_CURVE_ATTACK_2": 52.68652
+      "GROW_CURVE_ATTACK_2": 52.68652,
+      "GROW_CURVE_HP_ENVIRONMENT": 398.6004,
+      "growCurveType_Unknown_5201": 51.30272,
+      "growCurveType_Unknown_5202": 92.15472
     }
   },
   "56": {
@@ -892,7 +1057,10 @@
       "GROW_CURVE_MHP": 841.33295,
       "GROW_CURVE_MATK": 68.64461,
       "GROW_CURVE_HP_2": 529.12994,
-      "GROW_CURVE_ATTACK_2": 53.85537
+      "GROW_CURVE_ATTACK_2": 53.85537,
+      "GROW_CURVE_HP_ENVIRONMENT": 416.39825,
+      "growCurveType_Unknown_5201": 53.1119,
+      "growCurveType_Unknown_5202": 95.40455
     }
   },
   "57": {
@@ -908,7 +1076,10 @@
       "GROW_CURVE_MHP": 877.79755,
       "GROW_CURVE_MATK": 70.90258,
       "GROW_CURVE_HP_2": 558.18567,
-      "GROW_CURVE_ATTACK_2": 55.51454
+      "GROW_CURVE_ATTACK_2": 55.51454,
+      "GROW_CURVE_HP_ENVIRONMENT": 434.38699,
+      "growCurveType_Unknown_5201": 54.98489,
+      "growCurveType_Unknown_5202": 98.76898
     }
   },
   "58": {
@@ -924,7 +1095,10 @@
       "GROW_CURVE_MHP": 914.26215,
       "GROW_CURVE_MATK": 73.16055,
       "GROW_CURVE_HP_2": 588.08362,
-      "GROW_CURVE_ATTACK_2": 57.30325
+      "GROW_CURVE_ATTACK_2": 57.30325,
+      "GROW_CURVE_HP_ENVIRONMENT": 452.5668,
+      "growCurveType_Unknown_5201": 56.92393,
+      "growCurveType_Unknown_5202": 102.25206
     }
   },
   "59": {
@@ -940,7 +1114,10 @@
       "GROW_CURVE_MHP": 950.72675,
       "GROW_CURVE_MATK": 75.41853,
       "GROW_CURVE_HP_2": 619.62299,
-      "GROW_CURVE_ATTACK_2": 59.1139
+      "GROW_CURVE_ATTACK_2": 59.1139,
+      "GROW_CURVE_HP_ENVIRONMENT": 471.42627,
+      "growCurveType_Unknown_5201": 58.93135,
+      "growCurveType_Unknown_5202": 105.85797
     }
   },
   "60": {
@@ -956,7 +1133,10 @@
       "GROW_CURVE_MHP": 987.19135,
       "GROW_CURVE_MATK": 77.6765,
       "GROW_CURVE_HP_2": 652.1601,
-      "GROW_CURVE_ATTACK_2": 61.09051
+      "GROW_CURVE_ATTACK_2": 61.09051,
+      "GROW_CURVE_HP_ENVIRONMENT": 490.48166,
+      "growCurveType_Unknown_5201": 61.00956,
+      "growCurveType_Unknown_5202": 109.59105
     }
   },
   "61": {
@@ -972,7 +1152,10 @@
       "GROW_CURVE_MHP": 1074.50525,
       "GROW_CURVE_MATK": 81.31783,
       "GROW_CURVE_HP_2": 685.42822,
-      "GROW_CURVE_ATTACK_2": 62.78733
+      "GROW_CURVE_ATTACK_2": 62.78733,
+      "GROW_CURVE_HP_ENVIRONMENT": 509.50427,
+      "growCurveType_Unknown_5201": 63.16105,
+      "growCurveType_Unknown_5202": 113.45576
     }
   },
   "62": {
@@ -988,7 +1171,10 @@
       "GROW_CURVE_MHP": 1161.81921,
       "GROW_CURVE_MATK": 84.95915,
       "GROW_CURVE_HP_2": 725.28601,
-      "GROW_CURVE_ATTACK_2": 64.61649
+      "GROW_CURVE_ATTACK_2": 64.61649,
+      "GROW_CURVE_HP_ENVIRONMENT": 532.77179,
+      "growCurveType_Unknown_5201": 65.38842,
+      "growCurveType_Unknown_5202": 117.45677
     }
   },
   "63": {
@@ -1004,7 +1190,10 @@
       "GROW_CURVE_MHP": 1249.13318,
       "GROW_CURVE_MATK": 88.60048,
       "GROW_CURVE_HP_2": 766.45514,
-      "GROW_CURVE_ATTACK_2": 66.46422
+      "GROW_CURVE_ATTACK_2": 66.46422,
+      "GROW_CURVE_HP_ENVIRONMENT": 556.39331,
+      "growCurveType_Unknown_5201": 67.69434,
+      "growCurveType_Unknown_5202": 121.59888
     }
   },
   "64": {
@@ -1020,7 +1209,10 @@
       "GROW_CURVE_MHP": 1336.44714,
       "GROW_CURVE_MATK": 92.24181,
       "GROW_CURVE_HP_2": 808.56494,
-      "GROW_CURVE_ATTACK_2": 68.76543
+      "GROW_CURVE_ATTACK_2": 68.76543,
+      "GROW_CURVE_HP_ENVIRONMENT": 580.10303,
+      "growCurveType_Unknown_5201": 70.08157,
+      "growCurveType_Unknown_5202": 125.88705
     }
   },
   "65": {
@@ -1036,7 +1228,10 @@
       "GROW_CURVE_MHP": 1423.76099,
       "GROW_CURVE_MATK": 95.88313,
       "GROW_CURVE_HP_2": 857.39441,
-      "GROW_CURVE_ATTACK_2": 70.67202
+      "GROW_CURVE_ATTACK_2": 70.67202,
+      "GROW_CURVE_HP_ENVIRONMENT": 607.89496,
+      "growCurveType_Unknown_5201": 72.553,
+      "growCurveType_Unknown_5202": 130.32645
     }
   },
   "66": {
@@ -1052,7 +1247,10 @@
       "GROW_CURVE_MHP": 1511.07495,
       "GROW_CURVE_MATK": 99.52446,
       "GROW_CURVE_HP_2": 899.70227,
-      "GROW_CURVE_ATTACK_2": 72.06506
+      "GROW_CURVE_ATTACK_2": 72.06506,
+      "GROW_CURVE_HP_ENVIRONMENT": 630.20135,
+      "growCurveType_Unknown_5201": 75.11157,
+      "growCurveType_Unknown_5202": 134.92241
     }
   },
   "67": {
@@ -1068,7 +1266,10 @@
       "GROW_CURVE_MHP": 1598.38892,
       "GROW_CURVE_MATK": 103.16579,
       "GROW_CURVE_HP_2": 943.45435,
-      "GROW_CURVE_ATTACK_2": 75.18615
+      "GROW_CURVE_ATTACK_2": 75.18615,
+      "GROW_CURVE_HP_ENVIRONMENT": 652.86682,
+      "growCurveType_Unknown_5201": 77.76038,
+      "growCurveType_Unknown_5202": 139.68044
     }
   },
   "68": {
@@ -1084,7 +1285,10 @@
       "GROW_CURVE_MHP": 1685.70276,
       "GROW_CURVE_MATK": 106.80711,
       "GROW_CURVE_HP_2": 987.4856,
-      "GROW_CURVE_ATTACK_2": 77.22278
+      "GROW_CURVE_ATTACK_2": 77.22278,
+      "GROW_CURVE_HP_ENVIRONMENT": 675.18634,
+      "growCurveType_Unknown_5201": 80.50259,
+      "growCurveType_Unknown_5202": 144.60625
     }
   },
   "69": {
@@ -1100,7 +1304,10 @@
       "GROW_CURVE_MHP": 1773.01672,
       "GROW_CURVE_MATK": 110.44844,
       "GROW_CURVE_HP_2": 1032.84778,
-      "GROW_CURVE_ATTACK_2": 79.15613
+      "GROW_CURVE_ATTACK_2": 79.15613,
+      "GROW_CURVE_HP_ENVIRONMENT": 697.78265,
+      "growCurveType_Unknown_5201": 83.34151,
+      "growCurveType_Unknown_5202": 149.70578
     }
   },
   "70": {
@@ -1116,7 +1323,10 @@
       "GROW_CURVE_MHP": 1860.33069,
       "GROW_CURVE_MATK": 114.08977,
       "GROW_CURVE_HP_2": 1078.62903,
-      "GROW_CURVE_ATTACK_2": 81.23976
+      "GROW_CURVE_ATTACK_2": 81.23976,
+      "GROW_CURVE_HP_ENVIRONMENT": 720.17035,
+      "growCurveType_Unknown_5201": 86.28054,
+      "growCurveType_Unknown_5202": 154.98514
     }
   },
   "71": {
@@ -1132,7 +1342,10 @@
       "GROW_CURVE_MHP": 1947.64465,
       "GROW_CURVE_MATK": 117.73109,
       "GROW_CURVE_HP_2": 1125.08594,
-      "GROW_CURVE_ATTACK_2": 84.91718
+      "GROW_CURVE_ATTACK_2": 84.91718,
+      "GROW_CURVE_HP_ENVIRONMENT": 742.45465,
+      "growCurveType_Unknown_5201": 89.32322,
+      "growCurveType_Unknown_5202": 160.45068
     }
   },
   "72": {
@@ -1148,7 +1361,10 @@
       "GROW_CURVE_MHP": 2034.9585,
       "GROW_CURVE_MATK": 121.37241,
       "GROW_CURVE_HP_2": 1176.67542,
-      "GROW_CURVE_ATTACK_2": 88.59459
+      "GROW_CURVE_ATTACK_2": 88.59459,
+      "GROW_CURVE_HP_ENVIRONMENT": 765.20551,
+      "growCurveType_Unknown_5201": 92.47319,
+      "growCurveType_Unknown_5202": 166.10896
     }
   },
   "73": {
@@ -1164,7 +1380,10 @@
       "GROW_CURVE_MHP": 2122.27246,
       "GROW_CURVE_MATK": 125.01374,
       "GROW_CURVE_HP_2": 1225.49731,
-      "GROW_CURVE_ATTACK_2": 92.27201
+      "GROW_CURVE_ATTACK_2": 92.27201,
+      "GROW_CURVE_HP_ENVIRONMENT": 784.37463,
+      "growCurveType_Unknown_5201": 95.73425,
+      "growCurveType_Unknown_5202": 171.96678
     }
   },
   "74": {
@@ -1180,7 +1399,10 @@
       "GROW_CURVE_MHP": 2209.58643,
       "GROW_CURVE_MATK": 128.65508,
       "GROW_CURVE_HP_2": 1276.60156,
-      "GROW_CURVE_ATTACK_2": 95.94942
+      "GROW_CURVE_ATTACK_2": 95.94942,
+      "GROW_CURVE_HP_ENVIRONMENT": 803.40118,
+      "growCurveType_Unknown_5201": 99.11031,
+      "growCurveType_Unknown_5202": 178.03117
     }
   },
   "75": {
@@ -1196,7 +1418,10 @@
       "GROW_CURVE_MHP": 2296.90039,
       "GROW_CURVE_MATK": 132.2964,
       "GROW_CURVE_HP_2": 1349.67383,
-      "GROW_CURVE_ATTACK_2": 99.62685
+      "GROW_CURVE_ATTACK_2": 99.62685,
+      "GROW_CURVE_HP_ENVIRONMENT": 830.92078,
+      "growCurveType_Unknown_5201": 102.60543,
+      "growCurveType_Unknown_5202": 184.30943
     }
   },
   "76": {
@@ -1212,7 +1437,10 @@
       "GROW_CURVE_MHP": 2384.21436,
       "GROW_CURVE_MATK": 135.93773,
       "GROW_CURVE_HP_2": 1419.61206,
-      "GROW_CURVE_ATTACK_2": 103.30426
+      "GROW_CURVE_ATTACK_2": 103.30426,
+      "GROW_CURVE_HP_ENVIRONMENT": 854.40332,
+      "growCurveType_Unknown_5201": 106.22381,
+      "growCurveType_Unknown_5202": 190.8091
     }
   },
   "77": {
@@ -1228,7 +1456,10 @@
       "GROW_CURVE_MHP": 2471.52832,
       "GROW_CURVE_MATK": 139.57906,
       "GROW_CURVE_HP_2": 1492.44348,
-      "GROW_CURVE_ATTACK_2": 106.98167
+      "GROW_CURVE_ATTACK_2": 106.98167,
+      "GROW_CURVE_HP_ENVIRONMENT": 877.75977,
+      "growCurveType_Unknown_5201": 109.96978,
+      "growCurveType_Unknown_5202": 197.53796
     }
   },
   "78": {
@@ -1244,7 +1475,10 @@
       "GROW_CURVE_MHP": 2558.84204,
       "GROW_CURVE_MATK": 143.22037,
       "GROW_CURVE_HP_2": 1566.43384,
-      "GROW_CURVE_ATTACK_2": 110.6591
+      "GROW_CURVE_ATTACK_2": 110.6591,
+      "GROW_CURVE_HP_ENVIRONMENT": 900.11725,
+      "growCurveType_Unknown_5201": 113.84785,
+      "growCurveType_Unknown_5202": 204.50412
     }
   },
   "79": {
@@ -1260,7 +1494,10 @@
       "GROW_CURVE_MHP": 2646.15601,
       "GROW_CURVE_MATK": 146.86171,
       "GROW_CURVE_HP_2": 1645.94092,
-      "GROW_CURVE_ATTACK_2": 114.33651
+      "GROW_CURVE_ATTACK_2": 114.33651,
+      "GROW_CURVE_HP_ENVIRONMENT": 923.76666,
+      "growCurveType_Unknown_5201": 117.86269,
+      "growCurveType_Unknown_5202": 211.71594
     }
   },
   "80": {
@@ -1276,7 +1513,10 @@
       "GROW_CURVE_MHP": 2733.46997,
       "GROW_CURVE_MATK": 150.50302,
       "GROW_CURVE_HP_2": 1740.03369,
-      "GROW_CURVE_ATTACK_2": 118.01392
+      "GROW_CURVE_ATTACK_2": 118.01392,
+      "GROW_CURVE_HP_ENVIRONMENT": 946.37024,
+      "growCurveType_Unknown_5201": 121.87753,
+      "growCurveType_Unknown_5202": 218.92776
     }
   },
   "81": {
@@ -1292,7 +1532,10 @@
       "GROW_CURVE_MHP": 2820.78394,
       "GROW_CURVE_MATK": 154.14435,
       "GROW_CURVE_HP_2": 1832.44238,
-      "GROW_CURVE_ATTACK_2": 121.69135
+      "GROW_CURVE_ATTACK_2": 121.69135,
+      "GROW_CURVE_HP_ENVIRONMENT": 968.63416,
+      "growCurveType_Unknown_5201": 125.89236,
+      "growCurveType_Unknown_5202": 226.13959
     }
   },
   "82": {
@@ -1308,7 +1551,10 @@
       "GROW_CURVE_MHP": 2908.0979,
       "GROW_CURVE_MATK": 157.78568,
       "GROW_CURVE_HP_2": 1926.50647,
-      "GROW_CURVE_ATTACK_2": 125.36876
+      "GROW_CURVE_ATTACK_2": 125.36876,
+      "GROW_CURVE_HP_ENVIRONMENT": 991.02936,
+      "growCurveType_Unknown_5201": 129.9072,
+      "growCurveType_Unknown_5202": 233.35141
     }
   },
   "83": {
@@ -1324,7 +1570,10 @@
       "GROW_CURVE_MHP": 2995.41187,
       "GROW_CURVE_MATK": 161.427,
       "GROW_CURVE_HP_2": 2018.16663,
-      "GROW_CURVE_ATTACK_2": 129.04617
+      "GROW_CURVE_ATTACK_2": 129.04617,
+      "GROW_CURVE_HP_ENVIRONMENT": 1013.5271,
+      "growCurveType_Unknown_5201": 133.92204,
+      "growCurveType_Unknown_5202": 240.56323
     }
   },
   "84": {
@@ -1340,7 +1589,10 @@
       "GROW_CURVE_MHP": 3082.72583,
       "GROW_CURVE_MATK": 165.06833,
       "GROW_CURVE_HP_2": 2109.69824,
-      "GROW_CURVE_ATTACK_2": 132.72359
+      "GROW_CURVE_ATTACK_2": 132.72359,
+      "GROW_CURVE_HP_ENVIRONMENT": 1036.13293,
+      "growCurveType_Unknown_5201": 137.93687,
+      "growCurveType_Unknown_5202": 247.77505
     }
   },
   "85": {
@@ -1356,7 +1608,10 @@
       "GROW_CURVE_MHP": 3170.03955,
       "GROW_CURVE_MATK": 168.70966,
       "GROW_CURVE_HP_2": 2223.06787,
-      "GROW_CURVE_ATTACK_2": 136.401
+      "GROW_CURVE_ATTACK_2": 136.401,
+      "GROW_CURVE_HP_ENVIRONMENT": 1066.62366,
+      "growCurveType_Unknown_5201": 141.95171,
+      "growCurveType_Unknown_5202": 254.98688
     }
   },
   "86": {
@@ -1372,7 +1627,10 @@
       "GROW_CURVE_MHP": 3257.35352,
       "GROW_CURVE_MATK": 172.35098,
       "GROW_CURVE_HP_2": 2317.16895,
-      "GROW_CURVE_ATTACK_2": 138.65791
+      "GROW_CURVE_ATTACK_2": 138.65791,
+      "GROW_CURVE_HP_ENVIRONMENT": 1089.96423,
+      "growCurveType_Unknown_5201": 145.96654,
+      "growCurveType_Unknown_5202": 262.1987
     }
   },
   "87": {
@@ -1388,7 +1646,10 @@
       "GROW_CURVE_MHP": 3344.66748,
       "GROW_CURVE_MATK": 175.99231,
       "GROW_CURVE_HP_2": 2412.8042,
-      "GROW_CURVE_ATTACK_2": 141.59421
+      "GROW_CURVE_ATTACK_2": 141.59421,
+      "GROW_CURVE_HP_ENVIRONMENT": 1114.96448,
+      "growCurveType_Unknown_5201": 149.98138,
+      "growCurveType_Unknown_5202": 269.41052
     }
   },
   "88": {
@@ -1404,7 +1665,10 @@
       "GROW_CURVE_MHP": 3431.98145,
       "GROW_CURVE_MATK": 179.63364,
       "GROW_CURVE_HP_2": 2510.07788,
-      "GROW_CURVE_ATTACK_2": 144.79605
+      "GROW_CURVE_ATTACK_2": 144.79605,
+      "GROW_CURVE_HP_ENVIRONMENT": 1141.6626,
+      "growCurveType_Unknown_5201": 153.99622,
+      "growCurveType_Unknown_5202": 276.62234
     }
   },
   "89": {
@@ -1420,7 +1684,10 @@
       "GROW_CURVE_MHP": 3519.29541,
       "GROW_CURVE_MATK": 183.27496,
       "GROW_CURVE_HP_2": 2613.84326,
-      "GROW_CURVE_ATTACK_2": 148.02295
+      "GROW_CURVE_ATTACK_2": 148.02295,
+      "GROW_CURVE_HP_ENVIRONMENT": 1171.94177,
+      "growCurveType_Unknown_5201": 158.01105,
+      "growCurveType_Unknown_5202": 283.83417
     }
   },
   "90": {
@@ -1436,7 +1703,10 @@
       "GROW_CURVE_MHP": 3606.60938,
       "GROW_CURVE_MATK": 186.91629,
       "GROW_CURVE_HP_2": 2731.17554,
-      "GROW_CURVE_ATTACK_2": 151.52367
+      "GROW_CURVE_ATTACK_2": 151.52367,
+      "GROW_CURVE_HP_ENVIRONMENT": 1202.81372,
+      "growCurveType_Unknown_5201": 162.02589,
+      "growCurveType_Unknown_5202": 291.04599
     }
   },
   "91": {
@@ -1452,7 +1722,10 @@
       "GROW_CURVE_MHP": 3693.92334,
       "GROW_CURVE_MATK": 190.55762,
       "GROW_CURVE_HP_2": 2831.96143,
-      "GROW_CURVE_ATTACK_2": 155.44891
+      "GROW_CURVE_ATTACK_2": 155.44891,
+      "GROW_CURVE_HP_ENVIRONMENT": 1233.93994,
+      "growCurveType_Unknown_5201": 166.04073,
+      "growCurveType_Unknown_5202": 298.25781
     }
   },
   "92": {
@@ -1468,7 +1741,10 @@
       "GROW_CURVE_MHP": 3781.2373,
       "GROW_CURVE_MATK": 194.19894,
       "GROW_CURVE_HP_2": 2934.13452,
-      "GROW_CURVE_ATTACK_2": 159.68016
+      "GROW_CURVE_ATTACK_2": 159.68016,
+      "GROW_CURVE_HP_ENVIRONMENT": 1264.69971,
+      "growCurveType_Unknown_5201": 170.05556,
+      "growCurveType_Unknown_5202": 305.46964
     }
   },
   "93": {
@@ -1484,7 +1760,10 @@
       "GROW_CURVE_MHP": 3868.55103,
       "GROW_CURVE_MATK": 197.84027,
       "GROW_CURVE_HP_2": 3063.69531,
-      "GROW_CURVE_ATTACK_2": 163.96825
+      "GROW_CURVE_ATTACK_2": 163.96825,
+      "GROW_CURVE_HP_ENVIRONMENT": 1305.68945,
+      "growCurveType_Unknown_5201": 174.07039,
+      "growCurveType_Unknown_5202": 312.68146
     }
   },
   "94": {
@@ -1500,7 +1779,10 @@
       "GROW_CURVE_MHP": 3955.86499,
       "GROW_CURVE_MATK": 201.4816,
       "GROW_CURVE_HP_2": 3191.60498,
-      "GROW_CURVE_ATTACK_2": 169.54305
+      "GROW_CURVE_ATTACK_2": 169.54305,
+      "GROW_CURVE_HP_ENVIRONMENT": 1346.08435,
+      "growCurveType_Unknown_5201": 178.08524,
+      "growCurveType_Unknown_5202": 319.89328
     }
   },
   "95": {
@@ -1516,7 +1798,10 @@
       "GROW_CURVE_MHP": 4043.17896,
       "GROW_CURVE_MATK": 205.12292,
       "GROW_CURVE_HP_2": 3344.2771,
-      "GROW_CURVE_ATTACK_2": 173.81329
+      "GROW_CURVE_ATTACK_2": 173.81329,
+      "GROW_CURVE_HP_ENVIRONMENT": 1411.73816,
+      "growCurveType_Unknown_5201": 182.10007,
+      "growCurveType_Unknown_5202": 327.1051
     }
   },
   "96": {
@@ -1532,7 +1817,10 @@
       "GROW_CURVE_MHP": 4130.49268,
       "GROW_CURVE_MATK": 208.76425,
       "GROW_CURVE_HP_2": 3495.40088,
-      "GROW_CURVE_ATTACK_2": 175.20334
+      "GROW_CURVE_ATTACK_2": 175.20334,
+      "GROW_CURVE_HP_ENVIRONMENT": 1468.87451,
+      "growCurveType_Unknown_5201": 186.1149,
+      "growCurveType_Unknown_5202": 334.31693
     }
   },
   "97": {
@@ -1548,7 +1836,10 @@
       "GROW_CURVE_MHP": 4217.80664,
       "GROW_CURVE_MATK": 212.40558,
       "GROW_CURVE_HP_2": 3644.67065,
-      "GROW_CURVE_ATTACK_2": 176.75739
+      "GROW_CURVE_ATTACK_2": 176.75739,
+      "GROW_CURVE_HP_ENVIRONMENT": 1524.04126,
+      "growCurveType_Unknown_5201": 190.12975,
+      "growCurveType_Unknown_5202": 341.52875
     }
   },
   "98": {
@@ -1564,7 +1855,10 @@
       "GROW_CURVE_MHP": 4305.12061,
       "GROW_CURVE_MATK": 216.04691,
       "GROW_CURVE_HP_2": 3791.26855,
-      "GROW_CURVE_ATTACK_2": 189.76929
+      "GROW_CURVE_ATTACK_2": 189.76929,
+      "GROW_CURVE_HP_ENVIRONMENT": 1576.96631,
+      "growCurveType_Unknown_5201": 194.14458,
+      "growCurveType_Unknown_5202": 348.74057
     }
   },
   "99": {
@@ -1580,7 +1874,10 @@
       "GROW_CURVE_MHP": 4392.43457,
       "GROW_CURVE_MATK": 219.68823,
       "GROW_CURVE_HP_2": 3934.99316,
-      "GROW_CURVE_ATTACK_2": 191.44691
+      "GROW_CURVE_ATTACK_2": 191.44691,
+      "GROW_CURVE_HP_ENVIRONMENT": 1627.61304,
+      "growCurveType_Unknown_5201": 198.15941,
+      "growCurveType_Unknown_5202": 355.95239
     }
   },
   "100": {
@@ -1596,13 +1893,16 @@
       "GROW_CURVE_MHP": 4479.74854,
       "GROW_CURVE_MATK": 223.32956,
       "GROW_CURVE_HP_2": 4082.74585,
-      "GROW_CURVE_ATTACK_2": 196.03574
+      "GROW_CURVE_ATTACK_2": 196.03574,
+      "GROW_CURVE_HP_ENVIRONMENT": 1674.8092,
+      "growCurveType_Unknown_5201": 202.17426,
+      "growCurveType_Unknown_5202": 363.16422
     }
   },
   "101": {
     "curveInfos": {
       "GROW_CURVE_HP": 2770.43311,
-      "GROW_CURVE_ATTACK": 196.42374,
+      "GROW_CURVE_ATTACK": 198.73318,
       "GROW_CURVE_DEFENSE": 2.01,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -1612,13 +1912,16 @@
       "GROW_CURVE_MHP": 4567.0625,
       "GROW_CURVE_MATK": 226.97089,
       "GROW_CURVE_HP_2": 4213.19141,
-      "GROW_CURVE_ATTACK_2": 196.42374
+      "GROW_CURVE_ATTACK_2": 198.73318,
+      "GROW_CURVE_HP_ENVIRONMENT": 1719.82446,
+      "growCurveType_Unknown_5201": 206.18909,
+      "growCurveType_Unknown_5202": 370.37604
     }
   },
   "102": {
     "curveInfos": {
       "GROW_CURVE_HP": 2835.45142,
-      "GROW_CURVE_ATTACK": 196.81201,
+      "GROW_CURVE_ATTACK": 203.17648,
       "GROW_CURVE_DEFENSE": 2.02,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -1628,13 +1931,16 @@
       "GROW_CURVE_MHP": 4654.37646,
       "GROW_CURVE_MATK": 230.61221,
       "GROW_CURVE_HP_2": 4347.9585,
-      "GROW_CURVE_ATTACK_2": 196.81201
+      "GROW_CURVE_ATTACK_2": 203.17648,
+      "GROW_CURVE_HP_ENVIRONMENT": 1764.71655,
+      "growCurveType_Unknown_5201": 210.20392,
+      "growCurveType_Unknown_5202": 377.58786
     }
   },
   "103": {
     "curveInfos": {
       "GROW_CURVE_HP": 2901.57056,
-      "GROW_CURVE_ATTACK": 197.20059,
+      "GROW_CURVE_ATTACK": 207.86443,
       "GROW_CURVE_DEFENSE": 2.03,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -1644,13 +1950,16 @@
       "GROW_CURVE_MHP": 4741.69043,
       "GROW_CURVE_MATK": 234.25354,
       "GROW_CURVE_HP_2": 4485.7998,
-      "GROW_CURVE_ATTACK_2": 197.20059
+      "GROW_CURVE_ATTACK_2": 207.86443,
+      "GROW_CURVE_HP_ENVIRONMENT": 1809.40112,
+      "growCurveType_Unknown_5201": 214.21875,
+      "growCurveType_Unknown_5202": 384.79968
     }
   },
   "104": {
     "curveInfos": {
       "GROW_CURVE_HP": 2968.8042,
-      "GROW_CURVE_ATTACK": 197.58939,
+      "GROW_CURVE_ATTACK": 211.70241,
       "GROW_CURVE_DEFENSE": 2.04,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -1660,13 +1969,16 @@
       "GROW_CURVE_MHP": 4829.00439,
       "GROW_CURVE_MATK": 237.89487,
       "GROW_CURVE_HP_2": 4590.93359,
-      "GROW_CURVE_ATTACK_2": 197.58939
+      "GROW_CURVE_ATTACK_2": 211.70241,
+      "GROW_CURVE_HP_ENVIRONMENT": 1843.19299,
+      "growCurveType_Unknown_5201": 218.2336,
+      "growCurveType_Unknown_5202": 392.01151
     }
   },
   "105": {
     "curveInfos": {
       "GROW_CURVE_HP": 3199.58057,
-      "GROW_CURVE_ATTACK": 197.9785,
+      "GROW_CURVE_ATTACK": 215.77017,
       "GROW_CURVE_DEFENSE": 2.05,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -1676,13 +1988,16 @@
       "GROW_CURVE_MHP": 4916.31836,
       "GROW_CURVE_MATK": 241.53619,
       "GROW_CURVE_HP_2": 4720.8877,
-      "GROW_CURVE_ATTACK_2": 197.9785
+      "GROW_CURVE_ATTACK_2": 215.77017,
+      "GROW_CURVE_HP_ENVIRONMENT": 1884.97998,
+      "growCurveType_Unknown_5201": 222.24843,
+      "growCurveType_Unknown_5202": 399.22333
     }
   },
   "106": {
     "curveInfos": {
       "GROW_CURVE_HP": 3272.79932,
-      "GROW_CURVE_ATTACK": 198.36787,
+      "GROW_CURVE_ATTACK": 219.46785,
       "GROW_CURVE_DEFENSE": 2.06,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -1692,13 +2007,16 @@
       "GROW_CURVE_MHP": 5003.63232,
       "GROW_CURVE_MATK": 245.17752,
       "GROW_CURVE_HP_2": 4825.01416,
-      "GROW_CURVE_ATTACK_2": 198.36787
+      "GROW_CURVE_ATTACK_2": 219.46785,
+      "GROW_CURVE_HP_ENVIRONMENT": 1900.65271,
+      "growCurveType_Unknown_5201": 226.26326,
+      "growCurveType_Unknown_5202": 406.43515
     }
   },
   "107": {
     "curveInfos": {
       "GROW_CURVE_HP": 3347.23413,
-      "GROW_CURVE_ATTACK": 198.75752,
+      "GROW_CURVE_ATTACK": 222.85655,
       "GROW_CURVE_DEFENSE": 2.07,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -1708,13 +2026,16 @@
       "GROW_CURVE_MHP": 5090.94629,
       "GROW_CURVE_MATK": 248.81885,
       "GROW_CURVE_HP_2": 4906.45215,
-      "GROW_CURVE_ATTACK_2": 198.75752
+      "GROW_CURVE_ATTACK_2": 222.85655,
+      "GROW_CURVE_HP_ENVIRONMENT": 1916.37585,
+      "growCurveType_Unknown_5201": 230.27811,
+      "growCurveType_Unknown_5202": 413.64697
     }
   },
   "108": {
     "curveInfos": {
       "GROW_CURVE_HP": 3422.89917,
-      "GROW_CURVE_ATTACK": 199.14743,
+      "GROW_CURVE_ATTACK": 225.92986,
       "GROW_CURVE_DEFENSE": 2.08,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -1724,13 +2045,16 @@
       "GROW_CURVE_MHP": 5178.26025,
       "GROW_CURVE_MATK": 252.46017,
       "GROW_CURVE_HP_2": 4988.69775,
-      "GROW_CURVE_ATTACK_2": 199.14743
+      "GROW_CURVE_ATTACK_2": 225.92986,
+      "GROW_CURVE_HP_ENVIRONMENT": 1932.14954,
+      "growCurveType_Unknown_5201": 234.29294,
+      "growCurveType_Unknown_5202": 420.8588
     }
   },
   "109": {
     "curveInfos": {
       "GROW_CURVE_HP": 3499.80835,
-      "GROW_CURVE_ATTACK": 199.53764,
+      "GROW_CURVE_ATTACK": 228.6837,
       "GROW_CURVE_DEFENSE": 2.09,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -1740,13 +2064,16 @@
       "GROW_CURVE_MHP": 5265.57422,
       "GROW_CURVE_MATK": 256.1015,
       "GROW_CURVE_HP_2": 5071.75781,
-      "GROW_CURVE_ATTACK_2": 199.53764
+      "GROW_CURVE_ATTACK_2": 228.6837,
+      "GROW_CURVE_HP_ENVIRONMENT": 1947.974,
+      "growCurveType_Unknown_5201": 238.30777,
+      "growCurveType_Unknown_5202": 428.07062
     }
   },
   "110": {
     "curveInfos": {
       "GROW_CURVE_HP": 3938.62744,
-      "GROW_CURVE_ATTACK": 199.92812,
+      "GROW_CURVE_ATTACK": 231.11124,
       "GROW_CURVE_DEFENSE": 2.1,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -1756,13 +2083,16 @@
       "GROW_CURVE_MHP": 5352.88818,
       "GROW_CURVE_MATK": 259.74283,
       "GROW_CURVE_HP_2": 5167.53027,
-      "GROW_CURVE_ATTACK_2": 199.92812
+      "GROW_CURVE_ATTACK_2": 231.11124,
+      "GROW_CURVE_HP_ENVIRONMENT": 1963.84924,
+      "growCurveType_Unknown_5201": 242.3226,
+      "growCurveType_Unknown_5202": 435.28244
     }
   },
   "111": {
     "curveInfos": {
       "GROW_CURVE_HP": 4026.07471,
-      "GROW_CURVE_ATTACK": 200.31883,
+      "GROW_CURVE_ATTACK": 233.21205,
       "GROW_CURVE_DEFENSE": 2.11,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -1772,13 +2102,16 @@
       "GROW_CURVE_MHP": 5440.20166,
       "GROW_CURVE_MATK": 263.38416,
       "GROW_CURVE_HP_2": 5252.99658,
-      "GROW_CURVE_ATTACK_2": 200.31883
+      "GROW_CURVE_ATTACK_2": 233.21205,
+      "GROW_CURVE_HP_ENVIRONMENT": 1979.77539,
+      "growCurveType_Unknown_5201": 246.33745,
+      "growCurveType_Unknown_5202": 442.49426
     }
   },
   "112": {
     "curveInfos": {
       "GROW_CURVE_HP": 4114.93799,
-      "GROW_CURVE_ATTACK": 200.70984,
+      "GROW_CURVE_ATTACK": 234.97939,
       "GROW_CURVE_DEFENSE": 2.12,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -1788,13 +2121,16 @@
       "GROW_CURVE_MHP": 5527.51562,
       "GROW_CURVE_MATK": 267.02548,
       "GROW_CURVE_HP_2": 5339.30273,
-      "GROW_CURVE_ATTACK_2": 200.70984
+      "GROW_CURVE_ATTACK_2": 234.97939,
+      "GROW_CURVE_HP_ENVIRONMENT": 1995.75269,
+      "growCurveType_Unknown_5201": 250.35228,
+      "growCurveType_Unknown_5202": 449.70609
     }
   },
   "113": {
     "curveInfos": {
       "GROW_CURVE_HP": 4205.23291,
-      "GROW_CURVE_ATTACK": 201.10112,
+      "GROW_CURVE_ATTACK": 236.41237,
       "GROW_CURVE_DEFENSE": 2.13,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -1804,13 +2140,16 @@
       "GROW_CURVE_MHP": 5614.82959,
       "GROW_CURVE_MATK": 270.66681,
       "GROW_CURVE_HP_2": 5426.45508,
-      "GROW_CURVE_ATTACK_2": 201.10112
+      "GROW_CURVE_ATTACK_2": 236.41237,
+      "GROW_CURVE_HP_ENVIRONMENT": 2011.78113,
+      "growCurveType_Unknown_5201": 254.36711,
+      "growCurveType_Unknown_5202": 456.91791
     }
   },
   "114": {
     "curveInfos": {
       "GROW_CURVE_HP": 4296.9751,
-      "GROW_CURVE_ATTACK": 201.49271,
+      "GROW_CURVE_ATTACK": 237.50792,
       "GROW_CURVE_DEFENSE": 2.14,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -1820,13 +2159,16 @@
       "GROW_CURVE_MHP": 5702.14355,
       "GROW_CURVE_MATK": 274.30814,
       "GROW_CURVE_HP_2": 5514.46045,
-      "GROW_CURVE_ATTACK_2": 201.49271
+      "GROW_CURVE_ATTACK_2": 237.50792,
+      "GROW_CURVE_HP_ENVIRONMENT": 2027.86084,
+      "growCurveType_Unknown_5201": 258.38196,
+      "growCurveType_Unknown_5202": 464.12973
     }
   },
   "115": {
     "curveInfos": {
       "GROW_CURVE_HP": 4496.22266,
-      "GROW_CURVE_ATTACK": 201.88451,
+      "GROW_CURVE_ATTACK": 238.26512,
       "GROW_CURVE_DEFENSE": 2.15,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -1836,13 +2178,16 @@
       "GROW_CURVE_MHP": 5789.45752,
       "GROW_CURVE_MATK": 277.94946,
       "GROW_CURVE_HP_2": 5603.3252,
-      "GROW_CURVE_ATTACK_2": 201.88451
+      "GROW_CURVE_ATTACK_2": 238.26512,
+      "GROW_CURVE_HP_ENVIRONMENT": 2055.47192,
+      "growCurveType_Unknown_5201": 262.39679,
+      "growCurveType_Unknown_5202": 471.34155
     }
   },
   "116": {
     "curveInfos": {
       "GROW_CURVE_HP": 4593.19238,
-      "GROW_CURVE_ATTACK": 202.27663,
+      "GROW_CURVE_ATTACK": 238.68179,
       "GROW_CURVE_DEFENSE": 2.16,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -1852,13 +2197,16 @@
       "GROW_CURVE_MHP": 5876.77148,
       "GROW_CURVE_MATK": 281.59079,
       "GROW_CURVE_HP_2": 5671.80176,
-      "GROW_CURVE_ATTACK_2": 202.27663
+      "GROW_CURVE_ATTACK_2": 238.68179,
+      "GROW_CURVE_HP_ENVIRONMENT": 2074.89453,
+      "growCurveType_Unknown_5201": 266.41162,
+      "growCurveType_Unknown_5202": 478.55338
     }
   },
   "117": {
     "curveInfos": {
       "GROW_CURVE_HP": 4691.69141,
-      "GROW_CURVE_ATTACK": 202.66896,
+      "GROW_CURVE_ATTACK": 239.09863,
       "GROW_CURVE_DEFENSE": 2.17,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -1868,13 +2216,16 @@
       "GROW_CURVE_MHP": 5964.08545,
       "GROW_CURVE_MATK": 285.23212,
       "GROW_CURVE_HP_2": 5743.35352,
-      "GROW_CURVE_ATTACK_2": 202.66896
+      "GROW_CURVE_ATTACK_2": 239.09863,
+      "GROW_CURVE_HP_ENVIRONMENT": 2094.38086,
+      "growCurveType_Unknown_5201": 270.42645,
+      "growCurveType_Unknown_5202": 485.7652
     }
   },
   "118": {
     "curveInfos": {
       "GROW_CURVE_HP": 4791.73633,
-      "GROW_CURVE_ATTACK": 203.06161,
+      "GROW_CURVE_ATTACK": 239.51584,
       "GROW_CURVE_DEFENSE": 2.18,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -1884,13 +2235,16 @@
       "GROW_CURVE_MHP": 6051.39941,
       "GROW_CURVE_MATK": 288.87344,
       "GROW_CURVE_HP_2": 5818.04785,
-      "GROW_CURVE_ATTACK_2": 203.06161
+      "GROW_CURVE_ATTACK_2": 239.51584,
+      "GROW_CURVE_HP_ENVIRONMENT": 2113.93091,
+      "growCurveType_Unknown_5201": 274.44128,
+      "growCurveType_Unknown_5202": 492.97702
     }
   },
   "119": {
     "curveInfos": {
       "GROW_CURVE_HP": 4893.34277,
-      "GROW_CURVE_ATTACK": 203.45453,
+      "GROW_CURVE_ATTACK": 239.9333,
       "GROW_CURVE_DEFENSE": 2.19,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -1900,13 +2254,16 @@
       "GROW_CURVE_MHP": 6138.71338,
       "GROW_CURVE_MATK": 292.51477,
       "GROW_CURVE_HP_2": 5895.95508,
-      "GROW_CURVE_ATTACK_2": 203.45453
+      "GROW_CURVE_ATTACK_2": 239.9333,
+      "GROW_CURVE_HP_ENVIRONMENT": 2133.54492,
+      "growCurveType_Unknown_5201": 278.45615,
+      "growCurveType_Unknown_5202": 500.18884
     }
   },
   "120": {
     "curveInfos": {
       "GROW_CURVE_HP": 5299.34619,
-      "GROW_CURVE_ATTACK": 203.84775,
+      "GROW_CURVE_ATTACK": 240.35098,
       "GROW_CURVE_DEFENSE": 2.2,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -1916,13 +2273,16 @@
       "GROW_CURVE_MHP": 6226.02734,
       "GROW_CURVE_MATK": 296.1561,
       "GROW_CURVE_HP_2": 5977.1499,
-      "GROW_CURVE_ATTACK_2": 203.84775
+      "GROW_CURVE_ATTACK_2": 240.35098,
+      "GROW_CURVE_HP_ENVIRONMENT": 2153.2229,
+      "growCurveType_Unknown_5201": 282.47098,
+      "growCurveType_Unknown_5202": 507.40067
     }
   },
   "121": {
     "curveInfos": {
       "GROW_CURVE_HP": 5399.2168,
-      "GROW_CURVE_ATTACK": 204.2412,
+      "GROW_CURVE_ATTACK": 240.76898,
       "GROW_CURVE_DEFENSE": 2.21,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -1932,13 +2292,16 @@
       "GROW_CURVE_MHP": 6313.34131,
       "GROW_CURVE_MATK": 299.79742,
       "GROW_CURVE_HP_2": 6049.2085,
-      "GROW_CURVE_ATTACK_2": 204.2412
+      "GROW_CURVE_ATTACK_2": 240.76898,
+      "GROW_CURVE_HP_ENVIRONMENT": 2172.96509,
+      "growCurveType_Unknown_5201": 286.48581,
+      "growCurveType_Unknown_5202": 514.61249
     }
   },
   "122": {
     "curveInfos": {
       "GROW_CURVE_HP": 5500.4624,
-      "GROW_CURVE_ATTACK": 204.63495,
+      "GROW_CURVE_ATTACK": 241.18729,
       "GROW_CURVE_DEFENSE": 2.22,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -1948,13 +2311,16 @@
       "GROW_CURVE_MHP": 6400.65527,
       "GROW_CURVE_MATK": 303.43875,
       "GROW_CURVE_HP_2": 6124.50684,
-      "GROW_CURVE_ATTACK_2": 204.63495
+      "GROW_CURVE_ATTACK_2": 241.18729,
+      "GROW_CURVE_HP_ENVIRONMENT": 2192.77173,
+      "growCurveType_Unknown_5201": 290.50064,
+      "growCurveType_Unknown_5202": 521.82428
     }
   },
   "123": {
     "curveInfos": {
       "GROW_CURVE_HP": 5603.09766,
-      "GROW_CURVE_ATTACK": 205.02893,
+      "GROW_CURVE_ATTACK": 241.60585,
       "GROW_CURVE_DEFENSE": 2.23,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -1964,13 +2330,16 @@
       "GROW_CURVE_MHP": 6487.96924,
       "GROW_CURVE_MATK": 307.08008,
       "GROW_CURVE_HP_2": 6203.11865,
-      "GROW_CURVE_ATTACK_2": 205.02893
+      "GROW_CURVE_ATTACK_2": 241.60585,
+      "GROW_CURVE_HP_ENVIRONMENT": 2212.64282,
+      "growCurveType_Unknown_5201": 294.51547,
+      "growCurveType_Unknown_5202": 529.03613
     }
   },
   "124": {
     "curveInfos": {
       "GROW_CURVE_HP": 5707.13525,
-      "GROW_CURVE_ATTACK": 205.42322,
+      "GROW_CURVE_ATTACK": 242.0246,
       "GROW_CURVE_DEFENSE": 2.24,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -1980,13 +2349,16 @@
       "GROW_CURVE_MHP": 6575.2832,
       "GROW_CURVE_MATK": 310.72141,
       "GROW_CURVE_HP_2": 6285.12305,
-      "GROW_CURVE_ATTACK_2": 205.42322
+      "GROW_CURVE_ATTACK_2": 242.0246,
+      "GROW_CURVE_HP_ENVIRONMENT": 2232.57861,
+      "growCurveType_Unknown_5201": 298.5303,
+      "growCurveType_Unknown_5202": 536.24792
     }
   },
   "125": {
     "curveInfos": {
       "GROW_CURVE_HP": 5812.59033,
-      "GROW_CURVE_ATTACK": 205.81776,
+      "GROW_CURVE_ATTACK": 242.4437,
       "GROW_CURVE_DEFENSE": 2.25,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -1996,13 +2368,16 @@
       "GROW_CURVE_MHP": 6662.59717,
       "GROW_CURVE_MATK": 314.3627,
       "GROW_CURVE_HP_2": 6370.60107,
-      "GROW_CURVE_ATTACK_2": 205.81776
+      "GROW_CURVE_ATTACK_2": 242.4437,
+      "GROW_CURVE_HP_ENVIRONMENT": 2252.5791,
+      "growCurveType_Unknown_5201": 302.54514,
+      "growCurveType_Unknown_5202": 543.45978
     }
   },
   "126": {
     "curveInfos": {
       "GROW_CURVE_HP": 5919.4751,
-      "GROW_CURVE_ATTACK": 206.21259,
+      "GROW_CURVE_ATTACK": 242.8631,
       "GROW_CURVE_DEFENSE": 2.26,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2012,13 +2387,16 @@
       "GROW_CURVE_MHP": 6749.91064,
       "GROW_CURVE_MATK": 318.00403,
       "GROW_CURVE_HP_2": 6459.6377,
-      "GROW_CURVE_ATTACK_2": 206.21259
+      "GROW_CURVE_ATTACK_2": 242.8631,
+      "GROW_CURVE_HP_ENVIRONMENT": 2261.16479,
+      "growCurveType_Unknown_5201": 306.56,
+      "growCurveType_Unknown_5202": 550.67157
     }
   },
   "127": {
     "curveInfos": {
       "GROW_CURVE_HP": 6027.8042,
-      "GROW_CURVE_ATTACK": 206.60771,
+      "GROW_CURVE_ATTACK": 243.28264,
       "GROW_CURVE_DEFENSE": 2.27,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2028,13 +2406,16 @@
       "GROW_CURVE_MHP": 6837.22461,
       "GROW_CURVE_MATK": 321.64536,
       "GROW_CURVE_HP_2": 6549.58301,
-      "GROW_CURVE_ATTACK_2": 206.60771
+      "GROW_CURVE_ATTACK_2": 243.28264,
+      "GROW_CURVE_HP_ENVIRONMENT": 2269.77148,
+      "growCurveType_Unknown_5201": 310.57483,
+      "growCurveType_Unknown_5202": 557.88342
     }
   },
   "128": {
     "curveInfos": {
       "GROW_CURVE_HP": 6137.5918,
-      "GROW_CURVE_ATTACK": 207.00305,
+      "GROW_CURVE_ATTACK": 243.70258,
       "GROW_CURVE_DEFENSE": 2.28,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2044,13 +2425,16 @@
       "GROW_CURVE_MHP": 6924.53857,
       "GROW_CURVE_MATK": 325.28668,
       "GROW_CURVE_HP_2": 6640.44238,
-      "GROW_CURVE_ATTACK_2": 207.00305
+      "GROW_CURVE_ATTACK_2": 243.70258,
+      "GROW_CURVE_HP_ENVIRONMENT": 2278.39917,
+      "growCurveType_Unknown_5201": 314.58966,
+      "growCurveType_Unknown_5202": 565.09521
     }
   },
   "129": {
     "curveInfos": {
       "GROW_CURVE_HP": 6248.85059,
-      "GROW_CURVE_ATTACK": 207.39871,
+      "GROW_CURVE_ATTACK": 244.12279,
       "GROW_CURVE_DEFENSE": 2.29,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2060,13 +2444,16 @@
       "GROW_CURVE_MHP": 7011.85254,
       "GROW_CURVE_MATK": 328.92801,
       "GROW_CURVE_HP_2": 6732.22314,
-      "GROW_CURVE_ATTACK_2": 207.39871
+      "GROW_CURVE_ATTACK_2": 244.12279,
+      "GROW_CURVE_HP_ENVIRONMENT": 2287.0481,
+      "growCurveType_Unknown_5201": 318.60449,
+      "growCurveType_Unknown_5202": 572.30707
     }
   },
   "130": {
     "curveInfos": {
       "GROW_CURVE_HP": 6361.59521,
-      "GROW_CURVE_ATTACK": 207.79463,
+      "GROW_CURVE_ATTACK": 244.54317,
       "GROW_CURVE_DEFENSE": 2.3,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2076,13 +2463,16 @@
       "GROW_CURVE_MHP": 7099.1665,
       "GROW_CURVE_MATK": 332.56934,
       "GROW_CURVE_HP_2": 6824.93213,
-      "GROW_CURVE_ATTACK_2": 207.79463
+      "GROW_CURVE_ATTACK_2": 244.54317,
+      "GROW_CURVE_HP_ENVIRONMENT": 2295.71826,
+      "growCurveType_Unknown_5201": 322.61932,
+      "growCurveType_Unknown_5202": 579.51886
     }
   },
   "131": {
     "curveInfos": {
       "GROW_CURVE_HP": 6475.83887,
-      "GROW_CURVE_ATTACK": 208.19081,
+      "GROW_CURVE_ATTACK": 244.96391,
       "GROW_CURVE_DEFENSE": 2.31,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2092,13 +2482,16 @@
       "GROW_CURVE_MHP": 7186.48047,
       "GROW_CURVE_MATK": 336.21066,
       "GROW_CURVE_HP_2": 6918.5752,
-      "GROW_CURVE_ATTACK_2": 208.19081
+      "GROW_CURVE_ATTACK_2": 244.96391,
+      "GROW_CURVE_HP_ENVIRONMENT": 2304.40967,
+      "growCurveType_Unknown_5201": 326.63416,
+      "growCurveType_Unknown_5202": 586.73071
     }
   },
   "132": {
     "curveInfos": {
       "GROW_CURVE_HP": 6591.5957,
-      "GROW_CURVE_ATTACK": 208.58727,
+      "GROW_CURVE_ATTACK": 245.38495,
       "GROW_CURVE_DEFENSE": 2.32,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2108,13 +2501,16 @@
       "GROW_CURVE_MHP": 7273.79443,
       "GROW_CURVE_MATK": 339.85199,
       "GROW_CURVE_HP_2": 7013.15967,
-      "GROW_CURVE_ATTACK_2": 208.58727
+      "GROW_CURVE_ATTACK_2": 245.38495,
+      "GROW_CURVE_HP_ENVIRONMENT": 2313.12231,
+      "growCurveType_Unknown_5201": 330.64899,
+      "growCurveType_Unknown_5202": 593.9425
     }
   },
   "133": {
     "curveInfos": {
       "GROW_CURVE_HP": 6708.87939,
-      "GROW_CURVE_ATTACK": 208.98399,
+      "GROW_CURVE_ATTACK": 245.80621,
       "GROW_CURVE_DEFENSE": 2.33,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2124,13 +2520,16 @@
       "GROW_CURVE_MHP": 7361.1084,
       "GROW_CURVE_MATK": 343.49332,
       "GROW_CURVE_HP_2": 7108.69141,
-      "GROW_CURVE_ATTACK_2": 208.98399
+      "GROW_CURVE_ATTACK_2": 245.80621,
+      "GROW_CURVE_HP_ENVIRONMENT": 2321.85645,
+      "growCurveType_Unknown_5201": 334.66385,
+      "growCurveType_Unknown_5202": 601.15436
     }
   },
   "134": {
     "curveInfos": {
       "GROW_CURVE_HP": 6827.70361,
-      "GROW_CURVE_ATTACK": 209.38101,
+      "GROW_CURVE_ATTACK": 246.22771,
       "GROW_CURVE_DEFENSE": 2.34,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2140,13 +2539,16 @@
       "GROW_CURVE_MHP": 7448.42236,
       "GROW_CURVE_MATK": 347.13464,
       "GROW_CURVE_HP_2": 7205.17822,
-      "GROW_CURVE_ATTACK_2": 209.38101
+      "GROW_CURVE_ATTACK_2": 246.22771,
+      "GROW_CURVE_HP_ENVIRONMENT": 2330.61157,
+      "growCurveType_Unknown_5201": 338.67868,
+      "growCurveType_Unknown_5202": 608.36615
     }
   },
   "135": {
     "curveInfos": {
       "GROW_CURVE_HP": 6948.08252,
-      "GROW_CURVE_ATTACK": 209.77831,
+      "GROW_CURVE_ATTACK": 246.64955,
       "GROW_CURVE_DEFENSE": 2.35,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2156,13 +2558,16 @@
       "GROW_CURVE_MHP": 7535.73633,
       "GROW_CURVE_MATK": 350.77597,
       "GROW_CURVE_HP_2": 7302.62549,
-      "GROW_CURVE_ATTACK_2": 209.77831
+      "GROW_CURVE_ATTACK_2": 246.64955,
+      "GROW_CURVE_HP_ENVIRONMENT": 2339.38843,
+      "growCurveType_Unknown_5201": 342.69351,
+      "growCurveType_Unknown_5202": 615.578
     }
   },
   "136": {
     "curveInfos": {
       "GROW_CURVE_HP": 7070.0293,
-      "GROW_CURVE_ATTACK": 210.17583,
+      "GROW_CURVE_ATTACK": 247.07166,
       "GROW_CURVE_DEFENSE": 2.36,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2172,13 +2577,16 @@
       "GROW_CURVE_MHP": 7623.05029,
       "GROW_CURVE_MATK": 354.4173,
       "GROW_CURVE_HP_2": 7401.04053,
-      "GROW_CURVE_ATTACK_2": 210.17583
+      "GROW_CURVE_ATTACK_2": 247.07166,
+      "GROW_CURVE_HP_ENVIRONMENT": 2348.18652,
+      "growCurveType_Unknown_5201": 346.70834,
+      "growCurveType_Unknown_5202": 622.78979
     }
   },
   "137": {
     "curveInfos": {
       "GROW_CURVE_HP": 7193.55762,
-      "GROW_CURVE_ATTACK": 210.57364,
+      "GROW_CURVE_ATTACK": 247.49394,
       "GROW_CURVE_DEFENSE": 2.37,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2188,13 +2596,16 @@
       "GROW_CURVE_MHP": 7710.36426,
       "GROW_CURVE_MATK": 358.05862,
       "GROW_CURVE_HP_2": 7500.42969,
-      "GROW_CURVE_ATTACK_2": 210.57364
+      "GROW_CURVE_ATTACK_2": 247.49394,
+      "GROW_CURVE_HP_ENVIRONMENT": 2357.00635,
+      "growCurveType_Unknown_5201": 350.72318,
+      "growCurveType_Unknown_5202": 630.00165
     }
   },
   "138": {
     "curveInfos": {
       "GROW_CURVE_HP": 7318.68213,
-      "GROW_CURVE_ATTACK": 210.97179,
+      "GROW_CURVE_ATTACK": 247.91658,
       "GROW_CURVE_DEFENSE": 2.38,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2204,13 +2615,16 @@
       "GROW_CURVE_MHP": 7797.67822,
       "GROW_CURVE_MATK": 361.69995,
       "GROW_CURVE_HP_2": 7600.80029,
-      "GROW_CURVE_ATTACK_2": 210.97179
+      "GROW_CURVE_ATTACK_2": 247.91658,
+      "GROW_CURVE_HP_ENVIRONMENT": 2365.84741,
+      "growCurveType_Unknown_5201": 354.73801,
+      "growCurveType_Unknown_5202": 637.21344
     }
   },
   "139": {
     "curveInfos": {
       "GROW_CURVE_HP": 7445.41602,
-      "GROW_CURVE_ATTACK": 211.37013,
+      "GROW_CURVE_ATTACK": 248.33952,
       "GROW_CURVE_DEFENSE": 2.39,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2220,13 +2634,16 @@
       "GROW_CURVE_MHP": 7884.99219,
       "GROW_CURVE_MATK": 365.34128,
       "GROW_CURVE_HP_2": 7702.15771,
-      "GROW_CURVE_ATTACK_2": 211.37013
+      "GROW_CURVE_ATTACK_2": 248.33952,
+      "GROW_CURVE_HP_ENVIRONMENT": 2374.71021,
+      "growCurveType_Unknown_5201": 358.75284,
+      "growCurveType_Unknown_5202": 644.42529
     }
   },
   "140": {
     "curveInfos": {
       "GROW_CURVE_HP": 7573.77295,
-      "GROW_CURVE_ATTACK": 211.76875,
+      "GROW_CURVE_ATTACK": 248.76265,
       "GROW_CURVE_DEFENSE": 2.4,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2236,13 +2653,16 @@
       "GROW_CURVE_MHP": 7972.30615,
       "GROW_CURVE_MATK": 368.9826,
       "GROW_CURVE_HP_2": 7804.50928,
-      "GROW_CURVE_ATTACK_2": 211.76875
+      "GROW_CURVE_ATTACK_2": 248.76265,
+      "GROW_CURVE_HP_ENVIRONMENT": 2383.59473,
+      "growCurveType_Unknown_5201": 362.7677,
+      "growCurveType_Unknown_5202": 651.63708
     }
   },
   "141": {
     "curveInfos": {
       "GROW_CURVE_HP": 7703.7666,
-      "GROW_CURVE_ATTACK": 212.16768,
+      "GROW_CURVE_ATTACK": 249.18608,
       "GROW_CURVE_DEFENSE": 2.41,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2252,13 +2672,16 @@
       "GROW_CURVE_MHP": 8059.61963,
       "GROW_CURVE_MATK": 372.62393,
       "GROW_CURVE_HP_2": 7907.86182,
-      "GROW_CURVE_ATTACK_2": 212.16768
+      "GROW_CURVE_ATTACK_2": 249.18608,
+      "GROW_CURVE_HP_ENVIRONMENT": 2392.50073,
+      "growCurveType_Unknown_5201": 366.78253,
+      "growCurveType_Unknown_5202": 658.84894
     }
   },
   "142": {
     "curveInfos": {
       "GROW_CURVE_HP": 7835.41113,
-      "GROW_CURVE_ATTACK": 212.56688,
+      "GROW_CURVE_ATTACK": 249.60983,
       "GROW_CURVE_DEFENSE": 2.42,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2268,13 +2691,16 @@
       "GROW_CURVE_MHP": 8146.93359,
       "GROW_CURVE_MATK": 376.26526,
       "GROW_CURVE_HP_2": 8012.22168,
-      "GROW_CURVE_ATTACK_2": 212.56688
+      "GROW_CURVE_ATTACK_2": 249.60983,
+      "GROW_CURVE_HP_ENVIRONMENT": 2401.42847,
+      "growCurveType_Unknown_5201": 370.79736,
+      "growCurveType_Unknown_5202": 666.06073
     }
   },
   "143": {
     "curveInfos": {
       "GROW_CURVE_HP": 7968.7207,
-      "GROW_CURVE_ATTACK": 212.96634,
+      "GROW_CURVE_ATTACK": 250.03387,
       "GROW_CURVE_DEFENSE": 2.43,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2284,13 +2710,16 @@
       "GROW_CURVE_MHP": 8234.24805,
       "GROW_CURVE_MATK": 379.90659,
       "GROW_CURVE_HP_2": 8117.5957,
-      "GROW_CURVE_ATTACK_2": 212.96634
+      "GROW_CURVE_ATTACK_2": 250.03387,
+      "GROW_CURVE_HP_ENVIRONMENT": 2410.37817,
+      "growCurveType_Unknown_5201": 374.81219,
+      "growCurveType_Unknown_5202": 673.27258
     }
   },
   "144": {
     "curveInfos": {
       "GROW_CURVE_HP": 8103.70801,
-      "GROW_CURVE_ATTACK": 213.36606,
+      "GROW_CURVE_ATTACK": 250.45807,
       "GROW_CURVE_DEFENSE": 2.44,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2300,13 +2729,16 @@
       "GROW_CURVE_MHP": 8321.56152,
       "GROW_CURVE_MATK": 383.54791,
       "GROW_CURVE_HP_2": 8223.99023,
-      "GROW_CURVE_ATTACK_2": 213.36606
+      "GROW_CURVE_ATTACK_2": 250.45807,
+      "GROW_CURVE_HP_ENVIRONMENT": 2419.34961,
+      "growCurveType_Unknown_5201": 378.82703,
+      "growCurveType_Unknown_5202": 680.48438
     }
   },
   "145": {
     "curveInfos": {
       "GROW_CURVE_HP": 8240.3877,
-      "GROW_CURVE_ATTACK": 213.76605,
+      "GROW_CURVE_ATTACK": 250.88261,
       "GROW_CURVE_DEFENSE": 2.45,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2316,13 +2748,16 @@
       "GROW_CURVE_MHP": 8408.87598,
       "GROW_CURVE_MATK": 387.18924,
       "GROW_CURVE_HP_2": 8331.41113,
-      "GROW_CURVE_ATTACK_2": 213.76605
+      "GROW_CURVE_ATTACK_2": 250.88261,
+      "GROW_CURVE_HP_ENVIRONMENT": 2428.34277,
+      "growCurveType_Unknown_5201": 382.84186,
+      "growCurveType_Unknown_5202": 687.69623
     }
   },
   "146": {
     "curveInfos": {
       "GROW_CURVE_HP": 8378.77246,
-      "GROW_CURVE_ATTACK": 214.16635,
+      "GROW_CURVE_ATTACK": 251.30746,
       "GROW_CURVE_DEFENSE": 2.46,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2332,13 +2767,16 @@
       "GROW_CURVE_MHP": 8496.18945,
       "GROW_CURVE_MATK": 390.83057,
       "GROW_CURVE_HP_2": 8439.86719,
-      "GROW_CURVE_ATTACK_2": 214.16635
+      "GROW_CURVE_ATTACK_2": 251.30746,
+      "GROW_CURVE_HP_ENVIRONMENT": 2437.35791,
+      "growCurveType_Unknown_5201": 386.85669,
+      "growCurveType_Unknown_5202": 694.90802
     }
   },
   "147": {
     "curveInfos": {
       "GROW_CURVE_HP": 8518.87793,
-      "GROW_CURVE_ATTACK": 214.56688,
+      "GROW_CURVE_ATTACK": 251.73248,
       "GROW_CURVE_DEFENSE": 2.47,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2348,13 +2786,16 @@
       "GROW_CURVE_MHP": 8583.50391,
       "GROW_CURVE_MATK": 394.47189,
       "GROW_CURVE_HP_2": 8549.3623,
-      "GROW_CURVE_ATTACK_2": 214.56688
+      "GROW_CURVE_ATTACK_2": 251.73248,
+      "GROW_CURVE_HP_ENVIRONMENT": 2446.39502,
+      "growCurveType_Unknown_5201": 390.87155,
+      "growCurveType_Unknown_5202": 702.11987
     }
   },
   "148": {
     "curveInfos": {
       "GROW_CURVE_HP": 8660.71582,
-      "GROW_CURVE_ATTACK": 214.96771,
+      "GROW_CURVE_ATTACK": 252.15787,
       "GROW_CURVE_DEFENSE": 2.48,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2364,13 +2805,16 @@
       "GROW_CURVE_MHP": 8670.81738,
       "GROW_CURVE_MATK": 398.11322,
       "GROW_CURVE_HP_2": 8659.90527,
-      "GROW_CURVE_ATTACK_2": 214.96771
+      "GROW_CURVE_ATTACK_2": 252.15787,
+      "GROW_CURVE_HP_ENVIRONMENT": 2455.4541,
+      "growCurveType_Unknown_5201": 394.88638,
+      "growCurveType_Unknown_5202": 709.33167
     }
   },
   "149": {
     "curveInfos": {
       "GROW_CURVE_HP": 8804.30176,
-      "GROW_CURVE_ATTACK": 215.3688,
+      "GROW_CURVE_ATTACK": 252.58351,
       "GROW_CURVE_DEFENSE": 2.49,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2380,13 +2824,16 @@
       "GROW_CURVE_MHP": 8758.13086,
       "GROW_CURVE_MATK": 401.75455,
       "GROW_CURVE_HP_2": 8771.50195,
-      "GROW_CURVE_ATTACK_2": 215.3688
+      "GROW_CURVE_ATTACK_2": 252.58351,
+      "GROW_CURVE_HP_ENVIRONMENT": 2464.53516,
+      "growCurveType_Unknown_5201": 398.90121,
+      "growCurveType_Unknown_5202": 716.54352
     }
   },
   "150": {
     "curveInfos": {
       "GROW_CURVE_HP": 8949.64746,
-      "GROW_CURVE_ATTACK": 215.77017,
+      "GROW_CURVE_ATTACK": 253.00934,
       "GROW_CURVE_DEFENSE": 2.5,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2396,13 +2843,16 @@
       "GROW_CURVE_MHP": 8845.44531,
       "GROW_CURVE_MATK": 405.39587,
       "GROW_CURVE_HP_2": 8884.15918,
-      "GROW_CURVE_ATTACK_2": 215.77017
+      "GROW_CURVE_ATTACK_2": 253.00934,
+      "GROW_CURVE_HP_ENVIRONMENT": 2473.63818,
+      "growCurveType_Unknown_5201": 402.91605,
+      "growCurveType_Unknown_5202": 723.75531
     }
   },
   "151": {
     "curveInfos": {
       "GROW_CURVE_HP": 9096.76855,
-      "GROW_CURVE_ATTACK": 216.1718,
+      "GROW_CURVE_ATTACK": 253.43555,
       "GROW_CURVE_DEFENSE": 2.51,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2412,13 +2862,16 @@
       "GROW_CURVE_MHP": 8932.75879,
       "GROW_CURVE_MATK": 409.0372,
       "GROW_CURVE_HP_2": 8997.88281,
-      "GROW_CURVE_ATTACK_2": 216.1718
+      "GROW_CURVE_ATTACK_2": 253.43555,
+      "GROW_CURVE_HP_ENVIRONMENT": 2482.76343,
+      "growCurveType_Unknown_5201": 406.93088,
+      "growCurveType_Unknown_5202": 730.96716
     }
   },
   "152": {
     "curveInfos": {
       "GROW_CURVE_HP": 9245.67871,
-      "GROW_CURVE_ATTACK": 216.57373,
+      "GROW_CURVE_ATTACK": 253.86205,
       "GROW_CURVE_DEFENSE": 2.52,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2428,13 +2881,16 @@
       "GROW_CURVE_MHP": 9020.07324,
       "GROW_CURVE_MATK": 412.67853,
       "GROW_CURVE_HP_2": 9112.68066,
-      "GROW_CURVE_ATTACK_2": 216.57373
+      "GROW_CURVE_ATTACK_2": 253.86205,
+      "GROW_CURVE_HP_ENVIRONMENT": 2491.91089,
+      "growCurveType_Unknown_5201": 410.94571,
+      "growCurveType_Unknown_5202": 738.17896
     }
   },
   "153": {
     "curveInfos": {
       "GROW_CURVE_HP": 9396.38965,
-      "GROW_CURVE_ATTACK": 216.97589,
+      "GROW_CURVE_ATTACK": 254.28874,
       "GROW_CURVE_DEFENSE": 2.53,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2444,13 +2900,16 @@
       "GROW_CURVE_MHP": 9107.38672,
       "GROW_CURVE_MATK": 416.31985,
       "GROW_CURVE_HP_2": 9228.55859,
-      "GROW_CURVE_ATTACK_2": 216.97589
+      "GROW_CURVE_ATTACK_2": 254.28874,
+      "GROW_CURVE_HP_ENVIRONMENT": 2501.08057,
+      "growCurveType_Unknown_5201": 414.96054,
+      "growCurveType_Unknown_5202": 745.39081
     }
   },
   "154": {
     "curveInfos": {
       "GROW_CURVE_HP": 9548.91699,
-      "GROW_CURVE_ATTACK": 217.37836,
+      "GROW_CURVE_ATTACK": 254.71568,
       "GROW_CURVE_DEFENSE": 2.54,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2460,13 +2919,16 @@
       "GROW_CURVE_MHP": 9194.70117,
       "GROW_CURVE_MATK": 419.96118,
       "GROW_CURVE_HP_2": 9345.52246,
-      "GROW_CURVE_ATTACK_2": 217.37836
+      "GROW_CURVE_ATTACK_2": 254.71568,
+      "GROW_CURVE_HP_ENVIRONMENT": 2510.27246,
+      "growCurveType_Unknown_5201": 418.9754,
+      "growCurveType_Unknown_5202": 752.6026
     }
   },
   "155": {
     "curveInfos": {
       "GROW_CURVE_HP": 9703.27441,
-      "GROW_CURVE_ATTACK": 217.7811,
+      "GROW_CURVE_ATTACK": 255.14296,
       "GROW_CURVE_DEFENSE": 2.55,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2476,13 +2938,16 @@
       "GROW_CURVE_MHP": 9282.01465,
       "GROW_CURVE_MATK": 423.60251,
       "GROW_CURVE_HP_2": 9463.58105,
-      "GROW_CURVE_ATTACK_2": 217.7811
+      "GROW_CURVE_ATTACK_2": 255.14296,
+      "GROW_CURVE_HP_ENVIRONMENT": 2519.48657,
+      "growCurveType_Unknown_5201": 422.99023,
+      "growCurveType_Unknown_5202": 759.81445
     }
   },
   "156": {
     "curveInfos": {
       "GROW_CURVE_HP": 9859.47559,
-      "GROW_CURVE_ATTACK": 218.1841,
+      "GROW_CURVE_ATTACK": 255.57056,
       "GROW_CURVE_DEFENSE": 2.56,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2492,13 +2957,16 @@
       "GROW_CURVE_MHP": 9369.3291,
       "GROW_CURVE_MATK": 427.24384,
       "GROW_CURVE_HP_2": 9582.73828,
-      "GROW_CURVE_ATTACK_2": 218.1841
+      "GROW_CURVE_ATTACK_2": 255.57056,
+      "GROW_CURVE_HP_ENVIRONMENT": 2528.72314,
+      "growCurveType_Unknown_5201": 427.00507,
+      "growCurveType_Unknown_5202": 767.02625
     }
   },
   "157": {
     "curveInfos": {
       "GROW_CURVE_HP": 10017.53418,
-      "GROW_CURVE_ATTACK": 218.58736,
+      "GROW_CURVE_ATTACK": 255.99828,
       "GROW_CURVE_DEFENSE": 2.57,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2508,13 +2976,16 @@
       "GROW_CURVE_MHP": 9456.64258,
       "GROW_CURVE_MATK": 430.88516,
       "GROW_CURVE_HP_2": 9703.00293,
-      "GROW_CURVE_ATTACK_2": 218.58736
+      "GROW_CURVE_ATTACK_2": 255.99828,
+      "GROW_CURVE_HP_ENVIRONMENT": 2537.98193,
+      "growCurveType_Unknown_5201": 431.0199,
+      "growCurveType_Unknown_5202": 774.2381
     }
   },
   "158": {
     "curveInfos": {
       "GROW_CURVE_HP": 10177.46289,
-      "GROW_CURVE_ATTACK": 218.99094,
+      "GROW_CURVE_ATTACK": 256.42639,
       "GROW_CURVE_DEFENSE": 2.58,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2524,13 +2995,16 @@
       "GROW_CURVE_MHP": 9543.95703,
       "GROW_CURVE_MATK": 434.52649,
       "GROW_CURVE_HP_2": 9824.38086,
-      "GROW_CURVE_ATTACK_2": 218.99094
+      "GROW_CURVE_ATTACK_2": 256.42639,
+      "GROW_CURVE_HP_ENVIRONMENT": 2547.26318,
+      "growCurveType_Unknown_5201": 435.03473,
+      "growCurveType_Unknown_5202": 781.44989
     }
   },
   "159": {
     "curveInfos": {
       "GROW_CURVE_HP": 10339.27734,
-      "GROW_CURVE_ATTACK": 219.39473,
+      "GROW_CURVE_ATTACK": 256.85474,
       "GROW_CURVE_DEFENSE": 2.59,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2540,13 +3014,16 @@
       "GROW_CURVE_MHP": 9631.27051,
       "GROW_CURVE_MATK": 438.16782,
       "GROW_CURVE_HP_2": 9946.87891,
-      "GROW_CURVE_ATTACK_2": 219.39473
+      "GROW_CURVE_ATTACK_2": 256.85474,
+      "GROW_CURVE_HP_ENVIRONMENT": 2556.56714,
+      "growCurveType_Unknown_5201": 439.04956,
+      "growCurveType_Unknown_5202": 788.66174
     }
   },
   "160": {
     "curveInfos": {
       "GROW_CURVE_HP": 10502.98926,
-      "GROW_CURVE_ATTACK": 219.79883,
+      "GROW_CURVE_ATTACK": 257.28339,
       "GROW_CURVE_DEFENSE": 2.6,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2556,13 +3033,16 @@
       "GROW_CURVE_MHP": 9718.58496,
       "GROW_CURVE_MATK": 441.80914,
       "GROW_CURVE_HP_2": 10070.50293,
-      "GROW_CURVE_ATTACK_2": 219.79883
+      "GROW_CURVE_ATTACK_2": 257.28339,
+      "GROW_CURVE_HP_ENVIRONMENT": 2565.89331,
+      "growCurveType_Unknown_5201": 443.06442,
+      "growCurveType_Unknown_5202": 795.87354
     }
   },
   "161": {
     "curveInfos": {
       "GROW_CURVE_HP": 10585.56152,
-      "GROW_CURVE_ATTACK": 220.2032,
+      "GROW_CURVE_ATTACK": 257.71228,
       "GROW_CURVE_DEFENSE": 2.61,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2572,13 +3052,16 @@
       "GROW_CURVE_MHP": 9805.89844,
       "GROW_CURVE_MATK": 445.45047,
       "GROW_CURVE_HP_2": 10195.26074,
-      "GROW_CURVE_ATTACK_2": 220.2032
+      "GROW_CURVE_ATTACK_2": 257.71228,
+      "GROW_CURVE_HP_ENVIRONMENT": 2575.24219,
+      "growCurveType_Unknown_5201": 447.07925,
+      "growCurveType_Unknown_5202": 803.08539
     }
   },
   "162": {
     "curveInfos": {
       "GROW_CURVE_HP": 10668.61426,
-      "GROW_CURVE_ATTACK": 220.60783,
+      "GROW_CURVE_ATTACK": 258.14145,
       "GROW_CURVE_DEFENSE": 2.62,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2588,13 +3071,16 @@
       "GROW_CURVE_MHP": 9893.21289,
       "GROW_CURVE_MATK": 449.0918,
       "GROW_CURVE_HP_2": 10321.1582,
-      "GROW_CURVE_ATTACK_2": 220.60783
+      "GROW_CURVE_ATTACK_2": 258.14145,
+      "GROW_CURVE_HP_ENVIRONMENT": 2584.61377,
+      "growCurveType_Unknown_5201": 451.09409,
+      "growCurveType_Unknown_5202": 810.29718
     }
   },
   "163": {
     "curveInfos": {
       "GROW_CURVE_HP": 10752.14844,
-      "GROW_CURVE_ATTACK": 221.01274,
+      "GROW_CURVE_ATTACK": 258.57089,
       "GROW_CURVE_DEFENSE": 2.63,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2604,13 +3090,16 @@
       "GROW_CURVE_MHP": 9980.52637,
       "GROW_CURVE_MATK": 452.73312,
       "GROW_CURVE_HP_2": 10448.20117,
-      "GROW_CURVE_ATTACK_2": 221.01274
+      "GROW_CURVE_ATTACK_2": 258.57089,
+      "GROW_CURVE_HP_ENVIRONMENT": 2594.00781,
+      "growCurveType_Unknown_5201": 455.10892,
+      "growCurveType_Unknown_5202": 817.50903
     }
   },
   "164": {
     "curveInfos": {
       "GROW_CURVE_HP": 10836.16504,
-      "GROW_CURVE_ATTACK": 221.41795,
+      "GROW_CURVE_ATTACK": 259.00058,
       "GROW_CURVE_DEFENSE": 2.64,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2620,13 +3109,16 @@
       "GROW_CURVE_MHP": 10067.83984,
       "GROW_CURVE_MATK": 456.37445,
       "GROW_CURVE_HP_2": 10576.39844,
-      "GROW_CURVE_ATTACK_2": 221.41795
+      "GROW_CURVE_ATTACK_2": 259.00058,
+      "GROW_CURVE_HP_ENVIRONMENT": 2603.42456,
+      "growCurveType_Unknown_5201": 459.12375,
+      "growCurveType_Unknown_5202": 824.72083
     }
   },
   "165": {
     "curveInfos": {
       "GROW_CURVE_HP": 10920.66797,
-      "GROW_CURVE_ATTACK": 221.82338,
+      "GROW_CURVE_ATTACK": 259.4306,
       "GROW_CURVE_DEFENSE": 2.65,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2636,13 +3128,16 @@
       "GROW_CURVE_MHP": 10155.1543,
       "GROW_CURVE_MATK": 460.01578,
       "GROW_CURVE_HP_2": 10705.75488,
-      "GROW_CURVE_ATTACK_2": 221.82338
+      "GROW_CURVE_ATTACK_2": 259.4306,
+      "GROW_CURVE_HP_ENVIRONMENT": 2612.86401,
+      "growCurveType_Unknown_5201": 463.13858,
+      "growCurveType_Unknown_5202": 831.93268
     }
   },
   "166": {
     "curveInfos": {
       "GROW_CURVE_HP": 11005.65625,
-      "GROW_CURVE_ATTACK": 222.22913,
+      "GROW_CURVE_ATTACK": 259.86084,
       "GROW_CURVE_DEFENSE": 2.66,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2652,13 +3147,16 @@
       "GROW_CURVE_MHP": 10242.46777,
       "GROW_CURVE_MATK": 463.6571,
       "GROW_CURVE_HP_2": 10836.27734,
-      "GROW_CURVE_ATTACK_2": 222.22913
+      "GROW_CURVE_ATTACK_2": 259.86084,
+      "GROW_CURVE_HP_ENVIRONMENT": 2622.32642,
+      "growCurveType_Unknown_5201": 467.15341,
+      "growCurveType_Unknown_5202": 839.14447
     }
   },
   "167": {
     "curveInfos": {
       "GROW_CURVE_HP": 11091.13379,
-      "GROW_CURVE_ATTACK": 222.63513,
+      "GROW_CURVE_ATTACK": 260.29132,
       "GROW_CURVE_DEFENSE": 2.67,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2668,13 +3166,16 @@
       "GROW_CURVE_MHP": 10329.78223,
       "GROW_CURVE_MATK": 467.29843,
       "GROW_CURVE_HP_2": 10967.97266,
-      "GROW_CURVE_ATTACK_2": 222.63513
+      "GROW_CURVE_ATTACK_2": 260.29132,
+      "GROW_CURVE_HP_ENVIRONMENT": 2631.81152,
+      "growCurveType_Unknown_5201": 471.16827,
+      "growCurveType_Unknown_5202": 846.35632
     }
   },
   "168": {
     "curveInfos": {
       "GROW_CURVE_HP": 11177.10059,
-      "GROW_CURVE_ATTACK": 223.0414,
+      "GROW_CURVE_ATTACK": 260.72217,
       "GROW_CURVE_DEFENSE": 2.68,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2684,13 +3185,16 @@
       "GROW_CURVE_MHP": 10417.0957,
       "GROW_CURVE_MATK": 470.93976,
       "GROW_CURVE_HP_2": 11100.84766,
-      "GROW_CURVE_ATTACK_2": 223.0414
+      "GROW_CURVE_ATTACK_2": 260.72217,
+      "GROW_CURVE_HP_ENVIRONMENT": 2641.31958,
+      "growCurveType_Unknown_5201": 475.18311,
+      "growCurveType_Unknown_5202": 853.56812
     }
   },
   "169": {
     "curveInfos": {
       "GROW_CURVE_HP": 11263.56055,
-      "GROW_CURVE_ATTACK": 223.44794,
+      "GROW_CURVE_ATTACK": 261.15326,
       "GROW_CURVE_DEFENSE": 2.69,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2700,13 +3204,16 @@
       "GROW_CURVE_MHP": 10504.41016,
       "GROW_CURVE_MATK": 474.58109,
       "GROW_CURVE_HP_2": 11234.90918,
-      "GROW_CURVE_ATTACK_2": 223.44794
+      "GROW_CURVE_ATTACK_2": 261.15326,
+      "GROW_CURVE_HP_ENVIRONMENT": 2650.85059,
+      "growCurveType_Unknown_5201": 479.19794,
+      "growCurveType_Unknown_5202": 860.77997
     }
   },
   "170": {
     "curveInfos": {
       "GROW_CURVE_HP": 11350.5127,
-      "GROW_CURVE_ATTACK": 223.85474,
+      "GROW_CURVE_ATTACK": 261.58466,
       "GROW_CURVE_DEFENSE": 2.7,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2716,13 +3223,16 @@
       "GROW_CURVE_MHP": 10591.72363,
       "GROW_CURVE_MATK": 478.22241,
       "GROW_CURVE_HP_2": 11370.16309,
-      "GROW_CURVE_ATTACK_2": 223.85474
+      "GROW_CURVE_ATTACK_2": 261.58466,
+      "GROW_CURVE_HP_ENVIRONMENT": 2660.40454,
+      "growCurveType_Unknown_5201": 483.21277,
+      "growCurveType_Unknown_5202": 867.99176
     }
   },
   "171": {
     "curveInfos": {
       "GROW_CURVE_HP": 11437.96094,
-      "GROW_CURVE_ATTACK": 224.26186,
+      "GROW_CURVE_ATTACK": 262.01617,
       "GROW_CURVE_DEFENSE": 2.71,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2732,13 +3242,16 @@
       "GROW_CURVE_MHP": 10679.03809,
       "GROW_CURVE_MATK": 481.86374,
       "GROW_CURVE_HP_2": 11506.61621,
-      "GROW_CURVE_ATTACK_2": 224.26186
+      "GROW_CURVE_ATTACK_2": 262.01617,
+      "GROW_CURVE_HP_ENVIRONMENT": 2669.98145,
+      "growCurveType_Unknown_5201": 487.2276,
+      "growCurveType_Unknown_5202": 875.20361
     }
   },
   "172": {
     "curveInfos": {
       "GROW_CURVE_HP": 11525.90625,
-      "GROW_CURVE_ATTACK": 224.66924,
+      "GROW_CURVE_ATTACK": 262.44812,
       "GROW_CURVE_DEFENSE": 2.72,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2748,13 +3261,16 @@
       "GROW_CURVE_MHP": 10766.35156,
       "GROW_CURVE_MATK": 485.50507,
       "GROW_CURVE_HP_2": 11644.27539,
-      "GROW_CURVE_ATTACK_2": 224.66924
+      "GROW_CURVE_ATTACK_2": 262.44812,
+      "GROW_CURVE_HP_ENVIRONMENT": 2679.5813,
+      "growCurveType_Unknown_5201": 491.24243,
+      "growCurveType_Unknown_5202": 882.41541
     }
   },
   "173": {
     "curveInfos": {
       "GROW_CURVE_HP": 11614.34961,
-      "GROW_CURVE_ATTACK": 225.07683,
+      "GROW_CURVE_ATTACK": 262.88031,
       "GROW_CURVE_DEFENSE": 2.73,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2764,13 +3280,16 @@
       "GROW_CURVE_MHP": 10853.66602,
       "GROW_CURVE_MATK": 489.14639,
       "GROW_CURVE_HP_2": 11783.14746,
-      "GROW_CURVE_ATTACK_2": 225.07683
+      "GROW_CURVE_ATTACK_2": 262.88031,
+      "GROW_CURVE_HP_ENVIRONMENT": 2689.20435,
+      "growCurveType_Unknown_5201": 495.25726,
+      "growCurveType_Unknown_5202": 889.62726
     }
   },
   "174": {
     "curveInfos": {
       "GROW_CURVE_HP": 11703.29395,
-      "GROW_CURVE_ATTACK": 225.48474,
+      "GROW_CURVE_ATTACK": 263.31268,
       "GROW_CURVE_DEFENSE": 2.74,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2780,13 +3299,16 @@
       "GROW_CURVE_MHP": 10940.97949,
       "GROW_CURVE_MATK": 492.78772,
       "GROW_CURVE_HP_2": 11923.23926,
-      "GROW_CURVE_ATTACK_2": 225.48474
+      "GROW_CURVE_ATTACK_2": 263.31268,
+      "GROW_CURVE_HP_ENVIRONMENT": 2698.85059,
+      "growCurveType_Unknown_5201": 499.27213,
+      "growCurveType_Unknown_5202": 896.83905
     }
   },
   "175": {
     "curveInfos": {
       "GROW_CURVE_HP": 11792.74121,
-      "GROW_CURVE_ATTACK": 225.89296,
+      "GROW_CURVE_ATTACK": 263.74545,
       "GROW_CURVE_DEFENSE": 2.75,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2796,13 +3318,16 @@
       "GROW_CURVE_MHP": 11028.29395,
       "GROW_CURVE_MATK": 496.42905,
       "GROW_CURVE_HP_2": 12064.55566,
-      "GROW_CURVE_ATTACK_2": 225.89296
+      "GROW_CURVE_ATTACK_2": 263.74545,
+      "GROW_CURVE_HP_ENVIRONMENT": 2708.51978,
+      "growCurveType_Unknown_5201": 503.28696,
+      "growCurveType_Unknown_5202": 904.0509
     }
   },
   "176": {
     "curveInfos": {
       "GROW_CURVE_HP": 11882.69141,
-      "GROW_CURVE_ATTACK": 226.30139,
+      "GROW_CURVE_ATTACK": 264.17844,
       "GROW_CURVE_DEFENSE": 2.76,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2812,13 +3337,16 @@
       "GROW_CURVE_MHP": 11115.60742,
       "GROW_CURVE_MATK": 500.07037,
       "GROW_CURVE_HP_2": 12207.10547,
-      "GROW_CURVE_ATTACK_2": 226.30139
+      "GROW_CURVE_ATTACK_2": 264.17844,
+      "GROW_CURVE_HP_ENVIRONMENT": 2718.2124,
+      "growCurveType_Unknown_5201": 507.30179,
+      "growCurveType_Unknown_5202": 911.2627
     }
   },
   "177": {
     "curveInfos": {
       "GROW_CURVE_HP": 11973.14746,
-      "GROW_CURVE_ATTACK": 226.7101,
+      "GROW_CURVE_ATTACK": 264.61163,
       "GROW_CURVE_DEFENSE": 2.77,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2828,13 +3356,16 @@
       "GROW_CURVE_MHP": 11202.92188,
       "GROW_CURVE_MATK": 503.7117,
       "GROW_CURVE_HP_2": 12350.89355,
-      "GROW_CURVE_ATTACK_2": 226.7101
+      "GROW_CURVE_ATTACK_2": 264.61163,
+      "GROW_CURVE_HP_ENVIRONMENT": 2727.92822,
+      "growCurveType_Unknown_5201": 511.31662,
+      "growCurveType_Unknown_5202": 918.47455
     }
   },
   "178": {
     "curveInfos": {
       "GROW_CURVE_HP": 12064.11035,
-      "GROW_CURVE_ATTACK": 227.11911,
+      "GROW_CURVE_ATTACK": 265.0452,
       "GROW_CURVE_DEFENSE": 2.78,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2844,13 +3375,16 @@
       "GROW_CURVE_MHP": 11290.23535,
       "GROW_CURVE_MATK": 507.35303,
       "GROW_CURVE_HP_2": 12495.92871,
-      "GROW_CURVE_ATTACK_2": 227.11911
+      "GROW_CURVE_ATTACK_2": 265.0452,
+      "GROW_CURVE_HP_ENVIRONMENT": 2737.66748,
+      "growCurveType_Unknown_5201": 515.33148,
+      "growCurveType_Unknown_5202": 925.68634
     }
   },
   "179": {
     "curveInfos": {
       "GROW_CURVE_HP": 12155.58301,
-      "GROW_CURVE_ATTACK": 227.5284,
+      "GROW_CURVE_ATTACK": 265.47903,
       "GROW_CURVE_DEFENSE": 2.79,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2860,13 +3394,16 @@
       "GROW_CURVE_MHP": 11377.54883,
       "GROW_CURVE_MATK": 510.99435,
       "GROW_CURVE_HP_2": 12642.21484,
-      "GROW_CURVE_ATTACK_2": 227.5284
+      "GROW_CURVE_ATTACK_2": 265.47903,
+      "GROW_CURVE_HP_ENVIRONMENT": 2747.42993,
+      "growCurveType_Unknown_5201": 519.34631,
+      "growCurveType_Unknown_5202": 932.89819
     }
   },
   "180": {
     "curveInfos": {
       "GROW_CURVE_HP": 12247.56641,
-      "GROW_CURVE_ATTACK": 227.93794,
+      "GROW_CURVE_ATTACK": 265.91312,
       "GROW_CURVE_DEFENSE": 2.8,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2876,13 +3413,16 @@
       "GROW_CURVE_MHP": 11464.86328,
       "GROW_CURVE_MATK": 514.63568,
       "GROW_CURVE_HP_2": 12789.76074,
-      "GROW_CURVE_ATTACK_2": 227.93794
+      "GROW_CURVE_ATTACK_2": 265.91312,
+      "GROW_CURVE_HP_ENVIRONMENT": 2757.21582,
+      "growCurveType_Unknown_5201": 523.36115,
+      "growCurveType_Unknown_5202": 940.10999
     }
   },
   "181": {
     "curveInfos": {
       "GROW_CURVE_HP": 12340.0625,
-      "GROW_CURVE_ATTACK": 228.34775,
+      "GROW_CURVE_ATTACK": 266.34741,
       "GROW_CURVE_DEFENSE": 2.81,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2892,13 +3432,16 @@
       "GROW_CURVE_MHP": 11552.17676,
       "GROW_CURVE_MATK": 518.27698,
       "GROW_CURVE_HP_2": 12938.57227,
-      "GROW_CURVE_ATTACK_2": 228.34775
+      "GROW_CURVE_ATTACK_2": 266.34741,
+      "GROW_CURVE_HP_ENVIRONMENT": 2767.02515,
+      "growCurveType_Unknown_5201": 527.37598,
+      "growCurveType_Unknown_5202": 947.32184
     }
   },
   "182": {
     "curveInfos": {
       "GROW_CURVE_HP": 12433.07227,
-      "GROW_CURVE_ATTACK": 228.75783,
+      "GROW_CURVE_ATTACK": 266.78207,
       "GROW_CURVE_DEFENSE": 2.82,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2908,13 +3451,16 @@
       "GROW_CURVE_MHP": 11639.49121,
       "GROW_CURVE_MATK": 521.91833,
       "GROW_CURVE_HP_2": 13088.65527,
-      "GROW_CURVE_ATTACK_2": 228.75783
+      "GROW_CURVE_ATTACK_2": 266.78207,
+      "GROW_CURVE_HP_ENVIRONMENT": 2776.85815,
+      "growCurveType_Unknown_5201": 531.39081,
+      "growCurveType_Unknown_5202": 954.53363
     }
   },
   "183": {
     "curveInfos": {
       "GROW_CURVE_HP": 12526.59863,
-      "GROW_CURVE_ATTACK": 229.16821,
+      "GROW_CURVE_ATTACK": 267.21701,
       "GROW_CURVE_DEFENSE": 2.83,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2924,13 +3470,16 @@
       "GROW_CURVE_MHP": 11726.80469,
       "GROW_CURVE_MATK": 525.55963,
       "GROW_CURVE_HP_2": 13240.01758,
-      "GROW_CURVE_ATTACK_2": 229.16821
+      "GROW_CURVE_ATTACK_2": 267.21701,
+      "GROW_CURVE_HP_ENVIRONMENT": 2786.7146,
+      "growCurveType_Unknown_5201": 535.40564,
+      "growCurveType_Unknown_5202": 961.74548
     }
   },
   "184": {
     "curveInfos": {
       "GROW_CURVE_HP": 12620.6416,
-      "GROW_CURVE_ATTACK": 229.57883,
+      "GROW_CURVE_ATTACK": 267.65207,
       "GROW_CURVE_DEFENSE": 2.84,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2940,13 +3489,16 @@
       "GROW_CURVE_MHP": 11814.11914,
       "GROW_CURVE_MATK": 529.20099,
       "GROW_CURVE_HP_2": 13392.66602,
-      "GROW_CURVE_ATTACK_2": 229.57883
+      "GROW_CURVE_ATTACK_2": 267.65207,
+      "GROW_CURVE_HP_ENVIRONMENT": 2796.59448,
+      "growCurveType_Unknown_5201": 539.42047,
+      "growCurveType_Unknown_5202": 968.95728
     }
   },
   "185": {
     "curveInfos": {
       "GROW_CURVE_HP": 12715.20508,
-      "GROW_CURVE_ATTACK": 229.98973,
+      "GROW_CURVE_ATTACK": 268.08752,
       "GROW_CURVE_DEFENSE": 2.85,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2956,13 +3508,16 @@
       "GROW_CURVE_MHP": 11901.43262,
       "GROW_CURVE_MATK": 532.84229,
       "GROW_CURVE_HP_2": 13546.60547,
-      "GROW_CURVE_ATTACK_2": 229.98973
+      "GROW_CURVE_ATTACK_2": 268.08752,
+      "GROW_CURVE_HP_ENVIRONMENT": 2806.49805,
+      "growCurveType_Unknown_5201": 543.4353,
+      "growCurveType_Unknown_5202": 976.16913
     }
   },
   "186": {
     "curveInfos": {
       "GROW_CURVE_HP": 12810.28906,
-      "GROW_CURVE_ATTACK": 230.40092,
+      "GROW_CURVE_ATTACK": 268.52332,
       "GROW_CURVE_DEFENSE": 2.86,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2972,13 +3527,16 @@
       "GROW_CURVE_MHP": 11988.74707,
       "GROW_CURVE_MATK": 536.48364,
       "GROW_CURVE_HP_2": 13701.84473,
-      "GROW_CURVE_ATTACK_2": 230.40092
+      "GROW_CURVE_ATTACK_2": 268.52332,
+      "GROW_CURVE_HP_ENVIRONMENT": 2816.42554,
+      "growCurveType_Unknown_5201": 547.45013,
+      "growCurveType_Unknown_5202": 983.38092
     }
   },
   "187": {
     "curveInfos": {
       "GROW_CURVE_HP": 12905.89551,
-      "GROW_CURVE_ATTACK": 230.81236,
+      "GROW_CURVE_ATTACK": 268.95923,
       "GROW_CURVE_DEFENSE": 2.87,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -2988,13 +3546,16 @@
       "GROW_CURVE_MHP": 12076.06055,
       "GROW_CURVE_MATK": 540.12494,
       "GROW_CURVE_HP_2": 13858.3877,
-      "GROW_CURVE_ATTACK_2": 230.81236
+      "GROW_CURVE_ATTACK_2": 268.95923,
+      "GROW_CURVE_HP_ENVIRONMENT": 2826.37646,
+      "growCurveType_Unknown_5201": 551.46497,
+      "growCurveType_Unknown_5202": 990.59277
     }
   },
   "188": {
     "curveInfos": {
       "GROW_CURVE_HP": 13002.02734,
-      "GROW_CURVE_ATTACK": 231.22408,
+      "GROW_CURVE_ATTACK": 269.39548,
       "GROW_CURVE_DEFENSE": 2.88,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -3004,13 +3565,16 @@
       "GROW_CURVE_MHP": 12163.375,
       "GROW_CURVE_MATK": 543.7663,
       "GROW_CURVE_HP_2": 14016.24414,
-      "GROW_CURVE_ATTACK_2": 231.22408
+      "GROW_CURVE_ATTACK_2": 269.39548,
+      "GROW_CURVE_HP_ENVIRONMENT": 2836.35107,
+      "growCurveType_Unknown_5201": 555.4798,
+      "growCurveType_Unknown_5202": 997.80457
     }
   },
   "189": {
     "curveInfos": {
       "GROW_CURVE_HP": 13098.68555,
-      "GROW_CURVE_ATTACK": 231.63611,
+      "GROW_CURVE_ATTACK": 269.83206,
       "GROW_CURVE_DEFENSE": 2.89,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -3020,13 +3584,16 @@
       "GROW_CURVE_MHP": 12250.68848,
       "GROW_CURVE_MATK": 547.40759,
       "GROW_CURVE_HP_2": 14175.41895,
-      "GROW_CURVE_ATTACK_2": 231.63611
+      "GROW_CURVE_ATTACK_2": 269.83206,
+      "GROW_CURVE_HP_ENVIRONMENT": 2846.34961,
+      "growCurveType_Unknown_5201": 559.49463,
+      "growCurveType_Unknown_5202": 1005.01642
     }
   },
   "190": {
     "curveInfos": {
       "GROW_CURVE_HP": 13195.87109,
-      "GROW_CURVE_ATTACK": 232.04834,
+      "GROW_CURVE_ATTACK": 270.26889,
       "GROW_CURVE_DEFENSE": 2.9,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -3036,13 +3603,16 @@
       "GROW_CURVE_MHP": 12338.00293,
       "GROW_CURVE_MATK": 551.04895,
       "GROW_CURVE_HP_2": 14335.91797,
-      "GROW_CURVE_ATTACK_2": 232.04834
+      "GROW_CURVE_ATTACK_2": 270.26889,
+      "GROW_CURVE_HP_ENVIRONMENT": 2856.37207,
+      "growCurveType_Unknown_5201": 563.50946,
+      "growCurveType_Unknown_5202": 1012.22821
     }
   },
   "191": {
     "curveInfos": {
       "GROW_CURVE_HP": 13293.58691,
-      "GROW_CURVE_ATTACK": 232.46089,
+      "GROW_CURVE_ATTACK": 270.7059,
       "GROW_CURVE_DEFENSE": 2.91,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -3052,13 +3622,16 @@
       "GROW_CURVE_MHP": 12425.31641,
       "GROW_CURVE_MATK": 554.69025,
       "GROW_CURVE_HP_2": 14497.75,
-      "GROW_CURVE_ATTACK_2": 232.46089
+      "GROW_CURVE_ATTACK_2": 270.7059,
+      "GROW_CURVE_HP_ENVIRONMENT": 2866.41846,
+      "growCurveType_Unknown_5201": 567.52435,
+      "growCurveType_Unknown_5202": 1019.44006
     }
   },
   "192": {
     "curveInfos": {
       "GROW_CURVE_HP": 13391.83398,
-      "GROW_CURVE_ATTACK": 232.87372,
+      "GROW_CURVE_ATTACK": 271.14328,
       "GROW_CURVE_DEFENSE": 2.92,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -3068,13 +3641,16 @@
       "GROW_CURVE_MHP": 12512.63086,
       "GROW_CURVE_MATK": 558.3316,
       "GROW_CURVE_HP_2": 14660.91992,
-      "GROW_CURVE_ATTACK_2": 232.87372
+      "GROW_CURVE_ATTACK_2": 271.14328,
+      "GROW_CURVE_HP_ENVIRONMENT": 2876.48877,
+      "growCurveType_Unknown_5201": 571.53918,
+      "growCurveType_Unknown_5202": 1026.65186
     }
   },
   "193": {
     "curveInfos": {
       "GROW_CURVE_HP": 13490.61328,
-      "GROW_CURVE_ATTACK": 233.2868,
+      "GROW_CURVE_ATTACK": 271.5809,
       "GROW_CURVE_DEFENSE": 2.93,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -3084,13 +3660,16 @@
       "GROW_CURVE_MHP": 12599.94434,
       "GROW_CURVE_MATK": 561.9729,
       "GROW_CURVE_HP_2": 14825.43457,
-      "GROW_CURVE_ATTACK_2": 233.2868
+      "GROW_CURVE_ATTACK_2": 271.5809,
+      "GROW_CURVE_HP_ENVIRONMENT": 2886.58276,
+      "growCurveType_Unknown_5201": 575.55402,
+      "growCurveType_Unknown_5202": 1033.86365
     }
   },
   "194": {
     "curveInfos": {
       "GROW_CURVE_HP": 13589.92871,
-      "GROW_CURVE_ATTACK": 233.7002,
+      "GROW_CURVE_ATTACK": 272.01877,
       "GROW_CURVE_DEFENSE": 2.94,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -3100,13 +3679,16 @@
       "GROW_CURVE_MHP": 12687.25781,
       "GROW_CURVE_MATK": 565.61426,
       "GROW_CURVE_HP_2": 14991.30078,
-      "GROW_CURVE_ATTACK_2": 233.7002
+      "GROW_CURVE_ATTACK_2": 272.01877,
+      "GROW_CURVE_HP_ENVIRONMENT": 2896.70117,
+      "growCurveType_Unknown_5201": 579.56885,
+      "growCurveType_Unknown_5202": 1041.07556
     }
   },
   "195": {
     "curveInfos": {
       "GROW_CURVE_HP": 13689.78027,
-      "GROW_CURVE_ATTACK": 234.11382,
+      "GROW_CURVE_ATTACK": 272.45691,
       "GROW_CURVE_DEFENSE": 2.95,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -3116,13 +3698,16 @@
       "GROW_CURVE_MHP": 12774.57227,
       "GROW_CURVE_MATK": 569.25555,
       "GROW_CURVE_HP_2": 15158.52637,
-      "GROW_CURVE_ATTACK_2": 234.11382
+      "GROW_CURVE_ATTACK_2": 272.45691,
+      "GROW_CURVE_HP_ENVIRONMENT": 2906.84351,
+      "growCurveType_Unknown_5201": 583.58368,
+      "growCurveType_Unknown_5202": 1048.28735
     }
   },
   "196": {
     "curveInfos": {
       "GROW_CURVE_HP": 13790.16992,
-      "GROW_CURVE_ATTACK": 234.52769,
+      "GROW_CURVE_ATTACK": 272.89539,
       "GROW_CURVE_DEFENSE": 2.96,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -3132,13 +3717,16 @@
       "GROW_CURVE_MHP": 12861.88574,
       "GROW_CURVE_MATK": 572.89691,
       "GROW_CURVE_HP_2": 15327.11621,
-      "GROW_CURVE_ATTACK_2": 234.52769
+      "GROW_CURVE_ATTACK_2": 272.89539,
+      "GROW_CURVE_HP_ENVIRONMENT": 2916.88892,
+      "growCurveType_Unknown_5201": 587.59851,
+      "growCurveType_Unknown_5202": 1055.49915
     }
   },
   "197": {
     "curveInfos": {
       "GROW_CURVE_HP": 13891.10059,
-      "GROW_CURVE_ATTACK": 234.94188,
+      "GROW_CURVE_ATTACK": 273.33414,
       "GROW_CURVE_DEFENSE": 2.97,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -3148,13 +3736,16 @@
       "GROW_CURVE_MHP": 12949.2002,
       "GROW_CURVE_MATK": 576.53821,
       "GROW_CURVE_HP_2": 15497.07715,
-      "GROW_CURVE_ATTACK_2": 234.94188
+      "GROW_CURVE_ATTACK_2": 273.33414,
+      "GROW_CURVE_HP_ENVIRONMENT": 2927.07935,
+      "growCurveType_Unknown_5201": 591.61334,
+      "growCurveType_Unknown_5202": 1062.71094
     }
   },
   "198": {
     "curveInfos": {
       "GROW_CURVE_HP": 13992.57227,
-      "GROW_CURVE_ATTACK": 235.35634,
+      "GROW_CURVE_ATTACK": 273.77304,
       "GROW_CURVE_DEFENSE": 2.98,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -3164,13 +3755,16 @@
       "GROW_CURVE_MHP": 13036.51367,
       "GROW_CURVE_MATK": 580.17957,
       "GROW_CURVE_HP_2": 15668.41699,
-      "GROW_CURVE_ATTACK_2": 235.35634
+      "GROW_CURVE_ATTACK_2": 273.77304,
+      "GROW_CURVE_HP_ENVIRONMENT": 2937.29395,
+      "growCurveType_Unknown_5201": 595.62817,
+      "growCurveType_Unknown_5202": 1069.92285
     }
   },
   "199": {
     "curveInfos": {
       "GROW_CURVE_HP": 14094.58691,
-      "GROW_CURVE_ATTACK": 235.77106,
+      "GROW_CURVE_ATTACK": 274.21231,
       "GROW_CURVE_DEFENSE": 2.99,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -3180,13 +3774,16 @@
       "GROW_CURVE_MHP": 13123.82812,
       "GROW_CURVE_MATK": 583.82086,
       "GROW_CURVE_HP_2": 15841.1416,
-      "GROW_CURVE_ATTACK_2": 235.77106
+      "GROW_CURVE_ATTACK_2": 274.21231,
+      "GROW_CURVE_HP_ENVIRONMENT": 2947.53271,
+      "growCurveType_Unknown_5201": 599.64301,
+      "growCurveType_Unknown_5202": 1077.13464
     }
   },
   "200": {
     "curveInfos": {
       "GROW_CURVE_HP": 14197.14746,
-      "GROW_CURVE_ATTACK": 236.18604,
+      "GROW_CURVE_ATTACK": 274.65189,
       "GROW_CURVE_DEFENSE": 3,
       "GROW_CURVE_STRIKE": 0,
       "GROW_CURVE_STRIKE_HURT": 0,
@@ -3196,7 +3793,10 @@
       "GROW_CURVE_MHP": 13211.1416,
       "GROW_CURVE_MATK": 587.46222,
       "GROW_CURVE_HP_2": 16016.25684,
-      "GROW_CURVE_ATTACK_2": 236.18604
+      "GROW_CURVE_ATTACK_2": 274.65189,
+      "GROW_CURVE_HP_ENVIRONMENT": 2957.7959,
+      "growCurveType_Unknown_5201": 603.65784,
+      "growCurveType_Unknown_5202": 1084.34644
     }
   }
 }

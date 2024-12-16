@@ -1,0 +1,40 @@
+{
+  "name": "浪沫羽鳃",
+  "description": "生长在海边如羽状的特殊物种，看似是水草般的植物，实际上是形态特殊的水栖软体珊瑚。",
+  "type": "纳塔区域特产",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": [
+    "o611"
+  ],
+  "source": [
+    {
+      "name": "推荐：涌流地采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：「流泉之众」周边采集",
+      "type": "single"
+    },
+    {
+      "name": "前往采集",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000102,
+          "name": "玛拉妮",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Mualani"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_101247",
+  "rank": 1,
+  "route": "Sprayfeather Gill"
+}

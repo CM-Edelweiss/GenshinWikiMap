@@ -1,0 +1,131 @@
+{
+  "id": 10000095,
+  "name": "希格雯",
+  "element": "水",
+  "weapon": "弓",
+  "rank": 5,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Sigewinne",
+    "side": "UI_AvatarIcon_Side_Sigewinne",
+    "card": "UI_AvatarIcon_Sigewinne_Card",
+    "splash": "UI_Gacha_AvatarImg_Sigewinne",
+    "slice": "UI_Gacha_AvatarIcon_Sigewinne"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1039.11877,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        890.95044,
+        1523.99414,
+        2368.05249,
+        3001.09619,
+        3634.13989,
+        4267.18359
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 14.9891,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        12.85086,
+        21.98173,
+        34.15623,
+        43.28711,
+        52.41798,
+        61.54885
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 38.8895,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        33.345,
+        57.0375,
+        88.6275,
+        112.32,
+        136.0125,
+        159.705
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_HP_PERCENT",
+      "promote": [
+        0,
+        0.072,
+        0.144,
+        0.144,
+        0.216,
+        0.288
+      ]
+    }
+  ],
+  "talent": {
+    "10951": {
+      "name": "普通攻击·靶向治疗",
+      "icon": "Skill_A_02"
+    },
+    "10952": {
+      "name": "弹跳水疗法",
+      "icon": "Skill_S_Sigewinne_01"
+    },
+    "10955": {
+      "name": "过饱和心意注射",
+      "icon": "Skill_E_Sigewinne_01"
+    },
+    "952101": {
+      "name": "应有适当的休憩",
+      "icon": "UI_Talent_S_Sigewinne_05"
+    },
+    "952201": {
+      "name": "细致入微的诊疗",
+      "icon": "UI_Talent_S_Sigewinne_06"
+    },
+    "952301": {
+      "name": "急性剂量",
+      "icon": "UI_Talent_S_Sigewinne_07"
+    }
+  },
+  "constellation": {
+    "951": {
+      "name": "「最快乐的精灵，可否懂得焦虑」",
+      "icon": "UI_Talent_S_Sigewinne_01"
+    },
+    "952": {
+      "name": "「最仁慈的精灵，可否化解仇敌」",
+      "icon": "UI_Talent_S_Sigewinne_02"
+    },
+    "953": {
+      "name": "「最健康的精灵，可否疗愈热症」",
+      "icon": "UI_Talent_U_Sigewinne_01"
+    },
+    "954": {
+      "name": "「最美丽的精灵，可否拒绝衰朽」",
+      "icon": "UI_Talent_S_Sigewinne_03"
+    },
+    "955": {
+      "name": "「最幸福的精灵，可否消却折磨」",
+      "icon": "UI_Talent_U_Sigewinne_02"
+    },
+    "956": {
+      "name": "「最光辉的精灵，可否为我祷告」",
+      "icon": "UI_Talent_S_Sigewinne_04"
+    }
+  },
+  "talent_fix": {
+    "10952": "弹跳水疗法",
+    "10955": "过饱和心意注射"
+  },
+  "damage": [],
+  "buff": []
+}

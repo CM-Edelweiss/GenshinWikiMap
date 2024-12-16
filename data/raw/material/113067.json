@@ -1,0 +1,36 @@
+{
+  "name": "深邃纠缠的凝视",
+  "description": "击败名为深邃摹结株的魔物后，获得的犹如果实却并非果实的事物。\\n那聚集一处的能量所形成的「眼」，其后似乎有仿佛来自遥远而黑暗的彼端的视线。",
+  "type": "角色培养素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "30级以上深邃摹结株掉落",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000104,
+          "name": "恰斯卡",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Chasca"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 22120101,
+        "name": "深邃摹结株·I型",
+        "icon": "UI_MonsterIcon_TheAbyss_Dendrite"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_113067",
+  "rank": 4,
+  "route": "Ensnaring Gaze"
+}

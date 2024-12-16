@@ -1,0 +1,46 @@
+{
+  "name": "折光的胚芽",
+  "description": "名为深邃拟覆叶的魔物在被击败后所掉落的芽叶。\\n据说这种魔物自黑潮之中诞生时，最先生长而出的，就是这样能使元素的力量偏转的嫩芽。",
+  "type": "角色与武器培养素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "深邃拟覆叶掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 11432,
+          "name": "厄水之祸",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_SacrificialNgombe"
+        },
+        {
+          "id": 15514,
+          "name": "星鹫赤羽",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Bow_Qoyllorsnova"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 22120201,
+        "name": "深邃拟覆叶",
+        "icon": "UI_MonsterIcon_TheAbyss_Rhizome"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_112116",
+  "rank": 2,
+  "route": "Refractive Bud"
+}

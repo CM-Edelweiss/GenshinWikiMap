@@ -1,0 +1,232 @@
+{
+  "id": 25504201,
+  "name": "结羽勇士·驭空客",
+  "type": "其他人类势力",
+  "icon": "UI_MonsterIcon_Human_MuscleMan_Claymore_Flamingo",
+  "route": "Winged Warrior: Skymaster",
+  "title": "结羽勇士·驭空客",
+  "specialName": "部族忠诚的护卫",
+  "description": "来自山崖之上的勇士，在陡峭山峰巡游的部族守卫者。\\n从飞龙爪击的动作中体悟到运用力量真谛的战士，自高处使用的踢击不容小觑。",
+  "entries": {
+    "25504201": {
+      "id": 25504201,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "部落战士-壮男双手利器",
+          "description": "用于对攻击Type和特效配置进行区分",
+          "abilityName": [
+            "Monster_Human_MuscleMan_Claymore_EventAlter_Sharp"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "部落战士-战前喷漆罐-暖色",
+          "description": "战前喷漆手中的Item颜色",
+          "abilityName": [
+            "Monster_Human_FreePoseManager_SprayCan_Warm"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "部落战士-翼手龙部落标记",
+          "description": "影响部落特殊技的施放",
+          "abilityName": [
+            "Monster_Human_TribeUltMark_Flamingo"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "部落战士-翼手龙部落-壮男",
+          "description": "部落特殊技时长不同，针对体型替换配置",
+          "abilityName": [
+            "Monster_Human_TribeUltMark_Flamingo_MuscleMan"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 27.168,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 25.12,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "25504202": {
+      "id": 25504202,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "部落战士-壮男双手利器",
+          "description": "用于对攻击Type和特效配置进行区分",
+          "abilityName": [
+            "Monster_Human_MuscleMan_Claymore_EventAlter_Sharp"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "部落战士-战前喷漆罐-暖色",
+          "description": "战前喷漆手中的Item颜色",
+          "abilityName": [
+            "Monster_Human_FreePoseManager_SprayCan_Warm"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "部落战士-翼手龙部落标记",
+          "description": "影响部落特殊技的施放",
+          "abilityName": [
+            "Monster_Human_TribeUltMark_Flamingo"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "部落战士-翼手龙部落-壮男",
+          "description": "部落特殊技时长不同，针对体型替换配置",
+          "abilityName": [
+            "Monster_Human_TribeUltMark_Flamingo_MuscleMan"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 27.168,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 25.12,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "25504203": {
+      "id": 25504203,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "部落战士-壮男双手利器",
+          "description": "用于对攻击Type和特效配置进行区分",
+          "abilityName": [
+            "Monster_Human_MuscleMan_Claymore_EventAlter_Sharp"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "部落战士-战前喷漆罐-暖色",
+          "description": "战前喷漆手中的Item颜色",
+          "abilityName": [
+            "Monster_Human_FreePoseManager_SprayCan_Warm"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "部落战士-翼手龙部落标记",
+          "description": "影响部落特殊技的施放",
+          "abilityName": [
+            "Monster_Human_TribeUltMark_Flamingo"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "部落战士-翼手龙部落-壮男",
+          "description": "部落特殊技时长不同，针对体型替换配置",
+          "abilityName": [
+            "Monster_Human_TribeUltMark_Flamingo_MuscleMan"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 27.168,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 25.12,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": null
+}

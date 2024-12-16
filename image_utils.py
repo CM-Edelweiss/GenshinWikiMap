@@ -5,7 +5,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageOps
 from PIL.ImageFont import FreeTypeFont
 
 
-def load_image(path: Path):
+def load_image(path: Path) -> Image.Image:
     return Image.open(path)
 
 
@@ -19,13 +19,32 @@ def load_font(path: Union[str, Path], size: int, variation: Optional[str] = None
 
 
 class PMImage:
-    def __init__(self,
-                 image: Union[Image.Image, Path, None] = None,
-                 *,
-                 size: Tuple[int, int] = (200, 200),
-                 color: Union[str, Tuple[int, int, int, int], Tuple[int, int, int]] = (255, 255, 255, 255),
-                 mode: Literal["1", "CMYK", "F", "HSV", "I", "L", "LAB", "P", "RGB", "RGBA", "RGBX", "YCbCr"] = 'RGBA'
-                 ):
+    def __init__(
+        self,
+        image: Union[Image.Image, Path, None] = None,
+        *,
+        size: Tuple[int, int] = (200, 200),
+        color: Union[str, Tuple[int, int, int, int], Tuple[int, int, int]] = (
+            255,
+            255,
+            255,
+            255,
+        ),
+        mode: Literal[
+            "1",
+            "CMYK",
+            "F",
+            "HSV",
+            "I",
+            "L",
+            "LAB",
+            "P",
+            "RGB",
+            "RGBA",
+            "RGBX",
+            "YCbCr",
+        ] = "RGBA"
+    ):
         """
         初始化图像，优先读取image参数，如无则新建图像
             :param image: PIL对象或图像路径
@@ -36,7 +55,7 @@ class PMImage:
         if image:
             self.image = load_image(image) if isinstance(image, Path) else image.copy()
         else:
-            if mode == 'RGB' and isinstance(color, tuple):
+            if mode == "RGB" and isinstance(color, tuple):
                 color = (color[0], color[1], color[2])
             self.image = Image.new(mode, size, color)
         self.draw = ImageDraw.Draw(self.image)
@@ -78,17 +97,16 @@ class PMImage:
         return self.draw.textsize(text, font)
 
     @staticmethod
-    def text_box_height(text: str,
-                        width: Tuple[int, int],
-                        height: Tuple[int, int],
-                        font: FreeTypeFont) -> int:
+    def text_box_height(
+        text: str, width: Tuple[int, int], height: Tuple[int, int], font: FreeTypeFont
+    ) -> int:
         text_height = font.getsize(text)[1]
         width_now = width[0]
         height_now = height[0]
         for c in text:
-            if c in ['.', '。'] and width_now == width[0] and c == text[-1]:
+            if c in [".", "。"] and width_now == width[0] and c == text[-1]:
                 continue
-            if c == '^':
+            if c == "^":
                 width_now = width[0]
                 height_now += text_height
                 continue
@@ -108,7 +126,9 @@ class PMImage:
         :param size: 缩放大小/区域
         """
         if isinstance(size, (float, int)):
-            self.image = self.image.resize((int(self.width * size), int(self.height * size)), Image.LANCZOS)
+            self.image = self.image.resize(
+                (int(self.width * size), int(self.height * size)), Image.LANCZOS
+            )
         else:
             self.image = self.image.resize(size, Image.LANCZOS)
         self.draw = ImageDraw.Draw(self.image)
@@ -130,11 +150,12 @@ class PMImage:
         self.image.rotate(angle, resample=Image.BICUBIC, expand=expand, **kwargs)
         self.draw = ImageDraw.Draw(self.image)
 
-    def paste(self,
-              image: Union[Image.Image, 'PMImage', Path],
-              pos: Tuple[int, int],
-              alpha: bool = True,
-              ):
+    def paste(
+        self,
+        image: Union[Image.Image, "PMImage", Path],
+        pos: Tuple[int, int],
+        alpha: bool = True,
+    ):
         """
         粘贴图像
         :param image: 图像
@@ -148,20 +169,21 @@ class PMImage:
         if isinstance(image, PMImage):
             image = image.image
         if alpha:
-            image = image.convert('RGBA')
+            image = image.convert("RGBA")
             self.image.alpha_composite(image, pos)
         else:
             self.image.paste(image, pos)
         self.draw = ImageDraw.Draw(self.image)
 
-    def text(self,
-             text: str,
-             width: Union[float, Tuple[float, float]],
-             height: Union[float, Tuple[float, float]],
-             font: FreeTypeFont,
-             color: Union[str, Tuple[int, int, int, int]] = 'white',
-             align: Literal['left', 'center', 'right'] = 'left'
-             ):
+    def text(
+        self,
+        text: str,
+        width: Union[float, Tuple[float, float]],
+        height: Union[float, Tuple[float, float]],
+        font: FreeTypeFont,
+        color: Union[str, Tuple[int, int, int, int]] = "white",
+        align: Literal["left", "center", "right"] = "left",
+    ):
         """
         写文本
             :param text: 文本
@@ -171,42 +193,49 @@ class PMImage:
             :param color: 颜色
             :param align: 对齐类型
         """
-        if align == 'left':
+        if align == "left":
             if isinstance(width, tuple):
                 width = width[0]
             if isinstance(height, tuple):
                 height = height[0]
             self.draw.text((width, height), text, color, font)
-        elif align in ['center', 'right']:
+        elif align in ["center", "right"]:
             w, h = self.draw.textsize(text, font)
-            if align == 'center':
-                w = width[0] + (width[1] - width[0] - w) / 2 if isinstance(width, tuple) else width
-                h = height[0] + (height[1] - height[0] - h) / 2 if isinstance(height, tuple) else height
+            if align == "center":
+                w = (
+                    width[0] + (width[1] - width[0] - w) / 2
+                    if isinstance(width, tuple)
+                    else width
+                )
+                h = (
+                    height[0] + (height[1] - height[0] - h) / 2
+                    if isinstance(height, tuple)
+                    else height
+                )
             else:
                 if isinstance(width, tuple):
                     width = width[1]
                 w = width - w
                 h = height[0] if isinstance(height, tuple) else height
-            self.draw.text((w, h),
-                           text,
-                           color,
-                           font)
+            self.draw.text((w, h), text, color, font)
         else:
-            raise ValueError('对齐类型必须为\'left\', \'center\'或\'right\'')
+            raise ValueError("对齐类型必须为'left', 'center'或'right'")
 
-    def text_box(self,
-                 text: str,
-                 width: Tuple[int, int],
-                 height: Tuple[int, int],
-                 font: FreeTypeFont,
-                 color: Union[str, Tuple[int, int, int, int]] = 'white'):
+    def text_box(
+        self,
+        text: str,
+        width: Tuple[int, int],
+        height: Tuple[int, int],
+        font: FreeTypeFont,
+        color: Union[str, Tuple[int, int, int, int]] = "white",
+    ):
         text_height = font.getsize(text)[1]
         width_now = width[0]
         height_now = height[0]
         for c in text:
-            if c in ['.', '。'] and width_now == width[0] and c == text[-1]:
+            if c in [".", "。"] and width_now == width[0] and c == text[-1]:
                 continue
-            if c == '^':
+            if c == "^":
                 width_now = width[0]
                 height_now += text_height
                 continue
@@ -257,10 +286,12 @@ class PMImage:
     #             width_now += c_length
     #     return height_now - height[0]
 
-    def stretch(self,
-                pos: Tuple[int, int],
-                length: int,
-                type: Literal['width', 'height'] = 'height'):
+    def stretch(
+        self,
+        pos: Tuple[int, int],
+        length: int,
+        type: Literal["width", "height"] = "height",
+    ):
         """
         将某一部分进行拉伸
         :param pos: 拉伸的部分
@@ -268,50 +299,58 @@ class PMImage:
         :param type: 拉伸方向，width:横向, height: 竖向
         """
         if pos[0] <= 0:
-            raise ValueError('起始轴必须大于等于0')
+            raise ValueError("起始轴必须大于等于0")
         if pos[1] <= pos[0]:
-            raise ValueError('结束轴必须大于起始轴')
-        if type == 'height':
+            raise ValueError("结束轴必须大于起始轴")
+        if type == "height":
             if pos[1] >= self.height:
-                raise ValueError('终止轴必须小于图片高度')
+                raise ValueError("终止轴必须小于图片高度")
             top = self.image.crop((0, 0, self.width, pos[0]))
             bottom = self.image.crop((0, pos[1], self.width, self.height))
             if length == 0:
-                self.image = Image.new('RGBA', (self.width, top.height + bottom.height))
+                self.image = Image.new("RGBA", (self.width, top.height + bottom.height))
                 self.image.paste(top, (0, 0))
                 self.image.paste(bottom, (0, top.height))
             else:
-                center = self.image.crop((0, pos[0], self.width, pos[1])).resize((self.width, length),
-                                                                                 Image.LANCZOS)
-                self.image = Image.new('RGBA', (self.width, top.height + center.height + bottom.height))
+                center = self.image.crop((0, pos[0], self.width, pos[1])).resize(
+                    (self.width, length), Image.LANCZOS
+                )
+                self.image = Image.new(
+                    "RGBA", (self.width, top.height + center.height + bottom.height)
+                )
                 self.image.paste(top, (0, 0))
                 self.image.paste(center, (0, top.height))
                 self.image.paste(bottom, (0, top.height + center.height))
             self.draw = ImageDraw.Draw(self.image)
-        elif type == 'width':
+        elif type == "width":
             if pos[1] >= self.width:
-                raise ValueError('终止轴必须小于图片宽度')
+                raise ValueError("终止轴必须小于图片宽度")
             top = self.image.crop((0, 0, pos[0], self.height))
             bottom = self.image.crop((pos[1], 0, self.width, self.height))
             if length == 0:
-                self.image = Image.new('RGBA', (top.width + bottom.width, self.height))
+                self.image = Image.new("RGBA", (top.width + bottom.width, self.height))
                 self.image.paste(top, (0, 0))
                 self.image.paste(bottom, (top.width, 0))
             else:
-                center = self.image.crop((pos[0], 0, pos[1], self.height)).resize((length, self.height),
-                                                                                  Image.LANCZOS)
-                self.image = Image.new('RGBA', (top.width + center.width + bottom.width, self.height))
+                center = self.image.crop((pos[0], 0, pos[1], self.height)).resize(
+                    (length, self.height), Image.LANCZOS
+                )
+                self.image = Image.new(
+                    "RGBA", (top.width + center.width + bottom.width, self.height)
+                )
                 self.image.paste(top, (0, 0))
                 self.image.paste(center, (top.width, 0))
                 self.image.paste(bottom, (top.width + center.width, 0))
             self.draw = ImageDraw.Draw(self.image)
         else:
-            raise ValueError('类型必须为\'width\'或\'height\'')
+            raise ValueError("类型必须为'width'或'height'")
 
-    def draw_rectangle(self,
-                       pos: Tuple[int, int, int, int],
-                       color: Union[str, Tuple[int, int, int, int]] = 'white',
-                       width: int = 1):
+    def draw_rectangle(
+        self,
+        pos: Tuple[int, int, int, int],
+        color: Union[str, Tuple[int, int, int, int]] = "white",
+        width: int = 1,
+    ):
         """
         绘制矩形
         :param pos: 位置
@@ -320,17 +359,21 @@ class PMImage:
         """
         self.draw.rectangle(pos, color, width=width)
 
-    def draw_circle(self,
-                    pos: tuple,
-                    color: Union[str, Tuple[int, int, int, int]] = 'white',
-                    width: int = 1):
+    def draw_circle(
+        self,
+        pos: tuple,
+        color: Union[str, Tuple[int, int, int, int]] = "white",
+        width: int = 1,
+    ):
         self.draw.ellipse(pos, fill=color, width=width)
 
-    def draw_rounded_rectangle(self,
-                               pos: Tuple[float, float, float, float],
-                               radius: int = 5,
-                               color: Union[str, Tuple[int, int, int, int]] = 'white',
-                               width: int = 1):
+    def draw_rounded_rectangle(
+        self,
+        pos: Tuple[float, float, float, float],
+        radius: int = 5,
+        color: Union[str, Tuple[int, int, int, int]] = "white",
+        width: int = 1,
+    ):
         """
         绘制圆角矩形
         :param pos: 圆角矩形的位置
@@ -341,12 +384,14 @@ class PMImage:
         self.convert("RGBA")
         self.draw.rounded_rectangle(xy=pos, radius=radius, fill=color, width=width)
 
-    def draw_rounded_rectangle2(self,
-                                pos: Tuple[int, int],
-                                size: Tuple[int, int],
-                                radius: int = 5,
-                                color: Union[str, Tuple[int, int, int, int]] = 'white',
-                                angles: List[Literal['ul', 'ur', 'll', 'lr']] = ['ul', 'ur', 'll', 'lr']):
+    def draw_rounded_rectangle2(
+        self,
+        pos: Tuple[int, int],
+        size: Tuple[int, int],
+        radius: int = 5,
+        color: Union[str, Tuple[int, int, int, int]] = "white",
+        angles: List[Literal["ul", "ur", "ll", "lr"]] = ["ul", "ur", "ll", "lr"],
+    ):
         """
         选择最多4个角绘制圆角矩形
         :param pos: 左上角起点坐标
@@ -356,15 +401,44 @@ class PMImage:
         :param angles: 角列表
         :return:
         """
-        self.draw.rectangle((pos[0] + radius / 2, pos[1], pos[0] + size[0] - (radius / 2), pos[1] + size[1]),
-                            fill=color)
-        self.draw.rectangle((pos[0], pos[1] + radius / 2, pos[0] + size[0], pos[1] + size[1] - (radius / 2)),
-                            fill=color)
+        self.draw.rectangle(
+            (
+                pos[0] + radius / 2,
+                pos[1],
+                pos[0] + size[0] - (radius / 2),
+                pos[1] + size[1],
+            ),
+            fill=color,
+        )
+        self.draw.rectangle(
+            (
+                pos[0],
+                pos[1] + radius / 2,
+                pos[0] + size[0],
+                pos[1] + size[1] - (radius / 2),
+            ),
+            fill=color,
+        )
         angle_pos = {
-            'ul': (pos[0], pos[1], pos[0] + radius, pos[1] + radius),
-            'ur': (pos[0] + size[0] - radius, pos[1], pos[0] + size[0], pos[1] + radius),
-            'll': (pos[0], pos[1] + size[1] - radius, pos[0] + radius, pos[1] + size[1]),
-            'lr': (pos[0] + size[0] - radius, pos[1] + size[1] - radius, pos[0] + size[0], pos[1] + size[1]),
+            "ul": (pos[0], pos[1], pos[0] + radius, pos[1] + radius),
+            "ur": (
+                pos[0] + size[0] - radius,
+                pos[1],
+                pos[0] + size[0],
+                pos[1] + radius,
+            ),
+            "ll": (
+                pos[0],
+                pos[1] + size[1] - radius,
+                pos[0] + radius,
+                pos[1] + size[1],
+            ),
+            "lr": (
+                pos[0] + size[0] - radius,
+                pos[1] + size[1] - radius,
+                pos[0] + size[0],
+                pos[1] + size[1],
+            ),
         }
         for angle, pos2 in angle_pos.items():
             if angle in angles:
@@ -372,11 +446,13 @@ class PMImage:
             else:
                 self.draw.rectangle(pos2, fill=color)
 
-    def draw_line(self,
-                  begin: Tuple[int, int],
-                  end: Tuple[int, int],
-                  color: Union[str, Tuple[int, int, int, int]] = 'black',
-                  width: int = 1):
+    def draw_line(
+        self,
+        begin: Tuple[int, int],
+        end: Tuple[int, int],
+        color: Union[str, Tuple[int, int, int, int]] = "black",
+        width: int = 1,
+    ):
         """
         画线
         :param begin: 起始点
@@ -387,17 +463,17 @@ class PMImage:
         """
         self.draw.line(begin + end, fill=color, width=width)
 
-    def to_circle(self, shape: str = 'rectangle'):
+    def to_circle(self, shape: str = "rectangle"):
         """
         将图片转换为圆形
         """
-        self.convert('RGBA')
+        self.convert("RGBA")
         w, h = self.size
         r2 = min(w, h)
         if w != h:
             self.image.resize((r2, r2), Image.LANCZOS)
-        if shape == 'circle':
-            mask = Image.new('RGBA', (r2, r2), (255, 255, 255, 0))
+        if shape == "circle":
+            mask = Image.new("RGBA", (r2, r2), (255, 255, 255, 0))
             pi = self.image.load()
             pim = mask.load()
             for i in range(r2):
@@ -413,13 +489,19 @@ class PMImage:
             antialias = 4
             ellipse_box = [0, 0, r2 - 2, r2 - 2]
             mask = Image.new(
-                size=(int(self.image.width * antialias), int(self.image.height * antialias)),
+                size=(
+                    int(self.image.width * antialias),
+                    int(self.image.height * antialias),
+                ),
                 mode="L",
-                color="black")
+                color="black",
+            )
             draw = ImageDraw.Draw(mask)
             for offset, fill in (width / -2.0, "black"), (width / 2.0, "white"):
                 left, top = [(value + offset) * antialias for value in ellipse_box[:2]]
-                right, bottom = [(value - offset) * antialias for value in ellipse_box[2:]]
+                right, bottom = [
+                    (value - offset) * antialias for value in ellipse_box[2:]
+                ]
                 draw.ellipse([left, top, right, bottom], fill=fill)
             mask = mask.resize(self.image.size, Image.LANCZOS)
             self.image.putalpha(mask)
@@ -446,8 +528,12 @@ class PMImage:
         self.image.putalpha(alpha)
         self.draw = ImageDraw.Draw(self.image)
 
-    def add_border(self, border_size: int = 10, color: Union[str, Tuple[int, int, int, int]] = 'black',
-                   shape: str = 'rectangle'):
+    def add_border(
+        self,
+        border_size: int = 10,
+        color: Union[str, Tuple[int, int, int, int]] = "black",
+        shape: str = "rectangle",
+    ):
         """
         给图片添加边框
             :param border_size: 边框宽度
@@ -455,18 +541,26 @@ class PMImage:
             :param shape: 边框形状，rectangle或circle
         """
         self.convert("RGBA")
-        if shape == 'circle':
-            new_img = Image.new('RGBA', (self.width + border_size, self.height + border_size), (0, 0, 0, 0))
+        if shape == "circle":
+            new_img = Image.new(
+                "RGBA",
+                (self.width + border_size, self.height + border_size),
+                (0, 0, 0, 0),
+            )
             draw = ImageDraw.Draw(new_img)
-            draw.ellipse((0, 0, self.width + border_size, self.height + border_size), fill=color)
+            draw.ellipse(
+                (0, 0, self.width + border_size, self.height + border_size), fill=color
+            )
             new_img.alpha_composite(self.image, (border_size // 2, border_size // 2))
             self.image = new_img
             self.draw = ImageDraw.Draw(self.image)
-        elif shape == 'rectangle':
+        elif shape == "rectangle":
             self.image = ImageOps.expand(self.image, border=border_size, fill=color)
             self.draw = ImageDraw.Draw(self.image)
 
-    def add_background(self, background: Union[Image.Image, "PMImage"], pos: Tuple[int, int]):
+    def add_background(
+        self, background: Union[Image.Image, "PMImage"], pos: Tuple[int, int]
+    ):
         """
         添加背景
             :param background: 背景图片
@@ -496,11 +590,41 @@ class PMImage:
         for i in range(width_num + 1):
             for j in range(height_num + 1):
                 if i != 0:
-                    self.image.alpha_composite(image, (width_center - i * image.width, height_center - j * image.height))
+                    self.image.alpha_composite(
+                        image,
+                        (
+                            width_center - i * image.width,
+                            height_center - j * image.height,
+                        ),
+                    )
                 if j != 0:
-                    self.image.alpha_composite(image,(width_center + i * image.width, height_center - j * image.height))
-                    self.image.alpha_composite(image, (width_center + i * image.width, height_center + j * image.height))
+                    self.image.alpha_composite(
+                        image,
+                        (
+                            width_center + i * image.width,
+                            height_center - j * image.height,
+                        ),
+                    )
+                    self.image.alpha_composite(
+                        image,
+                        (
+                            width_center + i * image.width,
+                            height_center + j * image.height,
+                        ),
+                    )
                     if i != 0:
-                        self.image.alpha_composite(image, (width_center - i * image.width, height_center + j * image.height))
+                        self.image.alpha_composite(
+                            image,
+                            (
+                                width_center - i * image.width,
+                                height_center + j * image.height,
+                            ),
+                        )
                 if j == 0:
-                    self.image.alpha_composite(image, (width_center + i * image.width, height_center + j * image.height))
+                    self.image.alpha_composite(
+                        image,
+                        (
+                            width_center + i * image.width,
+                            height_center + j * image.height,
+                        ),
+                    )

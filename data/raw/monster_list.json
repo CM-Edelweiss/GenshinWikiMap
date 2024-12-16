@@ -167,6 +167,27 @@
     "icon": "UI_MonsterIcon_Oceanid",
     "route": "Oceanid"
   },
+  "20051001": {
+    "id": 20051001,
+    "name": "浊水粉碎幻灵",
+    "type": "ELEMENTAL",
+    "icon": "UI_MonsterIcon_Necalevia_Normal",
+    "route": "Tainted Water-Splitting Phantasm"
+  },
+  "20051101": {
+    "id": 20051101,
+    "name": "浊水喷吐幻灵",
+    "type": "ELEMENTAL",
+    "icon": "UI_MonsterIcon_Necalevia_Big",
+    "route": "Tainted Water-Spouting Phantasm"
+  },
+  "20051201": {
+    "id": 20051201,
+    "name": "水形幻人",
+    "type": "ELEMENTAL",
+    "icon": "UI_MonsterIcon_Narcissusborn_Normal_01",
+    "route": "Hydro Tulpa"
+  },
   "20060101": {
     "id": 20060101,
     "name": "水飘浮灵",
@@ -419,6 +440,20 @@
     "icon": "UI_MonsterIcon_Shaman_Electric_01",
     "route": "Electro Samachurl"
   },
+  "21040101": {
+    "id": 21040101,
+    "name": "丘丘风行游侠",
+    "type": "HILICHURL",
+    "icon": "UI_MonsterIcon_Hilistray_Wind",
+    "route": "Anemo Hilichurl Rogue"
+  },
+  "21040201": {
+    "id": 21040201,
+    "name": "丘丘水行游侠",
+    "type": "HILICHURL",
+    "icon": "UI_MonsterIcon_Hilistray_Water",
+    "route": "Hydro Hilichurl Rogue"
+  },
   "22010101": {
     "id": 22010101,
     "name": "火深渊法师",
@@ -453,6 +488,13 @@
     "type": "ABYSS",
     "icon": "UI_MonsterIcon_Invoker_Herald_Water_01",
     "route": "Abyss Herald: Wicked Torrents"
+  },
+  "22020201": {
+    "id": 22020201,
+    "name": "深渊使徒·霜落",
+    "type": "ABYSS",
+    "icon": "UI_MonsterIcon_Invoker_Herald_Ice",
+    "route": "Abyss Herald: Frost Fall"
   },
   "22030101": {
     "id": 22030101,
@@ -531,6 +573,62 @@
     "icon": "UI_MonsterIcon_Darkwraith_Strong_Wind",
     "route": "Black Serpent Knight: Windcutter"
   },
+  "22080201": {
+    "id": 22080201,
+    "name": "黑蛇骑士·摧岩之钺",
+    "type": "ABYSS",
+    "icon": "UI_MonsterIcon_Darkwraith_Fat_Rock",
+    "route": "Black Serpent Knight: Rockbreaker Ax"
+  },
+  "22100501": {
+    "id": 22100501,
+    "name": "深罪浸礼者",
+    "type": "ABYSS",
+    "icon": "UI_MonsterIcon_Invoker_Archdeacon",
+    "route": "Iniquitous Baptist"
+  },
+  "22110101": {
+    "id": 22110101,
+    "name": "大型碎石隙境原体",
+    "type": "ABYSS",
+    "icon": "UI_MonsterIcon_Ovacua_Order_01",
+    "route": "Large Shatterstone Breacher Primus"
+  },
+  "22110201": {
+    "id": 22110201,
+    "name": "碎石隙境原体",
+    "type": "ABYSS",
+    "icon": "UI_MonsterIcon_Ovacua_Order_02",
+    "route": "Shatterstone Breacher Primus"
+  },
+  "22110301": {
+    "id": 22110301,
+    "name": "大型狂蔓隙境原体",
+    "type": "ABYSS",
+    "icon": "UI_MonsterIcon_Ovacua_Chaos_01",
+    "route": "Large Overgrown Breacher Primus"
+  },
+  "22110401": {
+    "id": 22110401,
+    "name": "狂蔓隙境原体",
+    "type": "ABYSS",
+    "icon": "UI_MonsterIcon_Ovacua_Chaos_02",
+    "route": "Overgrown Breacher Primus"
+  },
+  "22120101": {
+    "id": 22120101,
+    "name": "深邃摹结株·I型",
+    "type": "ABYSS",
+    "icon": "UI_MonsterIcon_TheAbyss_Dendrite",
+    "route": "Tenebrous Papilla: Type I"
+  },
+  "22120201": {
+    "id": 22120201,
+    "name": "深邃拟覆叶",
+    "type": "ABYSS",
+    "icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+    "route": "Tenebrous Mimiflora"
+  },
   "23010101": {
     "id": 23010101,
     "name": "愚人众先遣队·冰铳重卫士",
@@ -600,6 +698,20 @@
     "type": "FATUI",
     "icon": "UI_MonsterIcon_Fatuus_Maiden_Water",
     "route": "Mirror Maiden"
+  },
+  "23060101": {
+    "id": 23060101,
+    "name": "愚人众·霜役人",
+    "type": "FATUI",
+    "icon": "UI_MonsterIcon_Fatuus_Escadron_Ice",
+    "route": "Frost Operative"
+  },
+  "23060201": {
+    "id": 23060201,
+    "name": "愚人众·风役人",
+    "type": "FATUI",
+    "icon": "UI_MonsterIcon_Fatuus_Escadron_Wind",
+    "route": "Wind Operative"
   },
   "24010101": {
     "id": 24010101,
@@ -713,12 +825,117 @@
     "icon": "UI_MonsterIcon_Monolith_Starchild",
     "route": "Algorithm of Semi-Intransient Matrix of Overseer Network"
   },
-  "25010101": {
-    "id": 25010101,
-    "name": "盗宝团·「溜溜」",
-    "type": "HUMAN",
-    "icon": "UI_MonsterIcon_Thoarder_Male_NoWeapon_01",
-    "route": "Treasure Hoarders: Liuliu"
+  "24060401": {
+    "id": 24060401,
+    "name": "机关·地质勘探型",
+    "type": "AUTOMATRON",
+    "icon": "UI_MonsterIcon_MachinaIustitia_Probe",
+    "route": "Geological Survey Mek"
+  },
+  "24068101": {
+    "id": 24068101,
+    "name": "机关·侦察记录型",
+    "type": "AUTOMATRON",
+    "icon": "UI_MonsterIcon_MachinaIustitia_Sentry",
+    "route": "Recon Log Mek"
+  },
+  "24068201": {
+    "id": 24068201,
+    "name": "机关·算力增幅器",
+    "type": "AUTOMATRON",
+    "icon": "UI_MonsterIcon_MachinaIustitia_Pylon",
+    "route": "Arithmetic Enhancer Mek"
+  },
+  "24068301": {
+    "id": 24068301,
+    "name": "机关·水下勘测型",
+    "type": "AUTOMATRON",
+    "icon": "UI_MonsterIcon_MachinaIustitia_Recon",
+    "route": "Underwater Survey Mek"
+  },
+  "24068501": {
+    "id": 24068501,
+    "name": "机关·水下巡游型",
+    "type": "AUTOMATRON",
+    "icon": "UI_MonsterIcon_MachinaIustitia_Nautilus",
+    "route": "Underwater Patrol Mek"
+  },
+  "24068601": {
+    "id": 24068601,
+    "name": "机关·深海攻击型",
+    "type": "AUTOMATRON",
+    "icon": "UI_MonsterIcon_MachinaIustitia_Frigate",
+    "route": "Deepwater Assault Mek"
+  },
+  "24068701": {
+    "id": 24068701,
+    "name": "机关·灵活采集型",
+    "type": "AUTOMATRON",
+    "icon": "UI_MonsterIcon_MachinaIustitia_Assimilator",
+    "route": "Nimble Harvester Mek"
+  },
+  "24068801": {
+    "id": 24068801,
+    "name": "攻坚特化型机关",
+    "type": "AUTOMATRON",
+    "icon": "UI_MonsterIcon_MachinaIustitia_Ruggiero_01",
+    "route": "Assault Specialist Mek"
+  },
+  "24068901": {
+    "id": 24068901,
+    "name": "压制特化型机关",
+    "type": "AUTOMATRON",
+    "icon": "UI_MonsterIcon_MachinaIustitia_Ruggiero_02",
+    "route": "Suppression Specialist Mek"
+  },
+  "24069001": {
+    "id": 24069001,
+    "name": "歼灭特化型机关",
+    "type": "AUTOMATRON",
+    "icon": "UI_MonsterIcon_MachinaIustitia_Bradamante",
+    "route": "Annihilation Specialist Mek"
+  },
+  "24069101": {
+    "id": 24069101,
+    "name": "机关·区域警戒型",
+    "type": "AUTOMATRON",
+    "icon": "UI_MonsterIcon_MachinaIustitia_LengthShifter",
+    "route": "Area Alert Mek"
+  },
+  "24069201": {
+    "id": 24069201,
+    "name": "建造特化型机关",
+    "type": "AUTOMATRON",
+    "icon": "UI_MonsterIcon_MachinaIustitia_Excavator",
+    "route": "Construction Specialist Mek"
+  },
+  "24070301": {
+    "id": 24070301,
+    "name": "冰风组曲",
+    "type": "AUTOMATRON",
+    "icon": "UI_MonsterIcon_MachinaIustitia_Nutcracker",
+    "route": "Icewind Suite"
+  },
+  "24080101": {
+    "id": 24080101,
+    "name": "实验性场力发生装置",
+    "type": "AUTOMATRON",
+    "icon": "UI_MonsterIcon_MachinaIustitia_Gravitas",
+    "route": "Experimental Field Generator"
+  },
+  "24090101": {
+    "id": 24090101,
+    "name": "秘源机兵·寻捕械",
+    "type": "AUTOMATRON",
+    "icon": "UI_MonsterIcon_ToothTrap",
+    "route": "Secret Source Automaton: Hunter-Seeker"
+  },
+  "24090201": {
+    "id": 24090201,
+    "name": "秘源机兵·构型械",
+    "type": "AUTOMATRON",
+    "icon": "UI_MonsterIcon_DragonClaw",
+    "route": "Secret Source Automaton: Configuration Device"
   },
   "25010201": {
     "id": 25010201,
@@ -762,26 +979,12 @@
     "icon": "UI_MonsterIcon_Thoarder_Male_Rogue_Fat_01",
     "route": "Treasure Hoarders: Handyman"
   },
-  "25020101": {
-    "id": 25020101,
-    "name": "盗宝团·「怪鸟」",
-    "type": "HUMAN",
-    "icon": "UI_MonsterIcon_Thoarder_Male_Crossbow_01",
-    "route": "Treasure Hoarders: Raptor"
-  },
   "25020201": {
     "id": 25020201,
     "name": "盗宝团·神射手",
     "type": "HUMAN",
     "icon": "UI_MonsterIcon_Thoarder_Male_Hunter_01",
     "route": "Treasure Hoarders: Marksman"
-  },
-  "25030101": {
-    "id": 25030101,
-    "name": "盗宝团·「卡门」",
-    "type": "HUMAN",
-    "icon": "UI_MonsterIcon_Thoarder_Male_Shovel_01",
-    "route": "Treasure Hoarders: Carmen"
   },
   "25030201": {
     "id": 25030201,
@@ -796,27 +999,6 @@
     "type": "HUMAN",
     "icon": "UI_MonsterIcon_Thoarder_Male_Sailor_01",
     "route": "Treasure Hoarders: Seaman"
-  },
-  "25040101": {
-    "id": 25040101,
-    "name": "盗宝团·「大姐头」",
-    "type": "HUMAN",
-    "icon": "UI_MonsterIcon_Thoarder_Female_Hatchet_01",
-    "route": "Treasure Hoarders: Boss"
-  },
-  "25050101": {
-    "id": 25050101,
-    "name": "千岩军士兵",
-    "type": "HUMAN",
-    "icon": "UI_MonsterIcon_Millelith_Male_01",
-    "route": "Millelith Soldier"
-  },
-  "25050201": {
-    "id": 25050201,
-    "name": "千岩军教头",
-    "type": "HUMAN",
-    "icon": "UI_MonsterIcon_Millelith_Male_02",
-    "route": "Millelith Sergeant"
   },
   "25060101": {
     "id": 25060101,
@@ -949,16 +1131,189 @@
     "name": "镀金旅团·炽沙叙事人",
     "type": "HUMAN",
     "icon": "UI_MonsterIcon_Eremite_Female_Standard_Oracle",
-    "route": "Eremite Scorching Loremaster",
-    "beta": true
+    "route": "Eremite Scorching Loremaster"
   },
   "25410401": {
     "id": 25410401,
     "name": "镀金旅团·叶轮舞者",
     "type": "HUMAN",
     "icon": "UI_MonsterIcon_Eremite_Female_Standard_Dancer",
-    "route": "Eremite Floral Ring-Dancer",
-    "beta": true
+    "route": "Eremite Floral Ring-Dancer"
+  },
+  "25500101": {
+    "id": 25500101,
+    "name": "流刃勇士·游击人",
+    "type": "HUMAN",
+    "icon": "UI_MonsterIcon_Human_Female_NoWeapon_Mosasaurus",
+    "route": "Flowing Blade Skirmisher"
+  },
+  "25500201": {
+    "id": 25500201,
+    "name": "结羽勇士·腾空士",
+    "type": "HUMAN",
+    "icon": "UI_MonsterIcon_Human_Female_NoWeapon_Flamingo",
+    "route": "Winged Warrior: Skysoarer"
+  },
+  "25501101": {
+    "id": 25501101,
+    "name": "铸砂勇士·叩问人",
+    "type": "HUMAN",
+    "icon": "UI_MonsterIcon_Human_Female_NoWeapon_Drillhead",
+    "route": "Forged Sand Interrogator"
+  },
+  "25501201": {
+    "id": 25501201,
+    "name": "疾迅勇士·引索客",
+    "type": "HUMAN",
+    "icon": "UI_MonsterIcon_Human_Female_Sword_Hookwalker",
+    "route": "Swiftstep Seeker"
+  },
+  "25501301": {
+    "id": 25501301,
+    "name": "结羽勇士·削羽人",
+    "type": "HUMAN",
+    "icon": "UI_MonsterIcon_Human_Female_Sword_Flamingo",
+    "route": "Winged Warrior: Feathershedder"
+  },
+  "25501401": {
+    "id": 25501401,
+    "name": "灵觉勇士·执意师",
+    "type": "HUMAN",
+    "icon": "UI_MonsterIcon_Human_Female_Sword_Shamansaurus",
+    "route": "Spiritspeaker Warrior: Determinator"
+  },
+  "25502101": {
+    "id": 25502101,
+    "name": "疾迅勇士·荡风斥候",
+    "type": "HUMAN",
+    "icon": "UI_MonsterIcon_Human_Male_Sword_Hookwalker",
+    "route": "Swiftstep Storm Scout"
+  },
+  "25502201": {
+    "id": 25502201,
+    "name": "流刃勇士·锯脂者",
+    "type": "HUMAN",
+    "icon": "UI_MonsterIcon_Human_Male_Sword_Mosasaurus",
+    "route": "Flowing Blade Grease-Saw"
+  },
+  "25502301": {
+    "id": 25502301,
+    "name": "灵觉勇士·控念师",
+    "type": "HUMAN",
+    "icon": "UI_MonsterIcon_Human_Male_Sword_Shamansaurus",
+    "route": "Spiritspeaker Warrior: Psychokinetic"
+  },
+  "25503101": {
+    "id": 25503101,
+    "name": "疾迅勇士·重刃讯使",
+    "type": "HUMAN",
+    "icon": "UI_MonsterIcon_Human_Male_Claymore_Hookwalker",
+    "route": "Swiftstep Armed Courier"
+  },
+  "25503201": {
+    "id": 25503201,
+    "name": "灵觉勇士·冥思者",
+    "type": "HUMAN",
+    "icon": "UI_MonsterIcon_Human_Male_Claymore_Shamansaurus",
+    "route": "Spiritspeaker Warrior: Contemplator"
+  },
+  "25504101": {
+    "id": 25504101,
+    "name": "铸砂勇士·碎盾者",
+    "type": "HUMAN",
+    "icon": "UI_MonsterIcon_Human_MuscleMan_Claymore_Drillhead",
+    "route": "Forged Sand Shieldbreaker"
+  },
+  "25504201": {
+    "id": 25504201,
+    "name": "结羽勇士·驭空客",
+    "type": "HUMAN",
+    "icon": "UI_MonsterIcon_Human_MuscleMan_Claymore_Flamingo",
+    "route": "Winged Warrior: Skymaster"
+  },
+  "25505101": {
+    "id": 25505101,
+    "name": "铸砂勇士·投矛手",
+    "type": "HUMAN",
+    "icon": "UI_MonsterIcon_Human_Fat_NoWeapon_Drillhead",
+    "route": "Forged Sand Javelineer"
+  },
+  "25505201": {
+    "id": 25505201,
+    "name": "流刃勇士·掷叉猎手",
+    "type": "HUMAN",
+    "icon": "UI_MonsterIcon_Human_Fat_NoWeapon_Mosasaurus",
+    "route": "Flowing Blade Harpoon-Thrower"
+  },
+  "25510101": {
+    "id": 25510101,
+    "name": "嵴锋龙武士·碎晶打者",
+    "type": "HUMAN",
+    "icon": "UI_MonsterIcon_Tribalwarrior_Powermaul_Drillhead",
+    "route": "Tepetlisaurus Warrior: Shard Striker"
+  },
+  "25510201": {
+    "id": 25510201,
+    "name": "嵴锋龙武士·破岩锐刃",
+    "type": "HUMAN",
+    "icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Drillhead",
+    "route": "Tepetlisaurus Warrior: Rockbreaker Blade"
+  },
+  "25510301": {
+    "id": 25510301,
+    "name": "匿叶龙武士·旋锯飞叶",
+    "type": "HUMAN",
+    "icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Hookwalker",
+    "route": "Yumkasaurus Warrior: Whirling Leaves"
+  },
+  "25510401": {
+    "id": 25510401,
+    "name": "匿叶龙武士·流火鸣空",
+    "type": "HUMAN",
+    "icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Hookwalker",
+    "route": "Yumkasaurus Warrior: Flowing Skyfire"
+  },
+  "25510501": {
+    "id": 25510501,
+    "name": "鳍游龙武士·穿浪之梭",
+    "type": "HUMAN",
+    "icon": "UI_MonsterIcon_Tribalwarrior_Slingshot_Mosasaurus",
+    "route": "Koholasaurus Warrior: Waveshuttler"
+  },
+  "25510601": {
+    "id": 25510601,
+    "name": "鳍游龙武士·裂礁之涛",
+    "type": "HUMAN",
+    "icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Mosasaurus",
+    "route": "Koholasaurus Warrior: Reefsplitter"
+  },
+  "25510701": {
+    "id": 25510701,
+    "name": "绒翼龙武士·膛星之锤",
+    "type": "HUMAN",
+    "icon": "UI_MonsterIcon_Tribalwarrior_Powermaul_Flamingo",
+    "route": "Qucusaurus Warrior: Heartstar Hammer"
+  },
+  "25510801": {
+    "id": 25510801,
+    "name": "绒翼龙武士·长空明焰",
+    "type": "HUMAN",
+    "icon": "UI_MonsterIcon_Tribalwarrior_Slingshot_Flamingo",
+    "route": "Qucusaurus Warrior: Blazing Sky"
+  },
+  "25510901": {
+    "id": 25510901,
+    "name": "暝视龙武士·寒涌持者",
+    "type": "HUMAN",
+    "icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Shamansaurus",
+    "route": "Iktomisaurus Warrior: Icy Tidebearer"
+  },
+  "25511001": {
+    "id": 25511001,
+    "name": "暝视龙武士·冰晶炮手",
+    "type": "HUMAN",
+    "icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Shamansaurus",
+    "route": "Iktomisaurus Warrior: Cryocrystal Cannon"
   },
   "26010101": {
     "id": 26010101,
@@ -1135,29 +1490,40 @@
     "icon": "UI_MonsterIcon_Fungus_Deux_Delta_Electric",
     "route": "Stretchy Electro Fungus"
   },
+  "26100101": {
+    "id": 26100101,
+    "name": "圣骸角鳄",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Gator_Sacred_Water",
+    "route": "Consecrated Horned Crocodile"
+  },
+  "26100201": {
+    "id": 26100201,
+    "name": "圣骸牙兽",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Panther_Sacred_Grass",
+    "route": "Consecrated Fanged Beast"
+  },
   "26100301": {
     "id": 26100301,
     "name": "圣骸赤鹫",
     "type": "BEAST",
     "icon": "UI_MonsterIcon_Vulture_Sacred_Fire",
-    "route": "Blessbone Red Vulture",
-    "beta": true
+    "route": "Consecrated Red Vulture"
   },
   "26100401": {
     "id": 26100401,
     "name": "圣骸毒蝎",
     "type": "BEAST",
     "icon": "UI_MonsterIcon_Scorpion_Sacred_Electric",
-    "route": "Blessbone Scorpion",
-    "beta": true
+    "route": "Consecrated Scorpion"
   },
   "26100501": {
     "id": 26100501,
     "name": "圣骸飞蛇",
     "type": "BEAST",
     "icon": "UI_MonsterIcon_Chrysopelea_Sacred_Wind",
-    "route": "Blessbone Flying Serpent",
-    "beta": true
+    "route": "Consecrated Flying Serpent"
   },
   "26110101": {
     "id": 26110101,
@@ -1199,8 +1565,301 @@
     "name": "风蚀沙虫",
     "type": "BEAST",
     "icon": "UI_MonsterIcon_Sandworm",
-    "route": "Setekh Wenut",
-    "beta": true
+    "route": "Setekh Wenut"
+  },
+  "26140101": {
+    "id": 26140101,
+    "name": "魔像督军",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Golem_Centaur",
+    "route": "Legatus Golem"
+  },
+  "26140201": {
+    "id": 26140201,
+    "name": "魔像禁卫",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Golem_Legion",
+    "route": "Praetorian Golem"
+  },
+  "26151001": {
+    "id": 26151001,
+    "name": "猎刀鳐",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_MantaRay_Larva_01",
+    "route": "Hunter's Ray"
+  },
+  "26151101": {
+    "id": 26151101,
+    "name": "猎刀鳐",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_MantaRay_Larva_02",
+    "route": "Hunter's Ray"
+  },
+  "26152101": {
+    "id": 26152101,
+    "name": "重甲蟹",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_HermitCrab_Larva_01",
+    "route": "Armored Crab"
+  },
+  "26152201": {
+    "id": 26152201,
+    "name": "重甲蟹",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_HermitCrab_Larva_02",
+    "route": "Armored Crab"
+  },
+  "26153101": {
+    "id": 26153101,
+    "name": "膨膨兽",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Seal_Larva_01",
+    "route": "Blubberbeast"
+  },
+  "26154101": {
+    "id": 26154101,
+    "name": "帽子水母",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_JellyFish_Larva_01",
+    "route": "Hat Jellyfish"
+  },
+  "26154201": {
+    "id": 26154201,
+    "name": "帽子水母",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_JellyFish_Larva_02",
+    "route": "Hat Jellyfish"
+  },
+  "26155101": {
+    "id": 26155101,
+    "name": "泡泡海马",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_SeaHorse_Larva_01",
+    "route": "Bubbly Seahorse"
+  },
+  "26155201": {
+    "id": 26155201,
+    "name": "泡泡海马",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_SeaHorse_Larva_02",
+    "route": "Bubbly Seahorse"
+  },
+  "26155301": {
+    "id": 26155301,
+    "name": "泡泡海马",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_SeaHorse_Larva_03",
+    "route": "Bubbly Seahorse"
+  },
+  "26156101": {
+    "id": 26156101,
+    "name": "球球章鱼",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Octopus_Larva_01",
+    "route": "Ball Octopus"
+  },
+  "26156201": {
+    "id": 26156201,
+    "name": "球球章鱼",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Octopus_Larva_02",
+    "route": "Ball Octopus"
+  },
+  "26157101": {
+    "id": 26157101,
+    "name": "天使海兔",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Aplysia_Larva_01",
+    "route": "Angelic Sea Hare"
+  },
+  "26157201": {
+    "id": 26157201,
+    "name": "天使海兔",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Aplysia_Larva_02",
+    "route": "Angelic Sea Hare"
+  },
+  "26160101": {
+    "id": 26160101,
+    "name": "坚盾重甲蟹",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_HermitCrab_Mature",
+    "route": "Sternshield Crab"
+  },
+  "26160201": {
+    "id": 26160201,
+    "name": "大天使海兔",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Aplysia_Mature",
+    "route": "Cherubic Sea Hare"
+  },
+  "26160301": {
+    "id": 26160301,
+    "name": "泡泡雄海马",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_SeaHorse_Mature",
+    "route": "Bubbler Seahorse"
+  },
+  "26160302": {
+    "id": 26160302,
+    "name": "铁甲熔火帝皇",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_HermitCrab_Primo",
+    "route": "Emperor of Fire and Iron"
+  },
+  "26180101": {
+    "id": 26180101,
+    "name": "千年珍珠骏麟",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_SeaHorse_Primo_Electric",
+    "route": "Millennial Pearl Seahorse"
+  },
+  "26190101": {
+    "id": 26190101,
+    "name": "隐山猊兽",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Hermit",
+    "route": "Solitary Suanni"
+  },
+  "26190201": {
+    "id": 26190201,
+    "name": "玄文兽",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Striped",
+    "route": "Xuanwen Beast"
+  },
+  "26200101": {
+    "id": 26200101,
+    "name": "幼嵴锋龙",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Natsaurus_Drillhead_Small",
+    "route": "Tepetlisaur Whelp"
+  },
+  "26200201": {
+    "id": 26200201,
+    "name": "嵴锋龙",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Natsaurus_Drillhead_Normal",
+    "route": "Tepetlisaurus"
+  },
+  "26210101": {
+    "id": 26210101,
+    "name": "幼鳍游龙",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Small",
+    "route": "Koholasaur Whelp"
+  },
+  "26210201": {
+    "id": 26210201,
+    "name": "鳍游龙",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Normal",
+    "route": "Koholasaurus"
+  },
+  "26220101": {
+    "id": 26220101,
+    "name": "幼匿叶龙",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Small",
+    "route": "Yumkasaur Whelp"
+  },
+  "26220201": {
+    "id": 26220201,
+    "name": "匿叶龙",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Normal",
+    "route": "Yumkasaurus"
+  },
+  "26220301": {
+    "id": 26220301,
+    "name": "贪食匿叶龙山王",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Primo",
+    "route": "Gluttonous Yumkasaur Mountain King"
+  },
+  "26230101": {
+    "id": 26230101,
+    "name": "幼绒翼龙",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Natsaurus_Flamingo_Small",
+    "route": "Qucusaurus Chick"
+  },
+  "26230201": {
+    "id": 26230201,
+    "name": "绒翼龙",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Natsaurus_Flamingo_Normal",
+    "route": "Qucusaurus"
+  },
+  "26230301": {
+    "id": 26230301,
+    "name": "金焰绒翼龙暴君",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Natsaurus_Flamingo_Primo",
+    "route": "Goldflame Qucusaur Tyrant"
+  },
+  "26240101": {
+    "id": 26240101,
+    "name": "幼暝视龙",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Natsaurus_Shamansaurus_Small",
+    "route": "Iktomisaurus Chick"
+  },
+  "26240201": {
+    "id": 26240201,
+    "name": "暝视龙",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Natsaurus_Shamansaurus_Normal",
+    "route": "Iktomisaurus"
+  },
+  "26260101": {
+    "id": 26260101,
+    "name": "窟岩·大灵显化身",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Wayob_Drillhead",
+    "route": "Rock-Cavernous Wayob Manifestation"
+  },
+  "26260201": {
+    "id": 26260201,
+    "name": "溯流·大灵显化身",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Wayob_Mosasaurus",
+    "route": "Flow-Inverted Wayob Manifestation"
+  },
+  "26260301": {
+    "id": 26260301,
+    "name": "疾叶·大灵显化身",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Wayob_Hookwalker",
+    "route": "Foliar-Swift Wayob Manifestation"
+  },
+  "26260801": {
+    "id": 26260801,
+    "name": "凛冽·大灵显化身",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Wayob_Shamansaurus",
+    "route": "Biting-Cold Wayob Manifestation"
+  },
+  "26260901": {
+    "id": 26260901,
+    "name": "焚燃·大灵显化身",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Wayob_Flamingo",
+    "route": "Burning-Aflame Wayob Manifestation"
+  },
+  "26270101": {
+    "id": 26270101,
+    "name": "熔岩游像·流燃体",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Lava_Liquid",
+    "route": "Fluid Avatar of Lava"
+  },
+  "26270201": {
+    "id": 26270201,
+    "name": "熔岩游像·蚀土者",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Lava_Solid",
+    "route": "Eroding Avatar of Lava"
   },
   "28010101": {
     "id": 28010101,
@@ -1384,13 +2043,6 @@
     "icon": "UI_AnimalIcon_Boar_01",
     "route": "Forest Boar"
   },
-  "28020302": {
-    "id": 28020302,
-    "name": "小野林猪",
-    "type": "ANIMAL",
-    "icon": "UI_AnimalIcon_Boar_02",
-    "route": "Forest Piglet"
-  },
   "28020303": {
     "id": 28020303,
     "name": "雪猪",
@@ -1410,13 +2062,6 @@
     "name": "蕈猪",
     "type": "ANIMAL",
     "icon": "UI_AnimalIcon_Boar_Grass",
-    "route": "Shroomboar"
-  },
-  "28020314": {
-    "id": 28020314,
-    "name": "蕈猪",
-    "type": "ANIMAL",
-    "icon": "UI_AnimalIcon_Boar_Grass_Small",
     "route": "Shroomboar"
   },
   "28020401": {
@@ -1446,6 +2091,27 @@
     "type": "ANIMAL",
     "icon": "UI_AnimalIcon_DogPrick_03",
     "route": "Black-Back Hound"
+  },
+  "28020411": {
+    "id": 28020411,
+    "name": "深栗猎犬",
+    "type": "ANIMAL",
+    "icon": "UI_AnimalIcon_Dog_DropEar_01",
+    "route": "Chestnut Hunting Hound"
+  },
+  "28020412": {
+    "id": 28020412,
+    "name": "亮灰猎犬",
+    "type": "ANIMAL",
+    "icon": "UI_AnimalIcon_Dog_DropEar_02",
+    "route": "Glittergray Hunting Hound"
+  },
+  "28020413": {
+    "id": 28020413,
+    "name": "琥珀猎犬",
+    "type": "ANIMAL",
+    "icon": "UI_AnimalIcon_Dog_DropEar_03",
+    "route": "Amber Hunting Hound"
   },
   "28020501": {
     "id": 28020501,
@@ -1545,6 +2211,97 @@
     "icon": "UI_AnimalIcon_Inu_Tanuki_01",
     "route": "Bake-Danuki"
   },
+  "28021001": {
+    "id": 28021001,
+    "name": "玳龟",
+    "type": "ANIMAL",
+    "icon": "UI_AnimalIcon_Tortoise_01",
+    "route": "Tent Tortoise"
+  },
+  "28021002": {
+    "id": 28021002,
+    "name": "玉璜龟",
+    "type": "ANIMAL",
+    "icon": "UI_AnimalIcon_Tortoise_02",
+    "route": "Jadestone Turtle"
+  },
+  "28021101": {
+    "id": 28021101,
+    "name": "淑女犬",
+    "type": "ANIMAL",
+    "icon": "UI_AnimalIcon_FontainePoddle_Lady_01",
+    "route": "Lady Poodle"
+  },
+  "28021102": {
+    "id": 28021102,
+    "name": "卫兵犬",
+    "type": "ANIMAL",
+    "icon": "UI_AnimalIcon_FontainePoddle_Guard_01",
+    "route": "Guard Poodle"
+  },
+  "28021103": {
+    "id": 28021103,
+    "name": "绅士犬",
+    "type": "ANIMAL",
+    "icon": "UI_AnimalIcon_FontainePoddle_Gentleman_01",
+    "route": "Gentleman Poodle"
+  },
+  "28021201": {
+    "id": 28021201,
+    "name": "悠悠海獭",
+    "type": "ANIMAL",
+    "icon": "UI_AnimalIcon_Beaver_01",
+    "route": "Leisurely Otter"
+  },
+  "28022001": {
+    "id": 28022001,
+    "name": "长颈角犀",
+    "type": "ANIMAL",
+    "icon": "UI_AnimalIcon_Macrauchenia_01",
+    "route": "Long-Necked Rhino"
+  },
+  "28022101": {
+    "id": 28022101,
+    "name": "柔柔羊",
+    "type": "ANIMAL",
+    "icon": "UI_AnimalIcon_Goat_01",
+    "route": "Fluff-Fleece Goat"
+  },
+  "28022201": {
+    "id": 28022201,
+    "name": "豚兽",
+    "type": "ANIMAL",
+    "icon": "UI_AnimalIcon_Capybara_01",
+    "route": "Capybara"
+  },
+  "28022301": {
+    "id": 28022301,
+    "name": "绵驮兽",
+    "type": "ANIMAL",
+    "icon": "UI_AnimalIcon_Alpaca_01",
+    "route": "Alpaca"
+  },
+  "28022401": {
+    "id": 28022401,
+    "name": "棕鹿",
+    "type": "ANIMAL",
+    "icon": "UI_AnimalIcon_Odocoileus_01",
+    "route": "Brown Deer"
+  },
+  "28022501": {
+    "id": 28022501,
+    "name": "飞鼯",
+    "type": "ANIMAL",
+    "icon": "UI_AnimalIcon_Pteromys_01",
+    "route": "Flying Squirrel"
+  },
+  "28022701": {
+    "id": 28022701,
+    "name": "苦苦羊",
+    "type": "ANIMAL",
+    "icon": "UI_AnimalIcon_Capra_01",
+    "route": "Cacaua Goat"
+  },
   "28030101": {
     "id": 28030101,
     "name": "蓝翎鹭",
@@ -1565,6 +2322,13 @@
     "type": "AVIARY",
     "icon": "UI_AnimalIcon_Crane_Lbis_01",
     "route": "Sacred Ibis"
+  },
+  "28030107": {
+    "id": 28030107,
+    "name": "赤鹳",
+    "type": "AVIARY",
+    "icon": "UI_AnimalIcon_Crane_Flamingo_01",
+    "route": "Red Flamingo"
   },
   "28030201": {
     "id": 28030201,
@@ -1684,6 +2448,125 @@
     "type": "AVIARY",
     "icon": "UI_AnimalIcon_Wigeon_03",
     "route": "Emerald Duck"
+  },
+  "28030503": {
+    "id": 28030503,
+    "name": "秋绒鸭",
+    "type": "AVIARY",
+    "icon": "UI_AnimalIcon_Wigeon_02",
+    "route": "Velvetfall Duck"
+  },
+  "28030505": {
+    "id": 28030505,
+    "name": "山蓝琵鹭",
+    "type": "AVIARY",
+    "icon": "UI_AnimalIcon_Wigeon_Spoonbill_01",
+    "route": "Blue Mountain Spoonbill"
+  },
+  "28030601": {
+    "id": 28030601,
+    "name": "雪翅雁",
+    "type": "AVIARY",
+    "icon": "UI_AnimalIcon_Swan_01",
+    "route": "Snow-Winged Goose"
+  },
+  "28030602": {
+    "id": 28030602,
+    "name": "乌翅雁",
+    "type": "AVIARY",
+    "icon": "UI_AnimalIcon_Swan_02",
+    "route": "Darkwing Goose"
+  },
+  "28030603": {
+    "id": 28030603,
+    "name": "朱喙鹈鹕",
+    "type": "AVIARY",
+    "icon": "UI_AnimalIcon_Uka_01",
+    "route": "Redbill Pelican"
+  },
+  "28030701": {
+    "id": 28030701,
+    "name": "平冠鹱",
+    "type": "AVIARY",
+    "icon": "UI_AnimalIcon_Albatross_01",
+    "route": "Flatcrest Fulmar"
+  },
+  "28030702": {
+    "id": 28030702,
+    "name": "紫金渔鸥",
+    "type": "AVIARY",
+    "icon": "UI_AnimalIcon_Seagull_01",
+    "route": "Violetgold Angler Gull"
+  },
+  "28030703": {
+    "id": 28030703,
+    "name": "灰蓝伞雀",
+    "type": "AVIARY",
+    "icon": "UI_AnimalIcon_Eggplant_01",
+    "route": "Slate Umbrellafinch"
+  },
+  "28030704": {
+    "id": 28030704,
+    "name": "赤棕伞雀",
+    "type": "AVIARY",
+    "icon": "UI_AnimalIcon_Eggplant_02",
+    "route": "Burgundy Umbrellafinch"
+  },
+  "28030705": {
+    "id": 28030705,
+    "name": "洋红扇尾鸽",
+    "type": "AVIARY",
+    "icon": "UI_AnimalIcon_Fantail_01",
+    "route": "Magenta Fantail Pigeon"
+  },
+  "28030706": {
+    "id": 28030706,
+    "name": "叶绿扇尾鸽",
+    "type": "AVIARY",
+    "icon": "UI_AnimalIcon_Fantail_02",
+    "route": "Viridian Fantail Pigeon"
+  },
+  "28030707": {
+    "id": 28030707,
+    "name": "红冠雀",
+    "type": "AVIARY",
+    "icon": "UI_AnimalIcon_Larvivora_01",
+    "route": "Redcrown Finch"
+  },
+  "28030708": {
+    "id": 28030708,
+    "name": "青冠雀",
+    "type": "AVIARY",
+    "icon": "UI_AnimalIcon_Larvivora_02",
+    "route": "Bluecrown Finch"
+  },
+  "28030709": {
+    "id": 28030709,
+    "name": "戟冠鸟",
+    "type": "AVIARY",
+    "icon": "UI_AnimalIcon_Cacatuidae_01",
+    "route": "Halberd-Crest Bird"
+  },
+  "28030801": {
+    "id": 28030801,
+    "name": "厚羽围脖雉",
+    "type": "AVIARY",
+    "icon": "UI_AnimalIcon_Meleagris_01",
+    "route": "Thick-Feathered Ruffed Pheasant"
+  },
+  "28030901": {
+    "id": 28030901,
+    "name": "浮流鸟",
+    "type": "AVIARY",
+    "icon": "UI_AnimalIcon_Penguin_02",
+    "route": "Flowcurrent Bird"
+  },
+  "28030902": {
+    "id": 28030902,
+    "name": "浮燃鸟",
+    "type": "AVIARY",
+    "icon": "UI_AnimalIcon_Penguin_01",
+    "route": "Flowfire Bird"
   },
   "28040101": {
     "id": 28040101,
@@ -1916,6 +2799,118 @@
     "icon": "UI_ItemIcon_131028",
     "route": "Halcyon Jade Axe Marlin"
   },
+  "28040903": {
+    "id": 28040903,
+    "name": "海涛斧枪鱼",
+    "type": "FISH",
+    "icon": "UI_ItemIcon_131029",
+    "route": "Streaming Axe Marlin"
+  },
+  "28041001": {
+    "id": 28041001,
+    "name": "波波心羽鲈",
+    "type": "FISH",
+    "icon": "UI_ItemIcon_131030",
+    "route": "Rippling Heartfeather Bass"
+  },
+  "28041002": {
+    "id": 28041002,
+    "name": "烘烘心羽鲈",
+    "type": "FISH",
+    "icon": "UI_ItemIcon_131031",
+    "route": "Blazing Heartfeather Bass"
+  },
+  "28041003": {
+    "id": 28041003,
+    "name": "玉玉心羽鲈",
+    "type": "FISH",
+    "icon": "UI_ItemIcon_131037",
+    "route": "Jade Heartfeather Bass"
+  },
+  "28041101": {
+    "id": 28041101,
+    "name": "维护机关·初始能力型",
+    "type": "FISH",
+    "icon": "UI_ItemIcon_131032",
+    "route": "Maintenance Mek: Initial Configuration"
+  },
+  "28041102": {
+    "id": 28041102,
+    "name": "维护机关·水域清理者",
+    "type": "FISH",
+    "icon": "UI_ItemIcon_131033",
+    "route": "Maintenance Mek: Water Body Cleaner"
+  },
+  "28041103": {
+    "id": 28041103,
+    "name": "维护机关·态势控制者",
+    "type": "FISH",
+    "icon": "UI_ItemIcon_131034",
+    "route": "Maintenance Mek: Situation Controller"
+  },
+  "28041104": {
+    "id": 28041104,
+    "name": "维护机关·白金典藏型",
+    "type": "FISH",
+    "icon": "UI_ItemIcon_131035",
+    "route": "Maintenance Mek: Platinum Collection"
+  },
+  "28041105": {
+    "id": 28041105,
+    "name": "维护机关·澄金领队型",
+    "type": "FISH",
+    "icon": "UI_ItemIcon_131036",
+    "route": "Maintenance Mek: Gold Leader"
+  },
+  "28041201": {
+    "id": 28041201,
+    "name": "繁花斗士急流鱼",
+    "type": "FISH",
+    "icon": "UI_ItemIcon_131038",
+    "route": "Floral Rapidfighting Fish"
+  },
+  "28041202": {
+    "id": 28041202,
+    "name": "深潜斗士急流鱼",
+    "type": "FISH",
+    "icon": "UI_ItemIcon_131039",
+    "route": "Diving Rapidfighting Fish"
+  },
+  "28041203": {
+    "id": 28041203,
+    "name": "炽岩斗士急流鱼",
+    "type": "FISH",
+    "icon": "UI_ItemIcon_131040",
+    "route": "Magma Rapidfighting Fish"
+  },
+  "28041301": {
+    "id": 28041301,
+    "name": "青浪翻车鲀",
+    "type": "FISH",
+    "icon": "UI_ItemIcon_131041",
+    "route": "Greenwave Sunfish"
+  },
+  "28041302": {
+    "id": 28041302,
+    "name": "晚霞翻车鲀",
+    "type": "FISH",
+    "icon": "UI_ItemIcon_131042",
+    "route": "Dusk Sunfish"
+  },
+  "28041401": {
+    "id": 28041401,
+    "name": "拟似燃素独角鱼",
+    "type": "FISH",
+    "icon": "UI_ItemIcon_131043",
+    "route": "Phony Phlogiston Unihornfish"
+  },
+  "28041402": {
+    "id": 28041402,
+    "name": "伪装鲨鲨独角鱼",
+    "type": "FISH",
+    "icon": "UI_ItemIcon_131044",
+    "route": "Pseudoshark Unihornfish"
+  },
   "28050101": {
     "id": 28050101,
     "name": "风晶蝶",
@@ -1958,6 +2953,20 @@
     "icon": "UI_AnimalIcon_Wisp_Grass_01",
     "route": "Dendro Crystalfly"
   },
+  "28050107": {
+    "id": 28050107,
+    "name": "水晶蝶",
+    "type": "CRITTER",
+    "icon": "UI_AnimalIcon_Wisp_Water_01",
+    "route": "Hydro Crystalfly"
+  },
+  "28050109": {
+    "id": 28050109,
+    "name": "火晶蝶",
+    "type": "CRITTER",
+    "icon": "UI_AnimalIcon_Wisp_Fire_01",
+    "route": "Pyro Crystalfly"
+  },
   "28050201": {
     "id": 28050201,
     "name": "新手盗宝鼬",
@@ -1986,12 +2995,40 @@
     "icon": "UI_AnimalIcon_Boltbug_Lightbug_01",
     "route": "Lucklight Fly"
   },
+  "28050302": {
+    "id": 28050302,
+    "name": "珉光虫",
+    "type": "CRITTER",
+    "icon": "UI_AnimalIcon_Boltbug_Lightbug_02",
+    "route": "Malachitin Lumibug"
+  },
   "28050401": {
     "id": 28050401,
     "name": "圣金虫",
     "type": "CRITTER",
     "icon": "UI_AnimalIcon_BoltBug_Scarab_01",
     "route": "Scarab"
+  },
+  "28050701": {
+    "id": 28050701,
+    "name": "子探测单元",
+    "type": "CRITTER",
+    "icon": "UI_AnimalIcon_BoltBug_MachinaIustitia_01",
+    "route": "Subdetection Unit"
+  },
+  "28050801": {
+    "id": 28050801,
+    "name": "燃素蜜虫",
+    "type": "CRITTER",
+    "icon": "UI_AnimalIcon_Boltbug_Lavawasp_01",
+    "route": "Phlogiston Aphid"
+  },
+  "28050901": {
+    "id": 28050901,
+    "name": "固晶甲虫",
+    "type": "CRITTER",
+    "icon": "UI_AnimalIcon_Boltbug_Firebug_01",
+    "route": "Crystal Beetle"
   },
   "28060101": {
     "id": 28060101,
@@ -2040,8 +3077,7 @@
     "name": "飞蛇",
     "type": "ANIMAL",
     "icon": "UI_AnimalIcon_Chrysopelea",
-    "route": "Flying Serpent",
-    "beta": true
+    "route": "Flying Serpent"
   },
   "29010101": {
     "id": 29010101,
@@ -2091,5 +3127,26 @@
     "type": "BOSS",
     "icon": "UI_MonsterIcon_Nada",
     "route": "Shouki no Kami, the Prodigal"
+  },
+  "29080101": {
+    "id": 29080101,
+    "name": "阿佩普的绿洲守望者",
+    "type": "BOSS",
+    "icon": "UI_MonsterIcon_Apep",
+    "route": "Guardian of Apep's Oasis"
+  },
+  "29090101": {
+    "id": 29090101,
+    "name": "吞星之鲸",
+    "type": "BOSS",
+    "icon": "UI_MonsterIcon_Ptahur_Devourer",
+    "route": "All-Devouring Narwhal"
+  },
+  "29091001": {
+    "id": 29091001,
+    "name": "「仆人」",
+    "type": "BOSS",
+    "icon": "UI_MonsterIcon_Nihil",
+    "route": "The Knave"
   }
 }

@@ -1,0 +1,269 @@
+{
+  "id": 29090101,
+  "name": "吞星之鲸",
+  "type": "值得铭记的强敌",
+  "icon": "UI_MonsterIcon_Ptahur_Devourer",
+  "route": "All-Devouring Narwhal",
+  "title": "吞星之鲸",
+  "specialName": "无光星海彼端的访客",
+  "description": "神秘的异界巨兽。",
+  "entries": {
+    "29090101": {
+      "id": 29090101,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 543.35999,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 125.6,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.7,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "102": {
+          "name": "冒险阅历",
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "300"
+        },
+        "105": {
+          "name": "好感经验",
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "101111": {
+          "name": "央陆单手剑原胚",
+          "rank": 4,
+          "icon": "UI_ItemIcon_101111"
+        },
+        "101112": {
+          "name": "央陆弓原胚",
+          "rank": 4,
+          "icon": "UI_ItemIcon_101112"
+        },
+        "101113": {
+          "name": "央陆双手剑原胚",
+          "rank": 4,
+          "icon": "UI_ItemIcon_101113"
+        },
+        "101114": {
+          "name": "央陆法器原胚",
+          "rank": 4,
+          "icon": "UI_ItemIcon_101114"
+        },
+        "101115": {
+          "name": "央陆长柄武器原胚",
+          "rank": 4,
+          "icon": "UI_ItemIcon_101115"
+        },
+        "104121": {
+          "name": "涤净青金碎屑",
+          "rank": 2,
+          "icon": "UI_ItemIcon_104121"
+        },
+        "104122": {
+          "name": "涤净青金断片",
+          "rank": 3,
+          "icon": "UI_ItemIcon_104122"
+        },
+        "104123": {
+          "name": "涤净青金块",
+          "rank": 4,
+          "icon": "UI_ItemIcon_104123"
+        },
+        "104124": {
+          "name": "涤净青金",
+          "rank": 5,
+          "icon": "UI_ItemIcon_104124"
+        },
+        "113021": {
+          "name": "异梦溶媒",
+          "rank": 4,
+          "icon": "UI_ItemIcon_113021",
+          "count": "0.33"
+        },
+        "113054": {
+          "name": "无光丝线",
+          "rank": 5,
+          "icon": "UI_ItemIcon_113054"
+        },
+        "113055": {
+          "name": "无光涡眼",
+          "rank": 5,
+          "icon": "UI_ItemIcon_113055"
+        },
+        "113056": {
+          "name": "无光质块",
+          "rank": 5,
+          "icon": "UI_ItemIcon_113056"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400088": {
+          "name": "角斗士的终幕礼",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "name": "角斗士的终幕礼",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "name": "流浪大地的乐团",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "name": "流浪大地的乐团",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        }
+      }
+    },
+    "29090102": {
+      "id": 29090102,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "鲸鱼剧情版本",
+          "description": "鲸鱼剧情版本",
+          "abilityName": [
+            "MonsterAffix_Monster_Ptahur_Devourer_Story"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 543.35999,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 87.92,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.7,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "29090202": {
+      "id": 29090202,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "鲸鱼-黑色幻影剧情版本",
+          "description": "鲸鱼-黑色幻影剧情版本",
+          "abilityName": [
+            "MonsterAffix_Monster_Ptahur_Phantom_Story"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 326.01599,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 70.336,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.7,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": null
+}

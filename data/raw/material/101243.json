@@ -1,0 +1,23 @@
+{
+  "name": "颗粒果",
+  "description": "因穗轴上长出巨大颗粒果实而得到此名的作物。",
+  "type": "食材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": [
+    "o617"
+  ],
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": null,
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_101243",
+  "rank": 1,
+  "route": "Grainfruit"
+}

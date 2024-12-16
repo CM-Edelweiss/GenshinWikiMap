@@ -1,0 +1,1596 @@
+{
+  "id": 22120201,
+  "name": "深邃拟覆叶",
+  "type": "深渊",
+  "icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+  "route": "Tenebrous Mimiflora",
+  "title": "深邃拟覆叶",
+  "specialName": "虚界浮灭气泡",
+  "description": "于深邃晦暗的扭曲异界降临此世的深渊魔物，拥有类似植物的形态。\\n据说在漆黑的浪潮侵蚀之处，就会长出类似植物般黑暗的魔物。但植物只是表象，之所以具备这样的姿态，只不过是为了更接近树状世界的意型以从中汲取所需的概念并进行解析与模仿。\\n也有失去理智的狂言者说，那些类似叶片般伸展出去的事物，其实是通往异界的门的雏形。",
+  "entries": {
+    "22120201": {
+      "id": 22120201,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 46.1856,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 37.68,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "22120301": {
+      "id": 22120301,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "怪物专用-次数盾标记-深渊次数盾",
+          "description": "所有怪物使用深渊次数盾必须挂载",
+          "abilityName": [
+            "Monster_Common_FrequencyShieldLabel_AbyssShield"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010010,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010010,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 65.2032,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 62.8,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112116": {
+          "name": "折光的胚芽",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112116",
+          "count": "3.9394"
+        },
+        "112117": {
+          "name": "惑光的阔叶",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112117",
+          "count": "1.0505"
+        },
+        "112118": {
+          "name": "迷光的蜷叶之心",
+          "rank": 4,
+          "icon": "UI_ItemIcon_112118",
+          "count": "0.2626"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "22120401": {
+      "id": 22120401,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "怪物专用-次数盾标记-深渊次数盾",
+          "description": "所有怪物使用深渊次数盾必须挂载",
+          "abilityName": [
+            "Monster_Common_FrequencyShieldLabel_AbyssShield"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010010,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010010,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 59.7696,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 37.68,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112116": {
+          "name": "折光的胚芽",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112116",
+          "count": "3.9394"
+        },
+        "112117": {
+          "name": "惑光的阔叶",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112117",
+          "count": "1.0505"
+        },
+        "112118": {
+          "name": "迷光的蜷叶之心",
+          "rank": 4,
+          "icon": "UI_ItemIcon_112118",
+          "count": "0.2626"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "22120501": {
+      "id": 22120501,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "怪物专用-次数盾标记-深渊次数盾",
+          "description": "所有怪物使用深渊次数盾必须挂载",
+          "abilityName": [
+            "Monster_Common_FrequencyShieldLabel_AbyssShield"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010010,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010010,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 65.2032,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 62.8,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112116": {
+          "name": "折光的胚芽",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112116",
+          "count": "3.9394"
+        },
+        "112117": {
+          "name": "惑光的阔叶",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112117",
+          "count": "1.0505"
+        },
+        "112118": {
+          "name": "迷光的蜷叶之心",
+          "rank": 4,
+          "icon": "UI_ItemIcon_112118",
+          "count": "0.2626"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "22120601": {
+      "id": 22120601,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "怪物专用-次数盾标记-深渊次数盾",
+          "description": "所有怪物使用深渊次数盾必须挂载",
+          "abilityName": [
+            "Monster_Common_FrequencyShieldLabel_AbyssShield"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010010,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010010,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 59.7696,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 37.68,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112116": {
+          "name": "折光的胚芽",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112116",
+          "count": "3.9394"
+        },
+        "112117": {
+          "name": "惑光的阔叶",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112117",
+          "count": "1.0505"
+        },
+        "112118": {
+          "name": "迷光的蜷叶之心",
+          "rank": 4,
+          "icon": "UI_ItemIcon_112118",
+          "count": "0.2626"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "22120701": {
+      "id": 22120701,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "怪物专用-次数盾标记-深渊次数盾",
+          "description": "所有怪物使用深渊次数盾必须挂载",
+          "abilityName": [
+            "Monster_Common_FrequencyShieldLabel_AbyssShield"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 46.1856,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 37.68,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112116": {
+          "name": "折光的胚芽",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112116",
+          "count": "3.9394"
+        },
+        "112117": {
+          "name": "惑光的阔叶",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112117",
+          "count": "1.0505"
+        },
+        "112118": {
+          "name": "迷光的蜷叶之心",
+          "rank": 4,
+          "icon": "UI_ItemIcon_112118",
+          "count": "0.2626"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "22120801": {
+      "id": 22120801,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "怪物专用-次数盾标记-深渊次数盾",
+          "description": "所有怪物使用深渊次数盾必须挂载",
+          "abilityName": [
+            "Monster_Common_FrequencyShieldLabel_AbyssShield"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 46.1856,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 37.68,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112116": {
+          "name": "折光的胚芽",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112116",
+          "count": "3.9394"
+        },
+        "112117": {
+          "name": "惑光的阔叶",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112117",
+          "count": "1.0505"
+        },
+        "112118": {
+          "name": "迷光的蜷叶之心",
+          "rank": 4,
+          "icon": "UI_ItemIcon_112118",
+          "count": "0.2626"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "22120901": {
+      "id": 22120901,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "怪物专用-次数盾标记-深渊次数盾",
+          "description": "所有怪物使用深渊次数盾必须挂载",
+          "abilityName": [
+            "Monster_Common_FrequencyShieldLabel_AbyssShield"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 46.1856,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 37.68,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112116": {
+          "name": "折光的胚芽",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112116",
+          "count": "3.9394"
+        },
+        "112117": {
+          "name": "惑光的阔叶",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112117",
+          "count": "1.0505"
+        },
+        "112118": {
+          "name": "迷光的蜷叶之心",
+          "rank": 4,
+          "icon": "UI_ItemIcon_112118",
+          "count": "0.2626"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "22121001": {
+      "id": 22121001,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "怪物专用-次数盾标记-深渊次数盾",
+          "description": "所有怪物使用深渊次数盾必须挂载",
+          "abilityName": [
+            "Monster_Common_FrequencyShieldLabel_AbyssShield"
+          ],
+          "isCommon": true
+        },
+        {
+          "name": "部落战士精英 - 语音移除",
+          "description": "任务按需求使用，避免穿帮",
+          "abilityName": [
+            "Monster_TribalWarrior_NoVoAlter"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 46.1856,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 37.68,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112116": {
+          "name": "折光的胚芽",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112116",
+          "count": "3.9394"
+        },
+        "112117": {
+          "name": "惑光的阔叶",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112117",
+          "count": "1.0505"
+        },
+        "112118": {
+          "name": "迷光的蜷叶之心",
+          "rank": 4,
+          "icon": "UI_ItemIcon_112118",
+          "count": "0.2626"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "22121101": {
+      "id": 22121101,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "怪物专用-次数盾标记-深渊次数盾",
+          "description": "所有怪物使用深渊次数盾必须挂载",
+          "abilityName": [
+            "Monster_Common_FrequencyShieldLabel_AbyssShield"
+          ],
+          "isCommon": true
+        },
+        {
+          "name": "部落战士精英 - 语音移除",
+          "description": "任务按需求使用，避免穿帮",
+          "abilityName": [
+            "Monster_TribalWarrior_NoVoAlter"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 46.1856,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 37.68,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112116": {
+          "name": "折光的胚芽",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112116",
+          "count": "3.9394"
+        },
+        "112117": {
+          "name": "惑光的阔叶",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112117",
+          "count": "1.0505"
+        },
+        "112118": {
+          "name": "迷光的蜷叶之心",
+          "rank": 4,
+          "icon": "UI_ItemIcon_112118",
+          "count": "0.2626"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "22121201": {
+      "id": 22121201,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "怪物专用-次数盾标记-深渊次数盾",
+          "description": "所有怪物使用深渊次数盾必须挂载",
+          "abilityName": [
+            "Monster_Common_FrequencyShieldLabel_AbyssShield"
+          ],
+          "isCommon": true
+        },
+        {
+          "name": "部落战士精英 - 语音移除",
+          "description": "任务按需求使用，避免穿帮",
+          "abilityName": [
+            "Monster_TribalWarrior_NoVoAlter"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 46.1856,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 37.68,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112116": {
+          "name": "折光的胚芽",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112116",
+          "count": "3.9394"
+        },
+        "112117": {
+          "name": "惑光的阔叶",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112117",
+          "count": "1.0505"
+        },
+        "112118": {
+          "name": "迷光的蜷叶之心",
+          "rank": 4,
+          "icon": "UI_ItemIcon_112118",
+          "count": "0.2626"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "22121301": {
+      "id": 22121301,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "怪物专用-次数盾标记-深渊次数盾",
+          "description": "所有怪物使用深渊次数盾必须挂载",
+          "abilityName": [
+            "Monster_Common_FrequencyShieldLabel_AbyssShield"
+          ],
+          "isCommon": true
+        },
+        {
+          "name": "部落战士精英 - 语音移除",
+          "description": "任务按需求使用，避免穿帮",
+          "abilityName": [
+            "Monster_TribalWarrior_NoVoAlter"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 46.1856,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 37.68,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112116": {
+          "name": "折光的胚芽",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112116",
+          "count": "3.9394"
+        },
+        "112117": {
+          "name": "惑光的阔叶",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112117",
+          "count": "1.0505"
+        },
+        "112118": {
+          "name": "迷光的蜷叶之心",
+          "rank": 4,
+          "icon": "UI_ItemIcon_112118",
+          "count": "0.2626"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "22121302": {
+      "id": 22121302,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "怪物专用-次数盾标记-深渊次数盾",
+          "description": "所有怪物使用深渊次数盾必须挂载",
+          "abilityName": [
+            "Monster_Common_FrequencyShieldLabel_AbyssShield"
+          ],
+          "isCommon": true
+        },
+        {
+          "name": "部落战士精英 - 语音移除",
+          "description": "任务按需求使用，避免穿帮",
+          "abilityName": [
+            "Monster_TribalWarrior_NoVoAlter"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 81.504,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 47.1,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "22121401": {
+      "id": 22121401,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "怪物专用-次数盾标记-深渊次数盾",
+          "description": "所有怪物使用深渊次数盾必须挂载",
+          "abilityName": [
+            "Monster_Common_FrequencyShieldLabel_AbyssShield"
+          ],
+          "isCommon": true
+        },
+        {
+          "name": "部落战士精英 - 语音移除",
+          "description": "任务按需求使用，避免穿帮",
+          "abilityName": [
+            "Monster_TribalWarrior_NoVoAlter"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 46.1856,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 37.68,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112116": {
+          "name": "折光的胚芽",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112116",
+          "count": "3.9394"
+        },
+        "112117": {
+          "name": "惑光的阔叶",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112117",
+          "count": "1.0505"
+        },
+        "112118": {
+          "name": "迷光的蜷叶之心",
+          "rank": 4,
+          "icon": "UI_ItemIcon_112118",
+          "count": "0.2626"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "22121501": {
+      "id": 22121501,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "怪物专用-次数盾标记-深渊次数盾",
+          "description": "所有怪物使用深渊次数盾必须挂载",
+          "abilityName": [
+            "Monster_Common_FrequencyShieldLabel_AbyssShield"
+          ],
+          "isCommon": true
+        },
+        {
+          "name": "部落战士精英 - 语音移除",
+          "description": "任务按需求使用，避免穿帮",
+          "abilityName": [
+            "Monster_TribalWarrior_NoVoAlter"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 46.1856,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 37.68,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112116": {
+          "name": "折光的胚芽",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112116",
+          "count": "3.9394"
+        },
+        "112117": {
+          "name": "惑光的阔叶",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112117",
+          "count": "1.0505"
+        },
+        "112118": {
+          "name": "迷光的蜷叶之心",
+          "rank": 4,
+          "icon": "UI_ItemIcon_112118",
+          "count": "0.2626"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    }
+  },
+  "tips": {
+    "308301": {
+      "images": [
+        "UI_Tutorial_219"
+      ],
+      "description": "于深邃晦暗的异界降临，能够模仿各类事象的深渊魔物。战斗中，深邃拟覆叶会为自己赋予虚界力护罩。深邃拟覆叶的部分攻击会施加可叠加的「蚀破」状态，并在一定时间后，使队伍中自己的当前场上角色损失生命值。利用<color=#FFE14BFF>元素攻击到一定次数即可<\/color>破坏护罩，此外，<color=#FFE14BFF>具有夜魂性质的元素攻击<\/color>会更有效率地突破其防御。"
+    }
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "id": 11515,
+  "rank": 5,
+  "type": "单手剑",
+  "name": "赦罪",
+  "description": "曾经弃绝一切的骗徒使用过的刺剑，过去主要是他伪装身份活动时用的道具。",
+  "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+  "icon": "UI_EquipIcon_Sword_Estoc",
+  "storyId": [
+    "11515"
+  ],
+  "affix": {
+    "111515": {
+      "name": "死之契",
+      "upgrade": {
+        "0": "暴击伤害提升<color=#99FFFFFF>20%<\/color>；生命之契的数值增加时，装备者造成的伤害提升<color=#99FFFFFF>16%<\/color>。该效果持续6秒，至多叠加3次。",
+        "1": "暴击伤害提升<color=#99FFFFFF>25%<\/color>；生命之契的数值增加时，装备者造成的伤害提升<color=#99FFFFFF>20%<\/color>。该效果持续6秒，至多叠加3次。",
+        "2": "暴击伤害提升<color=#99FFFFFF>30%<\/color>；生命之契的数值增加时，装备者造成的伤害提升<color=#99FFFFFF>24%<\/color>。该效果持续6秒，至多叠加3次。",
+        "3": "暴击伤害提升<color=#99FFFFFF>35%<\/color>；生命之契的数值增加时，装备者造成的伤害提升<color=#99FFFFFF>28%<\/color>。该效果持续6秒，至多叠加3次。",
+        "4": "暴击伤害提升<color=#99FFFFFF>40%<\/color>；生命之契的数值增加时，装备者造成的伤害提升<color=#99FFFFFF>32%<\/color>。该效果持续6秒，至多叠加3次。"
+      }
+    }
+  },
+  "route": "Absolution",
+  "upgrade": {
+    "awakenCost": [
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 47.537,
+        "type": "GROW_CURVE_ATTACK_302"
+      },
+      {
+        "propType": "FIGHT_PROP_CRITICAL_HURT",
+        "initValue": 0.096,
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112083": 3,
+          "112092": 5,
+          "114049": 5
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 31.1,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112083": 12,
+          "112092": 18,
+          "114050": 5
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 62.2,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112084": 9,
+          "112093": 9,
+          "114050": 9
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 93.4,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112084": 14,
+          "112093": 18,
+          "114051": 5
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 124.5,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112085": 9,
+          "112094": 14,
+          "114051": 9
+        },
+        "coinCost": 55000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112085": 18,
+          "112094": 27,
+          "114052": 6
+        },
+        "coinCost": 65000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 186.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112083": 1,
+    "112084": 2,
+    "112085": 3,
+    "112092": 2,
+    "112093": 3,
+    "112094": 4,
+    "114049": 2,
+    "114050": 3,
+    "114051": 4,
+    "114052": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112083": {
+      "name": "啮合齿轮",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112083"
+    },
+    "112084": {
+      "name": "机关正齿轮",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112084"
+    },
+    "112085": {
+      "name": "奇械机芯齿轮",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112085"
+    },
+    "112092": {
+      "name": "老旧的役人怀表",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112092"
+    },
+    "112093": {
+      "name": "役人的制式怀表",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112093"
+    },
+    "112094": {
+      "name": "役人的时时刻刻",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112094"
+    },
+    "114049": {
+      "name": "悠古弦音的残章",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114049"
+    },
+    "114050": {
+      "name": "悠古弦音的断章",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114050"
+    },
+    "114051": {
+      "name": "悠古弦音的乐章",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114051"
+    },
+    "114052": {
+      "name": "悠古弦音的回响",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114052"
+    }
+  }
+}

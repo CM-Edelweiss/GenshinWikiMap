@@ -1,0 +1,50 @@
+{
+  "name": "「纷争」的哲学",
+  "description": "天赋培养素材。\\n火之国土的事理是纷争。\\n纷争的前提是，参与争端的人都会真诚地面对自己的欲望，面对欲望，然后在争辩或战斗之中，才不会忘记自己想要取得的东西，也不会偏离原本的目的。",
+  "type": "角色天赋素材",
+  "recipe": {
+    "13036": {
+      "104354": {
+        "name": "「纷争」的指引",
+        "icon": "UI_ItemIcon_104354",
+        "rank": 3,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "精通秘境：旋复",
+      "type": "domain",
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000100,
+          "name": "卡齐娜",
+          "rank": 4,
+          "icon": "UI_AvatarIcon_Kachina"
+        },
+        {
+          "id": 10000104,
+          "name": "恰斯卡",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Chasca"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_104355",
+  "rank": 4,
+  "route": "Philosophies of Conflict"
+}

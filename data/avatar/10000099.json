@@ -1,0 +1,131 @@
+{
+  "id": 10000099,
+  "name": "艾梅莉埃",
+  "element": "草",
+  "weapon": "长柄武器",
+  "rank": 5,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Emilie",
+    "side": "UI_AvatarIcon_Side_Emilie",
+    "card": "UI_AvatarIcon_Emilie_Card",
+    "splash": "UI_Gacha_AvatarImg_Emilie",
+    "slice": "UI_Gacha_AvatarIcon_Emilie"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1056.27856,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        905.66333,
+        1549.16101,
+        2407.15796,
+        3050.65552,
+        3694.15308,
+        4337.65088
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 26.068,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        22.34932,
+        38.2291,
+        59.40214,
+        75.28192,
+        91.1617,
+        107.04148
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 56.8385,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        48.735,
+        83.3625,
+        129.5325,
+        164.16,
+        198.78751,
+        233.41499
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL_HURT",
+      "promote": [
+        0,
+        0.096,
+        0.192,
+        0.192,
+        0.288,
+        0.384
+      ]
+    }
+  ],
+  "talent": {
+    "10991": {
+      "name": "普通攻击·逐影枪术·改",
+      "icon": "Skill_A_03"
+    },
+    "10992": {
+      "name": "撷萃调香",
+      "icon": "Skill_S_Emilie_01"
+    },
+    "10995": {
+      "name": "香氛演绎",
+      "icon": "Skill_E_Emilie_01"
+    },
+    "992101": {
+      "name": "余薰",
+      "icon": "UI_Talent_S_Emilie_05"
+    },
+    "992201": {
+      "name": "精馏",
+      "icon": "UI_Talent_S_Emilie_06"
+    },
+    "992301": {
+      "name": "顶空集香",
+      "icon": "UI_Talent_S_Emilie_07"
+    }
+  },
+  "constellation": {
+    "991": {
+      "name": "淡香浸析",
+      "icon": "UI_Talent_S_Emilie_01"
+    },
+    "992": {
+      "name": "湖光顶调",
+      "icon": "UI_Talent_S_Emilie_02"
+    },
+    "993": {
+      "name": "郁馥臻萃",
+      "icon": "UI_Talent_U_Emilie_01"
+    },
+    "994": {
+      "name": "柔灯心韵",
+      "icon": "UI_Talent_S_Emilie_03"
+    },
+    "995": {
+      "name": "纯露凝芳",
+      "icon": "UI_Talent_U_Emilie_02"
+    },
+    "996": {
+      "name": "茉洁香迹",
+      "icon": "UI_Talent_S_Emilie_04"
+    }
+  },
+  "talent_fix": {
+    "10992": "撷萃调香",
+    "10995": "香氛演绎"
+  },
+  "damage": [],
+  "buff": []
+}

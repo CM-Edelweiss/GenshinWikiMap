@@ -1,0 +1,72 @@
+{
+  "id": 26156201,
+  "name": "球球章鱼",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Octopus_Larva_02",
+  "route": "Ball Octopus",
+  "title": "球球章鱼",
+  "specialName": "因原海而进化的生命",
+  "description": "通过发射水弹进行狩猎的水生动物。\\n当然了，发射水弹在原海异种当中并不是稀罕的能力，但对以游客为首的大意潜水者而言，这种高压水流能够造成不小的伤害。潜水护具的厚重是为了两个原因：抵抗水下的压力，以及抵御原海异种的攻击。",
+  "entries": {
+    "26156201": {
+      "id": 26156201,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 19.48134,
+          "type": "GROW_CURVE_HP_ENVIRONMENT"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 45,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112080": {
+          "name": "异海凝珠",
+          "rank": 1,
+          "icon": "UI_ItemIcon_112080",
+          "count": "0.8404"
+        },
+        "112081": {
+          "name": "异海之块",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112081",
+          "count": "0.2241"
+        },
+        "112082": {
+          "name": "异色结晶石",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112082",
+          "count": "0.056"
+        }
+      }
+    }
+  },
+  "tips": null
+}

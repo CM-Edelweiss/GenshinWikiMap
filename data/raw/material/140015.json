@@ -1,0 +1,23 @@
+{
+  "name": "烈火腾燎之翼",
+  "description": "风之翼款式。因为得到纳塔的认可与嘉许，而获赠的礼物。",
+  "type": "风之翼",
+  "recipe": null,
+  "storyId": [
+    "140015"
+  ],
+  "mapMark": null,
+  "source": [
+    {
+      "name": "纳塔部族声望达到一定条件后获得",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": null,
+    "droppedBy": null
+  },
+  "icon": "UI_FlycloakIcon_Firebrand",
+  "rank": 4,
+  "route": "Wings of Soaring Flame"
+}

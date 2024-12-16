@@ -1,0 +1,64 @@
+{
+  "id": 26100101,
+  "name": "圣骸角鳄",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Gator_Sacred_Water",
+  "route": "Consecrated Horned Crocodile",
+  "title": "沧流·圣骸角鳄",
+  "specialName": "啃噬伟大生命的水之兽",
+  "description": "因为啃噬伟大的生命体，而扭曲异变的爬行动物。\\n姿态威严的猛兽有时会受到人们的敬畏，被视为伟大力量的化身，并借由他们的形象彰显自己。而真的摄入「伟大力量」的野兽大多因此丧命，仅有少数进化出了新的形态。",
+  "entries": {
+    "26100101": {
+      "id": 26100101,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010022,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010022,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 95.088,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": {
+    "303601": {
+      "images": [
+        "UI_Tutorial_175"
+      ],
+      "description": "因为啃噬伟大的生命体，而扭曲异变的爬行动物。在战斗中，会进入强大的噬骸状态。它的一些攻击将排出噬骸能量块；<color=#FFE14BFF>利用对应的元素攻击破坏能量块<\/color>，能够汲取其中的强大力量，并在攻击圣骸角鳄时释放这些能量，造成可观的伤害，并使其暂时瘫痪。"
+    }
+  }
+}

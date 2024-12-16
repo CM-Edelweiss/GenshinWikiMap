@@ -1,0 +1,182 @@
+{
+  "id": 26160101,
+  "name": "坚盾重甲蟹",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_HermitCrab_Mature",
+  "route": "Sternshield Crab",
+  "title": "坚盾重甲蟹",
+  "specialName": 2708277467,
+  "description": "寄居在螺与壳之中的螃蟹。\\n重甲蟹会在成长的阶段中不断寻找适合自己体格的外壳。曾经有畅销的童话书，描述了重甲蟹寻找属于自己的住所的坎坷历程。那是充满了童趣的故事，但事后的反响证明了它与不少别的童话一样，为成年人带来的感触更深。",
+  "entries": {
+    "26160101": {
+      "id": 26160101,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 64.9378,
+          "type": "GROW_CURVE_HP_ENVIRONMENT"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 60,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112080": {
+          "name": "异海凝珠",
+          "rank": 1,
+          "icon": "UI_ItemIcon_112080",
+          "count": "0.8404"
+        },
+        "112081": {
+          "name": "异海之块",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112081",
+          "count": "0.2241"
+        },
+        "112082": {
+          "name": "异色结晶石",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112082",
+          "count": "0.056"
+        }
+      }
+    },
+    "26160102": {
+      "id": 26160102,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 35.3184,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 60,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112080": {
+          "name": "异海凝珠",
+          "rank": 1,
+          "icon": "UI_ItemIcon_112080",
+          "count": "0.8404"
+        },
+        "112081": {
+          "name": "异海之块",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112081",
+          "count": "0.2241"
+        },
+        "112082": {
+          "name": "异色结晶石",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112082",
+          "count": "0.056"
+        }
+      }
+    },
+    "26160191": {
+      "id": 26160191,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "5.2怪物自走棋敌方单位标记",
+          "description": "脚底光环、出生特效",
+          "abilityName": [
+            "MonsterChess_Monster_Common_EnemyBottom"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 43.35,
+          "type": "GrowCurveType_Unknown_5202"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 79.815,
+          "type": "GrowCurveType_Unknown_5201"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": {
+    "305901": {
+      "images": [
+        "UI_Tutorial_194"
+      ],
+      "description": "因为枫丹的环境因素，而走上了独特进化道路的水生动物。在<color=#FFE14BFF>火元素<\/color>加持下，能够进行更猛烈的元素攻击，并且拥有更强的防御能力。如果能利用<color=#FFE14BFF>元素反应<\/color>将它的元素护罩消除的话，或许就能轻松应对了吧。"
+    }
+  }
+}

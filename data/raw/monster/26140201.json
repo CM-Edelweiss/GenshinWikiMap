@@ -1,0 +1,127 @@
+{
+  "id": 26140201,
+  "name": "魔像禁卫",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Golem_Legion",
+  "route": "Praetorian Golem",
+  "title": "不朽军团禁卫",
+  "specialName": "黄金乐章的守卫者",
+  "description": "战士姿态的活动雕像，会将剑刃指向任何胆敢侵入其所守护之地的人。驱使其战斗的不知是灵魂，抑或是魔法。\\n传说魔像组成的军团曾征服高海上的列邦，它或许也是其中的一员。沉没海底的高塔与宫殿，见证了敢于阻挡命运轮轴之人的下场。",
+  "entries": {
+    "26140201": {
+      "id": 26140201,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010010,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010010,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 54.336,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 62.8,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112098": {
+          "name": "残毁的剑柄",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112098",
+          "count": "5.2526"
+        },
+        "112099": {
+          "name": "裂断的剑柄",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112099",
+          "count": "1.4006"
+        },
+        "112100": {
+          "name": "未熄的剑柄",
+          "rank": 4,
+          "icon": "UI_ItemIcon_112100",
+          "count": "0.3502"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    }
+  },
+  "tips": {
+    "307301": {
+      "images": [
+        "UI_Tutorial_207"
+      ],
+      "description": "寄宿了意志的古代魔像，凭借白石构成的坚硬身躯战斗。利用<color=#FFE14BFF>对付岩元素的方法<\/color>，应当就能有效瓦解它的防御吧。"
+    }
+  }
+}

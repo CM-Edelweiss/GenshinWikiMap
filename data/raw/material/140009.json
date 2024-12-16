@@ -1,0 +1,18 @@
+{
+  "name": "星汉灿烂之翼",
+  "description": "风之翼款式。因为见证了响彻星海的合奏，而获赠的礼物。",
+  "type": "风之翼",
+  "recipe": null,
+  "storyId": [
+    "140009"
+  ],
+  "mapMark": null,
+  "source": null,
+  "additions": {
+    "requiredBy": null,
+    "droppedBy": null
+  },
+  "icon": "UI_FlycloakIcon_Skald",
+  "rank": 4,
+  "route": "Wings of Shimmering Galaxy"
+}

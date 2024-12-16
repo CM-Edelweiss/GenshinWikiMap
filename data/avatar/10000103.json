@@ -1,0 +1,135 @@
+{
+  "id": 10000103,
+  "name": "希诺宁",
+  "element": "岩",
+  "weapon": "单手剑",
+  "rank": 5,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Xilonen",
+    "side": "UI_AvatarIcon_Side_Xilonen",
+    "card": "UI_AvatarIcon_Xilonen_Card",
+    "splash": "UI_Gacha_AvatarImg_Xilonen",
+    "slice": "UI_Gacha_AvatarIcon_Xilonen"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 965.71313,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        828.01172,
+        1416.33582,
+        2200.76807,
+        2789.09204,
+        3377.41626,
+        3965.74023
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 21.413,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        18.35837,
+        31.40248,
+        48.79462,
+        61.83872,
+        74.88283,
+        87.92693
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 72.3943,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        62.073,
+        106.1775,
+        164.98351,
+        209.088,
+        253.1925,
+        297.297
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_DEFENSE_PERCENT",
+      "promote": [
+        0,
+        0.09,
+        0.18,
+        0.18,
+        0.27,
+        0.36
+      ]
+    }
+  ],
+  "talent": {
+    "11031": {
+      "name": "普通攻击·锐锋攫猎",
+      "icon": "Skill_A_01"
+    },
+    "11032": {
+      "name": "音火锻淬",
+      "icon": "Skill_S_Xilonen_01"
+    },
+    "11035": {
+      "name": "豹烈律动！",
+      "icon": "Skill_E_Xilonen_01"
+    },
+    "1032101": {
+      "name": "四境四象回声",
+      "icon": "UI_Talent_S_Xilonen_05"
+    },
+    "1032201": {
+      "name": "便携铠装护层",
+      "icon": "UI_Talent_S_Xilonen_06"
+    },
+    "1032301": {
+      "name": "夜域赐礼·锻火之祝",
+      "icon": "UI_Talent_S_Xilonen_07"
+    },
+    "1032501": {
+      "name": "丛山锻火驰行",
+      "icon": "UI_Talent_S_Xilonen_08"
+    }
+  },
+  "constellation": {
+    "1031": {
+      "name": "献予慵眠的休假日",
+      "icon": "UI_Talent_S_Xilonen_01"
+    },
+    "1032": {
+      "name": "献予灼原的五重奏",
+      "icon": "UI_Talent_S_Xilonen_02"
+    },
+    "1033": {
+      "name": "献予日炎的巡行式",
+      "icon": "UI_Talent_U_Xilonen_01"
+    },
+    "1034": {
+      "name": "献予午后的花之梦",
+      "icon": "UI_Talent_S_Xilonen_03"
+    },
+    "1035": {
+      "name": "献予夕暮的转格调",
+      "icon": "UI_Talent_U_Xilonen_02"
+    },
+    "1036": {
+      "name": "献予永夜的狂欢舞",
+      "icon": "UI_Talent_S_Xilonen_04"
+    }
+  },
+  "talent_fix": {
+    "11032": "音火锻淬",
+    "11035": "豹烈律动！"
+  },
+  "damage": [],
+  "buff": []
+}

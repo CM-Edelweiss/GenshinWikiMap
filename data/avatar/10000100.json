@@ -1,0 +1,135 @@
+{
+  "id": 10000100,
+  "name": "卡齐娜",
+  "element": "岩",
+  "weapon": "长柄武器",
+  "rank": 4,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Kachina",
+    "side": "UI_AvatarIcon_Side_Kachina",
+    "card": "UI_AvatarIcon_Kachina_Card",
+    "splash": "UI_Gacha_AvatarImg_Kachina",
+    "slice": "UI_Gacha_AvatarIcon_Kachina"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 989.29321,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        739.05267,
+        1264.16907,
+        1964.32422,
+        2489.44067,
+        3014.55713,
+        3539.67334
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 18.16416,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        13.56988,
+        23.21163,
+        36.0673,
+        45.70906,
+        55.35081,
+        64.99256
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 66.43822,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        49.63275,
+        84.89812,
+        131.91862,
+        167.18401,
+        202.44937,
+        237.71475
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ROCK_ADD_HURT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "11001": {
+      "name": "普通攻击·嵴之啮咬",
+      "icon": "Skill_A_03"
+    },
+    "11002": {
+      "name": "出击，冲天转转！",
+      "icon": "Skill_S_Kachina_01"
+    },
+    "11005": {
+      "name": "现在，认真时间！",
+      "icon": "Skill_E_Kachina_01"
+    },
+    "1002101": {
+      "name": "山的回声",
+      "icon": "UI_Talent_S_Kachina_05"
+    },
+    "1002201": {
+      "name": "坚岩之重",
+      "icon": "UI_Talent_S_Kachina_06"
+    },
+    "1002301": {
+      "name": "夜域赐礼·团结炉心",
+      "icon": "UI_Talent_S_Kachina_07"
+    },
+    "1002501": {
+      "name": "晶焰之祝",
+      "icon": "UI_Talent_S_Kachina_08"
+    }
+  },
+  "constellation": {
+    "1001": {
+      "name": "晶片，也是一种宝石",
+      "icon": "UI_Talent_S_Kachina_01"
+    },
+    "1002": {
+      "name": "不能少了…冲天转转",
+      "icon": "UI_Talent_S_Kachina_02"
+    },
+    "1003": {
+      "name": "改良型·平衡稳定器",
+      "icon": "UI_Talent_U_Kachina_01"
+    },
+    "1004": {
+      "name": "敌人越多，越要小心",
+      "icon": "UI_Talent_S_Kachina_03"
+    },
+    "1005": {
+      "name": "迄今为止，所有收藏",
+      "icon": "UI_Talent_U_Kachina_02"
+    },
+    "1006": {
+      "name": "这一次，我一定要赢",
+      "icon": "UI_Talent_S_Kachina_04"
+    }
+  },
+  "talent_fix": {
+    "11002": "出击，冲天转转！",
+    "11005": "现在，认真时间！"
+  },
+  "damage": [],
+  "buff": []
+}

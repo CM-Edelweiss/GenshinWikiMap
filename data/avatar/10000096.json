@@ -1,0 +1,131 @@
+{
+  "id": 10000096,
+  "name": "阿蕾奇诺",
+  "element": "火",
+  "weapon": "长柄武器",
+  "rank": 5,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Arlecchino",
+    "side": "UI_AvatarIcon_Side_Arlecchino",
+    "card": "UI_AvatarIcon_Arlecchino_Card",
+    "splash": "UI_Gacha_AvatarImg_Arlecchino",
+    "slice": "UI_Gacha_AvatarIcon_Arlecchino"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1020.05243,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        874.60272,
+        1496.03088,
+        2324.60181,
+        2946.03003,
+        3567.4585,
+        4188.88672
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 26.6266,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        22.82823,
+        39.04829,
+        60.67504,
+        76.8951,
+        93.11517,
+        109.33523
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 59.53085,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        51.0435,
+        87.31125,
+        135.66824,
+        171.936,
+        208.20375,
+        244.4715
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL_HURT",
+      "promote": [
+        0,
+        0.096,
+        0.192,
+        0.192,
+        0.288,
+        0.384
+      ]
+    }
+  ],
+  "talent": {
+    "10961": {
+      "name": "普通攻击·斩首之邀",
+      "icon": "Skill_A_03"
+    },
+    "10962": {
+      "name": "万相化灰",
+      "icon": "Skill_S_Arlecchino_01"
+    },
+    "10965": {
+      "name": "厄月将升",
+      "icon": "Skill_E_Arlecchino_01"
+    },
+    "962101": {
+      "name": "唯苦痛可偿还",
+      "icon": "UI_Talent_S_Arlecchino_05"
+    },
+    "962201": {
+      "name": "唯力量可守护",
+      "icon": "UI_Talent_S_Arlecchino_06"
+    },
+    "962301": {
+      "name": "唯厄月可知晓",
+      "icon": "UI_Talent_S_Arlecchino_07"
+    }
+  },
+  "constellation": {
+    "961": {
+      "name": "「所有的仇与债皆由我偿…」",
+      "icon": "UI_Talent_S_Arlecchino_01"
+    },
+    "962": {
+      "name": "「所有的赏与罚皆自我出…」",
+      "icon": "UI_Talent_S_Arlecchino_02"
+    },
+    "963": {
+      "name": "「你将成为我们新的家人…」",
+      "icon": "UI_Talent_U_Arlecchino_01"
+    },
+    "964": {
+      "name": "「此后，你们须相爱相护…」",
+      "icon": "UI_Talent_S_Arlecchino_03"
+    },
+    "965": {
+      "name": "「我们已孑然一身，与死无异…」",
+      "icon": "UI_Talent_U_Arlecchino_02"
+    },
+    "966": {
+      "name": "「自此以后，我们将共飨新生。」",
+      "icon": "UI_Talent_S_Arlecchino_04"
+    }
+  },
+  "talent_fix": {
+    "10961": "普通攻击·斩首之邀",
+    "10965": "厄月将升"
+  },
+  "damage": [],
+  "buff": []
+}
