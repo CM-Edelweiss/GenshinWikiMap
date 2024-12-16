@@ -285,5 +285,5 @@ def draw_monster_map(monster: Monster):
 
 
 if __name__ == "__main__":
-    monster_ = Monster.parse_file(MONSTER_RAW / "24010101.json")
+    monster_ = Monster.parse_file(MONSTER_RAW / "20010101.json")
     draw_monster_map(monster_)

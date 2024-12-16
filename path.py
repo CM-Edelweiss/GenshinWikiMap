@@ -22,7 +22,13 @@ MONSTER_RAW = RAW / "monster"
 
 
 RESULTS = Path(__file__).parent / "results"
-CHARACTER_MAP_RESULT = RESULTS / "character_map"
 CHARACTER_MAP_RESULT_RAW = RESULTS / "raw" / "character_map"
 
+
+# 角色
+CHARACTER_MAP_RESULT = RESULTS / "character_map"
+CHARACTER_MAP_RESULT.mkdir(parents=True, exist_ok=True)
+
+# 原魔
 MONSTER_MAP_RESULT = RESULTS / "monster_map"
+MONSTER_MAP_RESULT.mkdir(parents=True, exist_ok=True)
