@@ -4,8 +4,11 @@
   "type": "长柄武器",
   "name": "风信之锋",
   "description": "导示长风的标鹄。风的牧歌并不总是轻柔如初…",
+  "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
   "icon": "UI_EquipIcon_Pole_Windvane",
-  "storyId": 193419,
+  "storyId": [
+    "13419"
+  ],
   "affix": {
     "113419": {
       "name": "不至之风",
@@ -164,5 +167,77 @@
     "114006": 3,
     "114007": 4,
     "114008": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112002": {
+      "name": "史莱姆凝液",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112002"
+    },
+    "112003": {
+      "name": "史莱姆清",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112003"
+    },
+    "112004": {
+      "name": "史莱姆原浆",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112004"
+    },
+    "112017": {
+      "name": "晦暗刻像",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112017"
+    },
+    "112018": {
+      "name": "夤夜刻像",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112018"
+    },
+    "112019": {
+      "name": "幽邃刻像",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112019"
+    },
+    "114005": {
+      "name": "凛风奔狼的始龀",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114005"
+    },
+    "114006": {
+      "name": "凛风奔狼的裂齿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114006"
+    },
+    "114007": {
+      "name": "凛风奔狼的断牙",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114007"
+    },
+    "114008": {
+      "name": "凛风奔狼的怀乡",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114008"
+    }
   }
 }

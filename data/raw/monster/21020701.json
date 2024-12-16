@@ -5,7 +5,7 @@
   "icon": "UI_MonsterIcon_Brute_None_01",
   "route": "Crackling Axe Mitachurl",
   "title": "丘丘暴徒·雷斧",
-  "specialName": "「古鲁·布卡」",
+  "specialName": 3097583419,
   "description": "持长柄大斧的丘丘人大块头。\\n攻击大开大合，会利用雷史莱姆为战斧附上雷元素，具有强大的破坏力。\\n钢铁锻造的斧头是非常良好的感电材料。高大魁梧的雷斧丘丘暴徒高举大斧，召引天雷的样子对丘丘人而言可是相当雄壮的景象。",
   "entries": {
     "21020701": {
@@ -53,6 +53,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.3
       },
+      "fundamentalForce": null,
       "reward": null
     },
     "21020702": {
@@ -120,6 +121,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.3
       },
+      "fundamentalForce": null,
       "reward": null
     },
     "21020703": {
@@ -176,6 +178,154 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.3
       },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "21020704": {
+      "id": 21020704,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 40.752,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 60.288,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.3
+      },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "21020705": {
+      "id": 21020705,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "永不入战-活动",
+          "description": "关闭怪物受击、嘲讽、广播入战",
+          "abilityName": [
+            "MonsterAffix_NeverCombat"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "怪物移速下限放开，受冰冻时间减少50%-塔防",
+          "description": "怪物移速下限放开，受冰冻时间减少50%",
+          "abilityName": [
+            "MonsterAffix_MoveSpeedLimit_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加血量-塔防",
+          "description": "塔防翻牌叠加血量",
+          "abilityName": [
+            "MonsterAffix_AdditionalHP_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加防御力-塔防",
+          "description": "塔防翻牌叠加防御力",
+          "abilityName": [
+            "MonsterAffix_AdditionalDefence_ForTowerDefense"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 40.752,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 60.288,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.3
+      },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "21020791": {
+      "id": 21020791,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "5.2怪物自走棋敌方单位标记",
+          "description": "脚底光环、出生特效",
+          "abilityName": [
+            "MonsterChess_Monster_Common_EnemyBottom"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 65.025,
+          "type": "GrowCurveType_Unknown_5202"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 70.125,
+          "type": "GrowCurveType_Unknown_5201"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
       "reward": null
     }
   },

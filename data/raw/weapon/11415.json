@@ -4,8 +4,11 @@
   "type": "单手剑",
   "name": "辰砂之纺锤",
   "description": "由不似这个世界的物质制成的剑，其中的力量就连侵蚀龙的腐殖之毒也能抵御住吧。",
+  "specialProp": "FIGHT_PROP_DEFENSE_PERCENT",
   "icon": "UI_EquipIcon_Sword_Opus",
-  "storyId": 191415,
+  "storyId": [
+    "11415"
+  ],
   "affix": {
     "111415": {
       "name": "无垢之心",
@@ -164,5 +167,77 @@
     "114002": 3,
     "114003": 4,
     "114004": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112005": {
+      "name": "破损的面具",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112005"
+    },
+    "112006": {
+      "name": "污秽的面具",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112006"
+    },
+    "112007": {
+      "name": "不祥的面具",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112007"
+    },
+    "112023": {
+      "name": "混沌装置",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112023"
+    },
+    "112024": {
+      "name": "混沌回路",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112024"
+    },
+    "112025": {
+      "name": "混沌炉心",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112025"
+    },
+    "114001": {
+      "name": "高塔孤王的破瓦",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114001"
+    },
+    "114002": {
+      "name": "高塔孤王的残垣",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114002"
+    },
+    "114003": {
+      "name": "高塔孤王的断片",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114003"
+    },
+    "114004": {
+      "name": "高塔孤王的碎梦",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114004"
+    }
   }
 }

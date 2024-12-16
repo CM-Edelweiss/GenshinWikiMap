@@ -8,49 +8,6 @@
   "specialName": "「女士」",
   "description": "愚人众执行官第八席的「女士」。\\n与行使邪眼之权能的其他愚人众不同，邪眼是抑制啃噬一切的烈火的器物。比起厮杀用的兵器，说是刑拘道具才更为贴切。\\n而这就是漫长的岁月中积郁的余烬，冲破邪眼霜封后为她涂抹的扭曲妆容。\\n\\n瞳仁中倒映着破晓的赤红，她最后展开烈焰之翼向黎明飞去。\\n<i>「但那并不是曙光，亲爱的罗莎琳。那是焚尽一切的火海。」<\/i>\\n在光芒中，一个声音这么对她说。\\n\\n但这也没什么所谓。因为她心中明白，自己早已被烈火吞没。",
   "entries": {
-    "29050101": {
-      "id": 29050101,
-      "type": "MONSTER_BOSS",
-      "affix": [
-        {
-          "name": "剧情任务-难度调节标签",
-          "description": "剧情任务-难度调节标签",
-          "abilityName": [
-            "MonsterAffix_Quest_Adjust"
-          ],
-          "isCommon": null
-        }
-      ],
-      "hpDrops": null,
-      "prop": [
-        {
-          "propType": "FIGHT_PROP_BASE_HP",
-          "initValue": 95.088,
-          "type": "GROW_CURVE_HP_2"
-        },
-        {
-          "propType": "FIGHT_PROP_BASE_ATTACK",
-          "initValue": 60.288,
-          "type": "GROW_CURVE_ATTACK"
-        },
-        {
-          "propType": "FIGHT_PROP_BASE_DEFENSE",
-          "initValue": 500,
-          "type": "GROW_CURVE_DEFENSE"
-        }
-      ],
-      "resistance": {
-        "fireSubHurt": 0.1,
-        "grassSubHurt": 0.1,
-        "waterSubHurt": 0.1,
-        "elecSubHurt": 0.1,
-        "windSubHurt": 0.1,
-        "iceSubHurt": 0.5,
-        "rockSubHurt": 0.1,
-        "physicalSubHurt": 0.1
-      },
-      "reward": null
-    },
     "29050102": {
       "id": 29050102,
       "type": "MONSTER_BOSS",
@@ -60,6 +17,14 @@
           "description": "剧情任务-难度调节标签",
           "abilityName": [
             "MonsterAffix_Quest_Adjust"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "女士魔女-难度调节",
+          "description": "女士魔女-难度调节",
+          "abilityName": [
+            "Monster_LaSignora_Harbinger_StoryAdjust"
           ],
           "isCommon": null
         }
@@ -92,164 +57,161 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": {
         "102": {
+          "name": "冒险阅历",
           "rank": 3,
           "icon": "UI_ItemIcon_102",
           "count": "300"
         },
         "105": {
+          "name": "好感经验",
           "rank": 3,
           "icon": "UI_ItemIcon_105"
         },
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "101101": {
+          "name": "北陆单手剑原胚",
           "rank": 4,
           "icon": "UI_ItemIcon_101101"
         },
         "101102": {
+          "name": "北陆弓原胚",
           "rank": 4,
           "icon": "UI_ItemIcon_101102"
         },
         "101103": {
+          "name": "北陆双手剑原胚",
           "rank": 4,
           "icon": "UI_ItemIcon_101103"
         },
         "101104": {
+          "name": "北陆法器原胚",
           "rank": 4,
           "icon": "UI_ItemIcon_101104"
         },
         "101105": {
+          "name": "北陆长柄武器原胚",
           "rank": 4,
           "icon": "UI_ItemIcon_101105"
         },
         "104111": {
+          "name": "燃愿玛瑙碎屑",
           "rank": 2,
           "icon": "UI_ItemIcon_104111"
         },
         "104112": {
+          "name": "燃愿玛瑙断片",
           "rank": 3,
           "icon": "UI_ItemIcon_104112"
         },
         "104113": {
+          "name": "燃愿玛瑙块",
           "rank": 4,
           "icon": "UI_ItemIcon_104113"
         },
         "104114": {
+          "name": "燃愿玛瑙",
           "rank": 5,
           "icon": "UI_ItemIcon_104114"
         },
         "104161": {
+          "name": "哀叙冰玉碎屑",
           "rank": 2,
           "icon": "UI_ItemIcon_104161"
         },
         "104162": {
+          "name": "哀叙冰玉断片",
           "rank": 3,
           "icon": "UI_ItemIcon_104162"
         },
         "104163": {
+          "name": "哀叙冰玉块",
           "rank": 4,
           "icon": "UI_ItemIcon_104163"
         },
         "104164": {
+          "name": "哀叙冰玉",
           "rank": 5,
           "icon": "UI_ItemIcon_104164"
         },
         "113021": {
+          "name": "异梦溶媒",
           "rank": 4,
           "icon": "UI_ItemIcon_113021",
           "count": "0.33"
         },
         "113025": {
+          "name": "熔毁之刻",
           "rank": 5,
           "icon": "UI_ItemIcon_113025"
         },
         "113026": {
+          "name": "狱火之蝶",
           "rank": 5,
           "icon": "UI_ItemIcon_113026"
         },
         "113027": {
+          "name": "灰烬之心",
           "rank": 5,
           "icon": "UI_ItemIcon_113027"
         },
         "400022": {
+          "name": "战狂",
           "rank": 3,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400023": {
+          "name": "战狂",
           "rank": 4,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400032": {
+          "name": "教官",
           "rank": 3,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400033": {
+          "name": "教官",
           "rank": 4,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400042": {
+          "name": "流放者",
           "rank": 3,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400043": {
+          "name": "流放者",
           "rank": 4,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400088": {
+          "name": "角斗士的终幕礼",
           "rank": 4,
           "icon": "UI_RelicIcon_15001_4"
         },
         "400089": {
+          "name": "角斗士的终幕礼",
           "rank": 5,
           "icon": "UI_RelicIcon_15001_4"
         },
         "400098": {
+          "name": "流浪大地的乐团",
           "rank": 4,
           "icon": "UI_RelicIcon_15003_4"
         },
         "400099": {
+          "name": "流浪大地的乐团",
           "rank": 5,
           "icon": "UI_RelicIcon_15003_4"
         }
       }
-    },
-    "29050103": {
-      "id": 29050103,
-      "type": "MONSTER_BOSS",
-      "affix": null,
-      "hpDrops": null,
-      "prop": [
-        {
-          "propType": "FIGHT_PROP_BASE_HP",
-          "initValue": 135.84,
-          "type": "GROW_CURVE_HP_2"
-        },
-        {
-          "propType": "FIGHT_PROP_BASE_ATTACK",
-          "initValue": 60.288,
-          "type": "GROW_CURVE_ATTACK"
-        },
-        {
-          "propType": "FIGHT_PROP_BASE_DEFENSE",
-          "initValue": 500,
-          "type": "GROW_CURVE_DEFENSE"
-        }
-      ],
-      "resistance": {
-        "fireSubHurt": 0.1,
-        "grassSubHurt": 0.1,
-        "waterSubHurt": 0.1,
-        "elecSubHurt": 0.1,
-        "windSubHurt": 0.1,
-        "iceSubHurt": 0.5,
-        "rockSubHurt": 0.1,
-        "physicalSubHurt": 0.1
-      },
-      "reward": null
     },
     "29050104": {
       "id": 29050104,
@@ -283,6 +245,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": null
     }
   },

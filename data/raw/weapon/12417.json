@@ -4,8 +4,11 @@
   "type": "双手剑",
   "name": "森林王器",
   "description": "从兰那罗的故事中得到的武器。具有大剑的形制，能够粉碎森林的敌人。",
+  "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
   "icon": "UI_EquipIcon_Claymore_Arakalari",
-  "storyId": 192417,
+  "storyId": [
+    "12417"
+  ],
   "affix": {
     "112417": {
       "name": "森林的瑞佑",
@@ -164,5 +167,77 @@
     "114038": 3,
     "114039": 4,
     "114040": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112065": {
+      "name": "褪色红绸",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112065"
+    },
+    "112066": {
+      "name": "镶边红绸",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112066"
+    },
+    "112067": {
+      "name": "织金红绸",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112067"
+    },
+    "112068": {
+      "name": "混沌容器",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112068"
+    },
+    "112069": {
+      "name": "混沌模块",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112069"
+    },
+    "112070": {
+      "name": "混沌锚栓",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112070"
+    },
+    "114037": {
+      "name": "谧林涓露的铜符",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114037"
+    },
+    "114038": {
+      "name": "谧林涓露的铁符",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114038"
+    },
+    "114039": {
+      "name": "谧林涓露的银符",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114039"
+    },
+    "114040": {
+      "name": "谧林涓露的金符",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114040"
+    }
   }
 }

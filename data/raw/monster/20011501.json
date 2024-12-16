@@ -49,22 +49,27 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112002": {
+          "name": "史莱姆凝液",
           "rank": 1,
           "icon": "UI_ItemIcon_112002",
           "count": "0.6723"
         },
         "112003": {
+          "name": "史莱姆清",
           "rank": 2,
           "icon": "UI_ItemIcon_112003",
           "count": "0.1792"
         },
         "112004": {
+          "name": "史莱姆原浆",
           "rank": 3,
           "icon": "UI_ItemIcon_112004",
           "count": "0.0448"
@@ -121,6 +126,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": null
     },
     "20011503": {
@@ -196,6 +202,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": null
     }
   },

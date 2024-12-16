@@ -5,7 +5,7 @@
   "icon": "UI_MonsterIcon_Defender_Noner_01",
   "route": "Ruin Guard",
   "title": "遗迹守卫",
-  "specialName": "Hu-91943",
+  "specialName": 3393374499,
   "description": "古老的人形战斗机械。\\n传说是已经覆灭的国度留下的战争机械，会徘徊至世界各地的遗迹废都，并攻击冒失的旅人。研究表明遗迹守卫与这些废墟并非同源，表明两者的时代也相差至少数千年，为何遗迹守卫会驻留在其中，并以「爆炸性的火力」守护这些残垣断壁呢…",
   "entries": {
     "24010101": {
@@ -53,51 +53,63 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.7
       },
+      "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112023": {
+          "name": "混沌装置",
           "rank": 2,
           "icon": "UI_ItemIcon_112023",
-          "count": "2.6263"
+          "count": "3.9394"
         },
         "112024": {
+          "name": "混沌回路",
           "rank": 3,
           "icon": "UI_ItemIcon_112024",
-          "count": "0.7003"
+          "count": "1.0505"
         },
         "112025": {
+          "name": "混沌炉心",
           "rank": 4,
           "icon": "UI_ItemIcon_112025",
-          "count": "0.1751"
+          "count": "0.2626"
         },
         "400022": {
+          "name": "战狂",
           "rank": 3,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400023": {
+          "name": "战狂",
           "rank": 4,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400032": {
+          "name": "教官",
           "rank": 3,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400033": {
+          "name": "教官",
           "rank": 4,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400042": {
+          "name": "流放者",
           "rank": 3,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400043": {
+          "name": "流放者",
           "rank": 4,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400062": {
+          "name": "游医",
           "rank": 3,
           "icon": "UI_RelicIcon_10013_4"
         }
@@ -168,6 +180,75 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.7
       },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "24010103": {
+      "id": 24010103,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "永不入战-活动",
+          "description": "关闭怪物受击、嘲讽、广播入战",
+          "abilityName": [
+            "MonsterAffix_NeverCombat"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "怪物移速下限放开，受冰冻时间减少50%-塔防",
+          "description": "怪物移速下限放开，受冰冻时间减少50%",
+          "abilityName": [
+            "MonsterAffix_MoveSpeedLimit_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加血量-塔防",
+          "description": "塔防翻牌叠加血量",
+          "abilityName": [
+            "MonsterAffix_AdditionalHP_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加防御力-塔防",
+          "description": "塔防翻牌叠加防御力",
+          "abilityName": [
+            "MonsterAffix_AdditionalDefence_ForTowerDefense"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 95.088,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 60.288,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.7
+      },
+      "fundamentalForce": null,
       "reward": null
     },
     "24010108": {
@@ -202,6 +283,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": null
     },
     "24010109": {
@@ -236,6 +318,95 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "24010190": {
+      "id": 24010190,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "4.7-怪物对推-敌方地面怪物标记特效",
+          "description": "4.7-怪物对推-敌方地面怪物标记特效",
+          "abilityName": [
+            "MvM_Monster_Common_EnemyBottom"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 20.376,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 44.6,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.5
+      },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "24010191": {
+      "id": 24010191,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "5.2怪物自走棋敌方单位标记",
+          "description": "脚底光环、出生特效",
+          "abilityName": [
+            "MonsterChess_Monster_Common_EnemyBottom"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 136.425,
+          "type": "GrowCurveType_Unknown_5202"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 37.485,
+          "type": "GrowCurveType_Unknown_5201"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.5
+      },
+      "fundamentalForce": null,
       "reward": null
     }
   },

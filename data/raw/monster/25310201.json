@@ -53,55 +53,56 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": -0.2
       },
+      "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112065": {
+          "name": "褪色红绸",
           "rank": 1,
           "icon": "UI_ItemIcon_112065",
           "count": "1.0505"
         },
         "112066": {
+          "name": "镶边红绸",
           "rank": 2,
           "icon": "UI_ItemIcon_112066",
           "count": "0.2801"
         },
         "112067": {
+          "name": "织金红绸",
           "rank": 3,
           "icon": "UI_ItemIcon_112067",
           "count": "0.07"
         }
       }
     },
-    "25310202": {
-      "id": 25310202,
+    "25310290": {
+      "id": 25310290,
       "type": "MONSTER_ORDINARY",
-      "affix": null,
-      "hpDrops": [
+      "affix": [
         {
-          "id": 22010016,
-          "hpPercent": 75
-        },
-        {
-          "id": 22010016,
-          "hpPercent": 50
-        },
-        {
-          "id": 22010016,
-          "hpPercent": 25
+          "name": "4.7-怪物对推-敌方地面怪物标记特效",
+          "description": "4.7-怪物对推-敌方地面怪物标记特效",
+          "abilityName": [
+            "MvM_Monster_Common_EnemyBottom"
+          ],
+          "isCommon": true
         }
       ],
+      "hpDrops": null,
       "prop": [
         {
           "propType": "FIGHT_PROP_BASE_HP",
-          "initValue": 48.9024,
+          "initValue": 11.5464,
           "type": "GROW_CURVE_HP_2"
         },
         {
           "propType": "FIGHT_PROP_BASE_ATTACK",
-          "initValue": 40.192,
+          "initValue": 66.9,
           "type": "GROW_CURVE_ATTACK_2"
         },
         {
@@ -118,8 +119,53 @@
         "windSubHurt": 0.1,
         "iceSubHurt": 0.1,
         "rockSubHurt": 0.1,
-        "physicalSubHurt": -0.2
+        "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "25310291": {
+      "id": 25310291,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "5.2怪物自走棋敌方单位标记",
+          "description": "脚底光环、出生特效",
+          "abilityName": [
+            "MonsterChess_Monster_Common_EnemyBottom"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 75.225,
+          "type": "GrowCurveType_Unknown_5202"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 65.025,
+          "type": "GrowCurveType_Unknown_5201"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
       "reward": null
     }
   },

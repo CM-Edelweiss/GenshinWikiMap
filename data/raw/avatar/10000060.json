@@ -4,6 +4,9 @@
   "name": "夜兰",
   "element": "Water",
   "weaponType": "WEAPON_BOW",
+  "region": "LIYUE",
+  "specialProp": "FIGHT_PROP_CRITICAL",
+  "bodyType": "LADY",
   "icon": "UI_AvatarIcon_Yelan",
   "birthday": [
     4,
@@ -156,6 +159,14 @@
     ]
   },
   "other": {
+    "costume": [
+      {
+        "name": "于阑珊处",
+        "description": "夜兰的装扮款式。常年随主人一道潜伏于暗影之中的装束，气质神秘宛如午夜绽放之兰。",
+        "isDefault": true
+      }
+    ],
+    "furnitureId": 368149,
     "nameCard": {
       "id": 210119,
       "name": "夜兰·一掷",
@@ -185,6 +196,98 @@
     "112034": 3,
     "113019": 5,
     "113035": 4
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "100033": {
+      "name": "星螺",
+      "rank": 1,
+      "icon": "UI_ItemIcon_100033"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104121": {
+      "name": "涤净青金碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104121"
+    },
+    "104122": {
+      "name": "涤净青金断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104122"
+    },
+    "104123": {
+      "name": "涤净青金块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104123"
+    },
+    "104124": {
+      "name": "涤净青金",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104124"
+    },
+    "104310": {
+      "name": "「繁荣」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104310"
+    },
+    "104311": {
+      "name": "「繁荣」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104311"
+    },
+    "104312": {
+      "name": "「繁荣」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104312"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "112032": {
+      "name": "新兵的徽记",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112032"
+    },
+    "112033": {
+      "name": "士官的徽记",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112033"
+    },
+    "112034": {
+      "name": "尉官的徽记",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112034"
+    },
+    "113019": {
+      "name": "鎏金之鳞",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113019"
+    },
+    "113035": {
+      "name": "符纹之齿",
+      "rank": 4,
+      "icon": "UI_ItemIcon_113035"
+    }
   },
   "talent": {
     "0": {
@@ -902,7 +1005,175 @@
         }
       },
       "cooldown": 0,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "14.19",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "13.62",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "18",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit A",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "7.56",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit B",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "7.56",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Aimed Shot",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "10",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Aimed Shot (Hit Weak Spot)",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "30",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Fully-Charged Aimed Shot",
+          "elementalGaugeTheory": "1U(w\/ Dropoff)",
+          "internalCooldown": null,
+          "interruptionResistance": "20",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Fully-Charged Aimed Shot (Hit Weak Spot)",
+          "elementalGaugeTheory": "1U(w\/ Dropoff)",
+          "internalCooldown": null,
+          "interruptionResistance": "60",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Breakthrough Barb",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Breakthrough Barb"
+            },
+            "type": {
+              "span": null,
+              "text": "0.3s"
+            }
+          },
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "10",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "50",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "1": {
       "type": 0,
@@ -1619,7 +1890,34 @@
         }
       },
       "cooldown": 10,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          },
+          {
+            "id": 4,
+            "type": "level"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Skill DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "120",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "400",
+            "verticalForce": "800"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "3": {
       "type": 1,
@@ -2336,57 +2634,202 @@
         }
       },
       "cooldown": 18,
-      "cost": 70
+      "cost": 70,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 2,
+            "type": "level"
+          },
+          {
+            "id": 5,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Skill DMG",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "200",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Exquisite Throw DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Elemental Burst"
+            },
+            "type": {
+              "span": null,
+              "text": "2s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "30",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Additional Water Arrow (C2)",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "30",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Converted Attacks (C6)",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Charged Attack"
+            },
+            "type": {
+              "span": null,
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "4": {
       "type": 2,
       "name": "猜先有方",
       "description": "队伍存在1\/2\/3\/4种元素类型的角色时，夜兰的生命值上限提升6%\/12%\/18%\/30%。",
-      "icon": "UI_Talent_S_Yelan_05"
+      "icon": "UI_Talent_S_Yelan_05",
+      "linkedConstellations": null
     },
     "5": {
       "type": 2,
       "name": "妙转随心",
       "description": "<color=#FFD780FF>「玄掷玲珑」<\/color>存在期间，能使队伍中自己的当前场上角色造成的伤害提高1%，并且每1秒进一步提高3.5%，至多使角色造成的伤害提高50%。\\n效果存在期间重新施放渊图玲珑骰，将移除原有的上述效果。",
-      "icon": "UI_Talent_S_Yelan_06"
+      "icon": "UI_Talent_S_Yelan_06",
+      "linkedConstellations": null
     },
     "6": {
       "type": 2,
       "name": "长考一着",
       "description": "在璃月执行时长为20小时的探索派遣任务时，获得的奖励增加25%。",
-      "icon": "UI_Talent_Expedition_Liyue"
+      "icon": "UI_Talent_Expedition_Liyue",
+      "linkedConstellations": null
     }
   },
   "constellation": {
     "0": {
+      "id": 0,
       "name": "与谋者，以局入局",
       "description": "<color=#FFD780FF>萦络纵命索<\/color>的可使用次数增加1次。",
+      "extraData": null,
       "icon": "UI_Talent_S_Yelan_01"
     },
     "1": {
+      "id": 1,
       "name": "入彀者，多多益善",
       "description": "<color=#FFD780FF>「玄掷玲珑」<\/color>协同攻击时，会发射一枚额外的水箭，造成相当于夜兰生命值上限14%的水元素伤害。\\n该效果每1.8秒至多触发一次。",
-      "icon": "UI_Talent_S_Yelan_02"
+      "extraData": null,
+      "icon": "UI_Talent_S_Yelan_02",
+      "advancedProps": [
+        {
+          "name": "Additional Water Arrow",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "30",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "2": {
+      "id": 2,
       "name": "晃盅者，琼畟药骰",
       "description": "<color=#FFD780FF>渊图玲珑骰<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 9,
+          "extraLevel": 3
+        }
+      },
       "icon": "UI_Talent_U_Yelan_01"
     },
     "3": {
+      "id": 3,
       "name": "诓惑者，接树移花",
       "description": "依照<color=#FFD780FF>「络命丝」<\/color>标记敌人的数量，每次标记将在爆发时使队伍中所有角色的生命值上限提升10%，持续25秒。通过这种方式，生命值上限至多获得40%提升。",
+      "extraData": null,
       "icon": "UI_Talent_S_Yelan_03"
     },
     "4": {
+      "id": 4,
       "name": "坐庄者，三仙戏法",
       "description": "<color=#FFD780FF>萦络纵命索<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 2,
+          "extraLevel": 3
+        }
+      },
       "icon": "UI_Talent_U_Yelan_02"
     },
     "5": {
+      "id": 5,
       "name": "取胜者，大小通吃",
       "description": "施放<color=#FFD780FF>渊图玲珑骰<\/color>后，夜兰将进入「运筹帷幄」状态：\\n夜兰的普通攻击将转为发射特殊的「破局矢」。这种箭矢具有与破局矢近似的特性，造成的伤害视为重击伤害，能造成破局矢156%的伤害。\\n\\n「运筹帷幄」状态至多持续20秒，将在夜兰发射5枚箭矢后移除。",
-      "icon": "UI_Talent_S_Yelan_04"
+      "extraData": null,
+      "icon": "UI_Talent_S_Yelan_04",
+      "advancedProps": [
+        {
+          "name": "Converted Attacks",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Charged Attack"
+            },
+            "type": {
+              "span": null,
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     }
   }
 }

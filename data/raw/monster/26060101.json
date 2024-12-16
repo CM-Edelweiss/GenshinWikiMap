@@ -5,7 +5,7 @@
   "icon": "UI_MonsterIcon_Cicin_Thunder_01",
   "route": "Electro Cicin",
   "title": "雷萤",
-  "specialName": "酥酥麻麻",
+  "specialName": 3935635675,
   "description": "能够稍微导引雷元素的小型生物。\\n与其他的萤族生物通称「飞萤」。尽管力量十分弱小，但在某些环境下也能造成可观的伤害。",
   "entries": {
     "26060101": {
@@ -45,6 +45,95 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": -0.5
       },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "26060190": {
+      "id": 26060190,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "4.7-怪物对推-敌方空中怪物标记特效",
+          "description": "4.7-怪物对推-敌方空中怪物标记特效",
+          "abilityName": [
+            "MvM_Monster_Common_EnemyAirBottom"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 1.08672,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 20.1,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.5,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "26060191": {
+      "id": 26060191,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "5.2怪物自走棋敌方单位标记",
+          "description": "脚底光环、出生特效",
+          "abilityName": [
+            "MonsterChess_Monster_Common_EnemyBottom"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 5.9925,
+          "type": "GrowCurveType_Unknown_5202"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 23.97,
+          "type": "GrowCurveType_Unknown_5201"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.5,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
       "reward": null
     }
   },

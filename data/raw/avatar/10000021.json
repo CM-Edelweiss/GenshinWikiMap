@@ -4,12 +4,15 @@
   "name": "安柏",
   "element": "Fire",
   "weaponType": "WEAPON_BOW",
+  "region": "MONDSTADT",
+  "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+  "bodyType": "GIRL",
   "icon": "UI_AvatarIcon_Ambor",
   "birthday": [
     8,
     10
   ],
-  "release": 1600131600,
+  "release": 1601244000,
   "route": "Amber",
   "fetter": {
     "title": "飞行冠军",
@@ -156,6 +159,21 @@
     ]
   },
   "other": {
+    "costume": [
+      {
+        "name": "「满分的侦察骑士」",
+        "description": "安柏的装扮款式。具备高机动性的侦察骑士服装。",
+        "isDefault": true
+      },
+      {
+        "name": "100%侦察骑士",
+        "description": "安柏的装扮款式。这一次出现的，是更为正式也更为英气的侦察骑士哦！",
+        "storyId": 340007,
+        "icon": "UI_AvatarIcon_AmborCostumeWic",
+        "rank": 4
+      }
+    ],
+    "furnitureId": 368110,
     "nameCard": {
       "id": 210003,
       "name": "安柏·兔兔",
@@ -185,6 +203,98 @@
     "112013": 3,
     "113005": 5,
     "113011": 4
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "100055": {
+      "name": "小灯草",
+      "rank": 1,
+      "icon": "UI_ItemIcon_100055"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104111": {
+      "name": "燃愿玛瑙碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104111"
+    },
+    "104112": {
+      "name": "燃愿玛瑙断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104112"
+    },
+    "104113": {
+      "name": "燃愿玛瑙块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104113"
+    },
+    "104114": {
+      "name": "燃愿玛瑙",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104114"
+    },
+    "104301": {
+      "name": "「自由」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104301"
+    },
+    "104302": {
+      "name": "「自由」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104302"
+    },
+    "104303": {
+      "name": "「自由」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104303"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "112011": {
+      "name": "牢固的箭簇",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112011"
+    },
+    "112012": {
+      "name": "锐利的箭簇",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112012"
+    },
+    "112013": {
+      "name": "历战的箭簇",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112013"
+    },
+    "113005": {
+      "name": "东风的吐息",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113005"
+    },
+    "113011": {
+      "name": "常燃火种",
+      "rank": 4,
+      "icon": "UI_ItemIcon_113011"
+    }
   },
   "talent": {
     "0": {
@@ -902,7 +1012,163 @@
         }
       },
       "cooldown": 0,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "12.9",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "13.2",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "15",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "14.4",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 5-Hit",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "16.5",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Aimed Shot",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "10",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Aimed Shot (Hit Weak Spot)",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "30",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Fully-Charged Aimed Shot",
+          "elementalGaugeTheory": "2U(w\/ Dropoff)",
+          "internalCooldown": {
+            "tag": {
+              "span": "2",
+              "text": "Charged Attack"
+            },
+            "type": {
+              "span": "2",
+              "text": "1s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "20",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Fully-Charged Aimed Shot (Hit Weak Spot)",
+          "elementalGaugeTheory": "2U(w\/ Dropoff)",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "60",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "10",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "50",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "1": {
       "type": 0,
@@ -1619,7 +1885,34 @@
         }
       },
       "cooldown": 15,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": false,
+        "prop": [
+          {
+            "id": 3,
+            "type": "normal"
+          },
+          {
+            "id": 4,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Explosion DMG",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": null,
+          "interruptionResistance": "260",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": true
+        }
+      ]
     },
     "3": {
       "type": 1,
@@ -2336,56 +2629,142 @@
         }
       },
       "cooldown": 12,
-      "cost": 40
+      "cost": 40,
+      "linkedConstellations": {
+        "isLevelIncluded": false,
+        "prop": [
+          {
+            "id": 2,
+            "type": "normal"
+          },
+          {
+            "id": 5,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "5 Main Arrows",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "2",
+              "text": "Elemental Burst"
+            },
+            "type": {
+              "span": "2",
+              "text": "1s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "7.22",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "13 Sub Arrows",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "7.22",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Mute",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "4": {
       "type": 2,
       "name": "百发百中！",
       "description": "<color=#FFD780FF>箭雨<\/color>的暴击率提高10%，影响范围扩大30%。",
-      "icon": "UI_Talent_S_Ambor_05"
+      "icon": "UI_Talent_S_Ambor_05",
+      "linkedConstellations": null
     },
     "5": {
       "type": 2,
       "name": "压制射击",
       "description": "瞄准射击命中弱点时，攻击力提高15%，持续10秒。",
-      "icon": "UI_Talent_S_Ambor_06"
+      "icon": "UI_Talent_S_Ambor_06",
+      "linkedConstellations": null
     },
     "6": {
       "type": 2,
       "name": "飞行冠军",
       "description": "队伍中自己的角色滑翔消耗的体力降低20%。\\n无法与效果完全相同的固有天赋叠加。",
-      "icon": "UI_Talent_Explosion_Glide"
+      "icon": "UI_Talent_Explosion_Glide",
+      "linkedConstellations": null
     }
   },
   "constellation": {
     "0": {
+      "id": 0,
       "name": "一箭双丘丘！",
       "description": "<color=#FFD780FF>瞄准射击<\/color>时，会连续射出2支箭。第二支箭能造成原本20%的伤害。",
-      "icon": "UI_Talent_S_Ambor_01"
+      "extraData": null,
+      "icon": "UI_Talent_S_Ambor_01",
+      "advancedProps": [
+        {
+          "name": "Extra Arrow",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Charged Attack"
+            },
+            "type": {
+              "span": null,
+              "text": "1s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "2",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "1": {
+      "id": 1,
       "name": "一触即发",
       "description": "兔兔伯爵进行了全新改良！蓄力完成的瞄准射击命中兔兔伯爵脚部时，能直接引爆兔兔伯爵…\\n通过这种方式主动引爆兔兔伯爵时，会额外造成200%伤害。",
+      "extraData": null,
       "icon": "UI_Talent_S_Ambor_02"
     },
     "2": {
+      "id": 2,
       "name": "烧起来啦！",
       "description": "<color=#FFD780FF>箭雨<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": null,
       "icon": "UI_Talent_U_Ambor_02"
     },
     "3": {
+      "id": 3,
       "name": "才不是普通的布偶",
       "description": "<color=#FFD780FF>爆弹玩偶<\/color>的冷却时间减少20%，并增加1次可使用次数。",
+      "extraData": null,
       "icon": "UI_Talent_S_Ambor_03"
     },
     "4": {
+      "id": 4,
       "name": "是兔兔伯爵！",
       "description": "<color=#FFD780FF>爆弹玩偶<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": null,
       "icon": "UI_Talent_U_Ambor_01"
     },
     "5": {
+      "id": 5,
       "name": "疾如野火",
       "description": "使用<color=#FFD780FF>箭雨<\/color>后的10秒内，队伍中所有角色的移动速度提升15%，攻击力提升15%。",
+      "extraData": null,
       "icon": "UI_Talent_S_Ambor_04"
     }
   }

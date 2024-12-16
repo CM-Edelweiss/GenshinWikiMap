@@ -49,7 +49,85 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
-      "reward": null
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112017": {
+          "name": "晦暗刻像",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112017",
+          "count": "0.5253"
+        },
+        "112018": {
+          "name": "夤夜刻像",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112018",
+          "count": "0.1401"
+        },
+        "112019": {
+          "name": "幽邃刻像",
+          "rank": 4,
+          "icon": "UI_ItemIcon_112019",
+          "count": "0.035"
+        },
+        "112020": {
+          "name": "地脉的旧枝",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112020",
+          "count": "5.2526"
+        },
+        "112021": {
+          "name": "地脉的枯叶",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112021",
+          "count": "1.4006"
+        },
+        "112022": {
+          "name": "地脉的新芽",
+          "rank": 4,
+          "icon": "UI_ItemIcon_112022",
+          "count": "0.3502"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
     },
     "22030102": {
       "id": 22030102,
@@ -101,6 +179,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": null
     },
     "22030103": {
@@ -161,6 +240,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": null
     }
   },

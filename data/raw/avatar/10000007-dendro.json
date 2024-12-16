@@ -4,6 +4,9 @@
   "name": "旅行者",
   "element": "Grass",
   "weaponType": "WEAPON_SWORD_ONE_HAND",
+  "region": "MAINACTOR",
+  "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+  "bodyType": "GIRL",
   "icon": "UI_AvatarIcon_PlayerGirl",
   "birthday": [
     0,
@@ -172,6 +175,128 @@
     "112060": 2,
     "112061": 3,
     "113032": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "100024": {
+      "name": "风车菊",
+      "rank": 1,
+      "icon": "UI_ItemIcon_100024"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104101": {
+      "name": "璀璨原钻碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104101"
+    },
+    "104102": {
+      "name": "璀璨原钻断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104102"
+    },
+    "104103": {
+      "name": "璀璨原钻块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104103"
+    },
+    "104104": {
+      "name": "璀璨原钻",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104104"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "104329": {
+      "name": "「诤言」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104329"
+    },
+    "104330": {
+      "name": "「诤言」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104330"
+    },
+    "104331": {
+      "name": "「诤言」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104331"
+    },
+    "104333": {
+      "name": "「巧思」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104333"
+    },
+    "104334": {
+      "name": "「巧思」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104334"
+    },
+    "104336": {
+      "name": "「笃行」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104336"
+    },
+    "104337": {
+      "name": "「笃行」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104337"
+    },
+    "112005": {
+      "name": "破损的面具",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112005"
+    },
+    "112006": {
+      "name": "污秽的面具",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112006"
+    },
+    "112007": {
+      "name": "不祥的面具",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112007"
+    },
+    "112059": {
+      "name": "蕈兽孢子",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112059"
+    },
+    "112060": {
+      "name": "荧光孢粉",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112060"
+    },
+    "112061": {
+      "name": "孢囊晶尘",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112061"
+    },
+    "113032": {
+      "name": "凶将之手眼",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113032"
+    }
   },
   "talent": {
     "0": {
@@ -889,7 +1014,139 @@
         }
       },
       "cooldown": 0,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "7",
+              "text": "Normal Attack"
+            },
+            "type": {
+              "span": "7",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "40.5",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "39.6",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "48.6",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "54",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 5-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "64.8",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "655",
+            "verticalForce": "800"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charged Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "50.6",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charged Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "50.6",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "655",
+            "verticalForce": "800"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "800"
+          },
+          "bluntAttack": true
+        }
+      ]
     },
     "1": {
       "type": 0,
@@ -1606,7 +1863,34 @@
         }
       },
       "cooldown": 8,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          },
+          {
+            "id": 2,
+            "type": "level"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Skill DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "120",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "3": {
       "type": 1,
@@ -2323,50 +2607,140 @@
         }
       },
       "cooldown": 20,
-      "cost": 80
+      "cost": 80,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 4,
+            "type": "level"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Lea Lotus Lamp DMG (Normal\/Electro)",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "2",
+              "text": "Elemental Burst"
+            },
+            "type": {
+              "span": "2",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "30",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Lea Lotus Lamp DMG (Hydro)",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "50",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Explosion DMG",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": null,
+          "interruptionResistance": "200",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "4": {
       "type": 2,
       "name": "蔓生的埜草",
       "description": "<color=#FFD780FF>草灯莲<\/color>将在其存在期间每秒获得一层莲光遍照效果，使其领域内的当前场上角色的元素精通提升6点。草灯莲的莲光遍照效果至多叠加10层。",
-      "icon": "UI_Talent_U_PlayerGrass_01"
+      "icon": "UI_Talent_U_PlayerGrass_01",
+      "linkedConstellations": {
+        "isLevelIncluded": false,
+        "prop": [
+          {
+            "id": 3,
+            "type": "normal"
+          }
+        ]
+      }
     },
     "5": {
       "type": 2,
       "name": "繁庑的丛草",
       "description": "旅行者自己的每点元素精通，能使<color=#FFD780FF>草缘剑<\/color>造成的伤害提升0.15%，<color=#FFD780FF>偃草若化<\/color>造成的伤害提升0.1%。",
-      "icon": "UI_Talent_U_PlayerGrass_02"
+      "icon": "UI_Talent_U_PlayerGrass_02",
+      "linkedConstellations": null
     }
   },
   "constellation": {
     "0": {
+      "id": 0,
       "name": "寄身的倚草",
       "description": "<color=#FFD780FF>草缘剑<\/color>命中敌人后，将为旅行者恢复3.5点元素能量。",
+      "extraData": null,
       "icon": "UI_Talent_S_PlayerGrass_01"
     },
     "1": {
+      "id": 1,
       "name": "健韧的劲草",
       "description": "<color=#FFD780FF>草灯莲<\/color>的存在时间延长3秒。",
+      "extraData": null,
       "icon": "UI_Talent_S_PlayerGrass_02"
     },
     "2": {
+      "id": 2,
       "name": "婆娑的瑶草",
       "description": "<color=#FFD780FF>草缘剑<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 2,
+          "extraLevel": 3
+        }
+      },
       "icon": "UI_Talent_S_PlayerGrass_03"
     },
     "3": {
+      "id": 3,
       "name": "如饴的蜜草",
       "description": "<color=#FFD780FF>草灯莲<\/color>发生莲光幻变转化后，将获得5层固有天赋「蔓生的埜草」的莲光遍照效果。\\n需要解锁固有天赋「蔓生的埜草」。",
+      "extraData": null,
       "icon": "UI_Talent_S_PlayerGrass_04"
     },
     "4": {
+      "id": 4,
       "name": "迅生的丰草",
       "description": "<color=#FFD780FF>偃草若化<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 9,
+          "extraLevel": 3
+        }
+      },
       "icon": "UI_Talent_S_PlayerGrass_05"
     },
     "5": {
+      "id": 5,
       "name": "蕴思的霜草",
       "description": "处于<color=#FFD780FF>草灯莲<\/color>的莲光遍照效果影响下的角色获得12%<color=#99FF88FF>草元素伤害加成<\/color>；若草灯莲发生过莲光幻变转化，还将获得12%对应元素伤害加成。",
+      "extraData": null,
       "icon": "UI_Talent_S_PlayerGrass_06"
     }
   }

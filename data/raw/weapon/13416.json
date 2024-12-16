@@ -4,8 +4,11 @@
   "type": "长柄武器",
   "name": "断浪长鳍",
   "description": "以海渊之下的闪亮材质打造而成的薙刀，一度曾为天狗一族所有。",
+  "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
   "icon": "UI_EquipIcon_Pole_Maria",
-  "storyId": 193416,
+  "storyId": [
+    "13416"
+  ],
   "affix": {
     "113416": {
       "name": "驭浪的海祇民",
@@ -164,5 +167,77 @@
     "114034": 3,
     "114035": 4,
     "114036": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112044": {
+      "name": "破旧的刀镡",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112044"
+    },
+    "112045": {
+      "name": "影打刀镡",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112045"
+    },
+    "112046": {
+      "name": "名刀镡",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112046"
+    },
+    "112056": {
+      "name": "隐兽指爪",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112056"
+    },
+    "112057": {
+      "name": "隐兽利爪",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112057"
+    },
+    "112058": {
+      "name": "隐兽鬼爪",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112058"
+    },
+    "114033": {
+      "name": "今昔剧画之恶尉",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114033"
+    },
+    "114034": {
+      "name": "今昔剧画之虎啮",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114034"
+    },
+    "114035": {
+      "name": "今昔剧画之一角",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114035"
+    },
+    "114036": {
+      "name": "今昔剧画之鬼人",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114036"
+    }
   }
 }

@@ -4,8 +4,11 @@
   "type": "法器",
   "name": "讨龙英杰谭",
   "description": "五名英雄踏上屠龙征途的虚构故事。文笔很差，结构散乱。失败的教训是这本书所拥有的伟大力量。",
+  "specialProp": "FIGHT_PROP_HP_PERCENT",
   "icon": "UI_EquipIcon_Catalyst_Pulpfic",
-  "storyId": 194302,
+  "storyId": [
+    "14302"
+  ],
   "affix": {
     "114302": {
       "name": "传承",
@@ -164,5 +167,77 @@
     "114006": 3,
     "114007": 4,
     "114008": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112008": {
+      "name": "导能绘卷",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112008"
+    },
+    "112009": {
+      "name": "封魔绘卷",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112009"
+    },
+    "112010": {
+      "name": "禁咒绘卷",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112010"
+    },
+    "112020": {
+      "name": "地脉的旧枝",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112020"
+    },
+    "112021": {
+      "name": "地脉的枯叶",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112021"
+    },
+    "112022": {
+      "name": "地脉的新芽",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112022"
+    },
+    "114005": {
+      "name": "凛风奔狼的始龀",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114005"
+    },
+    "114006": {
+      "name": "凛风奔狼的裂齿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114006"
+    },
+    "114007": {
+      "name": "凛风奔狼的断牙",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114007"
+    },
+    "114008": {
+      "name": "凛风奔狼的怀乡",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114008"
+    }
   }
 }

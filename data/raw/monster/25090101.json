@@ -62,90 +62,112 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": {
         "102": {
+          "name": "冒险阅历",
           "rank": 3,
           "icon": "UI_ItemIcon_102",
           "count": "200"
         },
         "105": {
+          "name": "好感经验",
           "rank": 3,
           "icon": "UI_ItemIcon_105"
         },
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "104151": {
+          "name": "自在松石碎屑",
           "rank": 2,
           "icon": "UI_ItemIcon_104151"
         },
         "104152": {
+          "name": "自在松石断片",
           "rank": 3,
           "icon": "UI_ItemIcon_104152"
         },
         "104153": {
+          "name": "自在松石块",
           "rank": 4,
           "icon": "UI_ItemIcon_104153"
         },
         "104154": {
+          "name": "自在松石",
           "rank": 5,
           "icon": "UI_ItemIcon_104154"
         },
         "104161": {
+          "name": "哀叙冰玉碎屑",
           "rank": 2,
           "icon": "UI_ItemIcon_104161"
         },
         "104162": {
+          "name": "哀叙冰玉断片",
           "rank": 3,
           "icon": "UI_ItemIcon_104162"
         },
         "104163": {
+          "name": "哀叙冰玉块",
           "rank": 4,
           "icon": "UI_ItemIcon_104163"
         },
         "104164": {
+          "name": "哀叙冰玉",
           "rank": 5,
           "icon": "UI_ItemIcon_104164"
         },
         "113022": {
+          "name": "魔偶机心",
           "rank": 4,
           "icon": "UI_ItemIcon_113022",
           "count": "2.5556"
         },
         "400022": {
+          "name": "战狂",
           "rank": 3,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400023": {
+          "name": "战狂",
           "rank": 4,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400032": {
+          "name": "教官",
           "rank": 3,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400033": {
+          "name": "教官",
           "rank": 4,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400052": {
+          "name": "幸运儿",
           "rank": 3,
           "icon": "UI_RelicIcon_10011_4"
         },
         "400088": {
+          "name": "角斗士的终幕礼",
           "rank": 4,
           "icon": "UI_RelicIcon_15001_4"
         },
         "400089": {
+          "name": "角斗士的终幕礼",
           "rank": 5,
           "icon": "UI_RelicIcon_15001_4"
         },
         "400098": {
+          "name": "流浪大地的乐团",
           "rank": 4,
           "icon": "UI_RelicIcon_15003_4"
         },
         "400099": {
+          "name": "流浪大地的乐团",
           "rank": 5,
           "icon": "UI_RelicIcon_15003_4"
         }
@@ -205,6 +227,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": null
     },
     "25090103": {
@@ -252,6 +275,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": null
     },
     "25090104": {
@@ -299,6 +323,95 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "25090105": {
+      "id": 25090105,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "傀儡将军强制后撤词缀",
+          "description": "傀儡将军强制后撤词缀",
+          "abilityName": [
+            "MonsterAffix_Samurai_Ningyo_ForceDodgeAffix"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 159.162,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 25.12,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "25090106": {
+      "id": 25090106,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "傀儡将军强制后撤词缀",
+          "description": "傀儡将军强制后撤词缀",
+          "abilityName": [
+            "MonsterAffix_Samurai_Ningyo_ForceDodgeAffix"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 1097.375,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 180.864,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
       "reward": null
     }
   },

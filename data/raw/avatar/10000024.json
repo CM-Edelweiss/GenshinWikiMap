@@ -4,12 +4,15 @@
   "name": "北斗",
   "element": "Electric",
   "weaponType": "WEAPON_CLAYMORE",
+  "region": "LIYUE",
+  "specialProp": "FIGHT_PROP_ELEC_ADD_HURT",
+  "bodyType": "LADY",
   "icon": "UI_AvatarIcon_Beidou",
   "birthday": [
     2,
     14
   ],
-  "release": 1600131600,
+  "release": 1601244000,
   "route": "Beidou",
   "fetter": {
     "title": "无冕的龙王",
@@ -156,6 +159,14 @@
     ]
   },
   "other": {
+    "costume": [
+      {
+        "name": "赫浪连涛",
+        "description": "北斗的装扮款式。充满踏浪者气魄的轻便裙装。",
+        "isDefault": true
+      }
+    ],
+    "furnitureId": 368113,
     "nameCard": {
       "id": 210039,
       "name": "北斗·拔锚",
@@ -185,6 +196,98 @@
     "112037": 3,
     "113002": 4,
     "113005": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "100028": {
+      "name": "夜泊石",
+      "rank": 1,
+      "icon": "UI_ItemIcon_100028"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104141": {
+      "name": "最胜紫晶碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104141"
+    },
+    "104142": {
+      "name": "最胜紫晶断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104142"
+    },
+    "104143": {
+      "name": "最胜紫晶块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104143"
+    },
+    "104144": {
+      "name": "最胜紫晶",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104144"
+    },
+    "104316": {
+      "name": "「黄金」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104316"
+    },
+    "104317": {
+      "name": "「黄金」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104317"
+    },
+    "104318": {
+      "name": "「黄金」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104318"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "112035": {
+      "name": "寻宝鸦印",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112035"
+    },
+    "112036": {
+      "name": "藏银鸦印",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112036"
+    },
+    "112037": {
+      "name": "攫金鸦印",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112037"
+    },
+    "113002": {
+      "name": "雷光棱镜",
+      "rank": 4,
+      "icon": "UI_ItemIcon_113002"
+    },
+    "113005": {
+      "name": "东风的吐息",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113005"
+    }
   },
   "talent": {
     "0": {
@@ -902,7 +1005,139 @@
         }
       },
       "cooldown": 0,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "7",
+              "text": "Normal Attack"
+            },
+            "type": {
+              "span": "7",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "85.67",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "85.33",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Normal Attack 3-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "106.37",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Normal Attack 4-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "104.19",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Normal Attack 5-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "135.12",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "655",
+            "verticalForce": "800"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Charged Attack Cyclic",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "60",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Charged Attack Final Slash",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "120",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "655",
+            "verticalForce": "800"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "35",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "200",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "800"
+          },
+          "bluntAttack": true
+        }
+      ]
     },
     "1": {
       "type": 0,
@@ -1619,7 +1854,62 @@
         }
       },
       "cooldown": 7.5,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 2,
+            "type": "level"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Base DMG",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Charge Level 1 DMG",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": null,
+          "interruptionResistance": "200",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Charge Level 2 DMG",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": null,
+          "interruptionResistance": "300",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "655",
+            "verticalForce": "800"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Electro to Self",
+          "elementalGaugeTheory": "1U, 2s",
+          "internalCooldown": null,
+          "interruptionResistance": "—",
+          "interruptionResistanceStagger": null,
+          "bluntAttack": "—"
+        }
+      ]
     },
     "3": {
       "type": 1,
@@ -2336,56 +2626,162 @@
         }
       },
       "cooldown": 20,
-      "cost": 80
+      "cost": 80,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          },
+          {
+            "id": 1,
+            "type": "normal"
+          },
+          {
+            "id": 4,
+            "type": "level"
+          },
+          {
+            "id": 5,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Skill DMG",
+          "elementalGaugeTheory": "4U",
+          "internalCooldown": null,
+          "interruptionResistance": "400",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Lightning DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Elemental Burst"
+            },
+            "type": {
+              "span": null,
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "50",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "4": {
       "type": 2,
       "name": "遍宇灵光",
       "description": "在被攻击瞬间施放的<color=#FFD780FF>捉浪<\/color>反击，拥有最高伤害加成。",
-      "icon": "UI_Talent_S_Beidou_05"
+      "icon": "UI_Talent_S_Beidou_05",
+      "linkedConstellations": null
     },
     "5": {
       "type": 2,
       "name": "霹雳连霄",
       "description": "施放拥有最高伤害加成的<color=#FFD780FF>捉浪<\/color>后的10秒内，获得如下效果：\\n·普通攻击与重击造成的伤害提高15%，攻击速度提高15%；\\n·大幅减少重击需要的准备时间。",
-      "icon": "UI_Talent_S_Beidou_06"
+      "icon": "UI_Talent_S_Beidou_06",
+      "linkedConstellations": null
     },
     "6": {
       "type": 2,
       "name": "拥涛踏潮",
       "description": "队伍中自己的角色游泳消耗的体力降低20%。\\n无法与效果完全相同的固有天赋叠加。",
-      "icon": "UI_Talent_Explosion_Swim"
+      "icon": "UI_Talent_Explosion_Swim",
+      "linkedConstellations": null
     }
   },
   "constellation": {
     "0": {
+      "id": 0,
       "name": "鱼龙沉四方",
       "description": "施放<color=#FFD780FF>斫雷<\/color>时：\\n生成一个伤害吸收量等于生命值上限16%的护盾，持续15秒。\\n该护盾对<color=#FFACFFFF>雷元素伤害<\/color>有250%的吸收效果。",
+      "extraData": null,
       "icon": "UI_Talent_S_Beidou_02"
     },
     "1": {
+      "id": 1,
       "name": "赫赫雷涌起",
       "description": "<color=#FFD780FF>斫雷<\/color>的闪雷能额外弹跳2个敌人。",
+      "extraData": null,
       "icon": "UI_Talent_S_Beidou_01"
     },
     "2": {
+      "id": 2,
       "name": "潮奔蓦引电",
       "description": "<color=#FFD780FF>捉浪<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 2,
+          "extraLevel": 3
+        }
+      },
       "icon": "UI_Talent_U_Beidou_01"
     },
     "3": {
+      "id": 3,
       "name": "牵星觅乡岸",
       "description": "受到攻击后的10秒内，北斗的普通攻击附带20%额外<color=#FFACFFFF>雷元素伤害<\/color>。",
-      "icon": "UI_Talent_S_Beidou_03"
+      "extraData": null,
+      "icon": "UI_Talent_S_Beidou_03",
+      "advancedProps": [
+        {
+          "name": "Extra Electro DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Elemental Burst"
+            },
+            "type": {
+              "span": null,
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "30",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Mute",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "4": {
+      "id": 4,
       "name": "踏浪霞连阶",
       "description": "<color=#FFD780FF>斫雷<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 9,
+          "extraLevel": 3
+        }
+      },
       "icon": "UI_Talent_U_Beidou_02"
     },
     "5": {
+      "id": 5,
       "name": "北斗祓幽孽",
       "description": "<color=#FFD780FF>斫雷<\/color>持续期间，周围敌人的<color=#FFACFFFF>雷元素抗性<\/color>降低15%。",
+      "extraData": null,
       "icon": "UI_Talent_S_Beidou_04"
     }
   }

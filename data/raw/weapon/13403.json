@@ -4,8 +4,11 @@
   "type": "长柄武器",
   "name": "流月针",
   "description": "枪尖狭长，尾部分出半月刀刃的异国兵器，经由商路流落到璃月。稍事练习掌握，便有极其出众的杀伤力。",
+  "specialProp": "FIGHT_PROP_PHYSICAL_ADD_HURT",
   "icon": "UI_EquipIcon_Pole_Exotic",
-  "storyId": 193403,
+  "storyId": [
+    "13403"
+  ],
   "affix": {
     "113403": {
       "name": "注能之针",
@@ -164,5 +167,77 @@
     "114014": 3,
     "114015": 4,
     "114016": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112029": {
+      "name": "猎兵祭刀",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112029"
+    },
+    "112030": {
+      "name": "特工祭刀",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112030"
+    },
+    "112031": {
+      "name": "督察长祭刀",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112031"
+    },
+    "112035": {
+      "name": "寻宝鸦印",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112035"
+    },
+    "112036": {
+      "name": "藏银鸦印",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112036"
+    },
+    "112037": {
+      "name": "攫金鸦印",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112037"
+    },
+    "114013": {
+      "name": "孤云寒林的光砂",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114013"
+    },
+    "114014": {
+      "name": "孤云寒林的辉岩",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114014"
+    },
+    "114015": {
+      "name": "孤云寒林的圣骸",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114015"
+    },
+    "114016": {
+      "name": "孤云寒林的神体",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114016"
+    }
   }
 }

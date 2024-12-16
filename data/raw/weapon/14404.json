@@ -4,8 +4,11 @@
   "type": "法器",
   "name": "宗室秘法录",
   "description": "属于曾支配蒙德的贵族麾下的宫廷魔导师，其中记载的史话与法术同样翔实。",
+  "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
   "icon": "UI_EquipIcon_Catalyst_Theocrat",
-  "storyId": 194404,
+  "storyId": [
+    "14404"
+  ],
   "affix": {
     "114404": {
       "name": "专注",
@@ -164,5 +167,77 @@
     "114002": 3,
     "114003": 4,
     "114004": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112014": {
+      "name": "沉重号角",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112014"
+    },
+    "112015": {
+      "name": "黑铜号角",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112015"
+    },
+    "112016": {
+      "name": "黑晶号角",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112016"
+    },
+    "112032": {
+      "name": "新兵的徽记",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112032"
+    },
+    "112033": {
+      "name": "士官的徽记",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112033"
+    },
+    "112034": {
+      "name": "尉官的徽记",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112034"
+    },
+    "114001": {
+      "name": "高塔孤王的破瓦",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114001"
+    },
+    "114002": {
+      "name": "高塔孤王的残垣",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114002"
+    },
+    "114003": {
+      "name": "高塔孤王的断片",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114003"
+    },
+    "114004": {
+      "name": "高塔孤王的碎梦",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114004"
+    }
   }
 }

@@ -45,37 +45,45 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112005": {
+          "name": "破损的面具",
           "rank": 1,
           "icon": "UI_ItemIcon_112005",
           "count": "0.1681"
         },
         "112006": {
+          "name": "污秽的面具",
           "rank": 2,
           "icon": "UI_ItemIcon_112006",
           "count": "0.0448"
         },
         "112007": {
+          "name": "不祥的面具",
           "rank": 3,
           "icon": "UI_ItemIcon_112007",
           "count": "0.0112"
         },
         "112008": {
+          "name": "导能绘卷",
           "rank": 1,
           "icon": "UI_ItemIcon_112008",
           "count": "2.5212"
         },
         "112009": {
+          "name": "封魔绘卷",
           "rank": 2,
           "icon": "UI_ItemIcon_112009",
           "count": "0.6723"
         },
         "112010": {
+          "name": "禁咒绘卷",
           "rank": 3,
           "icon": "UI_ItemIcon_112010",
           "count": "0.168"
@@ -147,6 +155,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": null
     }
   },

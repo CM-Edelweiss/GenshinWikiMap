@@ -4,6 +4,9 @@
   "name": "旅行者",
   "element": "Rock",
   "weaponType": "WEAPON_SWORD_ONE_HAND",
+  "region": "MAINACTOR",
+  "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+  "bodyType": "BOY",
   "icon": "UI_AvatarIcon_PlayerBoy",
   "birthday": [
     0,
@@ -183,6 +186,183 @@
     "112013": 3,
     "113005": 5,
     "113006": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "100024": {
+      "name": "风车菊",
+      "rank": 1,
+      "icon": "UI_ItemIcon_100024"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104101": {
+      "name": "璀璨原钻碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104101"
+    },
+    "104102": {
+      "name": "璀璨原钻断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104102"
+    },
+    "104103": {
+      "name": "璀璨原钻块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104103"
+    },
+    "104104": {
+      "name": "璀璨原钻",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104104"
+    },
+    "104301": {
+      "name": "「自由」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104301"
+    },
+    "104302": {
+      "name": "「自由」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104302"
+    },
+    "104303": {
+      "name": "「自由」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104303"
+    },
+    "104305": {
+      "name": "「抗争」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104305"
+    },
+    "104306": {
+      "name": "「抗争」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104306"
+    },
+    "104308": {
+      "name": "「诗文」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104308"
+    },
+    "104309": {
+      "name": "「诗文」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104309"
+    },
+    "104310": {
+      "name": "「繁荣」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104310"
+    },
+    "104311": {
+      "name": "「繁荣」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104311"
+    },
+    "104312": {
+      "name": "「繁荣」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104312"
+    },
+    "104314": {
+      "name": "「勤劳」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104314"
+    },
+    "104315": {
+      "name": "「勤劳」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104315"
+    },
+    "104317": {
+      "name": "「黄金」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104317"
+    },
+    "104318": {
+      "name": "「黄金」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104318"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "112005": {
+      "name": "破损的面具",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112005"
+    },
+    "112006": {
+      "name": "污秽的面具",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112006"
+    },
+    "112007": {
+      "name": "不祥的面具",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112007"
+    },
+    "112008": {
+      "name": "导能绘卷",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112008"
+    },
+    "112009": {
+      "name": "封魔绘卷",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112009"
+    },
+    "112010": {
+      "name": "禁咒绘卷",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112010"
+    },
+    "112011": {
+      "name": "牢固的箭簇",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112011"
+    },
+    "112012": {
+      "name": "锐利的箭簇",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112012"
+    },
+    "112013": {
+      "name": "历战的箭簇",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112013"
+    },
+    "113005": {
+      "name": "东风的吐息",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113005"
+    },
+    "113006": {
+      "name": "北风之尾",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113006"
+    }
   },
   "talent": {
     "0": {
@@ -900,7 +1080,139 @@
         }
       },
       "cooldown": 0,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "7",
+              "text": "Normal Attack"
+            },
+            "type": {
+              "span": "7",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "41.4",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "43.2",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "53.1",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "57.6",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 5-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "70.2",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "655",
+            "verticalForce": "800"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charged Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "50.6",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charged Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "50.6",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "655",
+            "verticalForce": "800"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "800"
+          },
+          "bluntAttack": true
+        }
+      ]
     },
     "1": {
       "type": 0,
@@ -1617,7 +1929,59 @@
         }
       },
       "cooldown": 8,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 1,
+            "type": "normal"
+          },
+          {
+            "id": 4,
+            "type": "level"
+          },
+          {
+            "id": 5,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Skill DMG",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": {
+            "tag": {
+              "span": "2",
+              "text": "Elemental Skill"
+            },
+            "type": {
+              "span": "2",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "133.2",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Explosion (C2)",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "133.2",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": true
+        }
+      ]
     },
     "3": {
       "type": 1,
@@ -2334,50 +2698,134 @@
         }
       },
       "cooldown": 15,
-      "cost": 60
+      "cost": 60,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          },
+          {
+            "id": 2,
+            "type": "level"
+          },
+          {
+            "id": 3,
+            "type": "normal"
+          },
+          {
+            "id": 5,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Shockwave DMG",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Elemental Burst"
+            },
+            "type": {
+              "span": null,
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        }
+      ]
     },
     "4": {
       "type": 2,
       "name": "破碎的绝岩",
       "description": "<color=#FFD780FF>星陨剑<\/color>的冷却时间减少2秒。",
-      "icon": "UI_Talent_S_PlayerRock_05"
+      "icon": "UI_Talent_S_PlayerRock_05",
+      "linkedConstellations": null
     },
     "5": {
       "type": 2,
       "name": "狂乱的崩岩",
       "description": "普通攻击的最后一击会附带崩毁，对范围内的敌人造成60%攻击力的<color=#FFE699FF>岩元素伤害<\/color>。",
-      "icon": "UI_Talent_S_PlayerRock_06"
+      "icon": "UI_Talent_S_PlayerRock_06",
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Collapse",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "13.5",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        }
+      ]
     }
   },
   "constellation": {
     "0": {
+      "id": 0,
       "name": "巍然的青岩",
       "description": "队伍中角色处于<color=#FFD780FF>岩潮叠嶂<\/color>的岩嶂包围中时，暴击率提升10%，并提高抗打断能力。",
+      "extraData": null,
       "icon": "UI_Talent_S_PlayerRock_01"
     },
     "1": {
+      "id": 1,
       "name": "不稳的熔岩",
       "description": "<color=#FFD780FF>星陨剑<\/color>的荒星被摧毁时会再度发生爆炸，造成等同于星陨剑伤害的额外<color=#FFE699FF>岩元素范围伤害<\/color>。",
+      "extraData": null,
       "icon": "UI_Talent_S_PlayerRock_02"
     },
     "2": {
+      "id": 2,
       "name": "八方之岩",
       "description": "<color=#FFD780FF>岩潮叠嶂<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 9,
+          "extraLevel": 3
+        }
+      },
       "icon": "UI_Talent_U_PlayerRock_02"
     },
     "3": {
+      "id": 3,
       "name": "险峻的重岩",
       "description": "<color=#FFD780FF>岩潮叠嶂<\/color>引发的震荡波每击中一个敌人，都会恢复5点元素能量。\\n通过这种方式，一次至多恢复25点元素能量。",
+      "extraData": null,
       "icon": "UI_Talent_S_PlayerRock_03"
     },
     "4": {
+      "id": 4,
       "name": "天坠之岩",
       "description": "<color=#FFD780FF>星陨剑<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 2,
+          "extraLevel": 3
+        }
+      },
       "icon": "UI_Talent_U_PlayerRock_01"
     },
     "5": {
+      "id": 5,
       "name": "永世的磐岩",
       "description": "<color=#FFD780FF>岩潮叠嶂<\/color>的岩嶂持续时间延长5秒；\\n<color=#FFD780FF>星陨剑<\/color>的荒星持续时间延长10秒。",
+      "extraData": null,
       "icon": "UI_Talent_S_PlayerRock_04"
     }
   }

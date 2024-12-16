@@ -5,7 +5,7 @@
   "icon": "UI_MonsterIcon_Abyss_Ice_01",
   "route": "Cryo Abyss Mage",
   "title": "冰之咏者",
-  "specialName": "深渊法师·埃兰别特",
+  "specialName": 1998304963,
   "description": "驾驭着极寒的冰元素进行战斗的深渊魔物。\\n尽管染指了强大的力量，甚至能将大气中的水蒸气凝结成冰锥，本身却佝偻而孱弱。一旦保护自身的护罩被打破，就只能任人鱼肉了。",
   "entries": {
     "22010201": {
@@ -62,51 +62,63 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112020": {
+          "name": "地脉的旧枝",
           "rank": 2,
           "icon": "UI_ItemIcon_112020",
-          "count": "2.2324"
+          "count": "2.6263"
         },
         "112021": {
+          "name": "地脉的枯叶",
           "rank": 3,
           "icon": "UI_ItemIcon_112021",
-          "count": "0.5953"
+          "count": "0.7003"
         },
         "112022": {
+          "name": "地脉的新芽",
           "rank": 4,
           "icon": "UI_ItemIcon_112022",
-          "count": "0.1487"
+          "count": "0.1751"
         },
         "400022": {
+          "name": "战狂",
           "rank": 3,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400023": {
+          "name": "战狂",
           "rank": 4,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400032": {
+          "name": "教官",
           "rank": 3,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400033": {
+          "name": "教官",
           "rank": 4,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400042": {
+          "name": "流放者",
           "rank": 3,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400043": {
+          "name": "流放者",
           "rank": 4,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400062": {
+          "name": "游医",
           "rank": 3,
           "icon": "UI_RelicIcon_10013_4"
         }
@@ -182,6 +194,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": null
     },
     "22010203": {
@@ -254,6 +267,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": null
     },
     "22010204": {
@@ -318,6 +332,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": null
     },
     "22010205": {
@@ -401,6 +416,91 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "22010207": {
+      "id": 22010207,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "元素盾含量强化高",
+          "description": "提升单体元素盾含量100%",
+          "abilityName": [
+            "MonsterAffix_ElementShield_DurabilityImprove_03"
+          ],
+          "isCommon": true
+        },
+        {
+          "name": "寒气免疫",
+          "description": "免疫冰冻和寒元素的减速效果",
+          "abilityName": [
+            "MonsterAffix_IceAllResist"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "永不入战-活动",
+          "description": "关闭怪物受击、嘲讽、广播入战",
+          "abilityName": [
+            "MonsterAffix_NeverCombat"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "怪物移速下限放开，受冰冻时间减少50%-塔防",
+          "description": "怪物移速下限放开，受冰冻时间减少50%",
+          "abilityName": [
+            "MonsterAffix_MoveSpeedLimit_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加血量-塔防",
+          "description": "塔防翻牌叠加血量",
+          "abilityName": [
+            "MonsterAffix_AdditionalHP_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加防御力-塔防",
+          "description": "塔防翻牌叠加防御力",
+          "abilityName": [
+            "MonsterAffix_AdditionalDefence_ForTowerDefense"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 27.168,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 37.68,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
       "reward": null
     }
   },

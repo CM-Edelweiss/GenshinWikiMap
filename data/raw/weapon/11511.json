@@ -4,8 +4,11 @@
   "type": "单手剑",
   "name": "圣显之钥",
   "description": "黑曜石塑造的一对的权杖中的一件。在传说中，隐藏在沙海尽头的乐园门扉是由这柄密钥开启的。",
+  "specialProp": "FIGHT_PROP_HP_PERCENT",
   "icon": "UI_EquipIcon_Sword_Deshret",
-  "storyId": 191511,
+  "storyId": [
+    "11511"
+  ],
   "affix": {
     "111511": {
       "name": "沉入沙海的史诗",
@@ -164,5 +167,77 @@
     "114038": 3,
     "114039": 4,
     "114040": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112065": {
+      "name": "褪色红绸",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112065"
+    },
+    "112066": {
+      "name": "镶边红绸",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112066"
+    },
+    "112067": {
+      "name": "织金红绸",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112067"
+    },
+    "112071": {
+      "name": "破缺棱晶",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112071"
+    },
+    "112072": {
+      "name": "混浊棱晶",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112072"
+    },
+    "112073": {
+      "name": "辉光棱晶",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112073"
+    },
+    "114037": {
+      "name": "谧林涓露的铜符",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114037"
+    },
+    "114038": {
+      "name": "谧林涓露的铁符",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114038"
+    },
+    "114039": {
+      "name": "谧林涓露的银符",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114039"
+    },
+    "114040": {
+      "name": "谧林涓露的金符",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114040"
+    }
   }
 }

@@ -4,23 +4,26 @@
   "name": "闲云",
   "element": "Wind",
   "weaponType": "WEAPON_CATALYST",
+  "region": "LIYUE",
+  "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+  "bodyType": "LADY",
   "icon": "UI_AvatarIcon_Liuyun",
   "birthday": [
-    1,
-    1
+    4,
+    11
   ],
-  "release": 1705334400,
+  "release": 1706565600,
   "route": "Xianyun",
   "fetter": {
-    "title": "？？？",
-    "detail": "？？？",
-    "constellation": "",
-    "native": "？？？",
+    "title": "鸾音鹤信",
+    "detail": "绝云仙众「三眼五显仙人」之一，雅号「留云借风真君」。擅使机关奇术，心向红尘烟火，正以「闲云」之名行走人间。",
+    "constellation": "闲鹤座",
+    "native": "奥藏山",
     "cv": {
-      "EN": "",
-      "CHS": "",
-      "JP": "",
-      "KR": ""
+      "EN": "史蒂芬妮·帕尼塞洛",
+      "CHS": "秦紫翼",
+      "JP": "中臣真菜",
+      "KR": "姜炫瑞"
     }
   },
   "upgrade": {
@@ -158,16 +161,16 @@
   "other": {
     "costume": [
       {
-        "name": "默认时装",
-        "description": "",
+        "name": "有客来仪",
+        "description": "闲云的装扮款式。衣装设计并非名家手笔，粗看时以为是上好绸缎织就，细看时发现料子非丝绸、非棉麻，荧光流转，宛如仙人羽衣。不知闲云从何取来这一身衣裳。",
         "isDefault": true
       }
     ],
     "furnitureId": 368179,
     "nameCard": {
       "id": 210187,
-      "name": "？？？",
-      "description": "？？？",
+      "name": "闲云·鹤云",
+      "description": "名片纹饰。\\n坦白从宽。当留云问你：「难道在你眼中，本仙只是个大一点的鸟？」的时候，你是不是还想着：「对，还会说话，还会摆弄奇怪的机关。」",
       "icon": "UI_NameCardIcon_Liuyun"
     },
     "specialFood": {
@@ -194,11 +197,103 @@
     "113055": 5,
     "113058": 4
   },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "101241": {
+      "name": "清水玉",
+      "rank": 1,
+      "icon": "UI_ItemIcon_101241"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104151": {
+      "name": "自在松石碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104151"
+    },
+    "104152": {
+      "name": "自在松石断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104152"
+    },
+    "104153": {
+      "name": "自在松石块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104153"
+    },
+    "104154": {
+      "name": "自在松石",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104154"
+    },
+    "104316": {
+      "name": "「黄金」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104316"
+    },
+    "104317": {
+      "name": "「黄金」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104317"
+    },
+    "104318": {
+      "name": "「黄金」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104318"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "112008": {
+      "name": "导能绘卷",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112008"
+    },
+    "112009": {
+      "name": "封魔绘卷",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112009"
+    },
+    "112010": {
+      "name": "禁咒绘卷",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112010"
+    },
+    "113055": {
+      "name": "无光涡眼",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113055"
+    },
+    "113058": {
+      "name": "凝云鳞甲",
+      "rank": 4,
+      "icon": "UI_ItemIcon_113058"
+    }
+  },
   "talent": {
     "0": {
       "type": 0,
       "name": "普通攻击·清风散花词",
-      "description": "<color=#FFD780FF>普通攻击<\/color>\\n旋卷清风，进行至多四段的攻击，造成<color=#80FFD7FF>风元素伤害<\/color>。\\n\\n<color=#FFD780FF>重击<\/color>\\n消耗一定体力，挥出一枚直线飞掠的清风之环，对路径上的敌人造成<color=#80FFD7FF>风元素伤害<\/color>。\\n\\n<color=#FFD780FF>下落攻击<\/color>\\n从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成<color=#80FFD7FF>风元素范围伤害<\/color>。",
+      "description": "<color=#FFD780FF>普通攻击<\/color>\\n旋卷清风，进行至多四段的攻击，造成<color=#80FFD7FF>风元素伤害<\/color>。\\n\\n<color=#FFD780FF>重击<\/color>\\n消耗一定体力，挥出一枚直线飞掠的清风之环，对路径上的敌人造成<color=#80FFD7FF>风元素伤害<\/color>。\\n\\n<color=#FFD780FF>下落攻击<\/color>\\n凝聚风元素的力量，从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成<color=#80FFD7FF>风元素范围伤害<\/color>。",
       "icon": "Skill_A_Catalyst_MD",
       "promote": {
         "1": {
@@ -910,12 +1005,120 @@
         }
       },
       "cooldown": 0,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "4",
+              "text": "Normal Attack"
+            },
+            "type": {
+              "span": "4",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "7.6",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "7.3",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "9.2",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "12.2",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charged Attack",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "90",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "5",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "50",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "1": {
       "type": 0,
       "name": "朝起鹤云",
-      "description": "闲云进入鹤云幻化状态，并施展一次步天梯。在鹤云幻化状态下，后续至多再施展两次步天梯。\\n处于鹤云幻化状态下的闲云进行普通攻击或下落攻击时，将转而施放闲云冲击波：化形为清风云鹤，对附近的敌人进行俯冲攻击，造成<color=#80FFD7FF>风元素范围伤害<\/color>，并结束鹤云幻化状态。通过这种方式造成的伤害视为下落攻击伤害。\\n\\n<color=#FFD780FF>步天梯<\/color>\\n闲云将短暂向前方的空中跃升，对路径上的目标造成<color=#80FFD7FF>风元素伤害<\/color>。\\n可以在空中施放；在地面施放时，步天梯的移动距离大幅提升。\\n在一次鹤云幻化状态中，至多通过步天梯对同一名敌人造成一次伤害。\\n\\n在一次鹤云幻化状态中施展步天梯的次数越多，闲云冲击波造成的伤害越高，伤害范围越大；施展三次步天梯（包含施放朝起鹤云时施展的步天梯）后，将施放最强的闲云冲击波——闲云冲击波·天威压众。\\n\\n朝起鹤云仅能在地面施放。\\n若在短时间内没有施展步天梯，鹤云幻化状态将结束，并使技能进入冷却；若此次鹤云幻化状态持续期间未施展闲云冲击波，冷却时间将减少3秒。\\n\\n<i>不敢握留云借风真君的手，因为那是仙人掌。<\/i>",
+      "description": "闲云进入鹤云幻化状态，不会承受坠落伤害，并施放一次步天梯。\\n在此状态下，闲云的下落攻击将转化为闲云冲击波，造成<color=#80FFD7FF>风元素范围伤害<\/color>，并结束鹤云幻化状态。该伤害视为下落攻击伤害。\\n此状态下每次施放步天梯，都将提升下一次闲云冲击波的伤害和范围。\\n\\n<color=#FFD780FF>步天梯<\/color>\\n可以在空中施放。闲云向前方跳跃，并对路径上的目标造成<color=#80FFD7FF>风元素伤害<\/color>。\\n一次鹤云幻化状态下最多施放3次步天梯，且只能对同一名敌人造成一次步天梯伤害。\\n若短时间内没有施放步天梯，鹤云幻化状态将解除。\\n\\n若鹤云幻化状态期间没有释放闲云冲击波，朝起鹤云的冷却时间将减少3秒。\\n\\n<i>不敢握留云借风真君的手，因为那是仙人掌。<\/i>",
       "icon": "Skill_S_Liuyun_01",
       "promote": {
         "1": {
@@ -923,11 +1126,11 @@
           "costItems": null,
           "coinCost": null,
           "description": [
-            "仙人姿态路径伤害|{param1:F2P}",
-            "一段跳 · 鹤形追击伤害|{param2:F1P}",
-            "二段跳 · 鹤形追击伤害|{param3:F1P}",
-            "三段跳 · 鹤形追击伤害|{param4:F1P}",
-            "点按冷却时间|{param5:F1}秒",
+            "技能伤害|{param1:F2P}",
+            "闲云冲击波伤害|{param2:F1P}\/{param3:F1P}\/{param4:F1P}",
+            "冷却时间|{param5:F1}秒",
+            "",
+            "",
             "",
             "",
             "",
@@ -944,7 +1147,7 @@
             0.248,
             1.16,
             1.48,
-            3.04,
+            3.376,
             12,
             0,
             0,
@@ -971,11 +1174,11 @@
           },
           "coinCost": 12500,
           "description": [
-            "仙人姿态路径伤害|{param1:F2P}",
-            "一段跳 · 鹤形追击伤害|{param2:F1P}",
-            "二段跳 · 鹤形追击伤害|{param3:F1P}",
-            "三段跳 · 鹤形追击伤害|{param4:F1P}",
-            "点按冷却时间|{param5:F1}秒",
+            "技能伤害|{param1:F2P}",
+            "闲云冲击波伤害|{param2:F1P}\/{param3:F1P}\/{param4:F1P}",
+            "冷却时间|{param5:F1}秒",
+            "",
+            "",
             "",
             "",
             "",
@@ -992,7 +1195,7 @@
             0.2666,
             1.247,
             1.591,
-            3.268,
+            3.6292,
             12,
             0,
             0,
@@ -1019,11 +1222,11 @@
           },
           "coinCost": 17500,
           "description": [
-            "仙人姿态路径伤害|{param1:F2P}",
-            "一段跳 · 鹤形追击伤害|{param2:F1P}",
-            "二段跳 · 鹤形追击伤害|{param3:F1P}",
-            "三段跳 · 鹤形追击伤害|{param4:F1P}",
-            "点按冷却时间|{param5:F1}秒",
+            "技能伤害|{param1:F2P}",
+            "闲云冲击波伤害|{param2:F1P}\/{param3:F1P}\/{param4:F1P}",
+            "冷却时间|{param5:F1}秒",
+            "",
+            "",
             "",
             "",
             "",
@@ -1040,7 +1243,7 @@
             0.2852,
             1.334,
             1.702,
-            3.496,
+            3.8824,
             12,
             0,
             0,
@@ -1067,11 +1270,11 @@
           },
           "coinCost": 25000,
           "description": [
-            "仙人姿态路径伤害|{param1:F2P}",
-            "一段跳 · 鹤形追击伤害|{param2:F1P}",
-            "二段跳 · 鹤形追击伤害|{param3:F1P}",
-            "三段跳 · 鹤形追击伤害|{param4:F1P}",
-            "点按冷却时间|{param5:F1}秒",
+            "技能伤害|{param1:F2P}",
+            "闲云冲击波伤害|{param2:F1P}\/{param3:F1P}\/{param4:F1P}",
+            "冷却时间|{param5:F1}秒",
+            "",
+            "",
             "",
             "",
             "",
@@ -1088,7 +1291,7 @@
             0.31,
             1.45,
             1.85,
-            3.8,
+            4.22,
             12,
             0,
             0,
@@ -1115,11 +1318,11 @@
           },
           "coinCost": 30000,
           "description": [
-            "仙人姿态路径伤害|{param1:F2P}",
-            "一段跳 · 鹤形追击伤害|{param2:F1P}",
-            "二段跳 · 鹤形追击伤害|{param3:F1P}",
-            "三段跳 · 鹤形追击伤害|{param4:F1P}",
-            "点按冷却时间|{param5:F1}秒",
+            "技能伤害|{param1:F2P}",
+            "闲云冲击波伤害|{param2:F1P}\/{param3:F1P}\/{param4:F1P}",
+            "冷却时间|{param5:F1}秒",
+            "",
+            "",
             "",
             "",
             "",
@@ -1136,7 +1339,7 @@
             0.3286,
             1.537,
             1.961,
-            4.028,
+            4.4732,
             12,
             0,
             0,
@@ -1163,11 +1366,11 @@
           },
           "coinCost": 37500,
           "description": [
-            "仙人姿态路径伤害|{param1:F2P}",
-            "一段跳 · 鹤形追击伤害|{param2:F1P}",
-            "二段跳 · 鹤形追击伤害|{param3:F1P}",
-            "三段跳 · 鹤形追击伤害|{param4:F1P}",
-            "点按冷却时间|{param5:F1}秒",
+            "技能伤害|{param1:F2P}",
+            "闲云冲击波伤害|{param2:F1P}\/{param3:F1P}\/{param4:F1P}",
+            "冷却时间|{param5:F1}秒",
+            "",
+            "",
             "",
             "",
             "",
@@ -1184,7 +1387,7 @@
             0.3472,
             1.624,
             2.072,
-            4.256,
+            4.7264,
             12,
             0,
             0,
@@ -1212,11 +1415,11 @@
           },
           "coinCost": 120000,
           "description": [
-            "仙人姿态路径伤害|{param1:F2P}",
-            "一段跳 · 鹤形追击伤害|{param2:F1P}",
-            "二段跳 · 鹤形追击伤害|{param3:F1P}",
-            "三段跳 · 鹤形追击伤害|{param4:F1P}",
-            "点按冷却时间|{param5:F1}秒",
+            "技能伤害|{param1:F2P}",
+            "闲云冲击波伤害|{param2:F1P}\/{param3:F1P}\/{param4:F1P}",
+            "冷却时间|{param5:F1}秒",
+            "",
+            "",
             "",
             "",
             "",
@@ -1233,7 +1436,7 @@
             0.372,
             1.74,
             2.22,
-            4.56,
+            5.064,
             12,
             0,
             0,
@@ -1261,11 +1464,11 @@
           },
           "coinCost": 260000,
           "description": [
-            "仙人姿态路径伤害|{param1:F2P}",
-            "一段跳 · 鹤形追击伤害|{param2:F1P}",
-            "二段跳 · 鹤形追击伤害|{param3:F1P}",
-            "三段跳 · 鹤形追击伤害|{param4:F1P}",
-            "点按冷却时间|{param5:F1}秒",
+            "技能伤害|{param1:F2P}",
+            "闲云冲击波伤害|{param2:F1P}\/{param3:F1P}\/{param4:F1P}",
+            "冷却时间|{param5:F1}秒",
+            "",
+            "",
             "",
             "",
             "",
@@ -1282,7 +1485,7 @@
             0.3968,
             1.856,
             2.368,
-            4.864,
+            5.4016,
             12,
             0,
             0,
@@ -1310,11 +1513,11 @@
           },
           "coinCost": 450000,
           "description": [
-            "仙人姿态路径伤害|{param1:F2P}",
-            "一段跳 · 鹤形追击伤害|{param2:F1P}",
-            "二段跳 · 鹤形追击伤害|{param3:F1P}",
-            "三段跳 · 鹤形追击伤害|{param4:F1P}",
-            "点按冷却时间|{param5:F1}秒",
+            "技能伤害|{param1:F2P}",
+            "闲云冲击波伤害|{param2:F1P}\/{param3:F1P}\/{param4:F1P}",
+            "冷却时间|{param5:F1}秒",
+            "",
+            "",
             "",
             "",
             "",
@@ -1331,7 +1534,7 @@
             0.4216,
             1.972,
             2.516,
-            5.168,
+            5.7392,
             12,
             0,
             0,
@@ -1360,11 +1563,11 @@
           },
           "coinCost": 700000,
           "description": [
-            "仙人姿态路径伤害|{param1:F2P}",
-            "一段跳 · 鹤形追击伤害|{param2:F1P}",
-            "二段跳 · 鹤形追击伤害|{param3:F1P}",
-            "三段跳 · 鹤形追击伤害|{param4:F1P}",
-            "点按冷却时间|{param5:F1}秒",
+            "技能伤害|{param1:F2P}",
+            "闲云冲击波伤害|{param2:F1P}\/{param3:F1P}\/{param4:F1P}",
+            "冷却时间|{param5:F1}秒",
+            "",
+            "",
             "",
             "",
             "",
@@ -1381,7 +1584,7 @@
             0.4464,
             2.088,
             2.664,
-            5.472,
+            6.0768,
             12,
             0,
             0,
@@ -1405,11 +1608,11 @@
           "costItems": null,
           "coinCost": null,
           "description": [
-            "仙人姿态路径伤害|{param1:F2P}",
-            "一段跳 · 鹤形追击伤害|{param2:F1P}",
-            "二段跳 · 鹤形追击伤害|{param3:F1P}",
-            "三段跳 · 鹤形追击伤害|{param4:F1P}",
-            "点按冷却时间|{param5:F1}秒",
+            "技能伤害|{param1:F2P}",
+            "闲云冲击波伤害|{param2:F1P}\/{param3:F1P}\/{param4:F1P}",
+            "冷却时间|{param5:F1}秒",
+            "",
+            "",
             "",
             "",
             "",
@@ -1426,7 +1629,7 @@
             0.4712,
             2.204,
             2.812,
-            5.776,
+            6.4144,
             12,
             0,
             0,
@@ -1450,11 +1653,11 @@
           "costItems": null,
           "coinCost": null,
           "description": [
-            "仙人姿态路径伤害|{param1:F2P}",
-            "一段跳 · 鹤形追击伤害|{param2:F1P}",
-            "二段跳 · 鹤形追击伤害|{param3:F1P}",
-            "三段跳 · 鹤形追击伤害|{param4:F1P}",
-            "点按冷却时间|{param5:F1}秒",
+            "技能伤害|{param1:F2P}",
+            "闲云冲击波伤害|{param2:F1P}\/{param3:F1P}\/{param4:F1P}",
+            "冷却时间|{param5:F1}秒",
+            "",
+            "",
             "",
             "",
             "",
@@ -1471,7 +1674,7 @@
             0.496,
             2.32,
             2.96,
-            6.08,
+            6.752,
             12,
             0,
             0,
@@ -1495,11 +1698,11 @@
           "costItems": null,
           "coinCost": null,
           "description": [
-            "仙人姿态路径伤害|{param1:F2P}",
-            "一段跳 · 鹤形追击伤害|{param2:F1P}",
-            "二段跳 · 鹤形追击伤害|{param3:F1P}",
-            "三段跳 · 鹤形追击伤害|{param4:F1P}",
-            "点按冷却时间|{param5:F1}秒",
+            "技能伤害|{param1:F2P}",
+            "闲云冲击波伤害|{param2:F1P}\/{param3:F1P}\/{param4:F1P}",
+            "冷却时间|{param5:F1}秒",
+            "",
+            "",
             "",
             "",
             "",
@@ -1516,7 +1719,7 @@
             0.527,
             2.465,
             3.145,
-            6.46,
+            7.174,
             12,
             0,
             0,
@@ -1540,11 +1743,11 @@
           "costItems": null,
           "coinCost": null,
           "description": [
-            "仙人姿态路径伤害|{param1:F2P}",
-            "一段跳 · 鹤形追击伤害|{param2:F1P}",
-            "二段跳 · 鹤形追击伤害|{param3:F1P}",
-            "三段跳 · 鹤形追击伤害|{param4:F1P}",
-            "点按冷却时间|{param5:F1}秒",
+            "技能伤害|{param1:F2P}",
+            "闲云冲击波伤害|{param2:F1P}\/{param3:F1P}\/{param4:F1P}",
+            "冷却时间|{param5:F1}秒",
+            "",
+            "",
             "",
             "",
             "",
@@ -1561,7 +1764,7 @@
             0.558,
             2.61,
             3.33,
-            6.84,
+            7.596,
             12,
             0,
             0,
@@ -1585,11 +1788,11 @@
           "costItems": null,
           "coinCost": null,
           "description": [
-            "仙人姿态路径伤害|{param1:F2P}",
-            "一段跳 · 鹤形追击伤害|{param2:F1P}",
-            "二段跳 · 鹤形追击伤害|{param3:F1P}",
-            "三段跳 · 鹤形追击伤害|{param4:F1P}",
-            "点按冷却时间|{param5:F1}秒",
+            "技能伤害|{param1:F2P}",
+            "闲云冲击波伤害|{param2:F1P}\/{param3:F1P}\/{param4:F1P}",
+            "冷却时间|{param5:F1}秒",
+            "",
+            "",
             "",
             "",
             "",
@@ -1606,7 +1809,7 @@
             0.589,
             2.755,
             3.515,
-            7.22,
+            8.018,
             12,
             0,
             0,
@@ -1627,12 +1830,87 @@
         }
       },
       "cooldown": 12,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          },
+          {
+            "id": 1,
+            "type": "normal"
+          },
+          {
+            "id": 3,
+            "type": "normal"
+          },
+          {
+            "id": 4,
+            "type": "level"
+          },
+          {
+            "id": 5,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Skill DMG",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "30",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Driftcloud Wave DMG Lv.1",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "75",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Driftcloud Wave DMG Lv.2",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "75",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Driftcloud Wave DMG Lv.3",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "100",
+            "verticalForce": "800"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "3": {
       "type": 1,
       "name": "暮集竹星",
-      "description": "轻唤仙风，造成<color=#80FFD7FF>风元素范围伤害<\/color>，为队伍中附近的所有角色恢复生命值，回复量受益于闲云的攻击力，并召唤机关「竹星」。\\n\\n<color=#FFD780FF>竹星<\/color>\\n·持续跟随当前场上的角色，并间歇性为队伍中附近的所有角色恢复生命值，回复量受益于闲云的攻击力；\\n·初始拥有8层仙力助推。拥有仙力助推时，将提升队伍中附近的当前场上角色的跳跃高度。\\n·当前场上角色完成下落攻击时，竹星将消耗一层仙力助推，造成<color=#80FFD7FF>风元素范围伤害<\/color>。\\n\\n<i>这是继机关烹饪神机、流木运物神机、奇物搜觅神机、碧泉煎茶神机、追风滑雪神机、杂务扫理神机、传波扩声神机之后的新发明，属于「星月造化」系列。该系列是用来送给欣赏的人类小辈的，所以并没有某位半仙的份。只可惜面对这件竹星时，某女徒弟面无表情地说了：「不要。」\\n留云只好把竹星留在身边。<\/i>",
+      "description": "轻唤仙风，造成<color=#80FFD7FF>风元素范围伤害<\/color>，为队伍中附近的所有角色恢复生命值，回复量受益于闲云的攻击力，并召唤机关「竹星」。\\n\\n<color=#FFD780FF>竹星<\/color>\\n·持续跟随当前场上的角色，并间歇性为队伍中附近的所有角色恢复生命值，回复量受益于闲云的攻击力；\\n·初始拥有8层仙力助推。拥有仙力助推时，将提升队伍中附近的当前场上角色的跳跃高度。\\n·当前场上角色完成下落攻击时，竹星将消耗一层仙力助推，造成<color=#80FFD7FF>风元素范围伤害<\/color>。\\n场上至多存在一个竹星。\\n\\n<i>这是继机关烹饪神机、追风滑雪神机、杂务扫理神机、流木运物神机、花羽叶月神机之后的新发明，属于「星月造化」系列。该系列是用来送给欣赏的人类小辈的，所以并没有某位半仙的份。只可惜面对这件竹星时，某女徒弟面无表情地说了：「不要。」\\n留云只好把竹星留在身边。<\/i>",
       "icon": "Skill_E_Liuyun_01",
       "promote": {
         "1": {
@@ -1640,14 +1918,14 @@
           "costItems": null,
           "coinCost": null,
           "description": [
-            "施放瞬间伤害|{param1:F1P}",
-            "机关协同伤害|{param2:F1P}",
-            "施放瞬间治疗|{param4:F1P}攻击力+{param3:I}",
-            "机关持续治疗|{param6:F1P}攻击力+{param5:I}",
-            "机关治疗触发间隔|{param7:F2}秒",
-            "机关持续时间|{param9:F1}秒",
+            "技能伤害|{param1:F1P}",
+            "竹星伤害|{param2:F1P}",
+            "治疗量|{param4:F1P}攻击力+{param3:I}",
+            "持续治疗量|{param6:F1P}攻击力+{param5:I}",
+            "持续时间|{param9:F1}秒",
             "冷却时间|{param10:F1}秒",
             "元素能量|{param11:I}",
+            "",
             "",
             "",
             "",
@@ -1660,10 +1938,10 @@
           "params": [
             1.08,
             0.392,
-            770.37524,
-            1.2288,
-            231.11266,
-            0.36864,
+            577.78162,
+            0.9216,
+            269.63141,
+            0.43008,
             2.5,
             8,
             16,
@@ -1688,14 +1966,14 @@
           },
           "coinCost": 12500,
           "description": [
-            "施放瞬间伤害|{param1:F1P}",
-            "机关协同伤害|{param2:F1P}",
-            "施放瞬间治疗|{param4:F1P}攻击力+{param3:I}",
-            "机关持续治疗|{param6:F1P}攻击力+{param5:I}",
-            "机关治疗触发间隔|{param7:F2}秒",
-            "机关持续时间|{param9:F1}秒",
+            "技能伤害|{param1:F1P}",
+            "竹星伤害|{param2:F1P}",
+            "治疗量|{param4:F1P}攻击力+{param3:I}",
+            "持续治疗量|{param6:F1P}攻击力+{param5:I}",
+            "持续时间|{param9:F1}秒",
             "冷却时间|{param10:F1}秒",
             "元素能量|{param11:I}",
+            "",
             "",
             "",
             "",
@@ -1708,10 +1986,10 @@
           "params": [
             1.161,
             0.4214,
-            847.42346,
-            1.32096,
-            254.22713,
-            0.39629,
+            635.56781,
+            0.99072,
+            296.59833,
+            0.46234,
             2.5,
             8,
             16,
@@ -1736,14 +2014,14 @@
           },
           "coinCost": 17500,
           "description": [
-            "施放瞬间伤害|{param1:F1P}",
-            "机关协同伤害|{param2:F1P}",
-            "施放瞬间治疗|{param4:F1P}攻击力+{param3:I}",
-            "机关持续治疗|{param6:F1P}攻击力+{param5:I}",
-            "机关治疗触发间隔|{param7:F2}秒",
-            "机关持续时间|{param9:F1}秒",
+            "技能伤害|{param1:F1P}",
+            "竹星伤害|{param2:F1P}",
+            "治疗量|{param4:F1P}攻击力+{param3:I}",
+            "持续治疗量|{param6:F1P}攻击力+{param5:I}",
+            "持续时间|{param9:F1}秒",
             "冷却时间|{param10:F1}秒",
             "元素能量|{param11:I}",
+            "",
             "",
             "",
             "",
@@ -1756,10 +2034,10 @@
           "params": [
             1.242,
             0.4508,
-            930.8924,
-            1.41312,
-            279.26782,
-            0.42394,
+            698.16949,
+            1.05984,
+            325.81244,
+            0.49459,
             2.5,
             8,
             16,
@@ -1784,14 +2062,14 @@
           },
           "coinCost": 25000,
           "description": [
-            "施放瞬间伤害|{param1:F1P}",
-            "机关协同伤害|{param2:F1P}",
-            "施放瞬间治疗|{param4:F1P}攻击力+{param3:I}",
-            "机关持续治疗|{param6:F1P}攻击力+{param5:I}",
-            "机关治疗触发间隔|{param7:F2}秒",
-            "机关持续时间|{param9:F1}秒",
+            "技能伤害|{param1:F1P}",
+            "竹星伤害|{param2:F1P}",
+            "治疗量|{param4:F1P}攻击力+{param3:I}",
+            "持续治疗量|{param6:F1P}攻击力+{param5:I}",
+            "持续时间|{param9:F1}秒",
             "冷却时间|{param10:F1}秒",
             "元素能量|{param11:I}",
+            "",
             "",
             "",
             "",
@@ -1804,10 +2082,10 @@
           "params": [
             1.35,
             0.49,
-            1020.78198,
-            1.536,
-            306.23471,
-            0.4608,
+            765.58673,
+            1.152,
+            357.2738,
+            0.5376,
             2.5,
             8,
             16,
@@ -1832,14 +2110,14 @@
           },
           "coinCost": 30000,
           "description": [
-            "施放瞬间伤害|{param1:F1P}",
-            "机关协同伤害|{param2:F1P}",
-            "施放瞬间治疗|{param4:F1P}攻击力+{param3:I}",
-            "机关持续治疗|{param6:F1P}攻击力+{param5:I}",
-            "机关治疗触发间隔|{param7:F2}秒",
-            "机关持续时间|{param9:F1}秒",
+            "技能伤害|{param1:F1P}",
+            "竹星伤害|{param2:F1P}",
+            "治疗量|{param4:F1P}攻击力+{param3:I}",
+            "持续治疗量|{param6:F1P}攻击力+{param5:I}",
+            "持续时间|{param9:F1}秒",
             "冷却时间|{param10:F1}秒",
             "元素能量|{param11:I}",
+            "",
             "",
             "",
             "",
@@ -1852,10 +2130,10 @@
           "params": [
             1.431,
             0.5194,
-            1117.09229,
-            1.62816,
-            335.12781,
-            0.48845,
+            837.81952,
+            1.22112,
+            390.98242,
+            0.56986,
             2.5,
             8,
             16,
@@ -1880,14 +2158,14 @@
           },
           "coinCost": 37500,
           "description": [
-            "施放瞬间伤害|{param1:F1P}",
-            "机关协同伤害|{param2:F1P}",
-            "施放瞬间治疗|{param4:F1P}攻击力+{param3:I}",
-            "机关持续治疗|{param6:F1P}攻击力+{param5:I}",
-            "机关治疗触发间隔|{param7:F2}秒",
-            "机关持续时间|{param9:F1}秒",
+            "技能伤害|{param1:F1P}",
+            "竹星伤害|{param2:F1P}",
+            "治疗量|{param4:F1P}攻击力+{param3:I}",
+            "持续治疗量|{param6:F1P}攻击力+{param5:I}",
+            "持续时间|{param9:F1}秒",
             "冷却时间|{param10:F1}秒",
             "元素能量|{param11:I}",
+            "",
             "",
             "",
             "",
@@ -1900,10 +2178,10 @@
           "params": [
             1.512,
             0.5488,
-            1219.82324,
-            1.72032,
-            365.94711,
-            0.5161,
+            914.86774,
+            1.29024,
+            426.93829,
+            0.60211,
             2.5,
             8,
             16,
@@ -1929,14 +2207,14 @@
           },
           "coinCost": 120000,
           "description": [
-            "施放瞬间伤害|{param1:F1P}",
-            "机关协同伤害|{param2:F1P}",
-            "施放瞬间治疗|{param4:F1P}攻击力+{param3:I}",
-            "机关持续治疗|{param6:F1P}攻击力+{param5:I}",
-            "机关治疗触发间隔|{param7:F2}秒",
-            "机关持续时间|{param9:F1}秒",
+            "技能伤害|{param1:F1P}",
+            "竹星伤害|{param2:F1P}",
+            "治疗量|{param4:F1P}攻击力+{param3:I}",
+            "持续治疗量|{param6:F1P}攻击力+{param5:I}",
+            "持续时间|{param9:F1}秒",
             "冷却时间|{param10:F1}秒",
             "元素能量|{param11:I}",
+            "",
             "",
             "",
             "",
@@ -1949,10 +2227,10 @@
           "params": [
             1.62,
             0.588,
-            1328.97498,
-            1.8432,
-            398.6926,
-            0.55296,
+            996.73151,
+            1.3824,
+            465.14139,
+            0.64512,
             2.5,
             8,
             16,
@@ -1978,14 +2256,14 @@
           },
           "coinCost": 260000,
           "description": [
-            "施放瞬间伤害|{param1:F1P}",
-            "机关协同伤害|{param2:F1P}",
-            "施放瞬间治疗|{param4:F1P}攻击力+{param3:I}",
-            "机关持续治疗|{param6:F1P}攻击力+{param5:I}",
-            "机关治疗触发间隔|{param7:F2}秒",
-            "机关持续时间|{param9:F1}秒",
+            "技能伤害|{param1:F1P}",
+            "竹星伤害|{param2:F1P}",
+            "治疗量|{param4:F1P}攻击力+{param3:I}",
+            "持续治疗量|{param6:F1P}攻击力+{param5:I}",
+            "持续时间|{param9:F1}秒",
             "冷却时间|{param10:F1}秒",
             "元素能量|{param11:I}",
+            "",
             "",
             "",
             "",
@@ -1998,10 +2276,10 @@
           "params": [
             1.728,
             0.6272,
-            1444.54724,
-            1.96608,
-            433.36432,
-            0.58982,
+            1083.41077,
+            1.47456,
+            505.59171,
+            0.68813,
             2.5,
             8,
             16,
@@ -2027,14 +2305,14 @@
           },
           "coinCost": 450000,
           "description": [
-            "施放瞬间伤害|{param1:F1P}",
-            "机关协同伤害|{param2:F1P}",
-            "施放瞬间治疗|{param4:F1P}攻击力+{param3:I}",
-            "机关持续治疗|{param6:F1P}攻击力+{param5:I}",
-            "机关治疗触发间隔|{param7:F2}秒",
-            "机关持续时间|{param9:F1}秒",
+            "技能伤害|{param1:F1P}",
+            "竹星伤害|{param2:F1P}",
+            "治疗量|{param4:F1P}攻击力+{param3:I}",
+            "持续治疗量|{param6:F1P}攻击力+{param5:I}",
+            "持续时间|{param9:F1}秒",
             "冷却时间|{param10:F1}秒",
             "元素能量|{param11:I}",
+            "",
             "",
             "",
             "",
@@ -2047,10 +2325,10 @@
           "params": [
             1.836,
             0.6664,
-            1566.54028,
-            2.08896,
-            469.96225,
-            0.62669,
+            1174.90564,
+            1.56672,
+            548.28931,
+            0.73114,
             2.5,
             8,
             16,
@@ -2077,14 +2355,14 @@
           },
           "coinCost": 700000,
           "description": [
-            "施放瞬间伤害|{param1:F1P}",
-            "机关协同伤害|{param2:F1P}",
-            "施放瞬间治疗|{param4:F1P}攻击力+{param3:I}",
-            "机关持续治疗|{param6:F1P}攻击力+{param5:I}",
-            "机关治疗触发间隔|{param7:F2}秒",
-            "机关持续时间|{param9:F1}秒",
+            "技能伤害|{param1:F1P}",
+            "竹星伤害|{param2:F1P}",
+            "治疗量|{param4:F1P}攻击力+{param3:I}",
+            "持续治疗量|{param6:F1P}攻击力+{param5:I}",
+            "持续时间|{param9:F1}秒",
             "冷却时间|{param10:F1}秒",
             "元素能量|{param11:I}",
+            "",
             "",
             "",
             "",
@@ -2097,10 +2375,10 @@
           "params": [
             1.944,
             0.7056,
-            1694.95398,
-            2.21184,
-            508.48639,
-            0.66355,
+            1271.21594,
+            1.65888,
+            593.23413,
+            0.77414,
             2.5,
             8,
             16,
@@ -2122,14 +2400,14 @@
           "costItems": null,
           "coinCost": null,
           "description": [
-            "施放瞬间伤害|{param1:F1P}",
-            "机关协同伤害|{param2:F1P}",
-            "施放瞬间治疗|{param4:F1P}攻击力+{param3:I}",
-            "机关持续治疗|{param6:F1P}攻击力+{param5:I}",
-            "机关治疗触发间隔|{param7:F2}秒",
-            "机关持续时间|{param9:F1}秒",
+            "技能伤害|{param1:F1P}",
+            "竹星伤害|{param2:F1P}",
+            "治疗量|{param4:F1P}攻击力+{param3:I}",
+            "持续治疗量|{param6:F1P}攻击力+{param5:I}",
+            "持续时间|{param9:F1}秒",
             "冷却时间|{param10:F1}秒",
             "元素能量|{param11:I}",
+            "",
             "",
             "",
             "",
@@ -2142,10 +2420,10 @@
           "params": [
             2.052,
             0.7448,
-            1829.78845,
-            2.33472,
-            548.93671,
-            0.70042,
+            1372.3418,
+            1.75104,
+            640.42615,
+            0.81715,
             2.5,
             8,
             16,
@@ -2167,14 +2445,14 @@
           "costItems": null,
           "coinCost": null,
           "description": [
-            "施放瞬间伤害|{param1:F1P}",
-            "机关协同伤害|{param2:F1P}",
-            "施放瞬间治疗|{param4:F1P}攻击力+{param3:I}",
-            "机关持续治疗|{param6:F1P}攻击力+{param5:I}",
-            "机关治疗触发间隔|{param7:F2}秒",
-            "机关持续时间|{param9:F1}秒",
+            "技能伤害|{param1:F1P}",
+            "竹星伤害|{param2:F1P}",
+            "治疗量|{param4:F1P}攻击力+{param3:I}",
+            "持续治疗量|{param6:F1P}攻击力+{param5:I}",
+            "持续时间|{param9:F1}秒",
             "冷却时间|{param10:F1}秒",
             "元素能量|{param11:I}",
+            "",
             "",
             "",
             "",
@@ -2187,10 +2465,10 @@
           "params": [
             2.16,
             0.784,
-            1971.04358,
-            2.4576,
-            591.31323,
-            0.73728,
+            1478.28308,
+            1.8432,
+            689.86548,
+            0.86016,
             2.5,
             8,
             16,
@@ -2212,14 +2490,14 @@
           "costItems": null,
           "coinCost": null,
           "description": [
-            "施放瞬间伤害|{param1:F1P}",
-            "机关协同伤害|{param2:F1P}",
-            "施放瞬间治疗|{param4:F1P}攻击力+{param3:I}",
-            "机关持续治疗|{param6:F1P}攻击力+{param5:I}",
-            "机关治疗触发间隔|{param7:F2}秒",
-            "机关持续时间|{param9:F1}秒",
+            "技能伤害|{param1:F1P}",
+            "竹星伤害|{param2:F1P}",
+            "治疗量|{param4:F1P}攻击力+{param3:I}",
+            "持续治疗量|{param6:F1P}攻击力+{param5:I}",
+            "持续时间|{param9:F1}秒",
             "冷却时间|{param10:F1}秒",
             "元素能量|{param11:I}",
+            "",
             "",
             "",
             "",
@@ -2232,10 +2510,10 @@
           "params": [
             2.295,
             0.833,
-            2118.71924,
-            2.6112,
-            635.61603,
-            0.78336,
+            1589.04004,
+            1.9584,
+            741.552,
+            0.91392,
             2.5,
             8,
             16,
@@ -2257,14 +2535,14 @@
           "costItems": null,
           "coinCost": null,
           "description": [
-            "施放瞬间伤害|{param1:F1P}",
-            "机关协同伤害|{param2:F1P}",
-            "施放瞬间治疗|{param4:F1P}攻击力+{param3:I}",
-            "机关持续治疗|{param6:F1P}攻击力+{param5:I}",
-            "机关治疗触发间隔|{param7:F2}秒",
-            "机关持续时间|{param9:F1}秒",
+            "技能伤害|{param1:F1P}",
+            "竹星伤害|{param2:F1P}",
+            "治疗量|{param4:F1P}攻击力+{param3:I}",
+            "持续治疗量|{param6:F1P}攻击力+{param5:I}",
+            "持续时间|{param9:F1}秒",
             "冷却时间|{param10:F1}秒",
             "元素能量|{param11:I}",
+            "",
             "",
             "",
             "",
@@ -2277,10 +2555,10 @@
           "params": [
             2.43,
             0.882,
-            2272.81567,
-            2.7648,
-            681.84497,
-            0.82944,
+            1704.61243,
+            2.0736,
+            795.48578,
+            0.96768,
             2.5,
             8,
             16,
@@ -2302,14 +2580,14 @@
           "costItems": null,
           "coinCost": null,
           "description": [
-            "施放瞬间伤害|{param1:F1P}",
-            "机关协同伤害|{param2:F1P}",
-            "施放瞬间治疗|{param4:F1P}攻击力+{param3:I}",
-            "机关持续治疗|{param6:F1P}攻击力+{param5:I}",
-            "机关治疗触发间隔|{param7:F2}秒",
-            "机关持续时间|{param9:F1}秒",
+            "技能伤害|{param1:F1P}",
+            "竹星伤害|{param2:F1P}",
+            "治疗量|{param4:F1P}攻击力+{param3:I}",
+            "持续治疗量|{param6:F1P}攻击力+{param5:I}",
+            "持续时间|{param9:F1}秒",
             "冷却时间|{param10:F1}秒",
             "元素能量|{param11:I}",
+            "",
             "",
             "",
             "",
@@ -2322,10 +2600,10 @@
           "params": [
             2.565,
             0.931,
-            2433.33301,
-            2.9184,
-            730.00012,
-            0.87552,
+            1825.00024,
+            2.1888,
+            851.66681,
+            1.02144,
             2.5,
             8,
             16,
@@ -2344,43 +2622,109 @@
         }
       },
       "cooldown": 18,
-      "cost": 70
+      "cost": 70,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 1,
+            "type": "normal"
+          },
+          {
+            "id": 2,
+            "type": "level"
+          },
+          {
+            "id": 5,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Skill DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "50",
+            "verticalForce": "800"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Starwicker DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Elemental Burst"
+            },
+            "type": {
+              "span": null,
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "50",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "4": {
       "type": 2,
       "name": "霜翎高逐祥风势",
-      "description": "<color=#80FFD7FF>朝起鹤云<\/color>的闲云冲击波·天威压众命中后，将在前方生成风涡，牵引附近的敌人与物体。",
-      "icon": "UI_Talent_S_Liuyun_05"
+      "description": "<color=#FFD780FF>朝起鹤云<\/color>的闲云冲击波每命中一个敌人，都将为队伍中附近的所有角色产生一层持续20秒，至多叠加4层的「风翎」效果，使角色的下落攻击的暴击率提升4%\/6%\/8%\/10%。\\n每次命中敌人产生的「风翎」的持续时间独立计算。",
+      "icon": "UI_Talent_S_Liuyun_05",
+      "linkedConstellations": null
     },
     "5": {
       "type": 2,
       "name": "细想应是洞中仙",
-      "description": "<color=#80FFD7FF>暮集竹星<\/color>的竹星拥有仙力助推时，附近的当前场上角色的下落攻击坠地冲击造成的伤害提升，提升值相当于闲云的攻击力的170%。通过这种方式，至多使附近的当前场上角色的下落攻击坠地冲击伤害提升8500。\\n一次下落攻击坠地冲击伤害中，只会对一名敌人造成上述伤害提升效果，每个角色每0.4秒至多触发一次。",
-      "icon": "UI_Talent_S_Liuyun_06"
+      "description": "<color=#FFD780FF>暮集竹星<\/color>的竹星拥有仙力助推时，附近的当前场上角色的下落攻击坠地冲击造成的伤害提升，提升值相当于闲云的攻击力的200%。通过这种方式，至多使附近的当前场上角色的下落攻击坠地冲击伤害提升9000。\\n一次下落攻击坠地冲击伤害中，只会对一名敌人造成上述伤害提升效果，每个角色每0.4秒至多触发一次。",
+      "icon": "UI_Talent_S_Liuyun_06",
+      "linkedConstellations": {
+        "isLevelIncluded": false,
+        "prop": [
+          {
+            "id": 1,
+            "type": "normal"
+          }
+        ]
+      }
     },
     "6": {
       "type": 2,
       "name": "身形如鹤",
       "description": "队伍中自己的角色滑翔时移动速度提高15%。\\n无法与效果完全相同的固有天赋叠加。",
-      "icon": "UI_Talent_S_Liuyun_07"
+      "icon": "UI_Talent_S_Liuyun_07",
+      "linkedConstellations": null
     }
   },
   "constellation": {
     "0": {
+      "id": 0,
       "name": "借风洗尘缘",
-      "description": "<color=#80FFD7FF>朝起鹤云<\/color>的可用次数增加1次。",
+      "description": "<color=#FFD780FF>朝起鹤云<\/color>的可用次数增加1次。",
       "extraData": null,
       "icon": "UI_Talent_S_Liuyun_01"
     },
     "1": {
+      "id": 1,
       "name": "鹤唳远人间",
-      "description": "施放<color=#80FFD7FF>朝起鹤云<\/color>后，闲云的攻击力提升20%，持续15秒。\\n此外，固有天赋「细想应是洞中仙」的效果获得提升：<color=#80FFD7FF>暮集竹星<\/color>的竹星拥有仙力助推时，附近的当前场上角色的下落攻击坠地冲击造成的伤害提升，提升值相当于闲云的攻击力的306%。通过这种方式，至多使附近的当前场上角色的下落攻击坠地冲击伤害提升15300。\\n一次下落攻击坠地冲击伤害中，只会对一名敌人造成上述伤害提升效果，每个角色每0.4秒至多触发一次。\\n该效果需要解锁固有天赋「细想应是洞中仙」。",
+      "description": "施放<color=#FFD780FF>朝起鹤云<\/color>的步天梯后，闲云的攻击力提升20%，持续15秒。\\n此外，固有天赋「细想应是洞中仙」的效果获得提升：<color=#FFD780FF>暮集竹星<\/color>的竹星拥有仙力助推时，附近的当前场上角色的下落攻击坠地冲击造成的伤害提升，提升值相当于闲云的攻击力的400%。通过这种方式，至多使附近的当前场上角色的下落攻击坠地冲击伤害提升18000。\\n一次下落攻击坠地冲击伤害中，只会对一名敌人造成上述伤害提升效果，每个角色每0.4秒至多触发一次。\\n该效果需要解锁固有天赋「细想应是洞中仙」。",
       "extraData": null,
       "icon": "UI_Talent_S_Liuyun_02"
     },
     "2": {
+      "id": 2,
       "name": "造化有星月",
-      "description": "<color=#80FFD7FF>暮集竹星<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "description": "<color=#FFD780FF>暮集竹星<\/color>的技能等级提高3级。\\n至多提升至15级。",
       "extraData": {
         "addTalentExtraLevel": {
           "talentType": "AvatarSkill",
@@ -2391,14 +2735,16 @@
       "icon": "UI_Talent_U_Liuyun_02"
     },
     "3": {
+      "id": 3,
       "name": "奥妙烹黍珠",
-      "description": "在一次<color=#80FFD7FF>朝起鹤云<\/color>的鹤云幻化期间施展了1\/2\/3次步天梯后，该次鹤云幻化期间的闲云冲击波命中敌人时，将为队伍中附近的所有角色恢复生命值，回复量相当于闲云攻击力的50%\/80%\/150%。该效果每5秒至多触发一次。",
+      "description": "在一次<color=#FFD780FF>朝起鹤云<\/color>的鹤云幻化期间施展了1\/2\/3次步天梯后，该次鹤云幻化期间的闲云冲击波命中敌人时，将为队伍中附近的所有角色恢复生命值，回复量相当于闲云攻击力的50%\/80%\/150%。该效果每5秒至多触发一次。",
       "extraData": null,
       "icon": "UI_Talent_S_Liuyun_03"
     },
     "4": {
+      "id": 4,
       "name": "旋步霞蔚上",
-      "description": "<color=#80FFD7FF>朝起鹤云<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "description": "<color=#FFD780FF>朝起鹤云<\/color>的技能等级提高3级。\\n至多提升至15级。",
       "extraData": {
         "addTalentExtraLevel": {
           "talentType": "AvatarSkill",
@@ -2409,11 +2755,11 @@
       "icon": "UI_Talent_U_Liuyun_01"
     },
     "5": {
+      "id": 5,
       "name": "知是留云僊",
-      "description": "在一次<color=#80FFD7FF>朝起鹤云<\/color>的鹤云幻化期间施展了1\/2\/3次步天梯后，该次鹤云幻化期间的闲云冲击波的暴击伤害提升15%\/35%\/70%。\\n闲云施放朝起鹤云时，若<color=#80FFD7FF>暮集竹星<\/color>的竹星拥有仙力助推，则消耗一层仙力助推，使这次朝起鹤云不进入冷却，且这次鹤云幻化期间的闲云冲击波触发竹星的攻击时，不消耗仙力助推。\\n此外，闲云冲击波·天威压众命中敌人时，竹星将获得一层仙力助推，该效果每8秒至多触发一次。",
+      "description": "在一次<color=#FFD780FF>朝起鹤云<\/color>的鹤云幻化期间施放了1\/2\/3次步天梯后，该次鹤云幻化期间的闲云冲击波的暴击伤害提升15%\/35%\/70%。\\n闲云施放<color=#FFD780FF>暮集竹星<\/color>后的16秒内，朝起鹤云将不再进入冷却，该效果将在闲云施放8次朝起鹤云后移除。",
       "extraData": null,
       "icon": "UI_Talent_S_Liuyun_04"
     }
-  },
-  "beta": true
+  }
 }

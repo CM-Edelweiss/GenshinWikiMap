@@ -4,8 +4,11 @@
   "type": "法器",
   "name": "白辰之环",
   "description": "承载着过去的「狐斋宫」思念的法器。但她的思念之大，是无法完全装进这样小小的器物当中的。",
+  "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
   "icon": "UI_EquipIcon_Catalyst_Bakufu",
-  "storyId": 194414,
+  "storyId": [
+    "14414"
+  ],
   "affix": {
     "114414": {
       "name": "樱之斋宫",
@@ -164,5 +167,77 @@
     "114026": 3,
     "114027": 4,
     "114028": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112008": {
+      "name": "导能绘卷",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112008"
+    },
+    "112009": {
+      "name": "封魔绘卷",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112009"
+    },
+    "112010": {
+      "name": "禁咒绘卷",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112010"
+    },
+    "112050": {
+      "name": "黯淡棱镜",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112050"
+    },
+    "112051": {
+      "name": "水晶棱镜",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112051"
+    },
+    "112052": {
+      "name": "偏光棱镜",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112052"
+    },
+    "114025": {
+      "name": "远海夷地的瑚枝",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114025"
+    },
+    "114026": {
+      "name": "远海夷地的玉枝",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114026"
+    },
+    "114027": {
+      "name": "远海夷地的琼枝",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114027"
+    },
+    "114028": {
+      "name": "远海夷地的金枝",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114028"
+    }
   }
 }

@@ -4,12 +4,15 @@
   "name": "琳妮特",
   "element": "Wind",
   "weaponType": "WEAPON_SWORD_ONE_HAND",
+  "region": "FONTAINE",
+  "specialProp": "FIGHT_PROP_WIND_ADD_HURT",
+  "bodyType": "GIRL",
   "icon": "UI_AvatarIcon_Linette",
   "birthday": [
     2,
     2
   ],
-  "release": 1690059600,
+  "release": 1692046800,
   "route": "Lynette",
   "fetter": {
     "title": "丽影绮行",
@@ -17,10 +20,10 @@
     "constellation": "白尾猫座",
     "native": "布法蒂公馆",
     "cv": {
-      "EN": "",
-      "CHS": "",
-      "JP": "",
-      "KR": ""
+      "EN": "阿奈丽丝·基尼奥内斯",
+      "CHS": "可可味",
+      "JP": "篠原侑",
+      "KR": "李瑟琳娜"
     }
   },
   "upgrade": {
@@ -166,8 +169,8 @@
     "furnitureId": 368169,
     "nameCard": {
       "id": 210166,
-      "name": "？？？",
-      "description": "？？？",
+      "name": "琳妮特·成真",
+      "description": "名片纹饰。\\n魔术有一大分类就是「突然出现」。琳妮特平常虽然都在节约能量，但是认真的一面也会像是魔术帽里的鸽子一样突然出现。",
       "icon": "UI_NameCardIcon_Linette"
     },
     "specialFood": {
@@ -193,6 +196,98 @@
     "112085": 3,
     "113048": 5,
     "113049": 4
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "101235": {
+      "name": "柔灯铃",
+      "rank": 1,
+      "icon": "UI_ItemIcon_101235"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104151": {
+      "name": "自在松石碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104151"
+    },
+    "104152": {
+      "name": "自在松石断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104152"
+    },
+    "104153": {
+      "name": "自在松石块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104153"
+    },
+    "104154": {
+      "name": "自在松石",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104154"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "104344": {
+      "name": "「秩序」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104344"
+    },
+    "104345": {
+      "name": "「秩序」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104345"
+    },
+    "104346": {
+      "name": "「秩序」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104346"
+    },
+    "112083": {
+      "name": "啮合齿轮",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112083"
+    },
+    "112084": {
+      "name": "机关正齿轮",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112084"
+    },
+    "112085": {
+      "name": "奇械机芯齿轮",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112085"
+    },
+    "113048": {
+      "name": "亘古树海之一瞬",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113048"
+    },
+    "113049": {
+      "name": "奇械发条备件·歌裴莉娅",
+      "rank": 4,
+      "icon": "UI_ItemIcon_113049"
+    }
   },
   "talent": {
     "0": {
@@ -910,12 +1005,144 @@
         }
       },
       "cooldown": 0,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "7",
+              "text": "Normal Attack"
+            },
+            "type": {
+              "span": "7",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "46.0575",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "40.2102",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit A",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "27",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit B",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "27",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "67.6422",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charged Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "60",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charged Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "60",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "655",
+            "verticalForce": "800"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "800"
+          },
+          "bluntAttack": true
+        }
+      ]
     },
     "1": {
       "type": 0,
       "name": "谜影障身法",
-      "description": "挥舞斗篷，击出谜影突刺，造成<color=#80FFD7FF>风元素伤害<\/color>。\\n谜影突刺命中敌人时，将为琳妮特恢复生命值，回复量基于琳妮特的生命值上限，并在此后的4秒内，每秒将消耗一定的生命值。\\n依据点按、长按，以不同的方式击出谜影突刺。\\n\\n<color=#FFD780FF>点按<\/color>\\n迅速击出谜影突刺。 \\n\\n<color=#FFD780FF>长按<\/color>\\n以「谜身影盗」的姿态疾走，并对附近的敌人施加「刺影征标」。\\n疾走结束时，琳妮特将击出谜影突刺。若附近存在具有刺影征标的敌人，琳妮特将在击出谜影突刺前高速闪掠接近该敌人。\\n\\n同时至多有一名敌人具有琳妮特自身施加的刺影征标。与具有刺影征标的敌人距离过远时，将移除该刺影征标。\\n\\n<color=#FFD780FF>始基力：荒性<\/color>\\n每隔一段时间，琳妮特击出谜影突刺时，将唤出流涌之刃，造成具有荒性的<color=#80FFD7FF>风元素伤害<\/color>。\\n\\n<i>「现在就将视线转回台上，继续观赏表演吧。当我再次出现，就会是在你意想不到的地方了。」<\/i>",
+      "description": "挥舞斗篷，击出谜影突刺，造成<color=#80FFD7FF>风元素伤害<\/color>。\\n谜影突刺命中敌人时，将为琳妮特恢复生命值，回复量基于琳妮特的生命值上限，并在此后的4秒内，每秒将消耗一定的生命值。\\n依据点按、长按，以不同的方式击出谜影突刺。\\n\\n<color=#FFD780FF>点按<\/color>\\n迅速击出谜影突刺。 \\n\\n<color=#FFD780FF>长按<\/color>\\n琳妮特以「谜身影盗」的姿态疾走，并对附近的敌人施加「刺影征标」。期间可以控制疾走的方向，并能通过再次施放技能，提前结束疾走状态。\\n疾走结束时，琳妮特将击出谜影突刺。若附近存在具有刺影征标的敌人，琳妮特将在击出谜影突刺前高速闪掠接近该敌人。\\n\\n同时至多有一名敌人具有琳妮特自身施加的刺影征标。与具有刺影征标的敌人距离过远时，将移除该刺影征标。\\n\\n<color=#FFD780FF>始基力：荒性<\/color>\\n每隔一段时间，琳妮特击出谜影突刺时，将唤出流涌之刃，造成具有荒性的<color=#80FFD7FF>风元素伤害<\/color>。\\n\\n<i>「现在就将视线转回台上，继续观赏表演吧。当我再次出现，就会是在你意想不到的地方了。」<\/i>",
       "icon": "Skill_S_Linette_01",
       "promote": {
         "1": {
@@ -1627,7 +1854,66 @@
         }
       },
       "cooldown": 12,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          },
+          {
+            "id": 3,
+            "type": "normal"
+          },
+          {
+            "id": 4,
+            "type": "level"
+          },
+          {
+            "id": 5,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Enigma Thrust DMG (Press)",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Enigma Thrust DMG (Hold)",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "125",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Surging Blade DMG",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "20",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "3": {
       "type": 1,
@@ -2344,41 +2630,116 @@
         }
       },
       "cooldown": 18,
-      "cost": 70
+      "cost": 70,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 1,
+            "type": "normal"
+          },
+          {
+            "id": 2,
+            "type": "level"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Skill DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "2",
+              "text": "Elemental Burst"
+            },
+            "type": {
+              "span": "2",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "40",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Bogglecat Box DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "40",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Vivid Shot DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Vivid Shot"
+            },
+            "type": {
+              "span": null,
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "40",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "4": {
       "type": 2,
       "name": "巧施协同",
       "description": "施放<color=#FFD780FF>魔术·运变惊奇<\/color>后的10秒内，队伍中分别存在1\/2\/3\/4种元素类型的角色时，队伍中所有角色的攻击力分别提升8%\/12%\/16%\/20%。",
-      "icon": "UI_Talent_S_Linette_05"
+      "icon": "UI_Talent_S_Linette_05",
+      "linkedConstellations": null
     },
     "5": {
       "type": 2,
       "name": "道具完备",
       "description": "<color=#FFD780FF>魔术·运变惊奇<\/color>召唤的惊奇猫猫盒发生了元素转化后，琳妮特元素爆发造成的伤害提升15%，效果持续至该惊奇猫猫盒持续时间结束。",
-      "icon": "UI_Talent_S_Linette_06"
+      "icon": "UI_Talent_S_Linette_06",
+      "linkedConstellations": null
     },
     "6": {
       "type": 2,
       "name": "点位记忆法",
       "description": "在小地图上显示周围<color=#FFD780FF>复苏水团<\/color>的位置，并使接触复苏水团时恢复的水中耐力与生命值提升25%。",
-      "icon": "UI_Talent_S_Linette_07"
+      "icon": "UI_Talent_S_Linette_07",
+      "linkedConstellations": null
     }
   },
   "constellation": {
     "0": {
+      "id": 0,
       "name": "如影流露的冷刃",
       "description": "<color=#FFD780FF>谜影障身法<\/color>的谜影突刺命中带有刺影征标的敌人时，将在敌人的位置生成风涡，牵引附近的敌人。",
       "extraData": null,
       "icon": "UI_Talent_S_Linette_01"
     },
     "1": {
+      "id": 1,
       "name": "层见叠出的谜象",
       "description": "<color=#FFD780FF>魔术·运变惊奇<\/color>召唤的惊奇猫猫盒发射彩练术弹时，将额外发射一枚彩练术弹。",
       "extraData": null,
       "icon": "UI_Talent_S_Linette_02"
     },
     "2": {
+      "id": 2,
       "name": "倒错知能的视度",
       "description": "<color=#FFD780FF>魔术·运变惊奇<\/color>的技能等级提高3级。\\n至多提升至15级。",
       "extraData": {
@@ -2391,12 +2752,14 @@
       "icon": "UI_Talent_U_Linette_01"
     },
     "3": {
+      "id": 3,
       "name": "灵犀默应的配合",
       "description": "<color=#FFD780FF>谜影障身法<\/color>的可使用次数增加1次。",
       "extraData": null,
       "icon": "UI_Talent_S_Linette_03"
     },
     "4": {
+      "id": 4,
       "name": "暗昧遮目的障法",
       "description": "<color=#FFD780FF>谜影障身法<\/color>的技能等级提高3级。\\n至多提升至15级。",
       "extraData": {
@@ -2409,11 +2772,11 @@
       "icon": "UI_Talent_U_Linette_02"
     },
     "5": {
+      "id": 5,
       "name": "示辨真意的眼",
       "description": "琳妮特施放<color=#FFD780FF>谜影障身法<\/color>的谜影突刺时，将获得<color=#80FFD7FF>风元素附魔<\/color>，<color=#80FFD7FF>风元素伤害加成<\/color>提升20%，持续6秒。",
       "extraData": null,
       "icon": "UI_Talent_S_Linette_04"
     }
-  },
-  "beta": true
+  }
 }

@@ -4,23 +4,26 @@
   "name": "菲米尼",
   "element": "Ice",
   "weaponType": "WEAPON_CLAYMORE",
+  "region": "FONTAINE",
+  "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+  "bodyType": "BOY",
   "icon": "UI_AvatarIcon_Freminet",
   "birthday": [
     9,
     24
   ],
-  "release": 1690059600,
+  "release": 1693926000,
   "route": "Freminet",
   "fetter": {
     "title": "潜怀遐梦",
-    "detail": "精于潜水的寡言少年，在如寒冰般拒人千里的外表下，藏有一颗无暇的纯真之心。",
+    "detail": "精于潜水的寡言少年，在如寒冰般拒人千里的外表下，藏有一颗无瑕的纯真之心。",
     "constellation": "机巧座",
     "native": "布法蒂公馆",
     "cv": {
-      "EN": "",
-      "CHS": "",
-      "JP": "",
-      "KR": ""
+      "EN": "小保罗·卡斯特罗",
+      "CHS": "锦鲤",
+      "JP": "土岐隼一",
+      "KR": "李周承"
     }
   },
   "upgrade": {
@@ -166,8 +169,8 @@
     "furnitureId": 368171,
     "nameCard": {
       "id": 210167,
-      "name": "？？？",
-      "description": "？？？",
+      "name": "菲米尼·行进",
+      "description": "名片纹饰。\\n明明发条在原地打转，玩偶们却在迈步向前。",
       "icon": "UI_NameCardIcon_Freminet"
     },
     "specialFood": {
@@ -193,6 +196,98 @@
     "112082": 3,
     "113046": 5,
     "113050": 4
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "101233": {
+      "name": "海露花",
+      "rank": 1,
+      "icon": "UI_ItemIcon_101233"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104161": {
+      "name": "哀叙冰玉碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104161"
+    },
+    "104162": {
+      "name": "哀叙冰玉断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104162"
+    },
+    "104163": {
+      "name": "哀叙冰玉块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104163"
+    },
+    "104164": {
+      "name": "哀叙冰玉",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104164"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "104341": {
+      "name": "「正义」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104341"
+    },
+    "104342": {
+      "name": "「正义」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104342"
+    },
+    "104343": {
+      "name": "「正义」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104343"
+    },
+    "112080": {
+      "name": "异海凝珠",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112080"
+    },
+    "112081": {
+      "name": "异海之块",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112081"
+    },
+    "112082": {
+      "name": "异色结晶石",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112082"
+    },
+    "113046": {
+      "name": "生长天地之蕨草",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113046"
+    },
+    "113050": {
+      "name": "奇械发条备件·科培琉司",
+      "rank": 4,
+      "icon": "UI_ItemIcon_113050"
+    }
   },
   "talent": {
     "0": {
@@ -910,7 +1005,135 @@
         }
       },
       "cooldown": 0,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 2,
+            "type": "level"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "6",
+              "text": "Normal Attack"
+            },
+            "type": {
+              "span": "6",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "112.6437",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "107.8804",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Normal Attack 3-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "136.267",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Normal Attack 4-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "165.5529",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Charged Attack Cyclic",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "60",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Charged Attack Final Slash",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "120",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "35",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "200",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "800"
+          },
+          "bluntAttack": true
+        }
+      ]
     },
     "1": {
       "type": 0,
@@ -1627,7 +1850,173 @@
         }
       },
       "cooldown": 10,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          },
+          {
+            "id": 1,
+            "type": "normal"
+          },
+          {
+            "id": 4,
+            "type": "level"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Upward Thrust DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "7",
+              "text": "Elemental Skill"
+            },
+            "type": {
+              "span": "7",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "75",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "600"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Frost DMG 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Frost DMG 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Frost DMG 3-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Frost DMG 4-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Level 0 Shattering Pressure DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Level 1–3 Shattering Pressure DMG (Cryo)",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "70",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Level 1–3 Shattering Pressure DMG (Physical)",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": {
+            "tag": {
+              "span": "2",
+              "text": "—"
+            },
+            "type": {
+              "span": "2",
+              "text": "—"
+            }
+          },
+          "interruptionResistance": "70",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Level 4 Shattering Pressure DMG",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Spiritbreath Thorn DMG",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "—"
+            },
+            "type": {
+              "span": null,
+              "text": ""
+            }
+          },
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "3": {
       "type": 1,
@@ -2344,41 +2733,62 @@
         }
       },
       "cooldown": 15,
-      "cost": 60
+      "cost": 60,
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Skill DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "200",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        }
+      ]
     },
     "4": {
       "type": 2,
       "name": "饱和深潜",
       "description": "施放<color=#FFD780FF>浮冰增压·高压粉碎<\/color>时，如果佩伊刻计的压力阶级小于四阶，浮冰增压的冷却时间缩短1秒。",
-      "icon": "UI_Talent_S_Freminet_05"
+      "icon": "UI_Talent_S_Freminet_05",
+      "linkedConstellations": null
     },
     "5": {
       "type": 2,
       "name": "并流式冷凝机关",
       "description": "菲米尼对敌人触发碎冰反应后，会使<color=#FFD780FF>浮冰增压·高压粉碎<\/color>造成的伤害提高40%，持续5秒。",
-      "icon": "UI_Talent_S_Freminet_06"
+      "icon": "UI_Talent_S_Freminet_06",
+      "linkedConstellations": null
     },
     "6": {
       "type": 2,
       "name": "深水引航",
       "description": "队伍中自己的角色水中耐力消耗降低35%。\\n无法与效果完全相同的固有天赋叠加。",
-      "icon": "UI_Talent_S_Freminet_07"
+      "icon": "UI_Talent_S_Freminet_07",
+      "linkedConstellations": null
     }
   },
   "constellation": {
     "0": {
+      "id": 0,
       "name": "深水与泡沫之梦",
       "description": "<color=#FFD780FF>浮冰增压·高压粉碎<\/color>的暴击率提高15%。",
       "extraData": null,
       "icon": "UI_Talent_S_Freminet_01"
     },
     "1": {
+      "id": 1,
       "name": "企鹅与丰渥之国",
       "description": "施放<color=#FFD780FF>浮冰增压·高压粉碎<\/color>将为菲米尼恢复2点元素能量。如果施放的是四阶压力的高压粉碎，则转为恢复3点。",
       "extraData": null,
       "icon": "UI_Talent_S_Freminet_02"
     },
     "2": {
+      "id": 2,
       "name": "洑流与白砂之歌",
       "description": "<color=#FFD780FF>普通攻击·洑流剑<\/color>的技能等级提高3级。\\n至多提升至15级。",
       "extraData": {
@@ -2391,12 +2801,14 @@
       "icon": "UI_Talent_U_Freminet_01"
     },
     "3": {
+      "id": 3,
       "name": "雪月与芦笛之舞",
       "description": "菲米尼对敌人触发冰冻、碎冰、超导反应后，攻击力提升9%。该效果持续6秒，至多叠加2次，每0.3秒至多触发一次。",
       "extraData": null,
       "icon": "UI_Talent_S_Freminet_03"
     },
     "4": {
+      "id": 4,
       "name": "炉火与欢笑之夜",
       "description": "<color=#FFD780FF>浮冰增压<\/color>的技能等级提高3级。\\n至多提升至15级。",
       "extraData": {
@@ -2409,11 +2821,11 @@
       "icon": "UI_Talent_U_Freminet_02"
     },
     "5": {
+      "id": 5,
       "name": "梦晓与决意之刻",
       "description": "菲米尼对敌人触发冰冻、碎冰、超导反应后，暴击伤害提升12%。该效果持续6秒，至多叠加3次，每0.3秒至多触发一次。",
       "extraData": null,
       "icon": "UI_Talent_S_Freminet_04"
     }
-  },
-  "beta": true
+  }
 }

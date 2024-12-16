@@ -3,9 +3,12 @@
   "rank": 4,
   "type": "弓",
   "name": "鹮穿之喙",
-  "description": "",
+  "description": "以故事中的描述铸就的黄金之弓。若将它作为寻常武具使用，也可视为让纸上故事的一角在纸外的世界得到显现了吧。",
+  "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
   "icon": "UI_EquipIcon_Bow_Ibis",
-  "storyId": 195419,
+  "storyId": [
+    "15419"
+  ],
   "affix": {
     "115419": {
       "name": "秘智之眸的青睐",
@@ -165,5 +168,76 @@
     "114039": 4,
     "114040": 5
   },
-  "beta": true
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112065": {
+      "name": "褪色红绸",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112065"
+    },
+    "112066": {
+      "name": "镶边红绸",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112066"
+    },
+    "112067": {
+      "name": "织金红绸",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112067"
+    },
+    "112077": {
+      "name": "来自何处的待放之花",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112077"
+    },
+    "112078": {
+      "name": "何人所珍藏之花",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112078"
+    },
+    "112079": {
+      "name": "漫游者的盛放之花",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112079"
+    },
+    "114037": {
+      "name": "谧林涓露的铜符",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114037"
+    },
+    "114038": {
+      "name": "谧林涓露的铁符",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114038"
+    },
+    "114039": {
+      "name": "谧林涓露的银符",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114039"
+    },
+    "114040": {
+      "name": "谧林涓露的金符",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114040"
+    }
+  }
 }

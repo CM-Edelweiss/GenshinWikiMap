@@ -4,8 +4,11 @@
   "type": "法器",
   "name": "异世界行记",
   "description": "廉价的幻想小说，不具备参考价值。作为法器的力量当然也来自幻想。",
+  "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
   "icon": "UI_EquipIcon_Catalyst_Lightnov",
-  "storyId": 194303,
+  "storyId": [
+    "14303"
+  ],
   "affix": {
     "114303": {
       "name": "能量沐浴",
@@ -164,5 +167,77 @@
     "114010": 3,
     "114011": 4,
     "114012": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112005": {
+      "name": "破损的面具",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112005"
+    },
+    "112006": {
+      "name": "污秽的面具",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112006"
+    },
+    "112007": {
+      "name": "不祥的面具",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112007"
+    },
+    "112023": {
+      "name": "混沌装置",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112023"
+    },
+    "112024": {
+      "name": "混沌回路",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112024"
+    },
+    "112025": {
+      "name": "混沌炉心",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112025"
+    },
+    "114009": {
+      "name": "狮牙斗士的枷锁",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114009"
+    },
+    "114010": {
+      "name": "狮牙斗士的铁链",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114010"
+    },
+    "114011": {
+      "name": "狮牙斗士的镣铐",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114011"
+    },
+    "114012": {
+      "name": "狮牙斗士的理想",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114012"
+    }
   }
 }

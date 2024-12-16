@@ -4,8 +4,11 @@
   "type": "弓",
   "name": "暗巷猎手",
   "description": "外形精巧奢华的长弓，曾属于某位从未被抓获的义贼。",
+  "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
   "icon": "UI_EquipIcon_Bow_Outlaw",
-  "storyId": 195410,
+  "storyId": [
+    "15410"
+  ],
   "affix": {
     "115410": {
       "name": "街巷伏击",
@@ -164,5 +167,77 @@
     "114010": 3,
     "114011": 4,
     "114012": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112002": {
+      "name": "史莱姆凝液",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112002"
+    },
+    "112003": {
+      "name": "史莱姆清",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112003"
+    },
+    "112004": {
+      "name": "史莱姆原浆",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112004"
+    },
+    "112023": {
+      "name": "混沌装置",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112023"
+    },
+    "112024": {
+      "name": "混沌回路",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112024"
+    },
+    "112025": {
+      "name": "混沌炉心",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112025"
+    },
+    "114009": {
+      "name": "狮牙斗士的枷锁",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114009"
+    },
+    "114010": {
+      "name": "狮牙斗士的铁链",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114010"
+    },
+    "114011": {
+      "name": "狮牙斗士的镣铐",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114011"
+    },
+    "114012": {
+      "name": "狮牙斗士的理想",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114012"
+    }
   }
 }

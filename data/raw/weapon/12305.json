@@ -4,8 +4,11 @@
   "type": "双手剑",
   "name": "以理服人",
   "description": "精钢打造的趁手大铁棒子。最好的理论依据。",
+  "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
   "icon": "UI_EquipIcon_Claymore_Reasoning",
-  "storyId": 192305,
+  "storyId": [
+    "12305"
+  ],
   "affix": {
     "112305": {
       "name": "有话直说",
@@ -164,5 +167,77 @@
     "114018": 3,
     "114019": 4,
     "114020": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112005": {
+      "name": "破损的面具",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112005"
+    },
+    "112006": {
+      "name": "污秽的面具",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112006"
+    },
+    "112007": {
+      "name": "不祥的面具",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112007"
+    },
+    "112026": {
+      "name": "雾虚花粉",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112026"
+    },
+    "112027": {
+      "name": "雾虚草囊",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112027"
+    },
+    "112028": {
+      "name": "雾虚灯芯",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112028"
+    },
+    "114017": {
+      "name": "雾海云间的铅丹",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114017"
+    },
+    "114018": {
+      "name": "雾海云间的汞丹",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114018"
+    },
+    "114019": {
+      "name": "雾海云间的金丹",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114019"
+    },
+    "114020": {
+      "name": "雾海云间的转还",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114020"
+    }
   }
 }

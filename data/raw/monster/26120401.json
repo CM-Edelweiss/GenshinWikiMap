@@ -45,6 +45,7 @@
         "rockSubHurt": 0.3,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": null
     }
   },

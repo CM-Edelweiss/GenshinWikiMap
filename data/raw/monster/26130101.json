@@ -56,72 +56,89 @@
       "fundamentalForce": null,
       "reward": {
         "102": {
+          "name": "冒险阅历",
           "rank": 3,
           "icon": "UI_ItemIcon_102",
           "count": "200"
         },
         "105": {
+          "name": "好感经验",
           "rank": 3,
           "icon": "UI_ItemIcon_105"
         },
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "104151": {
+          "name": "自在松石碎屑",
           "rank": 2,
           "icon": "UI_ItemIcon_104151"
         },
         "104152": {
+          "name": "自在松石断片",
           "rank": 3,
           "icon": "UI_ItemIcon_104152"
         },
         "104153": {
+          "name": "自在松石块",
           "rank": 4,
           "icon": "UI_ItemIcon_104153"
         },
         "104154": {
+          "name": "自在松石",
           "rank": 5,
           "icon": "UI_ItemIcon_104154"
         },
         "113044": {
+          "name": "苍砾蕊羽",
           "rank": 4,
           "icon": "UI_ItemIcon_113044",
           "count": "2.5556"
         },
         "400022": {
+          "name": "战狂",
           "rank": 3,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400023": {
+          "name": "战狂",
           "rank": 4,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400032": {
+          "name": "教官",
           "rank": 3,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400033": {
+          "name": "教官",
           "rank": 4,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400052": {
+          "name": "幸运儿",
           "rank": 3,
           "icon": "UI_RelicIcon_10011_4"
         },
         "400088": {
+          "name": "角斗士的终幕礼",
           "rank": 4,
           "icon": "UI_RelicIcon_15001_4"
         },
         "400089": {
+          "name": "角斗士的终幕礼",
           "rank": 5,
           "icon": "UI_RelicIcon_15001_4"
         },
         "400098": {
+          "name": "流浪大地的乐团",
           "rank": 4,
           "icon": "UI_RelicIcon_15003_4"
         },
         "400099": {
+          "name": "流浪大地的乐团",
           "rank": 5,
           "icon": "UI_RelicIcon_15003_4"
         }

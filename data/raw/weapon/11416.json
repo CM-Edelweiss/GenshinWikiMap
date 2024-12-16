@@ -4,8 +4,11 @@
   "type": "单手剑",
   "name": "笼钓瓶一心",
   "description": "于遥远北国诞生之名刀，曾在归乡路上沾染无数罪恶，只为「一心」二字。",
+  "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
   "icon": "UI_EquipIcon_Sword_Youtou",
-  "storyId": 191416,
+  "storyId": [
+    "11416"
+  ],
   "affix": {
     "111416": {
       "name": "澄澄一心传",
@@ -155,5 +158,77 @@
     "114034": 3,
     "114035": 4,
     "114036": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112017": {
+      "name": "晦暗刻像",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112017"
+    },
+    "112018": {
+      "name": "夤夜刻像",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112018"
+    },
+    "112019": {
+      "name": "幽邃刻像",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112019"
+    },
+    "112053": {
+      "name": "浮游干核",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112053"
+    },
+    "112054": {
+      "name": "浮游幽核",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112054"
+    },
+    "112055": {
+      "name": "浮游晶化核",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112055"
+    },
+    "114033": {
+      "name": "今昔剧画之恶尉",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114033"
+    },
+    "114034": {
+      "name": "今昔剧画之虎啮",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114034"
+    },
+    "114035": {
+      "name": "今昔剧画之一角",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114035"
+    },
+    "114036": {
+      "name": "今昔剧画之鬼人",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114036"
+    }
   }
 }

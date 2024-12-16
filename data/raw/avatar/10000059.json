@@ -4,6 +4,9 @@
   "name": "鹿野院平藏",
   "element": "Wind",
   "weaponType": "WEAPON_CATALYST",
+  "region": "INAZUMA",
+  "specialProp": "FIGHT_PROP_WIND_ADD_HURT",
+  "bodyType": "BOY",
   "icon": "UI_AvatarIcon_Heizo",
   "birthday": [
     7,
@@ -156,6 +159,14 @@
     ]
   },
   "other": {
+    "costume": [
+      {
+        "name": "弁武朝风",
+        "description": "鹿野院平藏的装扮款式。解下外套，随意系在腰间，天领奉行的侦探总是一副自在潇洒做派。",
+        "isDefault": true
+      }
+    ],
+    "furnitureId": 368151,
     "nameCard": {
       "id": 210122,
       "name": "鹿野院平藏·鞠毬",
@@ -185,6 +196,98 @@
     "112037": 3,
     "113034": 5,
     "113035": 4
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "101201": {
+      "name": "鬼兜虫",
+      "rank": 1,
+      "icon": "UI_ItemIcon_101201"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104151": {
+      "name": "自在松石碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104151"
+    },
+    "104152": {
+      "name": "自在松石断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104152"
+    },
+    "104153": {
+      "name": "自在松石块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104153"
+    },
+    "104154": {
+      "name": "自在松石",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104154"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "104320": {
+      "name": "「浮世」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104320"
+    },
+    "104321": {
+      "name": "「浮世」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104321"
+    },
+    "104322": {
+      "name": "「浮世」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104322"
+    },
+    "112035": {
+      "name": "寻宝鸦印",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112035"
+    },
+    "112036": {
+      "name": "藏银鸦印",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112036"
+    },
+    "112037": {
+      "name": "攫金鸦印",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112037"
+    },
+    "113034": {
+      "name": "万劫之真意",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113034"
+    },
+    "113035": {
+      "name": "符纹之齿",
+      "rank": 4,
+      "icon": "UI_ItemIcon_113035"
+    }
   },
   "talent": {
     "0": {
@@ -902,7 +1005,151 @@
         }
       },
       "cooldown": 0,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "7",
+              "text": "Normal Attack"
+            },
+            "type": {
+              "span": "7",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "42.16",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "41.46",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "57.44",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit A",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "16.63",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit B",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "18.29",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit C",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "21.62",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 5-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "69.13",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charged Attack",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "120",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "5",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "50",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "1": {
       "type": 0,
@@ -1619,7 +1866,86 @@
         }
       },
       "cooldown": 10,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          },
+          {
+            "id": 2,
+            "type": "level"
+          },
+          {
+            "id": 5,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "0 Stacks",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": null,
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "1 Stack",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": null,
+          "interruptionResistance": "175",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "2 Stacks",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": null,
+          "interruptionResistance": "200",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "3 Stacks",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": null,
+          "interruptionResistance": "225",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "4 Stacks",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": null,
+          "interruptionResistance": "250",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "655",
+            "verticalForce": "800"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "3": {
       "type": 1,
@@ -2336,56 +2662,126 @@
         }
       },
       "cooldown": 12,
-      "cost": 40
+      "cost": 40,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 1,
+            "type": "normal"
+          },
+          {
+            "id": 3,
+            "type": "normal"
+          },
+          {
+            "id": 4,
+            "type": "level"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Vacuum Slugger DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "800"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Windmuster Iris DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "4": {
       "type": 2,
       "name": "反论稽古",
       "description": "鹿野院平藏在场上触发扩散反应时，将获得1层<color=#FFD780FF>勠心拳<\/color>的「变格」效果，该效果每0.1秒至多触发一次。",
-      "icon": "UI_Talent_S_Heizo_05"
+      "icon": "UI_Talent_S_Heizo_05",
+      "linkedConstellations": null
     },
     "5": {
       "type": 2,
       "name": "因由勘破",
       "description": "<color=#FFD780FF>勠心拳<\/color>命中敌人后，队伍中所有角色（不包括鹿野院平藏自己）的元素精通提升80点，持续10秒。",
-      "icon": "UI_Talent_S_Heizo_06"
+      "icon": "UI_Talent_S_Heizo_06",
+      "linkedConstellations": null
     },
     "6": {
       "type": 2,
       "name": "在罪之先",
       "description": "队伍中自己的角色冲刺消耗的体力降低20%。\\n无法与效果完全相同的固有天赋叠加。",
-      "icon": "UI_Talent_Explosion_Sprint"
+      "icon": "UI_Talent_Explosion_Sprint",
+      "linkedConstellations": null
     }
   },
   "constellation": {
     "0": {
+      "id": 0,
       "name": "称名少年事件簿",
       "description": "鹿野院平藏登场后的5秒内，普通攻击的攻击速度提升15%，并获得1层<color=#FFD780FF>勠心拳<\/color>的「变格」效果，该效果每10秒最多触发一次。",
+      "extraData": null,
       "icon": "UI_Talent_S_Heizo_01"
     },
     "1": {
+      "id": 1,
       "name": "殊解诸因探案集",
       "description": "<color=#FFD780FF>聚风蹴<\/color>产生的缉拿风穴的牵引效果获得提升，并将持续时间延长至1秒。",
+      "extraData": null,
       "icon": "UI_Talent_S_Heizo_02"
     },
     "2": {
+      "id": 2,
       "name": "暗文隐语谜题册",
       "description": "<color=#FFD780FF>勠心拳<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 2,
+          "extraLevel": 3
+        }
+      },
       "icon": "UI_Talent_U_Heizo_01"
     },
     "3": {
+      "id": 3,
       "name": "虚言假说百物语",
       "description": "在一次<color=#FFD780FF>聚风蹴<\/color>中，「聚风真眼」在第一次爆发后，将为鹿野院平藏恢复9点元素能量，此后每次爆发，都将分别为鹿野院平藏额外恢复1.5点元素能量，\\n一次<color=#FFD780FF>聚风蹴<\/color>，至多通过这种方式为鹿野院平藏恢复13.5点元素能量。",
+      "extraData": null,
       "icon": "UI_Talent_S_Heizo_03"
     },
     "4": {
+      "id": 4,
       "name": "禁室密所大图鉴",
       "description": "<color=#FFD780FF>聚风蹴<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 9,
+          "extraLevel": 3
+        }
+      },
       "icon": "UI_Talent_U_Heizo_02"
     },
     "5": {
+      "id": 5,
       "name": "奇想天开捕物帐",
       "description": "施放<color=#FFD780FF>勠心拳<\/color>时，每层「变格」都将为本次勠心拳提升4%暴击率。拥有「正论」时，本次勠心拳的暴击伤害将提升32%。",
+      "extraData": null,
       "icon": "UI_Talent_S_Heizo_04"
     }
   }

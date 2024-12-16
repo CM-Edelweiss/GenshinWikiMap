@@ -4,12 +4,15 @@
   "name": "凯亚",
   "element": "Ice",
   "weaponType": "WEAPON_SWORD_ONE_HAND",
+  "region": "MONDSTADT",
+  "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
+  "bodyType": "MALE",
   "icon": "UI_AvatarIcon_Kaeya",
   "birthday": [
     11,
     30
   ],
-  "release": 1600131600,
+  "release": 1601244000,
   "route": "Kaeya",
   "fetter": {
     "title": "寒风剑士",
@@ -156,6 +159,21 @@
     ]
   },
   "other": {
+    "costume": [
+      {
+        "name": "冰上飞羽",
+        "description": "凯亚的装扮款式。以幽蓝色皮毛装饰衣领的潇洒衣装。",
+        "isDefault": true
+      },
+      {
+        "name": "帆影游风",
+        "description": "凯亚在舞台上饰演「短刀大盗」时的装扮，以「吸睛」为设计原则的华丽服装。不过衣服穿起来并不麻烦，最花时间打理的是饰品与短刀。",
+        "storyId": 340013,
+        "icon": "UI_AvatarIcon_KaeyaCostumeDancer",
+        "rank": 4
+      }
+    ],
+    "furnitureId": 368107,
     "nameCard": {
       "id": 210010,
       "name": "凯亚·孔雀",
@@ -185,6 +203,98 @@
     "112037": 3,
     "113008": 5,
     "113010": 4
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "100056": {
+      "name": "嘟嘟莲",
+      "rank": 1,
+      "icon": "UI_ItemIcon_100056"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104161": {
+      "name": "哀叙冰玉碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104161"
+    },
+    "104162": {
+      "name": "哀叙冰玉断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104162"
+    },
+    "104163": {
+      "name": "哀叙冰玉块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104163"
+    },
+    "104164": {
+      "name": "哀叙冰玉",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104164"
+    },
+    "104307": {
+      "name": "「诗文」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104307"
+    },
+    "104308": {
+      "name": "「诗文」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104308"
+    },
+    "104309": {
+      "name": "「诗文」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104309"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "112035": {
+      "name": "寻宝鸦印",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112035"
+    },
+    "112036": {
+      "name": "藏银鸦印",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112036"
+    },
+    "112037": {
+      "name": "攫金鸦印",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112037"
+    },
+    "113008": {
+      "name": "北风的魂匣",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113008"
+    },
+    "113010": {
+      "name": "极寒之核",
+      "rank": 4,
+      "icon": "UI_ItemIcon_113010"
+    }
   },
   "talent": {
     "0": {
@@ -902,7 +1012,139 @@
         }
       },
       "cooldown": 0,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "7",
+              "text": "Normal Attack"
+            },
+            "type": {
+              "span": "7",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "27.3",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "23.4",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "44.1",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "56.7",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 5-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "110.6",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "655",
+            "verticalForce": "800"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charged Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "45",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charged Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "45",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "655",
+            "verticalForce": "800"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "800"
+          },
+          "bluntAttack": true
+        }
+      ]
     },
     "1": {
       "type": 0,
@@ -1619,7 +1861,42 @@
         }
       },
       "cooldown": 6,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 2,
+            "type": "level"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Skill DMG",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": null,
+          "interruptionResistance": "140",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Skill DMG (Against Water)",
+          "elementalGaugeTheory": "4U",
+          "internalCooldown": null,
+          "interruptionResistance": "0",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Mute",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "3": {
       "type": 1,
@@ -2336,56 +2613,144 @@
         }
       },
       "cooldown": 15,
-      "cost": 60
+      "cost": 60,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 1,
+            "type": "normal"
+          },
+          {
+            "id": 4,
+            "type": "level"
+          },
+          {
+            "id": 5,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Activation Knockback",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "—"
+            },
+            "type": {
+              "span": null,
+              "text": "—"
+            }
+          },
+          "interruptionResistance": "400",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Skill DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Elemental Burst"
+            },
+            "type": {
+              "span": null,
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "4": {
       "type": 2,
       "name": "冷血之剑",
       "description": "<color=#FFD780FF>霜袭<\/color>每击中一个单位，便为凯亚恢复等同于攻击力15%的生命值。",
-      "icon": "UI_Talent_S_Kaeya_05"
+      "icon": "UI_Talent_S_Kaeya_05",
+      "linkedConstellations": null
     },
     "5": {
       "type": 2,
       "name": "冰渊之心",
       "description": "<color=#FFD780FF>霜袭<\/color>使敌人<color=#99FFFFFF>冻结<\/color>时，被冻结的敌人会掉落额外的元素微粒。\\n一次霜袭至多因此产生2个额外元素微粒。",
-      "icon": "UI_Talent_S_Kaeya_06"
+      "icon": "UI_Talent_S_Kaeya_06",
+      "linkedConstellations": null
     },
     "6": {
       "type": 2,
       "name": "隐藏的实力",
       "description": "队伍中自己的角色冲刺消耗的体力降低20%。\\n无法与效果完全相同的固有天赋叠加。",
-      "icon": "UI_Talent_Explosion_Sprint"
+      "icon": "UI_Talent_Explosion_Sprint",
+      "linkedConstellations": null
     }
   },
   "constellation": {
     "0": {
+      "id": 0,
       "name": "卓越的血脉",
       "description": "对受到<color=#99FFFFFF>冰元素<\/color>影响的敌人，凯亚的普通攻击与重击暴击率提升15%。",
+      "extraData": null,
       "icon": "UI_Talent_S_Kaeya_01"
     },
     "1": {
+      "id": 1,
       "name": "无尽的霜舞",
       "description": "在<color=#FFD780FF>凛冽轮舞<\/color>的持续时间内击败敌人时，持续时间延长2.5秒，最多不会超过15秒。",
+      "extraData": null,
       "icon": "UI_Talent_S_Kaeya_02"
     },
     "2": {
+      "id": 2,
       "name": "凛冽的冰戏",
       "description": "<color=#FFD780FF>霜袭<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 2,
+          "extraLevel": 3
+        }
+      },
       "icon": "UI_Talent_U_Kaeya_01"
     },
     "3": {
+      "id": 3,
       "name": "极寒的轻吻",
       "description": "凯亚的生命值低于20%时自动触发：\\n生成一个伤害吸收量等于生命值上限30%的护盾，持续20秒。\\n该护盾对<color=#99FFFFFF>冰元素伤害<\/color>有250%的吸收效果。\\n该效果每60秒只能触发一次。",
+      "extraData": null,
       "icon": "UI_Talent_S_Kaeya_03"
     },
     "4": {
+      "id": 4,
       "name": "至冷的拥抱",
       "description": "<color=#FFD780FF>凛冽轮舞<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 9,
+          "extraLevel": 3
+        }
+      },
       "icon": "UI_Talent_U_Kaeya_02"
     },
     "5": {
+      "id": 5,
       "name": "轮旋的冰凌",
       "description": "<color=#FFD780FF>凛冽轮舞<\/color>会产生一个额外的寒冰之棱，并在施放时返还15点元素能量。",
+      "extraData": null,
       "icon": "UI_Talent_S_Kaeya_04"
     }
   }

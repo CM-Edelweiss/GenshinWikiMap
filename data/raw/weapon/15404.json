@@ -4,8 +4,11 @@
   "type": "弓",
   "name": "宗室长弓",
   "description": "曾支配蒙德的旧日贵族的长弓。经过无数世代，弓弦仍十分有力，击发迅猛。",
+  "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
   "icon": "UI_EquipIcon_Bow_Theocrat",
-  "storyId": 195404,
+  "storyId": [
+    "15404"
+  ],
   "affix": {
     "115404": {
       "name": "专注",
@@ -164,5 +167,77 @@
     "114010": 3,
     "114011": 4,
     "114012": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112008": {
+      "name": "导能绘卷",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112008"
+    },
+    "112009": {
+      "name": "封魔绘卷",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112009"
+    },
+    "112010": {
+      "name": "禁咒绘卷",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112010"
+    },
+    "112023": {
+      "name": "混沌装置",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112023"
+    },
+    "112024": {
+      "name": "混沌回路",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112024"
+    },
+    "112025": {
+      "name": "混沌炉心",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112025"
+    },
+    "114009": {
+      "name": "狮牙斗士的枷锁",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114009"
+    },
+    "114010": {
+      "name": "狮牙斗士的铁链",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114010"
+    },
+    "114011": {
+      "name": "狮牙斗士的镣铐",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114011"
+    },
+    "114012": {
+      "name": "狮牙斗士的理想",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114012"
+    }
   }
 }

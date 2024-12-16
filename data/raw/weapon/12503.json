@@ -4,8 +4,11 @@
   "type": "双手剑",
   "name": "松籁响起之时",
   "description": "如同翻弄草木的息吹一般轻盈的大剑，如同吹倒树木的飓风一般摧枯拉朽的武器。",
+  "specialProp": "FIGHT_PROP_PHYSICAL_ADD_HURT",
   "icon": "UI_EquipIcon_Claymore_Widsith",
-  "storyId": 192503,
+  "storyId": [
+    "12503"
+  ],
   "affix": {
     "112503": {
       "name": "揭旗的叛逆之歌",
@@ -164,5 +167,77 @@
     "114002": 3,
     "114003": 4,
     "114004": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112005": {
+      "name": "破损的面具",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112005"
+    },
+    "112006": {
+      "name": "污秽的面具",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112006"
+    },
+    "112007": {
+      "name": "不祥的面具",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112007"
+    },
+    "112014": {
+      "name": "沉重号角",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112014"
+    },
+    "112015": {
+      "name": "黑铜号角",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112015"
+    },
+    "112016": {
+      "name": "黑晶号角",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112016"
+    },
+    "114001": {
+      "name": "高塔孤王的破瓦",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114001"
+    },
+    "114002": {
+      "name": "高塔孤王的残垣",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114002"
+    },
+    "114003": {
+      "name": "高塔孤王的断片",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114003"
+    },
+    "114004": {
+      "name": "高塔孤王的碎梦",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114004"
+    }
   }
 }

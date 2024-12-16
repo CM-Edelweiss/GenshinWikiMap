@@ -4,8 +4,11 @@
   "type": "弓",
   "name": "若水",
   "description": "色泽流移难测的长弓，在光下显现着如水的润蓝。",
+  "specialProp": "FIGHT_PROP_CRITICAL_HURT",
   "icon": "UI_EquipIcon_Bow_Kirin",
-  "storyId": 195508,
+  "storyId": [
+    "15508"
+  ],
   "affix": {
     "115508": {
       "name": "洗濯诸类之形",
@@ -164,5 +167,77 @@
     "114014": 3,
     "114015": 4,
     "114016": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112017": {
+      "name": "晦暗刻像",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112017"
+    },
+    "112018": {
+      "name": "夤夜刻像",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112018"
+    },
+    "112019": {
+      "name": "幽邃刻像",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112019"
+    },
+    "112053": {
+      "name": "浮游干核",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112053"
+    },
+    "112054": {
+      "name": "浮游幽核",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112054"
+    },
+    "112055": {
+      "name": "浮游晶化核",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112055"
+    },
+    "114013": {
+      "name": "孤云寒林的光砂",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114013"
+    },
+    "114014": {
+      "name": "孤云寒林的辉岩",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114014"
+    },
+    "114015": {
+      "name": "孤云寒林的圣骸",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114015"
+    },
+    "114016": {
+      "name": "孤云寒林的神体",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114016"
+    }
   }
 }

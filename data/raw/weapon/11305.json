@@ -4,8 +4,11 @@
   "type": "单手剑",
   "name": "吃虎鱼刀",
   "description": "用来剖鱼的锋利铁刀，刀身狭长，非常锋利。",
+  "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
   "icon": "UI_EquipIcon_Sword_Sashimi",
-  "storyId": 191305,
+  "storyId": [
+    "11305"
+  ],
   "affix": {
     "111305": {
       "name": "决",
@@ -164,5 +167,77 @@
     "114018": 3,
     "114019": 4,
     "114020": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112026": {
+      "name": "雾虚花粉",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112026"
+    },
+    "112027": {
+      "name": "雾虚草囊",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112027"
+    },
+    "112028": {
+      "name": "雾虚灯芯",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112028"
+    },
+    "112035": {
+      "name": "寻宝鸦印",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112035"
+    },
+    "112036": {
+      "name": "藏银鸦印",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112036"
+    },
+    "112037": {
+      "name": "攫金鸦印",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112037"
+    },
+    "114017": {
+      "name": "雾海云间的铅丹",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114017"
+    },
+    "114018": {
+      "name": "雾海云间的汞丹",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114018"
+    },
+    "114019": {
+      "name": "雾海云间的金丹",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114019"
+    },
+    "114020": {
+      "name": "雾海云间的转还",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114020"
+    }
   }
 }

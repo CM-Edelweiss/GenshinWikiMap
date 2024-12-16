@@ -4,6 +4,9 @@
   "name": "莱欧斯利",
   "element": "Ice",
   "weaponType": "WEAPON_CATALYST",
+  "region": "FONTAINE",
+  "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+  "bodyType": "MALE",
   "icon": "UI_AvatarIcon_Wriothesley",
   "birthday": [
     11,
@@ -193,6 +196,98 @@
     "112085": 3,
     "113047": 5,
     "113052": 4
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "101239": {
+      "name": "子探测单元",
+      "rank": 1,
+      "icon": "UI_ItemIcon_101239"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104161": {
+      "name": "哀叙冰玉碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104161"
+    },
+    "104162": {
+      "name": "哀叙冰玉断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104162"
+    },
+    "104163": {
+      "name": "哀叙冰玉块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104163"
+    },
+    "104164": {
+      "name": "哀叙冰玉",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104164"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "104344": {
+      "name": "「秩序」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104344"
+    },
+    "104345": {
+      "name": "「秩序」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104345"
+    },
+    "104346": {
+      "name": "「秩序」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104346"
+    },
+    "112083": {
+      "name": "啮合齿轮",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112083"
+    },
+    "112084": {
+      "name": "机关正齿轮",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112084"
+    },
+    "112085": {
+      "name": "奇械机芯齿轮",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112085"
+    },
+    "113047": {
+      "name": "原初绿洲之初绽",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113047"
+    },
+    "113052": {
+      "name": "「图比昂装置」",
+      "rank": 4,
+      "icon": "UI_ItemIcon_113052"
+    }
   },
   "talent": {
     "0": {
@@ -910,7 +1005,159 @@
         }
       },
       "cooldown": 0,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 2,
+            "type": "level"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "6",
+              "text": "Normal Attack"
+            },
+            "type": {
+              "span": "6",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "41.5062",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "40.223",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "51.36",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit A",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "28.6",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit B",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "28.6",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 5-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "71.9181",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charged Attack",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "110",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "420"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Charged Attack (C6 Icicle)",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "50",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "5",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "50",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "1": {
       "type": 0,
@@ -1627,7 +1874,16 @@
         }
       },
       "cooldown": 16,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": false,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          }
+        ]
+      }
     },
     "3": {
       "type": 1,
@@ -2344,41 +2600,119 @@
         }
       },
       "cooldown": 15,
-      "cost": 60
+      "cost": 60,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 1,
+            "type": "normal"
+          },
+          {
+            "id": 4,
+            "type": "level"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Skill DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Elemental Burst"
+            },
+            "type": {
+              "span": null,
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "250",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "400",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Surging Blade DMG",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "20",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "4": {
       "type": 2,
       "name": "公理终有辩诉之日",
       "description": "莱欧斯利的生命值低于60%时，将获得「恩典之诫」，使下次<color=#FFD780FF>普通攻击·迅烈倾霜拳<\/color>的重击强化为惩戒·凌跃拳：不消耗体力，造成的伤害提升50%，并在命中后为莱欧斯利恢复生命值，回复量相当于莱欧斯利生命值上限的30%。\\n每5秒至多通过这种方式获得一次「恩典之诫」效果。",
-      "icon": "UI_Talent_S_Wriothesley_05"
+      "icon": "UI_Talent_S_Wriothesley_05",
+      "linkedConstellations": {
+        "isLevelIncluded": false,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          },
+          {
+            "id": 3,
+            "type": "normal"
+          },
+          {
+            "id": 5,
+            "type": "normal"
+          }
+        ]
+      }
     },
     "5": {
       "type": 2,
       "name": "罪业终有报偿之时",
       "description": "莱欧斯利的当前生命值提升或降低时，若莱欧斯利处于<color=#FFD780FF>冰牙突驰<\/color>的寒烈的惩裁状态下，寒烈的惩裁将获得一层「检偿之敕」效果，该效果至多叠加至5层，每层使莱欧斯利的攻击力提升6%。",
-      "icon": "UI_Talent_S_Wriothesley_06"
+      "icon": "UI_Talent_S_Wriothesley_06",
+      "linkedConstellations": {
+        "isLevelIncluded": false,
+        "prop": [
+          {
+            "id": 1,
+            "type": "normal"
+          }
+        ]
+      }
     },
     "6": {
       "type": 2,
       "name": "公爵的恩馈",
       "description": "合成武器突破素材时，有10%概率获得2倍产出。",
-      "icon": "UI_Talent_Combine_Weapon_Double"
+      "icon": "UI_Talent_Combine_Weapon_Double",
+      "linkedConstellations": null
     }
   },
   "constellation": {
     "0": {
+      "id": 0,
       "name": "予行恶者以惩惧",
       "description": "固有天赋「公理终有辩诉之日」的「恩典之诫」转变为：\\n莱欧斯利的生命值低于60%，或在<color=#FFD780FF>冰牙突驰<\/color>的寒烈的惩裁状态持续期间，斥逐拳的第五段攻击命中时，将获得「恩典之诫」，每2.5秒至多获得一次「恩典之诫」效果。\\n\\n此外，惩戒·凌跃拳获得以下强化：\\n·造成的伤害提升进一步提升至200%；\\n·命中时，若处于寒烈的惩裁状态下，该状态的持续时间延长4秒，在一次寒烈的惩裁状态持续期间，至多通过这种方式延长一次。\\n\\n需要解锁固有天赋「公理终有辩诉之日」。",
       "extraData": null,
       "icon": "UI_Talent_S_Wriothesley_01"
     },
     "1": {
+      "id": 1,
       "name": "予骄暴者以镣锁",
       "description": "施放<color=#FFD780FF>黑金狼噬<\/color>时，固有天赋「罪业终有报偿之时」的每层「检偿之敕」效果都将使造成的伤害提升40%。\\n需要解锁固有天赋「罪业终有报偿之时」。",
       "extraData": null,
       "icon": "UI_Talent_S_Wriothesley_02"
     },
     "2": {
+      "id": 2,
       "name": "予婪诈者以谴罚",
       "description": "<color=#FFD780FF>普通攻击·迅烈倾霜拳<\/color>的技能等级提高3级。\\n至多提升至15级。",
       "extraData": {
@@ -2391,12 +2725,14 @@
       "icon": "UI_Talent_U_Wriothesley_01"
     },
     "3": {
+      "id": 3,
       "name": "予贞苦者以拯赎",
       "description": "惩戒·凌跃拳为莱欧斯利恢复生命值的回复量提升为50%生命值上限，需要解锁固有天赋「公理终有辩诉之日」。\\n此外，莱欧斯利受到治疗时，若此次治疗回复量溢出，将根据莱欧斯利是否处于当前场上产生不同的效果：处于当前场上时，莱欧斯利的攻击速度提升20%，持续4秒；处于队伍后台时，队伍中所有自己的角色攻击速度提升10%，持续6秒。上述这两种攻击速度提升效果无法叠加。",
       "extraData": null,
       "icon": "UI_Talent_S_Wriothesley_03"
     },
     "4": {
+      "id": 4,
       "name": "予冤诉者以怜恕",
       "description": "<color=#FFD780FF>黑金狼噬<\/color>的技能等级提高3级。\\n至多提升至15级。",
       "extraData": {
@@ -2409,6 +2745,7 @@
       "icon": "UI_Talent_U_Wriothesley_02"
     },
     "5": {
+      "id": 5,
       "name": "予无罪者以念抚",
       "description": "惩戒·凌跃拳的暴击率提升10%，暴击伤害提升80%，并能够额外生成冰锥，造成原本100%的<color=#99FFFFFF>冰元素伤害<\/color>，通过这种方式造成的伤害视为重击伤害。\\n需要解锁固有天赋「公理终有辩诉之日」。",
       "extraData": null,

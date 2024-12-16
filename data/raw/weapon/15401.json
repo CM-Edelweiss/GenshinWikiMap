@@ -4,8 +4,11 @@
   "type": "弓",
   "name": "西风猎弓",
   "description": "西风骑士团的制式反曲弓，只有杰出的弓手能与它的杰出性能相衬。",
+  "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
   "icon": "UI_EquipIcon_Bow_Zephyrus",
-  "storyId": 195401,
+  "storyId": [
+    "15401"
+  ],
   "affix": {
     "115401": {
       "name": "顺风而行",
@@ -164,5 +167,77 @@
     "114010": 3,
     "114011": 4,
     "114012": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112023": {
+      "name": "混沌装置",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112023"
+    },
+    "112024": {
+      "name": "混沌回路",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112024"
+    },
+    "112025": {
+      "name": "混沌炉心",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112025"
+    },
+    "112038": {
+      "name": "骗骗花蜜",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112038"
+    },
+    "112039": {
+      "name": "微光花蜜",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112039"
+    },
+    "112040": {
+      "name": "原素花蜜",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112040"
+    },
+    "114009": {
+      "name": "狮牙斗士的枷锁",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114009"
+    },
+    "114010": {
+      "name": "狮牙斗士的铁链",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114010"
+    },
+    "114011": {
+      "name": "狮牙斗士的镣铐",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114011"
+    },
+    "114012": {
+      "name": "狮牙斗士的理想",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114012"
+    }
   }
 }

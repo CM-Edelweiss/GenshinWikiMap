@@ -4,8 +4,11 @@
   "type": "长柄武器",
   "name": "贯虹之槊",
   "description": "或许能贯穿一切的锋利长枪。挥舞当中，仿佛能见到空气被枪尖划破的裂痕。",
+  "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
   "icon": "UI_EquipIcon_Pole_Kunwu",
-  "storyId": 193504,
+  "storyId": [
+    "13504"
+  ],
   "affix": {
     "113504": {
       "name": "金璋皇极",
@@ -164,5 +167,77 @@
     "114022": 3,
     "114023": 4,
     "114024": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112035": {
+      "name": "寻宝鸦印",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112035"
+    },
+    "112036": {
+      "name": "藏银鸦印",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112036"
+    },
+    "112037": {
+      "name": "攫金鸦印",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112037"
+    },
+    "112041": {
+      "name": "脆弱的骨片",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112041"
+    },
+    "112042": {
+      "name": "结实的骨片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112042"
+    },
+    "112043": {
+      "name": "石化的骨片",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112043"
+    },
+    "114021": {
+      "name": "漆黑陨铁的一粒",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114021"
+    },
+    "114022": {
+      "name": "漆黑陨铁的一片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114022"
+    },
+    "114023": {
+      "name": "漆黑陨铁的一角",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114023"
+    },
+    "114024": {
+      "name": "漆黑陨铁的一块",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114024"
+    }
   }
 }

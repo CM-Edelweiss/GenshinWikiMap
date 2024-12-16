@@ -4,6 +4,9 @@
   "name": "赛诺",
   "element": "Electric",
   "weaponType": "WEAPON_POLE",
+  "region": "SUMERU",
+  "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+  "bodyType": "BOY",
   "icon": "UI_AvatarIcon_Cyno",
   "birthday": [
     6,
@@ -20,7 +23,7 @@
       "EN": "亚历杭德罗·萨博",
       "CHS": "李轻扬",
       "JP": "入野自由",
-      "KR": "李宇梨"
+      "KR": "郑义陈&李宇梨"
     }
   },
   "upgrade": {
@@ -156,6 +159,14 @@
     ]
   },
   "other": {
+    "costume": [
+      {
+        "name": "衡断之心",
+        "description": "赛诺的装扮款式。体现大风纪官威严与公正原则的装束，由于头部的饰物是应赛诺本人要求特别定制的，做工复杂，需要定期维护。",
+        "isDefault": true
+      }
+    ],
+    "furnitureId": 368156,
     "nameCard": {
       "id": 210134,
       "name": "赛诺·幽缄",
@@ -185,6 +196,98 @@
     "112010": 3,
     "113032": 5,
     "113037": 4
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "101225": {
+      "name": "圣金虫",
+      "rank": 1,
+      "icon": "UI_ItemIcon_101225"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104141": {
+      "name": "最胜紫晶碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104141"
+    },
+    "104142": {
+      "name": "最胜紫晶断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104142"
+    },
+    "104143": {
+      "name": "最胜紫晶块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104143"
+    },
+    "104144": {
+      "name": "最胜紫晶",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104144"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "104329": {
+      "name": "「诤言」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104329"
+    },
+    "104330": {
+      "name": "「诤言」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104330"
+    },
+    "104331": {
+      "name": "「诤言」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104331"
+    },
+    "112008": {
+      "name": "导能绘卷",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112008"
+    },
+    "112009": {
+      "name": "封魔绘卷",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112009"
+    },
+    "112010": {
+      "name": "禁咒绘卷",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112010"
+    },
+    "113032": {
+      "name": "凶将之手眼",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113032"
+    },
+    "113037": {
+      "name": "藏雷野实",
+      "rank": 4,
+      "icon": "UI_ItemIcon_113037"
+    }
   },
   "talent": {
     "0": {
@@ -902,7 +1005,136 @@
         }
       },
       "cooldown": 0,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "5",
+              "text": "Normal Attack"
+            },
+            "type": {
+              "span": "5",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "45.8208",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "44.5776",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit A",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "27.2616",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit B",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "27.2616",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "70.596",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charged Attack",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Charged Attack"
+            },
+            "type": {
+              "span": null,
+              "text": "0.5s"
+            }
+          },
+          "interruptionResistance": "120",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "800"
+          },
+          "bluntAttack": true
+        }
+      ]
     },
     "1": {
       "type": 0,
@@ -1619,7 +1851,97 @@
         }
       },
       "cooldown": 7.5,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          },
+          {
+            "id": 4,
+            "type": "level"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Skill DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Elemental Skill"
+            },
+            "type": {
+              "span": null,
+              "text": "0.2s"
+            }
+          },
+          "interruptionResistance": "50",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Mortuary Rite DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "75",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Duststalker Bolt (A1)",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Elemental Skill"
+            },
+            "type": {
+              "span": null,
+              "text": "2.5s"
+            }
+          },
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Duststalker Bolt (C6)",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Elemental Skill"
+            },
+            "type": {
+              "span": null,
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "3": {
       "type": 1,
@@ -2336,57 +2658,279 @@
         }
       },
       "cooldown": 20,
-      "cost": 80
+      "cost": 80,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          },
+          {
+            "id": 2,
+            "type": "level"
+          },
+          {
+            "id": 3,
+            "type": "normal"
+          },
+          {
+            "id": 5,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Activation Knockback",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "400",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "600",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "6",
+              "text": "Normal Attack"
+            },
+            "type": {
+              "span": "6",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "46.9752",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "49.9056",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "64.0248",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Normal Attack 4-Hit A",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "32.5008",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit B",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "32.5008",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 5-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "77.7",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "100",
+            "verticalForce": "600"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Charged Attack",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Charged Attack"
+            },
+            "type": {
+              "span": null,
+              "text": "0.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "120",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "655",
+            "verticalForce": "800"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "4": {
       "type": 2,
       "name": "落羽的裁择",
       "description": "在<color=#FFD780FF>圣仪·煟煌随狼行<\/color>的启途誓使状态下时，赛诺将间歇性处于「末途真眼」状态下。在该状态期间施放<color=#FFD780FF>秘仪·律渊渡魂<\/color>时，将触发「裁定」效果，使此次秘仪·律渊渡魂造成的伤害提升35%，并向前方发射3道渡荒之雷，造成等同于赛诺攻击力100%的<color=#FFACFFFF>雷元素伤害<\/color>。\\n渡荒之雷造成的伤害视为元素战技伤害。",
-      "icon": "UI_Talent_S_Cyno_05"
+      "icon": "UI_Talent_S_Cyno_05",
+      "linkedConstellations": {
+        "isLevelIncluded": false,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          },
+          {
+            "id": 5,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Duststalker Bolt",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Elemental Skill"
+            },
+            "type": {
+              "span": null,
+              "text": "2.5s"
+            }
+          },
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "5": {
       "type": 2,
       "name": "九弓的执命",
       "description": "基于赛诺的元素精通，提高自身以下攻击造成的伤害值：\\n·启途誓使状态下的普通攻击：元素精通的150%；\\n·固有天赋「落羽的裁择」的渡荒之雷：元素精通的250%。",
-      "icon": "UI_Talent_S_Cyno_06"
+      "icon": "UI_Talent_S_Cyno_06",
+      "linkedConstellations": null
     },
     "6": {
       "type": 2,
       "name": "缄默的惠赐",
       "description": "在须弥执行时长为20小时的探索派遣任务时，获得的奖励增加25%。",
-      "icon": "UI_Talent_S_Cyno_07"
+      "icon": "UI_Talent_S_Cyno_07",
+      "linkedConstellations": null
     }
   },
   "constellation": {
     "0": {
+      "id": 0,
       "name": "立仪·俯览昼冥",
       "description": "施放<color=#FFD780FF>圣仪·煟煌随狼行<\/color>后，赛诺普通攻击的攻击速度提升20%，持续10秒。若施放<color=#FFD780FF>秘仪·律渊渡魂<\/color>时触发了固有天赋「落羽的裁择」的「裁定」效果，将刷新该效果的持续时间。\\n需要解锁固有天赋「落羽的裁择」。",
+      "extraData": null,
       "icon": "UI_Talent_S_Cyno_01"
     },
     "1": {
+      "id": 1,
       "name": "令仪·引谒归灵",
       "description": "赛诺的普通攻击命中敌人后，<color=#FFACFFFF>雷元素伤害<\/color>加成提升10%，持续4秒。该效果每0.1秒至多触发一次，至多叠加5层。",
+      "extraData": null,
       "icon": "UI_Talent_S_Cyno_02"
     },
     "2": {
+      "id": 2,
       "name": "律仪·行度誓惩",
       "description": "<color=#FFD780FF>圣仪·煟煌随狼行<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 9,
+          "extraLevel": 3
+        }
+      },
       "icon": "UI_Talent_U_Cyno_01"
     },
     "3": {
+      "id": 3,
       "name": "巡仪·蒇护禁罔",
       "description": "赛诺处于<color=#FFD780FF>圣仪·煟煌随狼行<\/color>的启途誓使状态下时，触发感电、超导、超载、原激化、超激化、超绽放、雷元素扩散反应后，将为队伍中附近的所有角色（除了赛诺自己）恢复3点元素能量。\\n该效果在一次<color=#FFD780FF>圣仪·煟煌随狼行<\/color>中，至多触发5次。",
+      "extraData": null,
       "icon": "UI_Talent_S_Cyno_03"
     },
     "4": {
+      "id": 4,
       "name": "幽仪·逝往星芒",
       "description": "<color=#FFD780FF>秘仪·律渊渡魂<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 2,
+          "extraLevel": 3
+        }
+      },
       "icon": "UI_Talent_U_Cyno_02"
     },
     "5": {
+      "id": 5,
       "name": "羽仪·裁落钧衡",
       "description": "施放<color=#FFD780FF>圣仪·煟煌随狼行<\/color>或触发固有天赋「落羽的裁择」的「裁定」后，赛诺将获得4层「豺祭」效果。赛诺的普通攻击命中敌人时，将消耗一层「豺祭」效果，并发射一道渡荒之雷。\\n「豺祭」持续8秒，至多叠加8层，并将在圣仪·煟煌随狼行的启途誓使状态结束后移除。\\n每0.4秒至多通过这种方式发射一道渡荒之雷。\\n需要解锁固有天赋「落羽的裁择」。",
-      "icon": "UI_Talent_S_Cyno_04"
+      "extraData": null,
+      "icon": "UI_Talent_S_Cyno_04",
+      "advancedProps": [
+        {
+          "name": "Duststalker Bolt",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Elemental Skill"
+            },
+            "type": {
+              "span": null,
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     }
   }
 }

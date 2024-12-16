@@ -3,9 +3,12 @@
   "rank": 4,
   "type": "弓",
   "name": "烈阳之嗣",
-  "description": "",
+  "description": "赤王国度的古老时代所留下的古代长弓，其上雕刻着不可理解的古老文字与庄严图案。",
+  "specialProp": "FIGHT_PROP_CRITICAL",
   "icon": "UI_EquipIcon_Bow_Gurabad",
-  "storyId": 195424,
+  "storyId": [
+    "15424"
+  ],
   "affix": {
     "115424": {
       "name": "阳炎古道",
@@ -165,5 +168,76 @@
     "114047": 4,
     "114048": 5
   },
-  "beta": true
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112059": {
+      "name": "蕈兽孢子",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112059"
+    },
+    "112060": {
+      "name": "荧光孢粉",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112060"
+    },
+    "112061": {
+      "name": "孢囊晶尘",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112061"
+    },
+    "112077": {
+      "name": "来自何处的待放之花",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112077"
+    },
+    "112078": {
+      "name": "何人所珍藏之花",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112078"
+    },
+    "112079": {
+      "name": "漫游者的盛放之花",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112079"
+    },
+    "114045": {
+      "name": "烈日威权的残响",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114045"
+    },
+    "114046": {
+      "name": "烈日威权的余光",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114046"
+    },
+    "114047": {
+      "name": "烈日威权的梦想",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114047"
+    },
+    "114048": {
+      "name": "烈日威权的旧日",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114048"
+    }
+  }
 }

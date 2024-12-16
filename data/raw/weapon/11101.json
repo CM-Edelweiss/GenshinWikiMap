@@ -4,8 +4,11 @@
   "type": "单手剑",
   "name": "无锋剑",
   "description": "少年人的梦想、踏上旅途的兴奋——如果这两种珍贵的品质还不够锋利，那就用勇气补足吧。",
+  "specialProp": "None",
   "icon": "UI_EquipIcon_Sword_Blunt",
-  "storyId": 191101,
+  "storyId": [
+    "11101"
+  ],
   "affix": null,
   "route": "Dull Blade",
   "upgrade": {
@@ -107,5 +110,62 @@
     "114001": 2,
     "114002": 3,
     "114003": 4
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112011": {
+      "name": "牢固的箭簇",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112011"
+    },
+    "112012": {
+      "name": "锐利的箭簇",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112012"
+    },
+    "112014": {
+      "name": "沉重号角",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112014"
+    },
+    "112015": {
+      "name": "黑铜号角",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112015"
+    },
+    "114001": {
+      "name": "高塔孤王的破瓦",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114001"
+    },
+    "114002": {
+      "name": "高塔孤王的残垣",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114002"
+    },
+    "114003": {
+      "name": "高塔孤王的断片",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114003"
+    }
   }
 }

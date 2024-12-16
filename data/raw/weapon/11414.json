@@ -4,8 +4,11 @@
   "type": "单手剑",
   "name": "天目影打刀",
   "description": "传说中连以神速见长的天狗都能斩落的名士订制的刀。",
+  "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
   "icon": "UI_EquipIcon_Sword_Bakufu",
-  "storyId": 191414,
+  "storyId": [
+    "11414"
+  ],
   "affix": {
     "111414": {
       "name": "岩藏之胤",
@@ -164,5 +167,77 @@
     "114026": 3,
     "114027": 4,
     "114028": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112044": {
+      "name": "破旧的刀镡",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112044"
+    },
+    "112045": {
+      "name": "影打刀镡",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112045"
+    },
+    "112046": {
+      "name": "名刀镡",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112046"
+    },
+    "112047": {
+      "name": "混沌机关",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112047"
+    },
+    "112048": {
+      "name": "混沌枢纽",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112048"
+    },
+    "112049": {
+      "name": "混沌真眼",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112049"
+    },
+    "114025": {
+      "name": "远海夷地的瑚枝",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114025"
+    },
+    "114026": {
+      "name": "远海夷地的玉枝",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114026"
+    },
+    "114027": {
+      "name": "远海夷地的琼枝",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114027"
+    },
+    "114028": {
+      "name": "远海夷地的金枝",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114028"
+    }
   }
 }

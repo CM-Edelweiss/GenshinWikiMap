@@ -3,9 +3,12 @@
   "rank": 4,
   "type": "法器",
   "name": "遗祀玉珑",
-  "description": "",
+  "description": "一枚古老的玉珑，闪烁着清水般的光泽，似乎是古代的祭祀用品。",
+  "specialProp": "FIGHT_PROP_CRITICAL",
   "icon": "UI_EquipIcon_Catalyst_Yue",
-  "storyId": 194424,
+  "storyId": [
+    "14424"
+  ],
   "affix": {
     "114424": {
       "name": "碧玉流转",
@@ -165,5 +168,76 @@
     "114015": 4,
     "114016": 5
   },
-  "beta": true
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112008": {
+      "name": "导能绘卷",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112008"
+    },
+    "112009": {
+      "name": "封魔绘卷",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112009"
+    },
+    "112010": {
+      "name": "禁咒绘卷",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112010"
+    },
+    "112026": {
+      "name": "雾虚花粉",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112026"
+    },
+    "112027": {
+      "name": "雾虚草囊",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112027"
+    },
+    "112028": {
+      "name": "雾虚灯芯",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112028"
+    },
+    "114013": {
+      "name": "孤云寒林的光砂",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114013"
+    },
+    "114014": {
+      "name": "孤云寒林的辉岩",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114014"
+    },
+    "114015": {
+      "name": "孤云寒林的圣骸",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114015"
+    },
+    "114016": {
+      "name": "孤云寒林的神体",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114016"
+    }
+  }
 }

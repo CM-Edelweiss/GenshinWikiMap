@@ -4,8 +4,11 @@
   "type": "弓",
   "name": "掠食者",
   "description": "设计风格相当独特的弓，应该不属于这个世界。",
+  "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
   "icon": "UI_EquipIcon_Bow_Predator",
-  "storyId": 195415,
+  "storyId": [
+    "15415"
+  ],
   "affix": {
     "115415": {
       "name": "强力攻击",
@@ -155,5 +158,77 @@
     "114030": 3,
     "114031": 4,
     "114032": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112011": {
+      "name": "牢固的箭簇",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112011"
+    },
+    "112012": {
+      "name": "锐利的箭簇",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112012"
+    },
+    "112013": {
+      "name": "历战的箭簇",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112013"
+    },
+    "112050": {
+      "name": "黯淡棱镜",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112050"
+    },
+    "112051": {
+      "name": "水晶棱镜",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112051"
+    },
+    "112052": {
+      "name": "偏光棱镜",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112052"
+    },
+    "114029": {
+      "name": "鸣神御灵的明惠",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114029"
+    },
+    "114030": {
+      "name": "鸣神御灵的欢喜",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114030"
+    },
+    "114031": {
+      "name": "鸣神御灵的亲爱",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114031"
+    },
+    "114032": {
+      "name": "鸣神御灵的勇武",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114032"
+    }
   }
 }

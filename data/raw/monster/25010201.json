@@ -49,22 +49,27 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": -0.2
       },
+      "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112035": {
+          "name": "寻宝鸦印",
           "rank": 1,
           "icon": "UI_ItemIcon_112035",
           "count": "1.2606"
         },
         "112036": {
+          "name": "藏银鸦印",
           "rank": 2,
           "icon": "UI_ItemIcon_112036",
           "count": "0.3362"
         },
         "112037": {
+          "name": "攫金鸦印",
           "rank": 3,
           "icon": "UI_ItemIcon_112037",
           "count": "0.084"
@@ -112,6 +117,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": -0.2
       },
+      "fundamentalForce": null,
       "reward": null
     },
     "25010204": {
@@ -155,6 +161,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": -0.2
       },
+      "fundamentalForce": null,
       "reward": null
     },
     "25010205": {
@@ -207,6 +214,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": -0.2
       },
+      "fundamentalForce": null,
       "reward": null
     },
     "25010206": {
@@ -250,6 +258,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": -0.2
       },
+      "fundamentalForce": null,
       "reward": null
     },
     "25010207": {
@@ -293,6 +302,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": -0.2
       },
+      "fundamentalForce": null,
       "reward": null
     },
     "25010208": {
@@ -345,22 +355,14 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": -0.2
       },
+      "fundamentalForce": null,
       "reward": null
     },
-    "25010209": {
-      "id": 25010209,
+    "25010226": {
+      "id": 25010226,
       "type": "MONSTER_ORDINARY",
       "affix": null,
-      "hpDrops": [
-        {
-          "id": 22010010,
-          "hpPercent": 66
-        },
-        {
-          "id": 22010010,
-          "hpPercent": 33
-        }
-      ],
+      "hpDrops": null,
       "prop": [
         {
           "propType": "FIGHT_PROP_BASE_HP",
@@ -388,32 +390,33 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": -0.2
       },
+      "fundamentalForce": null,
       "reward": null
     },
-    "25010210": {
-      "id": 25010210,
+    "25010291": {
+      "id": 25010291,
       "type": "MONSTER_ORDINARY",
-      "affix": null,
-      "hpDrops": [
+      "affix": [
         {
-          "id": 22010010,
-          "hpPercent": 66
-        },
-        {
-          "id": 22010010,
-          "hpPercent": 33
+          "name": "5.2怪物自走棋敌方单位标记",
+          "description": "脚底光环、出生特效",
+          "abilityName": [
+            "MonsterChess_Monster_Common_EnemyBottom"
+          ],
+          "isCommon": true
         }
       ],
+      "hpDrops": null,
       "prop": [
         {
           "propType": "FIGHT_PROP_BASE_HP",
-          "initValue": 16.3008,
-          "type": "GROW_CURVE_HP"
+          "initValue": 15.3,
+          "type": "GrowCurveType_Unknown_5202"
         },
         {
           "propType": "FIGHT_PROP_BASE_ATTACK",
-          "initValue": 15.072,
-          "type": "GROW_CURVE_ATTACK"
+          "initValue": 20.145,
+          "type": "GrowCurveType_Unknown_5201"
         },
         {
           "propType": "FIGHT_PROP_BASE_DEFENSE",
@@ -429,51 +432,9 @@
         "windSubHurt": 0.1,
         "iceSubHurt": 0.1,
         "rockSubHurt": 0.1,
-        "physicalSubHurt": -0.2
+        "physicalSubHurt": 0.1
       },
-      "reward": null
-    },
-    "25010211": {
-      "id": 25010211,
-      "type": "MONSTER_ORDINARY",
-      "affix": null,
-      "hpDrops": [
-        {
-          "id": 22010010,
-          "hpPercent": 66
-        },
-        {
-          "id": 22010010,
-          "hpPercent": 33
-        }
-      ],
-      "prop": [
-        {
-          "propType": "FIGHT_PROP_BASE_HP",
-          "initValue": 16.3008,
-          "type": "GROW_CURVE_HP"
-        },
-        {
-          "propType": "FIGHT_PROP_BASE_ATTACK",
-          "initValue": 15.072,
-          "type": "GROW_CURVE_ATTACK"
-        },
-        {
-          "propType": "FIGHT_PROP_BASE_DEFENSE",
-          "initValue": 500,
-          "type": "GROW_CURVE_DEFENSE"
-        }
-      ],
-      "resistance": {
-        "fireSubHurt": 0.1,
-        "grassSubHurt": 0.1,
-        "waterSubHurt": 0.1,
-        "elecSubHurt": 0.1,
-        "windSubHurt": 0.1,
-        "iceSubHurt": 0.1,
-        "rockSubHurt": 0.1,
-        "physicalSubHurt": -0.2
-      },
+      "fundamentalForce": null,
       "reward": null
     }
   },

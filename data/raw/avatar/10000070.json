@@ -4,6 +4,9 @@
   "name": "妮露",
   "element": "Water",
   "weaponType": "WEAPON_SWORD_ONE_HAND",
+  "region": "SUMERU",
+  "specialProp": "FIGHT_PROP_HP_PERCENT",
+  "bodyType": "GIRL",
   "icon": "UI_AvatarIcon_Nilou",
   "birthday": [
     12,
@@ -156,6 +159,21 @@
     ]
   },
   "other": {
+    "costume": [
+      {
+        "name": "非花非雾",
+        "description": "妮露的装扮款式。既非花也非雾，她身着舞衣飞旋时却有如花开雾起。",
+        "isDefault": true
+      },
+      {
+        "name": "莎邦之息",
+        "description": "妮露的典雅服饰，千花编织般的轻盈裙装，如有黎明时的东风捎来淡香，承载着童话世界的美好祝福。",
+        "storyId": 340017,
+        "icon": "UI_AvatarIcon_NilouCostumeFairy",
+        "rank": 4
+      }
+    ],
+    "furnitureId": 368155,
     "nameCard": {
       "id": 210136,
       "name": "妮露·莲舞",
@@ -185,6 +203,98 @@
     "112061": 3,
     "113033": 5,
     "113038": 4
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "101214": {
+      "name": "帕蒂沙兰",
+      "rank": 1,
+      "icon": "UI_ItemIcon_101214"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104121": {
+      "name": "涤净青金碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104121"
+    },
+    "104122": {
+      "name": "涤净青金断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104122"
+    },
+    "104123": {
+      "name": "涤净青金块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104123"
+    },
+    "104124": {
+      "name": "涤净青金",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104124"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "104335": {
+      "name": "「笃行」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104335"
+    },
+    "104336": {
+      "name": "「笃行」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104336"
+    },
+    "104337": {
+      "name": "「笃行」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104337"
+    },
+    "112059": {
+      "name": "蕈兽孢子",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112059"
+    },
+    "112060": {
+      "name": "荧光孢粉",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112060"
+    },
+    "112061": {
+      "name": "孢囊晶尘",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112061"
+    },
+    "113033": {
+      "name": "祸神之禊泪",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113033"
+    },
+    "113038": {
+      "name": "永续机芯",
+      "rank": 4,
+      "icon": "UI_ItemIcon_113038"
+    }
   },
   "talent": {
     "0": {
@@ -902,7 +1012,115 @@
         }
       },
       "cooldown": 0,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "5",
+              "text": "Normal Attack"
+            },
+            "type": {
+              "span": "5",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "52.64",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "47.55",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "73.6",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charged Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "60",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charged Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "60",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "655",
+            "verticalForce": "800"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "800"
+          },
+          "bluntAttack": true
+        }
+      ]
     },
     "1": {
       "type": 0,
@@ -1619,7 +1837,140 @@
         }
       },
       "cooldown": 18,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          },
+          {
+            "id": 3,
+            "type": "normal"
+          },
+          {
+            "id": 4,
+            "type": "level"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Skill DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "7",
+              "text": "Elemental Skill"
+            },
+            "type": {
+              "span": "7",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "55.64",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Sword Dance 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "52.64",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Sword Dance 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "47.55",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Luminous Illusion",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "90.31",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Whirling Steps 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "54.64",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Whirling Steps 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "66.43",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Water Wheel",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "85",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Tranquility Aura",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Tranquility Aura"
+            },
+            "type": {
+              "span": null,
+              "text": "1.9s\/4 Hits"
+            }
+          },
+          "interruptionResistance": "0",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Mute",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "3": {
       "type": 1,
@@ -2336,56 +2687,142 @@
         }
       },
       "cooldown": 18,
-      "cost": 70
+      "cost": 70,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 2,
+            "type": "level"
+          },
+          {
+            "id": 3,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Activation Knockback",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "400",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Skill DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Lingering Aeon DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "4": {
       "type": 2,
       "name": "折旋落英之庭",
       "description": "队伍中所有角色的元素类型均为<color=#99FF88FF>草元素<\/color>与<color=#80C0FFFF>水元素<\/color>，并且至少有一名草元素角色、一名水元素角色时：\\n妮露完成<color=#FFD780FF>七域舞步<\/color>的第三段舞步会为附近的所有角色赋予持续30秒的「金杯的丰馈」状态。\\n处于金杯的丰馈状态下的角色受到<color=#99FF88FF>草元素攻击<\/color>会使附近的所有角色元素精通提升100点，持续10秒；此外，触发绽放反应时，将取代草原核产生「丰穰之核」。\\n相比草原核，丰穰之核在产生后将迅速迸发，并且具有更大的影响范围。\\n丰穰之核无法触发超绽放与烈绽放反应，与草原核共享数量上限。丰穰之核的攻击视为绽放反应的草原核的攻击。\\n当队伍中角色的元素类型不满足本固有天赋的条件时，将移除已有的金杯的丰馈效果。",
-      "icon": "UI_Talent_S_Nilou_05"
+      "icon": "UI_Talent_S_Nilou_05",
+      "linkedConstellations": {
+        "isLevelIncluded": false,
+        "prop": [
+          {
+            "id": 1,
+            "type": "normal"
+          }
+        ]
+      }
     },
     "5": {
       "type": 2,
       "name": "翩舞永世之梦",
       "description": "基于妮露生命值上限超过30000的部分，每1000点生命值上限将使处于「金杯的丰馈」状态下的角色触发的丰穰之核造成的伤害提升9%。\\n通过这种方式至多使丰穰之核造成的伤害提升400%。",
-      "icon": "UI_Talent_S_Nilou_06"
+      "icon": "UI_Talent_S_Nilou_06",
+      "linkedConstellations": null
     },
     "6": {
       "type": 2,
       "name": "白玉莲盏",
       "description": "完美烹饪冒险类食物时，有12%概率获得2倍产出。",
-      "icon": "UI_Talent_S_Yunjin_07"
+      "icon": "UI_Talent_S_Yunjin_07",
+      "linkedConstellations": null
     }
   },
   "constellation": {
     "0": {
+      "id": 0,
       "name": "却月的轻舞",
       "description": "<color=#FFD780FF>七域舞步<\/color>获得如下强化：\\n·水月造成的伤害提升65%；\\n·净天水环的持续时间延长6秒。",
+      "extraData": null,
       "icon": "UI_Talent_S_Nilou_01"
     },
     "1": {
+      "id": 1,
       "name": "星天的花雨",
       "description": "处于「金杯的丰馈」状态下的角色对敌人造成<color=#80C0FFFF>水元素伤害<\/color>后，该敌人的<color=#80C0FFFF>水元素抗性<\/color>降低35%，持续10秒；触发绽放反应对敌人造成伤害后，该敌人的<color=#99FF88FF>草元素抗性<\/color>降低35%，持续10秒。\\n需要解锁固有天赋「折旋落英之庭」。",
+      "extraData": null,
       "icon": "UI_Talent_S_Nilou_02"
     },
     "2": {
+      "id": 2,
       "name": "倾影的莲步",
       "description": "<color=#FFD780FF>浮莲舞步·远梦聆泉<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 9,
+          "extraLevel": 3
+        }
+      },
       "icon": "UI_Talent_U_Nilou_01"
     },
     "3": {
+      "id": 3,
       "name": "挽漪的节音",
       "description": "<color=#FFD780FF>七域舞步<\/color>的翩转状态下的第三段舞步命中敌人后，将为妮露恢复15点元素能量，并使妮露的<color=#FFD780FF>浮莲舞步·远梦聆泉<\/color>造成的伤害提升50%，持续8秒。",
+      "extraData": null,
       "icon": "UI_Talent_S_Nilou_03"
     },
     "4": {
+      "id": 4,
       "name": "翩旋的流光",
       "description": "<color=#FFD780FF>七域舞步<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 2,
+          "extraLevel": 3
+        }
+      },
       "icon": "UI_Talent_U_Nilou_02"
     },
     "5": {
+      "id": 5,
       "name": "断霜的弦歌",
       "description": "每1000点生命值上限，将使妮露的暴击率提升0.6%，暴击伤害提升1.2%。\\n通过这种方式，妮露的暴击率至多提升30%，暴击伤害至多提升60%。",
+      "extraData": null,
       "icon": "UI_Talent_S_Nilou_04"
     }
   }

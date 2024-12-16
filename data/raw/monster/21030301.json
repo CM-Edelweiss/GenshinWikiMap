@@ -45,37 +45,45 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112005": {
+          "name": "破损的面具",
           "rank": 1,
           "icon": "UI_ItemIcon_112005",
           "count": "0.1681"
         },
         "112006": {
+          "name": "污秽的面具",
           "rank": 2,
           "icon": "UI_ItemIcon_112006",
           "count": "0.0448"
         },
         "112007": {
+          "name": "不祥的面具",
           "rank": 3,
           "icon": "UI_ItemIcon_112007",
           "count": "0.0112"
         },
         "112008": {
+          "name": "导能绘卷",
           "rank": 1,
           "icon": "UI_ItemIcon_112008",
           "count": "2.5212"
         },
         "112009": {
+          "name": "封魔绘卷",
           "rank": 2,
           "icon": "UI_ItemIcon_112009",
           "count": "0.6723"
         },
         "112010": {
+          "name": "禁咒绘卷",
           "rank": 3,
           "icon": "UI_ItemIcon_112010",
           "count": "0.168"
@@ -147,6 +155,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": null
     },
     "21030303": {
@@ -195,6 +204,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": null
     },
     "21030304": {
@@ -243,6 +253,51 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "21030391": {
+      "id": 21030391,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "5.2怪物自走棋敌方单位标记",
+          "description": "脚底光环、出生特效",
+          "abilityName": [
+            "MonsterChess_Monster_Common_EnemyBottom"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 13.26,
+          "type": "GrowCurveType_Unknown_5202"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 53.55,
+          "type": "GrowCurveType_Unknown_5201"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
       "reward": null
     }
   },

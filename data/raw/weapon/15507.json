@@ -4,8 +4,11 @@
   "type": "弓",
   "name": "冬极白星",
   "description": "如同深冬坚冰一样尖锐的无垢之弓。",
+  "specialProp": "FIGHT_PROP_CRITICAL",
   "icon": "UI_EquipIcon_Bow_Worldbane",
-  "storyId": 195507,
+  "storyId": [
+    "15507"
+  ],
   "affix": {
     "115507": {
       "name": "极昼的先兆者",
@@ -164,5 +167,77 @@
     "114034": 3,
     "114035": 4,
     "114036": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112053": {
+      "name": "浮游干核",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112053"
+    },
+    "112054": {
+      "name": "浮游幽核",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112054"
+    },
+    "112055": {
+      "name": "浮游晶化核",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112055"
+    },
+    "112056": {
+      "name": "隐兽指爪",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112056"
+    },
+    "112057": {
+      "name": "隐兽利爪",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112057"
+    },
+    "112058": {
+      "name": "隐兽鬼爪",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112058"
+    },
+    "114033": {
+      "name": "今昔剧画之恶尉",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114033"
+    },
+    "114034": {
+      "name": "今昔剧画之虎啮",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114034"
+    },
+    "114035": {
+      "name": "今昔剧画之一角",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114035"
+    },
+    "114036": {
+      "name": "今昔剧画之鬼人",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114036"
+    }
   }
 }

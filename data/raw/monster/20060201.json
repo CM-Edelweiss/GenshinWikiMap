@@ -5,7 +5,7 @@
   "icon": "UI_MonsterIcon_Sylph_Rock_01",
   "route": "Geo Specter",
   "title": "岩飘浮灵",
-  "specialName": "飘游的元素之灵",
+  "specialName": 2598014395,
   "description": "高浓度的岩元素孕育而生的魔物，能够飘浮在空中。\\n岩飘浮灵在翅叶闭合时会拟态成某种植物果实的样子。因此在一些古老的传说中，它们被当作天上巨木结出的果实，被认为有着神奇的药用价值。",
   "entries": {
     "20060201": {
@@ -45,25 +45,30 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112053": {
+          "name": "浮游干核",
           "rank": 1,
           "icon": "UI_ItemIcon_112053",
-          "count": "1.2606"
+          "count": "2.101"
         },
         "112054": {
+          "name": "浮游幽核",
           "rank": 2,
           "icon": "UI_ItemIcon_112054",
-          "count": "0.3362"
+          "count": "0.5602"
         },
         "112055": {
+          "name": "浮游晶化核",
           "rank": 3,
           "icon": "UI_ItemIcon_112055",
-          "count": "0.084"
+          "count": "0.14"
         }
       }
     }

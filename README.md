@@ -3,6 +3,10 @@
 </p>
 <h1 align="center">GenshinWikiMap</h1>
 
+## | 维护
+
+由[西北一枝花](https://github.com/Nwflower)和[惜月](https://github.com/CMHopeSunshine)因为一些原因暂停维护，由本仓库接手继续维护。
+
 ## | 介绍
 原神(Genshin Impact)游戏数据、图鉴制作以及资源库，数据和素材源自[miHoYo](https://www.mihoyo.com/)和[安柏计划](https://ambr.top/chs)。
 

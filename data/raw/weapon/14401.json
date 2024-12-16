@@ -4,8 +4,11 @@
   "type": "法器",
   "name": "西风秘典",
   "description": "西风骑士团的学者间流传的秘典，记载着元素与物质的道理和力量。",
+  "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
   "icon": "UI_EquipIcon_Catalyst_Zephyrus",
-  "storyId": 194401,
+  "storyId": [
+    "14401"
+  ],
   "affix": {
     "114401": {
       "name": "顺风而行",
@@ -164,5 +167,77 @@
     "114002": 3,
     "114003": 4,
     "114004": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112008": {
+      "name": "导能绘卷",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112008"
+    },
+    "112009": {
+      "name": "封魔绘卷",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112009"
+    },
+    "112010": {
+      "name": "禁咒绘卷",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112010"
+    },
+    "112014": {
+      "name": "沉重号角",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112014"
+    },
+    "112015": {
+      "name": "黑铜号角",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112015"
+    },
+    "112016": {
+      "name": "黑晶号角",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112016"
+    },
+    "114001": {
+      "name": "高塔孤王的破瓦",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114001"
+    },
+    "114002": {
+      "name": "高塔孤王的残垣",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114002"
+    },
+    "114003": {
+      "name": "高塔孤王的断片",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114003"
+    },
+    "114004": {
+      "name": "高塔孤王的碎梦",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114004"
+    }
   }
 }

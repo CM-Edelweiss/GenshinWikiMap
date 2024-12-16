@@ -58,66 +58,81 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": -0.2
       },
+      "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112026": {
+          "name": "雾虚花粉",
           "rank": 2,
           "icon": "UI_ItemIcon_112026",
           "count": "5.2526"
         },
         "112027": {
+          "name": "雾虚草囊",
           "rank": 3,
           "icon": "UI_ItemIcon_112027",
           "count": "1.4006"
         },
         "112028": {
+          "name": "雾虚灯芯",
           "rank": 4,
           "icon": "UI_ItemIcon_112028",
           "count": "0.3502"
         },
         "112032": {
+          "name": "新兵的徽记",
           "rank": 1,
           "icon": "UI_ItemIcon_112032",
           "count": "0.5253"
         },
         "112033": {
+          "name": "士官的徽记",
           "rank": 2,
           "icon": "UI_ItemIcon_112033",
           "count": "0.1401"
         },
         "112034": {
+          "name": "尉官的徽记",
           "rank": 3,
           "icon": "UI_ItemIcon_112034",
           "count": "0.035"
         },
         "400022": {
+          "name": "战狂",
           "rank": 3,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400023": {
+          "name": "战狂",
           "rank": 4,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400032": {
+          "name": "教官",
           "rank": 3,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400033": {
+          "name": "教官",
           "rank": 4,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400042": {
+          "name": "流放者",
           "rank": 3,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400043": {
+          "name": "流放者",
           "rank": 4,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400062": {
+          "name": "游医",
           "rank": 3,
           "icon": "UI_RelicIcon_10013_4"
         }
@@ -181,6 +196,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": -0.2
       },
+      "fundamentalForce": null,
       "reward": null
     }
   },

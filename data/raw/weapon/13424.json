@@ -3,9 +3,12 @@
   "rank": 4,
   "type": "长柄武器",
   "name": "峡湾长歌",
-  "description": "",
+  "description": "在冰原捕鱼的人会使用的长枪，绝对不会放跑猎物。",
+  "specialProp": "FIGHT_PROP_CRITICAL",
   "icon": "UI_EquipIcon_Pole_Shanty",
-  "storyId": 193424,
+  "storyId": [
+    "13424"
+  ],
   "affix": {
     "113424": {
       "name": "冰原的诸多故事",
@@ -165,5 +168,76 @@
     "114059": 4,
     "114060": 5
   },
-  "beta": true
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112038": {
+      "name": "骗骗花蜜",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112038"
+    },
+    "112039": {
+      "name": "微光花蜜",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112039"
+    },
+    "112040": {
+      "name": "原素花蜜",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112040"
+    },
+    "112077": {
+      "name": "来自何处的待放之花",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112077"
+    },
+    "112078": {
+      "name": "何人所珍藏之花",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112078"
+    },
+    "112079": {
+      "name": "漫游者的盛放之花",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112079"
+    },
+    "114057": {
+      "name": "无垢之海的苦盏",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114057"
+    },
+    "114058": {
+      "name": "无垢之海的酒盏",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114058"
+    },
+    "114059": {
+      "name": "无垢之海的银杯",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114059"
+    },
+    "114060": {
+      "name": "无垢之海的金杯",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114060"
+    }
+  }
 }

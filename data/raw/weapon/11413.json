@@ -4,8 +4,11 @@
   "type": "单手剑",
   "name": "腐殖之剑",
   "description": "希冀着生命的诡谲直剑，附有连龙也能侵蚀的腐殖之毒。",
+  "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
   "icon": "UI_EquipIcon_Sword_Magnum",
-  "storyId": 191413,
+  "storyId": [
+    "11413"
+  ],
   "affix": {
     "111413": {
       "name": "无尽的渴慕",
@@ -164,5 +167,77 @@
     "114010": 3,
     "114011": 4,
     "114012": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112014": {
+      "name": "沉重号角",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112014"
+    },
+    "112015": {
+      "name": "黑铜号角",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112015"
+    },
+    "112016": {
+      "name": "黑晶号角",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112016"
+    },
+    "112032": {
+      "name": "新兵的徽记",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112032"
+    },
+    "112033": {
+      "name": "士官的徽记",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112033"
+    },
+    "112034": {
+      "name": "尉官的徽记",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112034"
+    },
+    "114009": {
+      "name": "狮牙斗士的枷锁",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114009"
+    },
+    "114010": {
+      "name": "狮牙斗士的铁链",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114010"
+    },
+    "114011": {
+      "name": "狮牙斗士的镣铐",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114011"
+    },
+    "114012": {
+      "name": "狮牙斗士的理想",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114012"
+    }
   }
 }

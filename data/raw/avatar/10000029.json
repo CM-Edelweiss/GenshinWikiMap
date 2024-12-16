@@ -4,12 +4,15 @@
   "name": "可莉",
   "element": "Fire",
   "weaponType": "WEAPON_CATALYST",
+  "region": "MONDSTADT",
+  "specialProp": "FIGHT_PROP_FIRE_ADD_HURT",
+  "bodyType": "LOLI",
   "icon": "UI_AvatarIcon_Klee",
   "birthday": [
     7,
     27
   ],
-  "release": 1600131600,
+  "release": 1601244000,
   "route": "Klee",
   "fetter": {
     "title": "逃跑的太阳",
@@ -156,6 +159,21 @@
     ]
   },
   "other": {
+    "costume": [
+      {
+        "name": "轻灵火花",
+        "description": "可莉的装扮款式。与皮制书包自成一套的活泼童装。",
+        "isDefault": true
+      },
+      {
+        "name": "琪花星烛",
+        "description": "可莉出演关键剧目时所穿的精致服装，色彩明丽，如同点缀着奶油花朵和明红蜡烛的蛋糕，能将快乐与笑容带往冒险所至的每个角落。",
+        "storyId": 340012,
+        "icon": "UI_AvatarIcon_KleeCostumeWitch",
+        "rank": 4
+      }
+    ],
+    "furnitureId": 368117,
     "nameCard": {
       "id": 210004,
       "name": "可莉·爆弹",
@@ -185,6 +203,98 @@
     "112010": 3,
     "113007": 5,
     "113011": 4
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "100025": {
+      "name": "慕风蘑菇",
+      "rank": 1,
+      "icon": "UI_ItemIcon_100025"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104111": {
+      "name": "燃愿玛瑙碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104111"
+    },
+    "104112": {
+      "name": "燃愿玛瑙断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104112"
+    },
+    "104113": {
+      "name": "燃愿玛瑙块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104113"
+    },
+    "104114": {
+      "name": "燃愿玛瑙",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104114"
+    },
+    "104301": {
+      "name": "「自由」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104301"
+    },
+    "104302": {
+      "name": "「自由」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104302"
+    },
+    "104303": {
+      "name": "「自由」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104303"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "112008": {
+      "name": "导能绘卷",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112008"
+    },
+    "112009": {
+      "name": "封魔绘卷",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112009"
+    },
+    "112010": {
+      "name": "禁咒绘卷",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112010"
+    },
+    "113007": {
+      "name": "北风之环",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113007"
+    },
+    "113011": {
+      "name": "常燃火种",
+      "rank": 4,
+      "icon": "UI_ItemIcon_113011"
+    }
   },
   "talent": {
     "0": {
@@ -902,7 +1012,103 @@
         }
       },
       "cooldown": 0,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "3",
+              "text": "Klee Pyro DMG"
+            },
+            "type": {
+              "span": "3",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "65",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "65",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Normal Attack 3-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "130",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Charged Attack",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "180",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "795",
+            "verticalForce": "900"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "5",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "50",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "1": {
       "type": 0,
@@ -1619,7 +1825,55 @@
         }
       },
       "cooldown": 20,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 1,
+            "type": "normal"
+          },
+          {
+            "id": 2,
+            "type": "level"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Jumpy Dumpty DMG",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": {
+            "tag": {
+              "span": "2",
+              "text": "Klee Pyro DMG"
+            },
+            "type": {
+              "span": "2",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "40",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Mine DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "40",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "3": {
       "type": 1,
@@ -2336,56 +2590,174 @@
         }
       },
       "cooldown": 15,
-      "cost": 60
+      "cost": 60,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          },
+          {
+            "id": 3,
+            "type": "normal"
+          },
+          {
+            "id": 4,
+            "type": "level"
+          },
+          {
+            "id": 5,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Sparks 'n' Splash DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "2",
+              "text": "Elemental Burst"
+            },
+            "type": {
+              "span": "2",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Mute",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Additional Sparks (C1)",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Mute",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Explosion (C4)",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": null,
+          "interruptionResistance": "120",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "4": {
       "type": 2,
       "name": "砰砰礼物",
       "description": "<color=#FFD780FF>蹦蹦炸弹<\/color>与普通攻击造成伤害时，有50%的几率赋予可莉一朵爆裂火花。\\n施放重击时将消耗爆裂火花，使本次重击不消耗体力，造成的伤害提升50%。",
-      "icon": "UI_Talent_S_Klee_05"
+      "icon": "UI_Talent_S_Klee_05",
+      "linkedConstellations": null
     },
     "5": {
       "type": 2,
       "name": "火花无限",
       "description": "可莉的重击造成暴击后，为队伍中所有角色恢复2点元素能量。",
-      "icon": "UI_Talent_S_Klee_06"
+      "icon": "UI_Talent_S_Klee_06",
+      "linkedConstellations": null
     },
     "6": {
       "type": 2,
       "name": "全是宝藏",
       "description": "在小地图上显示周围的<color=#FFD780FF>蒙德区域特产<\/color>的位置。",
-      "icon": "UI_Talent_Collect_Local_Mengde"
+      "icon": "UI_Talent_Collect_Local_Mengde",
+      "linkedConstellations": null
     }
   },
   "constellation": {
     "0": {
+      "id": 0,
       "name": "连环轰隆",
       "description": "攻击与施放技能时，有几率召唤火花轰击敌人，造成相当于<color=#FFD780FF>轰轰火花<\/color>攻击伤害120%的伤害。",
-      "icon": "UI_Talent_S_Klee_01"
+      "extraData": null,
+      "icon": "UI_Talent_S_Klee_01",
+      "advancedProps": [
+        {
+          "name": "Extra Spark",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Elemental Burst"
+            },
+            "type": {
+              "span": null,
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Mute",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "1": {
+      "id": 1,
       "name": "破破弹片",
       "description": "<color=#FFD780FF>蹦蹦炸弹<\/color>的诡雷会使敌人的防御力降低23%，持续10秒。",
+      "extraData": null,
       "icon": "UI_Talent_S_Klee_02"
     },
     "2": {
+      "id": 2,
       "name": "可莉特调",
       "description": "<color=#FFD780FF>蹦蹦炸弹<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 2,
+          "extraLevel": 3
+        }
+      },
       "icon": "UI_Talent_U_Klee_01"
     },
     "3": {
+      "id": 3,
       "name": "一触即发",
       "description": "如果在<color=#FFD780FF>轰轰火花<\/color>持续期间内退场，会引发爆炸，造成555%攻击力的<color=#FF9999FF>火元素范围伤害<\/color>。",
+      "extraData": null,
       "icon": "UI_Talent_S_Klee_03"
     },
     "4": {
+      "id": 4,
       "name": "轰击之星",
       "description": "<color=#FFD780FF>轰轰火花<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 9,
+          "extraLevel": 3
+        }
+      },
       "icon": "UI_Talent_U_Klee_02"
     },
     "5": {
+      "id": 5,
       "name": "火力全开",
       "description": "在<color=#FFD780FF>轰轰火花<\/color>的状态下，可莉每3秒会为队伍中所有角色（不包括可莉自己）恢复3点元素能量；\\n施放<color=#FFD780FF>轰轰火花<\/color>后的25秒内，队伍中所有角色获得10%<color=#FF9999FF>火元素伤害加成<\/color>。",
+      "extraData": null,
       "icon": "UI_Talent_S_Klee_04"
     }
   }

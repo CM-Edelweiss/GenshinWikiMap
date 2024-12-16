@@ -5,7 +5,7 @@
   "icon": "UI_MonsterIcon_Fungus_Amanita_Unu_Svarita_Ice",
   "route": "Winged Cryoshroom",
   "title": "有翼冰本真蕈",
-  "specialName": "蕈群的超越者",
+  "specialName": 1774999115,
   "description": "孢子构成的拟态生物，具有强大的环境适应能力。\\n不仅看上去像，连生活习性也模仿了鸟类。飞舞的时候会散落出轻盈的冰花，这些冰晶的晶核其实也是孢子。\\n在蕈兽群落中占有主导地位，显示出其拥有着更高的智能。",
   "entries": {
     "26120201": {
@@ -45,42 +45,94 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112059": {
+          "name": "蕈兽孢子",
           "rank": 1,
           "icon": "UI_ItemIcon_112059",
           "count": "0.2101"
         },
         "112060": {
+          "name": "荧光孢粉",
           "rank": 2,
           "icon": "UI_ItemIcon_112060",
           "count": "0.056"
         },
         "112061": {
+          "name": "孢囊晶尘",
           "rank": 3,
           "icon": "UI_ItemIcon_112061",
           "count": "0.014"
         },
         "112062": {
+          "name": "失活菌核",
           "rank": 2,
           "icon": "UI_ItemIcon_112062",
           "count": "1.0505"
         },
         "112063": {
+          "name": "休眠菌核",
           "rank": 3,
           "icon": "UI_ItemIcon_112063",
           "count": "0.2801"
         },
         "112064": {
+          "name": "茁壮菌核",
           "rank": 4,
           "icon": "UI_ItemIcon_112064",
           "count": "0.07"
         }
       }
+    },
+    "26120291": {
+      "id": 26120291,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "5.2怪物自走棋敌方单位标记",
+          "description": "脚底光环、出生特效",
+          "abilityName": [
+            "MonsterChess_Monster_Common_EnemyBottom"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 39.78,
+          "type": "GrowCurveType_Unknown_5202"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 90.27,
+          "type": "GrowCurveType_Unknown_5201"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
     }
   },
   "tips": {

@@ -4,8 +4,11 @@
   "type": "弓",
   "name": "终末嗟叹之诗",
   "description": "如同诗人的乐器一般优美的弓，放出的箭矢如同叹息声一般穿透人心。",
+  "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
   "icon": "UI_EquipIcon_Bow_Widsith",
-  "storyId": 195503,
+  "storyId": [
+    "15503"
+  ],
   "affix": {
     "115503": {
       "name": "别离的思念之歌",
@@ -164,5 +167,77 @@
     "114006": 3,
     "114007": 4,
     "114008": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112014": {
+      "name": "沉重号角",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112014"
+    },
+    "112015": {
+      "name": "黑铜号角",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112015"
+    },
+    "112016": {
+      "name": "黑晶号角",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112016"
+    },
+    "112032": {
+      "name": "新兵的徽记",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112032"
+    },
+    "112033": {
+      "name": "士官的徽记",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112033"
+    },
+    "112034": {
+      "name": "尉官的徽记",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112034"
+    },
+    "114005": {
+      "name": "凛风奔狼的始龀",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114005"
+    },
+    "114006": {
+      "name": "凛风奔狼的裂齿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114006"
+    },
+    "114007": {
+      "name": "凛风奔狼的断牙",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114007"
+    },
+    "114008": {
+      "name": "凛风奔狼的怀乡",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114008"
+    }
   }
 }

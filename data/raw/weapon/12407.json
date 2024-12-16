@@ -4,8 +4,11 @@
   "type": "双手剑",
   "name": "白影剑",
   "description": "剑身上有一面未开刃的异国大剑，经商路流落到璃月。在了解它的人手里，破坏力极可观。",
+  "specialProp": "FIGHT_PROP_DEFENSE_PERCENT",
   "icon": "UI_EquipIcon_Claymore_Exotic",
-  "storyId": 192407,
+  "storyId": [
+    "12407"
+  ],
   "affix": {
     "112407": {
       "name": "注能之锋",
@@ -164,5 +167,77 @@
     "114014": 3,
     "114015": 4,
     "114016": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112029": {
+      "name": "猎兵祭刀",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112029"
+    },
+    "112030": {
+      "name": "特工祭刀",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112030"
+    },
+    "112031": {
+      "name": "督察长祭刀",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112031"
+    },
+    "112035": {
+      "name": "寻宝鸦印",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112035"
+    },
+    "112036": {
+      "name": "藏银鸦印",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112036"
+    },
+    "112037": {
+      "name": "攫金鸦印",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112037"
+    },
+    "114013": {
+      "name": "孤云寒林的光砂",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114013"
+    },
+    "114014": {
+      "name": "孤云寒林的辉岩",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114014"
+    },
+    "114015": {
+      "name": "孤云寒林的圣骸",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114015"
+    },
+    "114016": {
+      "name": "孤云寒林的神体",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114016"
+    }
   }
 }

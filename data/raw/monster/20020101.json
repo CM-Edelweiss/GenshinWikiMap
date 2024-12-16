@@ -5,7 +5,7 @@
   "icon": "UI_MonsterIcon_Elemental_Wind_01",
   "route": "Eye of the Storm",
   "title": "狂风之核",
-  "specialName": "躁动的纯粹元素",
+  "specialName": 1902929419,
   "description": "质量极高的风元素结核后产生的形态。\\n狂风之核的形成意味着地方的元素地脉阻塞，其中出现了淤积。会肆无忌惮地挥霍狂风的力量，扫荡周围的人，或许也是因为它象征着此间天地的病痛吧。",
   "entries": {
     "20020101": {
@@ -58,6 +58,59 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "20020191": {
+      "id": 20020191,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "风抗-100%",
+          "description": "同系伤害抵抗-风-100%",
+          "abilityName": [
+            "MonsterAffix_ElementResist_Wind_03"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "5.2怪物自走棋敌方单位标记",
+          "description": "脚底光环、出生特效",
+          "abilityName": [
+            "MonsterChess_Monster_Common_EnemyBottom"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 51.255,
+          "type": "GrowCurveType_Unknown_5202"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 87.21,
+          "type": "GrowCurveType_Unknown_5201"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
       "reward": null
     }
   },

@@ -4,8 +4,11 @@
   "type": "弓",
   "name": "天空之翼",
   "description": "象征风龙身为风之神眷属的大弓。释弦时的鸣声是风之神的偏爱，蕴含苍空与长风的力量。",
+  "specialProp": "FIGHT_PROP_CRITICAL",
   "icon": "UI_EquipIcon_Bow_Dvalin",
-  "storyId": 195501,
+  "storyId": [
+    "15501"
+  ],
   "affix": {
     "115501": {
       "name": "回响长天的诗歌",
@@ -164,5 +167,77 @@
     "114006": 3,
     "114007": 4,
     "114008": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112011": {
+      "name": "牢固的箭簇",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112011"
+    },
+    "112012": {
+      "name": "锐利的箭簇",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112012"
+    },
+    "112013": {
+      "name": "历战的箭簇",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112013"
+    },
+    "112020": {
+      "name": "地脉的旧枝",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112020"
+    },
+    "112021": {
+      "name": "地脉的枯叶",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112021"
+    },
+    "112022": {
+      "name": "地脉的新芽",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112022"
+    },
+    "114005": {
+      "name": "凛风奔狼的始龀",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114005"
+    },
+    "114006": {
+      "name": "凛风奔狼的裂齿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114006"
+    },
+    "114007": {
+      "name": "凛风奔狼的断牙",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114007"
+    },
+    "114008": {
+      "name": "凛风奔狼的怀乡",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114008"
+    }
   }
 }

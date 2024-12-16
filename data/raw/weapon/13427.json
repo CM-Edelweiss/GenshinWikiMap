@@ -4,8 +4,11 @@
   "type": "长柄武器",
   "name": "勘探钻机",
   "description": "如今几乎绝迹的长柄钻机，常用于勘探与石料切割雕刻作业。",
+  "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
   "icon": "UI_EquipIcon_Pole_Mechanic",
-  "storyId": 193427,
+  "storyId": [
+    "13427"
+  ],
   "affix": {
     "113427": {
       "name": "石匠号子",
@@ -164,5 +167,77 @@
     "114050": 3,
     "114051": 4,
     "114052": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112083": {
+      "name": "啮合齿轮",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112083"
+    },
+    "112084": {
+      "name": "机关正齿轮",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112084"
+    },
+    "112085": {
+      "name": "奇械机芯齿轮",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112085"
+    },
+    "112092": {
+      "name": "老旧的役人怀表",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112092"
+    },
+    "112093": {
+      "name": "役人的制式怀表",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112093"
+    },
+    "112094": {
+      "name": "役人的时时刻刻",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112094"
+    },
+    "114049": {
+      "name": "悠古弦音的残章",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114049"
+    },
+    "114050": {
+      "name": "悠古弦音的断章",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114050"
+    },
+    "114051": {
+      "name": "悠古弦音的乐章",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114051"
+    },
+    "114052": {
+      "name": "悠古弦音的回响",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114052"
+    }
   }
 }

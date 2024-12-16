@@ -4,8 +4,11 @@
   "type": "长柄武器",
   "name": "贯月矢",
   "description": "从兰那罗的故事中得到的武器。形制如同巨大的箭矢，能够作为枪矛使用。",
+  "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
   "icon": "UI_EquipIcon_Pole_Arakalari",
-  "storyId": 193417,
+  "storyId": [
+    "13417"
+  ],
   "affix": {
     "113417": {
       "name": "幽林月影",
@@ -164,5 +167,77 @@
     "114042": 3,
     "114043": 4,
     "114044": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112032": {
+      "name": "新兵的徽记",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112032"
+    },
+    "112033": {
+      "name": "士官的徽记",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112033"
+    },
+    "112034": {
+      "name": "尉官的徽记",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112034"
+    },
+    "112068": {
+      "name": "混沌容器",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112068"
+    },
+    "112069": {
+      "name": "混沌模块",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112069"
+    },
+    "112070": {
+      "name": "混沌锚栓",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112070"
+    },
+    "114041": {
+      "name": "绿洲花园的追忆",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114041"
+    },
+    "114042": {
+      "name": "绿洲花园的恩惠",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114042"
+    },
+    "114043": {
+      "name": "绿洲花园的哀思",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114043"
+    },
+    "114044": {
+      "name": "绿洲花园的真谛",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114044"
+    }
   }
 }

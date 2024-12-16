@@ -49,51 +49,63 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.5
       },
+      "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112047": {
+          "name": "混沌机关",
           "rank": 2,
           "icon": "UI_ItemIcon_112047",
           "count": "2.6263"
         },
         "112048": {
+          "name": "混沌枢纽",
           "rank": 3,
           "icon": "UI_ItemIcon_112048",
           "count": "0.7003"
         },
         "112049": {
+          "name": "混沌真眼",
           "rank": 4,
           "icon": "UI_ItemIcon_112049",
           "count": "0.1751"
         },
         "400022": {
+          "name": "战狂",
           "rank": 3,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400023": {
+          "name": "战狂",
           "rank": 4,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400032": {
+          "name": "教官",
           "rank": 3,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400033": {
+          "name": "教官",
           "rank": 4,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400042": {
+          "name": "流放者",
           "rank": 3,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400043": {
+          "name": "流放者",
           "rank": 4,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400062": {
+          "name": "游医",
           "rank": 3,
           "icon": "UI_RelicIcon_10013_4"
         }
@@ -157,6 +169,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.5
       },
+      "fundamentalForce": null,
       "reward": null
     },
     "24020303": {
@@ -217,6 +230,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.5
       },
+      "fundamentalForce": null,
       "reward": null
     },
     "24020304": {
@@ -269,6 +283,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.5
       },
+      "fundamentalForce": null,
       "reward": null
     }
   },

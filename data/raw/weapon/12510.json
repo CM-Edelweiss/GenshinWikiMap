@@ -4,8 +4,11 @@
   "type": "双手剑",
   "name": "赤角石溃杵",
   "description": "依据过去的主人的说法，这是何等鬼怪精妖都能打跑的大杵「赤角石见石溃金涂金啮御狮子」。",
+  "specialProp": "FIGHT_PROP_CRITICAL_HURT",
   "icon": "UI_EquipIcon_Claymore_Itadorimaru",
-  "storyId": 192510,
+  "storyId": [
+    "12510"
+  ],
   "affix": {
     "112510": {
       "name": "御伽大王御伽话",
@@ -164,5 +167,77 @@
     "114030": 3,
     "114031": 4,
     "114032": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112044": {
+      "name": "破旧的刀镡",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112044"
+    },
+    "112045": {
+      "name": "影打刀镡",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112045"
+    },
+    "112046": {
+      "name": "名刀镡",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112046"
+    },
+    "112056": {
+      "name": "隐兽指爪",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112056"
+    },
+    "112057": {
+      "name": "隐兽利爪",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112057"
+    },
+    "112058": {
+      "name": "隐兽鬼爪",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112058"
+    },
+    "114029": {
+      "name": "鸣神御灵的明惠",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114029"
+    },
+    "114030": {
+      "name": "鸣神御灵的欢喜",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114030"
+    },
+    "114031": {
+      "name": "鸣神御灵的亲爱",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114031"
+    },
+    "114032": {
+      "name": "鸣神御灵的勇武",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114032"
+    }
   }
 }

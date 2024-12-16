@@ -4,6 +4,9 @@
   "name": "旅行者",
   "element": "Water",
   "weaponType": "WEAPON_SWORD_ONE_HAND",
+  "region": "MAINACTOR",
+  "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+  "bodyType": "BOY",
   "icon": "UI_AvatarIcon_PlayerBoy",
   "birthday": [
     0,
@@ -172,6 +175,128 @@
     "112081": 2,
     "112082": 3,
     "113046": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "100024": {
+      "name": "风车菊",
+      "rank": 1,
+      "icon": "UI_ItemIcon_100024"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104101": {
+      "name": "璀璨原钻碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104101"
+    },
+    "104102": {
+      "name": "璀璨原钻断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104102"
+    },
+    "104103": {
+      "name": "璀璨原钻块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104103"
+    },
+    "104104": {
+      "name": "璀璨原钻",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104104"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "104338": {
+      "name": "「公平」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104338"
+    },
+    "104339": {
+      "name": "「公平」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104339"
+    },
+    "104340": {
+      "name": "「公平」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104340"
+    },
+    "104342": {
+      "name": "「正义」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104342"
+    },
+    "104343": {
+      "name": "「正义」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104343"
+    },
+    "104345": {
+      "name": "「秩序」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104345"
+    },
+    "104346": {
+      "name": "「秩序」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104346"
+    },
+    "112005": {
+      "name": "破损的面具",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112005"
+    },
+    "112006": {
+      "name": "污秽的面具",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112006"
+    },
+    "112007": {
+      "name": "不祥的面具",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112007"
+    },
+    "112080": {
+      "name": "异海凝珠",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112080"
+    },
+    "112081": {
+      "name": "异海之块",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112081"
+    },
+    "112082": {
+      "name": "异色结晶石",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112082"
+    },
+    "113046": {
+      "name": "生长天地之蕨草",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113046"
+    }
   },
   "talent": {
     "0": {
@@ -889,7 +1014,139 @@
         }
       },
       "cooldown": 0,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "7",
+              "text": "Normal Attack"
+            },
+            "type": {
+              "span": "7",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "41.4",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "43.2",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "53.1",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "57.6",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 5-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "70.2",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "655",
+            "verticalForce": "800"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charged Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "50.6",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charged Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "50.6",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "655",
+            "verticalForce": "800"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "800"
+          },
+          "bluntAttack": true
+        }
+      ]
     },
     "1": {
       "type": 0,
@@ -1606,7 +1863,67 @@
         }
       },
       "cooldown": 10,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 2,
+            "type": "level"
+          },
+          {
+            "id": 3,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Torrent Surge DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Dewdrop DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Elemental Skill"
+            },
+            "type": {
+              "span": null,
+              "text": "1.5s"
+            }
+          },
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Spiritbreath Thorn DMG",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "20",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "3": {
       "type": 1,
@@ -2323,35 +2640,84 @@
         }
       },
       "cooldown": 20,
-      "cost": 80
+      "cost": 80,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 1,
+            "type": "normal"
+          },
+          {
+            "id": 4,
+            "type": "level"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Skill DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Elemental Burst"
+            },
+            "type": {
+              "span": null,
+              "text": "8s\/4 Hits"
+            }
+          },
+          "interruptionResistance": "40",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "4": {
       "type": 2,
       "name": "无染的澈水",
       "description": "长按施放<color=#FFD780FF>水纹剑<\/color>发射的露滴命中敌人后，将在旅行者附近产生源水之滴。旅行者拾取源水之滴后将恢复7%生命值。\\n每秒至多通过这种方式产生1枚源水之滴，每次施放水纹剑至多产生4枚源水之滴。",
-      "icon": "UI_Talent_S_PlayerWater_05"
+      "icon": "UI_Talent_S_PlayerWater_05",
+      "linkedConstellations": {
+        "isLevelIncluded": false,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          }
+        ]
+      }
     },
     "5": {
       "type": 2,
       "name": "澄明的净水",
       "description": "长按施放<color=#FFD780FF>水纹剑<\/color>时如果通过充盈消耗了生命值，则在施放结束时的喷发激流造成的伤害提高，提高值为旅行者在此次施放期间通过充盈消耗的生命值总和的45%。\\n通过这种方式，至多使伤害提高5000点。",
-      "icon": "UI_Talent_S_PlayerWater_06"
+      "icon": "UI_Talent_S_PlayerWater_06",
+      "linkedConstellations": null
     }
   },
   "constellation": {
     "0": {
+      "id": 0,
       "name": "微澜的湖水",
       "description": "拾取源水之滴后，旅行者将恢复2点元素能量。\\n需要解锁固有天赋「无染的澈水」。",
       "extraData": null,
       "icon": "UI_Talent_S_PlayerWater_01"
     },
     "1": {
+      "id": 1,
       "name": "潺涓的碧水",
       "description": "<color=#FFD780FF>扬水制流<\/color>的浮水泡沫移动的速度降低30%，持续时间延长3秒。",
       "extraData": null,
       "icon": "UI_Talent_S_PlayerWater_02"
     },
     "2": {
+      "id": 2,
       "name": "激荡的波水",
       "description": "<color=#FFD780FF>水纹剑<\/color>的技能等级提高3级。\\n至多提升至15级。",
       "extraData": {
@@ -2364,12 +2730,14 @@
       "icon": "UI_Talent_U_PlayerWater_01"
     },
     "3": {
+      "id": 3,
       "name": "倾落的迸水",
       "description": "施放<color=#FFD780FF>水纹剑<\/color>时，将生成一个伤害吸收量等于生命值上限10%的水纹护盾，对<color=#80C0FFFF>水元素伤害<\/color>有250%的吸收效果，持续直到施放完成。\\n每2秒一次，露滴命中敌人后，如果旅行者处于水纹护盾的庇护下，则将水纹护盾的伤害吸收量补充至旅行者生命值上限的10%；如果不处于水纹护盾的庇护下，则重新产生水纹护盾。",
       "extraData": null,
       "icon": "UI_Talent_S_PlayerWater_03"
     },
     "4": {
+      "id": 4,
       "name": "洄旋的曲水",
       "description": "<color=#FFD780FF>扬水制流<\/color>的技能等级提高3级。\\n至多提升至15级。",
       "extraData": {
@@ -2382,11 +2750,11 @@
       "icon": "UI_Talent_U_PlayerWater_02"
     },
     "5": {
+      "id": 5,
       "name": "公义的潮水",
       "description": "旅行者拾取源水之滴时，还将为队伍中附近的生命值百分比最低的角色，基于其生命值上限的6%，恢复生命值。",
       "extraData": null,
       "icon": "UI_Talent_S_PlayerWater_04"
     }
-  },
-  "beta": true
+  }
 }

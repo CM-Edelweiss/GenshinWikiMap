@@ -4,8 +4,11 @@
   "type": "弓",
   "name": "神射手之誓",
   "description": "据说曾属于技艺高强的射手，是一把上好的弓。因为散发出强烈的气息，难以用于狩猎。",
+  "specialProp": "FIGHT_PROP_CRITICAL_HURT",
   "icon": "UI_EquipIcon_Bow_Arjuna",
-  "storyId": 195302,
+  "storyId": [
+    "15302"
+  ],
   "affix": {
     "115302": {
       "name": "精准",
@@ -164,5 +167,77 @@
     "114006": 3,
     "114007": 4,
     "114008": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112002": {
+      "name": "史莱姆凝液",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112002"
+    },
+    "112003": {
+      "name": "史莱姆清",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112003"
+    },
+    "112004": {
+      "name": "史莱姆原浆",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112004"
+    },
+    "112020": {
+      "name": "地脉的旧枝",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112020"
+    },
+    "112021": {
+      "name": "地脉的枯叶",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112021"
+    },
+    "112022": {
+      "name": "地脉的新芽",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112022"
+    },
+    "114005": {
+      "name": "凛风奔狼的始龀",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114005"
+    },
+    "114006": {
+      "name": "凛风奔狼的裂齿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114006"
+    },
+    "114007": {
+      "name": "凛风奔狼的断牙",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114007"
+    },
+    "114008": {
+      "name": "凛风奔狼的怀乡",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114008"
+    }
   }
 }

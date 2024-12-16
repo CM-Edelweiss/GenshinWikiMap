@@ -4,8 +4,11 @@
   "type": "双手剑",
   "name": "钟剑",
   "description": "装有时钟的厚重大剑，其中的计时机关早已被破坏。",
+  "specialProp": "FIGHT_PROP_HP_PERCENT",
   "icon": "UI_EquipIcon_Claymore_Troupe",
-  "storyId": 192402,
+  "storyId": [
+    "12402"
+  ],
   "affix": {
     "112402": {
       "name": "叛逆的守护者",
@@ -164,5 +167,77 @@
     "114002": 3,
     "114003": 4,
     "114004": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112014": {
+      "name": "沉重号角",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112014"
+    },
+    "112015": {
+      "name": "黑铜号角",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112015"
+    },
+    "112016": {
+      "name": "黑晶号角",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112016"
+    },
+    "112038": {
+      "name": "骗骗花蜜",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112038"
+    },
+    "112039": {
+      "name": "微光花蜜",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112039"
+    },
+    "112040": {
+      "name": "原素花蜜",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112040"
+    },
+    "114001": {
+      "name": "高塔孤王的破瓦",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114001"
+    },
+    "114002": {
+      "name": "高塔孤王的残垣",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114002"
+    },
+    "114003": {
+      "name": "高塔孤王的断片",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114003"
+    },
+    "114004": {
+      "name": "高塔孤王的碎梦",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114004"
+    }
   }
 }

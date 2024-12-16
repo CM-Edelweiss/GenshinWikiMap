@@ -4,12 +4,15 @@
   "name": "米卡",
   "element": "Ice",
   "weaponType": "WEAPON_POLE",
+  "region": "MONDSTADT",
+  "specialProp": "FIGHT_PROP_HP_PERCENT",
+  "bodyType": "BOY",
   "icon": "UI_AvatarIcon_Mika",
   "birthday": [
     8,
     11
   ],
-  "release": 1673992800,
+  "release": 1679414400,
   "route": "Mika",
   "fetter": {
     "title": "晴霜的标绘",
@@ -17,10 +20,10 @@
     "constellation": "林鸽座",
     "native": "西风骑士团",
     "cv": {
-      "EN": "",
-      "CHS": "",
-      "JP": "",
-      "KR": ""
+      "EN": "罗布·莫雷拉",
+      "CHS": "邓宥希",
+      "JP": "三瓶由布子",
+      "KR": "尹垠舒"
     }
   },
   "upgrade": {
@@ -156,10 +159,18 @@
     ]
   },
   "other": {
+    "costume": [
+      {
+        "name": "高飞信标",
+        "description": "米卡的装扮款式。为野外作业特别设计的这款骑士装束大量采用柔韧布料，并增添了收纳武器与工具的位置。祝穿戴者一路顺风！",
+        "isDefault": true
+      }
+    ],
+    "furnitureId": 368165,
     "nameCard": {
       "id": 210153,
-      "name": "？？？",
-      "description": "？？？",
+      "name": "米卡·索引",
+      "description": "名片纹饰。\\n每次将绘制的地图捧在手中，男孩都觉得自己捧起了一小片世界的拓印。",
       "icon": "UI_NameCardIcon_Mika"
     },
     "specialFood": {
@@ -185,6 +196,98 @@
     "112034": 3,
     "113042": 5,
     "113044": 4
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "100021": {
+      "name": "钩钩果",
+      "rank": 1,
+      "icon": "UI_ItemIcon_100021"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104161": {
+      "name": "哀叙冰玉碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104161"
+    },
+    "104162": {
+      "name": "哀叙冰玉断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104162"
+    },
+    "104163": {
+      "name": "哀叙冰玉块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104163"
+    },
+    "104164": {
+      "name": "哀叙冰玉",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104164"
+    },
+    "104307": {
+      "name": "「诗文」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104307"
+    },
+    "104308": {
+      "name": "「诗文」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104308"
+    },
+    "104309": {
+      "name": "「诗文」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104309"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "112032": {
+      "name": "新兵的徽记",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112032"
+    },
+    "112033": {
+      "name": "士官的徽记",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112033"
+    },
+    "112034": {
+      "name": "尉官的徽记",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112034"
+    },
+    "113042": {
+      "name": "无心的渊镜",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113042"
+    },
+    "113044": {
+      "name": "苍砾蕊羽",
+      "rank": 4,
+      "icon": "UI_ItemIcon_113044"
+    }
   },
   "talent": {
     "0": {
@@ -223,7 +326,7 @@
             0.27615,
             0.70874,
             1.12746,
-            20,
+            25,
             0.63932,
             1.27838,
             1.59676,
@@ -271,7 +374,7 @@
             0.29862,
             0.76643,
             1.21923,
-            20,
+            25,
             0.69136,
             1.38243,
             1.72673,
@@ -319,7 +422,7 @@
             0.3211,
             0.82412,
             1.311,
-            20,
+            25,
             0.7434,
             1.48649,
             1.8567,
@@ -367,7 +470,7 @@
             0.35321,
             0.90653,
             1.4421,
-            20,
+            25,
             0.81774,
             1.63513,
             2.04237,
@@ -415,7 +518,7 @@
             0.37569,
             0.96422,
             1.53387,
-            20,
+            25,
             0.86978,
             1.73919,
             2.17234,
@@ -463,7 +566,7 @@
             0.40137,
             1.03015,
             1.63875,
-            20,
+            25,
             0.92925,
             1.85811,
             2.32087,
@@ -512,7 +615,7 @@
             0.4367,
             1.1208,
             1.78296,
-            20,
+            25,
             1.01102,
             2.02162,
             2.52511,
@@ -561,7 +664,7 @@
             0.47202,
             1.21146,
             1.92717,
-            20,
+            25,
             1.0928,
             2.18513,
             2.72935,
@@ -610,7 +713,7 @@
             0.50734,
             1.30211,
             2.07138,
-            20,
+            25,
             1.17457,
             2.34865,
             2.93359,
@@ -660,7 +763,7 @@
             0.54587,
             1.401,
             2.2287,
-            20,
+            25,
             1.26378,
             2.52702,
             3.15639,
@@ -705,7 +808,7 @@
             0.5844,
             1.4999,
             2.38602,
-            20,
+            25,
             1.35299,
             2.7054,
             3.37919,
@@ -750,7 +853,7 @@
             0.62293,
             1.59879,
             2.54334,
-            20,
+            25,
             1.4422,
             2.88378,
             3.602,
@@ -795,7 +898,7 @@
             0.66147,
             1.69769,
             2.70066,
-            20,
+            25,
             1.5314,
             3.06216,
             3.8248,
@@ -840,7 +943,7 @@
             0.7,
             1.79658,
             2.85798,
-            20,
+            25,
             1.62061,
             3.24054,
             4.04761,
@@ -885,7 +988,7 @@
             0.73853,
             1.89548,
             3.0153,
-            20,
+            25,
             1.70982,
             3.41892,
             4.27041,
@@ -902,7 +1005,148 @@
         }
       },
       "cooldown": 0,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "6",
+              "text": "Normal Attack"
+            },
+            "type": {
+              "span": "6",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "40.245",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "38.606",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "50.701",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit A",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "25.68",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit B",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "25.68",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 5-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "65.93",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charged Attack",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "0.5s"
+            },
+            "type": {
+              "span": null,
+              "text": ""
+            }
+          },
+          "interruptionResistance": "120",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "800"
+          },
+          "bluntAttack": true
+        }
+      ]
     },
     "1": {
       "type": 0,
@@ -1619,7 +1863,75 @@
         }
       },
       "cooldown": 15,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          },
+          {
+            "id": 1,
+            "type": "normal"
+          },
+          {
+            "id": 4,
+            "type": "level"
+          },
+          {
+            "id": 5,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Flowfrost Arrow DMG",
+          "elementalGaugeTheory": "1",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Rimestar Flare DMG",
+          "elementalGaugeTheory": "1",
+          "internalCooldown": {
+            "tag": {
+              "span": "2",
+              "text": "Elemental Skill"
+            },
+            "type": {
+              "span": "2",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Rimestar Shard DMG",
+          "elementalGaugeTheory": "1",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "50",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "3": {
       "type": 1,
@@ -2336,58 +2648,113 @@
         }
       },
       "cooldown": 18,
-      "cost": 70
+      "cost": 70,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          },
+          {
+            "id": 2,
+            "type": "level"
+          },
+          {
+            "id": 3,
+            "type": "normal"
+          }
+        ]
+      }
     },
     "4": {
       "type": 2,
       "name": "速射牵制",
       "description": "在下列情况下，<color=#FFD780FF>星霜的流旋<\/color>的灵风状态将获得侦明效果强化，使角色处于场上时，造成的物理伤害提升10%：\\n·霜流矢命中超过1名敌人时，每额外命中1名敌人就产生1层侦明效果；\\n·冰星破片命中敌人时，将产生1层侦明效果。每枚冰星破片只能触发1次。\\n\\n灵风状态的侦明效果至多叠加3层，在持续期间内重复施放星霜的流旋时，将移除原有的灵风状态与其侦明效果。",
-      "icon": "UI_Talent_S_Mika_05"
+      "icon": "UI_Talent_S_Mika_05",
+      "linkedConstellations": {
+        "isLevelIncluded": false,
+        "prop": [
+          {
+            "id": 1,
+            "type": "normal"
+          },
+          {
+            "id": 5,
+            "type": "normal"
+          }
+        ]
+      }
     },
     "5": {
       "type": 2,
       "name": "地貌测绘",
       "description": "同时处于<color=#FFD780FF>苍翎的颂愿<\/color>的鹰翎状态与<color=#FFD780FF>星霜的流旋<\/color>的灵风状态下的当前场上角色，在攻击造成暴击时，灵风状态将产生1层固有天赋「速射牵制」的侦明效果。在一次灵风状态的持续期间内，通过这种方式至多产生1层侦明效果。\\n此外，灵风状态下侦明效果叠加层数上限提升1层。\\n需要解锁固有天赋「速射牵制」。",
-      "icon": "UI_Talent_S_Mika_06"
+      "icon": "UI_Talent_S_Mika_06",
+      "linkedConstellations": null
     },
     "6": {
       "type": 2,
       "name": "勘界定标",
       "description": "在小地图上显示周围的<color=#FFD780FF>蒙德区域特产<\/color>的位置。",
-      "icon": "UI_Talent_Collect_Local_Mengde"
+      "icon": "UI_Talent_Collect_Local_Mengde",
+      "linkedConstellations": null
     }
   },
   "constellation": {
     "0": {
+      "id": 0,
       "name": "遇合的因缘",
       "description": "<color=#FFD780FF>星霜的流旋<\/color>产生的灵风状态能使<color=#FFD780FF>苍翎的颂愿<\/color>的鹰翎状态恢复生命值的间隔降低，降低比例等同于灵风状态提供的攻击速度提升比例。",
+      "extraData": null,
       "icon": "UI_Talent_S_Mika_01"
     },
     "1": {
+      "id": 1,
       "name": "伴行的旅路",
       "description": "<color=#FFD780FF>星霜的流旋<\/color>的霜流矢首次命中敌人时，或是冰星信标命中敌人时，将产生1层固有天赋「速射牵制」的侦明效果。\\n需要解锁固有天赋「速射牵制」。",
+      "extraData": null,
       "icon": "UI_Talent_S_Mika_02"
     },
     "2": {
+      "id": 2,
       "name": "游击的心得",
       "description": "<color=#FFD780FF>苍翎的颂愿<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 9,
+          "extraLevel": 3
+        }
+      },
       "icon": "UI_Talent_U_Mika_01"
     },
     "3": {
+      "id": 3,
       "name": "晴霜的祝念",
       "description": "米卡自己的<color=#FFD780FF>苍翎的颂愿<\/color>的鹰翎状态为队伍中的角色进行治疗时，将为米卡恢复3点元素能量。通过一次施放苍翎的颂愿产生的鹰翎状态，至多恢复5次元素能量。",
+      "extraData": null,
       "icon": "UI_Talent_S_Mika_03"
     },
     "4": {
+      "id": 4,
       "name": "引示的铃箭",
       "description": "<color=#FFD780FF>星霜的流旋<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 2,
+          "extraLevel": 3
+        }
+      },
       "icon": "UI_Talent_U_Mika_02"
     },
     "5": {
+      "id": 5,
       "name": "依随的策援",
       "description": "<color=#FFD780FF>星霜的流旋<\/color>灵风状态下的侦明效果叠加层数上限提升1层。需要解锁固有天赋「速射牵制」。\\n此外，处于灵风状态下的当前场上角色，其物理伤害的暴击伤害提高60%。",
+      "extraData": null,
       "icon": "UI_Talent_S_Mika_04"
     }
-  },
-  "beta": true
+  }
 }

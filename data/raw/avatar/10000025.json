@@ -4,12 +4,15 @@
   "name": "行秋",
   "element": "Water",
   "weaponType": "WEAPON_SWORD_ONE_HAND",
+  "region": "LIYUE",
+  "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+  "bodyType": "BOY",
   "icon": "UI_AvatarIcon_Xingqiu",
   "birthday": [
     10,
     9
   ],
-  "release": 1600131600,
+  "release": 1601244000,
   "route": "Xingqiu",
   "fetter": {
     "title": "少年春衫薄",
@@ -156,6 +159,21 @@
     ]
   },
   "other": {
+    "costume": [
+      {
+        "name": "锦钰兰衫",
+        "description": "行秋的装扮款式。飞云商会所售之上品绸缎织就的褂装。",
+        "isDefault": true
+      },
+      {
+        "name": "雨化竹身",
+        "description": "飞云商会为行秋准备的宴会衣装。竹纹清雅、剪裁服帖，但最令行秋满意的还是其内层的口袋，足够塞下一册较薄的小说了。",
+        "storyId": 340016,
+        "icon": "UI_AvatarIcon_XingqiuCostumeBamboo",
+        "rank": 4
+      }
+    ],
+    "furnitureId": 368114,
     "nameCard": {
       "id": 210018,
       "name": "行秋·雨虹",
@@ -185,6 +203,98 @@
     "112007": 3,
     "113006": 5,
     "113012": 4
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "100029": {
+      "name": "霓裳花",
+      "rank": 1,
+      "icon": "UI_ItemIcon_100029"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104121": {
+      "name": "涤净青金碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104121"
+    },
+    "104122": {
+      "name": "涤净青金断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104122"
+    },
+    "104123": {
+      "name": "涤净青金块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104123"
+    },
+    "104124": {
+      "name": "涤净青金",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104124"
+    },
+    "104316": {
+      "name": "「黄金」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104316"
+    },
+    "104317": {
+      "name": "「黄金」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104317"
+    },
+    "104318": {
+      "name": "「黄金」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104318"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "112005": {
+      "name": "破损的面具",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112005"
+    },
+    "112006": {
+      "name": "污秽的面具",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112006"
+    },
+    "112007": {
+      "name": "不祥的面具",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112007"
+    },
+    "113006": {
+      "name": "北风之尾",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113006"
+    },
+    "113012": {
+      "name": "净水之心",
+      "rank": 4,
+      "icon": "UI_ItemIcon_113012"
+    }
   },
   "talent": {
     "0": {
@@ -902,7 +1012,163 @@
         }
       },
       "cooldown": 0,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "9",
+              "text": "Normal Attack"
+            },
+            "type": {
+              "span": "9",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "47.7",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "49.5",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit A",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "29.3",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit B",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "29.3",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "57.6",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 5-Hit A",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "36.81",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "450"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 5-Hit B",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "36.81",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "655",
+            "verticalForce": "800"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charged Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "50.3",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charged Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "50.3",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "655",
+            "verticalForce": "800"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "800"
+          },
+          "bluntAttack": true
+        }
+      ]
     },
     "1": {
       "type": 0,
@@ -1619,7 +1885,54 @@
         }
       },
       "cooldown": 21,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 3,
+            "type": "normal"
+          },
+          {
+            "id": 4,
+            "type": "level"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Skill DMG 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "120",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Skill DMG 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "120",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Wet to Self",
+          "elementalGaugeTheory": "1U, 0.5s",
+          "internalCooldown": null,
+          "interruptionResistance": "—",
+          "interruptionResistanceStagger": null,
+          "bluntAttack": "—"
+        }
+      ]
     },
     "3": {
       "type": 1,
@@ -2336,56 +2649,160 @@
         }
       },
       "cooldown": 20,
-      "cost": 80
+      "cost": 80,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 1,
+            "type": "normal"
+          },
+          {
+            "id": 2,
+            "type": "level"
+          },
+          {
+            "id": 3,
+            "type": "normal"
+          },
+          {
+            "id": 5,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Activation Knockback",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "—"
+            },
+            "type": {
+              "span": null,
+              "text": "—"
+            }
+          },
+          "interruptionResistance": "400",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Sword Rain DMG (Primary Sword)",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "2",
+              "text": "Elemental Burst"
+            },
+            "type": {
+              "span": "2",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Sword Rain DMG (Other Swords)",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Mute",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "4": {
       "type": 2,
       "name": "生水要诀",
       "description": "雨帘剑受击破碎时或持续时间结束时，基于行秋最大生命值的6%，恢复当前角色的生命值。",
-      "icon": "UI_Talent_S_Xingqiu_05"
+      "icon": "UI_Talent_S_Xingqiu_05",
+      "linkedConstellations": null
     },
     "5": {
       "type": 2,
       "name": "虚实工笔",
       "description": "行秋获得20%<color=#80C0FFFF>水元素伤害加成<\/color>。",
-      "icon": "UI_Talent_S_Xingqiu_06"
+      "icon": "UI_Talent_S_Xingqiu_06",
+      "linkedConstellations": null
     },
     "6": {
       "type": 2,
       "name": "灵光乍现",
       "description": "合成角色天赋素材时，有25%概率返还部分合成材料。",
-      "icon": "UI_Talent_Combine_Talent"
+      "icon": "UI_Talent_Combine_Talent",
+      "linkedConstellations": null
     }
   },
   "constellation": {
     "0": {
+      "id": 0,
       "name": "重帘留香",
       "description": "雨帘剑的最大数量增加1柄。",
+      "extraData": null,
       "icon": "UI_Talent_S_Xingqiu_01"
     },
     "1": {
+      "id": 1,
       "name": "天青现虹",
       "description": "<color=#FFD780FF>古华剑·裁雨留虹<\/color>的持续时间延长3秒；\\n此外，受到剑雨攻击的敌人，<color=#80C0FFFF>水元素抗性<\/color>降低15%，持续4秒。",
+      "extraData": null,
       "icon": "UI_Talent_S_Xingqiu_02"
     },
     "2": {
+      "id": 2,
       "name": "织诗成锦",
       "description": "<color=#FFD780FF>古华剑·裁雨留虹<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 9,
+          "extraLevel": 3
+        }
+      },
       "icon": "UI_Talent_U_Xingqiu_01"
     },
     "3": {
+      "id": 3,
       "name": "孤舟斩蛟",
       "description": "在<color=#FFD780FF>古华剑·裁雨留虹<\/color>效果持续期间，<color=#FFD780FF>古华剑·画雨笼山<\/color>造成的伤害提升50%。",
+      "extraData": null,
       "icon": "UI_Talent_S_Xingqiu_03"
     },
     "4": {
+      "id": 4,
       "name": "雨深闭门",
       "description": "<color=#FFD780FF>古华剑·画雨笼山<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 2,
+          "extraLevel": 3
+        }
+      },
       "icon": "UI_Talent_U_Xingqiu_02"
     },
     "5": {
+      "id": 5,
       "name": "万文集此",
       "description": "<color=#FFD780FF>古华剑·裁雨留虹<\/color>每发动2次剑雨攻击，就大幅增强下一次剑雨攻击，并在命中敌人时为行秋恢复3点元素能量。",
+      "extraData": null,
       "icon": "UI_Talent_S_Xingqiu_04"
     }
   }

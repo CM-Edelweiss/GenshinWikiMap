@@ -4,8 +4,11 @@
   "type": "法器",
   "name": "万世流涌大典",
   "description": "曾在水下的隐修会中代代流传的教谕书，如今已经无人知晓其存在。",
+  "specialProp": "FIGHT_PROP_CRITICAL_HURT",
   "icon": "UI_EquipIcon_Catalyst_Iudex",
-  "storyId": 194514,
+  "storyId": [
+    "14514"
+  ],
   "affix": {
     "114514": {
       "name": "万世的浪涛",
@@ -164,5 +167,77 @@
     "114054": 3,
     "114055": 4,
     "114056": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112083": {
+      "name": "啮合齿轮",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112083"
+    },
+    "112084": {
+      "name": "机关正齿轮",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112084"
+    },
+    "112085": {
+      "name": "奇械机芯齿轮",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112085"
+    },
+    "112089": {
+      "name": "隙间之核",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112089"
+    },
+    "112090": {
+      "name": "外世突触",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112090"
+    },
+    "112091": {
+      "name": "异界生命核",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112091"
+    },
+    "114053": {
+      "name": "纯圣露滴的滤渣",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114053"
+    },
+    "114054": {
+      "name": "纯圣露滴的凝华",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114054"
+    },
+    "114055": {
+      "name": "纯圣露滴的醴泉",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114055"
+    },
+    "114056": {
+      "name": "纯圣露滴的真粹",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114056"
+    }
   }
 }

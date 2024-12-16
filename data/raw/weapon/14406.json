@@ -4,8 +4,11 @@
   "type": "法器",
   "name": "试作金珀",
   "description": "黑岩厂中秘藏的金珀法器。其中黯黯绽放着日月星光。",
+  "specialProp": "FIGHT_PROP_HP_PERCENT",
   "icon": "UI_EquipIcon_Catalyst_Proto",
-  "storyId": 194406,
+  "storyId": [
+    "14406"
+  ],
   "affix": {
     "114406": {
       "name": "炊金",
@@ -164,5 +167,77 @@
     "114018": 3,
     "114019": 4,
     "114020": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112011": {
+      "name": "牢固的箭簇",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112011"
+    },
+    "112012": {
+      "name": "锐利的箭簇",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112012"
+    },
+    "112013": {
+      "name": "历战的箭簇",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112013"
+    },
+    "112026": {
+      "name": "雾虚花粉",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112026"
+    },
+    "112027": {
+      "name": "雾虚草囊",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112027"
+    },
+    "112028": {
+      "name": "雾虚灯芯",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112028"
+    },
+    "114017": {
+      "name": "雾海云间的铅丹",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114017"
+    },
+    "114018": {
+      "name": "雾海云间的汞丹",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114018"
+    },
+    "114019": {
+      "name": "雾海云间的金丹",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114019"
+    },
+    "114020": {
+      "name": "雾海云间的转还",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114020"
+    }
   }
 }

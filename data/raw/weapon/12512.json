@@ -4,6 +4,7 @@
   "type": "双手剑",
   "name": "裁断",
   "description": "曾经抛弃家名的贵族少女使用过的武器，过去沾染了敌人与挚爱的血液。",
+  "specialProp": "FIGHT_PROP_CRITICAL",
   "icon": "UI_EquipIcon_Claymore_GoldenVerdict",
   "storyId": [
     "12512"
@@ -166,5 +167,77 @@
     "114050": 3,
     "114051": 4,
     "114052": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112083": {
+      "name": "啮合齿轮",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112083"
+    },
+    "112084": {
+      "name": "机关正齿轮",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112084"
+    },
+    "112085": {
+      "name": "奇械机芯齿轮",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112085"
+    },
+    "112089": {
+      "name": "隙间之核",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112089"
+    },
+    "112090": {
+      "name": "外世突触",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112090"
+    },
+    "112091": {
+      "name": "异界生命核",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112091"
+    },
+    "114049": {
+      "name": "悠古弦音的残章",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114049"
+    },
+    "114050": {
+      "name": "悠古弦音的断章",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114050"
+    },
+    "114051": {
+      "name": "悠古弦音的乐章",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114051"
+    },
+    "114052": {
+      "name": "悠古弦音的回响",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114052"
+    }
   }
 }

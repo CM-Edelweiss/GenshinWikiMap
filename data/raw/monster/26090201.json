@@ -40,37 +40,45 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112059": {
+          "name": "蕈兽孢子",
           "rank": 1,
           "icon": "UI_ItemIcon_112059",
           "count": "0.2101"
         },
         "112060": {
+          "name": "荧光孢粉",
           "rank": 2,
           "icon": "UI_ItemIcon_112060",
           "count": "0.056"
         },
         "112061": {
+          "name": "孢囊晶尘",
           "rank": 3,
           "icon": "UI_ItemIcon_112061",
           "count": "0.014"
         },
         "112062": {
+          "name": "失活菌核",
           "rank": 2,
           "icon": "UI_ItemIcon_112062",
           "count": "1.0505"
         },
         "112063": {
+          "name": "休眠菌核",
           "rank": 3,
           "icon": "UI_ItemIcon_112063",
           "count": "0.2801"
         },
         "112064": {
+          "name": "茁壮菌核",
           "rank": 4,
           "icon": "UI_ItemIcon_112064",
           "count": "0.07"
@@ -118,6 +126,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": null
     },
     "26090290": {
@@ -152,6 +161,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": null
     },
     "26090291": {
@@ -186,6 +196,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": null
     }
   },

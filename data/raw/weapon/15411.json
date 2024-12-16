@@ -4,8 +4,11 @@
   "type": "弓",
   "name": "落霞",
   "description": "以白金精制而成的宝弓，其上镶嵌着霞光闪烁的宝珠。",
+  "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
   "icon": "UI_EquipIcon_Bow_Fallensun",
-  "storyId": 195411,
+  "storyId": [
+    "15411"
+  ],
   "affix": {
     "115411": {
       "name": "渊中霞彩",
@@ -164,5 +167,77 @@
     "114022": 3,
     "114023": 4,
     "114024": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112008": {
+      "name": "导能绘卷",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112008"
+    },
+    "112009": {
+      "name": "封魔绘卷",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112009"
+    },
+    "112010": {
+      "name": "禁咒绘卷",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112010"
+    },
+    "112029": {
+      "name": "猎兵祭刀",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112029"
+    },
+    "112030": {
+      "name": "特工祭刀",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112030"
+    },
+    "112031": {
+      "name": "督察长祭刀",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112031"
+    },
+    "114021": {
+      "name": "漆黑陨铁的一粒",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114021"
+    },
+    "114022": {
+      "name": "漆黑陨铁的一片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114022"
+    },
+    "114023": {
+      "name": "漆黑陨铁的一角",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114023"
+    },
+    "114024": {
+      "name": "漆黑陨铁的一块",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114024"
+    }
   }
 }

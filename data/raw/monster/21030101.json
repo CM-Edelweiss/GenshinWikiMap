@@ -5,7 +5,7 @@
   "icon": "UI_MonsterIcon_Shaman_Water_01",
   "route": "Hydro Samachurl",
   "title": "水丘丘萨满",
-  "specialName": "「拉塔·莫沃·莫西诺」",
+  "specialName": 2890796139,
   "description": "嘟嘟囔囔的老年丘丘人，水元素的吟颂者。\\n在元素掌控方面颇富天资的丘丘人，其能力往往会在年老时达到顶峰。究竟是怎样的过去，令这些愚昧的生物竟能掌握生水唤雨的秘诀？",
   "entries": {
     "21030101": {
@@ -45,37 +45,45 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112005": {
+          "name": "破损的面具",
           "rank": 1,
           "icon": "UI_ItemIcon_112005",
           "count": "0.1681"
         },
         "112006": {
+          "name": "污秽的面具",
           "rank": 2,
           "icon": "UI_ItemIcon_112006",
           "count": "0.0448"
         },
         "112007": {
+          "name": "不祥的面具",
           "rank": 3,
           "icon": "UI_ItemIcon_112007",
           "count": "0.0112"
         },
         "112008": {
+          "name": "导能绘卷",
           "rank": 1,
           "icon": "UI_ItemIcon_112008",
           "count": "2.5212"
         },
         "112009": {
+          "name": "封魔绘卷",
           "rank": 2,
           "icon": "UI_ItemIcon_112009",
           "count": "0.6723"
         },
         "112010": {
+          "name": "禁咒绘卷",
           "rank": 3,
           "icon": "UI_ItemIcon_112010",
           "count": "0.168"
@@ -147,6 +155,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": null
     },
     "21030103": {
@@ -195,6 +204,135 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "21030104": {
+      "id": 21030104,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010012,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 13.584,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 50.24,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.5,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "21030190": {
+      "id": 21030190,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "4.7-怪物对推-敌方地面怪物标记特效",
+          "description": "4.7-怪物对推-敌方地面怪物标记特效",
+          "abilityName": [
+            "MvM_Monster_Common_EnemyBottom"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 1.90176,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 55.8,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "21030191": {
+      "id": 21030191,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "5.2怪物自走棋敌方单位标记",
+          "description": "脚底光环、出生特效",
+          "abilityName": [
+            "MonsterChess_Monster_Common_EnemyBottom"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 17.85,
+          "type": "GrowCurveType_Unknown_5202"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 49.725,
+          "type": "GrowCurveType_Unknown_5201"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
       "reward": null
     }
   },

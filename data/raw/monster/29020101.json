@@ -49,6 +49,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": null
     },
     "29020102": {
@@ -83,142 +84,177 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": {
         "102": {
+          "name": "冒险阅历",
           "rank": 3,
           "icon": "UI_ItemIcon_102",
           "count": "300"
         },
         "105": {
+          "name": "好感经验",
           "rank": 3,
           "icon": "UI_ItemIcon_105"
         },
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "101101": {
+          "name": "北陆单手剑原胚",
           "rank": 4,
           "icon": "UI_ItemIcon_101101"
         },
         "101102": {
+          "name": "北陆弓原胚",
           "rank": 4,
           "icon": "UI_ItemIcon_101102"
         },
         "101103": {
+          "name": "北陆双手剑原胚",
           "rank": 4,
           "icon": "UI_ItemIcon_101103"
         },
         "101104": {
+          "name": "北陆法器原胚",
           "rank": 4,
           "icon": "UI_ItemIcon_101104"
         },
         "101105": {
+          "name": "北陆长柄武器原胚",
           "rank": 4,
           "icon": "UI_ItemIcon_101105"
         },
         "104111": {
+          "name": "燃愿玛瑙碎屑",
           "rank": 2,
           "icon": "UI_ItemIcon_104111"
         },
         "104112": {
+          "name": "燃愿玛瑙断片",
           "rank": 3,
           "icon": "UI_ItemIcon_104112"
         },
         "104113": {
+          "name": "燃愿玛瑙块",
           "rank": 4,
           "icon": "UI_ItemIcon_104113"
         },
         "104114": {
+          "name": "燃愿玛瑙",
           "rank": 5,
           "icon": "UI_ItemIcon_104114"
         },
         "104161": {
+          "name": "哀叙冰玉碎屑",
           "rank": 2,
           "icon": "UI_ItemIcon_104161"
         },
         "104162": {
+          "name": "哀叙冰玉断片",
           "rank": 3,
           "icon": "UI_ItemIcon_104162"
         },
         "104163": {
+          "name": "哀叙冰玉块",
           "rank": 4,
           "icon": "UI_ItemIcon_104163"
         },
         "104164": {
+          "name": "哀叙冰玉",
           "rank": 5,
           "icon": "UI_ItemIcon_104164"
         },
         "104171": {
+          "name": "坚牢黄玉碎屑",
           "rank": 2,
           "icon": "UI_ItemIcon_104171"
         },
         "104172": {
+          "name": "坚牢黄玉断片",
           "rank": 3,
           "icon": "UI_ItemIcon_104172"
         },
         "104173": {
+          "name": "坚牢黄玉块",
           "rank": 4,
           "icon": "UI_ItemIcon_104173"
         },
         "104174": {
+          "name": "坚牢黄玉",
           "rank": 5,
           "icon": "UI_ItemIcon_104174"
         },
         "113006": {
+          "name": "北风之尾",
           "rank": 5,
           "icon": "UI_ItemIcon_113006"
         },
         "113007": {
+          "name": "北风之环",
           "rank": 5,
           "icon": "UI_ItemIcon_113007"
         },
         "113008": {
+          "name": "北风的魂匣",
           "rank": 5,
           "icon": "UI_ItemIcon_113008"
         },
         "113021": {
+          "name": "异梦溶媒",
           "rank": 4,
           "icon": "UI_ItemIcon_113021",
           "count": "0.33"
         },
         "400022": {
+          "name": "战狂",
           "rank": 3,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400023": {
+          "name": "战狂",
           "rank": 4,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400032": {
+          "name": "教官",
           "rank": 3,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400033": {
+          "name": "教官",
           "rank": 4,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400042": {
+          "name": "流放者",
           "rank": 3,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400043": {
+          "name": "流放者",
           "rank": 4,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400088": {
+          "name": "角斗士的终幕礼",
           "rank": 4,
           "icon": "UI_RelicIcon_15001_4"
         },
         "400089": {
+          "name": "角斗士的终幕礼",
           "rank": 5,
           "icon": "UI_RelicIcon_15001_4"
         },
         "400098": {
+          "name": "流浪大地的乐团",
           "rank": 4,
           "icon": "UI_RelicIcon_15003_4"
         },
         "400099": {
+          "name": "流浪大地的乐团",
           "rank": 5,
           "icon": "UI_RelicIcon_15003_4"
         }

@@ -5,7 +5,7 @@
   "icon": "UI_MonsterIcon_Brute_Ice_01",
   "route": "Frostarm Lawachurl",
   "title": "丘丘霜铠王",
-  "specialName": "冰霜刻印的丘丘王者",
+  "specialName": 1108639923,
   "description": "雪雾中漫行的神秘「王者」。\\n被同胞称为「Lawa」的庞大丘丘人。锻炼至极致的肉身似乎已和环境中满溢的冰元素相互融合，沉默威严有如北国的冰川。",
   "entries": {
     "21020401": {
@@ -53,66 +53,81 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.5
       },
+      "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112005": {
+          "name": "破损的面具",
           "rank": 1,
           "icon": "UI_ItemIcon_112005",
           "count": "0.5253"
         },
         "112006": {
+          "name": "污秽的面具",
           "rank": 2,
           "icon": "UI_ItemIcon_112006",
           "count": "0.1401"
         },
         "112007": {
+          "name": "不祥的面具",
           "rank": 3,
           "icon": "UI_ItemIcon_112007",
           "count": "0.035"
         },
         "112014": {
+          "name": "沉重号角",
           "rank": 2,
           "icon": "UI_ItemIcon_112014",
           "count": "5.2526"
         },
         "112015": {
+          "name": "黑铜号角",
           "rank": 3,
           "icon": "UI_ItemIcon_112015",
           "count": "1.4006"
         },
         "112016": {
+          "name": "黑晶号角",
           "rank": 4,
           "icon": "UI_ItemIcon_112016",
           "count": "0.3502"
         },
         "400022": {
+          "name": "战狂",
           "rank": 3,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400023": {
+          "name": "战狂",
           "rank": 4,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400032": {
+          "name": "教官",
           "rank": 3,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400033": {
+          "name": "教官",
           "rank": 4,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400042": {
+          "name": "流放者",
           "rank": 3,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400043": {
+          "name": "流放者",
           "rank": 4,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400062": {
+          "name": "游医",
           "rank": 3,
           "icon": "UI_RelicIcon_10013_4"
         }
@@ -191,6 +206,127 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.5
       },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "21020403": {
+      "id": 21020403,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "永不入战-活动",
+          "description": "关闭怪物受击、嘲讽、广播入战",
+          "abilityName": [
+            "MonsterAffix_NeverCombat"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "怪物移速下限放开，受冰冻时间减少50%-塔防",
+          "description": "怪物移速下限放开，受冰冻时间减少50%",
+          "abilityName": [
+            "MonsterAffix_MoveSpeedLimit_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "丘丘王非入战强化-塔防",
+          "description": "丘丘王非入战强化-塔防",
+          "abilityName": [
+            "MonsterAffix_Brute_TowerDefence_PowerUp"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加血量-塔防",
+          "description": "塔防翻牌叠加血量",
+          "abilityName": [
+            "MonsterAffix_AdditionalHP_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加防御力-塔防",
+          "description": "塔防翻牌叠加防御力",
+          "abilityName": [
+            "MonsterAffix_AdditionalDefence_ForTowerDefense"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 122.256,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 150.72,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.7,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.5
+      },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "21020491": {
+      "id": 21020491,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "5.2怪物自走棋敌方单位标记",
+          "description": "脚底光环、出生特效",
+          "abilityName": [
+            "MonsterChess_Monster_Common_EnemyBottom"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 59.925,
+          "type": "GrowCurveType_Unknown_5202"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 76.5,
+          "type": "GrowCurveType_Unknown_5201"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
       "reward": null
     }
   },

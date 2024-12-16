@@ -52,49 +52,60 @@
       "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112074": {
+          "name": "残毁的横脊",
           "rank": 2,
           "icon": "UI_ItemIcon_112074",
           "count": "6.5658"
         },
         "112075": {
+          "name": "密固的横脊",
           "rank": 3,
           "icon": "UI_ItemIcon_112075",
           "count": "1.7508"
         },
         "112076": {
+          "name": "锲纹的横脊",
           "rank": 4,
           "icon": "UI_ItemIcon_112076",
           "count": "0.4378"
         },
         "400022": {
+          "name": "战狂",
           "rank": 3,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400023": {
+          "name": "战狂",
           "rank": 4,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400032": {
+          "name": "教官",
           "rank": 3,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400033": {
+          "name": "教官",
           "rank": 4,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400042": {
+          "name": "流放者",
           "rank": 3,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400043": {
+          "name": "流放者",
           "rank": 4,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400062": {
+          "name": "游医",
           "rank": 3,
           "icon": "UI_RelicIcon_10013_4"
         }

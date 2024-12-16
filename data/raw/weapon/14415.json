@@ -4,8 +4,11 @@
   "type": "法器",
   "name": "证誓之明瞳",
   "description": "大日御舆收藏的白夜国之宝。蛇神到来后，渊下宫用以公证大誓与大愿的宝物。",
+  "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
   "icon": "UI_EquipIcon_Catalyst_Jyanome",
-  "storyId": 194415,
+  "storyId": [
+    "14415"
+  ],
   "affix": {
     "114415": {
       "name": "微光的海渊民",
@@ -164,5 +167,77 @@
     "114026": 3,
     "114027": 4,
     "114028": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112053": {
+      "name": "浮游干核",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112053"
+    },
+    "112054": {
+      "name": "浮游幽核",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112054"
+    },
+    "112055": {
+      "name": "浮游晶化核",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112055"
+    },
+    "112056": {
+      "name": "隐兽指爪",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112056"
+    },
+    "112057": {
+      "name": "隐兽利爪",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112057"
+    },
+    "112058": {
+      "name": "隐兽鬼爪",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112058"
+    },
+    "114025": {
+      "name": "远海夷地的瑚枝",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114025"
+    },
+    "114026": {
+      "name": "远海夷地的玉枝",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114026"
+    },
+    "114027": {
+      "name": "远海夷地的琼枝",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114027"
+    },
+    "114028": {
+      "name": "远海夷地的金枝",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114028"
+    }
   }
 }

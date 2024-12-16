@@ -4,8 +4,11 @@
   "type": "法器",
   "name": "金流监督",
   "description": "能够监控特定现象的悬浮仪器，废弃后被拾获者重新改造为其它用途。",
+  "specialProp": "FIGHT_PROP_CRITICAL",
   "icon": "UI_EquipIcon_Catalyst_Wheatley",
-  "storyId": 194513,
+  "storyId": [
+    "14513"
+  ],
   "affix": {
     "114513": {
       "name": "黄金的血潮",
@@ -164,5 +167,77 @@
     "114058": 3,
     "114059": 4,
     "114060": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112080": {
+      "name": "异海凝珠",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112080"
+    },
+    "112081": {
+      "name": "异海之块",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112081"
+    },
+    "112082": {
+      "name": "异色结晶石",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112082"
+    },
+    "112092": {
+      "name": "老旧的役人怀表",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112092"
+    },
+    "112093": {
+      "name": "役人的制式怀表",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112093"
+    },
+    "112094": {
+      "name": "役人的时时刻刻",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112094"
+    },
+    "114057": {
+      "name": "无垢之海的苦盏",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114057"
+    },
+    "114058": {
+      "name": "无垢之海的酒盏",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114058"
+    },
+    "114059": {
+      "name": "无垢之海的银杯",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114059"
+    },
+    "114060": {
+      "name": "无垢之海的金杯",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114060"
+    }
   }
 }

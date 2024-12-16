@@ -3,9 +3,12 @@
   "rank": 4,
   "type": "双手剑",
   "name": "聊聊棒",
-  "description": "",
+  "description": "一柄沉重的镶有黑曜石的大棒，有很强的说服力。",
+  "specialProp": "FIGHT_PROP_CRITICAL",
   "icon": "UI_EquipIcon_Claymore_BeastTamer",
-  "storyId": 192424,
+  "storyId": [
+    "12424"
+  ],
   "affix": {
     "112424": {
       "name": "「伶牙俐齿」",
@@ -165,5 +168,76 @@
     "114043": 4,
     "114044": 5
   },
-  "beta": true
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112002": {
+      "name": "史莱姆凝液",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112002"
+    },
+    "112003": {
+      "name": "史莱姆清",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112003"
+    },
+    "112004": {
+      "name": "史莱姆原浆",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112004"
+    },
+    "112074": {
+      "name": "残毁的横脊",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112074"
+    },
+    "112075": {
+      "name": "密固的横脊",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112075"
+    },
+    "112076": {
+      "name": "锲纹的横脊",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112076"
+    },
+    "114041": {
+      "name": "绿洲花园的追忆",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114041"
+    },
+    "114042": {
+      "name": "绿洲花园的恩惠",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114042"
+    },
+    "114043": {
+      "name": "绿洲花园的哀思",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114043"
+    },
+    "114044": {
+      "name": "绿洲花园的真谛",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114044"
+    }
+  }
 }

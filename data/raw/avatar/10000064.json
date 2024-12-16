@@ -4,6 +4,9 @@
   "name": "云堇",
   "element": "Rock",
   "weaponType": "WEAPON_POLE",
+  "region": "LIYUE",
+  "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
+  "bodyType": "GIRL",
   "icon": "UI_AvatarIcon_Yunjin",
   "birthday": [
     5,
@@ -156,6 +159,14 @@
     ]
   },
   "other": {
+    "costume": [
+      {
+        "name": "氍毹烟云",
+        "description": "云堇的装扮款式。由飞云商会的巧手裁缝设计制作的裙装，被云堇一眼相中，成为了她最心爱的常服。",
+        "isDefault": true
+      }
+    ],
+    "furnitureId": 368146,
     "nameCard": {
       "id": 210108,
       "name": "云堇·对韵",
@@ -185,6 +196,98 @@
     "112007": 3,
     "113027": 5,
     "113030": 4
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "100030": {
+      "name": "琉璃百合",
+      "rank": 1,
+      "icon": "UI_ItemIcon_100030"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104171": {
+      "name": "坚牢黄玉碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104171"
+    },
+    "104172": {
+      "name": "坚牢黄玉断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104172"
+    },
+    "104173": {
+      "name": "坚牢黄玉块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104173"
+    },
+    "104174": {
+      "name": "坚牢黄玉",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104174"
+    },
+    "104313": {
+      "name": "「勤劳」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104313"
+    },
+    "104314": {
+      "name": "「勤劳」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104314"
+    },
+    "104315": {
+      "name": "「勤劳」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104315"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "112005": {
+      "name": "破损的面具",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112005"
+    },
+    "112006": {
+      "name": "污秽的面具",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112006"
+    },
+    "112007": {
+      "name": "不祥的面具",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112007"
+    },
+    "113027": {
+      "name": "灰烬之心",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113027"
+    },
+    "113030": {
+      "name": "兽境王器",
+      "rank": 4,
+      "icon": "UI_ItemIcon_113030"
+    }
   },
   "talent": {
     "0": {
@@ -902,7 +1005,160 @@
         }
       },
       "cooldown": 0,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "7",
+              "text": "Normal Attack"
+            },
+            "type": {
+              "span": "7",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "37.67",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "37.45",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit A",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "23.46",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit B",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "23.46",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit A",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "24.56",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit B",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "24.56",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 5-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "62.66",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "655",
+            "verticalForce": "800"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charged Attack",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Charged Attack"
+            },
+            "type": {
+              "span": null,
+              "text": "0.5s"
+            }
+          },
+          "interruptionResistance": "120",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "800"
+          },
+          "bluntAttack": true
+        }
+      ]
     },
     "1": {
       "type": 0,
@@ -1619,7 +1875,58 @@
         }
       },
       "cooldown": 9,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          },
+          {
+            "id": 4,
+            "type": "level"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Press DMG",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charge Level 1 DMG",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": null,
+          "interruptionResistance": "200",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charge Level 2 DMG",
+          "elementalGaugeTheory": "4U",
+          "internalCooldown": null,
+          "interruptionResistance": "300",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "655",
+            "verticalForce": "800"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "3": {
       "type": 1,
@@ -2336,56 +2643,110 @@
         }
       },
       "cooldown": 15,
-      "cost": 60
+      "cost": 60,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 1,
+            "type": "normal"
+          },
+          {
+            "id": 2,
+            "type": "level"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Skill DMG",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": null,
+          "interruptionResistance": "200",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        }
+      ]
     },
     "4": {
       "type": 2,
       "name": "务守本真",
       "description": "在被攻击瞬间施放的<color=#FFD780FF>旋云开相<\/color>，会以长按二段蓄力的形式施放。",
-      "icon": "UI_Talent_S_Yunjin_05"
+      "icon": "UI_Talent_S_Yunjin_05",
+      "linkedConstellations": null
     },
     "5": {
       "type": 2,
       "name": "莫从恒蹊",
       "description": "<color=#FFD780FF>「飞云旗阵」<\/color>提供的普通攻击伤害提高，当队伍中存在1\/2\/3\/4种元素类型的角色时，数值上进一步追加云堇防御力的2.5%\/5%\/7.5%\/11.5%。",
-      "icon": "UI_Talent_S_Yunjin_06"
+      "icon": "UI_Talent_S_Yunjin_06",
+      "linkedConstellations": null
     },
     "6": {
       "type": 2,
       "name": "清食养性",
       "description": "完美烹饪冒险类食物时，有12%概率获得2倍产出。",
-      "icon": "UI_Talent_S_Yunjin_07"
+      "icon": "UI_Talent_S_Yunjin_07",
+      "linkedConstellations": null
     }
   },
   "constellation": {
     "0": {
+      "id": 0,
       "name": "飞身趟马",
       "description": "<color=#FFD780FF>旋云开相<\/color>的冷却时间减少18%。",
+      "extraData": null,
       "icon": "UI_Talent_S_Yunjin_01"
     },
     "1": {
+      "id": 1,
       "name": "诸般切末",
       "description": "施放<color=#FFD780FF>破嶂见旌仪<\/color>后，附近队伍中所有角色普通攻击造成的伤害提升15%，持续12秒。",
+      "extraData": null,
       "icon": "UI_Talent_S_Yunjin_02"
     },
     "2": {
+      "id": 2,
       "name": "牙纛探海",
       "description": "<color=#FFD780FF>破嶂见旌仪<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 9,
+          "extraLevel": 3
+        }
+      },
       "icon": "UI_Talent_U_Yunjin_01"
     },
     "3": {
+      "id": 3,
       "name": "昇堂吊云",
       "description": "云堇触发结晶反应后，防御力提升20%，持续12秒。",
+      "extraData": null,
       "icon": "UI_Talent_S_Yunjin_03"
     },
     "4": {
+      "id": 4,
       "name": "翘楚名坤",
       "description": "<color=#FFD780FF>旋云开相<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 2,
+          "extraLevel": 3
+        }
+      },
       "icon": "UI_Talent_U_Yunjin_02"
     },
     "5": {
+      "id": 5,
       "name": "庄谐并举",
       "description": "处于<color=#FFD780FF>「飞云旗阵」<\/color>状态下的角色，普通攻击的攻击速度提升12%。",
+      "extraData": null,
       "icon": "UI_Talent_S_Yunjin_04"
     }
   }

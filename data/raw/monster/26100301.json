@@ -5,7 +5,7 @@
   "icon": "UI_MonsterIcon_Vulture_Sacred_Fire",
   "route": "Consecrated Red Vulture",
   "title": "赤炎·圣骸赤鹫",
-  "specialName": "啃噬伟大生命的火之兽",
+  "specialName": 2327485235,
   "description": "因为啃噬伟大的生命体，而扭曲异变的食腐猛禽。\\n圣骸兽所吞食的尸骸当中，常常夹杂着有永远无法陷入沉寂的意志。而这些意志与力量又会驱使它无穷尽地渴求厮杀与亡骸。",
   "entries": {
     "26100301": {
@@ -52,53 +52,108 @@
       "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112074": {
+          "name": "残毁的横脊",
           "rank": 2,
           "icon": "UI_ItemIcon_112074",
           "count": "6.5658"
         },
         "112075": {
+          "name": "密固的横脊",
           "rank": 3,
           "icon": "UI_ItemIcon_112075",
           "count": "1.7508"
         },
         "112076": {
+          "name": "锲纹的横脊",
           "rank": 4,
           "icon": "UI_ItemIcon_112076",
           "count": "0.4378"
         },
         "400022": {
+          "name": "战狂",
           "rank": 3,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400023": {
+          "name": "战狂",
           "rank": 4,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400032": {
+          "name": "教官",
           "rank": 3,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400033": {
+          "name": "教官",
           "rank": 4,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400042": {
+          "name": "流放者",
           "rank": 3,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400043": {
+          "name": "流放者",
           "rank": 4,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400062": {
+          "name": "游医",
           "rank": 3,
           "icon": "UI_RelicIcon_10013_4"
         }
       }
+    },
+    "26100391": {
+      "id": 26100391,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "5.2怪物自走棋敌方单位标记",
+          "description": "脚底光环、出生特效",
+          "abilityName": [
+            "MonsterChess_Monster_Common_EnemyBottom"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 76.5,
+          "type": "GrowCurveType_Unknown_5202"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 104.55,
+          "type": "GrowCurveType_Unknown_5201"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
     }
   },
   "tips": {

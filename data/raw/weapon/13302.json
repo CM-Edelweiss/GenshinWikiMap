@@ -4,8 +4,11 @@
   "type": "长柄武器",
   "name": "钺矛",
   "description": "在矛上增加斧刃的兵器，有不俗的破坏力。是千岩军军官青睐的武器。",
+  "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
   "icon": "UI_EquipIcon_Pole_Halberd",
-  "storyId": 193302,
+  "storyId": [
+    "13302"
+  ],
   "affix": {
     "113302": {
       "name": "沉重",
@@ -164,5 +167,77 @@
     "114018": 3,
     "114019": 4,
     "114020": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112026": {
+      "name": "雾虚花粉",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112026"
+    },
+    "112027": {
+      "name": "雾虚草囊",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112027"
+    },
+    "112028": {
+      "name": "雾虚灯芯",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112028"
+    },
+    "112038": {
+      "name": "骗骗花蜜",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112038"
+    },
+    "112039": {
+      "name": "微光花蜜",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112039"
+    },
+    "112040": {
+      "name": "原素花蜜",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112040"
+    },
+    "114017": {
+      "name": "雾海云间的铅丹",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114017"
+    },
+    "114018": {
+      "name": "雾海云间的汞丹",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114018"
+    },
+    "114019": {
+      "name": "雾海云间的金丹",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114019"
+    },
+    "114020": {
+      "name": "雾海云间的转还",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114020"
+    }
   }
 }

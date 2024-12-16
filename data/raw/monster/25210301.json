@@ -45,22 +45,27 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": -0.2
       },
+      "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112065": {
+          "name": "褪色红绸",
           "rank": 1,
           "icon": "UI_ItemIcon_112065",
           "count": "1.0505"
         },
         "112066": {
+          "name": "镶边红绸",
           "rank": 2,
           "icon": "UI_ItemIcon_112066",
           "count": "0.2801"
         },
         "112067": {
+          "name": "织金红绸",
           "rank": 3,
           "icon": "UI_ItemIcon_112067",
           "count": "0.07"
@@ -104,22 +109,27 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": -0.2
       },
+      "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112065": {
+          "name": "褪色红绸",
           "rank": 1,
           "icon": "UI_ItemIcon_112065",
           "count": "1.0505"
         },
         "112066": {
+          "name": "镶边红绸",
           "rank": 2,
           "icon": "UI_ItemIcon_112066",
           "count": "0.2801"
         },
         "112067": {
+          "name": "织金红绸",
           "rank": 3,
           "icon": "UI_ItemIcon_112067",
           "count": "0.07"
@@ -163,183 +173,32 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": -0.2
       },
+      "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112065": {
+          "name": "褪色红绸",
           "rank": 1,
           "icon": "UI_ItemIcon_112065",
           "count": "1.0505"
         },
         "112066": {
+          "name": "镶边红绸",
           "rank": 2,
           "icon": "UI_ItemIcon_112066",
           "count": "0.2801"
         },
         "112067": {
+          "name": "织金红绸",
           "rank": 3,
           "icon": "UI_ItemIcon_112067",
           "count": "0.07"
         }
       }
-    },
-    "25210304": {
-      "id": 25210304,
-      "type": "MONSTER_ORDINARY",
-      "affix": null,
-      "hpDrops": [
-        {
-          "id": 22010010,
-          "hpPercent": 60
-        }
-      ],
-      "prop": [
-        {
-          "propType": "FIGHT_PROP_BASE_HP",
-          "initValue": 16.3008,
-          "type": "GROW_CURVE_HP_2"
-        },
-        {
-          "propType": "FIGHT_PROP_BASE_ATTACK",
-          "initValue": 25.12,
-          "type": "GROW_CURVE_ATTACK_2"
-        },
-        {
-          "propType": "FIGHT_PROP_BASE_DEFENSE",
-          "initValue": 500,
-          "type": "GROW_CURVE_DEFENSE"
-        }
-      ],
-      "resistance": {
-        "fireSubHurt": 0.1,
-        "grassSubHurt": 0.1,
-        "waterSubHurt": 0.1,
-        "elecSubHurt": 0.1,
-        "windSubHurt": 0.1,
-        "iceSubHurt": 0.1,
-        "rockSubHurt": 0.1,
-        "physicalSubHurt": -0.2
-      },
-      "reward": null
-    },
-    "25210305": {
-      "id": 25210305,
-      "type": "MONSTER_ORDINARY",
-      "affix": null,
-      "hpDrops": [
-        {
-          "id": 22010010,
-          "hpPercent": 60
-        }
-      ],
-      "prop": [
-        {
-          "propType": "FIGHT_PROP_BASE_HP",
-          "initValue": 16.3008,
-          "type": "GROW_CURVE_HP_2"
-        },
-        {
-          "propType": "FIGHT_PROP_BASE_ATTACK",
-          "initValue": 25.12,
-          "type": "GROW_CURVE_ATTACK_2"
-        },
-        {
-          "propType": "FIGHT_PROP_BASE_DEFENSE",
-          "initValue": 500,
-          "type": "GROW_CURVE_DEFENSE"
-        }
-      ],
-      "resistance": {
-        "fireSubHurt": 0.1,
-        "grassSubHurt": 0.1,
-        "waterSubHurt": 0.1,
-        "elecSubHurt": 0.1,
-        "windSubHurt": 0.1,
-        "iceSubHurt": 0.1,
-        "rockSubHurt": 0.1,
-        "physicalSubHurt": -0.2
-      },
-      "reward": null
-    },
-    "25210306": {
-      "id": 25210306,
-      "type": "MONSTER_ORDINARY",
-      "affix": null,
-      "hpDrops": [
-        {
-          "id": 22010010,
-          "hpPercent": 60
-        }
-      ],
-      "prop": [
-        {
-          "propType": "FIGHT_PROP_BASE_HP",
-          "initValue": 16.3008,
-          "type": "GROW_CURVE_HP_2"
-        },
-        {
-          "propType": "FIGHT_PROP_BASE_ATTACK",
-          "initValue": 25.12,
-          "type": "GROW_CURVE_ATTACK_2"
-        },
-        {
-          "propType": "FIGHT_PROP_BASE_DEFENSE",
-          "initValue": 500,
-          "type": "GROW_CURVE_DEFENSE"
-        }
-      ],
-      "resistance": {
-        "fireSubHurt": 0.1,
-        "grassSubHurt": 0.1,
-        "waterSubHurt": 0.1,
-        "elecSubHurt": 0.1,
-        "windSubHurt": 0.1,
-        "iceSubHurt": 0.1,
-        "rockSubHurt": 0.1,
-        "physicalSubHurt": -0.2
-      },
-      "reward": null
-    },
-    "25210307": {
-      "id": 25210307,
-      "type": "MONSTER_ORDINARY",
-      "affix": null,
-      "hpDrops": [
-        {
-          "id": 22010010,
-          "hpPercent": 60
-        }
-      ],
-      "prop": [
-        {
-          "propType": "FIGHT_PROP_BASE_HP",
-          "initValue": 16.3008,
-          "type": "GROW_CURVE_HP_2"
-        },
-        {
-          "propType": "FIGHT_PROP_BASE_ATTACK",
-          "initValue": 25.12,
-          "type": "GROW_CURVE_ATTACK_2"
-        },
-        {
-          "propType": "FIGHT_PROP_BASE_DEFENSE",
-          "initValue": 500,
-          "type": "GROW_CURVE_DEFENSE"
-        }
-      ],
-      "resistance": {
-        "fireSubHurt": 0.1,
-        "grassSubHurt": 0.1,
-        "waterSubHurt": 0.1,
-        "elecSubHurt": 0.1,
-        "windSubHurt": 0.1,
-        "iceSubHurt": 0.1,
-        "rockSubHurt": 0.1,
-        "physicalSubHurt": -0.2
-      },
-      "reward": null
     }
   },
   "tips": null

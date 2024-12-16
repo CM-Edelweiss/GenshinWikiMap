@@ -4,8 +4,11 @@
   "type": "法器",
   "name": "流浪乐章",
   "description": "记载着歌谱的厚重记事簿。尽管遭受了虫蛀和风化，残留的手迹仍透露出力量。",
+  "specialProp": "FIGHT_PROP_CRITICAL_HURT",
   "icon": "UI_EquipIcon_Catalyst_Troupe",
-  "storyId": 194402,
+  "storyId": [
+    "14402"
+  ],
   "affix": {
     "114402": {
       "name": "登场乐",
@@ -164,5 +167,77 @@
     "114006": 3,
     "114007": 4,
     "114008": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112005": {
+      "name": "破损的面具",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112005"
+    },
+    "112006": {
+      "name": "污秽的面具",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112006"
+    },
+    "112007": {
+      "name": "不祥的面具",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112007"
+    },
+    "112020": {
+      "name": "地脉的旧枝",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112020"
+    },
+    "112021": {
+      "name": "地脉的枯叶",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112021"
+    },
+    "112022": {
+      "name": "地脉的新芽",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112022"
+    },
+    "114005": {
+      "name": "凛风奔狼的始龀",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114005"
+    },
+    "114006": {
+      "name": "凛风奔狼的裂齿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114006"
+    },
+    "114007": {
+      "name": "凛风奔狼的断牙",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114007"
+    },
+    "114008": {
+      "name": "凛风奔狼的怀乡",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114008"
+    }
   }
 }

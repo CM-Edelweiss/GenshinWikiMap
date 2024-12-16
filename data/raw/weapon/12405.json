@@ -4,8 +4,11 @@
   "type": "双手剑",
   "name": "雨裁",
   "description": "散发着黯淡荧光的无锋大剑，纯粹以气势和力量碾碎敌人。",
+  "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
   "icon": "UI_EquipIcon_Claymore_Perdue",
-  "storyId": 192405,
+  "storyId": [
+    "12405"
+  ],
   "affix": {
     "112405": {
       "name": "止水息雷",
@@ -164,5 +167,77 @@
     "114018": 3,
     "114019": 4,
     "114020": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112008": {
+      "name": "导能绘卷",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112008"
+    },
+    "112009": {
+      "name": "封魔绘卷",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112009"
+    },
+    "112010": {
+      "name": "禁咒绘卷",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112010"
+    },
+    "112026": {
+      "name": "雾虚花粉",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112026"
+    },
+    "112027": {
+      "name": "雾虚草囊",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112027"
+    },
+    "112028": {
+      "name": "雾虚灯芯",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112028"
+    },
+    "114017": {
+      "name": "雾海云间的铅丹",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114017"
+    },
+    "114018": {
+      "name": "雾海云间的汞丹",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114018"
+    },
+    "114019": {
+      "name": "雾海云间的金丹",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114019"
+    },
+    "114020": {
+      "name": "雾海云间的转还",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114020"
+    }
   }
 }

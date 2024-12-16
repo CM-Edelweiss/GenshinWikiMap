@@ -67,51 +67,63 @@
         "rockSubHurt": 0.5,
         "physicalSubHurt": 0.3
       },
+      "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112041": {
+          "name": "脆弱的骨片",
           "rank": 2,
           "icon": "UI_ItemIcon_112041",
           "count": "5.2526"
         },
         "112042": {
+          "name": "结实的骨片",
           "rank": 3,
           "icon": "UI_ItemIcon_112042",
           "count": "1.4006"
         },
         "112043": {
+          "name": "石化的骨片",
           "rank": 4,
           "icon": "UI_ItemIcon_112043",
           "count": "0.3502"
         },
         "400022": {
+          "name": "战狂",
           "rank": 3,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400023": {
+          "name": "战狂",
           "rank": 4,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400032": {
+          "name": "教官",
           "rank": 3,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400033": {
+          "name": "教官",
           "rank": 4,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400042": {
+          "name": "流放者",
           "rank": 3,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400043": {
+          "name": "流放者",
           "rank": 4,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400062": {
+          "name": "游医",
           "rank": 3,
           "icon": "UI_RelicIcon_10013_4"
         }
@@ -173,51 +185,63 @@
         "rockSubHurt": 0.5,
         "physicalSubHurt": 0.3
       },
+      "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112041": {
+          "name": "脆弱的骨片",
           "rank": 2,
           "icon": "UI_ItemIcon_112041",
           "count": "5.2526"
         },
         "112042": {
+          "name": "结实的骨片",
           "rank": 3,
           "icon": "UI_ItemIcon_112042",
           "count": "1.4006"
         },
         "112043": {
+          "name": "石化的骨片",
           "rank": 4,
           "icon": "UI_ItemIcon_112043",
           "count": "0.3502"
         },
         "400022": {
+          "name": "战狂",
           "rank": 3,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400023": {
+          "name": "战狂",
           "rank": 4,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400032": {
+          "name": "教官",
           "rank": 3,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400033": {
+          "name": "教官",
           "rank": 4,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400042": {
+          "name": "流放者",
           "rank": 3,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400043": {
+          "name": "流放者",
           "rank": 4,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400062": {
+          "name": "游医",
           "rank": 3,
           "icon": "UI_RelicIcon_10013_4"
         }
@@ -281,51 +305,63 @@
         "rockSubHurt": 0.5,
         "physicalSubHurt": 0.3
       },
+      "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112041": {
+          "name": "脆弱的骨片",
           "rank": 2,
           "icon": "UI_ItemIcon_112041",
           "count": "5.2526"
         },
         "112042": {
+          "name": "结实的骨片",
           "rank": 3,
           "icon": "UI_ItemIcon_112042",
           "count": "1.4006"
         },
         "112043": {
+          "name": "石化的骨片",
           "rank": 4,
           "icon": "UI_ItemIcon_112043",
           "count": "0.3502"
         },
         "400022": {
+          "name": "战狂",
           "rank": 3,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400023": {
+          "name": "战狂",
           "rank": 4,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400032": {
+          "name": "教官",
           "rank": 3,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400033": {
+          "name": "教官",
           "rank": 4,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400042": {
+          "name": "流放者",
           "rank": 3,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400043": {
+          "name": "流放者",
           "rank": 4,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400062": {
+          "name": "游医",
           "rank": 3,
           "icon": "UI_RelicIcon_10013_4"
         }
@@ -389,51 +425,63 @@
         "rockSubHurt": 0.5,
         "physicalSubHurt": 0.3
       },
+      "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112041": {
+          "name": "脆弱的骨片",
           "rank": 2,
           "icon": "UI_ItemIcon_112041",
           "count": "5.2526"
         },
         "112042": {
+          "name": "结实的骨片",
           "rank": 3,
           "icon": "UI_ItemIcon_112042",
           "count": "1.4006"
         },
         "112043": {
+          "name": "石化的骨片",
           "rank": 4,
           "icon": "UI_ItemIcon_112043",
           "count": "0.3502"
         },
         "400022": {
+          "name": "战狂",
           "rank": 3,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400023": {
+          "name": "战狂",
           "rank": 4,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400032": {
+          "name": "教官",
           "rank": 3,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400033": {
+          "name": "教官",
           "rank": 4,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400042": {
+          "name": "流放者",
           "rank": 3,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400043": {
+          "name": "流放者",
           "rank": 4,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400062": {
+          "name": "游医",
           "rank": 3,
           "icon": "UI_RelicIcon_10013_4"
         }
@@ -521,6 +569,7 @@
         "rockSubHurt": 0.5,
         "physicalSubHurt": 0.3
       },
+      "fundamentalForce": null,
       "reward": null
     }
   },

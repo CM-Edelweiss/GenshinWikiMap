@@ -3,9 +3,12 @@
   "rank": 4,
   "type": "双手剑",
   "name": "饰铁之花",
-  "description": "",
+  "description": "造型优雅利落的大剑，其上装饰节庆的鲜花与缎带。",
+  "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
   "icon": "UI_EquipIcon_Claymore_Fleurfair",
-  "storyId": 192418,
+  "storyId": [
+    "12418"
+  ],
   "affix": {
     "112418": {
       "name": "风与花的密语",
@@ -165,5 +168,76 @@
     "114011": 4,
     "114012": 5
   },
-  "beta": true
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112053": {
+      "name": "浮游干核",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112053"
+    },
+    "112054": {
+      "name": "浮游幽核",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112054"
+    },
+    "112055": {
+      "name": "浮游晶化核",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112055"
+    },
+    "112074": {
+      "name": "残毁的横脊",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112074"
+    },
+    "112075": {
+      "name": "密固的横脊",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112075"
+    },
+    "112076": {
+      "name": "锲纹的横脊",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112076"
+    },
+    "114009": {
+      "name": "狮牙斗士的枷锁",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114009"
+    },
+    "114010": {
+      "name": "狮牙斗士的铁链",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114010"
+    },
+    "114011": {
+      "name": "狮牙斗士的镣铐",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114011"
+    },
+    "114012": {
+      "name": "狮牙斗士的理想",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114012"
+    }
+  }
 }

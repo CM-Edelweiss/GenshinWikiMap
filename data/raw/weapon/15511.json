@@ -4,8 +4,11 @@
   "type": "弓",
   "name": "猎人之径",
   "description": "以珍贵的白枝制成的饰金猎弓，曾经射落无数侵入森林的恶兽。",
+  "specialProp": "FIGHT_PROP_CRITICAL",
   "icon": "UI_EquipIcon_Bow_Ayus",
-  "storyId": 195511,
+  "storyId": [
+    "15511"
+  ],
   "affix": {
     "115511": {
       "name": "兽径的终点",
@@ -164,5 +167,77 @@
     "114046": 3,
     "114047": 4,
     "114048": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112062": {
+      "name": "失活菌核",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112062"
+    },
+    "112063": {
+      "name": "休眠菌核",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112063"
+    },
+    "112064": {
+      "name": "茁壮菌核",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112064"
+    },
+    "112065": {
+      "name": "褪色红绸",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112065"
+    },
+    "112066": {
+      "name": "镶边红绸",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112066"
+    },
+    "112067": {
+      "name": "织金红绸",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112067"
+    },
+    "114045": {
+      "name": "烈日威权的残响",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114045"
+    },
+    "114046": {
+      "name": "烈日威权的余光",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114046"
+    },
+    "114047": {
+      "name": "烈日威权的梦想",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114047"
+    },
+    "114048": {
+      "name": "烈日威权的旧日",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114048"
+    }
   }
 }

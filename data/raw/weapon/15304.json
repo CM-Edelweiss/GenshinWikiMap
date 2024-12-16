@@ -4,8 +4,11 @@
   "type": "弓",
   "name": "弹弓",
   "description": "其实就是一把弓。在无数的改进和实验中，发明出究极弹弓的人发现自己做了一把弓。",
+  "specialProp": "FIGHT_PROP_CRITICAL",
   "icon": "UI_EquipIcon_Bow_Sling",
-  "storyId": 195304,
+  "storyId": [
+    "15304"
+  ],
   "affix": {
     "115304": {
       "name": "弹弓",
@@ -164,5 +167,77 @@
     "114014": 3,
     "114015": 4,
     "114016": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112005": {
+      "name": "破损的面具",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112005"
+    },
+    "112006": {
+      "name": "污秽的面具",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112006"
+    },
+    "112007": {
+      "name": "不祥的面具",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112007"
+    },
+    "112029": {
+      "name": "猎兵祭刀",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112029"
+    },
+    "112030": {
+      "name": "特工祭刀",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112030"
+    },
+    "112031": {
+      "name": "督察长祭刀",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112031"
+    },
+    "114013": {
+      "name": "孤云寒林的光砂",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114013"
+    },
+    "114014": {
+      "name": "孤云寒林的辉岩",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114014"
+    },
+    "114015": {
+      "name": "孤云寒林的圣骸",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114015"
+    },
+    "114016": {
+      "name": "孤云寒林的神体",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114016"
+    }
   }
 }

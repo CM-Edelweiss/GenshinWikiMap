@@ -4,8 +4,11 @@
   "type": "双手剑",
   "name": "衔珠海皇",
   "description": "海中的大王。经过风干，是称手的兵器以及应急食品。",
+  "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
   "icon": "UI_EquipIcon_Claymore_MillenniaTuna",
-  "storyId": 192412,
+  "storyId": [
+    "12412"
+  ],
   "affix": {
     "112412": {
       "name": "海洋的胜利",
@@ -164,5 +167,77 @@
     "114022": 3,
     "114023": 4,
     "114024": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112002": {
+      "name": "史莱姆凝液",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112002"
+    },
+    "112003": {
+      "name": "史莱姆清",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112003"
+    },
+    "112004": {
+      "name": "史莱姆原浆",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112004"
+    },
+    "112041": {
+      "name": "脆弱的骨片",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112041"
+    },
+    "112042": {
+      "name": "结实的骨片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112042"
+    },
+    "112043": {
+      "name": "石化的骨片",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112043"
+    },
+    "114021": {
+      "name": "漆黑陨铁的一粒",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114021"
+    },
+    "114022": {
+      "name": "漆黑陨铁的一片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114022"
+    },
+    "114023": {
+      "name": "漆黑陨铁的一角",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114023"
+    },
+    "114024": {
+      "name": "漆黑陨铁的一块",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114024"
+    }
   }
 }

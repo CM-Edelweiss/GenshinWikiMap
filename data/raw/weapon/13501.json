@@ -4,8 +4,11 @@
   "type": "长柄武器",
   "name": "护摩之杖",
   "description": "在早已失落的古老祭仪中，使用的朱赤「柴火杖」。",
+  "specialProp": "FIGHT_PROP_CRITICAL_HURT",
   "icon": "UI_EquipIcon_Pole_Homa",
-  "storyId": 193501,
+  "storyId": [
+    "13501"
+  ],
   "affix": {
     "113501": {
       "name": "无羁的朱赤之蝶",
@@ -164,5 +167,77 @@
     "114022": 3,
     "114023": 4,
     "114024": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112002": {
+      "name": "史莱姆凝液",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112002"
+    },
+    "112003": {
+      "name": "史莱姆清",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112003"
+    },
+    "112004": {
+      "name": "史莱姆原浆",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112004"
+    },
+    "112020": {
+      "name": "地脉的旧枝",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112020"
+    },
+    "112021": {
+      "name": "地脉的枯叶",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112021"
+    },
+    "112022": {
+      "name": "地脉的新芽",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112022"
+    },
+    "114021": {
+      "name": "漆黑陨铁的一粒",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114021"
+    },
+    "114022": {
+      "name": "漆黑陨铁的一片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114022"
+    },
+    "114023": {
+      "name": "漆黑陨铁的一角",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114023"
+    },
+    "114024": {
+      "name": "漆黑陨铁的一块",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114024"
+    }
   }
 }

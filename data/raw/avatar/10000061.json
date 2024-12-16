@@ -4,23 +4,26 @@
   "name": "绮良良",
   "element": "Grass",
   "weaponType": "WEAPON_SWORD_ONE_HAND",
+  "region": "INAZUMA",
+  "specialProp": "FIGHT_PROP_HP_PERCENT",
+  "bodyType": "GIRL",
   "icon": "UI_AvatarIcon_Momoka",
   "birthday": [
     1,
     22
   ],
-  "release": 1683298800,
+  "release": 1684789200,
   "route": "Kirara",
   "fetter": {
-    "title": "？？？",
+    "title": "檐宇猫游",
     "detail": "稻妻快递公司「狛荷屋」的送货员，一只热爱自己工作、向往人类社会的「猫又」。",
-    "constellation": "",
+    "constellation": "箱筥座",
     "native": "狛荷屋",
     "cv": {
-      "EN": "",
-      "CHS": "",
-      "JP": "",
-      "KR": ""
+      "EN": "谷丽雅",
+      "CHS": "孙艳琦",
+      "JP": "铃代纱弓",
+      "KR": "姜恩爱"
     }
   },
   "upgrade": {
@@ -156,10 +159,25 @@
     ]
   },
   "other": {
+    "costume": [
+      {
+        "name": "百花戏",
+        "description": "绮良良的装扮款式。「用舒适的方式把美丽的花朵穿在身上」，著名设计师千织小姐依上述原则为绮良良制作了这套衣装。",
+        "isDefault": true
+      },
+      {
+        "name": "倩影游侠",
+        "description": "绮良良的装扮款式。童话中行侠仗义的猫猫剑客，传递愿望的狡黠少女，向您致意。",
+        "storyId": 340018,
+        "icon": "UI_AvatarIcon_MomokaCostumeErrantry",
+        "rank": 4
+      }
+    ],
+    "furnitureId": 368168,
     "nameCard": {
       "id": 210162,
-      "name": "？？？",
-      "description": "？？？",
+      "name": "绮良良·猫箱",
+      "description": "名片纹饰。\\n「那些收件人满足的笑容，对绮良良来说就是最好的报酬。」",
       "icon": "UI_NameCardIcon_Kirara"
     },
     "specialFood": {
@@ -186,11 +204,103 @@
     "113045": 4,
     "113048": 5
   },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "101208": {
+      "name": "天云草实",
+      "rank": 1,
+      "icon": "UI_ItemIcon_101208"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104131": {
+      "name": "生长碧翡碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104131"
+    },
+    "104132": {
+      "name": "生长碧翡断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104132"
+    },
+    "104133": {
+      "name": "生长碧翡块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104133"
+    },
+    "104134": {
+      "name": "生长碧翡",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104134"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "104320": {
+      "name": "「浮世」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104320"
+    },
+    "104321": {
+      "name": "「浮世」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104321"
+    },
+    "104322": {
+      "name": "「浮世」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104322"
+    },
+    "112053": {
+      "name": "浮游干核",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112053"
+    },
+    "112054": {
+      "name": "浮游幽核",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112054"
+    },
+    "112055": {
+      "name": "浮游晶化核",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112055"
+    },
+    "113045": {
+      "name": "常暗圆环",
+      "rank": 4,
+      "icon": "UI_ItemIcon_113045"
+    },
+    "113048": {
+      "name": "亘古树海之一瞬",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113048"
+    }
+  },
   "talent": {
     "0": {
       "type": 0,
       "name": "普通攻击·箱纸切削术",
-      "description": "<color=#FFD780FF>普攻攻击<\/color>\\n进行至多四段的连续攻击。\\n\\n<color=#FFD780FF>重击<\/color>\\n消耗一定体力，向前方挥出三次爪击。\\n\\n<color=#FFD780FF>下落攻击<\/color>\\n从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
+      "description": "<color=#FFD780FF>普通攻击<\/color>\\n进行至多四段的连续攻击。\\n\\n<color=#FFD780FF>重击<\/color>\\n消耗一定体力，向前方挥出三次爪击。\\n\\n<color=#FFD780FF>下落攻击<\/color>\\n从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
       "icon": "Skill_A_01",
       "promote": {
         "1": {
@@ -902,7 +1012,151 @@
         }
       },
       "cooldown": 0,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "8",
+              "text": "Normal Attack"
+            },
+            "type": {
+              "span": "8",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "50.1",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "48.51",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit A",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "33.25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit B",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "33.25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "76.72",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charged Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "40",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charged Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "40",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charged Attack 3-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "40",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "655",
+            "verticalForce": "800"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "800"
+          },
+          "bluntAttack": true
+        }
+      ]
     },
     "1": {
       "type": 0,
@@ -915,7 +1169,7 @@
           "costItems": null,
           "coinCost": null,
           "description": [
-            "甩尾飞踢伤害伤害|{param1:F1P}",
+            "甩尾飞踢伤害|{param1:F1P}",
             "护盾吸收量|{param2:F1P}生命值上限+{param3:I}",
             "护盾吸收量上限|{param4:F1P}生命值上限+{param5:I}",
             "护盾持续时间|{param6:F1}秒",
@@ -963,7 +1217,7 @@
           },
           "coinCost": 12500,
           "description": [
-            "甩尾飞踢伤害伤害|{param1:F1P}",
+            "甩尾飞踢伤害|{param1:F1P}",
             "护盾吸收量|{param2:F1P}生命值上限+{param3:I}",
             "护盾吸收量上限|{param4:F1P}生命值上限+{param5:I}",
             "护盾持续时间|{param6:F1}秒",
@@ -1011,7 +1265,7 @@
           },
           "coinCost": 17500,
           "description": [
-            "甩尾飞踢伤害伤害|{param1:F1P}",
+            "甩尾飞踢伤害|{param1:F1P}",
             "护盾吸收量|{param2:F1P}生命值上限+{param3:I}",
             "护盾吸收量上限|{param4:F1P}生命值上限+{param5:I}",
             "护盾持续时间|{param6:F1}秒",
@@ -1059,7 +1313,7 @@
           },
           "coinCost": 25000,
           "description": [
-            "甩尾飞踢伤害伤害|{param1:F1P}",
+            "甩尾飞踢伤害|{param1:F1P}",
             "护盾吸收量|{param2:F1P}生命值上限+{param3:I}",
             "护盾吸收量上限|{param4:F1P}生命值上限+{param5:I}",
             "护盾持续时间|{param6:F1}秒",
@@ -1107,7 +1361,7 @@
           },
           "coinCost": 30000,
           "description": [
-            "甩尾飞踢伤害伤害|{param1:F1P}",
+            "甩尾飞踢伤害|{param1:F1P}",
             "护盾吸收量|{param2:F1P}生命值上限+{param3:I}",
             "护盾吸收量上限|{param4:F1P}生命值上限+{param5:I}",
             "护盾持续时间|{param6:F1}秒",
@@ -1155,7 +1409,7 @@
           },
           "coinCost": 37500,
           "description": [
-            "甩尾飞踢伤害伤害|{param1:F1P}",
+            "甩尾飞踢伤害|{param1:F1P}",
             "护盾吸收量|{param2:F1P}生命值上限+{param3:I}",
             "护盾吸收量上限|{param4:F1P}生命值上限+{param5:I}",
             "护盾持续时间|{param6:F1}秒",
@@ -1204,7 +1458,7 @@
           },
           "coinCost": 120000,
           "description": [
-            "甩尾飞踢伤害伤害|{param1:F1P}",
+            "甩尾飞踢伤害|{param1:F1P}",
             "护盾吸收量|{param2:F1P}生命值上限+{param3:I}",
             "护盾吸收量上限|{param4:F1P}生命值上限+{param5:I}",
             "护盾持续时间|{param6:F1}秒",
@@ -1253,7 +1507,7 @@
           },
           "coinCost": 260000,
           "description": [
-            "甩尾飞踢伤害伤害|{param1:F1P}",
+            "甩尾飞踢伤害|{param1:F1P}",
             "护盾吸收量|{param2:F1P}生命值上限+{param3:I}",
             "护盾吸收量上限|{param4:F1P}生命值上限+{param5:I}",
             "护盾持续时间|{param6:F1}秒",
@@ -1302,7 +1556,7 @@
           },
           "coinCost": 450000,
           "description": [
-            "甩尾飞踢伤害伤害|{param1:F1P}",
+            "甩尾飞踢伤害|{param1:F1P}",
             "护盾吸收量|{param2:F1P}生命值上限+{param3:I}",
             "护盾吸收量上限|{param4:F1P}生命值上限+{param5:I}",
             "护盾持续时间|{param6:F1}秒",
@@ -1352,7 +1606,7 @@
           },
           "coinCost": 700000,
           "description": [
-            "甩尾飞踢伤害伤害|{param1:F1P}",
+            "甩尾飞踢伤害|{param1:F1P}",
             "护盾吸收量|{param2:F1P}生命值上限+{param3:I}",
             "护盾吸收量上限|{param4:F1P}生命值上限+{param5:I}",
             "护盾持续时间|{param6:F1}秒",
@@ -1397,7 +1651,7 @@
           "costItems": null,
           "coinCost": null,
           "description": [
-            "甩尾飞踢伤害伤害|{param1:F1P}",
+            "甩尾飞踢伤害|{param1:F1P}",
             "护盾吸收量|{param2:F1P}生命值上限+{param3:I}",
             "护盾吸收量上限|{param4:F1P}生命值上限+{param5:I}",
             "护盾持续时间|{param6:F1}秒",
@@ -1442,7 +1696,7 @@
           "costItems": null,
           "coinCost": null,
           "description": [
-            "甩尾飞踢伤害伤害|{param1:F1P}",
+            "甩尾飞踢伤害|{param1:F1P}",
             "护盾吸收量|{param2:F1P}生命值上限+{param3:I}",
             "护盾吸收量上限|{param4:F1P}生命值上限+{param5:I}",
             "护盾持续时间|{param6:F1}秒",
@@ -1487,7 +1741,7 @@
           "costItems": null,
           "coinCost": null,
           "description": [
-            "甩尾飞踢伤害伤害|{param1:F1P}",
+            "甩尾飞踢伤害|{param1:F1P}",
             "护盾吸收量|{param2:F1P}生命值上限+{param3:I}",
             "护盾吸收量上限|{param4:F1P}生命值上限+{param5:I}",
             "护盾持续时间|{param6:F1}秒",
@@ -1532,7 +1786,7 @@
           "costItems": null,
           "coinCost": null,
           "description": [
-            "甩尾飞踢伤害伤害|{param1:F1P}",
+            "甩尾飞踢伤害|{param1:F1P}",
             "护盾吸收量|{param2:F1P}生命值上限+{param3:I}",
             "护盾吸收量上限|{param4:F1P}生命值上限+{param5:I}",
             "护盾持续时间|{param6:F1}秒",
@@ -1577,7 +1831,7 @@
           "costItems": null,
           "coinCost": null,
           "description": [
-            "甩尾飞踢伤害伤害|{param1:F1P}",
+            "甩尾飞踢伤害|{param1:F1P}",
             "护盾吸收量|{param2:F1P}生命值上限+{param3:I}",
             "护盾吸收量上限|{param4:F1P}生命值上限+{param5:I}",
             "护盾持续时间|{param6:F1}秒",
@@ -1619,7 +1873,75 @@
         }
       },
       "cooldown": 8,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 1,
+            "type": "normal"
+          },
+          {
+            "id": 2,
+            "type": "level"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Tail-Flicking Flying Kick DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "100",
+            "verticalForce": "800"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Urgent Neko Parcel Hit DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Elemental Skill"
+            },
+            "type": {
+              "span": null,
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "250",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Flipclaw Strike DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "200",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "100",
+            "verticalForce": "800"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Dendro to Self",
+          "elementalGaugeTheory": "1U, 0.1s",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "—",
+          "interruptionResistanceStagger": null,
+          "bluntAttack": "—"
+        }
+      ]
     },
     "3": {
       "type": 1,
@@ -2336,41 +2658,95 @@
         }
       },
       "cooldown": 15,
-      "cost": 60
+      "cost": 60,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          },
+          {
+            "id": 4,
+            "type": "level"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Skill DMG",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": null,
+          "interruptionResistance": "200",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Cat Grass Cardamom Explosion DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Elemental Burst"
+            },
+            "type": {
+              "span": null,
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "4": {
       "type": 2,
       "name": "妖说歧尾之变",
       "description": "绮良良处于<color=#FFD780FF>呜喵町飞足<\/color>的猫箱急件状态下时，每次冲撞触及敌人，都将获得一层<color=#FFD780FF>加固包装<\/color>，此效果每0.5秒对每个敌人至多触发一次，至多叠加3层。猫箱急件状态结束时，每层加固包装都将为绮良良生成一个安全运输护盾，通过这种方式生成的护盾的伤害吸收量相当于<color=#FFD780FF>呜喵町飞足<\/color>生成的安全运输护盾的20%，若绮良良已处于呜喵町飞足的安全运输护盾的庇护下，剩余的伤害吸收量将叠加，并刷新持续时间。",
-      "icon": "UI_Talent_S_Momoka_05"
+      "icon": "UI_Talent_S_Momoka_05",
+      "linkedConstellations": null
     },
     "5": {
       "type": 2,
       "name": "应时惑目之灵",
       "description": "基于绮良良的生命值上限，每1000点生命值上限将使<color=#FFD780FF>呜喵町飞足<\/color>造成的伤害提升0.4%，<color=#FFD780FF>秘法·惊喜特派<\/color>造成的伤害提升0.3%。",
-      "icon": "UI_Talent_S_Momoka_06"
+      "icon": "UI_Talent_S_Momoka_06",
+      "linkedConstellations": null
     },
     "6": {
       "type": 2,
       "name": "祟祟猫步",
       "description": "绮良良在队伍中时，队伍中自己的角色接近产出禽肉、兽肉与冷鲜肉的小动物时，不会轻易惊动它们。",
-      "icon": "UI_Talent_S_Aloy_07"
+      "icon": "UI_Talent_S_Aloy_07",
+      "linkedConstellations": null
     }
   },
   "constellation": {
     "0": {
+      "id": 0,
       "name": "物器流转",
       "description": "施放<color=#FFD780FF>秘法·惊喜特派<\/color>时，绮良良的每8000点生命值上限都将额外生成1枚<color=#FFD780FF>猫草豆蔻<\/color>，至多通过这种方式额外生成4枚猫草豆蔻。",
       "extraData": null,
       "icon": "UI_Talent_S_Momoka_01"
     },
     "1": {
+      "id": 1,
       "name": "八尖裹术",
       "description": "绮良良处于<color=#FFD780FF>呜喵町飞足<\/color>的猫箱急件状态下时，将为冲撞触及的队伍中其他角色施加安全运输护盾·要件。\\n安全运输护盾·要件的伤害吸收量相当于<color=#FFD780FF>呜喵町飞足<\/color>的安全运输护盾的吸收量上限的40%，且对<color=#99FF88FF>草元素伤害<\/color>有250%的吸收效果。\\n安全运输护盾·要件持续12秒，此效果每10秒对每位角色至多触发一次。",
       "extraData": null,
       "icon": "UI_Talent_S_Momoka_02"
     },
     "2": {
+      "id": 2,
       "name": "万户门牌通识",
       "description": "<color=#FFD780FF>呜喵町飞足<\/color>的技能等级提高3级。\\n至多提升至15级。",
       "extraData": {
@@ -2383,12 +2759,37 @@
       "icon": "UI_Talent_U_Momoka_01"
     },
     "3": {
+      "id": 3,
       "name": "韦驮骏足",
-      "description": "处于<color=#FFD780FF>安全运输护盾<\/color>或<color=#FFD780FF>安全运输护盾·要件<\/color>的当前场上角色的普通攻击、重击与下落攻击命中敌人后，绮良良将使用<color=#FFD780FF>猫草小豆蔻<\/color>进行协同攻击，造成相当于绮良良攻击力200%<color=#99FF88FF>草元素伤害<\/color>，通过这种方式造成的伤害视为元素爆发伤害。此效果每3.8秒至多触发一次。",
+      "description": "处于<color=#FFD780FF>安全运输护盾<\/color>或<color=#FFD780FF>安全运输护盾·要件<\/color>的当前场上角色的普通攻击、重击与下落攻击命中敌人后，绮良良将使用<color=#FFD780FF>猫草小豆蔻<\/color>进行协同攻击，造成相当于绮良良攻击力200%<color=#99FF88FF>草元素伤害<\/color>，通过这种方式造成的伤害视为元素爆发伤害。此效果每3.8秒至多触发一次，队伍中所有角色共享冷却时间。",
       "extraData": null,
-      "icon": "UI_Talent_S_Momoka_04"
+      "icon": "UI_Talent_S_Momoka_04",
+      "advancedProps": [
+        {
+          "name": "Small Cat Grass Cardamom",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Elemental Burst"
+            },
+            "type": {
+              "span": null,
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "4": {
+      "id": 4,
       "name": "千里一日",
       "description": "<color=#FFD780FF>秘法·惊喜特派<\/color>的技能等级提高3级。\\n至多提升至15级。",
       "extraData": {
@@ -2401,11 +2802,11 @@
       "icon": "UI_Talent_U_Momoka_02"
     },
     "5": {
+      "id": 5,
       "name": "沿途百景会心",
       "description": "绮良良施放元素战技或元素爆发后的15秒内，附近的队伍中所有角色获得12%所有元素伤害加成。",
       "extraData": null,
       "icon": "UI_Talent_S_Momoka_03"
     }
-  },
-  "beta": true
+  }
 }

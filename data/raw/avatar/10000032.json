@@ -4,12 +4,15 @@
   "name": "班尼特",
   "element": "Fire",
   "weaponType": "WEAPON_SWORD_ONE_HAND",
+  "region": "MONDSTADT",
+  "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
+  "bodyType": "BOY",
   "icon": "UI_AvatarIcon_Bennett",
   "birthday": [
     2,
     29
   ],
-  "release": 1600131600,
+  "release": 1601244000,
   "route": "Bennett",
   "fetter": {
     "title": "命运试金石",
@@ -156,6 +159,14 @@
     ]
   },
   "other": {
+    "costume": [
+      {
+        "name": "噩运绕行",
+        "description": "班尼特的装扮款式。缝缝又补补的老旧冒险家装束。",
+        "isDefault": true
+      }
+    ],
+    "furnitureId": 368120,
     "nameCard": {
       "id": 210016,
       "name": "班尼特·认可",
@@ -185,6 +196,98 @@
     "112037": 3,
     "113003": 5,
     "113011": 4
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "100024": {
+      "name": "风车菊",
+      "rank": 1,
+      "icon": "UI_ItemIcon_100024"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104111": {
+      "name": "燃愿玛瑙碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104111"
+    },
+    "104112": {
+      "name": "燃愿玛瑙断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104112"
+    },
+    "104113": {
+      "name": "燃愿玛瑙块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104113"
+    },
+    "104114": {
+      "name": "燃愿玛瑙",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104114"
+    },
+    "104304": {
+      "name": "「抗争」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104304"
+    },
+    "104305": {
+      "name": "「抗争」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104305"
+    },
+    "104306": {
+      "name": "「抗争」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104306"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "112035": {
+      "name": "寻宝鸦印",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112035"
+    },
+    "112036": {
+      "name": "藏银鸦印",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112036"
+    },
+    "112037": {
+      "name": "攫金鸦印",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112037"
+    },
+    "113003": {
+      "name": "东风之翎",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113003"
+    },
+    "113011": {
+      "name": "常燃火种",
+      "rank": 4,
+      "icon": "UI_ItemIcon_113011"
+    }
   },
   "talent": {
     "0": {
@@ -902,7 +1005,139 @@
         }
       },
       "cooldown": 0,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "7",
+              "text": "Normal Attack"
+            },
+            "type": {
+              "span": "7",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "38.7",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "37.8",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "47.7",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "52.2",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 5-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "62.1",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "655",
+            "verticalForce": "800"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charged Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "45",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charged Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "45",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "655",
+            "verticalForce": "800"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "800"
+          },
+          "bluntAttack": true
+        }
+      ]
     },
     "1": {
       "type": 0,
@@ -1619,7 +1854,115 @@
         }
       },
       "cooldown": 5,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 2,
+            "type": "level"
+          },
+          {
+            "id": 3,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Press DMG",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charge Level 1 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charge Level 1 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "300",
+            "verticalForce": "900"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charge Level 2 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charge Level 2 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "300",
+            "verticalForce": "900"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Explosion DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "250",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "795",
+            "verticalForce": "900"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Explosion To Self",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "—"
+            },
+            "type": {
+              "span": null,
+              "text": "—"
+            }
+          },
+          "interruptionResistance": "250",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "650",
+            "verticalForce": "950"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "3": {
       "type": 1,
@@ -2336,56 +2679,136 @@
         }
       },
       "cooldown": 15,
-      "cost": 60
+      "cost": 60,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          },
+          {
+            "id": 4,
+            "type": "level"
+          },
+          {
+            "id": 5,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Skill DMG",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": null,
+          "interruptionResistance": "200",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Pyro To Self",
+          "elementalGaugeTheory": "1U, 2.1s",
+          "internalCooldown": null,
+          "interruptionResistance": "—",
+          "interruptionResistanceStagger": null,
+          "bluntAttack": "—"
+        }
+      ]
     },
     "4": {
       "type": 2,
       "name": "热情复燃",
       "description": "<color=#FFD780FF>热情过载<\/color>的冷却时间减少20%。",
-      "icon": "UI_Talent_S_Bennett_05"
+      "icon": "UI_Talent_S_Bennett_05",
+      "linkedConstellations": null
     },
     "5": {
       "type": 2,
       "name": "无畏的热血",
       "description": "在<color=#FFD780FF>美妙旅程<\/color>领域内，<color=#FFD780FF>热情过载<\/color>具有如下效果：\\n·冷却时间减少50%；\\n·二段蓄力不会将班尼特自身击飞。",
-      "icon": "UI_Talent_S_Bennett_06"
+      "icon": "UI_Talent_S_Bennett_06",
+      "linkedConstellations": null
     },
     "6": {
       "type": 2,
       "name": "应该安全",
       "description": "在蒙德执行探索派遣任务时，消耗的时间缩短25%。",
-      "icon": "UI_Talent_Expedition_Mengde"
+      "icon": "UI_Talent_Expedition_Mengde",
+      "linkedConstellations": null
     }
   },
   "constellation": {
     "0": {
+      "id": 0,
       "name": "冒险憧憬",
       "description": "<color=#FFD780FF>美妙旅程<\/color>的攻击力提升效果不再有生命值限制，数值上追加班尼特基础攻击力的20%。",
+      "extraData": null,
       "icon": "UI_Talent_S_Bennett_01"
     },
     "1": {
+      "id": 1,
       "name": "踏破绝境",
       "description": "班尼特的生命值低于70%时，元素充能效率提高30%。",
+      "extraData": null,
       "icon": "UI_Talent_S_Bennett_02"
     },
     "2": {
+      "id": 2,
       "name": "火热激情",
       "description": "<color=#FFD780FF>热情过载<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 2,
+          "extraLevel": 3
+        }
+      },
       "icon": "UI_Talent_U_Bennett_01"
     },
     "3": {
+      "id": 3,
       "name": "热情不灭",
       "description": "施放一段蓄力的<color=#FFD780FF>热情过载<\/color>时，在技能第二段攻击中进行普通攻击，可以施放额外的追击。\\n追击的伤害等同于第二段攻击的135%。",
-      "icon": "UI_Talent_S_Bennett_03"
+      "extraData": null,
+      "icon": "UI_Talent_S_Bennett_03",
+      "advancedProps": [
+        {
+          "name": "Additional Attack",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "655",
+            "verticalForce": "800"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "4": {
+      "id": 4,
       "name": "开拓的心魂",
       "description": "<color=#FFD780FF>美妙旅程<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 9,
+          "extraLevel": 3
+        }
+      },
       "icon": "UI_Talent_U_Bennett_02"
     },
     "5": {
+      "id": 5,
       "name": "烈火与勇气",
       "description": "处在<color=#FFD780FF>美妙旅程<\/color>领域内的队伍中当前场上单手剑、双手剑、长柄武器角色获得15%<color=#FF9999FF>火元素伤害加成<\/color>，并获得<color=#FF9999FF>火元素附魔<\/color>。",
+      "extraData": null,
       "icon": "UI_Talent_S_Bennett_04"
     }
   }

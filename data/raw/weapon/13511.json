@@ -4,8 +4,11 @@
   "type": "长柄武器",
   "name": "赤沙之杖",
   "description": "黑曜石塑造的一对的权杖中的一件。在传说中，具有引领沙之民的权威，但如今已经没有能辨别出这件王器形象的臣子了。",
+  "specialProp": "FIGHT_PROP_CRITICAL",
   "icon": "UI_EquipIcon_Pole_Deshret",
-  "storyId": 193511,
+  "storyId": [
+    "13511"
+  ],
   "affix": {
     "113511": {
       "name": "蜃气尽头的热梦",
@@ -164,5 +167,77 @@
     "114042": 3,
     "114043": 4,
     "114044": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112059": {
+      "name": "蕈兽孢子",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112059"
+    },
+    "112060": {
+      "name": "荧光孢粉",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112060"
+    },
+    "112061": {
+      "name": "孢囊晶尘",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112061"
+    },
+    "112068": {
+      "name": "混沌容器",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112068"
+    },
+    "112069": {
+      "name": "混沌模块",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112069"
+    },
+    "112070": {
+      "name": "混沌锚栓",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112070"
+    },
+    "114041": {
+      "name": "绿洲花园的追忆",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114041"
+    },
+    "114042": {
+      "name": "绿洲花园的恩惠",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114042"
+    },
+    "114043": {
+      "name": "绿洲花园的哀思",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114043"
+    },
+    "114044": {
+      "name": "绿洲花园的真谛",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114044"
+    }
   }
 }

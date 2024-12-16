@@ -5,7 +5,7 @@
   "icon": "UI_MonsterIcon_Invoker_Deacon_Fire",
   "route": "Abyss Lector: Fathomless Flames",
   "title": "漆黑渊薮的噬身之火",
-  "specialName": "深渊咏者·渊火",
+  "specialName": "深渊咏者·奥奇里克",
   "description": "驱使深渊之火，追寻着章典之意义的魔物。隶属于「深渊教团」。\\n地上之人对他们的称呼其实和本意略有偏差。「咏者」也有「读经士」之意。诵读恩典之章，便会拥有强大的力量。",
   "entries": {
     "22030201": {
@@ -49,7 +49,85 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
-      "reward": null
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112017": {
+          "name": "晦暗刻像",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112017",
+          "count": "0.5253"
+        },
+        "112018": {
+          "name": "夤夜刻像",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112018",
+          "count": "0.1401"
+        },
+        "112019": {
+          "name": "幽邃刻像",
+          "rank": 4,
+          "icon": "UI_ItemIcon_112019",
+          "count": "0.035"
+        },
+        "112020": {
+          "name": "地脉的旧枝",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112020",
+          "count": "5.2526"
+        },
+        "112021": {
+          "name": "地脉的枯叶",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112021",
+          "count": "1.4006"
+        },
+        "112022": {
+          "name": "地脉的新芽",
+          "rank": 4,
+          "icon": "UI_ItemIcon_112022",
+          "count": "0.3502"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
     },
     "22030202": {
       "id": 22030202,
@@ -101,6 +179,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": null
     }
   },

@@ -4,7 +4,8 @@ from update import (
     update_monster,
     update_constant,
     update_artifact,
-    update_weapon)
+    update_weapon,
+)
 
 
 def main():
@@ -16,5 +17,5 @@ def main():
     update_material()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

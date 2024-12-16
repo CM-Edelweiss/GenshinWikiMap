@@ -4,8 +4,11 @@
   "type": "法器",
   "name": "流浪的晚星",
   "description": "原本是学者用于观测与计算天象的古老仪器。具有传导力量，作为法器的能力。",
+  "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
   "icon": "UI_EquipIcon_Catalyst_Pleroma",
-  "storyId": 194416,
+  "storyId": [
+    "14416"
+  ],
   "affix": {
     "114416": {
       "name": "林野晚星",
@@ -164,5 +167,77 @@
     "114042": 3,
     "114043": 4,
     "114044": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112059": {
+      "name": "蕈兽孢子",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112059"
+    },
+    "112060": {
+      "name": "荧光孢粉",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112060"
+    },
+    "112061": {
+      "name": "孢囊晶尘",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112061"
+    },
+    "112062": {
+      "name": "失活菌核",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112062"
+    },
+    "112063": {
+      "name": "休眠菌核",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112063"
+    },
+    "112064": {
+      "name": "茁壮菌核",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112064"
+    },
+    "114041": {
+      "name": "绿洲花园的追忆",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114041"
+    },
+    "114042": {
+      "name": "绿洲花园的恩惠",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114042"
+    },
+    "114043": {
+      "name": "绿洲花园的哀思",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114043"
+    },
+    "114044": {
+      "name": "绿洲花园的真谛",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114044"
+    }
   }
 }

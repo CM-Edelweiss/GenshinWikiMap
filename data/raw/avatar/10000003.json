@@ -4,12 +4,15 @@
   "name": "琴",
   "element": "Wind",
   "weaponType": "WEAPON_SWORD_ONE_HAND",
+  "region": "MONDSTADT",
+  "specialProp": "FIGHT_PROP_HEAL_ADD",
+  "bodyType": "LADY",
   "icon": "UI_AvatarIcon_Qin",
   "birthday": [
     3,
     14
   ],
-  "release": 1600131600,
+  "release": 1601244000,
   "route": "Jean",
   "fetter": {
     "title": "蒲公英骑士",
@@ -156,6 +159,28 @@
     ]
   },
   "other": {
+    "costume": [
+      {
+        "name": "风之虔护",
+        "description": "琴的装扮款式。彰显骑士风度的利落装束。",
+        "isDefault": true
+      },
+      {
+        "name": "海风之梦",
+        "description": "琴的夏日装束。清凉而不失优雅，是海滨之游的绝佳搭配。",
+        "storyId": 340001,
+        "icon": "UI_AvatarIcon_QinCostumeSea",
+        "rank": 4
+      },
+      {
+        "name": "古恩希尔德的传承",
+        "description": "琴的装扮款式。典雅干练的骑士礼服，适用于多种场合。",
+        "storyId": 340006,
+        "icon": "UI_AvatarIcon_QinCostumeWic",
+        "rank": 4
+      }
+    ],
+    "furnitureId": 368104,
     "nameCard": {
       "id": 210008,
       "name": "琴·风向",
@@ -185,6 +210,98 @@
     "112007": 3,
     "113001": 4,
     "113003": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "100057": {
+      "name": "蒲公英籽",
+      "rank": 1,
+      "icon": "UI_ItemIcon_100057"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104151": {
+      "name": "自在松石碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104151"
+    },
+    "104152": {
+      "name": "自在松石断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104152"
+    },
+    "104153": {
+      "name": "自在松石块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104153"
+    },
+    "104154": {
+      "name": "自在松石",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104154"
+    },
+    "104304": {
+      "name": "「抗争」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104304"
+    },
+    "104305": {
+      "name": "「抗争」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104305"
+    },
+    "104306": {
+      "name": "「抗争」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104306"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "112005": {
+      "name": "破损的面具",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112005"
+    },
+    "112006": {
+      "name": "污秽的面具",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112006"
+    },
+    "112007": {
+      "name": "不祥的面具",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112007"
+    },
+    "113001": {
+      "name": "飓风之种",
+      "rank": 4,
+      "icon": "UI_ItemIcon_113001"
+    },
+    "113003": {
+      "name": "东风之翎",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113003"
+    }
   },
   "talent": {
     "0": {
@@ -902,7 +1019,127 @@
         }
       },
       "cooldown": 0,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "6",
+              "text": "Normal Attack"
+            },
+            "type": {
+              "span": "6",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "37.8",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "35.1",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "48.6",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "54",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 5-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "60.3",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "655",
+            "verticalForce": "800"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Charged Attack",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "200",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "1050"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "800"
+          },
+          "bluntAttack": true
+        }
+      ]
     },
     "1": {
       "type": 0,
@@ -1619,7 +1856,34 @@
         }
       },
       "cooldown": 6,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": false,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          },
+          {
+            "id": 4,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Skill DMG",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": null,
+          "interruptionResistance": "250",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "1200",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "3": {
       "type": 1,
@@ -2336,56 +2600,122 @@
         }
       },
       "cooldown": 20,
-      "cost": 80
+      "cost": 80,
+      "linkedConstellations": {
+        "isLevelIncluded": false,
+        "prop": [
+          {
+            "id": 2,
+            "type": "normal"
+          },
+          {
+            "id": 3,
+            "type": "normal"
+          },
+          {
+            "id": 5,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Elemental Burst DMG",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": null,
+          "interruptionResistance": "400",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Entering\/Exiting DMG",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": null,
+          "interruptionResistance": "50",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Anemo To Self",
+          "elementalGaugeTheory": "1U, 0.2s",
+          "internalCooldown": null,
+          "interruptionResistance": "—",
+          "interruptionResistanceStagger": null,
+          "bluntAttack": "—"
+        }
+      ]
     },
     "4": {
       "type": 2,
       "name": "顺风而行",
       "description": "琴的普通攻击命中时，有50%的几率为队伍中所有角色恢复等同于琴攻击力15%的生命值。",
-      "icon": "UI_Talent_S_Qin_05"
+      "icon": "UI_Talent_S_Qin_05",
+      "linkedConstellations": null
     },
     "5": {
       "type": 2,
       "name": "听凭风引",
       "description": "使用<color=#FFD780FF>蒲公英之风<\/color>后，恢复20%元素能量。",
-      "icon": "UI_Talent_S_Qin_06"
+      "icon": "UI_Talent_S_Qin_06",
+      "linkedConstellations": null
     },
     "6": {
       "type": 2,
       "name": "引领之风",
       "description": "完美烹饪恢复类食物时，有12%概率获得2倍产出。",
-      "icon": "UI_Talent_Cook_Heal"
+      "icon": "UI_Talent_Cook_Heal",
+      "linkedConstellations": null
     }
   },
   "constellation": {
     "0": {
+      "id": 0,
       "name": "流转剑脊的暴风",
       "description": "<color=#FFD780FF>风压剑<\/color>长按超过1秒后，提升牵引速度，并使造成的伤害提升40%。",
+      "extraData": null,
       "icon": "UI_Talent_S_Qin_01"
     },
     "1": {
+      "id": 1,
       "name": "守护众人的坚盾",
       "description": "琴获得元素晶球或元素微粒时，队伍中所有角色获得15%攻击速度和15%移动速度提升，持续15秒。",
+      "extraData": null,
       "icon": "UI_Talent_S_Qin_02"
     },
     "2": {
+      "id": 2,
       "name": "西风吹拂之时",
       "description": "<color=#FFD780FF>蒲公英之风<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": null,
       "icon": "UI_Talent_U_Qin_02"
     },
     "3": {
+      "id": 3,
       "name": "蒲公英的国土",
       "description": "在<color=#FFD780FF>蒲公英之风<\/color>的领域内，所有敌人的<color=#80FFD7FF>风元素抗性<\/color>下降40%。",
+      "extraData": null,
       "icon": "UI_Talent_S_Qin_03"
     },
     "4": {
+      "id": 4,
       "name": "须臾一瞬的烈风",
       "description": "<color=#FFD780FF>风压剑<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": null,
       "icon": "UI_Talent_U_Qin_01"
     },
     "5": {
+      "id": 5,
       "name": "恩眷万民的狮牙",
       "description": "在<color=#FFD780FF>蒲公英之风<\/color>的领域内，角色受到的伤害降低35%。\\n离开领域后，这个效果会在承受3次攻击或10秒后消失。",
+      "extraData": null,
       "icon": "UI_Talent_S_Qin_04"
     }
   }

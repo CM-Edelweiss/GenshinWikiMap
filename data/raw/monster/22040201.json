@@ -45,55 +45,116 @@
         "rockSubHurt": 0.2,
         "physicalSubHurt": 0.2
       },
+      "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112056": {
+          "name": "隐兽指爪",
           "rank": 2,
           "icon": "UI_ItemIcon_112056",
           "count": "5.2526"
         },
         "112057": {
+          "name": "隐兽利爪",
           "rank": 3,
           "icon": "UI_ItemIcon_112057",
           "count": "1.4006"
         },
         "112058": {
+          "name": "隐兽鬼爪",
           "rank": 4,
           "icon": "UI_ItemIcon_112058",
           "count": "0.3502"
         },
         "400022": {
+          "name": "战狂",
           "rank": 3,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400023": {
+          "name": "战狂",
           "rank": 4,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400032": {
+          "name": "教官",
           "rank": 3,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400033": {
+          "name": "教官",
           "rank": 4,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400042": {
+          "name": "流放者",
           "rank": 3,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400043": {
+          "name": "流放者",
           "rank": 4,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400062": {
+          "name": "游医",
           "rank": 3,
           "icon": "UI_RelicIcon_10013_4"
         }
       }
+    },
+    "22040202": {
+      "id": 22040202,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "3.6结晶化怪物不入战",
+          "description": "3.6结晶化怪物不入战",
+          "abilityName": [
+            "MonsterAffix_NeverCombat_ForCrystallization"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010014,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 32.6016,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 15.072,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.2,
+        "grassSubHurt": 0.2,
+        "waterSubHurt": 0.2,
+        "elecSubHurt": 0.2,
+        "windSubHurt": 0.2,
+        "iceSubHurt": 0.2,
+        "rockSubHurt": 0.2,
+        "physicalSubHurt": 0.2
+      },
+      "fundamentalForce": null,
+      "reward": null
     }
   },
   "tips": {

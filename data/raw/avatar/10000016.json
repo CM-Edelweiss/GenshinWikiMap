@@ -4,12 +4,15 @@
   "name": "迪卢克",
   "element": "Fire",
   "weaponType": "WEAPON_CLAYMORE",
+  "region": "MONDSTADT",
+  "specialProp": "FIGHT_PROP_CRITICAL",
+  "bodyType": "MALE",
   "icon": "UI_AvatarIcon_Diluc",
   "birthday": [
     4,
     30
   ],
-  "release": 1600131600,
+  "release": 1601244000,
   "route": "Diluc",
   "fetter": {
     "title": "晨曦的暗面",
@@ -156,6 +159,21 @@
     ]
   },
   "other": {
+    "costume": [
+      {
+        "name": "夜行暗火",
+        "description": "迪卢克的装扮款式。低调而不失品味的贵族衣装。",
+        "isDefault": true
+      },
+      {
+        "name": "殷红终夜",
+        "description": "迪卢克隐秘行动时所穿的衣装之一，如阴影之中翻腾的火焰。敌人视野尽头所留下的殷红残痕，即是他们余生挥之不去的梦魇。",
+        "storyId": 340004,
+        "icon": "UI_AvatarIcon_DilucCostumeFlamme",
+        "rank": 5
+      }
+    ],
+    "furnitureId": 368108,
     "nameCard": {
       "id": 210005,
       "name": "迪卢克·燃烧",
@@ -185,6 +203,98 @@
     "112034": 3,
     "113003": 5,
     "113011": 4
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "100055": {
+      "name": "小灯草",
+      "rank": 1,
+      "icon": "UI_ItemIcon_100055"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104111": {
+      "name": "燃愿玛瑙碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104111"
+    },
+    "104112": {
+      "name": "燃愿玛瑙断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104112"
+    },
+    "104113": {
+      "name": "燃愿玛瑙块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104113"
+    },
+    "104114": {
+      "name": "燃愿玛瑙",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104114"
+    },
+    "104304": {
+      "name": "「抗争」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104304"
+    },
+    "104305": {
+      "name": "「抗争」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104305"
+    },
+    "104306": {
+      "name": "「抗争」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104306"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "112032": {
+      "name": "新兵的徽记",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112032"
+    },
+    "112033": {
+      "name": "士官的徽记",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112033"
+    },
+    "112034": {
+      "name": "尉官的徽记",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112034"
+    },
+    "113003": {
+      "name": "东风之翎",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113003"
+    },
+    "113011": {
+      "name": "常燃火种",
+      "rank": 4,
+      "icon": "UI_ItemIcon_113011"
+    }
   },
   "talent": {
     "0": {
@@ -902,7 +1012,127 @@
         }
       },
       "cooldown": 0,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "6",
+              "text": "Normal Attack"
+            },
+            "type": {
+              "span": "6",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "108.1",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "105.57",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Normal Attack 3-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "119.03",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Normal Attack 4-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "161.46",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "655",
+            "verticalForce": "800"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Charged Attack Cyclic",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "60",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Charged Attack Final Slash",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "120",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "655",
+            "verticalForce": "800"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "35",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "200",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "800"
+          },
+          "bluntAttack": true
+        }
+      ]
     },
     "1": {
       "type": 0,
@@ -1619,7 +1849,62 @@
         }
       },
       "cooldown": 10,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": false,
+        "prop": [
+          {
+            "id": 2,
+            "type": "normal"
+          },
+          {
+            "id": 3,
+            "type": "normal"
+          },
+          {
+            "id": 5,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "1-Hit DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "120",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "2-Hit DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "120",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "3-Hit DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "120",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "655",
+            "verticalForce": "800"
+          },
+          "bluntAttack": true
+        }
+      ]
     },
     "3": {
       "type": 1,
@@ -2336,56 +2621,276 @@
         }
       },
       "cooldown": 12,
-      "cost": 40
+      "cost": 40,
+      "linkedConstellations": {
+        "isLevelIncluded": false,
+        "prop": [
+          {
+            "id": 4,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Activation Damageless Knockback",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "—"
+            },
+            "type": {
+              "span": null,
+              "text": "—"
+            }
+          },
+          "interruptionResistance": "400",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Slashing DMG",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Elemental Burst"
+            },
+            "type": {
+              "span": null,
+              "text": "5s\/5 Hits"
+            }
+          },
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Slashing Damageless Knockback",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "—"
+            },
+            "type": {
+              "span": null,
+              "text": "—"
+            }
+          },
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "DoT",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": {
+            "tag": {
+              "span": "2",
+              "text": "Elemental Burst"
+            },
+            "type": {
+              "span": "2",
+              "text": "5s\/5 Hits"
+            }
+          },
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "900",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Explosion DMG",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "795",
+            "verticalForce": "900"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "4": {
       "type": 2,
       "name": "永不休止",
       "description": "迪卢克的重击体力消耗降低50%，最大持续时间增加3秒。",
-      "icon": "UI_Talent_S_Diluc_05"
+      "icon": "UI_Talent_S_Diluc_05",
+      "linkedConstellations": null
     },
     "5": {
       "type": 2,
       "name": "熔毁之翼",
       "description": "<color=#FFD780FF>黎明<\/color>提供的<color=#FF9999FF>火元素附魔<\/color>持续时间延长4秒；此外，在效果持续期间，迪卢克获得20%<color=#FF9999FF>火元素伤害加成<\/color>。",
-      "icon": "UI_Talent_S_Diluc_06"
+      "icon": "UI_Talent_S_Diluc_06",
+      "linkedConstellations": null
     },
     "6": {
       "type": 2,
       "name": "晨曦的传统",
       "description": "锻造双手剑类武器时，返还15%消耗的矿石。",
-      "icon": "UI_Talent_Forge_Claymore"
+      "icon": "UI_Talent_Forge_Claymore",
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Activation Damageless Knockback",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "—"
+            },
+            "type": {
+              "span": null,
+              "text": "—"
+            }
+          },
+          "interruptionResistance": "400",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Slashing DMG",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Elemental Burst"
+            },
+            "type": {
+              "span": null,
+              "text": "5s\/5 Hits"
+            }
+          },
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Slashing Damageless Knockback",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "—"
+            },
+            "type": {
+              "span": null,
+              "text": "—"
+            }
+          },
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "DoT",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": {
+            "tag": {
+              "span": "2",
+              "text": "Elemental Burst"
+            },
+            "type": {
+              "span": "2",
+              "text": "5s\/5 Hits"
+            }
+          },
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "900",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Explosion DMG",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "795",
+            "verticalForce": "900"
+          },
+          "bluntAttack": false
+        }
+      ]
     }
   },
   "constellation": {
     "0": {
+      "id": 0,
       "name": "罪罚裁断",
       "description": "对生命值高于50%的敌人，迪卢克造成的伤害提高15%。",
+      "extraData": null,
       "icon": "UI_Talent_S_Diluc_01"
     },
     "1": {
+      "id": 1,
       "name": "炙热余烬",
       "description": "迪卢克受到伤害时，攻击力提高10%，攻击速度提高5%，持续10秒。\\n该效果至多叠加3次，每1.5秒只能触发一次。",
+      "extraData": null,
       "icon": "UI_Talent_S_Diluc_02"
     },
     "2": {
+      "id": 2,
       "name": "钢铁炽焰",
       "description": "<color=#FFD780FF>逆焰之刃<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": null,
       "icon": "UI_Talent_U_Diluc_01"
     },
     "3": {
+      "id": 3,
       "name": "流火焦灼",
       "description": "有节奏地释放<color=#FFD780FF>逆焰之刃<\/color>可以大幅提升造成的伤害。\\n施放<color=#FFD780FF>逆焰之刃<\/color>的2秒后，使下一段逆焰之刃的伤害提高40%，持续2秒。",
+      "extraData": null,
       "icon": "UI_Talent_S_Diluc_03"
     },
     "4": {
+      "id": 4,
       "name": "昭告黎明的火之鸟",
       "description": "<color=#FFD780FF>黎明<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": null,
       "icon": "UI_Talent_U_Diluc_02"
     },
     "5": {
+      "id": 5,
       "name": "清算黑暗的炎之剑",
       "description": "施放<color=#FFD780FF>逆焰之刃<\/color>后，接下来6秒内的2次普通攻击速度提升30%，造成的伤害提高30%。\\n此外，逆焰之刃不再重置普通攻击连击段数。",
+      "extraData": null,
       "icon": "UI_Talent_S_Diluc_04"
     }
   }

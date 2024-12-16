@@ -4,12 +4,15 @@
   "name": "重云",
   "element": "Ice",
   "weaponType": "WEAPON_CLAYMORE",
+  "region": "LIYUE",
+  "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+  "bodyType": "BOY",
   "icon": "UI_AvatarIcon_Chongyun",
   "birthday": [
     9,
     7
   ],
-  "release": 1600131600,
+  "release": 1601244000,
   "route": "Chongyun",
   "fetter": {
     "title": "雪融有踪",
@@ -156,6 +159,14 @@
     ]
   },
   "other": {
+    "costume": [
+      {
+        "name": "清正灵台",
+        "description": "重云的装扮款式。方士一族家传的驱邪装束。",
+        "isDefault": true
+      }
+    ],
+    "furnitureId": 368124,
     "nameCard": {
       "id": 210040,
       "name": "重云·灵刃",
@@ -185,6 +196,98 @@
     "112007": 3,
     "113005": 5,
     "113010": 4
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "100058": {
+      "name": "石珀",
+      "rank": 1,
+      "icon": "UI_ItemIcon_100058"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104161": {
+      "name": "哀叙冰玉碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104161"
+    },
+    "104162": {
+      "name": "哀叙冰玉断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104162"
+    },
+    "104163": {
+      "name": "哀叙冰玉块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104163"
+    },
+    "104164": {
+      "name": "哀叙冰玉",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104164"
+    },
+    "104313": {
+      "name": "「勤劳」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104313"
+    },
+    "104314": {
+      "name": "「勤劳」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104314"
+    },
+    "104315": {
+      "name": "「勤劳」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104315"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "112005": {
+      "name": "破损的面具",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112005"
+    },
+    "112006": {
+      "name": "污秽的面具",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112006"
+    },
+    "112007": {
+      "name": "不祥的面具",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112007"
+    },
+    "113005": {
+      "name": "东风的吐息",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113005"
+    },
+    "113010": {
+      "name": "极寒之核",
+      "rank": 4,
+      "icon": "UI_ItemIcon_113010"
+    }
   },
   "talent": {
     "0": {
@@ -902,7 +1005,127 @@
         }
       },
       "cooldown": 0,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "6",
+              "text": "Normal Attack"
+            },
+            "type": {
+              "span": "6",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "105",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "95",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "400",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Normal Attack 3-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "121",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "400",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Normal Attack 4-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "152",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Charged Attack Cyclic",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "60",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Charged Attack Final Slash",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "120",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "35",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "200",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "800"
+          },
+          "bluntAttack": true
+        }
+      ]
     },
     "1": {
       "type": 0,
@@ -1619,7 +1842,46 @@
         }
       },
       "cooldown": 15,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": false,
+        "prop": [
+          {
+            "id": 1,
+            "type": "normal"
+          },
+          {
+            "id": 4,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Skill DMG",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": null,
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "600"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Extra Spirit Blade (A4)",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "600"
+          },
+          "bluntAttack": true
+        }
+      ]
     },
     "3": {
       "type": 1,
@@ -2336,57 +2598,141 @@
         }
       },
       "cooldown": 12,
-      "cost": 40
+      "cost": 40,
+      "linkedConstellations": {
+        "isLevelIncluded": false,
+        "prop": [
+          {
+            "id": 2,
+            "type": "normal"
+          },
+          {
+            "id": 5,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Skill DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "600"
+          },
+          "bluntAttack": true
+        }
+      ]
     },
     "4": {
       "type": 2,
       "name": "吐纳真定",
       "description": "处在<color=#FFD780FF>灵刃·重华叠霜<\/color>领域内的单手剑、双手剑、长柄武器角色，普通攻击的攻击速度提升8%。",
-      "icon": "UI_Talent_S_Chongyun_05"
+      "icon": "UI_Talent_S_Chongyun_05",
+      "linkedConstellations": null
     },
     "5": {
       "type": 2,
       "name": "追冰剑诀",
       "description": "<color=#FFD780FF>灵刃·重华叠霜<\/color>领域消失时，会唤出一柄灵刃自动攻击附近的敌人，造成相当于灵刃·重华叠霜技能伤害100%的<color=#99FFFFFF>冰元素范围伤害<\/color>。被击中的敌人<color=#99FFFFFF>冰元素抗性<\/color>降低10%，持续8秒。",
-      "icon": "UI_Talent_S_Chongyun_06"
+      "icon": "UI_Talent_S_Chongyun_06",
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Extra Spirit Blade",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "600"
+          },
+          "bluntAttack": true
+        }
+      ]
     },
     "6": {
       "type": 2,
       "name": "云游山海",
       "description": "在璃月执行探索派遣任务时，消耗的时间缩短25%。",
-      "icon": "UI_Talent_Expedition_Liyue"
+      "icon": "UI_Talent_Expedition_Liyue",
+      "linkedConstellations": null
     }
   },
   "constellation": {
     "0": {
+      "id": 0,
       "name": "释凌咏冰",
       "description": "普通攻击的最后一击会向前方释放三道冰之刃，每道冰之刃对沿途的敌人造成重云50%攻击力的<color=#99FFFFFF>冰元素伤害<\/color>。",
-      "icon": "UI_Talent_S_Chongyun_01"
+      "extraData": null,
+      "icon": "UI_Talent_S_Chongyun_01",
+      "advancedProps": [
+        {
+          "name": "Ice Blade",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "36",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "1": {
+      "id": 1,
       "name": "周天运转",
       "description": "在<color=#FFD780FF>灵刃·重华叠霜<\/color>领域内施放的元素战技与元素爆发的冷却时间减少15%。",
+      "extraData": null,
       "icon": "UI_Talent_S_Chongyun_02"
     },
     "2": {
+      "id": 2,
       "name": "云尽光生",
       "description": "<color=#FFD780FF>灵刃·云开星落<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": null,
       "icon": "UI_Talent_U_Chongyun_01"
     },
     "3": {
+      "id": 3,
       "name": "浮云霜天",
       "description": "重云的所有攻击命中受到<color=#99FFFFFF>冰元素<\/color>影响的敌人时，自身将恢复1点元素能量。\\n该效果每2秒最多触发一次。",
+      "extraData": null,
       "icon": "UI_Talent_S_Chongyun_03"
     },
     "4": {
+      "id": 4,
       "name": "真道正理",
       "description": "<color=#FFD780FF>灵刃·重华叠霜<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": null,
       "icon": "UI_Talent_U_Chongyun_02"
     },
     "5": {
+      "id": 5,
       "name": "四灵捧圣",
       "description": "<color=#FFD780FF>灵刃·云开星落<\/color>对生命值百分比低于重云的敌人造成伤害时，伤害提升15%；\\n此外，施放时，会召唤一柄额外的灵刃。",
-      "icon": "UI_Talent_S_Chongyun_04"
+      "extraData": null,
+      "icon": "UI_Talent_S_Chongyun_04",
+      "advancedProps": [
+        {
+          "name": "Additional Spirit Blade",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        }
+      ]
     }
   }
 }

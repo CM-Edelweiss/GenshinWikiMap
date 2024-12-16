@@ -4,8 +4,11 @@
   "type": "法器",
   "name": "盈满之实",
   "description": "从兰那罗的故事中得到的果实。其中蕴含着战胜任何危机的潜能。",
+  "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
   "icon": "UI_EquipIcon_Catalyst_Arakalari",
-  "storyId": 194417,
+  "storyId": [
+    "14417"
+  ],
   "affix": {
     "114417": {
       "name": "圆满之相",
@@ -164,5 +167,77 @@
     "114042": 3,
     "114043": 4,
     "114044": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112017": {
+      "name": "晦暗刻像",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112017"
+    },
+    "112018": {
+      "name": "夤夜刻像",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112018"
+    },
+    "112019": {
+      "name": "幽邃刻像",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112019"
+    },
+    "112059": {
+      "name": "蕈兽孢子",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112059"
+    },
+    "112060": {
+      "name": "荧光孢粉",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112060"
+    },
+    "112061": {
+      "name": "孢囊晶尘",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112061"
+    },
+    "114041": {
+      "name": "绿洲花园的追忆",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114041"
+    },
+    "114042": {
+      "name": "绿洲花园的恩惠",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114042"
+    },
+    "114043": {
+      "name": "绿洲花园的哀思",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114043"
+    },
+    "114044": {
+      "name": "绿洲花园的真谛",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114044"
+    }
   }
 }

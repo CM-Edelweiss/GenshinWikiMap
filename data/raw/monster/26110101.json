@@ -5,7 +5,7 @@
   "icon": "UI_MonsterIcon_Fungus_Raptor",
   "route": "Jadeplume Terrorshroom",
   "title": "翠翎恐蕈",
-  "specialName": "深居幽林的蕈王",
+  "specialName": 4268051131,
   "description": "经过漫长的岁月，演化出了独特形态的大型蕈兽。\\n智能水平已经接近，甚至超越了真正的动物，会主动捕食猎物以获取养分。尾巴上长有漂亮的翠翎，与素论派尊崇的古代圣兽非常相似。以拟态演化的逻辑来看，想必它们曾经共同行走在大地之上吧。",
   "entries": {
     "26110101": {
@@ -49,74 +49,92 @@
         "rockSubHurt": 0.25,
         "physicalSubHurt": 0.25
       },
+      "fundamentalForce": null,
       "reward": {
         "102": {
+          "name": "冒险阅历",
           "rank": 3,
           "icon": "UI_ItemIcon_102",
           "count": "200"
         },
         "105": {
+          "name": "好感经验",
           "rank": 3,
           "icon": "UI_ItemIcon_105"
         },
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "104131": {
+          "name": "生长碧翡碎屑",
           "rank": 2,
           "icon": "UI_ItemIcon_104131"
         },
         "104132": {
+          "name": "生长碧翡断片",
           "rank": 3,
           "icon": "UI_ItemIcon_104132"
         },
         "104133": {
+          "name": "生长碧翡块",
           "rank": 4,
           "icon": "UI_ItemIcon_104133"
         },
         "104134": {
+          "name": "生长碧翡",
           "rank": 5,
           "icon": "UI_ItemIcon_104134"
         },
         "113036": {
+          "name": "蕈王钩喙",
           "rank": 4,
           "icon": "UI_ItemIcon_113036",
           "count": "2.5556"
         },
         "400022": {
+          "name": "战狂",
           "rank": 3,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400023": {
+          "name": "战狂",
           "rank": 4,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400032": {
+          "name": "教官",
           "rank": 3,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400033": {
+          "name": "教官",
           "rank": 4,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400047": {
+          "name": "冒险家",
           "rank": 3,
           "icon": "UI_RelicIcon_10010_4"
         },
         "400088": {
+          "name": "角斗士的终幕礼",
           "rank": 4,
           "icon": "UI_RelicIcon_15001_4"
         },
         "400089": {
+          "name": "角斗士的终幕礼",
           "rank": 5,
           "icon": "UI_RelicIcon_15001_4"
         },
         "400098": {
+          "name": "流浪大地的乐团",
           "rank": 4,
           "icon": "UI_RelicIcon_15003_4"
         },
         "400099": {
+          "name": "流浪大地的乐团",
           "rank": 5,
           "icon": "UI_RelicIcon_15003_4"
         }
@@ -128,7 +146,7 @@
       "images": [
         "UI_Activity_GravenBOSS_03"
       ],
-      "description": "蕈兽进化之后的形态。承受<color=#FFE14BFF>雷元素攻击<\/color>与激化反应时，会积累「活性化」状态；受到火元素攻击，「活性化」则会减少。在「活性化」状态积累满后，将进入<color=#FFE14BFF>活化状态<\/color>。活化状态的翠翎恐蕈会进行更加猛烈的攻击，直到力竭。不处于活化状态时，若翠翎恐蕈因为<color=#FFE14BFF>火元素<\/color>陷入燃烧状态，则会变得枯焦，会向四周散播孢子，产生蕈兽以摆脱这种状态。"
+      "description": "蕈兽进化之后的形态。承受<color=#FFE14BFF>雷元素攻击<\/color>与激化反应时，会积累「活性化」状态；受到<color=#FFE14BFF>火元素攻击<\/color>，「活性化」则会减少。在「活性化」状态积累满后，将进入<color=#FFE14BFF>活化状态<\/color>。活化状态的翠翎恐蕈会进行更加猛烈的攻击，直到力竭。不处于活化状态时，若翠翎恐蕈因为<color=#FFE14BFF>火元素<\/color>陷入燃烧状态，则会变得枯焦，会向四周散播孢子，产生蕈兽以摆脱这种状态。"
     }
   }
 }

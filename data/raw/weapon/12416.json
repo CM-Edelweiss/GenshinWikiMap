@@ -4,8 +4,11 @@
   "type": "双手剑",
   "name": "恶王丸",
   "description": "传说中「恶王」的爱刀，刀身庞大雄伟，但挥舞起来却出乎意料地轻便。",
+  "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
   "icon": "UI_EquipIcon_Claymore_Maria",
-  "storyId": 192416,
+  "storyId": [
+    "12416"
+  ],
   "affix": {
     "112416": {
       "name": "驭浪的海祇民",
@@ -164,5 +167,77 @@
     "114026": 3,
     "114027": 4,
     "114028": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112044": {
+      "name": "破旧的刀镡",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112044"
+    },
+    "112045": {
+      "name": "影打刀镡",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112045"
+    },
+    "112046": {
+      "name": "名刀镡",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112046"
+    },
+    "112056": {
+      "name": "隐兽指爪",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112056"
+    },
+    "112057": {
+      "name": "隐兽利爪",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112057"
+    },
+    "112058": {
+      "name": "隐兽鬼爪",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112058"
+    },
+    "114025": {
+      "name": "远海夷地的瑚枝",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114025"
+    },
+    "114026": {
+      "name": "远海夷地的玉枝",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114026"
+    },
+    "114027": {
+      "name": "远海夷地的琼枝",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114027"
+    },
+    "114028": {
+      "name": "远海夷地的金枝",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114028"
+    }
   }
 }

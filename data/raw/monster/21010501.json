@@ -54,37 +54,45 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112005": {
+          "name": "破损的面具",
           "rank": 1,
           "icon": "UI_ItemIcon_112005",
           "count": "0.1681"
         },
         "112006": {
+          "name": "污秽的面具",
           "rank": 2,
           "icon": "UI_ItemIcon_112006",
           "count": "0.0448"
         },
         "112007": {
+          "name": "不祥的面具",
           "rank": 3,
           "icon": "UI_ItemIcon_112007",
           "count": "0.0112"
         },
         "112011": {
+          "name": "牢固的箭簇",
           "rank": 1,
           "icon": "UI_ItemIcon_112011",
           "count": "0.8404"
         },
         "112012": {
+          "name": "锐利的箭簇",
           "rank": 2,
           "icon": "UI_ItemIcon_112012",
           "count": "0.2241"
         },
         "112013": {
+          "name": "历战的箭簇",
           "rank": 3,
           "icon": "UI_ItemIcon_112013",
           "count": "0.056"
@@ -145,6 +153,108 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "21010503": {
+      "id": 21010503,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "点燃免疫",
+          "description": "免疫点燃伤害",
+          "abilityName": [
+            "MonsterAffix_BurningResist"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 10.8672,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 16.956,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "21010591": {
+      "id": 21010591,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "点燃免疫",
+          "description": "免疫点燃伤害",
+          "abilityName": [
+            "MonsterAffix_BurningResist"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "5.2怪物自走棋敌方单位标记",
+          "description": "脚底光环、出生特效",
+          "abilityName": [
+            "MonsterChess_Monster_Common_EnemyBottom"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 16.575,
+          "type": "GrowCurveType_Unknown_5202"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 30.6,
+          "type": "GrowCurveType_Unknown_5201"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
       "reward": null
     }
   },

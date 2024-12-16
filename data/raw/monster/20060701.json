@@ -5,7 +5,7 @@
   "icon": "UI_MonsterIcon_Sylph_Grass_01",
   "route": "Dendro Specter",
   "title": "草飘浮灵",
-  "specialName": "飘游的元素之灵",
+  "specialName": 2598014395,
   "description": "高浓度的草元素孕育而生的魔物，能够飘浮在空中。\\n曾经有因论派的研究员对草飘浮灵的生态特征进行过研究，发现与传说中的「兰那罗」非常相似。他在一番考据后得出结论，所谓兰那罗其实就是草飘浮灵。后来这位研究员成为了籍籍无名的童话作家。",
   "entries": {
     "20060701": {
@@ -45,25 +45,30 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112053": {
+          "name": "浮游干核",
           "rank": 1,
           "icon": "UI_ItemIcon_112053",
-          "count": "1.2606"
+          "count": "2.101"
         },
         "112054": {
+          "name": "浮游幽核",
           "rank": 2,
           "icon": "UI_ItemIcon_112054",
-          "count": "0.3362"
+          "count": "0.5602"
         },
         "112055": {
+          "name": "浮游晶化核",
           "rank": 3,
           "icon": "UI_ItemIcon_112055",
-          "count": "0.084"
+          "count": "0.14"
         }
       }
     }

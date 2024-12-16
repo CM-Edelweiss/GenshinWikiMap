@@ -4,8 +4,11 @@
   "type": "双手剑",
   "name": "玛海菈的水色",
   "description": "一柄光泽如水的古老大剑，经过千年流沙磨洗，锋刃依然锐利异常。",
+  "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
   "icon": "UI_EquipIcon_Claymore_Pleroma",
-  "storyId": 192415,
+  "storyId": [
+    "12415"
+  ],
   "affix": {
     "112415": {
       "name": "沙上楼阁",
@@ -164,5 +167,77 @@
     "114046": 3,
     "114047": 4,
     "114048": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112035": {
+      "name": "寻宝鸦印",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112035"
+    },
+    "112036": {
+      "name": "藏银鸦印",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112036"
+    },
+    "112037": {
+      "name": "攫金鸦印",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112037"
+    },
+    "112068": {
+      "name": "混沌容器",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112068"
+    },
+    "112069": {
+      "name": "混沌模块",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112069"
+    },
+    "112070": {
+      "name": "混沌锚栓",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112070"
+    },
+    "114045": {
+      "name": "烈日威权的残响",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114045"
+    },
+    "114046": {
+      "name": "烈日威权的余光",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114046"
+    },
+    "114047": {
+      "name": "烈日威权的梦想",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114047"
+    },
+    "114048": {
+      "name": "烈日威权的旧日",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114048"
+    }
   }
 }

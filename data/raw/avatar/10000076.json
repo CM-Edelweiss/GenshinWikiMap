@@ -4,6 +4,9 @@
   "name": "珐露珊",
   "element": "Wind",
   "weaponType": "WEAPON_BOW",
+  "region": "SUMERU",
+  "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+  "bodyType": "GIRL",
   "icon": "UI_AvatarIcon_Faruzan",
   "birthday": [
     8,
@@ -156,6 +159,14 @@
     ]
   },
   "other": {
+    "costume": [
+      {
+        "name": "碧叶素华",
+        "description": "珐露珊的装扮款式。素雅的风格象征着不为外物所动的纯粹，百年前曾在教令院内风靡一时，现如今已经没什么人穿了。",
+        "isDefault": true
+      }
+    ],
+    "furnitureId": 368161,
     "nameCard": {
       "id": 210144,
       "name": "珐露珊·封秘",
@@ -185,6 +196,98 @@
     "112067": 3,
     "113039": 4,
     "113041": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "101220": {
+      "name": "赤念果",
+      "rank": 1,
+      "icon": "UI_ItemIcon_101220"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104151": {
+      "name": "自在松石碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104151"
+    },
+    "104152": {
+      "name": "自在松石断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104152"
+    },
+    "104153": {
+      "name": "自在松石块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104153"
+    },
+    "104154": {
+      "name": "自在松石",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104154"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "104329": {
+      "name": "「诤言」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104329"
+    },
+    "104330": {
+      "name": "「诤言」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104330"
+    },
+    "104331": {
+      "name": "「诤言」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104331"
+    },
+    "112065": {
+      "name": "褪色红绸",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112065"
+    },
+    "112066": {
+      "name": "镶边红绸",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112066"
+    },
+    "112067": {
+      "name": "织金红绸",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112067"
+    },
+    "113039": {
+      "name": "导光四面体",
+      "rank": 4,
+      "icon": "UI_ItemIcon_113039"
+    },
+    "113041": {
+      "name": "傀儡的悬丝",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113041"
+    }
   },
   "talent": {
     "0": {
@@ -902,7 +1005,142 @@
         }
       },
       "cooldown": 0,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "15.6033",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "14.7162",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "18.5454",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "24.6351",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Aimed Shot",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "10",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Aimed Shot (Hit Weak Spot)",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "30",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Fully-Charged Aimed Shot",
+          "elementalGaugeTheory": "1U(w\/ Dropoff)",
+          "internalCooldown": null,
+          "interruptionResistance": "20",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Fully-Charged Aimed Shot (Hit Weak Spot)",
+          "elementalGaugeTheory": "1U(w\/ Dropoff)",
+          "internalCooldown": null,
+          "interruptionResistance": "60",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "10",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "50",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "1": {
       "type": 0,
@@ -1619,7 +1857,54 @@
         }
       },
       "cooldown": 6,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          },
+          {
+            "id": 2,
+            "type": "level"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Skill DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "200",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Pressurized Collapse Vortex DMG (Normal)",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "800"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Pressurized Collapse Vortex DMG (Against Ally Objects)",
+          "elementalGaugeTheory": "2U",
+          "internalCooldown": null,
+          "interruptionResistance": "—",
+          "interruptionResistanceStagger": null,
+          "bluntAttack": "—"
+        }
+      ]
     },
     "3": {
       "type": 1,
@@ -2336,56 +2621,114 @@
         }
       },
       "cooldown": 20,
-      "cost": 80
+      "cost": 80,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 1,
+            "type": "normal"
+          },
+          {
+            "id": 4,
+            "type": "level"
+          },
+          {
+            "id": 5,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Skill DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "200",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "4": {
       "type": 2,
       "name": "迅捷流风",
       "description": "珐露珊处于<color=#FFD780FF>非想风天<\/color>的「疾风示现」状态下时，瞄准射击所需的蓄力时间减少60%；并能对「风压坍陷」效果产生的风涡命中的敌人施加<color=#FFD780FF>抟风秘道<\/color>的「诡风之祸」效果。",
-      "icon": "UI_Talent_S_Faruzan_05"
+      "icon": "UI_Talent_S_Faruzan_05",
+      "linkedConstellations": null
     },
     "5": {
       "type": 2,
       "name": "七窟遗智",
       "description": "处于<color=#FFD780FF>抟风秘道<\/color>的「祈风之赐」效果下的角色的普通攻击、重击、下落攻击、元素战技或元素爆发对敌人造成<color=#80FFD7FF>风元素伤害<\/color>时，会产生烈风护持效果：基于珐露珊基础攻击力的32%，提高造成的伤害。每0.8秒至多产生一次烈风护持效果，该效果将在「祈风之赐」持续时间结束或生效1次后消失。",
-      "icon": "UI_Talent_S_Faruzan_06"
+      "icon": "UI_Talent_S_Faruzan_06",
+      "linkedConstellations": null
     },
     "6": {
       "type": 2,
       "name": "千书曜迹",
       "description": "在须弥执行时长为20小时的探索派遣任务时，获得的奖励增加25%。",
-      "icon": "UI_Talent_S_Cyno_07"
+      "icon": "UI_Talent_S_Cyno_07",
+      "linkedConstellations": null
     }
   },
   "constellation": {
     "0": {
+      "id": 0,
       "name": "舍径求真",
       "description": "处于一次<color=#FFD780FF>非想风天<\/color>的「疾风示现」效果下时，珐露珊至多可以通过蓄力完毕的瞄准射击释放2枚「飓烈箭」。",
+      "extraData": null,
       "icon": "UI_Talent_S_Faruzan_01"
     },
     "1": {
+      "id": 1,
       "name": "忘形炼智",
       "description": "<color=#FFD780FF>抟风秘道<\/color>的「赫耀多方面体」的存在时间延长6秒。",
+      "extraData": null,
       "icon": "UI_Talent_S_Faruzan_02"
     },
     "2": {
+      "id": 2,
       "name": "漫行灵圃",
-      "description": "<color=#FFD780FF>非想风天<\/color>的技能等级提高3级。至多提升至15级。",
+      "description": "<color=#FFD780FF>非想风天<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 2,
+          "extraLevel": 3
+        }
+      },
       "icon": "UI_Talent_U_Faruzan_01"
     },
     "3": {
+      "id": 3,
       "name": "神机明悟",
       "description": "依据命中敌人的数量，<color=#FFD780FF>风压坍陷<\/color>产生的风涡可以为珐露珊恢复元素能量：命中一名敌人时，将为珐露珊恢复2点元素能量；每额外命中一名敌人，都将进一步为珐露珊恢复0.5点元素能量。\\n一次风涡，至多通过这种方式为珐露珊恢复4点元素能量。",
+      "extraData": null,
       "icon": "UI_Talent_S_Faruzan_03"
     },
     "4": {
+      "id": 4,
       "name": "繁想奇境",
-      "description": "<color=#FFD780FF>抟风秘道<\/color>的技能等级提高3级。至多提升至15级。",
+      "description": "<color=#FFD780FF>抟风秘道<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 9,
+          "extraLevel": 3
+        }
+      },
       "icon": "UI_Talent_U_Faruzan_02"
     },
     "5": {
+      "id": 5,
       "name": "妙道合真",
       "description": "处于<color=#FFD780FF>抟风秘道<\/color>的「祈风之赐」效果影响下的角色，造成<color=#80FFD7FF>风元素伤害<\/color>时的暴击伤害提升40%；处于「祈风之赐」效果影响下的当前场上角色造成伤害时，将为该敌人施加「风压坍陷」。此效果3秒至多触发一次，队伍中所有角色共享冷却时间。",
+      "extraData": null,
       "icon": "UI_Talent_S_Faruzan_04"
     }
   }

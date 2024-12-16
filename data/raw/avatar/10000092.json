@@ -4,23 +4,26 @@
   "name": "嘉明",
   "element": "Fire",
   "weaponType": "WEAPON_CLAYMORE",
+  "region": "LIYUE",
+  "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+  "bodyType": "BOY",
   "icon": "UI_AvatarIcon_Gaming",
   "birthday": [
-    1,
-    1
+    12,
+    22
   ],
-  "release": 1705269600,
+  "release": 1706565600,
   "route": "Gaming",
   "fetter": {
-    "title": "？？？",
-    "detail": "？？？",
-    "constellation": "",
-    "native": "？？？",
+    "title": "骏猊頕首",
+    "detail": "剑匣镖局的镖师，威水舞兽队的话事人。",
+    "constellation": "醒狮座",
+    "native": "剑匣镖局",
     "cv": {
-      "EN": "",
-      "CHS": "",
-      "JP": "",
-      "KR": ""
+      "EN": "殷嘉乐",
+      "CHS": "谢莹",
+      "JP": "小松昌平",
+      "KR": "金润气"
     }
   },
   "upgrade": {
@@ -158,16 +161,16 @@
   "other": {
     "costume": [
       {
-        "name": "默认时装",
-        "description": "",
+        "name": "万里飞虹",
+        "description": "嘉明的装扮款式。出门在外，行头不需繁杂。几件素衣叠穿，一双舒适布鞋，轻便又稳阵。",
         "isDefault": true
       }
     ],
     "furnitureId": 368178,
     "nameCard": {
       "id": 210188,
-      "name": "？？？",
-      "description": "？？？",
+      "name": "嘉明·文仔",
+      "description": "名片纹饰。\\n「文仔，要相信。有朝一日龙穿凤，不用日日裤穿窿。」",
       "icon": "UI_NameCardIcon_Gaming"
     },
     "specialFood": {
@@ -193,6 +196,98 @@
     "112004": 3,
     "113051": 4,
     "113056": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "100033": {
+      "name": "星螺",
+      "rank": 1,
+      "icon": "UI_ItemIcon_100033"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104111": {
+      "name": "燃愿玛瑙碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104111"
+    },
+    "104112": {
+      "name": "燃愿玛瑙断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104112"
+    },
+    "104113": {
+      "name": "燃愿玛瑙块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104113"
+    },
+    "104114": {
+      "name": "燃愿玛瑙",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104114"
+    },
+    "104310": {
+      "name": "「繁荣」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104310"
+    },
+    "104311": {
+      "name": "「繁荣」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104311"
+    },
+    "104312": {
+      "name": "「繁荣」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104312"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "112002": {
+      "name": "史莱姆凝液",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112002"
+    },
+    "112003": {
+      "name": "史莱姆清",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112003"
+    },
+    "112004": {
+      "name": "史莱姆原浆",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112004"
+    },
+    "113051": {
+      "name": "帝皇的决断",
+      "rank": 4,
+      "icon": "UI_ItemIcon_113051"
+    },
+    "113056": {
+      "name": "无光质块",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113056"
+    }
   },
   "talent": {
     "0": {
@@ -910,12 +1005,132 @@
         }
       },
       "cooldown": 0,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "6",
+              "text": "Normal Attack"
+            },
+            "type": {
+              "span": "6",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "112.133",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "105.699",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "400",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Normal Attack 3-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "142.608",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "400",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Normal Attack 4-Hit",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "171.095",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Charged Attack Cyclic",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "60",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Charged Attack Final Slash",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "120",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "35",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "200",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "800"
+          },
+          "bluntAttack": true
+        }
+      ]
     },
     "1": {
       "type": 0,
       "name": "瑞兽登高楼",
-      "description": "以舞兽之法向前扑击，命中后高高腾跃至空中。\\n嘉明因元素战技·瑞兽登高楼而升空后，若进行下落攻击，则会施展格外强劲的下落攻击·踏云献瑞。\\n\\n<color=#FFD780FF>下落攻击·踏云献瑞<\/color>\\n通过元素战技·瑞兽登高楼施放的下落攻击，造成的伤害将转化为无法被附魔覆盖的<color=#FF9999FF>火元素伤害<\/color>，并在落地时使嘉明消耗一定的生命值，至多通过这种方式使嘉明的生命值降低至10%。\\n踏云献瑞造成的伤害视为下落攻击伤害。\\n\\n<i>「瑞兽踏高步采青呢，寓意瑞气临门，生财有道，祝各位步步高升啦！」<\/i>",
+      "description": "以舞兽之法向前扑击，接触目标或地形后高高腾跃至空中。\\n嘉明因元素战技·瑞兽登高楼而升空后，若立即进行下落攻击，则会施展格外强劲的下落攻击·踏云献瑞。\\n\\n<color=#FFD780FF>下落攻击·踏云献瑞<\/color>\\n通过元素战技·瑞兽登高楼施放的下落攻击，造成的伤害将转化为无法被附魔覆盖的<color=#FF9999FF>火元素伤害<\/color>，并在落地时使嘉明消耗一定的生命值，至多通过这种方式使嘉明的生命值降低至10%。\\n踏云献瑞造成的伤害视为下落攻击伤害。\\n\\n<i>「瑞兽踏高步采青呢，寓意瑞气临门，生财有道，祝各位步步高升啦！」<\/i>",
       "icon": "Skill_S_Gaming_01",
       "promote": {
         "1": {
@@ -1627,12 +1842,43 @@
         }
       },
       "cooldown": 6,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 2,
+            "type": "level"
+          },
+          {
+            "id": 3,
+            "type": "normal"
+          },
+          {
+            "id": 5,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Charmed Cloudstrider DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "150",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "800"
+          },
+          "bluntAttack": true
+        }
+      ]
     },
     "3": {
       "type": 1,
       "name": "璨焰金猊舞",
-      "description": "嘉明进入舞兽态势，为嘉明施加短暂的火元素附着，恢复一定的生命值，并召唤可靠的伙伴猊兽·文仔砸击目标，造成<color=#FF9999FF>火元素范围伤害<\/color>。\\n猊兽·文仔完成砸击后将向附近滚落，随后向嘉明的位置移动，成功与嘉明会合时，猊兽·文仔将退场，并刷新嘉明的元素战技「瑞兽登高楼」的冷却时间。\\n舞兽态势持续期间，进行下落攻击·踏云献瑞或在瑞兽登高楼的扑击结束时，若嘉明的生命值高于50%，将再次唤出猊兽·文仔。\\n场上至多同时存在一位嘉明自己的猊兽·文仔。\\n\\n<i>「金猊吐祥，火树银花，嗱，这个就叫红红火火，常赚常有咯。」<\/i>",
+      "description": "嘉明进入舞兽态势，为嘉明施加短暂的<color=#FF9999FF>火元素附着<\/color>，恢复一定的生命值，并召唤可靠的伙伴猊兽·文仔砸击目标，造成<color=#FF9999FF>火元素范围伤害<\/color>。\\n猊兽·文仔完成砸击后将向附近滚落，随后向嘉明的位置移动，成功与嘉明会合时，猊兽·文仔将退场，并刷新嘉明的元素战技「瑞兽登高楼」的冷却时间。\\n舞兽态势持续期间，提高嘉明的抗打断能力，下落攻击·踏云献瑞落地时，或瑞兽登高楼的向前扑击结束时，若嘉明的生命值高于50%，将再次唤出猊兽·文仔。\\n场上至多同时存在一位嘉明自己的猊兽·文仔。\\n效果将在嘉明退场时解除。\\n\\n<i>「金猊吐祥，火树银花，嗱，这个就叫红红火火，常赚常有咯。」<\/i>",
       "icon": "Skill_E_Gaming_01",
       "promote": {
         "1": {
@@ -2344,41 +2590,83 @@
         }
       },
       "cooldown": 15,
-      "cost": 60
+      "cost": 60,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 0,
+            "type": "normal"
+          },
+          {
+            "id": 4,
+            "type": "level"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Suanni Man Chai Smash DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Elemental Burst"
+            },
+            "type": {
+              "span": null,
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "200",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "4": {
       "type": 2,
       "name": "舞起升平",
-      "description": "<color=#FFD780FF>瑞兽登高楼<\/color>的下落攻击·踏云献瑞命中敌人后的1秒内，嘉明将恢复6%生命值。",
-      "icon": "UI_Talent_S_Gaming_05"
+      "description": "<color=#FFD780FF>瑞兽登高楼<\/color>的下落攻击·踏云献瑞命中敌人后，嘉明每0.2秒恢复一次生命值，回复量基于嘉明生命值上限的1.5%，持续0.8秒。",
+      "icon": "UI_Talent_S_Gaming_05",
+      "linkedConstellations": null
     },
     "5": {
       "type": 2,
       "name": "祥烟瑞气",
       "description": "嘉明的生命值低于50%时，获得20%受治疗加成。嘉明的生命值高于或等于50%时，下落攻击·踏云献瑞造成的伤害提升20%。",
-      "icon": "UI_Talent_S_Gaming_06"
+      "icon": "UI_Talent_S_Gaming_06",
+      "linkedConstellations": null
     },
     "6": {
       "type": 2,
       "name": "醒兽锐行",
-      "description": "在白天（6时至18时），队伍中自己的角色移动速度提高10%。\\n该效果在秘境、征讨领域、深境螺旋中无效，且无法与效果完全相同的固有天赋叠加。",
-      "icon": "UI_Talent_S_Dehya_07"
+      "description": "在白天（6时至18时），队伍中自己的角色获得迅行效果：移动速度提高10%。\\n该效果在秘境、征讨领域、深境螺旋中无效，迅行效果无法叠加。",
+      "icon": "UI_Talent_S_Dehya_07",
+      "linkedConstellations": null
     }
   },
   "constellation": {
     "0": {
+      "id": 0,
       "name": "通明庇佑",
       "description": "<color=#FFD780FF>璨焰金猊舞<\/color>的猊兽·文仔成功与嘉明会合时，将为嘉明恢复15%生命值。",
       "extraData": null,
       "icon": "UI_Talent_S_Gaming_01"
     },
     "1": {
+      "id": 1,
       "name": "步踏梅花",
       "description": "嘉明受到治疗时，若此次治疗回复量溢出，嘉明的攻击力将提升20%，持续5秒。",
       "extraData": null,
       "icon": "UI_Talent_S_Gaming_02"
     },
     "2": {
+      "id": 2,
       "name": "醒灵擂震",
       "description": "<color=#FFD780FF>瑞兽登高楼<\/color>的技能等级提高3级。\\n至多提升至15级。",
       "extraData": {
@@ -2391,12 +2679,14 @@
       "icon": "UI_Talent_U_Gaming_01"
     },
     "3": {
+      "id": 3,
       "name": "云里翻山",
       "description": "<color=#FFD780FF>瑞兽登高楼<\/color>的下落攻击·踏云献瑞命中敌人时，将为嘉明恢复2点元素能量。该效果每0.2秒至多触发一次。",
       "extraData": null,
       "icon": "UI_Talent_S_Gaming_03"
     },
     "4": {
+      "id": 4,
       "name": "吼法怖魔",
       "description": "<color=#FFD780FF>璨焰金猊舞<\/color>的技能等级提高3级。\\n至多提升至15级。",
       "extraData": {
@@ -2409,11 +2699,11 @@
       "icon": "UI_Talent_U_Gaming_02"
     },
     "5": {
+      "id": 5,
       "name": "百兽俱驯",
       "description": "<color=#FFD780FF>瑞兽登高楼<\/color>的下落攻击·踏云献瑞的暴击率提升20%，暴击伤害提升40%，攻击范围提升。",
       "extraData": null,
       "icon": "UI_Talent_S_Gaming_04"
     }
-  },
-  "beta": true
+  }
 }

@@ -4,8 +4,11 @@
   "type": "长柄武器",
   "name": "喜多院十文字",
   "description": "曾经在八酝岛守望「祟神」的枪法名士所用的特殊长枪。",
+  "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
   "icon": "UI_EquipIcon_Pole_Bakufu",
-  "storyId": 193414,
+  "storyId": [
+    "13414"
+  ],
   "affix": {
     "113414": {
       "name": "名士振舞",
@@ -164,5 +167,77 @@
     "114034": 3,
     "114035": 4,
     "114036": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112035": {
+      "name": "寻宝鸦印",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112035"
+    },
+    "112036": {
+      "name": "藏银鸦印",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112036"
+    },
+    "112037": {
+      "name": "攫金鸦印",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112037"
+    },
+    "112047": {
+      "name": "混沌机关",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112047"
+    },
+    "112048": {
+      "name": "混沌枢纽",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112048"
+    },
+    "112049": {
+      "name": "混沌真眼",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112049"
+    },
+    "114033": {
+      "name": "今昔剧画之恶尉",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114033"
+    },
+    "114034": {
+      "name": "今昔剧画之虎啮",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114034"
+    },
+    "114035": {
+      "name": "今昔剧画之一角",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114035"
+    },
+    "114036": {
+      "name": "今昔剧画之鬼人",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114036"
+    }
   }
 }

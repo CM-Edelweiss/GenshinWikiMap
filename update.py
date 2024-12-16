@@ -63,7 +63,7 @@ def update_constant():
         print(">>>原魔列表raw更新失败")
     time.sleep(2)
 
-    # # 更新角色曲线
+    # 更新角色曲线
     if data := ambr_requests(AVATAR_CURVE_API):
         save_json(data, RAW / "avatar_curve.json")
         print(">>>角色曲线raw更新完成")
@@ -97,6 +97,9 @@ def update_constant():
 
 
 def update_character():
+    """
+    更新角色信息
+    """
     avatar_list = load_json(RAW / "avatar_list.json")
     avatar_alias_file = load_json(DATA / "角色列表.json")
     type_file = load_json(DATA / "类型.json")

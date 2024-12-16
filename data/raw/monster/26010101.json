@@ -53,22 +53,27 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112038": {
+          "name": "骗骗花蜜",
           "rank": 1,
           "icon": "UI_ItemIcon_112038",
           "count": "4.202"
         },
         "112039": {
+          "name": "微光花蜜",
           "rank": 2,
           "icon": "UI_ItemIcon_112039",
           "count": "1.1205"
         },
         "112040": {
+          "name": "原素花蜜",
           "rank": 3,
           "icon": "UI_ItemIcon_112040",
           "count": "0.28"
@@ -129,6 +134,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": null
     },
     "26010103": {
@@ -176,6 +182,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": null
     },
     "26010104": {
@@ -223,6 +230,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
+      "fundamentalForce": null,
       "reward": null
     }
   },

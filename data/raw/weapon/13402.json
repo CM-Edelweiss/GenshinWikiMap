@@ -4,8 +4,11 @@
   "type": "长柄武器",
   "name": "试作星镰",
   "description": "黑岩厂中秘藏的古老钩枪。锋芒上点点的闪光有如夜空稀星。",
+  "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
   "icon": "UI_EquipIcon_Pole_Proto",
-  "storyId": 193402,
+  "storyId": [
+    "13402"
+  ],
   "affix": {
     "113402": {
       "name": "嗜魔",
@@ -164,5 +167,77 @@
     "114022": 3,
     "114023": 4,
     "114024": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112005": {
+      "name": "破损的面具",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112005"
+    },
+    "112006": {
+      "name": "污秽的面具",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112006"
+    },
+    "112007": {
+      "name": "不祥的面具",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112007"
+    },
+    "112041": {
+      "name": "脆弱的骨片",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112041"
+    },
+    "112042": {
+      "name": "结实的骨片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112042"
+    },
+    "112043": {
+      "name": "石化的骨片",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112043"
+    },
+    "114021": {
+      "name": "漆黑陨铁的一粒",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114021"
+    },
+    "114022": {
+      "name": "漆黑陨铁的一片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114022"
+    },
+    "114023": {
+      "name": "漆黑陨铁的一角",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114023"
+    },
+    "114024": {
+      "name": "漆黑陨铁的一块",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114024"
+    }
   }
 }

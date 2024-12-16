@@ -45,22 +45,27 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": -0.2
       },
+      "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112044": {
+          "name": "破旧的刀镡",
           "rank": 1,
           "icon": "UI_ItemIcon_112044",
           "count": "0.8404"
         },
         "112045": {
+          "name": "影打刀镡",
           "rank": 2,
           "icon": "UI_ItemIcon_112045",
           "count": "0.2241"
         },
         "112046": {
+          "name": "名刀镡",
           "rank": 3,
           "icon": "UI_ItemIcon_112046",
           "count": "0.056"
@@ -99,6 +104,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": -0.2
       },
+      "fundamentalForce": null,
       "reward": null
     }
   },

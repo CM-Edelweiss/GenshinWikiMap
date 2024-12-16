@@ -4,8 +4,11 @@
   "type": "弓",
   "name": "测距规",
   "description": "如今几乎绝迹的测量工具，具有发射箭矢的能力。",
+  "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
   "icon": "UI_EquipIcon_Bow_Mechanic",
-  "storyId": 195427,
+  "storyId": [
+    "15427"
+  ],
   "affix": {
     "115427": {
       "name": "石匠号子",
@@ -164,5 +167,77 @@
     "114050": 3,
     "114051": 4,
     "114052": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112080": {
+      "name": "异海凝珠",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112080"
+    },
+    "112081": {
+      "name": "异海之块",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112081"
+    },
+    "112082": {
+      "name": "异色结晶石",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112082"
+    },
+    "112086": {
+      "name": "浊水的一滴",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112086"
+    },
+    "112087": {
+      "name": "浊水的一掬",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112087"
+    },
+    "112088": {
+      "name": "初生的浊水幻灵",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112088"
+    },
+    "114049": {
+      "name": "悠古弦音的残章",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114049"
+    },
+    "114050": {
+      "name": "悠古弦音的断章",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114050"
+    },
+    "114051": {
+      "name": "悠古弦音的乐章",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114051"
+    },
+    "114052": {
+      "name": "悠古弦音的回响",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114052"
+    }
   }
 }

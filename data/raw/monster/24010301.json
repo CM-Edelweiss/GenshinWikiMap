@@ -53,51 +53,63 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.7
       },
+      "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112023": {
+          "name": "混沌装置",
           "rank": 2,
           "icon": "UI_ItemIcon_112023",
-          "count": "2.6263"
+          "count": "3.9394"
         },
         "112024": {
+          "name": "混沌回路",
           "rank": 3,
           "icon": "UI_ItemIcon_112024",
-          "count": "0.7003"
+          "count": "1.0505"
         },
         "112025": {
+          "name": "混沌炉心",
           "rank": 4,
           "icon": "UI_ItemIcon_112025",
-          "count": "0.1751"
+          "count": "0.2626"
         },
         "400022": {
+          "name": "战狂",
           "rank": 3,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400023": {
+          "name": "战狂",
           "rank": 4,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400032": {
+          "name": "教官",
           "rank": 3,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400033": {
+          "name": "教官",
           "rank": 4,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400042": {
+          "name": "流放者",
           "rank": 3,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400043": {
+          "name": "流放者",
           "rank": 4,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400062": {
+          "name": "游医",
           "rank": 3,
           "icon": "UI_RelicIcon_10013_4"
         }
@@ -168,6 +180,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.7
       },
+      "fundamentalForce": null,
       "reward": null
     },
     "24010303": {
@@ -238,6 +251,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.7
       },
+      "fundamentalForce": null,
       "reward": null
     },
     "24010304": {
@@ -295,6 +309,133 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.7
       },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "24010305": {
+      "id": 24010305,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "4.0WQ遗迹重机",
+          "description": "遗迹重机复活逻辑",
+          "abilityName": [
+            "Monster_Konungmathr_None_WQ_Limbo",
+            "Monster_Konungmathr_None_WQ_Limbo_StateChange_v2"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010040,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010040,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010040,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 122.256,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 87.92,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.7
+      },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "24010306": {
+      "id": 24010306,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "永不入战-活动",
+          "description": "关闭怪物受击、嘲讽、广播入战",
+          "abilityName": [
+            "MonsterAffix_NeverCombat"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "怪物移速下限放开，受冰冻时间减少50%-塔防",
+          "description": "怪物移速下限放开，受冰冻时间减少50%",
+          "abilityName": [
+            "MonsterAffix_MoveSpeedLimit_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加血量-塔防",
+          "description": "塔防翻牌叠加血量",
+          "abilityName": [
+            "MonsterAffix_AdditionalHP_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加防御力-塔防",
+          "description": "塔防翻牌叠加防御力",
+          "abilityName": [
+            "MonsterAffix_AdditionalDefence_ForTowerDefense"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 122.256,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 87.92,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.7
+      },
+      "fundamentalForce": null,
       "reward": null
     }
   },

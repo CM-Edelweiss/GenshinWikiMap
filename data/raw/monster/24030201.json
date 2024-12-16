@@ -49,51 +49,63 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.5
       },
+      "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112068": {
+          "name": "混沌容器",
           "rank": 2,
           "icon": "UI_ItemIcon_112068",
           "count": "3.9394"
         },
         "112069": {
+          "name": "混沌模块",
           "rank": 3,
           "icon": "UI_ItemIcon_112069",
           "count": "1.0505"
         },
         "112070": {
+          "name": "混沌锚栓",
           "rank": 4,
           "icon": "UI_ItemIcon_112070",
           "count": "0.2626"
         },
         "400022": {
+          "name": "战狂",
           "rank": 3,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400023": {
+          "name": "战狂",
           "rank": 4,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400032": {
+          "name": "教官",
           "rank": 3,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400033": {
+          "name": "教官",
           "rank": 4,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400042": {
+          "name": "流放者",
           "rank": 3,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400043": {
+          "name": "流放者",
           "rank": 4,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400062": {
+          "name": "游医",
           "rank": 3,
           "icon": "UI_RelicIcon_10013_4"
         }

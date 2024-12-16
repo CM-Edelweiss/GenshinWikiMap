@@ -3,9 +3,12 @@
   "rank": 5,
   "type": "法器",
   "name": "碧落之珑",
-  "description": "",
+  "description": "由碧色美玉雕成的礼器，放射着天空与碧水的光泽。",
+  "specialProp": "FIGHT_PROP_HP_PERCENT",
   "icon": "UI_EquipIcon_Catalyst_Morax",
-  "storyId": 194505,
+  "storyId": [
+    "14505"
+  ],
   "affix": {
     "114505": {
       "name": "定土玉圭",
@@ -165,5 +168,76 @@
     "114015": 4,
     "114016": 5
   },
-  "beta": true
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112059": {
+      "name": "蕈兽孢子",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112059"
+    },
+    "112060": {
+      "name": "荧光孢粉",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112060"
+    },
+    "112061": {
+      "name": "孢囊晶尘",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112061"
+    },
+    "112077": {
+      "name": "来自何处的待放之花",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112077"
+    },
+    "112078": {
+      "name": "何人所珍藏之花",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112078"
+    },
+    "112079": {
+      "name": "漫游者的盛放之花",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112079"
+    },
+    "114013": {
+      "name": "孤云寒林的光砂",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114013"
+    },
+    "114014": {
+      "name": "孤云寒林的辉岩",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114014"
+    },
+    "114015": {
+      "name": "孤云寒林的圣骸",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114015"
+    },
+    "114016": {
+      "name": "孤云寒林的神体",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114016"
+    }
+  }
 }

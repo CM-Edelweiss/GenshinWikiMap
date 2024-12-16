@@ -4,12 +4,15 @@
   "name": "凝光",
   "element": "Rock",
   "weaponType": "WEAPON_CATALYST",
+  "region": "LIYUE",
+  "specialProp": "FIGHT_PROP_ROCK_ADD_HURT",
+  "bodyType": "LADY",
   "icon": "UI_AvatarIcon_Ningguang",
   "birthday": [
     8,
     26
   ],
-  "release": 1600131600,
+  "release": 1601244000,
   "route": "Ningguang",
   "fetter": {
     "title": "掩月天权",
@@ -156,8 +159,23 @@
     ]
   },
   "other": {
+    "costume": [
+      {
+        "name": "玑玉琼金",
+        "description": "凝光的装扮款式。绣工精巧、尽显雍容气度的飘逸裙装。",
+        "isDefault": true
+      },
+      {
+        "name": "纱中幽兰",
+        "description": "凝光的礼服装扮。绀蓝长裙勾勒出丽人优雅的曲线，脚踝上的蝶翼又为她平添了几分轻盈。",
+        "storyId": 340002,
+        "icon": "UI_AvatarIcon_NingguangCostumeFloral",
+        "rank": 4
+      }
+    ],
+    "furnitureId": 368116,
     "nameCard": {
-      "id": "冷却时间|{param2:F1}秒",
+      "id": 210038,
       "name": "凝光·凤仪",
       "description": "名片纹饰。\\n 常说「麟止凤仪，所患在少」。另一位不论，凝光大人这样的人，一个就够了…",
       "icon": "UI_NameCardIcon_Ningguang"
@@ -185,6 +203,98 @@
     "112034": 3,
     "113008": 5,
     "113009": 4
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "100030": {
+      "name": "琉璃百合",
+      "rank": 1,
+      "icon": "UI_ItemIcon_100030"
+    },
+    "104001": {
+      "name": "流浪者的经验",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104001"
+    },
+    "104002": {
+      "name": "冒险家的经验",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104002"
+    },
+    "104003": {
+      "name": "大英雄的经验",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104003"
+    },
+    "104171": {
+      "name": "坚牢黄玉碎屑",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104171"
+    },
+    "104172": {
+      "name": "坚牢黄玉断片",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104172"
+    },
+    "104173": {
+      "name": "坚牢黄玉块",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104173"
+    },
+    "104174": {
+      "name": "坚牢黄玉",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104174"
+    },
+    "104310": {
+      "name": "「繁荣」的教导",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104310"
+    },
+    "104311": {
+      "name": "「繁荣」的指引",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104311"
+    },
+    "104312": {
+      "name": "「繁荣」的哲学",
+      "rank": 4,
+      "icon": "UI_ItemIcon_104312"
+    },
+    "104319": {
+      "name": "智识之冕",
+      "rank": 5,
+      "icon": "UI_ItemIcon_104319"
+    },
+    "112032": {
+      "name": "新兵的徽记",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112032"
+    },
+    "112033": {
+      "name": "士官的徽记",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112033"
+    },
+    "112034": {
+      "name": "尉官的徽记",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112034"
+    },
+    "113008": {
+      "name": "北风的魂匣",
+      "rank": 5,
+      "icon": "UI_ItemIcon_113008"
+    },
+    "113009": {
+      "name": "玄岩之塔",
+      "rank": 4,
+      "icon": "UI_ItemIcon_113009"
+    }
   },
   "talent": {
     "0": {
@@ -902,7 +1012,100 @@
         }
       },
       "cooldown": 0,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Normal Attack",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Normal Attack"
+            },
+            "type": {
+              "span": null,
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "45",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Charged Attack",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "2",
+              "text": "Charged Attack"
+            },
+            "type": {
+              "span": "2",
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "45",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Star Jade",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "30",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": true
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "0U",
+          "internalCooldown": null,
+          "interruptionResistance": "5",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "50",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "800",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "1": {
       "type": 0,
@@ -1619,7 +1822,38 @@
         }
       },
       "cooldown": 12,
-      "cost": 0
+      "cost": 0,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 1,
+            "type": "normal"
+          },
+          {
+            "id": 3,
+            "type": "normal"
+          },
+          {
+            "id": 4,
+            "type": "level"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Skill DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "133.2",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": true
+        }
+      ]
     },
     "3": {
       "type": 1,
@@ -2336,56 +2570,119 @@
         }
       },
       "cooldown": 12,
-      "cost": 40
+      "cost": 40,
+      "linkedConstellations": {
+        "isLevelIncluded": true,
+        "prop": [
+          {
+            "id": 2,
+            "type": "level"
+          },
+          {
+            "id": 5,
+            "type": "normal"
+          }
+        ]
+      },
+      "advancedProps": [
+        {
+          "name": "Gem DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Elemental Burst"
+            },
+            "type": {
+              "span": null,
+              "text": "2.5s\/3 Hits"
+            }
+          },
+          "interruptionResistance": "30",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": true
+        }
+      ]
     },
     "4": {
       "type": 2,
       "name": "星移势转",
       "description": "拥有星璇时，凝光的重击不会消耗体力。",
-      "icon": "UI_Talent_S_Ningguang_02"
+      "icon": "UI_Talent_S_Ningguang_02",
+      "linkedConstellations": null
     },
     "5": {
       "type": 2,
       "name": "储之千日，用之一刻",
       "description": "穿过<color=#FFD780FF>璇玑屏<\/color>的角色会获得12%<color=#FFE699FF>岩元素伤害加成<\/color>，持续10秒。",
-      "icon": "UI_Talent_S_Ningguang_06"
+      "icon": "UI_Talent_S_Ningguang_06",
+      "linkedConstellations": null
     },
     "6": {
       "type": 2,
       "name": "奇石珠宝录",
       "description": "在小地图上显示周围能产出<color=#FFD780FF>锻造用矿石的矿脉<\/color>位置。",
-      "icon": "UI_Talent_Collect_Ore"
+      "icon": "UI_Talent_Collect_Ore",
+      "linkedConstellations": null
     }
   },
   "constellation": {
     "0": {
+      "id": 0,
       "name": "悬星尽散击云碎",
       "description": "普通攻击命中时，会造成范围伤害。",
+      "extraData": null,
       "icon": "UI_Talent_S_Ningguang_01"
     },
     "1": {
+      "id": 1,
       "name": "璇玑合璧镇昆仑",
       "description": "<color=#FFD780FF>璇玑屏<\/color>碎裂时，会清除冷却时间。\\n该效果每6秒只能触发一次。",
+      "extraData": null,
       "icon": "UI_Talent_S_Ningguang_05"
     },
     "2": {
+      "id": 2,
       "name": "星罗宿列天权临",
       "description": "<color=#FFD780FF>天权崩玉<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 9,
+          "extraLevel": 3
+        }
+      },
       "icon": "UI_Talent_U_Ningguang_02"
     },
     "3": {
+      "id": 3,
       "name": "攻守易形著神机",
       "description": "<color=#FFD780FF>璇玑屏<\/color>会使周围角色的所有元素抗性提升10%。",
+      "extraData": null,
       "icon": "UI_Talent_S_Ningguang_03"
     },
     "4": {
+      "id": 4,
       "name": "琼屏千扇正天衡",
       "description": "<color=#FFD780FF>璇玑屏<\/color>的技能等级提高3级。\\n至多提升至15级。",
+      "extraData": {
+        "addTalentExtraLevel": {
+          "talentType": "AvatarSkill",
+          "talentIndex": 2,
+          "extraLevel": 3
+        }
+      },
       "icon": "UI_Talent_U_Ningguang_01"
     },
     "5": {
+      "id": 5,
       "name": "七星璨璨凝流光",
       "description": "施放<color=#FFD780FF>天权崩玉<\/color>时，会为凝光生成七枚星璇。",
+      "extraData": null,
       "icon": "UI_Talent_S_Ningguang_04"
     }
   }

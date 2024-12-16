@@ -53,6 +53,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.3
       },
+      "fundamentalForce": null,
       "reward": null
     },
     "26050802": {
@@ -100,7 +101,155 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.3
       },
+      "fundamentalForce": null,
       "reward": null
+    },
+    "26050803": {
+      "id": 26050803,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010014,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010014,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010014,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 185.185,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 62.8,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.3,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.3
+      },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "26051101": {
+      "id": 26051101,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010014,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 54.336,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 25.12,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.2,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.3
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112041": {
+          "name": "脆弱的骨片",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112041",
+          "count": "5.2526"
+        },
+        "112042": {
+          "name": "结实的骨片",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112042",
+          "count": "1.4006"
+        },
+        "112043": {
+          "name": "石化的骨片",
+          "rank": 4,
+          "icon": "UI_ItemIcon_112043",
+          "count": "0.3502"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
     }
   },
   "tips": {

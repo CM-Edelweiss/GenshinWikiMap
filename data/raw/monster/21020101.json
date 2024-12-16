@@ -5,7 +5,7 @@
   "icon": "UI_MonsterIcon_Brute_None_01",
   "route": "Wooden Shieldwall Mitachurl",
   "title": "丘丘暴徒·木盾",
-  "specialName": "「古鲁·布卡」",
+  "specialName": 3097583419,
   "description": "经历无数战斗历练的丘丘人大块头。\\n会利用草史莱姆创造坚固的木盾，进行战斗。\\n拥有强健的肌肉，油亮的鬃毛，可靠的宽厚背影，一顿饭吃下很多肉的豪放，能为丘丘人抵挡毫不留情的冒险者，在部族当中有着相当崇高的地位。",
   "entries": {
     "21020101": {
@@ -53,66 +53,81 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.3
       },
+      "fundamentalForce": null,
       "reward": {
         "202": {
+          "name": "摩拉",
           "rank": 3,
           "icon": "UI_ItemIcon_202"
         },
         "112005": {
+          "name": "破损的面具",
           "rank": 1,
           "icon": "UI_ItemIcon_112005",
           "count": "0.5253"
         },
         "112006": {
+          "name": "污秽的面具",
           "rank": 2,
           "icon": "UI_ItemIcon_112006",
           "count": "0.1401"
         },
         "112007": {
+          "name": "不祥的面具",
           "rank": 3,
           "icon": "UI_ItemIcon_112007",
           "count": "0.035"
         },
         "112014": {
+          "name": "沉重号角",
           "rank": 2,
           "icon": "UI_ItemIcon_112014",
           "count": "1.5758"
         },
         "112015": {
+          "name": "黑铜号角",
           "rank": 3,
           "icon": "UI_ItemIcon_112015",
           "count": "0.4202"
         },
         "112016": {
+          "name": "黑晶号角",
           "rank": 4,
           "icon": "UI_ItemIcon_112016",
           "count": "0.1051"
         },
         "400022": {
+          "name": "战狂",
           "rank": 3,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400023": {
+          "name": "战狂",
           "rank": 4,
           "icon": "UI_RelicIcon_10005_4"
         },
         "400032": {
+          "name": "教官",
           "rank": 3,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400033": {
+          "name": "教官",
           "rank": 4,
           "icon": "UI_RelicIcon_10007_4"
         },
         "400042": {
+          "name": "流放者",
           "rank": 3,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400043": {
+          "name": "流放者",
           "rank": 4,
           "icon": "UI_RelicIcon_10009_4"
         },
         "400062": {
+          "name": "游医",
           "rank": 3,
           "icon": "UI_RelicIcon_10013_4"
         }
@@ -183,6 +198,75 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.3
       },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "21020103": {
+      "id": 21020103,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "永不入战-活动",
+          "description": "关闭怪物受击、嘲讽、广播入战",
+          "abilityName": [
+            "MonsterAffix_NeverCombat"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "怪物移速下限放开，受冰冻时间减少50%-塔防",
+          "description": "怪物移速下限放开，受冰冻时间减少50%",
+          "abilityName": [
+            "MonsterAffix_MoveSpeedLimit_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加血量-塔防",
+          "description": "塔防翻牌叠加血量",
+          "abilityName": [
+            "MonsterAffix_AdditionalHP_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加防御力-塔防",
+          "description": "塔防翻牌叠加防御力",
+          "abilityName": [
+            "MonsterAffix_AdditionalDefence_ForTowerDefense"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 40.752,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 30.144,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.3
+      },
+      "fundamentalForce": null,
       "reward": null
     }
   },
