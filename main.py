@@ -9,7 +9,7 @@ from update import (
 
 
 def main():
-    update_constant()
+    #update_constant()
     update_character()
     update_weapon()
     update_monster()

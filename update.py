@@ -137,8 +137,7 @@ def update_character():
             need_update = True
         if not ambr_data_file_path.exists():
             save_json(
-                ambr_requests(AVATAR_INFO_API.format(
-                    avatar_id)), ambr_data_file_path
+                ambr_requests(AVATAR_INFO_API.format(avatar_id)), ambr_data_file_path
             )
             need_update = True
         elif avatar_data.get("beta"):
@@ -356,8 +355,7 @@ def update_weapon():
         if not (
             save_path := WEAPON_RAW / f"{weapon_id}.json"
         ).exists() or weapon_data.get("beta"):
-            weapon_data = ambr_requests(
-                WEAPON_INFO_API.format(weapon_id)) or {}
+            weapon_data = ambr_requests(WEAPON_INFO_API.format(weapon_id)) or {}
             save_json(weapon_data, save_path)
             time.sleep(1.5)
             need_update = True
@@ -479,8 +477,7 @@ def update_monster():
             need_update = True
         if not raw_data_file_path.exists():
             save_json(
-                ambr_requests(MONSTER_INFO_API.format(
-                    monster_id)), raw_data_file_path
+                ambr_requests(MONSTER_INFO_API.format(monster_id)), raw_data_file_path
             )
             time.sleep(1)
             need_update = True

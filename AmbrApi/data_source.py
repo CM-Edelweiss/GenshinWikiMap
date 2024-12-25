@@ -94,5 +94,5 @@ def github_requests():
         except Exception:
             pass
         re.append(resp.json())
-        time.sleep(1)
+        time.sleep(2)
     return re
