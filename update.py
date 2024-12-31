@@ -467,7 +467,7 @@ def update_monster():
     monster_alias_list = load_json(DATA / "原魔列表.json")
 
     for monster_id, monster_data in monster_list.items():
-        if monster_data["type"] in ["AVIARY", "ANIMAL", "FISH", "CRITTER"]:
+        if monster_data["type"] in ["禽鸟", "走兽", "游鱼", "其他", "AVIARY", "ANIMAL", "FISH", "CRITTER"]:
             continue
         raw_data_file_path = MONSTER_RAW / f"{monster_id}.json"
         map_img_path = MONSTER_MAP_RESULT / f"{monster_data['name']}.jpg"

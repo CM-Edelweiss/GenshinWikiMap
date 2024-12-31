@@ -5,7 +5,7 @@
   "icon": "UI_MonsterIcon_Abyss_Ice_01",
   "route": "Cryo Abyss Mage",
   "title": "冰之咏者",
-  "specialName": 1998304963,
+  "specialName": "深渊法师·埃兰别特",
   "description": "驾驭着极寒的冰元素进行战斗的深渊魔物。\\n尽管染指了强大的力量，甚至能将大气中的水蒸气凝结成冰锥，本身却佝偻而孱弱。一旦保护自身的护罩被打破，就只能任人鱼肉了。",
   "entries": {
     "22010201": {
@@ -399,6 +399,50 @@
           "propType": "FIGHT_PROP_BASE_ATTACK",
           "initValue": 37.68,
           "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "22010206": {
+      "id": 22010206,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "寒气免疫",
+          "description": "免疫冰冻和寒元素的减速效果",
+          "abilityName": [
+            "MonsterAffix_IceAllResist"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 13.584,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 22.608,
+          "type": "GROW_CURVE_ATTACK_2"
         },
         {
           "propType": "FIGHT_PROP_BASE_DEFENSE",

@@ -73,19 +73,19 @@
           "name": "地脉的旧枝",
           "rank": 2,
           "icon": "UI_ItemIcon_112020",
-          "count": "2.2324"
+          "count": "2.6263"
         },
         "112021": {
           "name": "地脉的枯叶",
           "rank": 3,
           "icon": "UI_ItemIcon_112021",
-          "count": "0.5953"
+          "count": "0.7003"
         },
         "112022": {
           "name": "地脉的新芽",
           "rank": 4,
           "icon": "UI_ItemIcon_112022",
-          "count": "0.1487"
+          "count": "0.1751"
         },
         "400022": {
           "name": "战狂",
@@ -399,6 +399,50 @@
           "propType": "FIGHT_PROP_BASE_ATTACK",
           "initValue": 56.52,
           "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "22010106": {
+      "id": 22010106,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "点燃免疫",
+          "description": "免疫点燃伤害",
+          "abilityName": [
+            "MonsterAffix_BurningResist"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 13.584,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 22.608,
+          "type": "GROW_CURVE_ATTACK_2"
         },
         {
           "propType": "FIGHT_PROP_BASE_DEFENSE",

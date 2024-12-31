@@ -149,6 +149,59 @@
           "icon": "UI_RelicIcon_15010_3"
         }
       }
+    },
+    "20051202": {
+      "id": 20051202,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "5.3风来人通用词缀",
+          "description": "5.3风来人通用词缀",
+          "abilityName": [
+            "MonsterEliteAffix_Level3_AttackUp_BossRushV52"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010032,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010032,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 209.1936,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 125,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
     }
   },
   "tips": {
