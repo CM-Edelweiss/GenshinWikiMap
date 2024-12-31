@@ -1,0 +1,91 @@
+{
+  "id": 28030705,
+  "name": "洋红扇尾鸽",
+  "type": "禽鸟",
+  "icon": "UI_AnimalIcon_Fantail_01",
+  "route": "Magenta Fantail Pigeon",
+  "title": null,
+  "specialName": null,
+  "description": "洋红扇尾鸽与鸽子是同属的近亲，形姿优美，虽然经过训练后，也能来远程传信，但很少有人这样做。\\n这种鸟类拥有洋红色羽毛和扇形尾羽，尾羽的形状酷似红色的爱心，故而被诗人附会成爱情的使者。但其实这种红色图案是洋红扇尾鸽用来威吓天敌之物，与求偶行为并无关联。",
+  "entries": {
+    "28030705": {
+      "id": 28030705,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "28030713": {
+      "id": 28030713,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "28230705": {
+      "id": 28230705,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": null
+}

@@ -1,0 +1,39 @@
+{
+  "id": 28040302,
+  "name": "斗棘鱼",
+  "type": "游鱼",
+  "icon": "UI_ItemIcon_131007",
+  "route": "Betta",
+  "title": null,
+  "specialName": null,
+  "description": "长满刺状鳍的迅猛鱼类，全速游动时矛般尖吻甚至能劈开水流。因此又得名「劈水刺」、「箭难追」等。\\n有着棘鱼中数一数二的自尊心。尤其在求偶期间，任何一点风吹水皱能有可能激怒它们。曾有爱好者观察到一条斗棘鱼正向着摇曳的水草发起冲锋，显然它认为如此放荡形骸的舞姿是对棘鱼王者的严重挑衅。\\n「若在水下相遇，请勿与它们对视。」——《野钓手册·斗棘鱼篇》",
+  "entries": {
+    "28040302": {
+      "id": 28040302,
+      "type": "MONSTER_FISH",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": null
+}

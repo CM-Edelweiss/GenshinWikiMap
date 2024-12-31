@@ -1,0 +1,39 @@
+{
+  "id": 28050701,
+  "name": "子探测单元",
+  "type": "其他",
+  "icon": "UI_AnimalIcon_BoltBug_MachinaIustitia_01",
+  "route": "Subdetection Unit",
+  "title": null,
+  "specialName": null,
+  "description": "枫丹科学院利用新型奇械构件生产的微型探测单元，原本用以监测各类环境数据。\\n这些单元最初由奇械先端工艺研发科与自然生态环境监测科共同管理：前者负责生产与布设装置，后者负责回收与整理数据。鉴于后者已于先前的实验事故中解散，枫丹科学院目前只负责执行前一项作业。",
+  "entries": {
+    "28050701": {
+      "id": 28050701,
+      "type": "MONSTER_ENV_ANIMAL",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": null
+}

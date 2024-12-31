@@ -1,0 +1,243 @@
+{
+  "id": 12514,
+  "rank": 5,
+  "type": "双手剑",
+  "name": "焚曜千阳",
+  "description": "如同冉冉升起的初阳般耀眼的重剑，曾见证过无数太阳的熄灭与重燃。",
+  "specialProp": "FIGHT_PROP_CRITICAL",
+  "icon": "UI_EquipIcon_Claymore_RadianceSword",
+  "storyId": [
+    "12514"
+  ],
+  "affix": {
+    "112514": {
+      "name": "落日重燃的黎明",
+      "upgrade": {
+        "0": "施放元素战技或元素爆发时，获得「焚光」效果：暴击伤害提高<color=#99FFFFFF>20%<\/color>，攻击力提升<color=#99FFFFFF>28%<\/color>，该效果持续6秒，每10秒至多触发一次。\\n持续期间内，普通攻击或重击造成元素伤害后，将使此次「焚光」效果的持续时间延长2秒，该效果每1秒至多触发一次，至多通过这种方式使持续时间延长6秒。\\n此外，处于夜魂加持状态下时，「焚光」效果提高75%，且「焚光」效果在装备者处于后台时不进行计时。",
+        "1": "施放元素战技或元素爆发时，获得「焚光」效果：暴击伤害提高<color=#99FFFFFF>25%<\/color>，攻击力提升<color=#99FFFFFF>35%<\/color>，该效果持续6秒，每10秒至多触发一次。\\n持续期间内，普通攻击或重击造成元素伤害后，将使此次「焚光」效果的持续时间延长2秒，该效果每1秒至多触发一次，至多通过这种方式使持续时间延长6秒。\\n此外，处于夜魂加持状态下时，「焚光」效果提高75%，且「焚光」效果在装备者处于后台时不进行计时。",
+        "2": "施放元素战技或元素爆发时，获得「焚光」效果：暴击伤害提高<color=#99FFFFFF>30%<\/color>，攻击力提升<color=#99FFFFFF>42%<\/color>，该效果持续6秒，每10秒至多触发一次。\\n持续期间内，普通攻击或重击造成元素伤害后，将使此次「焚光」效果的持续时间延长2秒，该效果每1秒至多触发一次，至多通过这种方式使持续时间延长6秒。\\n此外，处于夜魂加持状态下时，「焚光」效果提高75%，且「焚光」效果在装备者处于后台时不进行计时。",
+        "3": "施放元素战技或元素爆发时，获得「焚光」效果：暴击伤害提高<color=#99FFFFFF>35%<\/color>，攻击力提升<color=#99FFFFFF>49%<\/color>，该效果持续6秒，每10秒至多触发一次。\\n持续期间内，普通攻击或重击造成元素伤害后，将使此次「焚光」效果的持续时间延长2秒，该效果每1秒至多触发一次，至多通过这种方式使持续时间延长6秒。\\n此外，处于夜魂加持状态下时，「焚光」效果提高75%，且「焚光」效果在装备者处于后台时不进行计时。",
+        "4": "施放元素战技或元素爆发时，获得「焚光」效果：暴击伤害提高<color=#99FFFFFF>40%<\/color>，攻击力提升<color=#99FFFFFF>56%<\/color>，该效果持续6秒，每10秒至多触发一次。\\n持续期间内，普通攻击或重击造成元素伤害后，将使此次「焚光」效果的持续时间延长2秒，该效果每1秒至多触发一次，至多通过这种方式使持续时间延长6秒。\\n此外，处于夜魂加持状态下时，「焚光」效果提高75%，且「焚光」效果在装备者处于后台时不进行计时。"
+      }
+    }
+  },
+  "route": "A Thousand Blazing Suns",
+  "upgrade": {
+    "awakenCost": [
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 49.1377,
+        "type": "GROW_CURVE_ATTACK_303"
+      },
+      {
+        "propType": "FIGHT_PROP_CRITICAL",
+        "initValue": 0.024,
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112101": 3,
+          "112113": 5,
+          "114061": 5
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 31.1,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112101": 12,
+          "112113": 18,
+          "114062": 5
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 62.2,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112102": 9,
+          "112114": 9,
+          "114062": 9
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 93.4,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112102": 14,
+          "112114": 18,
+          "114063": 5
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 124.5,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112103": 9,
+          "112115": 14,
+          "114063": 9
+        },
+        "coinCost": 55000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112103": 18,
+          "112115": 27,
+          "114064": 6
+        },
+        "coinCost": 65000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 186.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112101": 1,
+    "112102": 2,
+    "112103": 3,
+    "112113": 2,
+    "112114": 3,
+    "112115": 4,
+    "114061": 2,
+    "114062": 3,
+    "114063": 4,
+    "114064": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112101": {
+      "name": "稚嫩的尖齿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112101"
+    },
+    "112102": {
+      "name": "老练的坚齿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112102"
+    },
+    "112103": {
+      "name": "横行霸者的利齿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112103"
+    },
+    "112113": {
+      "name": "秘源轴",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112113"
+    },
+    "112114": {
+      "name": "秘源机鞘",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112114"
+    },
+    "112115": {
+      "name": "秘源真芯",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112115"
+    },
+    "114061": {
+      "name": "贡祭炽心的惶恐",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114061"
+    },
+    "114062": {
+      "name": "贡祭炽心的踌躇",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114062"
+    },
+    "114063": {
+      "name": "贡祭炽心的决绝",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114063"
+    },
+    "114064": {
+      "name": "贡祭炽心的荣膺",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114064"
+    }
+  }
+}

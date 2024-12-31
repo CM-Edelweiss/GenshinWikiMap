@@ -1,0 +1,39 @@
+{
+  "id": 28050302,
+  "name": "珉光虫",
+  "type": "其他",
+  "icon": "UI_AnimalIcon_Boltbug_Lightbug_02",
+  "route": "Malachitin Lumibug",
+  "title": null,
+  "specialName": null,
+  "description": "会摄取玉石中残留的微弱能量，以此维持存续的奇特生物。\\n一动不动时，偶尔会被粗心的冒险者错看成玉珑，因此得名「珉光」。",
+  "entries": {
+    "28050302": {
+      "id": 28050302,
+      "type": "MONSTER_ENV_ANIMAL",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": null
+}

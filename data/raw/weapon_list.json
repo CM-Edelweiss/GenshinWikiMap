@@ -764,6 +764,15 @@
     "icon": "UI_EquipIcon_Claymore_EmeraldSword",
     "route": "Fang of the Mountain King"
   },
+  "12514": {
+    "id": 12514,
+    "rank": 5,
+    "type": "WEAPON_CLAYMORE",
+    "name": "焚曜千阳",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "icon": "UI_EquipIcon_Claymore_RadianceSword",
+    "route": "A Thousand Blazing Suns"
+  },
   "13101": {
     "id": 13101,
     "rank": 1,
@@ -1438,6 +1447,15 @@
     "specialProp": "FIGHT_PROP_CRITICAL_HURT",
     "icon": "UI_EquipIcon_Catalyst_MechaPufferfish",
     "route": "Surf's Up"
+  },
+  "14517": {
+    "id": 14517,
+    "rank": 5,
+    "type": "WEAPON_CATALYST",
+    "name": "祭星者之望",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
+    "icon": "UI_EquipIcon_Catalyst_Figurines",
+    "route": "Starcaller's Watch"
   },
   "15101": {
     "id": 15101,

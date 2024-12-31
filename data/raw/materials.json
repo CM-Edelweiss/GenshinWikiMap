@@ -229,7 +229,7 @@
       "name": "甜甜花",
       "type": "cookingIngredient",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_100012",
       "rank": 1,
       "route": "Sweet Flower"
@@ -479,7 +479,7 @@
       "name": "电气水晶",
       "type": "material",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_100054",
       "rank": 1,
       "route": "Electro Crystal"
@@ -569,7 +569,7 @@
       "name": "蝴蝶翅膀",
       "type": "material",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_100072",
       "rank": 1,
       "route": "Butterfly Wings"
@@ -889,7 +889,7 @@
       "name": "白铁块",
       "type": "forgingOre",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101002",
       "rank": 1,
       "route": "White Iron Chunk"
@@ -1559,7 +1559,7 @@
       "name": "微光角菌",
       "type": "localSpecialtyNatlan",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101252",
       "rank": 1,
       "route": "Glowing Hornshroom"
@@ -1569,7 +1569,7 @@
       "name": "枯叶紫英",
       "type": "localSpecialtyNatlan",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101253",
       "rank": 1,
       "route": "Withering Purpurbloom"
@@ -1789,7 +1789,7 @@
       "name": "白栗栎木",
       "type": "material",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101323",
       "rank": 1,
       "route": "White Chestnut Oak Wood"
@@ -1799,7 +1799,7 @@
       "name": "灰灰楼林木",
       "type": "material",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101324",
       "rank": 1,
       "route": "Ashen Aratiku Wood"
@@ -1809,7 +1809,7 @@
       "name": "燃爆木",
       "type": "material",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101325",
       "rank": 1,
       "route": "Flammabomb Wood"
@@ -1819,7 +1819,7 @@
       "name": "桃椰子木",
       "type": "material",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101326",
       "rank": 1,
       "route": "Peach Palm Wood"
@@ -4984,6 +4984,46 @@
       "rank": 4,
       "route": "Ensnaring Gaze"
     },
+    "113068": {
+      "id": 113068,
+      "name": "蚀灭的灵犀",
+      "type": "characterLevelUpMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113068",
+      "rank": 5,
+      "route": "Eroded Horn"
+    },
+    "113069": {
+      "id": 113069,
+      "name": "蚀灭的阳焰",
+      "type": "characterLevelUpMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113069",
+      "rank": 5,
+      "route": "Eroded Sunfire"
+    },
+    "113070": {
+      "id": 113070,
+      "name": "蚀灭的鳞羽",
+      "type": "characterLevelUpMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113070",
+      "rank": 5,
+      "route": "Eroded Scale-Feather"
+    },
+    "113071": {
+      "id": 113071,
+      "name": "谜土的护符",
+      "type": "characterLevelUpMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113071",
+      "rank": 4,
+      "route": "Talisman of the Enigmatic Land"
+    },
     "114001": {
       "id": 114001,
       "name": "高塔孤王的破瓦",
@@ -5753,6 +5793,16 @@
       "icon": "UI_ItemIcon_129001",
       "rank": 5,
       "route": "Tears Among the Stars"
+    },
+    "129002": {
+      "id": 129002,
+      "name": "黑曜古名",
+      "type": "questItem",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_129002",
+      "rank": 5,
+      "route": "Obsidian Ancient Name"
     },
     "140001": {
       "id": 140001,
@@ -6553,6 +6603,36 @@
       "icon": "UI_ItemIcon_220109",
       "rank": 4,
       "route": "Artifact Transmuter"
+    },
+    "220110": {
+      "id": 220110,
+      "name": "千音雅集",
+      "type": "gadget",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_220110",
+      "rank": 5,
+      "route": "Repertoire of Myriad Melodies"
+    },
+    "220111": {
+      "id": 220111,
+      "name": "聚聚鼓",
+      "type": "gadget",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_220111",
+      "rank": 4,
+      "route": "Djem Djem Drum"
+    },
+    "220112": {
+      "id": 220112,
+      "name": "悠可琴",
+      "type": "gadget",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_220112",
+      "rank": 4,
+      "route": "Ukulele"
     }
   }
 }

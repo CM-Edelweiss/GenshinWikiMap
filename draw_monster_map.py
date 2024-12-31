@@ -92,7 +92,8 @@ def draw_monster_map(monster: Monster):
     img.text("各等级属性详情", (68, 475), 733, prop_name_font, "#252525", "center")
     for i in range(5):
         level = str(60 + 10 * i)
-        img.text(level, (78, 124), 793 + i * 47, prop_font, "#252525", "center")
+        img.text(level, (78, 124), 793 + i * 47,
+                 prop_font, "#252525", "center")
 
         health = monster_detail.get_health_num(level)
         health_str = (
@@ -100,13 +101,16 @@ def draw_monster_map(monster: Monster):
             if health >= 10000
             else f"{round(health / 1000, 1)}K"
         )
-        img.text(health_str, (170, 237), 793 + i * 47, prop_font, "#252525", "center")
+        img.text(health_str, (170, 237), 793 + i *
+                 47, prop_font, "#252525", "center")
 
         attack = monster_detail.get_attack_num(level)
-        img.text(str(attack), (283, 349), 793 + i * 47, prop_font, "#252525", "center")
+        img.text(str(attack), (283, 349), 793 + i *
+                 47, prop_font, "#252525", "center")
 
         defense = monster_detail.get_defense_num(level)
-        img.text(str(defense), (396, 460), 793 + i * 47, prop_font, "#252525", "center")
+        img.text(str(defense), (396, 460), 793 + i *
+                 47, prop_font, "#252525", "center")
 
     # 抗性
     img.text("正常状态", 534, 790, description_font, "#252525")
@@ -201,11 +205,13 @@ def draw_monster_map(monster: Monster):
             and not material["name"].endswith("原胚")
         ]
         if materials:
-            img.stretch((1134 + 20, 1713 - 20), len(materials * 190) - 40, "height")
+            img.stretch((1134 + 20, 1713 - 20),
+                        len(materials * 190) - 40, "height")
             material_info = load_json(DATA / "材料列表.json")
 
             for i, material in enumerate(materials):
-                img.paste(CHARACTER_MAP_RESOURCES / "圆框.png", (81, 1190 + i * 181))
+                img.paste(CHARACTER_MAP_RESOURCES /
+                          "圆框.png", (81, 1190 + i * 181))
                 img.text(
                     material["name"],
                     (81, 201),
@@ -265,7 +271,8 @@ def draw_monster_map(monster: Monster):
     bg_img = PMImage(CHARACTER_MAP_RESOURCES / "背景色.png")
     bg_img.resize((1510, total_height))
     border_img = PMImage(CHARACTER_MAP_RESOURCES / "边框.png")
-    border_img.stretch((50, border_img.height - 50), total_height - 100, "height")
+    border_img.stretch((50, border_img.height - 50),
+                       total_height - 100, "height")
     border_img.stretch((50, border_img.width - 50), 1410, "width")
     bg_img.paste(border_img, (0, 0))
     bg_img.covered(ICON / "方块纹理.png")
@@ -279,7 +286,8 @@ def draw_monster_map(monster: Monster):
         "right",
     )
     bg_img.convert("RGB")
-    bg_img.save(MONSTER_MAP_RESULT / f"{monster.name}.jpg", mode="JPEG", quality=60)
+    bg_img.save(MONSTER_MAP_RESULT /
+                f"{monster.name}.jpg", mode="JPEG", quality=60)
     print(f">>>>>>原魔[{monster.name}]图鉴 制作完成")
     # bg_img.show()
 

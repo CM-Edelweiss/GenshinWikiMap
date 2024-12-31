@@ -1,0 +1,91 @@
+{
+  "id": 28022501,
+  "name": "飞鼯",
+  "type": "走兽",
+  "icon": "UI_AnimalIcon_Pteromys_01",
+  "route": "Flying Squirrel",
+  "title": null,
+  "specialName": null,
+  "description": "有着独特身体构造的小型兽类，从高处一跃而下时，可以张开四肢，利用坚韧的翼膜乘着气流滑翔，去至其他陆行生物难以抵达的地方…\\n飞鼯的行动技巧与风之翼的滑翔有着一定的共通之处，相传，曾有几位造访纳塔的冒险家试图深入研究飞鼯，但这些小家伙乘风而行时，往往展现出高傲的心性，想要跟上它们都相当困难，更不必说观察它们的动作细节。此后，纳塔的冒险家协会中便流传着一种「飞鼯级」的头衔，用来形容那些将风之翼运用得炉火纯青的高手「滑翔时敏捷如飞鼯」。",
+  "entries": {
+    "28022501": {
+      "id": 28022501,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "28022502": {
+      "id": 28022502,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "28222501": {
+      "id": 28222501,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": null
+}

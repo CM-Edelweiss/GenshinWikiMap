@@ -1,0 +1,39 @@
+{
+  "id": 28050106,
+  "name": "草晶蝶",
+  "type": "其他",
+  "icon": "UI_AnimalIcon_Wisp_Grass_01",
+  "route": "Dendro Crystalfly",
+  "title": null,
+  "specialName": null,
+  "description": "空气中飘荡不定的草元素微粒聚合而成的纯粹元素生命，同蛱蝶一般悠游。\\n闪光的草元素生物，是元素上升凝合而成的产物，以无处不在的草元素维生。\\n传说草晶蝶是生命的种子。无论经历过多少次的枯荣，只要种子不死，大地就一定会重新绽放生机。",
+  "entries": {
+    "28050106": {
+      "id": 28050106,
+      "type": "MONSTER_ENV_ANIMAL",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": null
+}

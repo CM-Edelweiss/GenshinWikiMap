@@ -1,0 +1,21 @@
+{
+  "name": "聚聚鼓",
+  "description": "使用后，可以进行演奏的纳塔传统乐器。\\n徒手演奏的打击乐器，有着皮制的鼓面，以绳索调音，音色独特，在熟练的乐手手中，能为乐曲带来丰富的律动。",
+  "type": "小道具",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "「金贝乐棚」购买获得",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": null,
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_220111",
+  "rank": 4,
+  "route": "Djem Djem Drum"
+}

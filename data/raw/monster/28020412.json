@@ -1,0 +1,39 @@
+{
+  "id": 28020412,
+  "name": "亮灰猎犬",
+  "type": "走兽",
+  "icon": "UI_AnimalIcon_Dog_DropEar_02",
+  "route": "Glittergray Hunting Hound",
+  "title": null,
+  "specialName": null,
+  "description": "人类最好的朋友！\\n毛皮呈灰白色的犬类，是央陆猎犬中最亲近人类的犬种，有着极为充沛的体能，能在野外长时间活动。\\n只可惜，亮丽的外表耐受不住污渍的侵扰，饲养这种犬类的人总需要花费大量时间为它们洗澡。",
+  "entries": {
+    "28020412": {
+      "id": 28020412,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 9999,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": null
+}

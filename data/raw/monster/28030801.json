@@ -1,0 +1,91 @@
+{
+  "id": 28030801,
+  "name": "厚羽围脖雉",
+  "type": "禽鸟",
+  "icon": "UI_AnimalIcon_Meleagris_01",
+  "route": "Thick-Feathered Ruffed Pheasant",
+  "title": null,
+  "specialName": null,
+  "description": "可见于纳塔的中型禽类，身披华贵大衣般的青翠羽毛和质感细腻的围脖，尾羽则如花蕾般华丽。\\n或许是因为羽毛过于繁茂，如易燃的花草，这种鸟类生活在炽热的纳塔大地，却有些畏惧火焰。此外，不同于其他看似蓬松，实则精悍的鸟类，厚羽围脖雉厚重的羽毛下…也是浑圆的肥肉，连正常飞行都有些吃力，被「悬木人」们戏称为「有翅却不擅飞行的盆栽」…",
+  "entries": {
+    "28030801": {
+      "id": 28030801,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 2.7168,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 12.56,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "28030802": {
+      "id": 28030802,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 2.7168,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 12.56,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "28230801": {
+      "id": 28230801,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 2.7168,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 12.56,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": null
+}

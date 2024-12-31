@@ -1,0 +1,65 @@
+{
+  "id": 28030505,
+  "name": "山蓝琵鹭",
+  "type": "禽鸟",
+  "icon": "UI_AnimalIcon_Wigeon_Spoonbill_01",
+  "route": "Blue Mountain Spoonbill",
+  "title": null,
+  "specialName": null,
+  "description": "呱呱叫的水禽，生有细腻的蓝色羽毛。 \\n传说，山蓝琵鹭的羽毛能用来制作染料，其中，翎羽和尾羽制成的染料有着令人惊叹的品质，一度价值连城。纳塔的古人需要向山蓝琵鹭的头领献上精彩的舞蹈，才能让整个禽类族群点头，从每只山蓝琵鹭身上各取一支翎羽和尾羽。为此，舞者们时常聚集在一起，切磋技艺，比拼本领，正是纳塔「斗舞」文化的雏形之一…",
+  "entries": {
+    "28030507": {
+      "id": 28030507,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "28030508": {
+      "id": 28030508,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": null
+}

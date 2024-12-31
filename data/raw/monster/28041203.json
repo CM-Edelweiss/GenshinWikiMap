@@ -1,0 +1,39 @@
+{
+  "id": 28041203,
+  "name": "炽岩斗士急流鱼",
+  "type": "游鱼",
+  "icon": "UI_ItemIcon_131040",
+  "route": "Magma Rapidfighting Fish",
+  "title": null,
+  "specialName": null,
+  "description": "名中带鱼却不属鱼的中型两栖生物，外形独特，有着拳刃般别致的扁平头部，似乎随时能与天敌激烈战斗。实际上，它们天性温和，并不好斗，这种头部构造只是为了减少在河中游动时的水流阻力。得益于这种头部构造，它们能够破开湍急的逆流，在各个水域自如地穿梭，因而获称「斗士急流鱼」。\\n生活在液态燃素中的斗士急流鱼亚种有着格外坚韧的表皮，耐受高温的能力尤为出色，被誉为「无法做成烤鱼的鱼」。当然，大部分钓鱼爱好者钓获了炽岩斗士急流鱼后，都会将它们当成珍贵的观赏鱼用心饲养，而不是送进厨房…",
+  "entries": {
+    "28041203": {
+      "id": 28041203,
+      "type": "MONSTER_FISH",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": null
+}

@@ -42,6 +42,8 @@ def draw_talent(talent: Talent, index: int, chara_name: str) -> PMImage:
     img.paste(talent_icon, (48, 15))
     if chara_name in {"神里绫华", "莫娜"} and index >= 4:
         index -= 1
+    if chara_name in {"茜特菈莉"} and index >= 3:
+        index -= 1
     if index not in [2, 6, 8]:
         img.paste(CHARACTER_MAP_RESOURCES / "点.png", (27, 0))
     if index == 0:
@@ -66,7 +68,8 @@ def draw_talent(talent: Talent, index: int, chara_name: str) -> PMImage:
             cut_index = talent.name.index("，")
         else:
             cut_index = len(talent.name) // 2
-        talent_name = [talent.name[: cut_index + 1], talent.name[cut_index + 1 :]]
+        talent_name = [talent.name[: cut_index + 1],
+                       talent.name[cut_index + 1:]]
         talent_name_length = talent_data_font.getlength(
             talent_name[0]
             if len(talent_name[0]) > len(talent_name[1])
@@ -74,7 +77,8 @@ def draw_talent(talent: Talent, index: int, chara_name: str) -> PMImage:
         )
         left = 97 - talent_name_length / 2 - 5
         right = 97 + talent_name_length / 2 + 5
-        img.draw_rounded_rectangle((left, 100, right, 100 + 38 * 2), 5, "#ff6f30")
+        img.draw_rounded_rectangle(
+            (left, 100, right, 100 + 38 * 2), 5, "#ff6f30")
         img.text(
             talent_name[0],
             (left, right),
@@ -109,7 +113,8 @@ def draw_talent(talent: Talent, index: int, chara_name: str) -> PMImage:
 
     # ----------描述----------
     now_height = 0
-    text = re.sub(r"<.*?>", "", talent.description.replace("\\n", "^")).strip("^")
+    text = re.sub(
+        r"<.*?>", "", talent.description.replace("\\n", "^")).strip("^")
     if len(text) <= 40:
         description_length = img.text_box(
             text,
@@ -120,7 +125,8 @@ def draw_talent(talent: Talent, index: int, chara_name: str) -> PMImage:
         )
     else:
         description_length = img.text_box(
-            text, (200, 840), (now_height, now_height + 1000), main_text_font, "#252525"
+            text, (200, 840), (now_height, now_height +
+                               1000), main_text_font, "#252525"
         )
     now_height += description_length
     # ----------描述----------
@@ -166,18 +172,21 @@ def draw_constellation(constellation: Constellation):
     img = PMImage(size=(562, 1200), mode="RGBA", color=(255, 255, 255, 0))
     # ----------图标----------
     img.paste(CHARACTER_MAP_RESOURCES / "圆框橙.png", (35, 5))
-    constellation_icon = download_from_ambr(TALENT / f"{constellation.icon}.png")
+    constellation_icon = download_from_ambr(
+        TALENT / f"{constellation.icon}.png")
     constellation_icon.resize((78, 78))
     img.paste(constellation_icon, (48, 15))
     # ----------图标----------
     now_height = 0
-    img.text(constellation.name, 200, now_height, constellation_name_font, "#df5d25")
+    img.text(constellation.name, 200, now_height,
+             constellation_name_font, "#df5d25")
     now_height += 38
     text = re.sub(r"<.*?>", "", constellation.description.replace("\\n", "^")).strip(
         "^"
     )
     description_length = img.text_box(
-        text, (200, 520), (now_height, now_height + 1000), main_text_font, "#252525"
+        text, (200, 520), (now_height, now_height +
+                           1000), main_text_font, "#252525"
     )
     now_height += description_length + 30
     now_height = max(now_height, 127)
@@ -302,7 +311,8 @@ def draw_character_map(chara: Character):
             if book_pass:
                 continue
             if (
-                len(next_name := materials[materials.index(material) + 1].material.name)
+                len(next_name := materials[materials.index(
+                    material) + 1].material.name)
                 == 7
                 and next_name.startswith("「")
                 and next_name[3] == "」"
@@ -319,7 +329,8 @@ def draw_character_map(chara: Character):
         elif len(name) > 5:
             name = name[:5]
         img.paste(CHARACTER_MAP_RESOURCES / "圆框.png", (641 + i * 143, 472))
-        icon_img = download_from_ambr(MATERIALS / f"{material.material.icon}.png")
+        icon_img = download_from_ambr(
+            MATERIALS / f"{material.material.icon}.png")
         icon_img = icon_img.resize((100, 100))
         img.paste(icon_img, (651 + i * 143, 482))
         img.draw_rounded_rectangle(
@@ -341,7 +352,8 @@ def draw_character_map(chara: Character):
     talent_imgs = [
         draw_talent(v, int(k), chara.name) for k, v in chara.talent.items() if v.icon
     ]
-    constellation_imgs = [draw_constellation(v) for v in chara.constellation.values()]
+    constellation_imgs = [draw_constellation(
+        v) for v in chara.constellation.values()]
     this_height_now = 699 + 21
     if (h1 := sum(i.height for i in talent_imgs) + (len(talent_imgs) - 1) * 50) >= (
         h2 := sum(i.height for i in constellation_imgs)
@@ -349,7 +361,8 @@ def draw_character_map(chara: Character):
     ):
         this_height = h1 + 42
         img.stretch((719, 2217), this_height - 40, "height")
-        clearance = min((this_height - h2) // (len(constellation_imgs) - 1), 120)
+        clearance = min((this_height - h2) //
+                        (len(constellation_imgs) - 1), 120)
         for talent_img in talent_imgs:
             img.paste(talent_img, (620, this_height_now))
             this_height_now += talent_img.height + 50
@@ -383,7 +396,8 @@ def draw_character_map(chara: Character):
     bg_img = PMImage(CHARACTER_MAP_RESOURCES / "背景色.png")
     bg_img.stretch((50, bg_img.height - 50), img.height - 100, "height")
     border_img = PMImage(CHARACTER_MAP_RESOURCES / "边框.png")
-    border_img.stretch((50, border_img.height - 50), img.height - 100, "height")
+    border_img.stretch((50, border_img.height - 50),
+                       img.height - 100, "height")
     bg_img.paste(border_img, (0, 0))
     bg_img.covered(ICON / "方块纹理.png")
     bg_img.paste(img, (0, 0))
@@ -397,7 +411,8 @@ def draw_character_map(chara: Character):
         )
     else:
         save_name = chara.name
-    bg_img.save(CHARACTER_MAP_RESULT / f"{save_name}.jpg", mode="JPEG", quality=50)
+    bg_img.save(CHARACTER_MAP_RESULT /
+                f"{save_name}.jpg", mode="JPEG", quality=50)
     print(f">>>>>>角色[{chara.name}]图鉴 制作完成")
     # bg_img.show()
 
@@ -405,6 +420,6 @@ def draw_character_map(chara: Character):
 if __name__ == "__main__":
     draw_character_map(
         Character.parse_file(
-            Path(__file__).parent / "data" / "raw" / "avatar" / "10000101.json"
+            Path(__file__).parent / "data" / "raw" / "avatar" / "10000107.json"
         )
     )

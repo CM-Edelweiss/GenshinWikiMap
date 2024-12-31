@@ -1529,6 +1529,74 @@
     "release": 1731967200,
     "route": "Ororon"
   },
+  "10000106": {
+    "id": 10000106,
+    "rank": 5,
+    "name": "玛薇卡",
+    "element": "Fire",
+    "weaponType": "WEAPON_CLAYMORE",
+    "region": "NATLAN",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "bodyType": "LADY",
+    "icon": "UI_AvatarIcon_Mavuika",
+    "birthday": [
+      8,
+      28
+    ],
+    "release": 1735596000,
+    "route": "Mavuika"
+  },
+  "10000107": {
+    "id": 10000107,
+    "rank": 5,
+    "name": "茜特菈莉",
+    "element": "Ice",
+    "weaponType": "WEAPON_CATALYST",
+    "region": "NATLAN",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
+    "bodyType": "GIRL",
+    "icon": "UI_AvatarIcon_Citlali",
+    "birthday": [
+      1,
+      20
+    ],
+    "release": 1735596000,
+    "route": "Citlali"
+  },
+  "10000108": {
+    "id": 10000108,
+    "rank": 4,
+    "name": "蓝砚",
+    "element": "Wind",
+    "weaponType": "WEAPON_CATALYST",
+    "region": "LIYUE",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "GIRL",
+    "icon": "UI_AvatarIcon_Lanyan",
+    "birthday": [
+      1,
+      6
+    ],
+    "release": 1737475200,
+    "route": "Lan Yan"
+  },
+  "10000005-pyro": {
+    "id": "10000005-pyro",
+    "rank": 5,
+    "name": "旅行者",
+    "element": "Fire",
+    "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "MAINACTOR",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "BOY",
+    "icon": "UI_AvatarIcon_PlayerBoy",
+    "birthday": [
+      0,
+      0
+    ],
+    "route": "Pyro Traveler Boy",
+    "release": 1735758000
+  },
   "10000005-hydro": {
     "id": "10000005-hydro",
     "rank": 5,
@@ -1613,6 +1681,23 @@
     ],
     "route": "Dendro Traveler Boy",
     "release": 1657659600
+  },
+  "10000007-pyro": {
+    "id": "10000007-pyro",
+    "rank": 5,
+    "name": "旅行者",
+    "element": "Fire",
+    "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "MAINACTOR",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "GIRL",
+    "icon": "UI_AvatarIcon_PlayerGirl",
+    "birthday": [
+      0,
+      0
+    ],
+    "route": "Pyro Traveler Girl",
+    "release": 1735758000
   },
   "10000007-hydro": {
     "id": "10000007-hydro",

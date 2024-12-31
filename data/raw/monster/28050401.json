@@ -1,0 +1,65 @@
+{
+  "id": 28050401,
+  "name": "圣金虫",
+  "type": "其他",
+  "icon": "UI_AnimalIcon_BoltBug_Scarab_01",
+  "route": "Scarab",
+  "title": null,
+  "specialName": null,
+  "description": "栖息在浩瀚沙海之中的顽强甲虫。甲壳上有着与沙漠中的古老遗迹相类似的花纹。\\n传说在黄沙之王统治大地的年代里，在千柱之城的凯旋式上，善使魔法的司祭会将那些战败者的灵魂封印在这些昆虫之内，命它们永远守护圣者的神庙与宫殿。后来，神庙崩塌，宫殿倾覆，唯有这些金色的虫类依旧延续着已被遗忘的旧日誓约。",
+  "entries": {
+    "28050401": {
+      "id": 28050401,
+      "type": "MONSTER_ENV_ANIMAL",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "28250401": {
+      "id": 28250401,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": null
+}

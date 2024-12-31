@@ -1,0 +1,39 @@
+{
+  "id": 28040501,
+  "name": "流纹褐蝶鱼",
+  "type": "游鱼",
+  "icon": "UI_ItemIcon_131013",
+  "route": "Brown Shirakodai",
+  "title": null,
+  "specialName": null,
+  "description": "性情温和，姿态优雅的蝶鱼，拥有流线型的美丽背鳍，又有「水中王后」的美誉。\\n体表环绕着大地色的纹路，脾气也如同岩石般沉稳，缺点是沉稳过头了，有时会像岩石一样沉在水底不动，以致常让买家怀疑买到了已经无力回天的老头鱼。",
+  "entries": {
+    "28040501": {
+      "id": 28040501,
+      "type": "MONSTER_FISH",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": null
+}

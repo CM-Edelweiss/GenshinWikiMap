@@ -27,7 +27,8 @@ def save_json(data: Any, path: Path, encoding: str = "utf-8"):
         :param encoding: 编码，默认为utf-8
     """
     path.parent.mkdir(parents=True, exist_ok=True)
-    ujson.dump(data, path.open("w", encoding=encoding), ensure_ascii=False, indent=2)
+    ujson.dump(data, path.open("w", encoding=encoding),
+               ensure_ascii=False, indent=2)
 
 
 def get_describe_name(text: str) -> Optional[str]:
@@ -36,7 +37,7 @@ def get_describe_name(text: str) -> Optional[str]:
         :param text: 描述文本
         :return: 名称
     """
-    if text := re.search(r"<color=#FFD780FF>(.+?)</color>", text): # type: ignore
+    if text := re.search(r"<color=#FFD780FF>(.+?)</color>", text):  # type: ignore
         return text[1]
     return None
 

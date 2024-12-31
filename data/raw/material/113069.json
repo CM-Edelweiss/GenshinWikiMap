@@ -1,0 +1,65 @@
+{
+  "name": "蚀灭的阳焰",
+  "description": "在与蚀灭的源焰之主战斗后，仍在不息燃烧的环状火焰。\\n最初，在最深邃的夜晚里，执掌火焰的主人仿照太阳，以此取代星空的光芒。\\n一半的火焰已受侵蚀的焰芒之辉，似乎还能看出映照旧日世界的光采。",
+  "type": "角色培养素材",
+  "recipe": {
+    "61003": {
+      "113021": {
+        "name": "异梦溶媒",
+        "icon": "UI_ItemIcon_113021",
+        "rank": 4,
+        "count": 1
+      },
+      "113068": {
+        "name": "蚀灭的灵犀",
+        "icon": "UI_ItemIcon_113068",
+        "rank": 5,
+        "count": 1
+      }
+    },
+    "61004": {
+      "113021": {
+        "name": "异梦溶媒",
+        "icon": "UI_ItemIcon_113021",
+        "rank": 4,
+        "count": 1
+      },
+      "113070": {
+        "name": "蚀灭的鳞羽",
+        "icon": "UI_ItemIcon_113070",
+        "rank": 5,
+        "count": 1
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "70级以上蚀灭的源焰之主挑战奖励",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000108,
+          "name": "蓝砚",
+          "rank": 4,
+          "icon": "UI_AvatarIcon_Lanyan"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 29091101,
+        "name": "蚀灭的源焰之主",
+        "icon": "UI_MonsterIcon_TheAbyssXiuhcoatl"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_113069",
+  "rank": 5,
+  "route": "Eroded Sunfire"
+}

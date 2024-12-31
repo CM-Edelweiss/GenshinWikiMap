@@ -1,0 +1,56 @@
+{
+  "name": "蚀灭的鳞羽",
+  "description": "在与蚀灭的源焰之主战斗后，落于地面的漆黑鳞片。\\n古老的龙众曾经用自身脱落的鳞片以传递秘密的信息与谕令。\\n完全被漆黑之力腐蚀的鳞片，原本镌刻其上的光芒被噬尽后，唯留有扭曲与黑暗的残余。",
+  "type": "角色培养素材",
+  "recipe": {
+    "61005": {
+      "113021": {
+        "name": "异梦溶媒",
+        "icon": "UI_ItemIcon_113021",
+        "rank": 4,
+        "count": 1
+      },
+      "113068": {
+        "name": "蚀灭的灵犀",
+        "icon": "UI_ItemIcon_113068",
+        "rank": 5,
+        "count": 1
+      }
+    },
+    "61006": {
+      "113021": {
+        "name": "异梦溶媒",
+        "icon": "UI_ItemIcon_113021",
+        "rank": 4,
+        "count": 1
+      },
+      "113069": {
+        "name": "蚀灭的阳焰",
+        "icon": "UI_ItemIcon_113069",
+        "rank": 5,
+        "count": 1
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "70级以上蚀灭的源焰之主挑战奖励",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": null,
+    "droppedBy": [
+      {
+        "id": 29091101,
+        "name": "蚀灭的源焰之主",
+        "icon": "UI_MonsterIcon_TheAbyssXiuhcoatl"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_113070",
+  "rank": 5,
+  "route": "Eroded Scale-Feather"
+}

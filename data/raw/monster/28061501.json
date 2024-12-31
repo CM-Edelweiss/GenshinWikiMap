@@ -1,0 +1,92 @@
+{
+  "id": 28061501,
+  "name": "飞蛇",
+  "type": "走兽",
+  "icon": "UI_AnimalIcon_Chrysopelea",
+  "route": "Flying Serpent",
+  "title": null,
+  "specialName": null,
+  "description": "一定程度上能够悬浮的爬行动物。\\n飞蛇并不具备「飞行」的能力，悬浮的能力似乎是借助了与鸟类相同的中空骨骼，与其中风元素的残渣。沙漠不是风元素的国度，但其中常年呼啸着侵蚀一切的风。无论是城池或是历史，都会被沙海的风慢慢磨成细沙。只有能与这种风共生的动物，才能在一切都回归尘土后依然生存在沙海中。",
+  "entries": {
+    "28061501": {
+      "id": 28061501,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "3.0 动物通用血条显示控件",
+          "description": "3.0 动物通用血条显示控件",
+          "abilityName": [
+            "Monster_Animal_Common_BillboardControl"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 8.1504,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 10.048,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "28061502": {
+      "id": 28061502,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 8.1504,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 10.048,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": null
+}

@@ -1,0 +1,39 @@
+{
+  "id": 28030204,
+  "name": "白练鹰",
+  "type": "禽鸟",
+  "icon": "UI_AnimalIcon_Falcon_04",
+  "route": "Silkwhite Falcon",
+  "title": null,
+  "specialName": null,
+  "description": "目光锐利的高傲鹰隼。\\n以脆弱之躯挑战无边风雪的勇敢猛禽，覆霜凝雪的羽毛泛着冰川的光泽。在悠远的传说中，冰雪故国的子民死后便会化作羽毛如白练般的鹰，守护曾经苍翠的家园。由于冰封雪藏之地罕有天敌和猎人，这些古老的魂灵过得还挺滋润的。",
+  "entries": {
+    "28030204": {
+      "id": 28030204,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": null
+}

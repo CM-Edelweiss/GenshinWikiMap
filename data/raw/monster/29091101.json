@@ -1,0 +1,235 @@
+{
+  "id": 29091101,
+  "name": "蚀灭的源焰之主",
+  "type": "值得铭记的强敌",
+  "icon": "UI_MonsterIcon_TheAbyssXiuhcoatl",
+  "route": "Lord of Eroded Primal Fire",
+  "title": "蚀灭的源焰之主",
+  "specialName": "受塑的已死之龙",
+  "description": "漆黑之力凝成的魔龙。",
+  "entries": {
+    "29110101": {
+      "id": 29110101,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "深渊火龙王-循环",
+          "description": "深渊火龙王-循环",
+          "abilityName": [
+            "Monster_TheAbyssXiuhcoatl_StageControl_Weekly"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 1290.47998,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 150.72,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": {
+        "102": {
+          "name": "冒险阅历",
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "300"
+        },
+        "105": {
+          "name": "好感经验",
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "101116": {
+          "name": "垠土单手剑原胚",
+          "rank": 4,
+          "icon": "UI_ItemIcon_101116"
+        },
+        "101117": {
+          "name": "垠土弓原胚",
+          "rank": 4,
+          "icon": "UI_ItemIcon_101117"
+        },
+        "101118": {
+          "name": "垠土双手剑原胚",
+          "rank": 4,
+          "icon": "UI_ItemIcon_101118"
+        },
+        "101119": {
+          "name": "垠土法器原胚",
+          "rank": 4,
+          "icon": "UI_ItemIcon_101119"
+        },
+        "101120": {
+          "name": "垠土长柄武器原胚",
+          "rank": 4,
+          "icon": "UI_ItemIcon_101120"
+        },
+        "104111": {
+          "name": "燃愿玛瑙碎屑",
+          "rank": 2,
+          "icon": "UI_ItemIcon_104111"
+        },
+        "104112": {
+          "name": "燃愿玛瑙断片",
+          "rank": 3,
+          "icon": "UI_ItemIcon_104112"
+        },
+        "104113": {
+          "name": "燃愿玛瑙块",
+          "rank": 4,
+          "icon": "UI_ItemIcon_104113"
+        },
+        "104114": {
+          "name": "燃愿玛瑙",
+          "rank": 5,
+          "icon": "UI_ItemIcon_104114"
+        },
+        "113021": {
+          "name": "异梦溶媒",
+          "rank": 4,
+          "icon": "UI_ItemIcon_113021",
+          "count": "0.33"
+        },
+        "113068": {
+          "name": "蚀灭的灵犀",
+          "rank": 5,
+          "icon": "UI_ItemIcon_113068"
+        },
+        "113069": {
+          "name": "蚀灭的阳焰",
+          "rank": 5,
+          "icon": "UI_ItemIcon_113069"
+        },
+        "113070": {
+          "name": "蚀灭的鳞羽",
+          "rank": 5,
+          "icon": "UI_ItemIcon_113070"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400088": {
+          "name": "角斗士的终幕礼",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "name": "角斗士的终幕礼",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "name": "流浪大地的乐团",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "name": "流浪大地的乐团",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        }
+      }
+    },
+    "29110102": {
+      "id": 29110102,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "深渊火龙王-剧情",
+          "description": "深渊火龙王-剧情",
+          "abilityName": [
+            "Monster_TheAbyssXiuhcoatl_StageControl_Quest"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 4564.22412,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 70.336,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": null,
+  "codexImage": "UI_Codex_Monster_TheAbyssXiuhcoatl"
+}

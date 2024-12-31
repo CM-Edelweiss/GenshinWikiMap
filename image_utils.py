@@ -53,7 +53,8 @@ class PMImage:
             :param mode: 图像模式
         """
         if image:
-            self.image = load_image(image) if isinstance(image, Path) else image.copy()
+            self.image = load_image(image) if isinstance(
+                image, Path) else image.copy()
         else:
             if mode == "RGB" and isinstance(color, tuple):
                 color = (color[0], color[1], color[2])
@@ -147,7 +148,8 @@ class PMImage:
         :param angle: 角度
         :param expand: expand
         """
-        self.image.rotate(angle, resample=Image.BICUBIC, expand=expand, **kwargs)
+        self.image.rotate(angle, resample=Image.BICUBIC,
+                          expand=expand, **kwargs)
         self.draw = ImageDraw.Draw(self.image)
 
     def paste(
@@ -308,7 +310,8 @@ class PMImage:
             top = self.image.crop((0, 0, self.width, pos[0]))
             bottom = self.image.crop((0, pos[1], self.width, self.height))
             if length == 0:
-                self.image = Image.new("RGBA", (self.width, top.height + bottom.height))
+                self.image = Image.new(
+                    "RGBA", (self.width, top.height + bottom.height))
                 self.image.paste(top, (0, 0))
                 self.image.paste(bottom, (0, top.height))
             else:
@@ -316,7 +319,8 @@ class PMImage:
                     (self.width, length), Image.LANCZOS
                 )
                 self.image = Image.new(
-                    "RGBA", (self.width, top.height + center.height + bottom.height)
+                    "RGBA", (self.width, top.height +
+                             center.height + bottom.height)
                 )
                 self.image.paste(top, (0, 0))
                 self.image.paste(center, (0, top.height))
@@ -328,7 +332,8 @@ class PMImage:
             top = self.image.crop((0, 0, pos[0], self.height))
             bottom = self.image.crop((pos[1], 0, self.width, self.height))
             if length == 0:
-                self.image = Image.new("RGBA", (top.width + bottom.width, self.height))
+                self.image = Image.new(
+                    "RGBA", (top.width + bottom.width, self.height))
                 self.image.paste(top, (0, 0))
                 self.image.paste(bottom, (top.width, 0))
             else:
@@ -336,7 +341,8 @@ class PMImage:
                     (length, self.height), Image.LANCZOS
                 )
                 self.image = Image.new(
-                    "RGBA", (top.width + center.width + bottom.width, self.height)
+                    "RGBA", (top.width + center.width +
+                             bottom.width, self.height)
                 )
                 self.image.paste(top, (0, 0))
                 self.image.paste(center, (top.width, 0))
@@ -382,7 +388,8 @@ class PMImage:
         :param width: 宽度
         """
         self.convert("RGBA")
-        self.draw.rounded_rectangle(xy=pos, radius=radius, fill=color, width=width)
+        self.draw.rounded_rectangle(
+            xy=pos, radius=radius, fill=color, width=width)
 
     def draw_rounded_rectangle2(
         self,
@@ -390,7 +397,8 @@ class PMImage:
         size: Tuple[int, int],
         radius: int = 5,
         color: Union[str, Tuple[int, int, int, int]] = "white",
-        angles: List[Literal["ul", "ur", "ll", "lr"]] = ["ul", "ur", "ll", "lr"],
+        angles: List[Literal["ul", "ur", "ll", "lr"]] = [
+            "ul", "ur", "ll", "lr"],
     ):
         """
         选择最多4个角绘制圆角矩形
@@ -498,7 +506,8 @@ class PMImage:
             )
             draw = ImageDraw.Draw(mask)
             for offset, fill in (width / -2.0, "black"), (width / 2.0, "white"):
-                left, top = [(value + offset) * antialias for value in ellipse_box[:2]]
+                left, top = [(value + offset) *
+                             antialias for value in ellipse_box[:2]]
                 right, bottom = [
                     (value - offset) * antialias for value in ellipse_box[2:]
                 ]
@@ -522,7 +531,8 @@ class PMImage:
         alpha.paste(circle.crop((0, 0, radii, radii)), (0, 0))
         alpha.paste(circle.crop((radii, 0, radii * 2, radii)), (w - radii, 0))
         alpha.paste(
-            circle.crop((radii, radii, radii * 2, radii * 2)), (w - radii, h - radii)
+            circle.crop((radii, radii, radii * 2, radii * 2)
+                        ), (w - radii, h - radii)
         )
         alpha.paste(circle.crop((0, radii, radii, radii * 2)), (0, h - radii))
         self.image.putalpha(alpha)
@@ -551,11 +561,13 @@ class PMImage:
             draw.ellipse(
                 (0, 0, self.width + border_size, self.height + border_size), fill=color
             )
-            new_img.alpha_composite(self.image, (border_size // 2, border_size // 2))
+            new_img.alpha_composite(
+                self.image, (border_size // 2, border_size // 2))
             self.image = new_img
             self.draw = ImageDraw.Draw(self.image)
         elif shape == "rectangle":
-            self.image = ImageOps.expand(self.image, border=border_size, fill=color)
+            self.image = ImageOps.expand(
+                self.image, border=border_size, fill=color)
             self.draw = ImageDraw.Draw(self.image)
 
     def add_background(

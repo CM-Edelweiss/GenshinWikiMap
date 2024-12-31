@@ -1,0 +1,144 @@
+{
+  "id": 28050201,
+  "name": "新手盗宝鼬",
+  "type": "走兽",
+  "icon": "UI_AnimalIcon_Thoarder_Weasel_01",
+  "route": "Amateur Weasel Thief",
+  "title": null,
+  "specialName": null,
+  "description": "神出鬼没的怪盗，盗窃宝物仅仅出于纯粹的天性。\\n没有人知道究竟怎样异想天开的家伙训练出了这群盗窃成癖的小动物。盗宝鼬会四处偷窃收集摩拉——无论是远来旅客随身的零钱、冒险家的盘缠，还是遗迹内散落的财宝，都逃不过它们的眼睛。\\n虽然从现实中缴获的新手盗宝鼬钱袋的情况而言，恐怕只能收集到旅人落下的零钱吧…",
+  "entries": {
+    "28050201": {
+      "id": 28050201,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "盗宝鼬-等级1",
+          "description": "盗宝鼬-等级1标识",
+          "abilityName": [
+            "MonsterAffix_Thoarder_Weasel_Level_01"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "28050204": {
+      "id": 28050204,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "盗宝鼬-等级1",
+          "description": "盗宝鼬-等级1标识",
+          "abilityName": [
+            "MonsterAffix_Thoarder_Weasel_Level_01"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "28050211": {
+      "id": 28050211,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "盗宝鼬-等级1",
+          "description": "盗宝鼬-等级1标识",
+          "abilityName": [
+            "MonsterAffix_Thoarder_Weasel_Level_01"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "fundamentalForce": null,
+      "reward": null
+    },
+    "28050221": {
+      "id": 28050221,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": null
+}

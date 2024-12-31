@@ -1,0 +1,39 @@
+{
+  "id": 28040305,
+  "name": "雪中君",
+  "type": "游鱼",
+  "icon": "UI_ItemIcon_131010",
+  "route": "Snowstrider",
+  "title": null,
+  "specialName": null,
+  "description": "祖祖辈辈都生活在雪山地区的珍稀棘鱼，或许正因如此。其性格意外的冷静，远不如同类那样凶狠暴躁。这种棘鱼对寒冷有着非同寻常的依恋，像父母之于孩子。虽然它们的确能在温暖水域存活，但远离寒冷似乎会让它们遭受某种心理上的重创，进而郁郁寡欢，停止繁衍。\\n「不建议捕捉它们。」——《野钓手册·雪中君篇》",
+  "entries": {
+    "28040305": {
+      "id": 28040305,
+      "type": "MONSTER_FISH",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": null
+}
