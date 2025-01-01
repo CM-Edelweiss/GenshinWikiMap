@@ -1,0 +1,135 @@
+{
+  "id": 10000107,
+  "name": "茜特菈莉",
+  "element": "冰",
+  "weapon": "法器",
+  "rank": 5,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Citlali",
+    "side": "UI_AvatarIcon_Side_Citlali",
+    "card": "UI_AvatarIcon_Citlali_Card",
+    "splash": "UI_Gacha_AvatarImg_Citlali",
+    "slice": "UI_Gacha_AvatarIcon_Citlali"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 905.65399,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        776.51642,
+        1328.25171,
+        2063.89893,
+        2615.63428,
+        3167.36963,
+        3719.10498
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 9.8686,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        8.46081,
+        14.47244,
+        22.48795,
+        28.49958,
+        34.51122,
+        40.52285
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 59.41119,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        50.9409,
+        87.13575,
+        135.39555,
+        171.59039,
+        207.78525,
+        243.9801
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ELEMENT_MASTERY",
+      "promote": [
+        0,
+        28.8,
+        57.6,
+        57.6,
+        86.4,
+        115.2
+      ]
+    }
+  ],
+  "talent": {
+    "11071": {
+      "name": "普通攻击·宿灵捕影",
+      "icon": "Skill_A_Catalyst_MD"
+    },
+    "11072": {
+      "name": "霜昼黑星",
+      "icon": "Skill_S_Citlali_01"
+    },
+    "11075": {
+      "name": "诸曜饬令",
+      "icon": "Skill_E_Citlali_01"
+    },
+    "1072101": {
+      "name": "五重天的寒雨",
+      "icon": "UI_Talent_S_Citlali_05"
+    },
+    "1072201": {
+      "name": "白燧蝶的星衣",
+      "icon": "UI_Talent_S_Citlali_06"
+    },
+    "1072301": {
+      "name": "夜域赐礼·镜烟翾风",
+      "icon": "UI_Talent_S_Citlali_08"
+    },
+    "1072501": {
+      "name": "奥秘传唱",
+      "icon": "UI_Talent_S_Mavuika_08"
+    }
+  },
+  "constellation": {
+    "1071": {
+      "name": "四百星的芒刃",
+      "icon": "UI_Talent_S_Citlali_01"
+    },
+    "1072": {
+      "name": "吞心者的巡行",
+      "icon": "UI_Talent_S_Citlali_02"
+    },
+    "1073": {
+      "name": "云中蛇的羽冠",
+      "icon": "UI_Talent_U_Citlali_01"
+    },
+    "1074": {
+      "name": "拒亡者的灵髑",
+      "icon": "UI_Talent_S_Citlali_03"
+    },
+    "1075": {
+      "name": "五恶曜的咒缚",
+      "icon": "UI_Talent_U_Citlali_02"
+    },
+    "1076": {
+      "name": "原动天的密契",
+      "icon": "UI_Talent_S_Citlali_04"
+    }
+  },
+  "talent_fix": {
+    "11072": "霜昼黑星",
+    "11075": "诸曜饬令"
+  },
+  "damage": [],
+  "buff": []
+}

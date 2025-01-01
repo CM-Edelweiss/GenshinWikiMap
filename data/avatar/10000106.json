@@ -1,0 +1,135 @@
+{
+  "id": 10000106,
+  "name": "玛薇卡",
+  "element": "火",
+  "weapon": "双手剑",
+  "rank": 5,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Mavuika",
+    "side": "UI_AvatarIcon_Side_Mavuika",
+    "card": "UI_AvatarIcon_Mavuika_Card",
+    "splash": "UI_Gacha_AvatarImg_Mavuika",
+    "slice": "UI_Gacha_AvatarIcon_Mavuika"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 977.15302,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        837.82031,
+        1433.11377,
+        2226.83838,
+        2822.13159,
+        3417.42505,
+        4012.71851
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 27.93,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        23.9457,
+        40.95975,
+        63.64515,
+        80.6592,
+        97.67325,
+        114.6873
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 61.6249,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        52.839,
+        90.3825,
+        140.44051,
+        177.98399,
+        215.5275,
+        253.071
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL_HURT",
+      "promote": [
+        0,
+        0.096,
+        0.192,
+        0.192,
+        0.288,
+        0.384
+      ]
+    }
+  ],
+  "talent": {
+    "11061": {
+      "name": "普通攻击·以火织命",
+      "icon": "Skill_A_04"
+    },
+    "11062": {
+      "name": "称名之刻",
+      "icon": "Skill_S_Mavuika_01"
+    },
+    "11065": {
+      "name": "燔天之时",
+      "icon": "Skill_E_Mavuika_01"
+    },
+    "1062101": {
+      "name": "炎花献礼",
+      "icon": "UI_Talent_S_Mavuika_05"
+    },
+    "1062201": {
+      "name": "「基扬戈兹」",
+      "icon": "UI_Talent_S_Mavuika_06"
+    },
+    "1062301": {
+      "name": "夜域赐礼·耗竭模式",
+      "icon": "UI_Talent_S_Mavuika_07"
+    },
+    "1062501": {
+      "name": "破夜的焰光",
+      "icon": "UI_Talent_S_Citlali_07"
+    }
+  },
+  "constellation": {
+    "1061": {
+      "name": "夜主的授记",
+      "icon": "UI_Talent_S_Mavuika_01"
+    },
+    "1062": {
+      "name": "灰烬的代价",
+      "icon": "UI_Talent_S_Mavuika_02"
+    },
+    "1063": {
+      "name": "燃烧的太阳",
+      "icon": "UI_Talent_U_Mavuika_01"
+    },
+    "1064": {
+      "name": "「领袖」的觉悟",
+      "icon": "UI_Talent_S_Mavuika_03"
+    },
+    "1065": {
+      "name": "真实的含义",
+      "icon": "UI_Talent_U_Mavuika_02"
+    },
+    "1066": {
+      "name": "「人之名」解放",
+      "icon": "UI_Talent_S_Mavuika_04"
+    }
+  },
+  "talent_fix": {
+    "11065": "燔天之时",
+    "11062": "称名之刻"
+  },
+  "damage": [],
+  "buff": []
+}

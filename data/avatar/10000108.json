@@ -1,0 +1,131 @@
+{
+  "id": 10000108,
+  "name": "蓝砚",
+  "element": "风",
+  "weapon": "法器",
+  "rank": 4,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Lanyan",
+    "side": "UI_AvatarIcon_Side_Lanyan",
+    "card": "UI_AvatarIcon_Lanyan_Card",
+    "splash": "UI_Gacha_AvatarImg_Lanyan",
+    "slice": "UI_Gacha_AvatarIcon_Lanyan"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 775.02234,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        578.98138,
+        990.36285,
+        1538.87158,
+        1950.25305,
+        2361.63452,
+        2773.01611
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 21.01344,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        15.69848,
+        26.85267,
+        41.72492,
+        52.8791,
+        64.03329,
+        75.18748
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 48.64125,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        36.3375,
+        62.15625,
+        96.58125,
+        122.4,
+        148.21875,
+        174.03751
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ATTACK_PERCENT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "11081": {
+      "name": "普通攻击·玄鸾画水",
+      "icon": "Skill_A_Catalyst_MD"
+    },
+    "11082": {
+      "name": "凤缕随翦舞",
+      "icon": "Skill_S_Lanyan_01"
+    },
+    "11085": {
+      "name": "鹍弦踏月出",
+      "icon": "Skill_E_Lanyan_01"
+    },
+    "1082101": {
+      "name": "四戈封刀灵卜",
+      "icon": "UI_Talent_S_Lanyan_05"
+    },
+    "1082201": {
+      "name": "苍翎镇邪敕符",
+      "icon": "UI_Talent_S_Lanyan_06"
+    },
+    "1082301": {
+      "name": "「心随芳兮意犹绵」",
+      "icon": "UI_Talent_S_Sayu_07"
+    }
+  },
+  "constellation": {
+    "1081": {
+      "name": "「若有人兮云之际」",
+      "icon": "UI_Talent_S_Lanyan_01"
+    },
+    "1082": {
+      "name": "「舞袂翩兮扬玉霓」",
+      "icon": "UI_Talent_S_Lanyan_02"
+    },
+    "1083": {
+      "name": "「乘白凤兮翦雾縠」",
+      "icon": "UI_Talent_U_Lanyan_01"
+    },
+    "1084": {
+      "name": "「揽龙鹰兮结血珠」",
+      "icon": "UI_Talent_S_Lanyan_03"
+    },
+    "1085": {
+      "name": "「既见君兮予所欢」",
+      "icon": "UI_Talent_U_Lanyan_02"
+    },
+    "1086": {
+      "name": "「愿随风兮鸣银鸾」",
+      "icon": "UI_Talent_S_Lanyan_04"
+    }
+  },
+  "talent_fix": {
+    "11082": "凤缕随翦舞",
+    "11085": "鹍弦踏月出"
+  },
+  "damage": [],
+  "buff": []
+}
