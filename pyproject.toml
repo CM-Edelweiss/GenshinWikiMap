@@ -1,8 +1,9 @@
 [tool.poetry]
 name = "GenshinWikiMap"
-version = "0.1.0"
+version = "0.1.1"
 description = "原神图鉴制作"
 authors = ["CMHopeSunshine <277073121@qq.com>"]
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.9"
