@@ -1580,6 +1580,23 @@
     "release": 1737475200,
     "route": "Lan Yan"
   },
+  "10000109": {
+    "id": 10000109,
+    "rank": 5,
+    "name": "梦见月瑞希",
+    "element": "Wind",
+    "weaponType": "WEAPON_CATALYST",
+    "region": "INAZUMA",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
+    "bodyType": "GIRL",
+    "icon": "UI_AvatarIcon_Mizuki",
+    "birthday": [
+      3,
+      16
+    ],
+    "release": 1739224800,
+    "route": "Yumemizuki Mizuki"
+  },
   "10000005-pyro": {
     "id": "10000005-pyro",
     "rank": 5,

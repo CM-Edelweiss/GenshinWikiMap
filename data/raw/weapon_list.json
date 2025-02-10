@@ -998,6 +998,15 @@
     "icon": "UI_EquipIcon_Pole_Isikhulu",
     "route": "Footprint of the Rainbow"
   },
+  "13432": {
+    "id": 13432,
+    "rank": 4,
+    "type": "WEAPON_POLE",
+    "name": "且住亭御咄",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
+    "icon": "UI_EquipIcon_Pole_Aoandon",
+    "route": "Tamayuratei no Ohanashi"
+  },
   "13501": {
     "id": 13501,
     "rank": 5,
@@ -1456,6 +1465,15 @@
     "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
     "icon": "UI_EquipIcon_Catalyst_Figurines",
     "route": "Starcaller's Watch"
+  },
+  "14518": {
+    "id": 14518,
+    "rank": 5,
+    "type": "WEAPON_CATALYST",
+    "name": "寝正月初晴",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
+    "icon": "UI_EquipIcon_Catalyst_SakuraFan",
+    "route": "Sunny Morning Sleep-In"
   },
   "15101": {
     "id": 15101,

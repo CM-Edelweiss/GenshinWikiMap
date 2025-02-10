@@ -1,0 +1,243 @@
+{
+  "id": 13432,
+  "rank": 4,
+  "type": "长柄武器",
+  "name": "且住亭御咄",
+  "description": "过去曾有以行灯焰火为形于稻妻四处奔行的妖怪，这也是其曾经寄身的一处灯盏吧。",
+  "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
+  "icon": "UI_EquipIcon_Pole_Aoandon",
+  "storyId": [
+    "13432"
+  ],
+  "affix": {
+    "113432": {
+      "name": "好事者奔行灯",
+      "upgrade": {
+        "0": "施放元素战技时，提高<color=#99FFFFFF>20%<\/color>攻击力和10%移动速度，持续10秒。",
+        "1": "施放元素战技时，提高<color=#99FFFFFF>25%<\/color>攻击力和10%移动速度，持续10秒。",
+        "2": "施放元素战技时，提高<color=#99FFFFFF>30%<\/color>攻击力和10%移动速度，持续10秒。",
+        "3": "施放元素战技时，提高<color=#99FFFFFF>35%<\/color>攻击力和10%移动速度，持续10秒。",
+        "4": "施放元素战技时，提高<color=#99FFFFFF>40%<\/color>攻击力和10%移动速度，持续10秒。"
+      }
+    }
+  },
+  "route": "Tamayuratei no Ohanashi",
+  "upgrade": {
+    "awakenCost": [
+      1000,
+      2000,
+      4000,
+      8000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 43.7349,
+        "type": "GROW_CURVE_ATTACK_202"
+      },
+      {
+        "propType": "FIGHT_PROP_CHARGE_EFFICIENCY",
+        "initValue": 0.06667,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112044": 2,
+          "112116": 3,
+          "114033": 3
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 25.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112044": 8,
+          "112116": 12,
+          "114034": 3
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 51.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112045": 6,
+          "112117": 6,
+          "114034": 6
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112045": 9,
+          "112117": 12,
+          "114035": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 103.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112046": 6,
+          "112118": 9,
+          "114035": 6
+        },
+        "coinCost": 35000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 129.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112046": 12,
+          "112118": 18,
+          "114036": 4
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112044": 1,
+    "112045": 2,
+    "112046": 3,
+    "112116": 2,
+    "112117": 3,
+    "112118": 4,
+    "114033": 2,
+    "114034": 3,
+    "114035": 4,
+    "114036": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112044": {
+      "name": "破旧的刀镡",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112044"
+    },
+    "112045": {
+      "name": "影打刀镡",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112045"
+    },
+    "112046": {
+      "name": "名刀镡",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112046"
+    },
+    "112116": {
+      "name": "折光的胚芽",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112116"
+    },
+    "112117": {
+      "name": "惑光的阔叶",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112117"
+    },
+    "112118": {
+      "name": "迷光的蜷叶之心",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112118"
+    },
+    "114033": {
+      "name": "今昔剧画之恶尉",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114033"
+    },
+    "114034": {
+      "name": "今昔剧画之虎啮",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114034"
+    },
+    "114035": {
+      "name": "今昔剧画之一角",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114035"
+    },
+    "114036": {
+      "name": "今昔剧画之鬼人",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114036"
+    }
+  }
+}

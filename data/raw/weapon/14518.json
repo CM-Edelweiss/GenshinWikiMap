@@ -1,0 +1,243 @@
+{
+  "id": 14518,
+  "rank": 5,
+  "type": "法器",
+  "name": "寝正月初晴",
+  "description": "由澄澈的紫玉锻造而成的铃灯，据说置于枕边便能唤来幸福的美梦。",
+  "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
+  "icon": "UI_EquipIcon_Catalyst_SakuraFan",
+  "storyId": [
+    "14518"
+  ],
+  "affix": {
+    "114518": {
+      "name": "一汤二鹰三鸣神",
+      "upgrade": {
+        "0": "触发扩散反应后的6秒内，元素精通提升<color=#99FFFFFF>120<\/color>点；元素战技命中敌人后的9秒内，元素精通提升<color=#99FFFFFF>96<\/color>点；元素爆发命中敌人后的30秒内，元素精通提升<color=#99FFFFFF>32<\/color>点。",
+        "1": "触发扩散反应后的6秒内，元素精通提升<color=#99FFFFFF>150<\/color>点；元素战技命中敌人后的9秒内，元素精通提升<color=#99FFFFFF>120<\/color>点；元素爆发命中敌人后的30秒内，元素精通提升<color=#99FFFFFF>40<\/color>点。",
+        "2": "触发扩散反应后的6秒内，元素精通提升<color=#99FFFFFF>180<\/color>点；元素战技命中敌人后的9秒内，元素精通提升<color=#99FFFFFF>144<\/color>点；元素爆发命中敌人后的30秒内，元素精通提升<color=#99FFFFFF>48<\/color>点。",
+        "3": "触发扩散反应后的6秒内，元素精通提升<color=#99FFFFFF>210<\/color>点；元素战技命中敌人后的9秒内，元素精通提升<color=#99FFFFFF>168<\/color>点；元素爆发命中敌人后的30秒内，元素精通提升<color=#99FFFFFF>56<\/color>点。",
+        "4": "触发扩散反应后的6秒内，元素精通提升<color=#99FFFFFF>240<\/color>点；元素战技命中敌人后的9秒内，元素精通提升<color=#99FFFFFF>192<\/color>点；元素爆发命中敌人后的30秒内，元素精通提升<color=#99FFFFFF>64<\/color>点。"
+      }
+    }
+  },
+  "route": "Sunny Morning Sleep-In",
+  "upgrade": {
+    "awakenCost": [
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 44.3358,
+        "type": "GROW_CURVE_ATTACK_304"
+      },
+      {
+        "propType": "FIGHT_PROP_ELEMENT_MASTERY",
+        "initValue": 57.6,
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112053": 3,
+          "112110": 5,
+          "114029": 5
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 31.1,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112053": 12,
+          "112110": 18,
+          "114030": 5
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 62.2,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112054": 9,
+          "112111": 9,
+          "114030": 9
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 93.4,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112054": 14,
+          "112111": 18,
+          "114031": 5
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 124.5,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112055": 9,
+          "112112": 14,
+          "114031": 9
+        },
+        "coinCost": 55000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112055": 18,
+          "112112": 27,
+          "114032": 6
+        },
+        "coinCost": 65000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 186.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112053": 1,
+    "112054": 2,
+    "112055": 3,
+    "112110": 2,
+    "112111": 3,
+    "112112": 4,
+    "114029": 2,
+    "114030": 3,
+    "114031": 4,
+    "114032": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112053": {
+      "name": "浮游干核",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112053"
+    },
+    "112054": {
+      "name": "浮游幽核",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112054"
+    },
+    "112055": {
+      "name": "浮游晶化核",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112055"
+    },
+    "112110": {
+      "name": "聚燃的石块",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112110"
+    },
+    "112111": {
+      "name": "聚燃的命种",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112111"
+    },
+    "112112": {
+      "name": "聚燃的游像眼",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112112"
+    },
+    "114029": {
+      "name": "鸣神御灵的明惠",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114029"
+    },
+    "114030": {
+      "name": "鸣神御灵的欢喜",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114030"
+    },
+    "114031": {
+      "name": "鸣神御灵的亲爱",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114031"
+    },
+    "114032": {
+      "name": "鸣神御灵的勇武",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114032"
+    }
+  }
+}
