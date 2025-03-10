@@ -1,0 +1,131 @@
+{
+  "id": 10000109,
+  "name": "梦见月瑞希",
+  "element": "风",
+  "weapon": "法器",
+  "rank": 5,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Mizuki",
+    "side": "UI_AvatarIcon_Side_Mizuki",
+    "card": "UI_AvatarIcon_Mizuki_Card",
+    "splash": "UI_Gacha_AvatarImg_Mizuki",
+    "slice": "UI_Gacha_AvatarIcon_Mizuki"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 991.45282,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        850.08112,
+        1454.08618,
+        2259.42627,
+        2863.43115,
+        3467.43628,
+        4071.44116
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 16.758,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        14.36742,
+        24.57585,
+        38.18709,
+        48.39552,
+        58.60395,
+        68.81238
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 58.93255,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        50.5305,
+        86.43375,
+        134.30475,
+        170.20799,
+        206.11125,
+        242.0145
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ELEMENT_MASTERY",
+      "promote": [
+        0,
+        28.8,
+        57.6,
+        57.6,
+        86.4,
+        115.2
+      ]
+    }
+  ],
+  "talent": {
+    "11091": {
+      "name": "普通攻击·梦我梦心",
+      "icon": "Skill_A_Catalyst_MD"
+    },
+    "11092": {
+      "name": "秋沙歌枕巡礼",
+      "icon": "Skill_S_Mizuki_01"
+    },
+    "11095": {
+      "name": "安乐秘汤疗法",
+      "icon": "Skill_E_Mizuki_01"
+    },
+    "1092101": {
+      "name": "名月浮声",
+      "icon": "UI_Talent_S_Mizuki_05"
+    },
+    "1092201": {
+      "name": "昼想夜梦",
+      "icon": "UI_Talent_S_Mizuki_06"
+    },
+    "1092301": {
+      "name": "诸病无病",
+      "icon": "UI_Talent_S_Mizuki_07"
+    }
+  },
+  "constellation": {
+    "1091": {
+      "name": "宿雾若水遥",
+      "icon": "UI_Talent_S_Mizuki_01"
+    },
+    "1092": {
+      "name": "缠忆君影梦相见",
+      "icon": "UI_Talent_S_Mizuki_02"
+    },
+    "1093": {
+      "name": "晓月又经宵",
+      "icon": "UI_Talent_U_Mizuki_01"
+    },
+    "1094": {
+      "name": "泉轻流花暖",
+      "icon": "UI_Talent_S_Mizuki_03"
+    },
+    "1095": {
+      "name": "岁云暮矣待月归",
+      "icon": "UI_Talent_U_Mizuki_02"
+    },
+    "1096": {
+      "name": "慕念萦心间",
+      "icon": "UI_Talent_S_Mizuki_04"
+    }
+  },
+  "talent_fix": {
+    "11092": "秋沙歌枕巡礼",
+    "11095": "安乐秘汤疗法"
+  },
+  "damage": [],
+  "buff": []
+}
