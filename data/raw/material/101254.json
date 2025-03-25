@@ -1,0 +1,34 @@
+{
+  "name": "云岩裂叶",
+  "description": "花叶的外侧犹如石质的奇特植物，在绽放后，会露出晶石一般的芯。",
+  "type": "纳塔区域特产",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "推荐：安饶之野采集",
+      "type": "single"
+    },
+    {
+      "name": "前往采集",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000111,
+          "name": "瓦雷莎",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Varesa"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_101254",
+  "rank": 1,
+  "route": "Skysplit Gembloom"
+}

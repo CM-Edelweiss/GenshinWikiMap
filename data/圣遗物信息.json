@@ -1492,5 +1492,65 @@
     "suit_id": 15038,
     "suit_name": "黑曜秘典",
     "part": "理之冠"
+  },
+  "UI_RelicIcon_15039_4": {
+    "name": "执灯人的誓词",
+    "suit_id": 15039,
+    "suit_name": "长夜之誓",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15039_2": {
+    "name": "夜鸣莺的尾羽",
+    "suit_id": 15039,
+    "suit_name": "长夜之誓",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15039_5": {
+    "name": "不死者的哀铃",
+    "suit_id": 15039,
+    "suit_name": "长夜之誓",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15039_1": {
+    "name": "未吹响的号角",
+    "suit_id": 15039,
+    "suit_name": "长夜之誓",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15039_3": {
+    "name": "被浸染的缨盔",
+    "suit_id": 15039,
+    "suit_name": "长夜之誓",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15040_4": {
+    "name": "深廊的回奏之歌",
+    "suit_id": 15040,
+    "suit_name": "深廊终曲",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15040_2": {
+    "name": "深廊的漫远之约",
+    "suit_id": 15040,
+    "suit_name": "深廊终曲",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15040_5": {
+    "name": "深廊的湮落之刻",
+    "suit_id": 15040,
+    "suit_name": "深廊终曲",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15040_1": {
+    "name": "深廊的饫赐之宴",
+    "suit_id": 15040,
+    "suit_name": "深廊终曲",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15040_3": {
+    "name": "深廊的遂失之冕",
+    "suit_id": 15040,
+    "suit_name": "深廊终曲",
+    "part": "理之冠"
   }
 }

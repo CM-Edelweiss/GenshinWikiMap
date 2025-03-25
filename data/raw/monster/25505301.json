@@ -1,0 +1,143 @@
+{
+  "id": 25505301,
+  "name": "横蛮勇士·抓扑人",
+  "type": "其他人类势力",
+  "icon": "UI_MonsterIcon_Human_Fat_Sword_Bisonsaurus",
+  "route": "Ferocious Warrior: Grappler",
+  "title": "横蛮勇士·抓扑人",
+  "specialName": "部族忠诚的护卫",
+  "description": "来自平原之上的勇士，在金穗田间巡游的部族守卫者。\\n仅用肢体进行格斗在「沃陆之邦」被视为一种荣耀之行，为此踏上修行之路的战士，拥有将投矛投出万钧之势的臂力。",
+  "entries": {
+    "25505301": {
+      "id": 25505301,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "部落战士-突角龙部落标记",
+          "description": "影响部落特殊技的施放",
+          "abilityName": [
+            "Monster_Human_TribeUltMark_Bisonsaurus"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "部落战士-胖子突角龙投枪",
+          "description": "控制投枪手中特效与Bullet",
+          "abilityName": [
+            "Monster_Tribalwarrior_Male_Fat_NoWeapon_SpearThrow_Bisonsaurus"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "部落战士-战前喷漆罐-暖色",
+          "description": "战前喷漆手中的Item颜色",
+          "abilityName": [
+            "Monster_Human_FreePoseManager_SprayCan_Warm"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 21.7344,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 25.12,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "fundamentalForce": "None",
+      "reward": null
+    },
+    "25505302": {
+      "id": 25505302,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "部落战士-突角龙部落标记",
+          "description": "影响部落特殊技的施放",
+          "abilityName": [
+            "Monster_Human_TribeUltMark_Bisonsaurus"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "部落战士-胖子突角龙投枪",
+          "description": "控制投枪手中特效与Bullet",
+          "abilityName": [
+            "Monster_Tribalwarrior_Male_Fat_NoWeapon_SpearThrow_Bisonsaurus"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "部落战士-战前喷漆罐-暖色",
+          "description": "战前喷漆手中的Item颜色",
+          "abilityName": [
+            "Monster_Human_FreePoseManager_SprayCan_Warm"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 21.7344,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 25.12,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "fundamentalForce": "None",
+      "reward": null
+    }
+  },
+  "tips": null
+}

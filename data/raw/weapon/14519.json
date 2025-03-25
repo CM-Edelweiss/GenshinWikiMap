@@ -1,0 +1,219 @@
+{
+  "id": 14519,
+  "rank": 5,
+  "type": "法器",
+  "name": "溢彩心念",
+  "description": "由沃陆之邦的宝石与花羽会的水晶锻造而成的奖杯，据说曾属于某位传奇的摔角手。",
+  "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+  "icon": "UI_EquipIcon_Catalyst_VaresaTransformer",
+  "storyId": [
+    "14519"
+  ],
+  "affix": {
+    "114519": {
+      "name": "落虹之愿",
+      "upgrade": {
+        "0": "攻击力提升<color=#99FFFFFF>28%<\/color>；进行下落攻击时，获得「初霞之彩」效果：下落攻击造成的暴击伤害提升<color=#99FFFFFF>28%<\/color>；施放元素战技或元素爆发时，获得「苍暮之辉」效果：下落攻击造成的暴击伤害提升<color=#99FFFFFF>40%<\/color>；上述两种效果各自持续15秒，并将在坠地冲击命中后的0.1秒后解除。",
+        "1": "攻击力提升<color=#99FFFFFF>35%<\/color>；进行下落攻击时，获得「初霞之彩」效果：下落攻击造成的暴击伤害提升<color=#99FFFFFF>35%<\/color>；施放元素战技或元素爆发时，获得「苍暮之辉」效果：下落攻击造成的暴击伤害提升<color=#99FFFFFF>50%<\/color>；上述两种效果各自持续15秒，并将在坠地冲击命中后的0.1秒后解除。",
+        "2": "攻击力提升<color=#99FFFFFF>42%<\/color>；进行下落攻击时，获得「初霞之彩」效果：下落攻击造成的暴击伤害提升<color=#99FFFFFF>42%<\/color>；施放元素战技或元素爆发时，获得「苍暮之辉」效果：下落攻击造成的暴击伤害提升<color=#99FFFFFF>60%<\/color>；上述两种效果各自持续15秒，并将在坠地冲击命中后的0.1秒后解除。",
+        "3": "攻击力提升<color=#99FFFFFF>49%<\/color>；进行下落攻击时，获得「初霞之彩」效果：下落攻击造成的暴击伤害提升<color=#99FFFFFF>49%<\/color>；施放元素战技或元素爆发时，获得「苍暮之辉」效果：下落攻击造成的暴击伤害提升<color=#99FFFFFF>70%<\/color>；上述两种效果各自持续15秒，并将在坠地冲击命中后的0.1秒后解除。",
+        "4": "攻击力提升<color=#99FFFFFF>56%<\/color>；进行下落攻击时，获得「初霞之彩」效果：下落攻击造成的暴击伤害提升<color=#99FFFFFF>56%<\/color>；施放元素战技或元素爆发时，获得「苍暮之辉」效果：下落攻击造成的暴击伤害提升<color=#99FFFFFF>80%<\/color>；上述两种效果各自持续15秒，并将在坠地冲击命中后的0.1秒后解除。"
+      }
+    }
+  },
+  "route": "Vivid Notions",
+  "upgrade": {
+    "awakenCost": [
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "prop": [
+      {
+        "type": "GROW_CURVE_ATTACK_302",
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 47.537
+      },
+      {
+        "type": "GROW_CURVE_CRITICAL_301",
+        "propType": "FIGHT_PROP_CRITICAL_HURT",
+        "initValue": 0.096
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112101": 3,
+          "112119": 5,
+          "114065": 5
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 31.1
+        },
+        "requiredPlayerLevel": 15,
+        "unlockMaxLevel": 40
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112101": 12,
+          "112119": 18,
+          "114066": 5
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 62.2
+        },
+        "requiredPlayerLevel": 25,
+        "unlockMaxLevel": 50
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112102": 9,
+          "112120": 9,
+          "114066": 9
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 93.4
+        },
+        "requiredPlayerLevel": 30,
+        "unlockMaxLevel": 60
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112102": 14,
+          "112120": 18,
+          "114067": 5
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 124.5
+        },
+        "requiredPlayerLevel": 35,
+        "unlockMaxLevel": 70
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112103": 9,
+          "112121": 14,
+          "114067": 9
+        },
+        "coinCost": 55000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.6
+        },
+        "requiredPlayerLevel": 40,
+        "unlockMaxLevel": 80
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112103": 18,
+          "112121": 27,
+          "114068": 6
+        },
+        "coinCost": 65000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 186.7
+        },
+        "requiredPlayerLevel": 50,
+        "unlockMaxLevel": 90
+      }
+    ]
+  },
+  "ascension": {
+    "112101": 1,
+    "112102": 2,
+    "112103": 3,
+    "112119": 2,
+    "112120": 3,
+    "112121": 4,
+    "114065": 2,
+    "114066": 3,
+    "114067": 4,
+    "114068": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112101": {
+      "name": "稚嫩的尖齿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112101"
+    },
+    "112102": {
+      "name": "老练的坚齿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112102"
+    },
+    "112103": {
+      "name": "横行霸者的利齿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112103"
+    },
+    "112119": {
+      "name": "冷裂壳块",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112119"
+    },
+    "112120": {
+      "name": "蕴热的背壳",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112120"
+    },
+    "112121": {
+      "name": "明燃的棱状壳",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112121"
+    },
+    "114065": {
+      "name": "谵妄圣主的朽败",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114065"
+    },
+    "114066": {
+      "name": "谵妄圣主的余哀",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114066"
+    },
+    "114067": {
+      "name": "谵妄圣主的容光",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114067"
+    },
+    "114068": {
+      "name": "谵妄圣主的神面",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114068"
+    }
+  }
+}

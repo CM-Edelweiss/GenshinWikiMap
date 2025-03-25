@@ -136,6 +136,8 @@ def draw_talent(talent: Talent, index: int, chara_name: str) -> PMImage:
     if promote_data := talent.get_promote_list():
         now_height += 20
         for name, value in promote_data.items():
+            if len(value) == 0:
+                continue
             promote_text = f"{name}  {value[8] if len(value) > 8 else value[0]}"
             promote_text_size = talent_data_font.getsize(promote_text)
             if this_width + promote_text_size[0] + 10 + 10 > 862:

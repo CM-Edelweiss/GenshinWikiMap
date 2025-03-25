@@ -1,0 +1,45 @@
+{
+  "name": "明燃的棱状壳",
+  "description": "击败炉壳山鼬后，从其背上取得的完整的背壳碎块。\\n据说在一个种群之中，地位越高的炉壳山鼬，其背后蕴藏的燃素会更多，而地位越低越弱的个体，背后蕴藏的燃素越少。形成这个现象的原因也许很好解释：地位越高的炉壳山鼬，需要运用到背后积蓄的燃素的机会或许永远没有地位低的个体那样多吧。",
+  "type": "角色与武器培养素材",
+  "recipe": {
+    "11074": {
+      "112120": {
+        "name": "蕴热的背壳",
+        "icon": "UI_ItemIcon_112120",
+        "rank": 3,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "60级以上炉壳山鼬掉落",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 14519,
+          "name": "溢彩心念",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Catalyst_VaresaTransformer"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 26290101,
+        "name": "炉壳山鼬",
+        "icon": "UI_MonsterIcon_VolcanoWeasel"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_112121",
+  "rank": 4,
+  "route": "Blazing Prismshell"
+}

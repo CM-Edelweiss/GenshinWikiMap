@@ -1,0 +1,57 @@
+{
+  "id": 25511101,
+  "name": "突角龙武士·破空轰动",
+  "type": "其他人类势力",
+  "icon": "UI_MonsterIcon_Tribalwarrior_Powermaul_Bisonsaurus",
+  "route": "Tatankasaurus Warrior: Skybreaker",
+  "title": "突角龙武士·破空轰动",
+  "specialName": "授获龙冠的勇武",
+  "description": "来自沃陆之上，勇武受到认可，得以获授龙冠的强大武士。\\n据说在「沃陆之邦」，与突角龙共同生活的战士们自龙伙伴的身上，学会了如何一边冲刺一边进行强力攻击的方法。使用重型武器的战士更是如此，据说，其中的秘诀其实是灵巧转动腰身的技术。",
+  "entries": {
+    "25511101": {
+      "id": 25511101,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010014,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010014,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 59.7696,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 50.24,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "fundamentalForce": "None",
+      "reward": null
+    }
+  },
+  "tips": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "15039",
+  "name": "长夜之誓",
+  "short_name": "长夜",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15039_4",
+  "part_list": {
+    "UI_RelicIcon_15039_4": {
+      "name": "执灯人的誓词",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15039_2": {
+      "name": "夜鸣莺的尾羽",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15039_5": {
+      "name": "不死者的哀铃",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15039_1": {
+      "name": "未吹响的号角",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15039_3": {
+      "name": "被浸染的缨盔",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

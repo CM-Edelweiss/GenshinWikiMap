@@ -1,0 +1,176 @@
+{
+  "id": 26290101,
+  "name": "炉壳山鼬",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_VolcanoWeasel",
+  "route": "Furnace Shell Mountain Weasel",
+  "title": "炉壳山鼬",
+  "specialName": "远古圣山的巡猎者",
+  "description": "因生活在与外界隔绝的特殊燃素环境之内，而拥有特殊形态的古代种山鼬。\\n通过进食富含燃素的生物，不断向背壳之中积蓄力量的古代兽种。于圣山废墟的长久生活之中，似乎由于独特的亲近燃素的性质，逐渐被圣山废墟之中的秘源机关影响，形成了独有的与秘源机关互相依附的生存状态。",
+  "entries": {
+    "26290101": {
+      "id": 26290101,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010021,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010021,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 149.424,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 82.896,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.5,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": "None",
+      "reward": {
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112119": {
+          "name": "冷裂壳块",
+          "rank": 2,
+          "icon": "UI_ItemIcon_112119",
+          "count": "6.5658"
+        },
+        "112120": {
+          "name": "蕴热的背壳",
+          "rank": 3,
+          "icon": "UI_ItemIcon_112120",
+          "count": "1.7508"
+        },
+        "112121": {
+          "name": "明燃的棱状壳",
+          "rank": 4,
+          "icon": "UI_ItemIcon_112121",
+          "count": "0.4378"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "name": "流放者",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "name": "流放者",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "name": "游医",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "26290102": {
+      "id": 26290102,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "火山鼬深渊词缀",
+          "description": "火山鼬深渊词缀",
+          "abilityName": [
+            "MonsterAffix_VolcanoWeasel_AbyssTag"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010021,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010021,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 149.424,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 82.896,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.5,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": "None",
+      "reward": null
+    }
+  },
+  "tips": {
+    "308801": {
+      "images": [
+        "UI_Tutorial_225"
+      ],
+      "description": "长期生活在圣山遗迹，与秘源机关相互依存的独特古种山兽。战斗时，炉壳山鼬会钻入地下并展开随身携带的「秘源机核」对周围进行周期性的攻击，此时，只要对「秘源机核」造成足够伤害即可迫使其本体自地下钻出。不过，既然它藏于地下，说不定此时<color=#FFE14BFF>利用下落攻击<\/color>会有更好的效果…"
+    }
+  }
+}

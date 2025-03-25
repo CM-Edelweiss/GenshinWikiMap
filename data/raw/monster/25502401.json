@@ -1,0 +1,159 @@
+{
+  "id": 25502401,
+  "name": "横蛮勇士·冲撞手",
+  "type": "其他人类势力",
+  "icon": "UI_MonsterIcon_Human_Male_Sword_Bisonsaurus",
+  "route": "Ferocious Warrior: Human Ram",
+  "title": "横蛮勇士·冲撞手",
+  "specialName": "部族忠诚的护卫",
+  "description": "来自平原之上的勇士，在金穗田间巡游的部族守卫者。\\n精通如何利用刃角攻击敌人弱点的技巧，切忌被其发现自身的破绽。",
+  "entries": {
+    "25502401": {
+      "id": 25502401,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "部落战士-单手钝器",
+          "description": "用于对攻击Type和特效配置进行区分",
+          "abilityName": [
+            "Monster_Human_Sword_EventAlter_Blunt"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "部落战士-战前喷漆罐-暖色",
+          "description": "战前喷漆手中的Item颜色",
+          "abilityName": [
+            "Monster_Human_FreePoseManager_SprayCan_Warm"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "部落战士-突角龙部落标记",
+          "description": "影响部落特殊技的施放",
+          "abilityName": [
+            "Monster_Human_TribeUltMark_Bisonsaurus"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "部落战士-突角龙部落角力逻辑",
+          "description": "角力相关配置",
+          "abilityName": [
+            "Monster_Human_Bisonsaurus_Wrestle"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 21.7344,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 22.608,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "fundamentalForce": "None",
+      "reward": null
+    },
+    "25502402": {
+      "id": 25502402,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "部落战士-单手钝器",
+          "description": "用于对攻击Type和特效配置进行区分",
+          "abilityName": [
+            "Monster_Human_Sword_EventAlter_Blunt"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "部落战士-战前喷漆罐-暖色",
+          "description": "战前喷漆手中的Item颜色",
+          "abilityName": [
+            "Monster_Human_FreePoseManager_SprayCan_Warm"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "部落战士-突角龙部落标记",
+          "description": "影响部落特殊技的施放",
+          "abilityName": [
+            "Monster_Human_TribeUltMark_Bisonsaurus"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "部落战士-突角龙部落角力逻辑",
+          "description": "角力相关配置",
+          "abilityName": [
+            "Monster_Human_Bisonsaurus_Wrestle"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 21.7344,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 22.608,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "fundamentalForce": "None",
+      "reward": null
+    }
+  },
+  "tips": null
+}

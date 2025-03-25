@@ -1,0 +1,47 @@
+{
+  "id": 15039,
+  "name": "长夜之誓",
+  "levelList": [
+    4,
+    5
+  ],
+  "affixList": {
+    "2150390": "下落攻击造成的伤害提升25%。",
+    "2150391": "装备者的下落攻击\/重击\/元素战技命中敌人后，获得1\/2\/2层「永照的流辉」，由下落攻击、重击或元素战技产生的该效果分别每1秒至多触发一次。永照的流辉：下落攻击造成的伤害提升15%，持续6秒，至多叠加5层，每层持续时间独立计算。"
+  },
+  "icon": "UI_RelicIcon_15039_4",
+  "route": "Long Night's Oath",
+  "suit": {
+    "EQUIP_BRACER": {
+      "name": "执灯人的誓词",
+      "description": "执灯士所佩戴的铁花，象征着此人曾发下永世守望的重誓。",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15039_4"
+    },
+    "EQUIP_NECKLACE": {
+      "name": "夜鸣莺的尾羽",
+      "description": "用夜莺的羽毛精心制成的帽饰，据说其形制由最初的铸灯者所定下。",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15039_2"
+    },
+    "EQUIP_SHOES": {
+      "name": "不死者的哀铃",
+      "description": "漫步黑渊的战士所携带的铜铃，在无光的夜里常常能听到它的哀鸣。",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15039_5"
+    },
+    "EQUIP_RING": {
+      "name": "未吹响的号角",
+      "description": "过去曾用来召集守誓之人的号角，如今早已失去其作用。",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15039_1"
+    },
+    "EQUIP_DRESS": {
+      "name": "被浸染的缨盔",
+      "description": "古老而沉重的头盔，是标识了北方古老战士家系的传承之物。",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15039_3"
+    }
+  },
+  "source": null
+}

@@ -1574,6 +1574,36 @@
       "rank": 1,
       "route": "Withering Purpurbloom"
     },
+    "101254": {
+      "id": 101254,
+      "name": "云岩裂叶",
+      "type": "localSpecialtyNatlan",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101254",
+      "rank": 1,
+      "route": "Skysplit Gembloom"
+    },
+    "101255": {
+      "id": 101255,
+      "name": "琉鳞石",
+      "type": "localSpecialtyNatlan",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101255",
+      "rank": 1,
+      "route": "Dracolite"
+    },
+    "101256": {
+      "id": 101256,
+      "name": "红果果菇",
+      "type": "cookingIngredient",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101256",
+      "rank": 1,
+      "route": "Red Berryshroom"
+    },
     "101301": {
       "id": 101301,
       "name": "桦木",
@@ -4314,6 +4344,36 @@
       "rank": 4,
       "route": "Illusory Leafcoil"
     },
+    "112119": {
+      "id": 112119,
+      "name": "冷裂壳块",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112119",
+      "rank": 2,
+      "route": "Cold-Cracked Shellshard"
+    },
+    "112120": {
+      "id": 112120,
+      "name": "蕴热的背壳",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112120",
+      "rank": 3,
+      "route": "Warm Back-Shell"
+    },
+    "112121": {
+      "id": 112121,
+      "name": "明燃的棱状壳",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112121",
+      "rank": 4,
+      "route": "Blazing Prismshell"
+    },
     "113001": {
       "id": 113001,
       "name": "飓风之种",
@@ -5023,6 +5083,16 @@
       "icon": "UI_ItemIcon_113071",
       "rank": 4,
       "route": "Talisman of the Enigmatic Land"
+    },
+    "113072": {
+      "id": 113072,
+      "name": "龙像的无智核",
+      "type": "characterLevelUpMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113072",
+      "rank": 4,
+      "route": "Sparkless Statue Core"
     },
     "114001": {
       "id": 114001,

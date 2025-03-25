@@ -1203,6 +1203,13 @@
     "icon": "UI_MonsterIcon_Human_Male_Sword_Shamansaurus",
     "route": "Spiritspeaker Warrior: Psychokinetic"
   },
+  "25502401": {
+    "id": 25502401,
+    "name": "横蛮勇士·冲撞手",
+    "type": "HUMAN",
+    "icon": "UI_MonsterIcon_Human_Male_Sword_Bisonsaurus",
+    "route": "Ferocious Warrior: Human Ram"
+  },
   "25503101": {
     "id": 25503101,
     "name": "疾迅勇士·重刃讯使",
@@ -1231,6 +1238,13 @@
     "icon": "UI_MonsterIcon_Human_MuscleMan_Claymore_Flamingo",
     "route": "Winged Warrior: Skymaster"
   },
+  "25504301": {
+    "id": 25504301,
+    "name": "横蛮勇士·摔跤客",
+    "type": "HUMAN",
+    "icon": "UI_MonsterIcon_Human_MuscleMan_Claymore_Bisonsaurus",
+    "route": "Ferocious Warrior: Wrestler"
+  },
   "25505101": {
     "id": 25505101,
     "name": "铸砂勇士·投矛手",
@@ -1244,6 +1258,13 @@
     "type": "HUMAN",
     "icon": "UI_MonsterIcon_Human_Fat_NoWeapon_Mosasaurus",
     "route": "Flowing Blade Harpoon-Thrower"
+  },
+  "25505301": {
+    "id": 25505301,
+    "name": "横蛮勇士·抓扑人",
+    "type": "HUMAN",
+    "icon": "UI_MonsterIcon_Human_Fat_Sword_Bisonsaurus",
+    "route": "Ferocious Warrior: Grappler"
   },
   "25510101": {
     "id": 25510101,
@@ -1314,6 +1335,20 @@
     "type": "HUMAN",
     "icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Shamansaurus",
     "route": "Iktomisaurus Warrior: Cryocrystal Cannon"
+  },
+  "25511101": {
+    "id": 25511101,
+    "name": "突角龙武士·破空轰动",
+    "type": "HUMAN",
+    "icon": "UI_MonsterIcon_Tribalwarrior_Powermaul_Bisonsaurus",
+    "route": "Tatankasaurus Warrior: Skybreaker"
+  },
+  "25511201": {
+    "id": 25511201,
+    "name": "突角龙武士·追缉灵光",
+    "type": "HUMAN",
+    "icon": "UI_MonsterIcon_Tribalwarrior_Slingshot_Bisonsaurus",
+    "route": "Tatankasaurus Warrior: Spiritlight Chaser"
   },
   "25520101": {
     "id": 25520101,
@@ -1819,6 +1854,20 @@
     "icon": "UI_MonsterIcon_Natsaurus_Shamansaurus_Normal",
     "route": "Iktomisaurus"
   },
+  "26250101": {
+    "id": 26250101,
+    "name": "幼突角龙",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Natsaurus_Bisonsaurus_Small",
+    "route": "Tatankasaur Whelp"
+  },
+  "26250201": {
+    "id": 26250201,
+    "name": "突角龙",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Natsaurus_Bisonsaurus_Normal",
+    "route": "Tatankasaurus"
+  },
   "26260101": {
     "id": 26260101,
     "name": "窟岩·大灵显化身",
@@ -1854,6 +1903,13 @@
     "icon": "UI_MonsterIcon_Wayob_Flamingo",
     "route": "Burning-Aflame Wayob Manifestation"
   },
+  "26261101": {
+    "id": 26261101,
+    "name": "雳震·大灵显化身",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Wayob_Bisonsaurus",
+    "route": "Thundering Wayob Manifestation"
+  },
   "26270101": {
     "id": 26270101,
     "name": "熔岩游像·流燃体",
@@ -1867,6 +1923,20 @@
     "type": "BEAST",
     "icon": "UI_MonsterIcon_Lava_Solid",
     "route": "Eroding Avatar of Lava"
+  },
+  "26270301": {
+    "id": 26270301,
+    "name": "熔岩辉龙像",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_LavaTitan",
+    "route": "Lava Dragon Statue"
+  },
+  "26290101": {
+    "id": 26290101,
+    "name": "炉壳山鼬",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_VolcanoWeasel",
+    "route": "Furnace Shell Mountain Weasel"
   },
   "28010101": {
     "id": 28010101,
@@ -2071,6 +2141,13 @@
     "icon": "UI_AnimalIcon_Boar_Grass",
     "route": "Shroomboar"
   },
+  "28020321": {
+    "id": 28020321,
+    "name": "赤鬃古林猪",
+    "type": "ANIMAL",
+    "icon": "UI_AnimalIcon_Boar_07",
+    "route": "Ancient Red-Mane Boar"
+  },
   "28020401": {
     "id": 28020401,
     "name": "北地犬",
@@ -2231,6 +2308,13 @@
     "type": "ANIMAL",
     "icon": "UI_AnimalIcon_Tortoise_02",
     "route": "Jadestone Turtle"
+  },
+  "28021003": {
+    "id": 28021003,
+    "name": "琉背古彩龟",
+    "type": "ANIMAL",
+    "icon": "UI_AnimalIcon_Tortoise_03",
+    "route": "Ancient Glazeback Turtle"
   },
   "28021101": {
     "id": 28021101,
@@ -2442,6 +2526,13 @@
     "icon": "UI_AnimalIcon_Tit_04",
     "route": "Emerald Finch"
   },
+  "28030411": {
+    "id": 28030411,
+    "name": "朱羽古团雀",
+    "type": "AVIARY",
+    "icon": "UI_AnimalIcon_Tit_05",
+    "route": "Ancient Scarlet-Plume Finch"
+  },
   "28030501": {
     "id": 28030501,
     "name": "赤喙鸭",
@@ -2469,6 +2560,13 @@
     "type": "AVIARY",
     "icon": "UI_AnimalIcon_Wigeon_Spoonbill_01",
     "route": "Blue Mountain Spoonbill"
+  },
+  "28030509": {
+    "id": 28030509,
+    "name": "游炎古琵鹭",
+    "type": "AVIARY",
+    "icon": "UI_AnimalIcon_Wigeon_Spoonbill_02",
+    "route": "Ancient Firewalker Spoonbill"
   },
   "28030601": {
     "id": 28030601,
@@ -2917,6 +3015,13 @@
     "type": "FISH",
     "icon": "UI_ItemIcon_131044",
     "route": "Pseudoshark Unihornfish"
+  },
+  "28041501": {
+    "id": 28041501,
+    "name": "秘源机关·巡戒使",
+    "type": "FISH",
+    "icon": "UI_ItemIcon_131045",
+    "route": "Secret Source Scout Sweeper"
   },
   "28050101": {
     "id": 28050101,

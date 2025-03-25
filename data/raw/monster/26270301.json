@@ -1,0 +1,215 @@
+{
+  "id": 26270301,
+  "name": "熔岩辉龙像",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_LavaTitan",
+  "route": "Lava Dragon Statue",
+  "title": "熔岩辉龙像",
+  "specialName": "石心流焰的终型",
+  "description": "能够自身持续产生热量，以维持活动状态的魔物。\\n据说，由熔岩作为核心的魔物，是有别于后来诞生的秘源机关的另一方向研究的副产物。其研究的主题即是，原初的火焰是否能够模仿人类创造新的种族…但研究毫无疑问失败了，在天上掠夺者的圣座到来之后，源火之中所能诞生的，最终也只有这样徒具备形态和生命力，却无知无觉的空壳魔物。",
+  "entries": {
+    "26270301": {
+      "id": 26270301,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010031,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010031,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 366.768,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 100.48,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": "None",
+      "reward": {
+        "102": {
+          "name": "冒险阅历",
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "200"
+        },
+        "105": {
+          "name": "好感经验",
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "name": "摩拉",
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "104111": {
+          "name": "燃愿玛瑙碎屑",
+          "rank": 2,
+          "icon": "UI_ItemIcon_104111"
+        },
+        "104112": {
+          "name": "燃愿玛瑙断片",
+          "rank": 3,
+          "icon": "UI_ItemIcon_104112"
+        },
+        "104113": {
+          "name": "燃愿玛瑙块",
+          "rank": 4,
+          "icon": "UI_ItemIcon_104113"
+        },
+        "104114": {
+          "name": "燃愿玛瑙",
+          "rank": 5,
+          "icon": "UI_ItemIcon_104114"
+        },
+        "113072": {
+          "name": "龙像的无智核",
+          "rank": 4,
+          "icon": "UI_ItemIcon_113072",
+          "count": "2.5556"
+        },
+        "400022": {
+          "name": "战狂",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "name": "战狂",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "name": "教官",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "name": "教官",
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400047": {
+          "name": "冒险家",
+          "rank": 3,
+          "icon": "UI_RelicIcon_10010_4"
+        },
+        "400088": {
+          "name": "角斗士的终幕礼",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "name": "角斗士的终幕礼",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "name": "流浪大地的乐团",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "name": "流浪大地的乐团",
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400127": {
+          "name": "祭火之人",
+          "rank": 3,
+          "icon": "UI_RelicIcon_15009_3"
+        },
+        "400128": {
+          "name": "祭火之人",
+          "rank": 4,
+          "icon": "UI_RelicIcon_15009_3"
+        }
+      }
+    },
+    "26270302": {
+      "id": 26270302,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "石头人爬塔标记",
+          "description": "石头人爬塔标记",
+          "abilityName": [
+            "MonsterAffix_LavaTitan_AbyssTag"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010031,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010031,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 366.768,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 100.48,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": "None",
+      "reward": null
+    }
+  },
+  "tips": {
+    "308901": {
+      "images": [
+        "UI_Tutorial_224"
+      ],
+      "description": "能够自身持续产生热量，拥有两种形态的魔物。在处于「岩之人」状态时，可以<color=#FFE14BFF>用火元素攻击<\/color>使其完全进入「熔焰之龙」的状态，此时，如果继续<color=#FFE14BFF>用火元素攻击<\/color>，就会使其进入过度燃烧的状态，不过此时若令其冷却，就会恢复回「岩之人」的形态…"
+    }
+  }
+}

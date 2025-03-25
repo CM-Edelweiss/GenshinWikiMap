@@ -1,0 +1,47 @@
+{
+  "id": 15040,
+  "name": "深廊终曲",
+  "levelList": [
+    4,
+    5
+  ],
+  "affixList": {
+    "2150400": "获得15%冰元素伤害加成。",
+    "2150401": "装备者的元素能量为0时，普通攻击造成的伤害提升60%，元素爆发造成的伤害提升60%。装备者的普通攻击造成伤害后，上述元素爆发伤害提升效果将失效6秒；装备者的元素爆发造成伤害后，上述普通攻击伤害提升效果将失效6秒。角色处于队伍后台也能触发。"
+  },
+  "icon": "UI_RelicIcon_15040_4",
+  "route": "Finale of the Deep Galleries",
+  "suit": {
+    "EQUIP_BRACER": {
+      "name": "深廊的回奏之歌",
+      "description": "由北国的玉石打造而成的冰之花，花瓣已然在漫长的岁月中湮落成尘。",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15040_4"
+    },
+    "EQUIP_NECKLACE": {
+      "name": "深廊的漫远之约",
+      "description": "由北国的玉石打造而成的羽饰，折射出的幽光仿佛不应属于这个世界。",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15040_2"
+    },
+    "EQUIP_SHOES": {
+      "name": "深廊的湮落之刻",
+      "description": "由北国的玉石打造而成的怀表，指针已永久停驻于湮灭的那一刻。",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15040_5"
+    },
+    "EQUIP_RING": {
+      "name": "深廊的饫赐之宴",
+      "description": "由北国的玉石打造而成的杯盏，据说曾是古老的文明用以向高天奉献的礼器。",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15040_1"
+    },
+    "EQUIP_DRESS": {
+      "name": "深廊的遂失之冕",
+      "description": "如同其旧主的心神一般，为「执念」所浸染的盔面。其上装饰的玉石似乎来自更古老的时代。",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15040_3"
+    }
+  },
+  "source": null
+}

@@ -1475,6 +1475,15 @@
     "icon": "UI_EquipIcon_Catalyst_SakuraFan",
     "route": "Sunny Morning Sleep-In"
   },
+  "14519": {
+    "id": 14519,
+    "rank": 5,
+    "type": "WEAPON_CATALYST",
+    "name": "溢彩心念",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "icon": "UI_EquipIcon_Catalyst_VaresaTransformer",
+    "route": "Vivid Notions"
+  },
   "15101": {
     "id": 15101,
     "rank": 1,

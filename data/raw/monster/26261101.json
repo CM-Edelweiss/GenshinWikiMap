@@ -1,0 +1,109 @@
+{
+  "id": 26261101,
+  "name": "雳震·大灵显化身",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Wayob_Bisonsaurus",
+  "route": "Thundering Wayob Manifestation",
+  "title": "雳震·大灵显化身",
+  "specialName": "夜晚与游灵的代行",
+  "description": "「沃陆之邦」部族所信仰与崇拜的「大灵」，借由图腾与夜魂之力，于大地之上显化的形体。\\n在「沃陆之邦」的部族的传说里，「大灵」曾经幻化过种种样貌，在晦暗而看不清相互面目的黎明之前，与部族里有名的大力士角力，不过往往以两者相持不下为结尾告终。\\n「沃陆之邦」的人相信他们的「大灵」拥有控制雷霆与速度的力量，能够为土地带来富饶的物产。",
+  "entries": {
+    "26261101": {
+      "id": 26261101,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010014,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 95.088,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 57.776,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.5,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": "None",
+      "reward": null
+    },
+    "26261102": {
+      "id": 26261102,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "5.0大灵开场力场词缀",
+          "description": "5.0大灵开场力场词缀",
+          "abilityName": [
+            "MonsterAffix_Wayob_GoFirstField"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010014,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 95.088,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 57.776,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.5,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": "None",
+      "reward": null
+    }
+  },
+  "tips": {
+    "309001": {
+      "images": [
+        "UI_Tutorial_226"
+      ],
+      "description": "纳塔各个部族所信仰的「大灵」借由黑曜石图腾的形象如斯显化。战斗中，大灵显化身会在一段时间内张开「领域·试炼之刻」，为自己创造护盾，并持续吸收领域内队伍中所有角色的元素能量。领域内的角色造成的伤害将大幅提高。<color=#FFE14BFF>在领域结束前破除护盾<\/color>，则将获得返还的大量元素能量，若无法破除，大灵显化身会根据剩余护盾的量生成元素护罩。"
+    }
+  }
+}
