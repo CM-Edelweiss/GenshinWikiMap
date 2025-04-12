@@ -1,0 +1,135 @@
+{
+  "id": 10000111,
+  "name": "瓦雷莎",
+  "element": "雷",
+  "weapon": "法器",
+  "rank": 5,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Varesa",
+    "side": "UI_AvatarIcon_Side_Varesa",
+    "card": "UI_AvatarIcon_Varesa_Card",
+    "splash": "UI_Gacha_AvatarImg_Varesa",
+    "slice": "UI_Gacha_AvatarIcon_Varesa"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 988.592834,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        847.62897,
+        1449.8916,
+        2252.9087,
+        2855.1714,
+        3457.434,
+        4059.6965
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 27.743799,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        23.786062,
+        40.686684,
+        63.220848,
+        80.121475,
+        97.022095,
+        113.922714
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 60.847111,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        52.1721,
+        89.24175,
+        138.66795,
+        175.7376,
+        212.80725,
+        249.8769
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL",
+      "promote": [
+        23.786062,
+        0.048,
+        0.096,
+        0.096,
+        0.144,
+        0.192
+      ]
+    }
+  ],
+  "talent": {
+    "11111": {
+      "name": "普通攻击·角力搏摔",
+      "icon": "Skill_A_Catalyst_MD"
+    },
+    "11112": {
+      "name": "夜虹逐跃",
+      "icon": "Skill_S_Varesa_01"
+    },
+    "11115": {
+      "name": "闪烈降临！",
+      "icon": "Skill_E_Varesa_01"
+    },
+    "1112101": {
+      "name": "连势，三重腾跃！",
+      "icon": "UI_Talent_S_Varesa_05"
+    },
+    "1112201": {
+      "name": "英雄，二度归来！",
+      "icon": "UI_Talent_S_Varesa_06"
+    },
+    "1112301": {
+      "name": "夜域赐礼·炬照焚恶",
+      "icon": "UI_Talent_S_Varesa_07"
+    },
+    "1112501": {
+      "name": "炽心，一往直前！",
+      "icon": "UI_Talent_S_Varesa_08"
+    }
+  },
+  "constellation": {
+    "1111": {
+      "name": "终始不熄的热诚",
+      "icon": "UI_Talent_S_Varesa_01"
+    },
+    "1112": {
+      "name": "逾越天光的极限",
+      "icon": "UI_Talent_S_Varesa_02"
+    },
+    "1113": {
+      "name": "百折不摧的决意",
+      "icon": "UI_Talent_U_Varesa_01"
+    },
+    "1114": {
+      "name": "直面前路的勇气",
+      "icon": "UI_Talent_S_Varesa_03"
+    },
+    "1115": {
+      "name": "暖风浮漾的心念",
+      "icon": "UI_Talent_U_Varesa_02"
+    },
+    "1116": {
+      "name": "正义英雄的凯旋",
+      "icon": "UI_Talent_S_Varesa_04"
+    }
+  },
+  "talent_fix": {
+    "11115": "闪烈降临！",
+    "11111": "普通攻击·角力搏摔"
+  },
+  "damage": [],
+  "buff": []
+}

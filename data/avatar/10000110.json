@@ -1,0 +1,135 @@
+{
+  "id": 10000110,
+  "name": "伊安珊",
+  "element": "雷",
+  "weapon": "长柄武器",
+  "rank": 4,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Iansan",
+    "side": "UI_AvatarIcon_Side_Iansan",
+    "card": "UI_AvatarIcon_Iansan_Card",
+    "splash": "UI_Gacha_AvatarImg_Iansan",
+    "slice": "UI_Gacha_AvatarIcon_Iansan"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 893.555176,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        667.5315,
+        1141.8302,
+        1774.2284,
+        2248.527,
+        2722.8257,
+        3197.1245
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 21.54768,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        16.097597,
+        27.535364,
+        42.78572,
+        54.223488,
+        65.661255,
+        77.09902
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 53.505375,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        39.97125,
+        68.37187,
+        106.23937,
+        134.64,
+        163.04062,
+        191.44125
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ATTACK_PERCENT",
+      "promote": [
+        16.097597,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "11101": {
+      "name": "普通攻击·负重锥击",
+      "icon": "Skill_A_03"
+    },
+    "11102": {
+      "name": "电掣雷驰",
+      "icon": "Skill_S_Iansan_01"
+    },
+    "11105": {
+      "name": "力的三原理",
+      "icon": "Skill_E_Iansan_01"
+    },
+    "1102101": {
+      "name": "强化抗阻练习",
+      "icon": "UI_Talent_S_Iansan_05"
+    },
+    "1102201": {
+      "name": "动能梯度测验",
+      "icon": "UI_Talent_S_Iansan_06"
+    },
+    "1102301": {
+      "name": "夜域赐礼·勉力传动",
+      "icon": "UI_Talent_S_Varesa_07"
+    },
+    "1102501": {
+      "name": "热量均衡计划",
+      "icon": "UI_Talent_S_Iansan_08"
+    }
+  },
+  "constellation": {
+    "1101": {
+      "name": "万事从来开头难",
+      "icon": "UI_Talent_S_Iansan_01"
+    },
+    "1102": {
+      "name": "偷懒是健身大忌!",
+      "icon": "UI_Talent_S_Iansan_02"
+    },
+    "1103": {
+      "name": "科学的饮食规划",
+      "icon": "UI_Talent_U_Iansan_01"
+    },
+    "1104": {
+      "name": "循序渐进是关键",
+      "icon": "UI_Talent_S_Iansan_03"
+    },
+    "1105": {
+      "name": "还没有到极限呢！",
+      "icon": "UI_Talent_U_Iansan_02"
+    },
+    "1106": {
+      "name": "「沃陆之邦」的训教",
+      "icon": "UI_Talent_S_Iansan_04"
+    }
+  },
+  "talent_fix": {
+    "11102": "电掣雷驰",
+    "11105": "力的三原理"
+  },
+  "damage": [],
+  "buff": []
+}
