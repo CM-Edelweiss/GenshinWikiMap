@@ -1,0 +1,132 @@
+{
+  "id": 10000113,
+  "name": "伊法",
+  "element": "风",
+  "weapon": "法器",
+  "rank": 4,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Ifa",
+    "side": "UI_AvatarIcon_Side_Ifa",
+    "card": "UI_AvatarIcon_Ifa_Card",
+    "splash": "UI_Gacha_AvatarImg_Ifa",
+    "slice": "UI_Gacha_AvatarIcon_Ifa"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 845.2303,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        631.4303,
+        1080.0781,
+        1678.2753,
+        2126.923,
+        2575.5708,
+        3024.2188
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 14.95872,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        11.175192,
+        19.11546,
+        29.702484,
+        37.642754,
+        45.58302,
+        53.52329
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 50.758575,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        37.91925,
+        64.86188,
+        100.78538,
+        127.728,
+        154.67062,
+        181.61325
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ELEMENT_MASTERY",
+      "promote": [
+        11.175192,
+        24,
+        48,
+        48,
+        72,
+        96
+      ]
+    }
+  ],
+  "talent": {
+    "11131": {
+      "name": "祛风妙仪",
+      "icon": "Skill_A_Catalyst_MD"
+    },
+    "11132": {
+      "name": "空天疾护",
+      "icon": "Skill_S_Ifa_01"
+    },
+    "11135": {
+      "name": "复合镇静域",
+      "icon": "Skill_E_Ifa_01"
+    },
+    "1132101": {
+      "name": "场中医者视野",
+      "icon": "UI_Talent_S_Ifa_05"
+    },
+    "1132201": {
+      "name": "互助救援协议",
+      "icon": "UI_Talent_S_Ifa_06"
+    },
+    "1132301": {
+      "name": "夜域赐礼·集念急救",
+      "icon": "UI_Talent_S_Ifa_07"
+    },
+    "1132501": {
+      "name": "温敷战术包扎",
+      "icon": "UI_Talent_S_Ifa_08"
+    }
+  },
+  "constellation": {
+    "1131": {
+      "name": "藤典药剂的备制",
+      "icon": "UI_Talent_S_Ifa_01"
+    },
+    "1132": {
+      "name": "祈祷弹道的助灵",
+      "icon": "UI_Talent_S_Ifa_02"
+    },
+    "1133": {
+      "name": "与夜谈判的驳词",
+      "icon": "UI_Talent_U_Ifa_01"
+    },
+    "1134": {
+      "name": "糜烂应体的置换",
+      "icon": "UI_Talent_S_Ifa_03"
+    },
+    "1135": {
+      "name": "万物同生的共誓",
+      "icon": "UI_Talent_U_Ifa_02"
+    },
+    "1136": {
+      "name": "羽结所庇的诺言",
+      "icon": "UI_Talent_S_Ifa_04"
+    }
+  },
+  "talent_fix": {},
+  "damage": [],
+  "buff": []
+}

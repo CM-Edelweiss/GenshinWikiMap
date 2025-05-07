@@ -856,13 +856,13 @@
     },
     "100619": {
       "id": 100619,
-      "name": "汲取了生命力的龙牙",
+      "name": "汲取了力量的龙牙",
       "type": "material",
       "recipe": null,
       "mapMark": false,
       "icon": "UI_ItemIcon_100619",
       "rank": 1,
-      "route": "Vitalized Dragontooth"
+      "route": "Empowered Dragontooth"
     },
     "100957": {
       "id": 100957,
@@ -5094,6 +5094,46 @@
       "rank": 4,
       "route": "Sparkless Statue Core"
     },
+    "113073": {
+      "id": 113073,
+      "name": "升扬样本·骑士",
+      "type": "characterLevelUpMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113073",
+      "rank": 5,
+      "route": "Ascended Sample: Knight"
+    },
+    "113074": {
+      "id": 113074,
+      "name": "升扬样本·战车",
+      "type": "characterLevelUpMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113074",
+      "rank": 5,
+      "route": "Ascended Sample: Rook"
+    },
+    "113075": {
+      "id": 113075,
+      "name": "升扬样本·王族",
+      "type": "characterLevelUpMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113075",
+      "rank": 5,
+      "route": "Ascended Sample: Queen"
+    },
+    "113076": {
+      "id": 113076,
+      "name": "秘源积气喉",
+      "type": "characterLevelUpMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113076",
+      "rank": 4,
+      "route": "Secret Source Airflow Accumulator"
+    },
     "114001": {
       "id": 114001,
       "name": "高塔孤王的破瓦",
@@ -5853,6 +5893,16 @@
       "icon": "UI_ItemIcon_121068",
       "rank": 4,
       "route": "Pilgrim's Chronicle"
+    },
+    "121234": {
+      "id": 121234,
+      "name": "绮灿而神秘的赠礼",
+      "type": "questItem",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_121234",
+      "rank": 5,
+      "route": "Dazzling, Mysterious Gift"
     },
     "129001": {
       "id": 129001,

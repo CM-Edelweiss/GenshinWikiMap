@@ -1,0 +1,219 @@
+{
+  "id": 13514,
+  "rank": 5,
+  "type": "长柄武器",
+  "name": "香韵奏者",
+  "description": "形制典雅的长枪，据说曾是某位伟大乐师在音律和味觉之间建起桥梁的指挥棒。",
+  "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+  "icon": "UI_EquipIcon_Pole_Trident",
+  "storyId": [
+    "13514"
+  ],
+  "affix": {
+    "113514": {
+      "name": "百味交响",
+      "upgrade": {
+        "0": "攻击力提升<color=#99FFFFFF>12%<\/color>；当装备此武器的角色处于队伍后台时，攻击力额外提升<color=#99FFFFFF>12%<\/color>。进行治疗后，装备者与受到治疗的角色会获得「甘美回奏」的效果，攻击力提升<color=#99FFFFFF>32%<\/color>，持续3秒。装备者处于队伍后台时，依然能触发上述效果。",
+        "1": "攻击力提升<color=#99FFFFFF>15%<\/color>；当装备此武器的角色处于队伍后台时，攻击力额外提升<color=#99FFFFFF>15%<\/color>。进行治疗后，装备者与受到治疗的角色会获得「甘美回奏」的效果，攻击力提升<color=#99FFFFFF>40%<\/color>，持续3秒。装备者处于队伍后台时，依然能触发上述效果。",
+        "2": "攻击力提升<color=#99FFFFFF>18%<\/color>；当装备此武器的角色处于队伍后台时，攻击力额外提升<color=#99FFFFFF>18%<\/color>。进行治疗后，装备者与受到治疗的角色会获得「甘美回奏」的效果，攻击力提升<color=#99FFFFFF>48%<\/color>，持续3秒。装备者处于队伍后台时，依然能触发上述效果。",
+        "3": "攻击力提升<color=#99FFFFFF>21%<\/color>；当装备此武器的角色处于队伍后台时，攻击力额外提升<color=#99FFFFFF>21%<\/color>。进行治疗后，装备者与受到治疗的角色会获得「甘美回奏」的效果，攻击力提升<color=#99FFFFFF>56%<\/color>，持续3秒。装备者处于队伍后台时，依然能触发上述效果。",
+        "4": "攻击力提升<color=#99FFFFFF>24%<\/color>；当装备此武器的角色处于队伍后台时，攻击力额外提升<color=#99FFFFFF>24%<\/color>。进行治疗后，装备者与受到治疗的角色会获得「甘美回奏」的效果，攻击力提升<color=#99FFFFFF>64%<\/color>，持续3秒。装备者处于队伍后台时，依然能触发上述效果。"
+      }
+    }
+  },
+  "route": "Symphonist of Scents",
+  "upgrade": {
+    "awakenCost": [
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "prop": [
+      {
+        "type": "GROW_CURVE_ATTACK_301",
+        "initValue": 45.9364,
+        "propType": "FIGHT_PROP_BASE_ATTACK"
+      },
+      {
+        "type": "GROW_CURVE_CRITICAL_301",
+        "initValue": 0.144,
+        "propType": "FIGHT_PROP_CRITICAL_HURT"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112080": 3,
+          "112086": 5,
+          "114053": 5
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 31.1
+        },
+        "requiredPlayerLevel": 15,
+        "unlockMaxLevel": 40
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112080": 12,
+          "112086": 18,
+          "114054": 5
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 62.2
+        },
+        "requiredPlayerLevel": 25,
+        "unlockMaxLevel": 50
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112081": 9,
+          "112087": 9,
+          "114054": 9
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 93.4
+        },
+        "requiredPlayerLevel": 30,
+        "unlockMaxLevel": 60
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112081": 14,
+          "112087": 18,
+          "114055": 5
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 124.5
+        },
+        "requiredPlayerLevel": 35,
+        "unlockMaxLevel": 70
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112082": 9,
+          "112088": 14,
+          "114055": 9
+        },
+        "coinCost": 55000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.6
+        },
+        "requiredPlayerLevel": 40,
+        "unlockMaxLevel": 80
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112082": 18,
+          "112088": 27,
+          "114056": 6
+        },
+        "coinCost": 65000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 186.7
+        },
+        "requiredPlayerLevel": 50,
+        "unlockMaxLevel": 90
+      }
+    ]
+  },
+  "ascension": {
+    "112080": 1,
+    "112081": 2,
+    "112082": 3,
+    "112086": 2,
+    "112087": 3,
+    "112088": 4,
+    "114053": 2,
+    "114054": 3,
+    "114055": 4,
+    "114056": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112080": {
+      "name": "异海凝珠",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112080"
+    },
+    "112081": {
+      "name": "异海之块",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112081"
+    },
+    "112082": {
+      "name": "异色结晶石",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112082"
+    },
+    "112086": {
+      "name": "浊水的一滴",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112086"
+    },
+    "112087": {
+      "name": "浊水的一掬",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112087"
+    },
+    "112088": {
+      "name": "初生的浊水幻灵",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112088"
+    },
+    "114053": {
+      "name": "纯圣露滴的滤渣",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114053"
+    },
+    "114054": {
+      "name": "纯圣露滴的凝华",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114054"
+    },
+    "114055": {
+      "name": "纯圣露滴的醴泉",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114055"
+    },
+    "114056": {
+      "name": "纯圣露滴的真粹",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114056"
+    }
+  }
+}

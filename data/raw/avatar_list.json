@@ -1631,6 +1631,40 @@
     "release": 1742853600,
     "route": "Varesa"
   },
+  "10000112": {
+    "id": 10000112,
+    "rank": 5,
+    "name": "爱可菲",
+    "element": "Ice",
+    "weaponType": "WEAPON_POLE",
+    "region": "FONTAINE",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "bodyType": "GIRL",
+    "icon": "UI_AvatarIcon_Escoffier",
+    "birthday": [
+      6,
+      8
+    ],
+    "release": 1746478800,
+    "route": "Escoffier"
+  },
+  "10000113": {
+    "id": 10000113,
+    "rank": 4,
+    "name": "伊法",
+    "element": "Wind",
+    "weaponType": "WEAPON_CATALYST",
+    "region": "NATLAN",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
+    "bodyType": "MALE",
+    "icon": "UI_AvatarIcon_Ifa",
+    "birthday": [
+      3,
+      23
+    ],
+    "release": 1746478800,
+    "route": "Ifa"
+  },
   "10000005-pyro": {
     "id": "10000005-pyro",
     "rank": 5,

@@ -1,0 +1,128 @@
+{
+  "id": 10000112,
+  "name": "爱可菲",
+  "element": "冰",
+  "weapon": "长柄武器",
+  "rank": 5,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Escoffier",
+    "side": "UI_AvatarIcon_Side_Escoffier",
+    "card": "UI_AvatarIcon_Escoffier_Card",
+    "splash": "UI_Gacha_AvatarImg_Escoffier",
+    "slice": "UI_Gacha_AvatarIcon_Escoffier"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1039.1188,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        890.95044,
+        1523.9941,
+        2368.0525,
+        3001.0962,
+        3634.14,
+        4267.1836
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 26.999,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        23.14751,
+        39.594425,
+        61.523643,
+        77.97056,
+        94.41747,
+        110.86439
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 56.95816,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        48.8376,
+        83.538,
+        129.8052,
+        164.5056,
+        199.206,
+        233.9064
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL",
+      "promote": [
+        23.14751,
+        0.048,
+        0.096,
+        0.096,
+        0.144,
+        0.192
+      ]
+    }
+  ],
+  "talent": {
+    "11121": {
+      "name": "后厨手艺",
+      "icon": "Skill_A_03"
+    },
+    "11122": {
+      "name": "低温烹饪",
+      "icon": "Skill_S_Escoffier_01"
+    },
+    "11125": {
+      "name": "花刀技法",
+      "icon": "Skill_E_Escoffier_01"
+    },
+    "1122101": {
+      "name": "美食胜过良药",
+      "icon": "UI_Talent_S_Escoffier_05"
+    },
+    "1122201": {
+      "name": "灵感浸入调味",
+      "icon": "UI_Talent_S_Escoffier_06"
+    },
+    "1122301": {
+      "name": "时时刻刻的即兴料理",
+      "icon": "UI_Talent_S_Escoffier_08"
+    }
+  },
+  "constellation": {
+    "1121": {
+      "name": "味蕾绽放的餐前旋舞",
+      "icon": "UI_Talent_S_Escoffier_01"
+    },
+    "1122": {
+      "name": "鲜香味腴的炖煮艺术",
+      "icon": "UI_Talent_S_Escoffier_02"
+    },
+    "1123": {
+      "name": "焦糖褐变的烘烤魔法",
+      "icon": "UI_Talent_U_Escoffier_01"
+    },
+    "1124": {
+      "name": "迷迭生香的配比秘方",
+      "icon": "UI_Talent_S_Escoffier_03"
+    },
+    "1125": {
+      "name": "千种酱汁的风味交响",
+      "icon": "UI_Talent_U_Escoffier_02"
+    },
+    "1126": {
+      "name": "虹彩缤纷的甜点茶话",
+      "icon": "UI_Talent_S_Escoffier_04"
+    }
+  },
+  "talent_fix": {},
+  "damage": [],
+  "buff": []
+}

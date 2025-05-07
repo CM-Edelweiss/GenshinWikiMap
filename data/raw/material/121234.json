@@ -1,0 +1,16 @@
+{
+  "name": "绮灿而神秘的赠礼",
+  "description": "装有星形宝石的水晶球，光彩绚烂，是通过魔女会的试炼后得到的赠礼。依照转交人的描述，普通人或许无法驾驭这一器物。只是目前，这颗水晶球暂时无法发挥出它原本的力量，似乎在等待一个合适的时机…",
+  "type": "任务道具",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": null,
+  "additions": {
+    "requiredBy": null,
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_121234",
+  "rank": 5,
+  "route": "Dazzling, Mysterious Gift"
+}

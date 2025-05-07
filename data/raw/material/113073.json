@@ -1,0 +1,50 @@
+{
+  "name": "升扬样本·骑士",
+  "description": "这是物质经过炼金术的活性化反应后，所留下的珍稀样本。\\n秘典的记述中，青铜骑士并不知道自己的使命是征服还是守护。它只是经历了炼金术的擢升，开始寻找自己的意义罢了。青铜时代是英雄的时代。",
+  "type": "角色培养素材",
+  "recipe": {
+    "61101": {
+      "113021": {
+        "name": "异梦溶媒",
+        "icon": "UI_ItemIcon_113021",
+        "rank": 4,
+        "count": 1
+      },
+      "113074": {
+        "name": "升扬样本·战车",
+        "icon": "UI_ItemIcon_113074",
+        "rank": 5,
+        "count": 1
+      }
+    },
+    "61102": {
+      "113021": {
+        "name": "异梦溶媒",
+        "icon": "UI_ItemIcon_113021",
+        "rank": 4,
+        "count": 1
+      },
+      "113075": {
+        "name": "升扬样本·王族",
+        "icon": "UI_ItemIcon_113075",
+        "rank": 5,
+        "count": 1
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "70级以上门扉前的弈局挑战奖励",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": null,
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_113073",
+  "rank": 5,
+  "route": "Ascended Sample: Knight"
+}

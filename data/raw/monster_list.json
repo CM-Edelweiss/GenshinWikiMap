@@ -937,6 +937,13 @@
     "icon": "UI_MonsterIcon_DragonClaw",
     "route": "Secret Source Automaton: Configuration Device"
   },
+  "24090501": {
+    "id": 24090501,
+    "name": "秘源机兵·统御械",
+    "type": "AUTOMATRON",
+    "icon": "UI_MonsterIcon_DragonCollar",
+    "route": "Secret Source Automaton: Overseer Device"
+  },
   "25010201": {
     "id": 25010201,
     "name": "盗宝团·斥候",
@@ -3267,5 +3274,12 @@
     "type": "BOSS",
     "icon": "UI_MonsterIcon_TheAbyssXiuhcoatl",
     "route": "Lord of Eroded Primal Fire"
+  },
+  "29122000": {
+    "id": 29122000,
+    "name": "门扉前的弈局",
+    "type": "BOSS",
+    "icon": "UI_MonsterIcon_GiantChess",
+    "route": "The Game Before the Gate"
   }
 }

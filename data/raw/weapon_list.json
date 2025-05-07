@@ -1088,6 +1088,15 @@
     "icon": "UI_EquipIcon_Pole_Muguet",
     "route": "Lumidouce Elegy"
   },
+  "13514": {
+    "id": 13514,
+    "rank": 5,
+    "type": "WEAPON_POLE",
+    "name": "香韵奏者",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "icon": "UI_EquipIcon_Pole_Trident",
+    "route": "Symphonist of Scents"
+  },
   "14101": {
     "id": 14101,
     "rank": 1,
@@ -1771,6 +1780,15 @@
     "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Bow_Isikhulu",
     "route": "Chain Breaker"
+  },
+  "15432": {
+    "id": 15432,
+    "rank": 4,
+    "type": "WEAPON_BOW",
+    "name": "冷寂迸音",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "icon": "UI_EquipIcon_Bow_Stinger",
+    "route": "Sequence of Solitude"
   },
   "15501": {
     "id": 15501,

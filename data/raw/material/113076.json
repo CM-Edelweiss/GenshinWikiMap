@@ -1,0 +1,36 @@
+{
+  "name": "秘源积气喉",
+  "description": "自不再活动、看似龙首的秘源机兵上取下的特殊结构。\\n据说，这个结构原本是为了使各种物体能够挣脱星体的束缚而设计的，首先被运用在了各种秘源机关之上。或许，如果一切顺利的话，这项技术本来将被应用在其他更重要的地方吧…",
+  "type": "角色培养素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "30级以上秘源机兵·统御械掉落",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000112,
+          "name": "爱可菲",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Escoffier"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 24090501,
+        "name": "秘源机兵·统御械",
+        "icon": "UI_MonsterIcon_DragonCollar"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_113076",
+  "rank": 4,
+  "route": "Secret Source Airflow Accumulator"
+}

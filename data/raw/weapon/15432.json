@@ -1,0 +1,219 @@
+{
+  "id": 15432,
+  "rank": 4,
+  "type": "弓",
+  "name": "冷寂迸音",
+  "description": "专为极限远射和寂静刺杀所铸的机关长弓，迸发之声隐于夜色，音调凄冷幽长。",
+  "specialProp": "FIGHT_PROP_HP_PERCENT",
+  "icon": "UI_EquipIcon_Bow_Stinger",
+  "storyId": [
+    "15432"
+  ],
+  "affix": {
+    "115432": {
+      "name": "静发",
+      "upgrade": {
+        "0": "攻击命中敌人时，在目标位置基于生命值上限的<color=#99FFFFFF>40%<\/color>，造成范围伤害。该效果每15秒至多触发一次。",
+        "1": "攻击命中敌人时，在目标位置基于生命值上限的<color=#99FFFFFF>50%<\/color>，造成范围伤害。该效果每15秒至多触发一次。",
+        "2": "攻击命中敌人时，在目标位置基于生命值上限的<color=#99FFFFFF>60%<\/color>，造成范围伤害。该效果每15秒至多触发一次。",
+        "3": "攻击命中敌人时，在目标位置基于生命值上限的<color=#99FFFFFF>70%<\/color>，造成范围伤害。该效果每15秒至多触发一次。",
+        "4": "攻击命中敌人时，在目标位置基于生命值上限的<color=#99FFFFFF>80%<\/color>，造成范围伤害。该效果每15秒至多触发一次。"
+      }
+    }
+  },
+  "route": "Sequence of Solitude",
+  "upgrade": {
+    "awakenCost": [
+      1000,
+      2000,
+      4000,
+      8000
+    ],
+    "prop": [
+      {
+        "type": "GROW_CURVE_ATTACK_201",
+        "initValue": 42.401,
+        "propType": "FIGHT_PROP_BASE_ATTACK"
+      },
+      {
+        "type": "GROW_CURVE_CRITICAL_201",
+        "initValue": 0.09,
+        "propType": "FIGHT_PROP_HP_PERCENT"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112083": 2,
+          "112119": 3,
+          "114049": 3
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 25.9
+        },
+        "requiredPlayerLevel": 15,
+        "unlockMaxLevel": 40
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112083": 8,
+          "112119": 12,
+          "114050": 3
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 51.9
+        },
+        "requiredPlayerLevel": 25,
+        "unlockMaxLevel": 50
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112084": 6,
+          "112120": 6,
+          "114050": 6
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8
+        },
+        "requiredPlayerLevel": 30,
+        "unlockMaxLevel": 60
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112084": 9,
+          "112120": 12,
+          "114051": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 103.7
+        },
+        "requiredPlayerLevel": 35,
+        "unlockMaxLevel": 70
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112085": 6,
+          "112121": 9,
+          "114051": 6
+        },
+        "coinCost": 35000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 129.7
+        },
+        "requiredPlayerLevel": 40,
+        "unlockMaxLevel": 80
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112085": 12,
+          "112121": 18,
+          "114052": 4
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.6
+        },
+        "requiredPlayerLevel": 50,
+        "unlockMaxLevel": 90
+      }
+    ]
+  },
+  "ascension": {
+    "112083": 1,
+    "112084": 2,
+    "112085": 3,
+    "112119": 2,
+    "112120": 3,
+    "112121": 4,
+    "114049": 2,
+    "114050": 3,
+    "114051": 4,
+    "114052": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112083": {
+      "name": "啮合齿轮",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112083"
+    },
+    "112084": {
+      "name": "机关正齿轮",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112084"
+    },
+    "112085": {
+      "name": "奇械机芯齿轮",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112085"
+    },
+    "112119": {
+      "name": "冷裂壳块",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112119"
+    },
+    "112120": {
+      "name": "蕴热的背壳",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112120"
+    },
+    "112121": {
+      "name": "明燃的棱状壳",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112121"
+    },
+    "114049": {
+      "name": "悠古弦音的残章",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114049"
+    },
+    "114050": {
+      "name": "悠古弦音的断章",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114050"
+    },
+    "114051": {
+      "name": "悠古弦音的乐章",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114051"
+    },
+    "114052": {
+      "name": "悠古弦音的回响",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114052"
+    }
+  }
+}

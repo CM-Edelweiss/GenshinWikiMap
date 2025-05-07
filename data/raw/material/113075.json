@@ -1,0 +1,50 @@
+{
+  "name": "升扬样本·王族",
+  "description": "这是物质经过炼金术的活性化反应后，所留下的珍稀样本。\\n「王后」棋子曾经的名字是「宰相」。但是随着游戏规则的发展，它变成了象征外戚势力的最强重子，实至名归的黄金王族。\\n普通士兵的升变和炼金术的物质嬗变或许有些相似之处吧。但是就算成为了黄金，也只能用倒置的城堡来表示。",
+  "type": "角色培养素材",
+  "recipe": {
+    "61105": {
+      "113021": {
+        "name": "异梦溶媒",
+        "icon": "UI_ItemIcon_113021",
+        "rank": 4,
+        "count": 1
+      },
+      "113073": {
+        "name": "升扬样本·骑士",
+        "icon": "UI_ItemIcon_113073",
+        "rank": 5,
+        "count": 1
+      }
+    },
+    "61106": {
+      "113021": {
+        "name": "异梦溶媒",
+        "icon": "UI_ItemIcon_113021",
+        "rank": 4,
+        "count": 1
+      },
+      "113074": {
+        "name": "升扬样本·战车",
+        "icon": "UI_ItemIcon_113074",
+        "rank": 5,
+        "count": 1
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "70级以上门扉前的弈局挑战奖励",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": null,
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_113075",
+  "rank": 5,
+  "route": "Ascended Sample: Queen"
+}

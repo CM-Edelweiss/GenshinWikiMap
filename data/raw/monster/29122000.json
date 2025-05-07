@@ -1,0 +1,49 @@
+{
+  "id": 29122000,
+  "name": "门扉前的弈局",
+  "type": "值得铭记的强敌",
+  "icon": "UI_MonsterIcon_GiantChess",
+  "route": "The Game Before the Gate",
+  "title": "愚人众执行官第八席",
+  "specialName": 3325557643,
+  "description": "集魔女会诸家技艺而制成的集团军。\\n虽然全都是既有技术，并无触及宇宙根本的高深智慧。它们把守跨越门扉的最后一关，同时自身也是一种隐喻。\\n这个世界上或许有规则，可一旦越过门扉，就再无约束了。",
+  "entries": {
+    "29122000": {
+      "id": 29122000,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 679.2,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 125.6,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.7,
+        "windSubHurt": 0.7,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "fundamentalForce": null,
+      "reward": null
+    }
+  },
+  "tips": null,
+  "codexImage": "UI_Codex_Monster_GiantChess"
+}

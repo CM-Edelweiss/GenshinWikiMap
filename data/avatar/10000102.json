@@ -72,7 +72,7 @@
   ],
   "talent": {
     "30000": {
-      "name": "普通攻击·降温处理",
+      "name": "降温处理",
       "icon": "Skill_A_Catalyst_MD"
     },
     "30002": {
