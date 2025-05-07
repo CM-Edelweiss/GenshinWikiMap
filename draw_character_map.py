@@ -114,7 +114,7 @@ def draw_talent(talent: Talent, index: int, chara_name: str) -> PMImage:
     # ----------描述----------
     now_height = 0
     text = re.sub(
-        r"<.*?>", "", talent.description.replace("\\n", "^")).strip("^")
+        r"<.*?>|\{LINK#.*?\}|\{/LINK\}", "", talent.description.replace("\\n", "^")).strip("^")
     if len(text) <= 40:
         description_length = img.text_box(
             text,
@@ -183,7 +183,7 @@ def draw_constellation(constellation: Constellation):
     img.text(constellation.name, 200, now_height,
              constellation_name_font, "#df5d25")
     now_height += 38
-    text = re.sub(r"<.*?>", "", constellation.description.replace("\\n", "^")).strip(
+    text = re.sub(r"<.*?>|\{LINK#.*?\}|\{/LINK\}", "", constellation.description.replace("\\n", "^")).strip(
         "^"
     )
     description_length = img.text_box(
